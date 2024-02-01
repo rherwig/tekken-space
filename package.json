@@ -1,17 +1,35 @@
 {
-  "name": "nuxt-app",
-  "private": true,
-  "type": "module",
-  "scripts": {
-    "build": "nuxt build",
-    "dev": "nuxt dev",
-    "generate": "nuxt generate",
-    "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
-  },
-  "devDependencies": {
-    "nuxt": "^3.10.0",
-    "vue": "^3.4.15",
-    "vue-router": "^4.2.5"
-  }
+    "name": "@tekken-space/app",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "build": "nuxt build",
+        "dev": "nuxt dev",
+        "generate": "nuxt generate",
+        "preview": "nuxt preview",
+        "postinstall": "nuxt prepare"
+    },
+    "devDependencies": {
+        "@hrwg/eslint-config": "2.1.0",
+        "@nuxtjs/eslint-module": "4.1.0",
+        "@nuxtjs/tailwindcss": "6.11.2",
+        "@pinia/nuxt": "0.5.1",
+        "@tailwindcss/typography": "0.5.10",
+        "eslint": "8.56.0",
+        "nuxt": "3.10.0",
+        "postcss": "8.4.33",
+        "prettier": "3.2.4",
+        "sass": "1.70.0",
+        "tailwind-scrollbar": "3.0.5",
+        "tailwindcss": "3.4.1",
+        "tailwindcss-debug-screens": "2.2.1",
+        "vue": "3.4.15",
+        "vue-router": "4.2.5"
+    },
+    "author": "Rico Herwig <rico@hrwg.de>",
+    "license": "MIT",
+    "dependencies": {
+        "@prisma/client": "5.9.1",
+        "prisma": "5.9.1"
+    }
 }

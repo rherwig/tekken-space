@@ -1,0 +1,12 @@
+# IDE
+.idea/
+.vscode/
+
+# Var
+var/
+
+# Node
+node_modules/
+
+# Environment
+.env

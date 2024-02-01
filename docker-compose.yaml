@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+#    frontend:
+#        build:
+#            context: .
+#            dockerfile: ./apps/frontend/Dockerfile
+#        ports:
+#            - "4200:4200"
+#        depends_on:
+#            - database
+#        environment:
+#            - DATABASE_URL=
+#            - GITHUB_OAUTH_CLIENT_ID=
+#            - GITHUB_OAUTH_CLIENT_SECRET=
+
+    database:
+        image: postgres
+        environment:
+            POSTGRES_USER: tekken
+            POSTGRES_PASSWORD: space
+            POSTGRES_DB: tekken
+        ports:
+            -   "5432:5432"
+        volumes:
+            - ./var/data:/var/lib/postgresql/data

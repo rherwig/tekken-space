@@ -1,0 +1,9 @@
+{
+  "$schema": "https://json.schemastore.org/web-manifest-combined.json",
+  "name": "Tekken Space",
+  "short_name": "TekkenSpace",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#05070D",
+  "description": "Your source for combos, moves and more things Tekken 8."
+}
