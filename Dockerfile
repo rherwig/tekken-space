@@ -14,4 +14,7 @@ RUN mkdir -p var/cache var/logs var/data
 
 COPY ./.output/ .
 
+RUN rm -rf server/node_modules/sharp
+RUN npm --prefix server install sharp
+
 CMD ["node", "server/index.mjs"]

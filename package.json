@@ -14,7 +14,7 @@
     },
     "devDependencies": {
         "@hrwg/eslint-config": "2.1.0",
-        "@nuxt/image": "1.3.0",
+        "@nuxt/image": "1.2.0",
         "@nuxt/ui": "2.13.0",
         "@nuxtjs/eslint-module": "4.1.0",
         "@nuxtjs/tailwindcss": "6.11.2",
@@ -43,7 +43,6 @@
         "@hebilicious/authjs-nuxt": "0.3.5",
         "@prisma/client": "5.9.1",
         "html2canvas": "1.4.1",
-        "prisma": "5.9.1",
-        "rasterizehtml": "1.3.1"
+        "prisma": "5.9.1"
     }
 }
