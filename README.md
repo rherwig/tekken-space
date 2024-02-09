@@ -1,75 +1,28 @@
-# Nuxt 3 Minimal Starter
+# TekkenSpace
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## Workflow
 
-## Setup
+### Deployment
+The website is automatically deployed to the server when a new GitHub release is created.
+The release must be tagged with a version number, e.g. `1.0.0`.
 
-Make sure to install the dependencies:
-
-```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
+To create the Docker image manually, run the following command.
 
 ```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
+docker build -f . -t rherwig/tekken-space:latest .
+# Push the image to Docker Hub (in case of deployment)
+docker push rherwig/tekken-space:latest
 ```
 
-## Production
-
-Build the application for production:
+Deploying the image to the production server requires a Docker Swarm to be set up.
+To do this, run the following commands on the server or via a Docker context.
 
 ```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
+docker swarm init
 ```
 
-Locally preview production build:
+Then, the application can be deployed using the following command.
 
 ```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
+docker stack deploy -c docker-compose.production.yml tekken-space
 ```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.

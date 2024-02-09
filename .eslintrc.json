@@ -4,13 +4,18 @@
         {
             "files": ["*.ts", "*.vue"],
             "rules": {
+                "no-shadow": "off",
                 "no-unused-vars": "off",
                 "@typescript-eslint/no-unused-vars": "warn"
             }
         },
         {
             "files": [
-                "*.vue"
+                "*.vue",
+                "api/**/*.ts",
+                "composables/**/*.ts",
+                "prisma/**/*.ts",
+                "stores/**/*.ts"
             ],
             "rules": {
                 "constructor-super": "off",
@@ -33,8 +38,8 @@
                 "prefer-const": "error",
                 "prefer-rest-params": "error",
                 "prefer-spread": "error",
-    "valid-typeof": "off"
-}
+                "valid-typeof": "off"
+            }
         }
     ]
 }

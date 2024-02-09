@@ -1,0 +1,30 @@
+version: '3.8'
+
+services:
+    database:
+        image: postgres
+        environment:
+            POSTGRES_USER: tekken
+            POSTGRES_PASSWORD: space
+            POSTGRES_DB: production
+        volumes:
+            - /var/data:/var/lib/postgresql/data
+
+    frontend:
+        image: rherwig/tekken-space:latest
+        depends_on:
+            - database
+        environment:
+            - ORIGIN=https://tekken.space
+            - DATABASE_URL=postgres://tekken:space@database:5432/production
+
+    proxy:
+        image: rherwig/tekken-space-proxy:latest
+        ports:
+            - "80:80"
+            - "443:443"
+        volumes:
+            - /var/tekken/proxy:/data
+        depends_on:
+            - database
+            - frontend

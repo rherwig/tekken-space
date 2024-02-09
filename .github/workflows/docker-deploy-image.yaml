@@ -1,0 +1,20 @@
+name: Docker Deploy Image
+
+on: [ workflow_dispatch ]
+
+jobs:
+  deploy:
+    name: Deploy the latest version of the stack
+    runs-on: ubuntu-latest
+    steps:
+      - uses: arwynfr/actions-docker-context@v2
+        with:
+          docker_host: ${{ secrets.DOCKER_HOST }}
+          context_name: 'hrwg'
+          ssh_cert: ${{ secrets.SSH_SERVER_PUBLIC_KEY }}
+          ssh_key: ${{ secrets.SSH_PRIVATE_KEY }}
+
+      - name: Check out the repository
+        uses: actions/checkout@v4
+
+      - run: docker --context hrwg stack deploy -c docker-compose.production.yaml hrwg-stack

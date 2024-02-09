@@ -1,26 +1,34 @@
 version: '3.8'
 
 services:
-#    frontend:
-#        build:
-#            context: .
-#            dockerfile: ./apps/frontend/Dockerfile
-#        ports:
-#            - "4200:4200"
-#        depends_on:
-#            - database
-#        environment:
-#            - DATABASE_URL=
-#            - GITHUB_OAUTH_CLIENT_ID=
-#            - GITHUB_OAUTH_CLIENT_SECRET=
-
     database:
         image: postgres
         environment:
             POSTGRES_USER: tekken
             POSTGRES_PASSWORD: space
-            POSTGRES_DB: tekken
+            POSTGRES_DB: development
         ports:
-            -   "5432:5432"
+            - "5432:5432"
         volumes:
             - ./var/data:/var/lib/postgresql/data
+
+    frontend:
+        build:
+            context: .
+            dockerfile: ./Dockerfile
+        ports:
+            - "3000:3000"
+        depends_on:
+            - database
+        environment:
+            - DATABASE_URL=postgres://tekken:space@database:5432/production
+
+    proxy:
+        build:
+            context: .
+            dockerfile: ./.docker/proxy/Dockerfile
+        ports:
+            - "8888:80"
+        depends_on:
+            - database
+            - frontend

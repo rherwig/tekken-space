@@ -1,0 +1,9 @@
+<template>
+    <NuxtImg
+        src="/images/notation/homing.png"
+        alt="Homing"
+        width="32"
+        height="32"
+        class="ml-2"
+    />
+</template>

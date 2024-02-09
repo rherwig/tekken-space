@@ -1,0 +1,146 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+    provider = "prisma-client-js"
+}
+
+datasource db {
+    provider = "postgresql"
+    url      = env("DATABASE_URL")
+}
+
+enum Role {
+    USER
+    ADMIN
+}
+
+enum ControllerLayout {
+    GAMEPAD
+    XBOX
+    PLAYSTATION
+    ARCADE
+    HITBOX
+}
+
+model Account {
+    id                String  @id @default(cuid())
+    type              String
+    provider          String
+    providerAccountId String
+    refresh_token     String?
+    access_token      String?
+    expires_at        Int?
+    token_type        String?
+    scope             String?
+    id_token          String?
+    session_state     String?
+
+    userId String
+    user   User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+    @@unique([provider, providerAccountId])
+}
+
+model Session {
+    id           String   @id @default(cuid())
+    sessionToken String   @unique
+    userId       String
+    expires      DateTime
+    user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model VerificationToken {
+    id         String   @id @default(cuid())
+    identifier String
+    token      String   @unique
+    expires    DateTime
+
+    @@unique([identifier, token])
+}
+
+model User {
+    id            String    @id @default(cuid())
+    handle        String?   @unique
+    email         String?   @unique
+    name          String?
+    emailVerified DateTime?
+    image         String?
+    isVirtual     Boolean   @default(false)
+    preferences   Json      @default("{}")
+    role          Role      @default(USER)
+
+    accounts  Account[]
+    sessions  Session[]
+    moves     Move[]
+    moveLists MoveList[]
+
+    createdAt DateTime @default(now())
+    updatedAt DateTime @updatedAt
+}
+
+model Character {
+    id   String @id @default(cuid())
+    name String @unique
+    slug String @unique
+
+    imageUrl String?
+    metadata Json    @default("{}")
+
+    moves     Move[]
+    moveLists MoveList[]
+
+    createdAt DateTime @default(now())
+    updatedAt DateTime @updatedAt
+}
+
+model Move {
+    id       String  @id @default(cuid())
+    slug     String  @unique
+    notation String
+    name     String?
+    notes    String?
+
+    index    Int      @default(0)
+    metadata Json     @default("{}")
+    aliases  String[] @default([])
+    isCombo  Boolean  @default(false)
+
+    damage     Json @default("{}")
+    hits       Json @default("{}")
+    properties Json @default("{}")
+    frames     Json @default("{}")
+
+    parent   Move?   @relation("ParentMove", fields: [parentId], references: [id], onDelete: Cascade)
+    parentId String?
+
+    variants Move[] @relation("ParentMove")
+
+    MovesList   MoveList? @relation(fields: [movesListId], references: [id])
+    movesListId String?
+
+    character   Character @relation(fields: [characterId], references: [id], onDelete: Cascade)
+    characterId String
+
+    author   User?   @relation(fields: [authorId], references: [id])
+    authorId String?
+
+    createdAt DateTime @default(now())
+    updatedAt DateTime @updatedAt
+}
+
+model MoveList {
+    id   String @id @default(cuid())
+    name String
+
+    moves Move[]
+
+    character   Character? @relation(fields: [characterId], references: [id])
+    characterId String?
+
+    author   User?   @relation(fields: [authorId], references: [id])
+    authorId String?
+
+    createdAt DateTime @default(now())
+    updatedAt DateTime @updatedAt
+}

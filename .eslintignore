@@ -4,3 +4,4 @@ node_modules/
 public/
 
 nuxt.config.ts
+app.config.ts

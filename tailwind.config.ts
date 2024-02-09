@@ -1,12 +1,17 @@
-const colors = require('tailwindcss/colors');
+import type { Config } from 'tailwindcss';
+import colors from 'tailwindcss/colors';
+import typography from '@tailwindcss/typography';
+import scrollbar from 'tailwind-scrollbar';
 
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+export default <Config>{
     content: [
+        'layouts/**/*.{ts,vue}',
         'pages/**/*.{ts,vue}',
         'components/**/*.{ts,vue}',
+        'ui/**/*.{ts,vue}',
         'assets/**/*.scss',
-        'app.vue'
+        'app.vue',
     ],
     theme: {
         extend: {
@@ -15,24 +20,28 @@ module.exports = {
             },
 
             colors: {
-                primary: colors.teal[500],
+                primary: '#05070D',
+                accent: colors.red[500],
                 error: colors.red[500],
                 success: colors.green[500],
                 info: colors.blue[500],
-                background: colors.zinc[900],
+                background: '#05070D',
                 copy: colors.zinc[100],
             },
 
             fontSize: {
                 display: '8rem',
             },
+
+            fontFamily: {
+                logo: "'Tarrget', serif",
+            },
         },
     },
     plugins: [
-        require('@tailwindcss/typography'),
-        require('tailwind-scrollbar')({
+        typography,
+        scrollbar({
             nocompatible: true,
         }),
-        require('tailwindcss-debug-screens'),
     ],
 };

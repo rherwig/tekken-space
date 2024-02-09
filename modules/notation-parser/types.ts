@@ -1,0 +1,60 @@
+export interface Meta {
+    $type: MetaTypes;
+}
+
+export enum MetaTypes {
+    MOVE,
+    INSTRUCTION,
+}
+
+export enum InstructionTypes {
+    TEXT,
+    MOVEMENT,
+    ATTACK,
+    COMBINATOR,
+    SPECIAL,
+    ALTERNATIVE,
+    HIDDEN,
+}
+
+export enum InstructionSubType {
+    NONE,
+    TORNADO,
+    HEAT,
+    RAGE,
+    STANCE,
+}
+
+export interface InstructionToken {
+    type: InstructionTypes;
+    subType?: InstructionSubType;
+    expression: RegExp;
+}
+
+export interface ParserResult {
+    notation: string;
+    moves: ParsedMove[];
+}
+
+export interface ParsedMove extends Meta {
+    notation: string;
+    instructions: ParsedInstruction[];
+}
+
+export interface ParsedInstruction extends Meta {
+    type: InstructionTypes;
+    subType?: InstructionSubType;
+    notation: string;
+    value: string;
+}
+
+export interface ConsumeTokenResult {
+    index: number;
+    value: string;
+    remainder: string;
+}
+
+export interface InstructionMatchResult {
+    remainder: string;
+    instruction: ParsedInstruction | null;
+}

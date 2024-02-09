@@ -1,0 +1,43 @@
+html,
+body,
+#__nuxt {
+    @apply h-full w-full;
+}
+
+body {
+    @apply bg-background;
+    @apply font-sans text-copy;
+    @apply scrollbar-thin scrollbar-track-zinc-800 scrollbar-thumb-rounded-sm scrollbar-thumb-zinc-950;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.page-enter-active,
+.page-leave-active {
+    transition: all 250ms;
+}
+.page-enter-from,
+.page-leave-to {
+    opacity: 0;
+}
+
+@font-face {
+    font-family: 'Tarrget';
+    src: url("/fonts/tarrget.ttf");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tarrget';
+    src: url("/fonts/tarrgetital.ttf");
+    font-style: italic;
+}
+
+.font-logo {
+    font-family: 'Tarrget', sans-serif;
+    font-style: italic;
+}
