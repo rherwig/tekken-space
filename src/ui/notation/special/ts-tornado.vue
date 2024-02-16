@@ -1,6 +1,7 @@
 <template>
     <NuxtImg
         src="/images/notation/tornado.png"
+        title="Tornado"
         alt="Tornado"
         width="32"
         height="32"

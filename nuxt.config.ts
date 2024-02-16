@@ -38,11 +38,9 @@ export default defineNuxtConfig({
         emitWarning: false,
     },
 
-    modules: [
-        '@nuxtjs/eslint-module',
-        '@pinia/nuxt',
-        '@nuxt/image',
-        '@vueuse/nuxt',
-        '@nuxt/ui',
-    ],
+    tailwindcss: {
+        viewer: false,
+    },
+
+    modules: ['@nuxtjs/eslint-module', '@pinia/nuxt', '@nuxt/image', '@vueuse/nuxt', '@nuxt/ui'],
 });

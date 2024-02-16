@@ -3,10 +3,11 @@ version: '3.8'
 services:
     database:
         image: postgres
+        env_file: ./.env
         environment:
-            POSTGRES_USER: tekken
-            POSTGRES_PASSWORD: space
-            POSTGRES_DB: development
+            POSTGRES_USER: ${POSTGRES_USER}
+            POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+            POSTGRES_DB: ${POSTGRES_DB}
         ports:
             - "5432:5432"
         volumes:
@@ -20,8 +21,9 @@ services:
             - "3000:3000"
         depends_on:
             - database
+        env_file: ./.env
         environment:
-            - DATABASE_URL=postgres://tekken:space@database:5432/production
+            - DATABASE_URL=${PRISMA_CONNECTION_STRING}
 
     proxy:
         build:

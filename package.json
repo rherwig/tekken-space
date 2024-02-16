@@ -10,7 +10,8 @@
         "postinstall": "nuxt prepare",
         "prisma:generate": "prisma generate",
         "prisma:migrate:dev": "prisma migrate dev",
-        "prisma:provision:dev": "vite-node prisma/scripts/provision-dev.ts"
+        "prisma:provision:dev": "vite-node prisma/scripts/provision-dev.ts",
+        "prisma:studio": "prisma studio"
     },
     "devDependencies": {
         "@hrwg/eslint-config": "2.1.0",

@@ -67,6 +67,8 @@ model User {
     emailVerified DateTime?
     image         String?
     isVirtual     Boolean   @default(false)
+    isPro         Boolean   @default(false)
+    meta          Json      @default("{}")
     preferences   Json      @default("{}")
     role          Role      @default(USER)
 
@@ -116,7 +118,7 @@ model Move {
 
     variants Move[] @relation("ParentMove")
 
-    MovesList   MoveList? @relation(fields: [movesListId], references: [id])
+    movesList   MoveList? @relation(fields: [movesListId], references: [id])
     movesListId String?
 
     character   Character @relation(fields: [characterId], references: [id], onDelete: Cascade)

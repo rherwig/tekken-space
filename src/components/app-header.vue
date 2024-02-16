@@ -22,10 +22,7 @@
                     </NavigationLink>
                 </li>
                 <li>
-                    <NavigationLink
-                        v-if="false"
-                        href="/community"
-                    >
+                    <NavigationLink href="/community">
                         Community
                     </NavigationLink>
                 </li>

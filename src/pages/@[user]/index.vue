@@ -10,9 +10,7 @@ useHead({
     title: `@${handle}`,
 });
 
-const user = false;
-
-// const { data: user } = useFetch(`/api/users/${handle}`);
+const { data: user } = useFetch(`/api/users/${handle}`);
 </script>
 
 <template>
@@ -24,7 +22,7 @@ const user = false;
             <div class="flex gap-4">
                 <UAvatar
                     size="2xl"
-                    alt="The Fury"
+                    :alt="user.name"
                 />
 
                 <div>
@@ -40,7 +38,10 @@ const user = false;
             </div>
         </div>
 
-        <div class="mt-8">
+        <div
+            class="mt-8"
+            v-if="user"
+        >
             <div class="mb-8">
                 <h2 class="text-xl">Popular Combos</h2>
                 <p class="text-copy/50">

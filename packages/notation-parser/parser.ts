@@ -33,23 +33,31 @@ const SPECIAL_KEYWORDS: string[] = [
     'FC',
     'iFC',
     'CH',
+    'CD',
     'BT',
+    'SSL',
+    'SWL',
+    'SSR',
+    'SWR',
+    'DASH',
+    'BACKDASH',
+    'WAVEDASH',
 ];
 
 /**
  * List of all stances.
  */
-const STANCE_KEYWORDS: string[] = ['LIB'];
+const STANCE_KEYWORDS: string[] = ['LIB', 'JGS'];
 
 /**
  * List of Rage keywords.
  */
-const RAGE_KEYWORDS: string[] = ['RAGE', 'IN RAGE', 'DURING RAGE'];
+const RAGE_KEYWORDS: string[] = ['RAGE', 'IN RAGE', 'DURING RAGE', 'R!'];
 
 /**
  * List of Heat keywords.
  */
-const HEAT_KEYWORDS: string[] = ['HEAT', 'IN HEAT', 'DURING HEAT'];
+const HEAT_KEYWORDS: string[] = ['HEAT', 'IN HEAT', 'DURING HEAT', 'H!'];
 
 /**
  * List of Tornado keywords.
@@ -131,10 +139,7 @@ const sanitize = (notation: string) => {
  * @param token
  * @param notation
  */
-const consumeToken = (
-    token: RegExp,
-    notation: string,
-): ConsumeTokenResult | null => {
+const consumeToken = (token: RegExp, notation: string): ConsumeTokenResult | null => {
     const matches = notation.match(token);
     if (matches === null) {
         return null;
@@ -205,9 +210,7 @@ const parseInstructions = (
     }
 
     const instructions =
-        instruction.type === InstructionTypes.HIDDEN
-            ? result
-            : result.concat(instruction);
+        instruction.type === InstructionTypes.HIDDEN ? result : result.concat(instruction);
 
     return parseInstructions(remainder, instructions);
 };

@@ -6,7 +6,10 @@
                 :class="props.moves.length > 0 ? 'cursor-pointer' : ''"
                 @click="isExpanded = !isExpanded"
             >
-                <UIcon name="i-tabler-chevrons-down" />
+                <UIcon
+                    name="i-tabler-chevrons-down"
+                    dynamic
+                />
             </div>
 
             <div class="flex flex-1">
@@ -24,9 +27,10 @@
 
                         <div class="flex items-center gap-2">
                             <UBadge
-                                v-if="props.variants"
-                                :label="`${props.variants} Variants`"
+                                v-if="props.moves.length"
+                                :label="`${props.moves.length} Variants`"
                                 color="green"
+                                dynamic
                             />
 
                             <UBadge
@@ -36,15 +40,14 @@
                                 <UIcon
                                     name="i-tabler-brand-youtube-filled"
                                     class="text-white text-base"
+                                    dynamic
                                 />
                             </UBadge>
                         </div>
                     </div>
 
                     <div v-if="props.moves.length > 0">
-                        <TsNotationDisplay
-                            :notation="props.moves.at(0).notation"
-                        />
+                        <TsNotationDisplay :notation="props.moves.at(0).notation" />
                     </div>
                     <div
                         v-else-if="false"
@@ -69,20 +72,30 @@
             </div>
         </div>
 
-        <div
-            class="ml-5 overflow-hidden transition-all ease-in-out"
-            :class="isExpanded ? 'max-h-fit' : 'max-h-0'"
-        >
-            <div class="flex flex-col gap-8">
-                <TsNotationDisplay notation="d/f+2" />
-                <TsNotationDisplay notation="d/f+2" />
+        <div class="flex">
+            <div class="w-5 bg-white/10"></div>
+
+            <div
+                class="flex-1 overflow-hidden transition-all ease-in-out"
+                :class="isExpanded ? 'max-h-fit' : 'max-h-0'"
+            >
+                <div class="flex flex-col">
+                    <div
+                        class="flex flex-col gap-4 p-4 border-t border-white/10"
+                        v-for="(move, index) in variants"
+                        :key="move.id"
+                    >
+                        <div class="text-sm">Variant {{ index + 1 }}</div>
+                        <TsNotationDisplay :notation="move.notation" />
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue';
+import { computed, ref } from 'vue';
 
 import TsNotationDisplay from '~/ui/notation/ts-notation-display.vue';
 import { useSlug } from '~/composables/slug';
@@ -102,4 +115,6 @@ const props = defineProps<Props>();
 const { name, slug } = useSlug(props.character ?? '');
 
 const isExpanded = ref<boolean>(false);
+
+const variants = computed(() => props.moves.slice(1));
 </script>
