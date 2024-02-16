@@ -1,12 +1,21 @@
+import { defineNuxtConfig } from 'nuxt/config';
+import { fileURLToPath } from 'node:url';
+
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+    srcDir: 'src',
+
     alias: {
-        cookie: 'cookie',
+        packages: fileURLToPath(new URL('./packages', import.meta.url)),
+        prisma: fileURLToPath(new URL('./prisma', import.meta.url)),
     },
+
     app: {
         pageTransition: { name: 'page', mode: 'out-in' },
     },
+
     css: ['~/assets/css/main.scss'],
+
     devtools: {
         enabled: true,
 
@@ -14,26 +23,22 @@ export default defineNuxtConfig({
             enabled: true,
         },
     },
+
+    devServer: {
+        host: 'localhost',
+        port: 4200,
+    },
+
+    imports: {
+        autoImport: false,
+    },
+
     eslint: {
         lintOnStart: false,
+        emitWarning: false,
     },
-    runtimeConfig: {
-        authJs: {
-            secret: process.env.AUTH_SECRET,
-        },
-        github: {
-            clientId: process.env.GITHUB_OAUTH_CLIENT_ID,
-            clientSecret: process.env.GITHUB_OAUTH_CLIENT_SECRET,
-        },
-        public: {
-            authJs: {
-                baseUrl: process.env.AUTH_URL,
-                verifyClientOnEveryRequest: true,
-            },
-        },
-    },
+
     modules: [
-        // '@hebilicious/authjs-nuxt',
         '@nuxtjs/eslint-module',
         '@pinia/nuxt',
         '@nuxt/image',

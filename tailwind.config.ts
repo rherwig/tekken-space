@@ -5,14 +5,7 @@ import scrollbar from 'tailwind-scrollbar';
 
 /** @type {import('tailwindcss').Config} */
 export default <Config>{
-    content: [
-        'layouts/**/*.{ts,vue}',
-        'pages/**/*.{ts,vue}',
-        'components/**/*.{ts,vue}',
-        'ui/**/*.{ts,vue}',
-        'assets/**/*.scss',
-        'app.vue',
-    ],
+    content: ['src/**/*.{ts,vue}', 'packages/**/*.{ts,vue}'],
     theme: {
         extend: {
             container: {

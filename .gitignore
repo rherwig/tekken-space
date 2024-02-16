@@ -21,6 +21,7 @@ logs
 # Local env files
 .env
 .env.local
+.env.production
 
 var/data/*
 !var/data/.gitkeep
