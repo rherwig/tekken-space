@@ -5,13 +5,14 @@ import {
     type ParsedInstruction,
 } from 'packages/notation-parser';
 
+import TsMovement from '../movement/ts-movement.vue';
+import TsAttack from '../attack/ts-attack.vue';
+import TsRage from '../special/ts-rage.vue';
+import TsHeat from '../special/ts-heat.vue';
+import TsStance from '../special/ts-stance.vue';
+import TsTornado from '../special/ts-tornado.vue';
+
 import { unref } from '#imports';
-import TsMovement from '~/ui/notation/movement/ts-movement.vue';
-import TsAttack from '~/ui/notation/attack/ts-attack.vue';
-import TsRage from '~/ui/notation/special/ts-rage.vue';
-import TsHeat from '~/ui/notation/special/ts-heat.vue';
-import TsStance from '~/ui/notation/special/ts-stance.vue';
-import TsTornado from '~/ui/notation/special/ts-tornado.vue';
 
 interface Props {
     instruction: ParsedInstruction;

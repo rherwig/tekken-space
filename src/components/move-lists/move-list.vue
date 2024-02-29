@@ -17,55 +17,69 @@
                     <div class="flex justify-between items-center">
                         <div>
                             <span
-                                v-if="name"
+                                v-if="props.character?.name"
                                 class="font-bold"
                             >
-                                {{ name }} -
+                                {{ props.character.name }} -
                             </span>
+
                             {{ props.title }}
                         </div>
 
-                        <div class="flex items-center gap-2">
-                            <UBadge
-                                v-if="props.moves.length"
-                                :label="`${props.moves.length} Variants`"
-                                color="green"
-                                dynamic
-                            />
+                        <div class="flex items-center gap-8">
+                            <div class="flex items-center gap-2">
+                                <CreateMoveForm :move-list-id="props.id" />
 
-                            <UBadge
-                                v-if="props.videoUrl"
-                                color="red"
-                            >
-                                <UIcon
-                                    name="i-tabler-brand-youtube-filled"
-                                    class="text-white text-base"
+                                <UBadge
+                                    class="cursor-pointer"
+                                    color="red"
+                                    @click="handleDeleteClick"
+                                >
+                                    <UIcon
+                                        name="i-tabler-trash"
+                                        class="text-white text-base"
+                                        dynamic
+                                    />
+                                </UBadge>
+                            </div>
+
+                            <div class="flex items-center gap-2">
+                                <UBadge
+                                    v-if="props.moves"
+                                    :label="`${props.moves.length} Variants`"
+                                    color="green"
                                     dynamic
                                 />
-                            </UBadge>
+
+                                <UBadge
+                                    v-if="props.videoUrl"
+                                    color="red"
+                                >
+                                    <UIcon
+                                        name="i-tabler-brand-youtube-filled"
+                                        class="text-white text-base"
+                                        dynamic
+                                    />
+                                </UBadge>
+                            </div>
                         </div>
                     </div>
 
-                    <div v-if="props.moves.length > 0">
-                        <TsNotationDisplay :notation="props.moves.at(0).notation" />
+                    <div v-if="props.moves && props.moves.length > 0">
+                        <MoveDisplayWithMeta :move="props.moves.at(0)" />
                     </div>
                     <div
-                        v-else-if="false"
+                        v-else
                         class="h-[56px] flex items-center text-copy/50 italic"
                     >
                         This list does not contain any moves, yet.
                     </div>
-                    <div
-                        class="h-[56px] flex items-center"
-                        v-else
-                    >
-                        <CreateMoveForm :move-list-id="props.id" />
-                    </div>
                 </div>
 
                 <NuxtImg
-                    v-if="slug"
-                    :src="`/images/characters/8/${slug}.png`"
+                    v-if="props.character?.imageUrl"
+                    :src="props.character.imageUrl"
+                    class="object-top object-cover h-32 rounded-br-md"
                     width="128"
                     height="128"
                 />
@@ -86,7 +100,7 @@
                         :key="move.id"
                     >
                         <div class="text-sm">Variant {{ index + 1 }}</div>
-                        <TsNotationDisplay :notation="move.notation" />
+                        <MoveDisplayWithMeta :move="move" />
                     </div>
                 </div>
             </div>
@@ -96,25 +110,33 @@
 
 <script setup lang="ts">
 import { computed, ref } from 'vue';
+import Prisma from '@prisma/client';
+import TsNotationDisplay from 'packages/ui/notation/ts-notation-display.vue';
 
-import TsNotationDisplay from '~/ui/notation/ts-notation-display.vue';
-import { useSlug } from '~/composables/slug';
 import CreateMoveForm from '~/components/moves/forms/create-move-form.vue';
+import { useProfile } from '~/stores/profile';
+import MoveDisplayWithMeta from '~/components/moves/move-display-with-meta.vue';
 
 interface Props {
     id: string;
     title: string;
-    // TODO: Add prisma type
-    moves: any[];
-    character?: string;
-    variants?: number | string;
+    moves: Prisma.Move[];
+    character?: Prisma.Character;
     videoUrl?: string;
 }
 
 const props = defineProps<Props>();
-const { name, slug } = useSlug(props.character ?? '');
+const emit = defineEmits(['deleted']);
+
+const profile = useProfile();
 
 const isExpanded = ref<boolean>(false);
 
 const variants = computed(() => props.moves.slice(1));
+
+async function handleDeleteClick() {
+    await profile.deleteMoveList(props.id);
+
+    emit('deleted', props.id);
+}
 </script>

@@ -1,22 +1,29 @@
+import Prisma from '@prisma/client';
 import { defineStore } from 'pinia';
+import { $fetch } from 'ofetch';
+import { ref } from 'vue';
 
-interface UsersState {
-    id: string;
-    preferences: UserPreferences;
-}
+import { useIsomorphicUrl } from '~/composables/isomorphic-url';
 
-export interface UserPreferences {
-    // TODO: Replace with prisma interface
-    layout: 'Gamepad' | 'Arcade';
-}
+export const useUsers = defineStore('users', () => {
+    const byHandle = ref<Record<string, Prisma.User>>({});
 
-export const useUsers = defineStore('users', {
-    state(): UsersState {
-        return {
-            id: '',
-            preferences: {
-                layout: 'Gamepad',
-            },
-        };
-    },
+    async function fetchByHandle(handle: string) {
+        try {
+            const url = useIsomorphicUrl(`/api/users/${handle}`);
+            const user = await $fetch<Prisma.User>(url);
+
+            byHandle.value[handle] = user;
+
+            return user;
+        } catch (error: any) {
+            console.error(error);
+            return null;
+        }
+    }
+
+    return {
+        byHandle,
+        fetchByHandle,
+    };
 });

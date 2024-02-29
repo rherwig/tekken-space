@@ -1,7 +1,5 @@
 <template>
-    <header
-        class="h-16 flex-shrink-0 bg-gradient-to-b from-black/25 to-transparent"
-    >
+    <header class="h-16 flex-shrink-0 bg-gradient-to-b from-black/25 to-transparent">
         <div class="container flex justify-between h-full">
             <ul class="flex h-full">
                 <li class="h-full -ml-8">
@@ -22,7 +20,10 @@
                     </NavigationLink>
                 </li>
                 <li>
-                    <NavigationLink href="/community">
+                    <NavigationLink
+                        href="/community"
+                        v-if="false"
+                    >
                         Community
                     </NavigationLink>
                 </li>
@@ -31,21 +32,16 @@
                 </li>
             </ul>
 
-            <div class="flex items-center gap-2">
+            <div class="flex items-center gap-4">
                 <ClientOnly>
                     <USelectMenu
                         :options="controlSchemes"
-                        v-model="users.preferences.layout"
+                        v-model="profile.preferences.layout"
                         size="md"
                     />
                 </ClientOnly>
 
-                <UButton
-                    v-if="false"
-                    size="md"
-                >
-                    Sign In
-                </UButton>
+                <ProflieWidget />
             </div>
         </div>
     </header>
@@ -54,8 +50,10 @@
 <script setup lang="ts">
 import NavigationLink from '~/components/navigation/navigation-link.vue';
 import { useUsers } from '~/stores/users';
+import ProflieWidget from '~/components/profile/proflie-widget.vue';
+import { useProfile } from '~/stores/profile';
 
 const controlSchemes = ['Gamepad', 'Arcade'];
 
-const users = useUsers();
+const profile = useProfile();
 </script>

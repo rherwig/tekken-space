@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import TsNotationDisplay from '~/ui/notation/ts-notation-display.vue';
+import TsNotationDisplay from 'packages/ui/notation/ts-notation-display.vue';
 
 const demoMove = 'd/f+2;b+1,2 T!;d+4:2:1+2';
 </script>
@@ -12,8 +12,7 @@ const demoMove = 'd/f+2;b+1,2 T!;d+4:2:1+2';
                     Welcome to Tekken<span class="text-green-500">Space</span>.
                 </h1>
                 <p class="text-xl text-copy/50">
-                    A community project to share moves and combos for Tekken 8
-                    characters.
+                    A community project to share moves and combos for Tekken 8 characters.
                 </p>
             </div>
         </div>
@@ -26,17 +25,16 @@ const demoMove = 'd/f+2;b+1,2 T!;d+4:2:1+2';
             />
 
             <p>
-                With TekkenSpace, you can manage combos and move-lists for your
-                favorite Tekken 8 character. You can note your combos down in
-                Tekken Notation and have it displayed as visual notation,
-                supporting different input types, like gamepad and arcade.
+                With TekkenSpace, you can manage combos and move-lists for your favorite Tekken 8
+                character. You can note your combos down in Tekken Notation and have it displayed as
+                visual notation, supporting different input types, like gamepad and arcade.
             </p>
 
             <p></p>
 
             <p>
-                This helps beginners or those unaware with Tekken Notation to
-                have a combos like this:
+                This helps beginners or those unaware with Tekken Notation to have a combos like
+                this:
             </p>
 
             <pre>{{ demoMove }}</pre>

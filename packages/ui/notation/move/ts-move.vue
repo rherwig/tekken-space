@@ -1,7 +1,7 @@
 <script lang="ts" setup>
 import type { ParsedMove } from 'packages/notation-parser';
 
-import TsInstruction from '~/ui/notation/move/ts-instruction.vue';
+import TsInstruction from './ts-instruction.vue';
 
 interface Props {
     move: ParsedMove;

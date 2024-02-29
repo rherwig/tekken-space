@@ -1,9 +1,10 @@
 <script lang="ts" setup>
 import { parseTekkenNotation } from 'packages/notation-parser';
 
+import TsMove from './move/ts-move.vue';
+import TsMoveSeparator from './move/ts-move-separator.vue';
+
 import { computed } from '#imports';
-import TsMove from '~/ui/notation/move/ts-move.vue';
-import TsMoveSeparator from '~/ui/notation/move/ts-move-separator.vue';
 
 interface Props {
     notation: string;

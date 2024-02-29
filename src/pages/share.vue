@@ -1,6 +1,4 @@
 <script lang="ts" setup>
-// import html2canvas from 'html2canvas';
-
 import NotationInput from '~/components/moves/forms/notation-input.vue';
 import {
     computed,
@@ -55,9 +53,7 @@ useHead({
 <template>
     <div class="container mt-8">
         <h1 class="text-2xl font-light">Share a Combo</h1>
-        <p class="text-copy/50">
-            Use the text field below to enter the combo notation.
-        </p>
+        <p class="text-copy/50">Use the text field below to enter the combo notation.</p>
 
         <NotationInput
             ref="notationInputRef"

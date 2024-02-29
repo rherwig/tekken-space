@@ -1,6 +1,5 @@
 <script lang="ts" setup>
-import { useUsers } from '~/stores/users';
-import { computed } from '#imports';
+import { computed, useProfile } from '#imports';
 
 enum ControllerLayout {
     UNKNOWN = 'UNKNOWN',
@@ -17,11 +16,9 @@ interface Props {
 
 const props = defineProps<Props>();
 
-const users = useUsers();
+const profile = useProfile();
 
-const propScheme = computed(
-    () => users.preferences.layout.toUpperCase() as ControllerLayout,
-);
+const propScheme = computed(() => profile.preferences.layout.toUpperCase() as ControllerLayout);
 
 const colorSchemes: Record<ControllerLayout, string[]> = {
     UNKNOWN: [],
@@ -143,12 +140,7 @@ const colorSchemes: Record<ControllerLayout, string[]> = {
 </style>
 
 <template>
-    <div
-        :class="[
-            $style.root,
-            propScheme === 'GAMEPAD' ? $style.isGamepad : $style.isArcade,
-        ]"
-    >
+    <div :class="[$style.root, propScheme === 'GAMEPAD' ? $style.isGamepad : $style.isArcade]">
         <div
             v-for="index in 4"
             :key="index"
@@ -156,7 +148,7 @@ const colorSchemes: Record<ControllerLayout, string[]> = {
             :class="
                 props.actions.includes(index.toString())
                     ? colorSchemes[propScheme].at(index)
-                    : 'bg-white text-slate-900'
+                    : 'bg-white text-slate-500'
             "
         >
             {{ index }}

@@ -1,16 +1,21 @@
 <script lang="ts" setup>
+import { useAsyncData, useHead, useProfile, useRoute, useUsers } from '#imports';
 import MoveList from '~/components/move-lists/move-list.vue';
-import { useFetch, useHead, useRoute } from '#imports';
+import CreateMoveListForm from '~/components/move-lists/create-move-list-form.vue';
+import AuthorOnly from '~/components/authentication/author-only.vue';
 
 const route = useRoute();
+const profile = useProfile();
+const users = useUsers();
 
-const handle = route.params.user;
+const handle = route.params.user as string;
 
 useHead({
     title: `@${handle}`,
 });
 
-const { data: user } = useFetch(`/api/users/${handle}`);
+const { data: user } = await useAsyncData('user', () => users.fetchByHandle(handle));
+const { data: moveLists } = await useAsyncData('move-lists', () => profile.fetchMoveLists(handle));
 </script>
 
 <template>
@@ -42,19 +47,25 @@ const { data: user } = useFetch(`/api/users/${handle}`);
             class="mt-8"
             v-if="user"
         >
-            <div class="mb-8">
-                <h2 class="text-xl">Popular Combos</h2>
-                <p class="text-copy/50">
-                    Checkout the most popular combos made by {{ user.name }}.
-                </p>
+            <div class="flex justify-between items-center mb-8">
+                <div>
+                    <h2 class="text-xl">Popular Combos</h2>
+                    <p class="text-copy/50">
+                        Checkout the most popular combos made by {{ user.name }}.
+                    </p>
+                </div>
+
+                <AuthorOnly :id="user?.id">
+                    <CreateMoveListForm />
+                </AuthorOnly>
             </div>
 
             <div class="flex flex-col gap-4">
                 <MoveList
-                    v-for="list in user.moveLists"
+                    v-for="list in moveLists"
                     :key="list.id"
                     :id="list.id"
-                    :character="list.character.name"
+                    :character="list.character"
                     :title="list.name"
                     :moves="list.moves"
                     video-url="#"

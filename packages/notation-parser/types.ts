@@ -29,6 +29,7 @@ export interface InstructionToken {
     type: InstructionTypes;
     subType?: InstructionSubType;
     expression: RegExp;
+    keywords?: TekkenKeywordsList;
 }
 
 export interface ParserResult {
@@ -58,3 +59,10 @@ export interface InstructionMatchResult {
     remainder: string;
     instruction: ParsedInstruction | null;
 }
+
+export interface TekkenKeyword {
+    notation?: string;
+    value: string;
+}
+
+export type TekkenKeywordsList = Record<string, TekkenKeyword>;

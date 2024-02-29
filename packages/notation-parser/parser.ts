@@ -7,6 +7,7 @@ import {
     MetaTypes,
     type ParsedInstruction,
     type ParserResult,
+    type TekkenKeywordsList,
 } from './types';
 
 /**
@@ -25,44 +26,120 @@ const MOVE_SEPARATOR = ';';
 /**
  * List of special keywords, like WS, WR, etc.
  */
-const SPECIAL_KEYWORDS: string[] = [
-    'WS',
-    'WR',
-    'iWS',
-    'iWR',
-    'FC',
-    'iFC',
-    'CH',
-    'CD',
-    'BT',
-    'SSL',
-    'SWL',
-    'SSR',
-    'SWR',
-    'DASH',
-    'BACKDASH',
-    'WAVEDASH',
-];
+const SPECIAL_KEYWORDS: TekkenKeywordsList = {
+    WS: {
+        value: 'While Standing',
+    },
+    WR: {
+        value: 'While Running',
+    },
+    iWS: {
+        value: 'Instant While Standing',
+    },
+    iWR: {
+        value: 'Instant While Running',
+    },
+    FC: {
+        value: 'Full Crouch',
+    },
+    iFC: {
+        value: 'Instant Full Crouch',
+    },
+    CH: {
+        value: 'Counter Hit',
+    },
+    CD: {
+        value: 'Crouch Dash',
+    },
+    BT: {
+        value: 'Back-Turned',
+    },
+    SSL: {
+        value: 'Side Step Left',
+    },
+    SWL: {
+        value: 'Side Walk Left',
+    },
+    SSR: {
+        value: 'Side Step Right',
+    },
+    SWR: {
+        value: 'Side Walk Right',
+    },
+    DASH: {
+        value: 'Dash',
+    },
+    BACKDASH: {
+        value: 'Backdash',
+    },
+    WAVEDASH: {
+        value: 'Wavedash',
+    },
+};
 
 /**
  * List of all stances.
  */
-const STANCE_KEYWORDS: string[] = ['LIB', 'JGS'];
+const STANCE_KEYWORDS: TekkenKeywordsList = {
+    LIB: {
+        value: 'Libertador',
+    },
+    JGS: {
+        value: 'Jaguar Step',
+    },
+    HBS: {
+        value: 'Hunting Bear Stance',
+    },
+    KNP: {
+        value: 'Kenpo',
+    },
+};
 
 /**
  * List of Rage keywords.
  */
-const RAGE_KEYWORDS: string[] = ['RAGE', 'IN RAGE', 'DURING RAGE', 'R!'];
+const RAGE_KEYWORDS: TekkenKeywordsList = {
+    'R!': {
+        notation: 'R!',
+        value: 'Rage Art',
+    },
+    'RAGE': {
+        notation: 'R!',
+        value: 'Rage Art',
+    },
+    'RAGEART': {
+        notation: 'R!',
+        value: 'Rage Art',
+    },
+};
 
 /**
  * List of Heat keywords.
  */
-const HEAT_KEYWORDS: string[] = ['HEAT', 'IN HEAT', 'DURING HEAT', 'H!'];
+const HEAT_KEYWORDS: TekkenKeywordsList = {
+    'H!': {
+        notation: 'H!',
+        value: 'Heat',
+    },
+    'HEAT': {
+        notation: 'H!',
+        value: 'Heat',
+    },
+};
 
 /**
  * List of Tornado keywords.
  */
-const TORNADO_KEYWORDS: string[] = ['TORNADO', 'T!'];
+const TORNADO_KEYWORDS: TekkenKeywordsList = {
+    'T!': {
+        notation: 'T!',
+        value: 'Tornado',
+    },
+    'TORNADO': {
+        notation: 'T!',
+        value: 'Tornado',
+    },
+};
 
 /**
  * Tokens used for parsing instructions.
@@ -72,27 +149,32 @@ const TOKENS: InstructionToken[] = [
     {
         type: InstructionTypes.SPECIAL,
         subType: InstructionSubType.NONE,
-        expression: expressionFromKeywords(SPECIAL_KEYWORDS),
+        expression: expressionFromKeywords(Object.keys(SPECIAL_KEYWORDS)),
+        keywords: SPECIAL_KEYWORDS,
     },
     {
         type: InstructionTypes.SPECIAL,
         subType: InstructionSubType.STANCE,
-        expression: expressionFromKeywords(STANCE_KEYWORDS),
+        expression: expressionFromKeywords(Object.keys(STANCE_KEYWORDS)),
+        keywords: STANCE_KEYWORDS,
     },
     {
         type: InstructionTypes.SPECIAL,
         subType: InstructionSubType.RAGE,
-        expression: expressionFromKeywords(RAGE_KEYWORDS),
+        expression: expressionFromKeywords(Object.keys(RAGE_KEYWORDS)),
+        keywords: RAGE_KEYWORDS,
     },
     {
         type: InstructionTypes.SPECIAL,
         subType: InstructionSubType.HEAT,
-        expression: expressionFromKeywords(HEAT_KEYWORDS),
+        expression: expressionFromKeywords(Object.keys(HEAT_KEYWORDS)),
+        keywords: HEAT_KEYWORDS,
     },
     {
         type: InstructionTypes.SPECIAL,
         subType: InstructionSubType.TORNADO,
-        expression: expressionFromKeywords(TORNADO_KEYWORDS),
+        expression: expressionFromKeywords(Object.keys(TORNADO_KEYWORDS)),
+        keywords: TORNADO_KEYWORDS,
     },
     {
         type: InstructionTypes.MOVEMENT,
@@ -176,13 +258,19 @@ const matchInstruction = (notation: string): InstructionMatchResult => {
             continue;
         }
 
+        // Try to find the visual representation of the keyword, such as "While Standing" for WS.
+        const value =
+            token.keywords && token.keywords[match.value]
+                ? token.keywords[match.value].value
+                : match.value;
+
         result.remainder = match.remainder;
         result.instruction = {
             $type: MetaTypes.INSTRUCTION,
             type: token.type,
             subType: token.subType,
             notation: match.value,
-            value: match.value,
+            value,
         };
 
         break;

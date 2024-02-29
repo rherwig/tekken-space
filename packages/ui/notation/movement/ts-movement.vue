@@ -1,7 +1,8 @@
 <script lang="ts" setup>
+import TsMovementNeutral from './ts-movement-neutral.vue';
+import TsMovementArrow from './ts-movement-arrow.vue';
+
 import { computed } from '#imports';
-import TsMovementNeutral from '~/ui/notation/movement/ts-movement-neutral.vue';
-import TsMovementArrow from '~/ui/notation/movement/ts-movement-arrow.vue';
 
 interface Props {
     notation: string;
@@ -10,12 +11,8 @@ interface Props {
 const props = defineProps<Props>();
 
 const notation = computed(() => props.notation.replace('/', ''));
-const isNeutral = computed(
-    () => notation.value === 'N' || notation.value === 'n',
-);
-const isHoldInput = computed(
-    () => notation.value.toLowerCase() !== notation.value,
-);
+const isNeutral = computed(() => notation.value === 'N' || notation.value === 'n');
+const isHoldInput = computed(() => notation.value.toLowerCase() !== notation.value);
 </script>
 
 <template>

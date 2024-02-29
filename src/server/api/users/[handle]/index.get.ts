@@ -1,4 +1,3 @@
-// import { prisma } from 'prisma/client';
 import { defineEventHandler, getRouterParam } from 'h3';
 import { prisma } from 'prisma/client';
 

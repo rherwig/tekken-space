@@ -1,10 +1,10 @@
 <script setup lang="ts">
 import html2canvas from 'html2canvas';
 import { computed, ref, type Ref, unref } from 'vue';
+import TsNotationDisplay from 'packages/ui/notation/ts-notation-display.vue';
 
-import TsNotationDisplay from '~/ui/notation/ts-notation-display.vue';
-import { useWrapAround } from '~/composables/wrap-around';
 import { defineShortcuts } from '#imports';
+import { useWrapAround } from '~/composables/wrap-around';
 
 interface Props {
     modelValue: string;
@@ -25,24 +25,20 @@ defineShortcuts({
     arrowup: {
         usingInput: true,
         whenever: [showAutocomplete],
-        handler: () =>
-            setActiveAutocompleteIndex(activeAutocompleteIndex.value - 1),
+        handler: () => setActiveAutocompleteIndex(activeAutocompleteIndex.value - 1),
     },
 
     arrowdown: {
         usingInput: true,
         whenever: [showAutocomplete],
-        handler: () =>
-            setActiveAutocompleteIndex(activeAutocompleteIndex.value + 1),
+        handler: () => setActiveAutocompleteIndex(activeAutocompleteIndex.value + 1),
     },
 
     enter: {
         usingInput: 'notationInput',
         whenever: [showAutocomplete],
         handler: () => {
-            const text = autocompleteMoves.value.at(
-                activeAutocompleteIndex.value,
-            );
+            const text = autocompleteMoves.value.at(activeAutocompleteIndex.value);
             if (!text) {
                 return;
             }
@@ -111,18 +107,9 @@ defineExpose({
     exportAsImage,
 });
 
-const demoMoves = [
-    'b+2',
-    'b+2,1',
-    'b+2,2',
-    'No Sword Stance (NSS)',
-    'Kincho (KIN)',
-    'Flea (FLE)',
-];
+const demoMoves = ['b+2', 'b+2,1', 'b+2,2', 'No Sword Stance (NSS)', 'Kincho (KIN)', 'Flea (FLE)'];
 
-const filteredMoves = computed(() =>
-    demoMoves.filter((move) => move.startsWith(props.modelValue)),
-);
+const filteredMoves = computed(() => demoMoves.filter((move) => move.startsWith(props.modelValue)));
 
 const autocompleteMoves = computed(() => {
     return filteredMoves.value.filter((_, index) => index < 4);
@@ -160,7 +147,7 @@ function setActiveAutocompleteIndex(nextIndex: number | Ref<number>) {
             autocomplete="off"
         />
 
-        <ClientOnly>
+        <ClientOnly v-if="false">
             <UPopover
                 v-model:open="showAutocomplete"
                 :popper="{
@@ -173,9 +160,7 @@ function setActiveAutocompleteIndex(nextIndex: number | Ref<number>) {
                 <template #panel>
                     <div class="min-w-[200px] bg-black/50">
                         <div class="py-3 px-4">
-                            <div class="text-lg font-light mb-1">
-                                Yoshimitsu
-                            </div>
+                            <div class="text-lg font-light mb-1">Yoshimitsu</div>
                             <div class="flex gap-1">
                                 <UBadge>All</UBadge>
                                 <UBadge>Moves</UBadge>
@@ -188,11 +173,7 @@ function setActiveAutocompleteIndex(nextIndex: number | Ref<number>) {
                                 v-for="(move, index) in autocompleteMoves"
                                 :key="move"
                                 class="px-4 py-2 bg-black/25 text-sm hover:bg-black/35 cursor-pointer"
-                                :class="
-                                    index === activeAutocompleteIndex
-                                        ? 'bg-primary/50'
-                                        : ''
-                                "
+                                :class="index === activeAutocompleteIndex ? 'bg-primary/50' : ''"
                             >
                                 {{ move }}
                             </li>

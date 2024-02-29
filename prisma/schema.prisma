@@ -98,7 +98,6 @@ model Character {
 
 model Move {
     id       String  @id @default(cuid())
-    slug     String  @unique
     notation String
     name     String?
     notes    String?
