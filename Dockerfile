@@ -1,6 +1,6 @@
-FROM node:20-alpine AS node-pnpm
+FROM node:20-alpine AS base
 
-EXPOSE 3000
+WORKDIR /app
 
 ARG ORIGIN
 ENV ORIGIN ${ORIGIN}
@@ -8,13 +8,30 @@ ENV ORIGIN ${ORIGIN}
 ENV NUXT_HOST=0.0.0.0
 ENV NUXT_PORT=3000
 
-WORKDIR /app
+# Install pnpm
+RUN npm install -g pnpm
 
+
+FROM base AS build
+
+# Install dependencies
+COPY package.json pnpm-lock.yaml prisma ./
+RUN pnpm install --frozen-lockfile
+
+# Build the app
+COPY . .
+RUN pnpm build
+
+
+FROM base AS release
+
+EXPOSE ${NUXT_PORT}
+
+# Create directories for cache, logs and database
 RUN mkdir -p var/cache var/logs var/data
 
-COPY ./.output/ .
+# Copy build artifacts from previous stage
+COPY --from=build /app/node_modules ./node_modules
+COPY --from=build /app/.output ./.output
 
-RUN rm -rf server/node_modules/sharp
-RUN npm --prefix server install sharp
-
-CMD ["node", "server/index.mjs"]
+CMD ["node", ".output/server/index.mjs"]

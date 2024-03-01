@@ -10,3 +10,11 @@ node_modules/
 
 # Environment
 .env
+
+# Nuxt
+.nuxt/
+.output/
+
+# Other
+.gitignore
+README.md

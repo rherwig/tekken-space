@@ -7,9 +7,10 @@
         "dev": "nuxt dev",
         "generate": "nuxt generate",
         "preview": "nuxt preview",
-        "postinstall": "nuxt prepare",
+        "postinstall": "nuxt prepare && prisma generate",
         "prisma:generate": "prisma generate",
         "prisma:migrate:dev": "prisma migrate dev",
+        "prisma:migrate:deploy": "prisma migrate deploy",
         "prisma:provision:dev": "vite-node prisma/scripts/provision-dev.ts",
         "prisma:studio": "prisma studio"
     },
@@ -45,6 +46,7 @@
         "@auth/prisma-adapter": "1.4.0",
         "@hebilicious/authjs-nuxt": "0.3.5",
         "@prisma/client": "5.10.0",
+        "cookie": "0.6.0",
         "html2canvas": "1.4.1",
         "prisma": "5.10.0"
     }
