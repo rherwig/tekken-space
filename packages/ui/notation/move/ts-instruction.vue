@@ -4,6 +4,7 @@ import {
     InstructionTypes,
     type ParsedInstruction,
 } from 'packages/notation-parser';
+import TsNotationBadge from 'packages/ui/notation/special/ts-notation-badge.vue';
 
 import TsMovement from '../movement/ts-movement.vue';
 import TsAttack from '../attack/ts-attack.vue';
@@ -62,19 +63,26 @@ const { type, subType, notation } = unref(props.instruction);
             v-else-if="type === InstructionTypes.SPECIAL"
             class="flex items-center"
         >
-            <UBadge
-                v-if="subType === InstructionSubType.NONE"
-                color="gray"
-                class="font-bold"
-                size="lg"
-                :label="notation"
-            />
             <TsHeat v-if="subType === InstructionSubType.HEAT" />
-            <TsRage v-if="subType === InstructionSubType.RAGE" />
+
             <TsTornado v-if="subType === InstructionSubType.TORNADO" />
-            <TsStance
-                :notation="notation"
+
+            <TsNotationBadge
+                v-if="subType === InstructionSubType.NONE"
+                :instruction="props.instruction"
+                class="bg-gray-600"
+            />
+
+            <TsNotationBadge
+                v-if="subType === InstructionSubType.RAGE"
+                :instruction="props.instruction"
+                class="bg-red-500"
+            />
+
+            <TsNotationBadge
                 v-if="subType === InstructionSubType.STANCE"
+                :instruction="props.instruction"
+                class="bg-green-500"
             />
         </div>
     </div>

@@ -1,3 +1,4 @@
+import { STANCE_KEYWORDS } from './constants/stances';
 import {
     type ConsumeTokenResult,
     type InstructionMatchResult,
@@ -74,24 +75,6 @@ const SPECIAL_KEYWORDS: TekkenKeywordsList = {
     },
     WAVEDASH: {
         value: 'Wavedash',
-    },
-};
-
-/**
- * List of all stances.
- */
-const STANCE_KEYWORDS: TekkenKeywordsList = {
-    LIB: {
-        value: 'Libertador',
-    },
-    JGS: {
-        value: 'Jaguar Step',
-    },
-    HBS: {
-        value: 'Hunting Bear Stance',
-    },
-    KNP: {
-        value: 'Kenpo',
     },
 };
 

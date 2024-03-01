@@ -17,7 +17,7 @@ const displayValue: ComputedRef<string> = computed(() => {
 
 <template>
     <div
-        class="bg-green-500 px-2 py-1 mr-2 max-w-[11ch] whitespace-break-spaces text-sm rounded-sm text-center"
+        class="mr-0.5 px-2 py-1 max-w-[11ch] whitespace-break-spaces text-sm rounded-sm text-center leading-[1.05]"
     >
         {{ displayValue }}
     </div>
