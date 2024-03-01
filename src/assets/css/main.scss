@@ -10,6 +10,14 @@ body {
     @apply scrollbar-thin scrollbar-track-zinc-800 scrollbar-thumb-rounded-sm scrollbar-thumb-zinc-950;
 }
 
+/*
+ * This is needed to preserve styles in image exports.
+ * See: https://stackoverflow.com/questions/74980740/html2canvas-shifting-text-downwards
+ */
+img {
+    @apply inline-block;
+}
+
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
     -webkit-appearance: none;
