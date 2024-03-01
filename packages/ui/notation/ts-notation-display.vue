@@ -16,7 +16,7 @@ const parserResult = computed(() => parseTekkenNotation(props.notation));
 </script>
 
 <template>
-    <div class="flex gap-2 w-full h-full origin-left overflow-x-auto overflow-y-hidden">
+    <div class="inline-flex gap-2 h-full origin-left overflow-x-auto overflow-y-hidden">
         <div
             v-for="(move, index) in parserResult.moves"
             :key="`${index}-${move.notation}`"

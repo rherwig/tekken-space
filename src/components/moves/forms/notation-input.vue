@@ -89,7 +89,10 @@ async function exportAsImage() {
     }
 
     const canvas = await html2canvas(notationElement, {
-        backgroundColor: 'transparent',
+        backgroundColor: null,
+        removeContainer: true,
+        width: notationElement.firstChild?.clientWidth ?? 0,
+        scale: 4,
         useCORS: true,
     });
     const imageUrl = canvas.toDataURL('image/png');
@@ -124,7 +127,7 @@ function setActiveAutocompleteIndex(nextIndex: number | Ref<number>) {
 
 <template>
     <div class="flex flex-col">
-        <div class="bg-black/50 rounded-t-md p-4">
+        <div class="bg-black/50 rounded-t-md p-4 overflow-x-auto">
             <div
                 class="h-[56px]"
                 ref="notationWrapperRef"
