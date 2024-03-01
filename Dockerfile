@@ -2,21 +2,22 @@ FROM node:20-alpine AS base
 
 WORKDIR /app
 
-ARG ORIGIN
-ENV ORIGIN ${ORIGIN}
+#ARG ORIGIN
+#ENV ORIGIN ${ORIGIN}
 
 ENV NUXT_HOST=0.0.0.0
 ENV NUXT_PORT=3000
 
 # Install pnpm
-RUN npm install -g pnpm
+RUN npm install -g pnpm @dotenvx/dotenvx
 
 
 FROM base AS build
 
 # Install dependencies
 COPY package.json pnpm-lock.yaml prisma ./
-RUN pnpm install --frozen-lockfile
+RUN pnpm install
+RUN pnpm rebuild sharp
 
 # Build the app
 COPY . .
@@ -34,4 +35,4 @@ RUN mkdir -p var/cache var/logs var/data
 COPY --from=build /app/node_modules ./node_modules
 COPY --from=build /app/.output ./.output
 
-CMD ["node", ".output/server/index.mjs"]
+CMD ["dotenvx", "run", "--env-file", ".env", "--", "node", ".output/server/index.mjs"]

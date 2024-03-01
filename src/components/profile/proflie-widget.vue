@@ -49,11 +49,6 @@ const items = [
                     />
 
                     {{ displayName }}
-
-                    <UIcon
-                        name="i-heroicons-chevron-down-20-solid"
-                        size="sm"
-                    />
                 </div>
             </UDropdown>
         </ClientOnly>

@@ -37,15 +37,15 @@ export default defineNuxtConfig({
 
     runtimeConfig: {
         authJs: {
-            secret: process.env.AUTH_SECRET,
+            secret: process.env.NUXT_AUTH_JS_SECRET,
         },
         github: {
-            clientId: process.env.AUTH_GITHUB_CLIENT_ID,
-            clientSecret: process.env.AUTH_GITHUB_CLIENT_SECRET,
+            clientId: process.env.NUXT_GITHUB_CLIENT_ID,
+            clientSecret: process.env.NUXT_GITHUB_CLIENT_SECRET,
         },
         public: {
             authJs: {
-                baseUrl: process.env.ORIGIN,
+                baseUrl: process.env.NUXT_PUBLIC_AUTH_JS_BASE_URL,
                 verifyClientOnEveryRequest: true,
             },
         },
@@ -61,7 +61,6 @@ export default defineNuxtConfig({
     },
 
     modules: [
-        // '@sidebase/nuxt-auth',
         '@hebilicious/authjs-nuxt',
         '@nuxtjs/eslint-module',
         '@pinia/nuxt',

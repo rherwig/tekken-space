@@ -15,12 +15,8 @@ services:
 
     frontend:
         image: rherwig/tekken-space:latest
-        env_file: ./.env.production
         depends_on:
             - database
-        environment:
-            - ORIGIN=${ORIGIN}
-            - DATABASE_URL=${PRISMA_CONNECTION_STRING}
         volumes:
             - /var/tekken/frontend/.env:/app/.env
 

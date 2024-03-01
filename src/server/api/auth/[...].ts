@@ -9,6 +9,8 @@ import { NuxtAuthHandler } from '#auth';
 
 const runtimeConfig = useRuntimeConfig();
 
+console.log(runtimeConfig);
+
 // Refer to Auth.js docs for more details
 export const authOptions: AuthConfig = {
     // @ts-ignore
