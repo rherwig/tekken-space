@@ -37,9 +37,41 @@ const { data: moveLists } = await useAsyncData('move-lists', () => profile.fetch
             </div>
 
             <div class="flex items-center gap-4 text-2xl">
-                <UIcon name="i-tabler-brand-x-filled" />
-                <UIcon name="i-tabler-brand-twitch" />
-                <UIcon name="i-tabler-brand-youtube-filled" />
+                <a
+                    v-if="user?.metadata?.socials?.x?.url"
+                    :href="user?.metadata?.socials?.x?.url"
+                    rel="noreferrer noopener"
+                    target="_blank"
+                >
+                    <UIcon name="i-tabler-brand-x-filled" />
+                </a>
+
+                <a
+                    v-if="user?.metadata?.socials?.twitch?.url"
+                    :href="user?.metadata?.socials?.twitch?.url"
+                    rel="noreferrer noopener"
+                    target="_blank"
+                >
+                    <UIcon name="i-tabler-brand-twitch" />
+                </a>
+
+                <a
+                    v-if="user?.metadata?.socials?.patreon?.url"
+                    :href="user?.metadata?.socials?.patreon?.url"
+                    rel="noreferrer noopener"
+                    target="_blank"
+                >
+                    <UIcon name="i-tabler-brand-patreon-filled" />
+                </a>
+
+                <a
+                    v-if="user?.metadata?.socials?.youtube?.url"
+                    :href="user?.metadata?.socials?.youtube?.url"
+                    rel="noreferrer noopener"
+                    target="_blank"
+                >
+                    <UIcon name="i-tabler-brand-youtube-filled" />
+                </a>
             </div>
         </div>
 
@@ -49,9 +81,9 @@ const { data: moveLists } = await useAsyncData('move-lists', () => profile.fetch
         >
             <div class="flex justify-between items-center mb-8">
                 <div>
-                    <h2 class="text-xl">Popular Combos</h2>
+                    <h2 class="text-xl">Recent Move Lists</h2>
                     <p class="text-copy/50">
-                        Checkout the most popular combos made by {{ user.name }}.
+                        Checkout the most recent move lists made by {{ user.name }}.
                     </p>
                 </div>
 
@@ -68,7 +100,8 @@ const { data: moveLists } = await useAsyncData('move-lists', () => profile.fetch
                     :character="list.character"
                     :title="list.name"
                     :moves="list.moves"
-                    video-url="#"
+                    :author-id="user?.id"
+                    :video-url="list.metadata?.videoUrl"
                 />
             </div>
         </div>

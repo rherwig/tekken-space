@@ -49,7 +49,6 @@
 
 <script setup lang="ts">
 import NavigationLink from '~/components/navigation/navigation-link.vue';
-import { useUsers } from '~/stores/users';
 import ProflieWidget from '~/components/profile/proflie-widget.vue';
 import { useProfile } from '~/stores/profile';
 

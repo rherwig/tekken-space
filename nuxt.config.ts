@@ -60,6 +60,10 @@ export default defineNuxtConfig({
         viewer: false,
     },
 
+    ui: {
+        icons: ['tabler', 'heroicons'],
+    },
+
     modules: [
         '@hebilicious/authjs-nuxt',
         '@nuxtjs/eslint-module',

@@ -14,7 +14,7 @@ const items = [
     [
         {
             label: 'Profile',
-            icon: 'tabler:logout',
+            icon: 'i-tabler-user',
             click() {
                 router.push(`/@${user.value?.handle}`);
             },
@@ -23,7 +23,7 @@ const items = [
     [
         {
             label: 'Log Out',
-            icon: 'tabler:logout',
+            icon: 'i-tabler-logout',
             click() {
                 signOut();
             },
@@ -49,6 +49,8 @@ const items = [
                     />
 
                     {{ displayName }}
+
+                    <UIcon name="i-tabler-chevron-down" />
                 </div>
             </UDropdown>
         </ClientOnly>

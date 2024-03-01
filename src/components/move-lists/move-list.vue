@@ -15,33 +15,48 @@
             <div class="flex flex-1">
                 <div class="flex flex-col gap-4 flex-1 p-4">
                     <div class="flex justify-between items-center">
-                        <div>
+                        <div class="flex items-center gap-2">
+                            <AuthorOnly
+                                v-if="props.authorId"
+                                :id="props.authorId"
+                            >
+                                <ClientOnly>
+                                    <UDropdown
+                                        :items="moveListActions"
+                                        :popper="{ placement: 'bottom-start' }"
+                                    >
+                                        <div
+                                            class="flex items-center justify-center hover:bg-white/10 transition-colors cursor-pointer rounded-full h-5 w-5 mt-0.5"
+                                        >
+                                            <UIcon
+                                                name="i-tabler-dots-vertical"
+                                                class="text-lg"
+                                                dynamic
+                                            />
+                                        </div>
+                                    </UDropdown>
+                                </ClientOnly>
+                            </AuthorOnly>
+
                             <span
                                 v-if="props.character?.name"
                                 class="font-bold"
                             >
-                                {{ props.character.name }} -
+                                {{ props.character.name }}
                             </span>
 
-                            {{ props.title }}
+                            <span>/</span>
+
+                            <span>
+                                {{ props.title }}
+                            </span>
                         </div>
 
                         <div class="flex items-center gap-8">
-                            <div class="flex items-center gap-2">
-                                <CreateMoveForm :move-list-id="props.id" />
-
-                                <UBadge
-                                    class="cursor-pointer"
-                                    color="red"
-                                    @click="handleDeleteClick"
-                                >
-                                    <UIcon
-                                        name="i-tabler-trash"
-                                        class="text-white text-base"
-                                        dynamic
-                                    />
-                                </UBadge>
-                            </div>
+                            <CreateMoveForm
+                                :move-list-id="props.id"
+                                v-model="showCreateMoveModal"
+                            />
 
                             <div class="flex items-center gap-2">
                                 <UBadge
@@ -111,11 +126,11 @@
 <script setup lang="ts">
 import { computed, ref } from 'vue';
 import Prisma from '@prisma/client';
-import TsNotationDisplay from 'packages/ui/notation/ts-notation-display.vue';
 
 import CreateMoveForm from '~/components/moves/forms/create-move-form.vue';
 import { useProfile } from '~/stores/profile';
 import MoveDisplayWithMeta from '~/components/moves/move-display-with-meta.vue';
+import AuthorOnly from '~/components/authentication/author-only.vue';
 
 interface Props {
     id: string;
@@ -123,6 +138,7 @@ interface Props {
     moves: Prisma.Move[];
     character?: Prisma.Character;
     videoUrl?: string;
+    authorId?: string;
 }
 
 const props = defineProps<Props>();
@@ -131,12 +147,30 @@ const emit = defineEmits(['deleted']);
 const profile = useProfile();
 
 const isExpanded = ref<boolean>(false);
+const showCreateMoveModal = ref<boolean>(false);
 
 const variants = computed(() => props.moves.slice(1));
 
-async function handleDeleteClick() {
-    await profile.deleteMoveList(props.id);
+const moveListActions = [
+    [
+        {
+            label: 'Add Move',
+            icon: 'i-tabler-square-rounded-plus',
+            click() {
+                showCreateMoveModal.value = true;
+            },
+        },
+    ],
+    [
+        {
+            label: 'Delete',
+            icon: 'i-tabler-trash',
+            async click() {
+                await profile.deleteMoveList(props.id);
 
-    emit('deleted', props.id);
-}
+                emit('deleted', props.id);
+            },
+        },
+    ],
+];
 </script>

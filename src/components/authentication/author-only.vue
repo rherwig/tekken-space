@@ -12,6 +12,10 @@ const props = defineProps<Props>();
 const { session } = useAuth();
 
 const isAuthor: ComputedRef<boolean> = computed(() => {
+    if (session.value?.user?.role !== 'ADMIN') {
+        return false;
+    }
+
     return props.id === session.value?.user?.id;
 });
 </script>
