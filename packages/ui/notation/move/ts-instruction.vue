@@ -8,9 +8,7 @@ import TsNotationBadge from 'packages/ui/notation/special/ts-notation-badge.vue'
 
 import TsMovement from '../movement/ts-movement.vue';
 import TsAttack from '../attack/ts-attack.vue';
-import TsRage from '../special/ts-rage.vue';
 import TsHeat from '../special/ts-heat.vue';
-import TsStance from '../special/ts-stance.vue';
 import TsTornado from '../special/ts-tornado.vue';
 
 import { unref } from '#imports';
@@ -55,8 +53,14 @@ const { type, subType, notation } = unref(props.instruction);
             />
         </div>
 
-        <div v-else-if="type === InstructionTypes.TEXT">
-            {{ notation }}
+        <div
+            class="flex items-center"
+            v-else-if="type === InstructionTypes.TEXT"
+        >
+            <TsNotationBadge
+                :instruction="props.instruction"
+                class="bg-gray-600"
+            />
         </div>
 
         <div

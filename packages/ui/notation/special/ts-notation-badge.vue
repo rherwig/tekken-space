@@ -11,7 +11,7 @@ const props = defineProps<Props>();
 const displayValue: ComputedRef<string> = computed(() => {
     const value = props.instruction.value ?? props.instruction.notation;
 
-    return value.replace(/\s/gi, '\n');
+    return value.replace(/[()]/g, '').replace(/\s/gi, '\n');
 });
 </script>
 
