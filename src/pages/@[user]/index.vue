@@ -2,7 +2,7 @@
 import { useAsyncData, useHead, useProfile, useRoute, useUsers } from '#imports';
 import MoveList from '~/components/move-lists/move-list.vue';
 import CreateMoveListForm from '~/components/move-lists/create-move-list-form.vue';
-import AuthorOnly from '~/components/authentication/author-only.vue';
+import AuthorOnly from '~/modules/auth/components/author-only.vue';
 
 const route = useRoute();
 const profile = useProfile();

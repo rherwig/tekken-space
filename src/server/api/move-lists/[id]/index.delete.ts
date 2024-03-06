@@ -2,7 +2,7 @@ import { defineEventHandler, getRouterParam } from 'h3';
 import { prisma } from 'prisma/client';
 
 import { getServerSession } from '#auth';
-import { authOptions } from '~/server/api/auth/[...]';
+import { authOptions } from '~/modules/auth/server/api/auth/[...]';
 
 export default defineEventHandler(async (event) => {
     const session = await getServerSession(event, authOptions);

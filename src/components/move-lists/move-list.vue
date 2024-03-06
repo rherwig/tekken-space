@@ -130,7 +130,7 @@ import Prisma from '@prisma/client';
 import CreateMoveForm from '~/components/moves/forms/create-move-form.vue';
 import { useProfile } from '~/stores/profile';
 import MoveDisplayWithMeta from '~/components/moves/move-display-with-meta.vue';
-import AuthorOnly from '~/components/authentication/author-only.vue';
+import AuthorOnly from '~/modules/auth/components/author-only.vue';
 
 interface Props {
     id: string;

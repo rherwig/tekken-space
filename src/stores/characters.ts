@@ -1,13 +1,13 @@
 import { defineStore } from 'pinia';
 import { computed, type ComputedRef, ref } from 'vue';
-import Prisma from '@prisma/client';
 import { $fetch } from 'ofetch';
+import type { Character } from 'prisma/types';
 
 export const useCharacters = defineStore('characters', () => {
     /**
      * List of all characters.
      */
-    const all = ref<Prisma.Character[]>([]);
+    const all = ref<Character[]>([]);
 
     /**
      * The currently selected character's id.
@@ -17,7 +17,7 @@ export const useCharacters = defineStore('characters', () => {
     /**
      * The currently selected character.
      */
-    const selected: ComputedRef<Prisma.Character | undefined> = computed(() => {
+    const selected: ComputedRef<Character | undefined> = computed(() => {
         return all.value.find((character) => character.id === selectedId.value);
     });
 
@@ -26,7 +26,7 @@ export const useCharacters = defineStore('characters', () => {
      */
     async function fetchAll() {
         try {
-            all.value = await $fetch('/api/characters');
+            all.value = await $fetch<Character[]>('/api/characters');
 
             return all.value;
         } catch (error: any) {

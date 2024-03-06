@@ -4,11 +4,9 @@ import Prisma from '@prisma/client';
 import type { PopulatedMoveList, TemporaryUserPreferences, UserPreferences } from 'prisma/types';
 import { $fetch } from 'ofetch';
 
-import { useAuth, useIsomorphicUrl } from '#build/imports';
+import { useIsomorphicUrl } from '#build/imports';
 
 export const useProfile = defineStore('profile', () => {
-    const { session } = useAuth();
-
     /**
      * The user's preferences.
      */

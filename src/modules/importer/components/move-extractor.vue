@@ -1,16 +1,6 @@
 <script lang="ts" setup>
 import { ref, unref } from 'vue';
-
-interface RawMove {
-    command: string;
-    hitLevels: string[];
-    damage: string[];
-    startupFrames?: string;
-    blockFrames?: string;
-    hitFrames?: string;
-    counterFrames?: string;
-    notes?: string;
-}
+import type { RawMove } from 'prisma/types';
 
 const tableRef = ref<HTMLTableElement>();
 
@@ -138,10 +128,7 @@ function extractMoves() {
                     <td>-12</td>
                     <td>+4</td>
                     <td></td>
-                    <td>
-                        * Combo from 1st hit * Combo can be delayed 12F from 1st
-                        hit *
-                    </td>
+                    <td>* Combo from 1st hit * Combo can be delayed 12F from 1st hit *</td>
                 </tr>
                 <tr>
                     <td>1,2,2~3</td>
@@ -232,8 +219,7 @@ function extractMoves() {
                     <td>+8</td>
                     <td>+40(+32)a</td>
                     <td>
-                        * Combo from 2nd CH * Can be delayed 14F * Combo can be
-                        delayed 6F from CH
+                        * Combo from 2nd CH * Can be delayed 14F * Combo can be delayed 6F from CH
                     </td>
                 </tr>
                 <tr>
@@ -295,8 +281,8 @@ function extractMoves() {
                     <td>KND</td>
                     <td>KND</td>
                     <td>
-                        * Combo from 1st hit * Can be delayed 14F * Combo can be
-                        delayed 10F from hit
+                        * Combo from 1st hit * Can be delayed 14F * Combo can be delayed 10F from
+                        hit
                     </td>
                 </tr>
                 <tr>
@@ -348,8 +334,7 @@ function extractMoves() {
                     <td>+8</td>
                     <td></td>
                     <td>
-                        * Combo from 1st hit * Can be delayed 10F * Combo can be
-                        delayed 5F from hit
+                        * Combo from 1st hit * Can be delayed 10F * Combo can be delayed 5F from hit
                     </td>
                 </tr>
                 <tr>
@@ -661,8 +646,8 @@ function extractMoves() {
                     <td>+5</td>
                     <td></td>
                     <td>
-                        * Combo from 1st hit * Can be delayed 10F * Combo can be
-                        delayed 10F from hit
+                        * Combo from 1st hit * Can be delayed 10F * Combo can be delayed 10F from
+                        hit
                     </td>
                 </tr>
                 <tr>
@@ -734,8 +719,8 @@ function extractMoves() {
                     <td>-4c</td>
                     <td></td>
                     <td>
-                        * Combo from 1st hit * Can be delayed 11F * Combo can be
-                        delayed 11F from hit
+                        * Combo from 1st hit * Can be delayed 11F * Combo can be delayed 11F from
+                        hit
                     </td>
                 </tr>
                 <tr>
@@ -757,8 +742,8 @@ function extractMoves() {
                     <td>KND</td>
                     <td></td>
                     <td>
-                        * Tornado * Partially uses remaining Heat time * absorb
-                        an attack to power up
+                        * Tornado * Partially uses remaining Heat time * absorb an attack to power
+                        up
                     </td>
                 </tr>
                 <tr>
@@ -810,8 +795,8 @@ function extractMoves() {
                     <td>Th</td>
                     <td></td>
                     <td>
-                        * Partially uses remaining Heat time * On hit, does not
-                        shift to throw with n
+                        * Partially uses remaining Heat time * On hit, does not shift to throw with
+                        n
                     </td>
                 </tr>
                 <tr>
@@ -873,8 +858,8 @@ function extractMoves() {
                     <td>KND</td>
                     <td>KND</td>
                     <td>
-                        * Partially uses remaining Heat time * Jack-8 or Alisa
-                        can recovery 20 by input 1+2
+                        * Partially uses remaining Heat time * Jack-8 or Alisa can recovery 20 by
+                        input 1+2
                     </td>
                 </tr>
                 <tr>
@@ -906,8 +891,7 @@ function extractMoves() {
                     <td>KND</td>
                     <td>KND</td>
                     <td>
-                        * absorb an attack to power up * – Add chip damage when
-                        guarded * Tornado
+                        * absorb an attack to power up * – Add chip damage when guarded * Tornado
                     </td>
                 </tr>
                 <tr>
@@ -998,9 +982,7 @@ function extractMoves() {
                     <td>-12</td>
                     <td>Th</td>
                     <td>Th</td>
-                    <td>
-                        * Heat Engager * Damage () is damage bonus when throw
-                    </td>
+                    <td>* Heat Engager * Damage () is damage bonus when throw</td>
                 </tr>
                 <tr>
                     <td>f,F+3</td>
@@ -1071,8 +1053,8 @@ function extractMoves() {
                     <td>LNC</td>
                     <td>LNC</td>
                     <td>
-                        Becomes Electric Wind God Fist during Heat (partially
-                        uses remaining Heat Time)
+                        Becomes Electric Wind God Fist during Heat (partially uses remaining Heat
+                        Time)
                     </td>
                 </tr>
                 <tr>
@@ -1083,9 +1065,7 @@ function extractMoves() {
                     <td>+5</td>
                     <td>LNC</td>
                     <td>LNC</td>
-                    <td>
-                        * Chip damage when guarded * Total 36F on block or hit
-                    </td>
+                    <td>* Chip damage when guarded * Total 36F on block or hit</td>
                 </tr>
                 <tr>
                     <td>f,n,d,df+3</td>
@@ -1105,9 +1085,7 @@ function extractMoves() {
                     <td>-23</td>
                     <td>-3c</td>
                     <td>KND</td>
-                    <td>
-                        * Disable 2nd from 1st block * 2nd input force to down
-                    </td>
+                    <td>* Disable 2nd from 1st block * 2nd input force to down</td>
                 </tr>
                 <tr>
                     <td>f,n,d,df+4,1</td>
@@ -1147,10 +1125,7 @@ function extractMoves() {
                     <td></td>
                     <td></td>
                     <td></td>
-                    <td>
-                        * Cannot be buffered * Connect to Wind God Step * Cost:
-                        2F
-                    </td>
+                    <td>* Cannot be buffered * Connect to Wind God Step * Cost: 2F</td>
                 </tr>
                 <tr>
                     <td>f,(odd numbers frames).n</td>
@@ -1180,10 +1155,7 @@ function extractMoves() {
                     <td></td>
                     <td></td>
                     <td></td>
-                    <td>
-                        * Chip damage when guarded * Shift to Devil Form on Heat
-                        Activation
-                    </td>
+                    <td>* Chip damage when guarded * Shift to Devil Form on Heat Activation</td>
                 </tr>
                 <tr>
                     <td>H.b+4,F</td>
@@ -1203,10 +1175,7 @@ function extractMoves() {
                     <td></td>
                     <td></td>
                     <td></td>
-                    <td>
-                        * Chip damage when guarded * Shift to Devil Form on Heat
-                        Activation
-                    </td>
+                    <td>* Chip damage when guarded * Shift to Devil Form on Heat Activation</td>
                 </tr>
                 <tr>
                     <td>H.df+1,2,F</td>
@@ -1216,10 +1185,7 @@ function extractMoves() {
                     <td></td>
                     <td></td>
                     <td></td>
-                    <td>
-                        * Chip damage when guarded * Shift to Devil Form on Heat
-                        Activation
-                    </td>
+                    <td>* Chip damage when guarded * Shift to Devil Form on Heat Activation</td>
                 </tr>
                 <tr>
                     <td>H.f,F+2,F</td>
@@ -1229,10 +1195,7 @@ function extractMoves() {
                     <td></td>
                     <td></td>
                     <td></td>
-                    <td>
-                        * Chip damage when guarded * Shift to Devil Form on Heat
-                        Activation
-                    </td>
+                    <td>* Chip damage when guarded * Shift to Devil Form on Heat Activation</td>
                 </tr>
                 <tr>
                     <td>OTG.d+3+4</td>
@@ -1252,10 +1215,7 @@ function extractMoves() {
                     <td></td>
                     <td></td>
                     <td></td>
-                    <td>
-                        * Erases opponent’s recoverable health on hit *
-                        Alternate input: R2
-                    </td>
+                    <td>* Erases opponent’s recoverable health on hit * Alternate input: R2</td>
                 </tr>
                 <tr>
                     <td>SS.1+2</td>
@@ -1306,8 +1266,7 @@ function extractMoves() {
                     <td>KND</td>
                     <td>KND</td>
                     <td>
-                        * Chip damage when guarded * Jack-8 or Alisa can
-                        recovery 20 by input 1+2
+                        * Chip damage when guarded * Jack-8 or Alisa can recovery 20 by input 1+2
                     </td>
                 </tr>
                 <tr>

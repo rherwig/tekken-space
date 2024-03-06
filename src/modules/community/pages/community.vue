@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import HeroUnit from '~/components/page/hero-unit.vue';
 import { useFetch } from '#imports';
-import CreatorsListItem from '~/components/creators/creators-list-item.vue';
+import HeroUnit from '~/components/page/hero-unit.vue';
+import CreatorsListItem from '~/modules/community/components/creators/creators-list-item.vue';
 
 const { data: creators } = useFetch('/api/creators');
 </script>

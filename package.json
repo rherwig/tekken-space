@@ -11,7 +11,7 @@
         "prisma:generate": "prisma generate",
         "prisma:migrate:dev": "prisma migrate dev",
         "prisma:migrate:deploy": "prisma migrate deploy",
-        "prisma:provision:dev": "vite-node prisma/scripts/provision-dev.ts",
+        "prisma:provision:moves": "vite-node prisma/provision/character-moves.ts",
         "prisma:studio": "prisma studio"
     },
     "devDependencies": {

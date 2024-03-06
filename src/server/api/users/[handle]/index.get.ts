@@ -1,24 +1,16 @@
-import { defineEventHandler, getRouterParam } from 'h3';
-import { prisma } from 'prisma/client';
+import { createError, defineEventHandler, getRouterParam } from 'h3';
+
+import * as usersService from '~/server/services/users';
 
 export default defineEventHandler(async (event) => {
     const handle = getRouterParam(event, 'handle');
 
-    try {
-        return await prisma.user.findFirst({
-            where: {
-                handle,
-            },
-            include: {
-                moveLists: {
-                    include: {
-                        character: true,
-                        moves: true,
-                    },
-                },
-            },
+    if (!handle) {
+        throw createError({
+            statusCode: 400,
+            statusMessage: 'No handle specified.',
         });
-    } catch (error: any) {
-        return error;
     }
+
+    return usersService.getByHandle(handle);
 });

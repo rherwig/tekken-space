@@ -20,6 +20,16 @@ const expressionFromKeywords = (keywords: string[], flags = 'gi') =>
     new RegExp(`^(${keywords.join('|')})`, flags);
 
 /**
+ * Creates a regular expression that matches a list of movement pairs.
+ * @param pairs
+ */
+const expressionFromMovementPairs = (pairs: string[][]) => {
+    const expressions = pairs.map((pair) => pair.join('/?')).join('|');
+
+    return new RegExp(`^(${expressions})`, 'gi');
+};
+
+/**
  * Separator character for moves in a combo.
  */
 const MOVE_SEPARATOR = ';';
@@ -160,8 +170,17 @@ const TOKENS: InstructionToken[] = [
         keywords: TORNADO_KEYWORDS,
     },
     {
+        type: InstructionTypes.TEXT,
+        expression: /^\((.+)\)/gi,
+    },
+    {
         type: InstructionTypes.MOVEMENT,
-        expression: /^([ufdbn])([/:~])([ufdbn])/gi,
+        expression: expressionFromMovementPairs([
+            ['u', 'f'],
+            ['u', 'b'],
+            ['d', 'f'],
+            ['d', 'b'],
+        ]),
     },
     {
         type: InstructionTypes.MOVEMENT,
@@ -185,7 +204,7 @@ const TOKENS: InstructionToken[] = [
     },
     {
         type: InstructionTypes.HIDDEN,
-        expression: /^([+])/gi,
+        expression: /^([+.,])/gi,
     },
 ];
 
@@ -296,7 +315,7 @@ export const parseTekkenNotation = (notation: string): ParserResult => {
     const moveNotations: string[] = notation.split(MOVE_SEPARATOR);
 
     const moves = moveNotations.map((moveNotation: string) => {
-        const instructions = parseInstructions(sanitize(moveNotation));
+        const instructions = parseInstructions(moveNotation);
 
         return {
             $type: MetaTypes.MOVE,
