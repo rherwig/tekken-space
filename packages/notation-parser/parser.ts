@@ -1,3 +1,5 @@
+import keywords from 'ajv-keywords/src/keywords';
+
 import { STANCE_KEYWORDS } from './constants/stances';
 import {
     type ConsumeTokenResult,
@@ -168,6 +170,16 @@ const TOKENS: InstructionToken[] = [
         subType: InstructionSubType.TORNADO,
         expression: expressionFromKeywords(Object.keys(TORNADO_KEYWORDS)),
         keywords: TORNADO_KEYWORDS,
+    },
+    {
+        type: InstructionTypes.CONTROL,
+        subType: InstructionSubType.BRACKET_LEFT,
+        expression: /^(\[)/g,
+    },
+    {
+        type: InstructionTypes.CONTROL,
+        subType: InstructionSubType.BRACKET_RIGHT,
+        expression: /^(])/g,
     },
     {
         type: InstructionTypes.TEXT,

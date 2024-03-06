@@ -5,6 +5,7 @@ import {
     type ParsedInstruction,
 } from 'packages/notation-parser';
 import TsNotationBadge from 'packages/ui/notation/special/ts-notation-badge.vue';
+import TsControl from 'packages/ui/notation/control/ts-control.vue';
 
 import TsMovement from '../movement/ts-movement.vue';
 import TsAttack from '../attack/ts-attack.vue';
@@ -62,6 +63,11 @@ const { type, subType, notation } = unref(props.instruction);
                 class="bg-gray-600"
             />
         </div>
+
+        <TsControl
+            v-else-if="type === InstructionTypes.CONTROL"
+            :instruction="props.instruction"
+        />
 
         <div
             v-else-if="type === InstructionTypes.SPECIAL"

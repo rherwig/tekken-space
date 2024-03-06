@@ -15,6 +15,7 @@ export enum InstructionTypes {
     SPECIAL,
     ALTERNATIVE,
     HIDDEN,
+    CONTROL,
 }
 
 export enum InstructionSubType {
@@ -23,6 +24,8 @@ export enum InstructionSubType {
     HEAT,
     RAGE,
     STANCE,
+    BRACKET_LEFT,
+    BRACKET_RIGHT,
 }
 
 export interface InstructionToken {
