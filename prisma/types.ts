@@ -5,8 +5,17 @@ export type Character = Prisma.Character;
 export type Move = Prisma.Move;
 export type MoveList = Prisma.MoveList;
 
+export enum ControllerLayout {
+    UNKNOWN = 'UNKNOWN',
+    GAMEPAD = 'GAMEPAD',
+    XBOX = 'XBOX',
+    PLAYSTATION = 'PLAYSTATION',
+    ARCADE = 'ARCADE',
+    HITBOX = 'HITBOX',
+}
+
 export interface UserPreferences {
-    layout: 'Gamepad' | 'Arcade';
+    layout: ControllerLayout;
 }
 
 export interface TemporaryUserPreferences {

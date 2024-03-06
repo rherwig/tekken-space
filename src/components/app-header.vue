@@ -36,6 +36,7 @@
                 <ClientOnly>
                     <USelectMenu
                         :options="controlSchemes"
+                        value-attribute="value"
                         v-model="profile.preferences.layout"
                         size="md"
                     />
@@ -48,11 +49,16 @@
 </template>
 
 <script setup lang="ts">
+import { ControllerLayout } from 'prisma/types';
+
 import NavigationLink from '~/components/navigation/navigation-link.vue';
 import ProflieWidget from '~/modules/auth/components/profile/proflie-widget.vue';
 import { useProfile } from '~/stores/profile';
 
-const controlSchemes = ['Gamepad', 'Arcade'];
+const controlSchemes = [
+    { label: 'Gamepad', value: ControllerLayout.GAMEPAD },
+    { label: 'Arcade', value: ControllerLayout.ARCADE },
+];
 
 const profile = useProfile();
 </script>

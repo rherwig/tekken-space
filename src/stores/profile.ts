@@ -1,7 +1,12 @@
 import { ref } from 'vue';
 import { defineStore } from 'pinia';
 import Prisma from '@prisma/client';
-import type { PopulatedMoveList, TemporaryUserPreferences, UserPreferences } from 'prisma/types';
+import {
+    ControllerLayout,
+    type PopulatedMoveList,
+    type TemporaryUserPreferences,
+    type UserPreferences,
+} from 'prisma/types';
 import { $fetch } from 'ofetch';
 
 import { useIsomorphicUrl } from '#build/imports';
@@ -11,7 +16,7 @@ export const useProfile = defineStore('profile', () => {
      * The user's preferences.
      */
     const preferences = ref<UserPreferences>({
-        layout: 'Gamepad',
+        layout: ControllerLayout.GAMEPAD,
     });
 
     /**
