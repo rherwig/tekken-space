@@ -50,26 +50,26 @@ const blockFrames = computed(() => {
         <div class="space-x-2">
             <TsIconBadge
                 v-if="damage"
-                :label="damage"
+                :label="damage.toString()"
                 tooltip="Damage"
                 icon="i-tabler-heart-broken"
                 color="red"
             />
             <TsIconBadge
                 v-if="startupFrames"
-                :label="startupFrames"
+                :label="startupFrames.toString()"
                 tooltip="Startup Frames"
                 icon="i-tabler-clock"
             />
             <TsIconBadge
                 v-if="hitFrames"
-                :label="hitFrames"
+                :label="hitFrames.toString()"
                 tooltip="Hit Frames"
                 icon="i-tabler-heart-discount"
             />
             <TsIconBadge
                 v-if="blockFrames"
-                :label="blockFrames"
+                :label="blockFrames.toString()"
                 tooltip="Block Frames"
                 icon="i-tabler-shield"
                 color="blue"

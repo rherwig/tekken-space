@@ -1,10 +1,10 @@
 <script lang="ts" setup>
-import type { Move, PopulatedMove } from 'prisma/types';
+import { Archetype, type PopulatedMove } from 'prisma/types';
 
 import type { OverviewMoveItem } from '~/components/moves/moves.types';
 import MoveOverview from '~/components/moves/overview/move-overview.vue';
 import MoveOverviewCard from '~/components/moves/overview/move-overview-card.vue';
-import { useAsyncData, useFetch, useRoute } from '#imports';
+import { useAsyncData, useRoute } from '#imports';
 import MoveDisplayWithMeta from '~/components/moves/move-display-with-meta.vue';
 
 const route = useRoute();
@@ -22,6 +22,49 @@ const { data } = await useAsyncData('character-details', async () => {
 });
 
 const hasCheatSheet = false;
+
+const archetypes: Record<Archetype, { label: string; color: string }> = {
+    [Archetype.BALANCED]: {
+        label: 'Balanced',
+        color: 'blue',
+    },
+    [Archetype.DEFENSE]: {
+        label: 'Defense',
+        color: 'blue',
+    },
+    [Archetype.GRAPPLER]: {
+        label: 'Grappler',
+        color: 'yellow',
+    },
+    [Archetype.MISHIMA]: {
+        label: 'Mishima',
+        color: 'red',
+    },
+    [Archetype.MIXUP]: {
+        label: 'Mixup',
+        color: 'purple',
+    },
+    [Archetype.OFFENSE]: {
+        label: 'Offense',
+        color: 'red',
+    },
+    [Archetype.POKING]: {
+        label: 'Poking',
+        color: 'green',
+    },
+    [Archetype.RUSHDOWN]: {
+        label: 'Rushdown',
+        color: 'red',
+    },
+    [Archetype.ZONING]: {
+        label: 'Zoning',
+        color: 'blue',
+    },
+    [Archetype.UNKNOWN]: {
+        label: 'Unknown',
+        color: 'gray',
+    },
+};
 
 const punishment: OverviewMoveItem[] = [];
 const punishmentCrouching: OverviewMoveItem[] = [];
@@ -60,13 +103,13 @@ const stapleCombos: OverviewMoveItem[] = [];
                         <div class="flex gap-2">
                             <UBadge
                                 v-for="archetype in data.character.metadata?.archetypes"
-                                :key="archetype.label"
+                                :key="archetype"
                                 size="md"
-                                :label="archetype.label"
-                                :color="archetype.color"
+                                :label="archetypes[archetype]?.label"
+                                :color="archetypes[archetype]?.color"
                             />
 
-                            <div v-if="!data.character.metadata?.archetypes.length">
+                            <div v-if="!data.character.metadata?.archetypes?.length">
                                 <div class="text-copy/50">No archetype listed</div>
                             </div>
                         </div>
@@ -88,7 +131,7 @@ const stapleCombos: OverviewMoveItem[] = [];
                     <div class="whitespace-nowrap mr-12">
                         <div>Pros</div>
                         <ul
-                            v-if="data.character.metadata?.pros.length"
+                            v-if="data.character.metadata?.pros?.length"
                             class="flex flex-col m-0 p-0 list-none"
                         >
                             <li
@@ -112,7 +155,7 @@ const stapleCombos: OverviewMoveItem[] = [];
                         <div>Cons</div>
                         <ul
                             class="flex flex-col m-0 p-0 list-none"
-                            v-if="data.character.metadata?.cons.length"
+                            v-if="data.character.metadata?.cons?.length"
                         >
                             <li
                                 v-for="item in data.character.metadata?.cons"
