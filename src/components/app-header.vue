@@ -1,5 +1,5 @@
 <template>
-    <header class="h-16 flex-shrink-0 bg-gradient-to-b from-black/25 to-transparent">
+    <header class="h-16 flex-shrink-0 bg-gradient-to-b from-black/25 to-transparent mb-4">
         <div class="container flex justify-between h-full">
             <ul class="flex h-full">
                 <li class="h-full -ml-8">
@@ -12,12 +12,7 @@
                     </NavigationLink>
                 </li>
                 <li>
-                    <NavigationLink
-                        v-if="false"
-                        href="/characters"
-                    >
-                        Characters
-                    </NavigationLink>
+                    <NavigationLink href="/characters"> Characters </NavigationLink>
                 </li>
                 <li>
                     <NavigationLink
@@ -29,6 +24,14 @@
                 </li>
                 <li>
                     <NavigationLink href="/share"> Share </NavigationLink>
+                </li>
+                <li>
+                    <NavigationLink
+                        v-if="false"
+                        href="/help"
+                    >
+                        Help
+                    </NavigationLink>
                 </li>
             </ul>
 
@@ -58,6 +61,7 @@ import { useProfile } from '~/stores/profile';
 const controlSchemes = [
     { label: 'Gamepad', value: ControllerLayout.GAMEPAD },
     { label: 'Arcade', value: ControllerLayout.ARCADE },
+    // { label: 'Tekken', value: ControllerLayout.TEKKEN },
 ];
 
 const profile = useProfile();

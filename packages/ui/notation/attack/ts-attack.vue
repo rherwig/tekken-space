@@ -1,6 +1,7 @@
 <script lang="ts" setup>
 import type { ComputedRef } from 'vue';
 import { ControllerLayout } from 'prisma/types';
+import TsAttackTekken from 'packages/ui/notation/attack/themes/ts-attack-tekken.vue';
 
 import TsAttackGeneric from './themes/ts-attack-generic.vue';
 
@@ -19,11 +20,19 @@ const propScheme: ComputedRef<ControllerLayout> = computed(() => profile.prefere
 const isGenericTheme = computed(() =>
     [ControllerLayout.GAMEPAD, ControllerLayout.ARCADE].includes(propScheme.value),
 );
+
+const isTekkenTheme = computed(() => propScheme.value === ControllerLayout.TEKKEN);
 </script>
 
 <template>
     <TsAttackGeneric
         v-if="isGenericTheme"
+        :type="propScheme"
+        :actions="props.actions"
+    />
+
+    <TsAttackTekken
+        v-else-if="isTekkenTheme"
         :type="propScheme"
         :actions="props.actions"
     />

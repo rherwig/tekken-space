@@ -1,0 +1,1448 @@
+[
+  {
+    "command": "1",
+    "hitLevels": [
+      "h"
+    ],
+    "damage": [
+      "5"
+    ],
+    "startupFrames": "i10",
+    "blockFrames": "+1",
+    "hitFrames": "+8",
+    "counterFrames": "",
+    "notes": ""
+  },
+  {
+    "command": "1+2",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "20"
+    ],
+    "startupFrames": "i17",
+    "blockFrames": "-14",
+    "hitFrames": "+2",
+    "counterFrames": "",
+    "notes": ""
+  },
+  {
+    "command": "1,2",
+    "hitLevels": [
+      "h",
+      "h"
+    ],
+    "damage": [
+      "5",
+      "12"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-1",
+    "hitFrames": "+6",
+    "counterFrames": "",
+    "notes": "Combo from 1st hit"
+  },
+  {
+    "command": "1+2,1+2",
+    "hitLevels": [
+      "m",
+      "th"
+    ],
+    "damage": [
+      "20",
+      "10"
+    ],
+    "startupFrames": "",
+    "blockFrames": "",
+    "hitFrames": "+0",
+    "counterFrames": "",
+    "notes": "Only comes out on hit"
+  },
+  {
+    "command": "1+2,1+2,2",
+    "hitLevels": [
+      "m",
+      "thth",
+      "sp"
+    ],
+    "damage": [
+      "20",
+      "10",
+      "18"
+    ],
+    "startupFrames": "",
+    "blockFrames": "",
+    "hitFrames": "th",
+    "counterFrames": "th",
+    "notes": "\n            * Grants STB on hit\n            * Only comes out on hit\n            * Deals 20 damage with the input b,f+2\n            * Foot-side & Face-up & -5F from Not Starburst\n            * Head-side & Face-up & +0F during Starburst\n        "
+  },
+  {
+    "command": "1+2+3+4",
+    "hitLevels": [
+      "sp"
+    ],
+    "damage": [
+      "–"
+    ],
+    "startupFrames": "",
+    "blockFrames": "",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": ""
+  },
+  {
+    "command": "1+3",
+    "hitLevels": [
+      "th(h)"
+    ],
+    "damage": [
+      "35"
+    ],
+    "startupFrames": "i12~14",
+    "blockFrames": "-2",
+    "hitFrames": "+0d",
+    "counterFrames": "",
+    "notes": "\n            * Break: 1 or 2\n            * Opp. Position on break: Reverse Pos.\n            * Opp. Position on hit: Foot-sd. Face-up\n        "
+  },
+  {
+    "command": "1,3",
+    "hitLevels": [
+      "h",
+      "l"
+    ],
+    "damage": [
+      "5",
+      "11"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-12",
+    "hitFrames": "-1",
+    "counterFrames": "",
+    "notes": "Combo from 1st CH"
+  },
+  {
+    "command": "2",
+    "hitLevels": [
+      "h"
+    ],
+    "damage": [
+      "10"
+    ],
+    "startupFrames": "i12",
+    "blockFrames": "-3",
+    "hitFrames": "+3",
+    "counterFrames": "",
+    "notes": ""
+  },
+  {
+    "command": "2,1",
+    "hitLevels": [
+      "h",
+      "m"
+    ],
+    "damage": [
+      "10",
+      "13"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-6",
+    "hitFrames": "+5",
+    "counterFrames": "",
+    "notes": "Combo from 1st hit"
+  },
+  {
+    "command": "2,1,2",
+    "hitLevels": [
+      "h",
+      "m",
+      "m"
+    ],
+    "damage": [
+      "10",
+      "13",
+      "25"
+    ],
+    "startupFrames": "i12",
+    "blockFrames": "-13",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": "\n            * Heat Engager\n\n            * Combo from 2nd CH\n            * Grants STB on hit\n        "
+  },
+  {
+    "command": "2+3",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "15"
+    ],
+    "startupFrames": "i16",
+    "blockFrames": "+1",
+    "hitFrames": "+2",
+    "counterFrames": "",
+    "notes": "\n            * Heat Burst\n        "
+  },
+  {
+    "command": "2+4",
+    "hitLevels": [
+      "th(h)"
+    ],
+    "damage": [
+      "35"
+    ],
+    "startupFrames": "i12~14",
+    "blockFrames": "-3",
+    "hitFrames": "+0d",
+    "counterFrames": "",
+    "notes": "\n            * Break: 1 or 2\n            * Opp. Position on break: Reverse Pos.\n            * Opp. Position on hit: Reverse Pos. Head-sd. Face-up\n        "
+  },
+  {
+    "command": "3",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "14"
+    ],
+    "startupFrames": "i14",
+    "blockFrames": "-10",
+    "hitFrames": "+1",
+    "counterFrames": "",
+    "notes": ""
+  },
+  {
+    "command": "3,2",
+    "hitLevels": [
+      "m",
+      "h"
+    ],
+    "damage": [
+      "14",
+      "22"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-6",
+    "hitFrames": "+15",
+    "counterFrames": "",
+    "notes": "\n            * Heat Engager\n\n            * Grants STB on hit\n        "
+  },
+  {
+    "command": "3+4",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "20"
+    ],
+    "startupFrames": "i24~26",
+    "blockFrames": "-10",
+    "hitFrames": "KND",
+    "counterFrames": "KND",
+    "notes": ""
+  },
+  {
+    "command": "4",
+    "hitLevels": [
+      "h"
+    ],
+    "damage": [
+      "13"
+    ],
+    "startupFrames": "i12",
+    "blockFrames": "-8",
+    "hitFrames": "+3",
+    "counterFrames": "LNC",
+    "notes": ""
+  },
+  {
+    "command": "4,3",
+    "hitLevels": [
+      "h",
+      "h"
+    ],
+    "damage": [
+      "13",
+      "14"
+    ],
+    "startupFrames": "",
+    "blockFrames": "+0",
+    "hitFrames": "+15Sp",
+    "counterFrames": "KND",
+    "notes": "\n            * Homing\n            * Combo from 1st hit\n            * Can be delayed 11F\n            * Combo can be delayed 5F from hit\n        "
+  },
+  {
+    "command": "b+1",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "25"
+    ],
+    "startupFrames": "i18~19",
+    "blockFrames": "-5",
+    "hitFrames": "KND",
+    "counterFrames": "KND",
+    "notes": "Homing"
+  },
+  {
+    "command": "b+1+2",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "25"
+    ],
+    "startupFrames": "i22",
+    "blockFrames": "-13",
+    "hitFrames": "KND",
+    "counterFrames": "KND",
+    "notes": "\n            * absorb an attack to power up\n            * – Add chip damage when guarded\n        "
+  },
+  {
+    "command": "b+2",
+    "hitLevels": [
+      "h"
+    ],
+    "damage": [
+      "25"
+    ],
+    "startupFrames": "i14",
+    "blockFrames": "-9",
+    "hitFrames": "KND",
+    "counterFrames": "KND",
+    "notes": "\n            * Tornado\n        "
+  },
+  {
+    "command": "b+2+3",
+    "hitLevels": [
+      "ub(m)"
+    ],
+    "damage": [
+      "60"
+    ],
+    "startupFrames": "i72",
+    "blockFrames": "KND",
+    "hitFrames": "KND",
+    "counterFrames": "KND",
+    "notes": ""
+  },
+  {
+    "command": "b+3",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "14"
+    ],
+    "startupFrames": "i13",
+    "blockFrames": "-4",
+    "hitFrames": "+7",
+    "counterFrames": "",
+    "notes": ""
+  },
+  {
+    "command": "b+3,3",
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "damage": [
+      "14",
+      "21"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-12",
+    "hitFrames": "+7c",
+    "counterFrames": "LNC",
+    "notes": "\n            * Combo from 1st CH\n            * Can be delayed\n        "
+  },
+  {
+    "command": "b+3+4",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "24"
+    ],
+    "startupFrames": "i29",
+    "blockFrames": "-14",
+    "hitFrames": "KND",
+    "counterFrames": "KND",
+    "notes": "Homing"
+  },
+  {
+    "command": "b+4",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "10"
+    ],
+    "startupFrames": "i17",
+    "blockFrames": "-14",
+    "hitFrames": "-3",
+    "counterFrames": "",
+    "notes": ""
+  },
+  {
+    "command": "b+4,1",
+    "hitLevels": [
+      "m",
+      "h"
+    ],
+    "damage": [
+      "10",
+      "18"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-11",
+    "hitFrames": "+13Sp",
+    "counterFrames": "KND",
+    "notes": "\n            * Tornado\n            * Grants STB on hit\n            * Combo from 1st hit\n            * Can be delayed 12F\n            * Combo can be delayed 10F from CH\n            * Chip damage when guarded\n        "
+  },
+  {
+    "command": "b+4,2",
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "damage": [
+      "10",
+      "20"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-11",
+    "hitFrames": "KND",
+    "counterFrames": "KND",
+    "notes": "\n            * Heat Engager\n\n            * Grants STB on hit\n            * Combo from 1st hit\n        "
+  },
+  {
+    "command": "b+4,3",
+    "hitLevels": [
+      "m",
+      "h"
+    ],
+    "damage": [
+      "10",
+      "14"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-12",
+    "hitFrames": "-4",
+    "counterFrames": "+1",
+    "notes": "\n            * Homing\n            * Combo from 1st hit\n            * Can be delayed 12F\n        "
+  },
+  {
+    "command": "b+4,3,2",
+    "hitLevels": [
+      "m",
+      "h",
+      "m"
+    ],
+    "damage": [
+      "10",
+      "14",
+      "20"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-13",
+    "hitFrames": "KND",
+    "counterFrames": "KND",
+    "notes": "Combo from 2nd CH"
+  },
+  {
+    "command": "b+4,4",
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "damage": [
+      "10",
+      "16"
+    ],
+    "startupFrames": "",
+    "blockFrames": "",
+    "hitFrames": "LNC",
+    "counterFrames": "",
+    "notes": "Tornado"
+  },
+  {
+    "command": "Back throw",
+    "hitLevels": [
+      "th(h)"
+    ],
+    "damage": [
+      "50"
+    ],
+    "startupFrames": "",
+    "blockFrames": "",
+    "hitFrames": "+0d",
+    "counterFrames": "",
+    "notes": "\n            * Break: none\n            * Opp. Position on break: –\n            * Opp. Position on hit: Foot-sd. Face-down\n        "
+  },
+  {
+    "command": "(back to wall).b,b,ub",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "21"
+    ],
+    "startupFrames": "i36",
+    "blockFrames": "+0c",
+    "hitFrames": "KND",
+    "counterFrames": "KND",
+    "notes": "\n            * Air Status 5F\n        "
+  },
+  {
+    "command": "d+1",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "14"
+    ],
+    "startupFrames": "i17",
+    "blockFrames": "-8",
+    "hitFrames": "+2",
+    "counterFrames": "",
+    "notes": ""
+  },
+  {
+    "command": "d+1+2",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "28"
+    ],
+    "startupFrames": "i13~14",
+    "blockFrames": "-18",
+    "hitFrames": "KND",
+    "counterFrames": "KND",
+    "notes": "Same move as BT.1+2"
+  },
+  {
+    "command": "d+2",
+    "hitLevels": [
+      "l"
+    ],
+    "damage": [
+      "6"
+    ],
+    "startupFrames": "i20",
+    "blockFrames": "-12",
+    "hitFrames": "-1",
+    "counterFrames": "",
+    "notes": "\n        "
+  },
+  {
+    "command": "d+2,2",
+    "hitLevels": [
+      "l",
+      "l"
+    ],
+    "damage": [
+      "6",
+      "8"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-13",
+    "hitFrames": "-1",
+    "counterFrames": "",
+    "notes": ""
+  },
+  {
+    "command": "d+3",
+    "hitLevels": [
+      "l"
+    ],
+    "damage": [
+      "12"
+    ],
+    "startupFrames": "i16",
+    "blockFrames": "-17",
+    "hitFrames": "-3",
+    "counterFrames": "",
+    "notes": ""
+  },
+  {
+    "command": "d+4",
+    "hitLevels": [
+      "l"
+    ],
+    "damage": [
+      "7"
+    ],
+    "startupFrames": "i12",
+    "blockFrames": "-13",
+    "hitFrames": "-2",
+    "counterFrames": "",
+    "notes": ""
+  },
+  {
+    "command": "db+1",
+    "hitLevels": [
+      "sm"
+    ],
+    "damage": [
+      "5"
+    ],
+    "startupFrames": "i10",
+    "blockFrames": "-5",
+    "hitFrames": "+6",
+    "counterFrames": "",
+    "notes": "\n            * Returns to standing when input F\n        "
+  },
+  {
+    "command": "db+1+2",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "20"
+    ],
+    "startupFrames": "i17",
+    "blockFrames": "",
+    "hitFrames": "KND",
+    "counterFrames": "",
+    "notes": "Tornado"
+  },
+  {
+    "command": "db+2",
+    "hitLevels": [
+      "sm"
+    ],
+    "damage": [
+      "8"
+    ],
+    "startupFrames": "i11",
+    "blockFrames": "-4",
+    "hitFrames": "+7",
+    "counterFrames": "",
+    "notes": ""
+  },
+  {
+    "command": "db+2,1",
+    "hitLevels": [
+      "sm",
+      "m"
+    ],
+    "damage": [
+      "8",
+      "12"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-13",
+    "hitFrames": "+3",
+    "counterFrames": "",
+    "notes": "\n            * Combo from 1st CH\n            * Same move as FC.2,1\n        "
+  },
+  {
+    "command": "db+3",
+    "hitLevels": [
+      "l"
+    ],
+    "damage": [
+      "23"
+    ],
+    "startupFrames": "i24~25",
+    "blockFrames": "-15",
+    "hitFrames": "+3c",
+    "counterFrames": "KND",
+    "notes": "\n        "
+  },
+  {
+    "command": "db+4",
+    "hitLevels": [
+      "l"
+    ],
+    "damage": [
+      "7"
+    ],
+    "startupFrames": "i15",
+    "blockFrames": "-13",
+    "hitFrames": "-2",
+    "counterFrames": "",
+    "notes": ""
+  },
+  {
+    "command": "db+4,3",
+    "hitLevels": [
+      "l",
+      "h"
+    ],
+    "damage": [
+      "7",
+      "10"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-11",
+    "hitFrames": "+0",
+    "counterFrames": "",
+    "notes": "Combo from 1st hit"
+  },
+  {
+    "command": "df+1",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "10"
+    ],
+    "startupFrames": "i15",
+    "blockFrames": "-2",
+    "hitFrames": "+9",
+    "counterFrames": "",
+    "notes": ""
+  },
+  {
+    "command": "df+1,2",
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "damage": [
+      "10",
+      "15"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-15",
+    "hitFrames": "LNC",
+    "counterFrames": "LNC",
+    "notes": "\n            * Combo from 1st hit\n        "
+  },
+  {
+    "command": "df+2",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "19"
+    ],
+    "startupFrames": "i14",
+    "blockFrames": "-13",
+    "hitFrames": "+5",
+    "counterFrames": "KND",
+    "notes": ""
+  },
+  {
+    "command": "df+3",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "12"
+    ],
+    "startupFrames": "i14",
+    "blockFrames": "-7",
+    "hitFrames": "+4",
+    "counterFrames": "",
+    "notes": ""
+  },
+  {
+    "command": "df+3,1",
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "damage": [
+      "12",
+      "18"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-12",
+    "hitFrames": "KND",
+    "counterFrames": "KND",
+    "notes": "\n            * Tornado\n            * Combo from 1st hit\n            * Can be delayed 14F\n        "
+  },
+  {
+    "command": "df+3,2",
+    "hitLevels": [
+      "m",
+      "h"
+    ],
+    "damage": [
+      "12",
+      "10"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-2",
+    "hitFrames": "+4",
+    "counterFrames": "",
+    "notes": "\n            * Combo from 1st hit\n            * Can be delayed 14F\n        "
+  },
+  {
+    "command": "df+4",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "14"
+    ],
+    "startupFrames": "i13",
+    "blockFrames": "-8",
+    "hitFrames": "+3",
+    "counterFrames": "",
+    "notes": ""
+  },
+  {
+    "command": "f+1+2",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "8"
+    ],
+    "startupFrames": "i16",
+    "blockFrames": "-18",
+    "hitFrames": "-7",
+    "counterFrames": "",
+    "notes": ""
+  },
+  {
+    "command": "f+1+2,1+2",
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "damage": [
+      "8",
+      "16"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-14",
+    "hitFrames": "KND",
+    "counterFrames": "KND",
+    "notes": "\n            * Combo from 1st hit\n            * Can be delayed\n        "
+  },
+  {
+    "command": "f+2",
+    "hitLevels": [
+      "h"
+    ],
+    "damage": [
+      "9"
+    ],
+    "startupFrames": "i12",
+    "blockFrames": "+0",
+    "hitFrames": "+6",
+    "counterFrames": "",
+    "notes": ""
+  },
+  {
+    "command": "f+2,1",
+    "hitLevels": [
+      "h",
+      "m"
+    ],
+    "damage": [
+      "9",
+      "12"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-10",
+    "hitFrames": "+6c",
+    "counterFrames": "",
+    "notes": "\n            * Combo from 1st hit\n        "
+  },
+  {
+    "command": "f+2,1,1+2",
+    "hitLevels": [
+      "h",
+      "m",
+      "m"
+    ],
+    "damage": [
+      "9",
+      "12",
+      "25"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-18",
+    "hitFrames": "KND",
+    "counterFrames": "KND",
+    "notes": "\n            * Can be delayed 14F\n            * Combo from 1st or 2nd CH\n        "
+  },
+  {
+    "command": "f+2,2",
+    "hitLevels": [
+      "hm"
+    ],
+    "damage": [
+      "9",
+      "20"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-27",
+    "hitFrames": "KND",
+    "counterFrames": "KND",
+    "notes": "\n            * Grants STB on hit\n            * Combo from 1st hit\n        "
+  },
+  {
+    "command": "f+3",
+    "hitLevels": [
+      "h"
+    ],
+    "damage": [
+      "18"
+    ],
+    "startupFrames": "i18",
+    "blockFrames": "+0",
+    "hitFrames": "+15Sp",
+    "counterFrames": "KND",
+    "notes": "\n            * Homing\n        "
+  },
+  {
+    "command": "f+3+4",
+    "hitLevels": [
+      "h"
+    ],
+    "damage": [
+      "18"
+    ],
+    "startupFrames": "i17",
+    "blockFrames": "+2",
+    "hitFrames": "KND",
+    "counterFrames": "KND",
+    "notes": "Homing"
+  },
+  {
+    "command": "f+4",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "23"
+    ],
+    "startupFrames": "i22~23",
+    "blockFrames": "+4c",
+    "hitFrames": "",
+    "counterFrames": "KND",
+    "notes": ""
+  },
+  {
+    "command": "FC.df+2",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "14"
+    ],
+    "startupFrames": "i14~16",
+    "blockFrames": "-18",
+    "hitFrames": "-7",
+    "counterFrames": "",
+    "notes": "\n            * Same move as f,F+2\n        "
+  },
+  {
+    "command": "FC.df+2,2",
+    "hitLevels": [
+      "m",
+      "h"
+    ],
+    "damage": [
+      "14",
+      "20"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-2c",
+    "hitFrames": "",
+    "counterFrames": "KND",
+    "notes": "\n            * Combo from 1st hit\n            * Can be delayed\n            * Same move as f,F+2,2\n        "
+  },
+  {
+    "command": "f,F+2",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "14"
+    ],
+    "startupFrames": "i14~16",
+    "blockFrames": "-18",
+    "hitFrames": "-7",
+    "counterFrames": "",
+    "notes": "\n            * Same move as FC.df+2\n            * Cannot be buffered\n        "
+  },
+  {
+    "command": "f,F+2,1+2",
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "damage": [
+      "14",
+      "20"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-13",
+    "hitFrames": "KND",
+    "counterFrames": "KND",
+    "notes": "\n            * Grants STB on hit\n            * Can be delayed\n            * Combo from 1st NH\n        "
+  },
+  {
+    "command": "f,F+2,2",
+    "hitLevels": [
+      "m",
+      "h"
+    ],
+    "damage": [
+      "14",
+      "20"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-2c",
+    "hitFrames": "",
+    "counterFrames": "KND",
+    "notes": "\n            * Combo from 1st hit\n            * Can be delayed\n            * Same move as FC.df+2,2\n        "
+  },
+  {
+    "command": "f,F+4",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "20"
+    ],
+    "startupFrames": "i15~17",
+    "blockFrames": "-1",
+    "hitFrames": "+5",
+    "counterFrames": "+13",
+    "notes": ""
+  },
+  {
+    "command": "f,f,F+2",
+    "hitLevels": [
+      "h"
+    ],
+    "damage": [
+      "40"
+    ],
+    "startupFrames": "i13~16",
+    "blockFrames": "+7",
+    "hitFrames": "KND",
+    "counterFrames": "KND",
+    "notes": "\n            * Heat Engager\n\n            * Grants STB on hit\n            * Wall Crush +21g at the wall\n\n\n            * Chip damage when guarded\n        "
+  },
+  {
+    "command": "2,1,2",
+    "hitLevels": [
+      ""
+    ],
+    "damage": [
+      ""
+    ],
+    "startupFrames": "",
+    "blockFrames": "-13",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": "\n        "
+  },
+  {
+    "command": "H.2+3",
+    "hitLevels": [
+      "l",
+      "th"
+    ],
+    "damage": [
+      "12",
+      "40"
+    ],
+    "startupFrames": "i18",
+    "blockFrames": "-14",
+    "hitFrames": "th",
+    "counterFrames": "",
+    "notes": "\n            * Heat Smash\n        "
+  },
+  {
+    "command": "H.3,2,F",
+    "hitLevels": [
+      "m",
+      "h"
+    ],
+    "damage": [
+      "14",
+      "22"
+    ],
+    "startupFrames": "i14",
+    "blockFrames": "+5",
+    "hitFrames": "+34",
+    "counterFrames": "",
+    "notes": ""
+  },
+  {
+    "command": "H.b+4,2,F",
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "damage": [
+      "10",
+      "20"
+    ],
+    "startupFrames": "i17",
+    "blockFrames": "",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": ""
+  },
+  {
+    "command": "H.f,f,F+2,F",
+    "hitLevels": [
+      "h"
+    ],
+    "damage": [
+      "40"
+    ],
+    "startupFrames": "i13",
+    "blockFrames": "",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": "\n            * Grants STB on hit\n        "
+  },
+  {
+    "command": "Left throw",
+    "hitLevels": [
+      "th(h)"
+    ],
+    "damage": [
+      "40"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-3",
+    "hitFrames": "-3d",
+    "counterFrames": "",
+    "notes": "\n            * Break: 1\n            * Opp. Position on break:\n            * Opp. Position on hit: Right-sd. Face-up\n        "
+  },
+  {
+    "command": "R.df+1+2",
+    "hitLevels": [
+      "m",
+      "th"
+    ],
+    "damage": [
+      "10",
+      "45"
+    ],
+    "startupFrames": "",
+    "blockFrames": "",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": "\n            * Rage Art\n        "
+  },
+  {
+    "command": "Right throw",
+    "hitLevels": [
+      "th(h)"
+    ],
+    "damage": [
+      "40"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-3",
+    "hitFrames": "+0d",
+    "counterFrames": "",
+    "notes": "\n            * Break: 2\n            * Opp. Position on break:\n            * Opp. Position on hit: Foot-sd. Face-up\n        "
+  },
+  {
+    "command": "SS.4",
+    "hitLevels": [
+      "l"
+    ],
+    "damage": [
+      "20"
+    ],
+    "startupFrames": "i20",
+    "blockFrames": "-12",
+    "hitFrames": "+6c",
+    "counterFrames": "KND",
+    "notes": "\n        "
+  },
+  {
+    "command": "STB.4,2",
+    "hitLevels": [
+      "h",
+      "sm"
+    ],
+    "damage": [
+      "13",
+      "32"
+    ],
+    "startupFrames": "i28-36",
+    "blockFrames": "-17",
+    "hitFrames": "+27(+1)",
+    "counterFrames": "",
+    "notes": "\n            * Tornado\n            * Chip damage when guarded\n        "
+  },
+  {
+    "command": "STB.b+4,3,2",
+    "hitLevels": [
+      "m",
+      "h",
+      "m"
+    ],
+    "damage": [
+      "10",
+      "14",
+      "38"
+    ],
+    "startupFrames": "i17",
+    "blockFrames": "-1",
+    "hitFrames": "LNC",
+    "counterFrames": "LNC",
+    "notes": "\n            * Combo from 2nd CH\n            * Chip damage when guarded\n        "
+  },
+  {
+    "command": "STB.d+1,2",
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "damage": [
+      "16",
+      "23"
+    ],
+    "startupFrames": "i28",
+    "blockFrames": "+6",
+    "hitFrames": "+28(+13)",
+    "counterFrames": "",
+    "notes": "\n            * Tornado\n            * Chip damage when guarded\n        "
+  },
+  {
+    "command": "STB.d+2,2",
+    "hitLevels": [
+      "l",
+      "l"
+    ],
+    "damage": [
+      "7",
+      "8"
+    ],
+    "startupFrames": "i20",
+    "blockFrames": "-13",
+    "hitFrames": "-1",
+    "counterFrames": "",
+    "notes": "Combo from 1st CH"
+  },
+  {
+    "command": "STB.db+1+2",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "25"
+    ],
+    "startupFrames": "i17",
+    "blockFrames": "-1",
+    "hitFrames": "Launch",
+    "counterFrames": "",
+    "notes": "\n            * Tornado\n            * Chip damage when guarded\n        "
+  },
+  {
+    "command": "STB.f+1+2,1+2",
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "damage": [
+      "8",
+      "16"
+    ],
+    "startupFrames": "i16",
+    "blockFrames": "-9",
+    "hitFrames": "+64",
+    "counterFrames": "+64",
+    "notes": "\n            * Combo from 1st hit\n            * Can be delayed\n            * Chip damage when guarded\n        "
+  },
+  {
+    "command": "STB.f,f,F+1+2",
+    "hitLevels": [
+      "h"
+    ],
+    "damage": [
+      "55"
+    ],
+    "startupFrames": "i13",
+    "blockFrames": "+8",
+    "hitFrames": "KND",
+    "counterFrames": "",
+    "notes": "\n            * Chip damage when guarded\n        "
+  },
+  {
+    "command": "STB.ws1,2",
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "damage": [
+      "12",
+      "23"
+    ],
+    "startupFrames": "i12",
+    "blockFrames": "+6",
+    "hitFrames": "KND",
+    "counterFrames": "",
+    "notes": "\n            * Tornado\n            * Chip damage when guarded\n        "
+  },
+  {
+    "command": "u+2",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "21"
+    ],
+    "startupFrames": "i21",
+    "blockFrames": "",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": "\n            * Heat Engager\n\n            * Grants STB on hit\n            * Alternate input: ub+2/uf+2\n        "
+  },
+  {
+    "command": "u+3",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "20"
+    ],
+    "startupFrames": "i23~25",
+    "blockFrames": "+2c",
+    "hitFrames": "+7c",
+    "counterFrames": "LNC",
+    "notes": "Alternate input: ub+3, uf+3"
+  },
+  {
+    "command": "uf+1+2",
+    "hitLevels": [
+      "th(h)"
+    ],
+    "damage": [
+      "40"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-6",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": "\n            * Break: 1+2\n            * Opp. Position on break:\n            * Opp. Position on hit: Reverse Pos. Head-sd. Face-up\n        "
+  },
+  {
+    "command": "uf+3+4",
+    "hitLevels": [
+      "mm"
+    ],
+    "damage": [
+      "10",
+      "14"
+    ],
+    "startupFrames": "i20",
+    "blockFrames": "-11",
+    "hitFrames": "KND",
+    "counterFrames": "KND",
+    "notes": "JS after Start-up frame"
+  },
+  {
+    "command": "uf+4",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "13"
+    ],
+    "startupFrames": "i15",
+    "blockFrames": "-13",
+    "hitFrames": "LNC",
+    "counterFrames": "LNC",
+    "notes": "Alternate input: ub+4, u+4"
+  },
+  {
+    "command": "ws1",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "12"
+    ],
+    "startupFrames": "i12",
+    "blockFrames": "-4",
+    "hitFrames": "+7",
+    "counterFrames": "",
+    "notes": ""
+  },
+  {
+    "command": "ws1,1",
+    "hitLevels": [
+      "m",
+      "h"
+    ],
+    "damage": [
+      "12",
+      "15"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-12",
+    "hitFrames": "+9",
+    "counterFrames": "",
+    "notes": "Combo from 1st hit"
+  },
+  {
+    "command": "ws1,2",
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "damage": [
+      "12",
+      "12"
+    ],
+    "startupFrames": "",
+    "blockFrames": "",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": "Tornado"
+  },
+  {
+    "command": "ws2",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "20"
+    ],
+    "startupFrames": "i15",
+    "blockFrames": "-14",
+    "hitFrames": "LNC",
+    "counterFrames": "LNC",
+    "notes": "Grants STB on hit"
+  },
+  {
+    "command": "ws3",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "20"
+    ],
+    "startupFrames": "i16",
+    "blockFrames": "-8",
+    "hitFrames": "KND",
+    "counterFrames": "KND",
+    "notes": ""
+  },
+  {
+    "command": "ws4",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "18"
+    ],
+    "startupFrames": "i11",
+    "blockFrames": "-6",
+    "hitFrames": "+5",
+    "counterFrames": "",
+    "notes": ""
+  }
+]

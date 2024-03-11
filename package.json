@@ -24,6 +24,7 @@
         "@tailwindcss/typography": "0.5.10",
         "@vueuse/nuxt": "10.8.0",
         "eslint": "8.56.0",
+        "jsdom": "24.0.0",
         "nuxt": "3.10.2",
         "pinia": "2.1.7",
         "postcss": "8.4.35",

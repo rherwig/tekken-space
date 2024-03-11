@@ -1,0 +1,4610 @@
+[
+  {
+    "command": "1",
+    "hitLevels": [
+      "h"
+    ],
+    "damage": [
+      "7"
+    ],
+    "startupFrames": "i10",
+    "blockFrames": "+1",
+    "hitFrames": "+8",
+    "counterFrames": "",
+    "notes": ""
+  },
+  {
+    "command": "1,1",
+    "hitLevels": [
+      "h",
+      "m"
+    ],
+    "damage": [
+      "7",
+      "19"
+    ],
+    "startupFrames": ",i23",
+    "blockFrames": "-9",
+    "hitFrames": "+4c",
+    "counterFrames": "+6a",
+    "notes": "\n            * Spike\n            * Weapon\n            * Combo from 1st hit with 2f delay\n            * Input can be delayed 3f\n            * Interrupt with i4 from 1st block\n            * 3 chip damage on block\n            * Power up in NSS or Heat\n        "
+  },
+  {
+    "command": "1+2",
+    "hitLevels": [
+      ""
+    ],
+    "damage": [
+      ""
+    ],
+    "startupFrames": "",
+    "blockFrames": "",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": "\n            * Can recover to r17 FC with D\n            * Parries all highs or mids, except unblockables and some charge moves\n            * Alternate inputs: BT.1+2, FC.db+1+2 FC.d+1+2\n        "
+  },
+  {
+    "command": "1+2+3",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "0"
+    ],
+    "startupFrames": "i22~40",
+    "blockFrames": "-8~+10g",
+    "hitFrames": "+0~+18",
+    "counterFrames": "+16~+34",
+    "notes": "\n            * Weapon\n            * Alternate notation: 1SS.1+2+3\n        "
+  },
+  {
+    "command": "1+2+3+4",
+    "hitLevels": [
+      ""
+    ],
+    "damage": [
+      ""
+    ],
+    "startupFrames": "",
+    "blockFrames": "",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": "\n            * Can’t block for 5 seconds\n            * CH state for 5 seconds\n        "
+  },
+  {
+    "command": "1+2,P",
+    "hitLevels": [
+      "M",
+      "M"
+    ],
+    "damage": [
+      "10",
+      "12"
+    ],
+    "startupFrames": "i15~18 i3~6",
+    "blockFrames": "+1c~+4c",
+    "hitFrames": "+14a",
+    "counterFrames": "",
+    "notes": ""
+  },
+  {
+    "command": "1+3",
+    "hitLevels": [
+      "t"
+    ],
+    "damage": [
+      "35"
+    ],
+    "startupFrames": "i12~14",
+    "blockFrames": "-3",
+    "hitFrames": "+1d",
+    "counterFrames": "",
+    "notes": "Throw break 1 or 2"
+  },
+  {
+    "command": "1+4",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "21"
+    ],
+    "startupFrames": "i6~9",
+    "blockFrames": "-15~-12",
+    "hitFrames": "+14c~+17c",
+    "counterFrames": "",
+    "notes": "\n            * Weapon\n            * 70% proration on standing hit\n            * Knockdown against BT opponent, +23a (+14)\n            * Power up in NSS or Heat\n            * Alternate input: b+1+4, f+1+4, db+1+4, ws1+4, FC.D+1+4\n            * Alternate notation: 1SS.1+4\n            * Alternate names: Yoshimitsu Flash, Soul Stealer\n        "
+  },
+  {
+    "command": "1,NSS.1",
+    "hitLevels": [
+      "h",
+      "m"
+    ],
+    "damage": [
+      "7",
+      "22"
+    ],
+    "startupFrames": ",i23",
+    "blockFrames": "-9",
+    "hitFrames": "+16a",
+    "counterFrames": "+52a",
+    "notes": "\n            * Balcony Break\n            * 11 chip damage on block\n            * Recovers health on hit\n        "
+  },
+  {
+    "command": "2",
+    "hitLevels": [
+      "h"
+    ],
+    "damage": [
+      "10"
+    ],
+    "startupFrames": "i11",
+    "blockFrames": "-1",
+    "hitFrames": "+5",
+    "counterFrames": "+8",
+    "notes": "Alternate notation: 1SS.2"
+  },
+  {
+    "command": "2,1",
+    "hitLevels": [
+      "h",
+      "m"
+    ],
+    "damage": [
+      "10",
+      "23"
+    ],
+    "startupFrames": ",i26~27",
+    "blockFrames": "-9~-8",
+    "hitFrames": "+12a",
+    "counterFrames": "",
+    "notes": "\n            * Balcony Break\n            * Weapon\n            * Combo from 1st CH with 2f delay\n            * Move can be delayed 2f\n            * Cancel to r15 with b\n            * Interrupt with i8 from 1st block\n            * Alternate notation: 1SS.2,1\n        "
+  },
+  {
+    "command": "2,2",
+    "hitLevels": [
+      "h",
+      "h"
+    ],
+    "damage": [
+      "10",
+      "18"
+    ],
+    "startupFrames": ",i24",
+    "blockFrames": "-1",
+    "hitFrames": "+15g",
+    "counterFrames": "",
+    "notes": "\n            * Tornado\n            * Combo from 1st hit with 1f delay\n            * Move can be delayed 1f\n            * Transition to NSS on hit or block only\n            * Transition to r25 KIN with 1+2\n        "
+  },
+  {
+    "command": "2+3",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "12"
+    ],
+    "startupFrames": "i16",
+    "blockFrames": "+1",
+    "hitFrames": "+2c",
+    "counterFrames": "",
+    "notes": "\n            * Heat Burst\n            * Cancel to r45 with b,b\n            * 3 chip damage on block\n            * Partially uses Heat\n            * Unparryable\n            * Ignores regular power crush armor\n        "
+  },
+  {
+    "command": "2,3",
+    "hitLevels": [
+      "h",
+      "h"
+    ],
+    "damage": [
+      "10",
+      "24"
+    ],
+    "startupFrames": ",i26~27",
+    "blockFrames": "-10~-9",
+    "hitFrames": "+16a (+7)",
+    "counterFrames": "",
+    "notes": "\n            * Balcony Break\n            * Combo from 1st CH with 2f delay\n            * Input can be delayed 5f\n        "
+  },
+  {
+    "command": "2+4",
+    "hitLevels": [
+      "t"
+    ],
+    "damage": [
+      "35"
+    ],
+    "startupFrames": "i12~14",
+    "blockFrames": "+0",
+    "hitFrames": "+1",
+    "counterFrames": "",
+    "notes": "\n            * Floor Break\n            * Throw break 1 or 2\n            * Side switch on hit\n        "
+  },
+  {
+    "command": "2,d+3",
+    "hitLevels": [
+      "h",
+      "L"
+    ],
+    "damage": [
+      "10",
+      "11"
+    ],
+    "startupFrames": ",i22",
+    "blockFrames": "-12",
+    "hitFrames": "-1",
+    "counterFrames": "",
+    "notes": "\n            * Combo from 1st hit with 2f delay\n            * Move can be delayed 2f\n        "
+  },
+  {
+    "command": "2,NSS.1",
+    "hitLevels": [
+      "h",
+      "h"
+    ],
+    "damage": [
+      "10",
+      "5",
+      "15"
+    ],
+    "startupFrames": ",i23~24 i18",
+    "blockFrames": "-5",
+    "hitFrames": "+19a",
+    "counterFrames": "",
+    "notes": "\n            * Balcony Break\n            * Combo from 1st hit\n            * Jail from 2nd attack\n            * Alternate notation: NSS.2,1\n        "
+  },
+  {
+    "command": "3",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "12"
+    ],
+    "startupFrames": "i15~16",
+    "blockFrames": "-9~-8",
+    "hitFrames": "+5~+6",
+    "counterFrames": "",
+    "notes": ""
+  },
+  {
+    "command": "3,1",
+    "hitLevels": [
+      "m",
+      "h"
+    ],
+    "damage": [
+      "12",
+      "22"
+    ],
+    "startupFrames": ",i22~24",
+    "blockFrames": "+7~+9",
+    "hitFrames": "+18g~+20g",
+    "counterFrames": "",
+    "notes": "\n            * Heat Engager\n\n            * ”’Heat Dash +5g~7g +62a (+42)”’\n\n\n            * Balcony Break\n            * Weapon\n            * Combo from 1st hit\n            * 4 chip damage on block\n            * Does not transition to DGF during Heat activation and Heat Dash\n            * Power up in NSS or Heat\n            * Recovers in 1SS\n        "
+  },
+  {
+    "command": "3,2",
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "damage": [
+      "12",
+      "12"
+    ],
+    "startupFrames": ",i22",
+    "blockFrames": "-12",
+    "hitFrames": "+1",
+    "counterFrames": "",
+    "notes": "Interrupt with i1 from 1st block"
+  },
+  {
+    "command": "3,2,1+2",
+    "hitLevels": [
+      "m",
+      "m",
+      "M"
+    ],
+    "damage": [
+      "12",
+      "12",
+      "29"
+    ],
+    "startupFrames": ",i26~27",
+    "blockFrames": "-14c~-13c",
+    "hitFrames": "+20a (+10)",
+    "counterFrames": "",
+    "notes": "\n            * Balcony Break\n            * Weapon\n            * Combo from 2nd hit\n            * 5 chip damage on block\n            * Power up in NSS or Heat\n        "
+  },
+  {
+    "command": "3,2,NSS.1+2",
+    "hitLevels": [
+      "m",
+      "m",
+      "M"
+    ],
+    "damage": [
+      "12",
+      "12",
+      "30"
+    ],
+    "startupFrames": ",i26~27",
+    "blockFrames": "-14c~-13c",
+    "hitFrames": "+20a (+10)",
+    "counterFrames": "",
+    "notes": "\n            * Balcony Break\n            * Weapon\n            * Combo from 2nd hit\n            * 15 chip damage on block\n            * Clean hit 39 damage\n            * Recovers health on hit\n        "
+  },
+  {
+    "command": "3+4",
+    "hitLevels": [
+      ""
+    ],
+    "damage": [
+      ""
+    ],
+    "startupFrames": "",
+    "blockFrames": "",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": "Alternate inputs: b+3+4, BT.3+4"
+  },
+  {
+    "command": "3~4",
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "damage": [
+      "6",
+      "22"
+    ],
+    "startupFrames": "i17~18 i28~29",
+    "blockFrames": "-6~-5",
+    "hitFrames": "+3~+4",
+    "counterFrames": "",
+    "notes": "\n            * Transition to r18 DGF with 1SS.U\n        "
+  },
+  {
+    "command": "3,NSS.1",
+    "hitLevels": [
+      "m",
+      "h"
+    ],
+    "damage": [
+      "12",
+      "25"
+    ],
+    "startupFrames": ",i22~24",
+    "blockFrames": "+7~+9",
+    "hitFrames": "+18g~+20g",
+    "counterFrames": "",
+    "notes": "\n            * Heat Engager\n\n            * ”’Heat Dash +5g~7g +62a (+42)”’\n\n\n            * Balcony Break\n            * Weapon\n            * Combo from 1st hit\n            * 7 chip damage on block\n            * Recovers health no hit\n            * Does not transition to DGF during Heat Dash\n            * Recovers in 1SS\n        "
+  },
+  {
+    "command": "4",
+    "hitLevels": [
+      "h"
+    ],
+    "damage": [
+      "12"
+    ],
+    "startupFrames": "i12~13",
+    "blockFrames": "-11~-10",
+    "hitFrames": "+0~+1",
+    "counterFrames": "+20a (+10)",
+    "notes": ""
+  },
+  {
+    "command": "4~3",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "25"
+    ],
+    "startupFrames": "i25~26",
+    "blockFrames": "-13~-12",
+    "hitFrames": "+52a (+42)",
+    "counterFrames": "",
+    "notes": "\n            * Tornado\n            * Unparryable by traditional parries, Asuka, Nina, etc\n        "
+  },
+  {
+    "command": "4,4",
+    "hitLevels": [
+      "h",
+      "h"
+    ],
+    "damage": [
+      "12",
+      "12"
+    ],
+    "startupFrames": ",i24~25",
+    "blockFrames": "-4",
+    "hitFrames": "-2",
+    "counterFrames": "",
+    "notes": "\n            * Combo from 1st hit with 4f delay\n            * Move can be delayed 4f\n        "
+  },
+  {
+    "command": "4,4,2",
+    "hitLevels": [
+      "h",
+      "h",
+      "m"
+    ],
+    "damage": [
+      "12",
+      "12",
+      "5"
+    ],
+    "startupFrames": ",i30~31",
+    "blockFrames": "-22~-21",
+    "hitFrames": "-12~-11",
+    "counterFrames": "",
+    "notes": "Yoshimitsu recovers sideturned on block"
+  },
+  {
+    "command": "4,4,2,2",
+    "hitLevels": [
+      "h",
+      "h",
+      "m",
+      "h"
+    ],
+    "damage": [
+      "12",
+      "12",
+      "5",
+      "6"
+    ],
+    "startupFrames": ",i22~23",
+    "blockFrames": "-24~-23",
+    "hitFrames": "-13~-12",
+    "counterFrames": "",
+    "notes": "\n            * Combo from 3rd hit\n            * Opponent recovers BT on hit\n        "
+  },
+  {
+    "command": "4,4,2,2,1",
+    "hitLevels": [
+      "h",
+      "h",
+      "m",
+      "h",
+      "m!"
+    ],
+    "damage": [
+      "12",
+      "12",
+      "5",
+      "6",
+      "30"
+    ],
+    "startupFrames": ",i67",
+    "blockFrames": "",
+    "hitFrames": "-18",
+    "counterFrames": "",
+    "notes": "\n            * Weapon\n            * Alternate notation: 1SS.4,4,2,2,1\n        "
+  },
+  {
+    "command": "4,4,2,2,1~1",
+    "hitLevels": [
+      "h",
+      "h",
+      "m",
+      "h",
+      "m!",
+      "m!"
+    ],
+    "damage": [
+      "12",
+      "12",
+      "5",
+      "6",
+      "30",
+      "22"
+    ],
+    "startupFrames": ",i28~113",
+    "blockFrames": "",
+    "hitFrames": "-58",
+    "counterFrames": "",
+    "notes": "\n            * Weapon\n            * Cancel early to r26 with B (earliest cancel -12a)\n            * Possible to double-hit\n            * Alternate notation: 1SS.4,4,2,2,1~1\n        "
+  },
+  {
+    "command": "4,4,4",
+    "hitLevels": [
+      "h",
+      "h",
+      "h"
+    ],
+    "damage": [
+      "12",
+      "12",
+      "20"
+    ],
+    "startupFrames": ",i24~25",
+    "blockFrames": "-4~-3",
+    "hitFrames": "+18a (+9)",
+    "counterFrames": "",
+    "notes": "\n            * Balcony Break\n            * Combo from 2nd CH with 4f delay\n            * Move can be delayed 4f\n        "
+  },
+  {
+    "command": "B+1",
+    "hitLevels": [
+      "h"
+    ],
+    "damage": [
+      "8"
+    ],
+    "startupFrames": "i17",
+    "blockFrames": "+1",
+    "hitFrames": "+7",
+    "counterFrames": "+12",
+    "notes": "Can transition to [[Yoshimitsu movelist (Tekken 8)#Yoshimitsu-b+3,3,3,3,3,3|Spinning Evade]] with b+3 or\n            b+4\n        "
+  },
+  {
+    "command": "B+1,1",
+    "hitLevels": [
+      "h",
+      "h"
+    ],
+    "damage": [
+      "8",
+      "9"
+    ],
+    "startupFrames": ",i11~12",
+    "blockFrames": "+4~+5",
+    "hitFrames": "+5~+6",
+    "counterFrames": "+10~+11",
+    "notes": "Can transition to [[Yoshimitsu movelist (Tekken 8)#Yoshimitsu-b+3,3,3,3,3,3|Spinning Evade]] with b+3 or\n            b+4\n        "
+  },
+  {
+    "command": "B+1,1,1",
+    "hitLevels": [
+      "h",
+      "h",
+      "h"
+    ],
+    "damage": [
+      "8",
+      "9",
+      "10"
+    ],
+    "startupFrames": ",i11~12",
+    "blockFrames": "+4~+5",
+    "hitFrames": "+5~+6",
+    "counterFrames": "+10~+11",
+    "notes": "Can transition to [[Yoshimitsu movelist (Tekken 8)#Yoshimitsu-b+3,3,3,3,3,3|Spinning Evade]] with b+3 or\n            b+4\n        "
+  },
+  {
+    "command": "B+1,1,1,1",
+    "hitLevels": [
+      "h",
+      "h",
+      "h",
+      "h"
+    ],
+    "damage": [
+      "8",
+      "9",
+      "10",
+      "12"
+    ],
+    "startupFrames": ",i11~12",
+    "blockFrames": "+4~+5",
+    "hitFrames": "+5~+6",
+    "counterFrames": "+10~+11",
+    "notes": "Can transition to [[Yoshimitsu movelist (Tekken 8)#Yoshimitsu-b+3,3,3,3,3,3|Spinning Evade]] with b+3 or\n            b+4\n        "
+  },
+  {
+    "command": "B+1,1,1,1,1",
+    "hitLevels": [
+      "h",
+      "h",
+      "h",
+      "h",
+      "h"
+    ],
+    "damage": [
+      "8",
+      "9",
+      "10",
+      "12",
+      "14"
+    ],
+    "startupFrames": ",i11~12",
+    "blockFrames": "+4~+5",
+    "hitFrames": "+5~+6",
+    "counterFrames": "+10~+11",
+    "notes": "Can transition to [[Yoshimitsu movelist (Tekken 8)#Yoshimitsu-b+3,3,3,3,3,3|Spinning Evade]] with b+3 or\n            b+4\n        "
+  },
+  {
+    "command": "B+1,1,1,1,1,1",
+    "hitLevels": [
+      "h",
+      "h",
+      "h",
+      "h",
+      "h",
+      "h"
+    ],
+    "damage": [
+      "8",
+      "9",
+      "10",
+      "12",
+      "14",
+      "16"
+    ],
+    "startupFrames": ",i11~12",
+    "blockFrames": "-73",
+    "hitFrames": "-71",
+    "counterFrames": "-67",
+    "notes": ""
+  },
+  {
+    "command": "B+1,1,DB+3",
+    "hitLevels": [
+      "h",
+      "h",
+      "l"
+    ],
+    "damage": [
+      "8",
+      "9",
+      "7"
+    ],
+    "startupFrames": ",i13~14",
+    "blockFrames": "-20~-19",
+    "hitFrames": "-9~-8",
+    "counterFrames": "",
+    "notes": "\n            * Alternate inputs:\n            * b+1,db+3 (Combos)\n            * b+1,1,db+3 (Combos)\n        "
+  },
+  {
+    "command": "B+1,1,DB+3,3",
+    "hitLevels": [
+      "h",
+      "h",
+      "l",
+      "l"
+    ],
+    "damage": [
+      "8",
+      "9",
+      "7",
+      "5"
+    ],
+    "startupFrames": ",i15~17",
+    "blockFrames": "-19~-17",
+    "hitFrames": "-7~-5",
+    "counterFrames": "",
+    "notes": "\n            * Transition to r20 IND with d+3+4\n            * Alternate inputs:\n            * b+1,DB+3,3 (Combos)\n            * b+1,1,DB+3,3\n        "
+  },
+  {
+    "command": "B+1,1,DB+3,3,3",
+    "hitLevels": [
+      "h",
+      "h",
+      "l",
+      "l",
+      "l"
+    ],
+    "damage": [
+      "8",
+      "9",
+      "7",
+      "5",
+      "5"
+    ],
+    "startupFrames": ",i9~11",
+    "blockFrames": "-27~-25",
+    "hitFrames": "-15~-13",
+    "counterFrames": "",
+    "notes": "\n            * Alternate inputs:\n            * b+1,DB+3,3,3\n            * b+1,1,DB+3,3,3\n        "
+  },
+  {
+    "command": "B+1,1,DB+3,3,4",
+    "hitLevels": [
+      "h",
+      "h",
+      "l",
+      "l",
+      "m"
+    ],
+    "damage": [
+      "8",
+      "9",
+      "7",
+      "5",
+      "15"
+    ],
+    "startupFrames": ",i12~13",
+    "blockFrames": "-8~-7",
+    "hitFrames": "+23a (+13a)",
+    "counterFrames": "",
+    "notes": "\n            * Balcony Break\n            * Transition to r21 KIN with 1+2 (-6~-5 on block)\n            * Transition to r24 NSS with B\n            * Same animation as ws4\n            * Alternate inputs:\n            * b+1,DB+3,3,4\n            * b+1,1,DB+3,3,4\n        "
+  },
+  {
+    "command": "b+1+2",
+    "hitLevels": [
+      ""
+    ],
+    "damage": [
+      ""
+    ],
+    "startupFrames": "",
+    "blockFrames": "",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": "\n            * Alternate input: BT.b+1+2\n            * Alternate name: Mutou no Kiwami\n        "
+  },
+  {
+    "command": "b+2",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "12"
+    ],
+    "startupFrames": "i14~15",
+    "blockFrames": "-9~-8",
+    "hitFrames": "+2~+3",
+    "counterFrames": "",
+    "notes": "Transition to r27 KIN with 1+2"
+  },
+  {
+    "command": "b+2,1",
+    "hitLevels": [
+      "m",
+      "M"
+    ],
+    "damage": [
+      "12",
+      "20"
+    ],
+    "startupFrames": ",i27~28",
+    "blockFrames": "-17~-16",
+    "hitFrames": "+28a (+18a)",
+    "counterFrames": "",
+    "notes": "\n            * Weapon\n            * Combos from CH 1st with 2f delay\n            * Transition to r30 KIN with 1+2\n            * Input can be delayed 14f\n            * Alternate notation: 1SS.b+2,1\n        "
+  },
+  {
+    "command": "b+2,2",
+    "hitLevels": [
+      "m",
+      "h"
+    ],
+    "damage": [
+      "12",
+      "21"
+    ],
+    "startupFrames": ",i22~23",
+    "blockFrames": "-13",
+    "hitFrames": "+2a",
+    "counterFrames": "",
+    "notes": "\n            * Heat Engager\n\n            * ”’Heat Dash +5g~+6g +36a (26)”’\n\n\n            * Weapon\n            * Combo from 1st with 1f delay\n            * Combo from 1st CH with 7f delay\n            * Input can be delayed 14f\n            * Alternate notation: 1SS.b+2,2\n        "
+  },
+  {
+    "command": "b+3",
+    "hitLevels": [
+      ""
+    ],
+    "damage": [
+      ""
+    ],
+    "startupFrames": "",
+    "blockFrames": "",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": "\n            * 4 self-damage\n            * Alternate input: b+4\n        "
+  },
+  {
+    "command": "b+3,3",
+    "hitLevels": [
+      ""
+    ],
+    "damage": [
+      ""
+    ],
+    "startupFrames": "",
+    "blockFrames": "",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": "\n            * 4 self-damage\n            * Alternate input: b+4,4\n        "
+  },
+  {
+    "command": "b+3,3,3",
+    "hitLevels": [
+      ""
+    ],
+    "damage": [
+      ""
+    ],
+    "startupFrames": "",
+    "blockFrames": "",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": "\n            * 4 self-damage\n            * Alternate input: b+4,4,4\n        "
+  },
+  {
+    "command": "b+3,3,3,3",
+    "hitLevels": [
+      ""
+    ],
+    "damage": [
+      ""
+    ],
+    "startupFrames": "",
+    "blockFrames": "",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": "\n            * 4 self-damage\n            * Alternate input: b+4,4,4,4\n        "
+  },
+  {
+    "command": "b+3,3,3,3,3",
+    "hitLevels": [
+      ""
+    ],
+    "damage": [
+      ""
+    ],
+    "startupFrames": "",
+    "blockFrames": "",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": "\n            * 4 self-damage\n            * Alternate input: b+4,4,4,4,4\n        "
+  },
+  {
+    "command": "b+3,3,3,3,3,3",
+    "hitLevels": [
+      ""
+    ],
+    "damage": [
+      ""
+    ],
+    "startupFrames": "",
+    "blockFrames": "",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": "\n            * 4 self-damage\n            * Alternate input: b+4,4,4,4,4,4\n        "
+  },
+  {
+    "command": "Back Throw",
+    "hitLevels": [
+      "t"
+    ],
+    "damage": [
+      "50"
+    ],
+    "startupFrames": "",
+    "blockFrames": "",
+    "hitFrames": "+1d",
+    "counterFrames": "",
+    "notes": "\n            * Floor Break\n            * Unbreakable\n        "
+  },
+  {
+    "command": "b,B+1+4",
+    "hitLevels": [
+      "m!"
+    ],
+    "damage": [
+      "50"
+    ],
+    "startupFrames": "i59~61",
+    "blockFrames": "",
+    "hitFrames": "+2a",
+    "counterFrames": "",
+    "notes": "\n            * Weapon\n            * Alternate notation: 1SS.b,B+1+4\n            * Bad hitbox, will go over crouching opponents sometimes\n        "
+  },
+  {
+    "command": "b,B+1+4,B",
+    "hitLevels": [
+      "",
+      "m"
+    ],
+    "damage": [
+      "",
+      "21"
+    ],
+    "startupFrames": ",i22~25",
+    "blockFrames": "-15~-12",
+    "hitFrames": "+14c~+17c",
+    "counterFrames": "",
+    "notes": "\n            * Weapon\n            * 70% proration on standing hit\n            * Knockdown against BT opponent, +23a (+14)\n            * Power up in NSS or Heat\n            * Total startup is i47~50\n            * Alternate notation: 1SS.b,B+1+4,B\n        "
+  },
+  {
+    "command": "BDS.1",
+    "hitLevels": [
+      "h!"
+    ],
+    "damage": [
+      "25"
+    ],
+    "startupFrames": "i21~40",
+    "blockFrames": "",
+    "hitFrames": "+32a",
+    "counterFrames": "",
+    "notes": "Alternate input: BDS.2"
+  },
+  {
+    "command": "BDS.1",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "23"
+    ],
+    "startupFrames": "i17~30",
+    "blockFrames": "-15~-2",
+    "hitFrames": "-13~+0",
+    "counterFrames": "",
+    "notes": "Alternate input: BDS.4"
+  },
+  {
+    "command": "BT.1",
+    "hitLevels": [
+      "h"
+    ],
+    "damage": [
+      "16"
+    ],
+    "startupFrames": "i15",
+    "blockFrames": "-3",
+    "hitFrames": "+8",
+    "counterFrames": "",
+    "notes": "Elbow"
+  },
+  {
+    "command": "BT.1,2",
+    "hitLevels": [
+      "h",
+      "m"
+    ],
+    "damage": [
+      "16",
+      "18"
+    ],
+    "startupFrames": ",i25",
+    "blockFrames": "-5",
+    "hitFrames": "+5",
+    "counterFrames": "+63a",
+    "notes": "\n            * Elbow\n            * Combo from 1st CH\n        "
+  },
+  {
+    "command": "BT.1,3",
+    "hitLevels": [
+      "h",
+      "h"
+    ],
+    "damage": [
+      "16",
+      "25"
+    ],
+    "startupFrames": ",i25~26",
+    "blockFrames": "-7~-6",
+    "hitFrames": "+27a (+17)",
+    "counterFrames": "",
+    "notes": "\n            * Balcony Break\n            * Combo from 1st CH\n        "
+  },
+  {
+    "command": "BT.2",
+    "hitLevels": [
+      "h"
+    ],
+    "damage": [
+      "18"
+    ],
+    "startupFrames": "i16~17",
+    "blockFrames": "-4~-3",
+    "hitFrames": "+14g~+15g",
+    "counterFrames": "+39a",
+    "notes": "\n            * Balcony Break\n            * Links to f+2 extensions\n        "
+  },
+  {
+    "command": "BT.3",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "20"
+    ],
+    "startupFrames": "i24~26",
+    "blockFrames": "-3~-1",
+    "hitFrames": "+11a",
+    "counterFrames": "",
+    "notes": "Spike"
+  },
+  {
+    "command": "BT.d+1",
+    "hitLevels": [
+      "L"
+    ],
+    "damage": [
+      "20"
+    ],
+    "startupFrames": "i17~18",
+    "blockFrames": "-13~-12",
+    "hitFrames": "+3~+4",
+    "counterFrames": "+38a",
+    "notes": "\n            * Weapon\n            * Can be performed in NSS with BT.b~db+1+2\n        "
+  },
+  {
+    "command": "d+1",
+    "hitLevels": [
+      "M"
+    ],
+    "damage": [
+      "15"
+    ],
+    "startupFrames": "i24~25",
+    "blockFrames": "-9~-8",
+    "hitFrames": "+1c~+2c",
+    "counterFrames": "+6a",
+    "notes": "\n            * Spike\n            * Weapon\n            * 4 chip damage on block\n            * Power up in NSS or Heat\n        "
+  },
+  {
+    "command": "d+1*(1),n",
+    "hitLevels": [
+      "M!"
+    ],
+    "damage": [
+      "20"
+    ],
+    "startupFrames": "i55~56",
+    "blockFrames": "",
+    "hitFrames": "+4c~+5c",
+    "counterFrames": "+6a",
+    "notes": "\n            * Spike\n            * Weapon\n            * Constantly realigns while charging\n            * Can be canceled with b*\n        "
+  },
+  {
+    "command": "d+1+2",
+    "hitLevels": [
+      ""
+    ],
+    "damage": [
+      ""
+    ],
+    "startupFrames": "",
+    "blockFrames": "",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": "\n            * Alternate input: BT.d+1+2\n            * Unavailable in NSS\n        "
+  },
+  {
+    "command": "d+1*(2),n",
+    "hitLevels": [
+      "M!"
+    ],
+    "damage": [
+      "25"
+    ],
+    "startupFrames": "i99~100",
+    "blockFrames": "",
+    "hitFrames": "+4c~+5c",
+    "counterFrames": "+6a",
+    "notes": "\n            * Spike\n            * Weapon\n            * Constantly realigns while charging\n            * Can be canceled with b*\n        "
+  },
+  {
+    "command": "d+1*(3),n",
+    "hitLevels": [
+      "M!"
+    ],
+    "damage": [
+      "30"
+    ],
+    "startupFrames": "i130~131",
+    "blockFrames": "",
+    "hitFrames": "+4c~+5c",
+    "counterFrames": "+6a",
+    "notes": "\n            * Spike\n            * Weapon\n            * Constantly realigns while charging\n            * Can be canceled with b*\n        "
+  },
+  {
+    "command": "d+1+4",
+    "hitLevels": [
+      "m!"
+    ],
+    "damage": [
+      "60"
+    ],
+    "startupFrames": "i29~30",
+    "blockFrames": "",
+    "hitFrames": "-32a",
+    "counterFrames": "",
+    "notes": "\n            * Weapon\n            * 60 self damage during 1st recovery frame\n            * Can connect from the front if the opponent attacks into it\n            * Alternate notation: 1SS.d+1+4\n        "
+  },
+  {
+    "command": "d+1+4,?B+1",
+    "hitLevels": [
+      "m!",
+      "m!"
+    ],
+    "damage": [
+      "60",
+      "18"
+    ],
+    "startupFrames": ",i1~39",
+    "blockFrames": "",
+    "hitFrames": "-29a",
+    "counterFrames": "",
+    "notes": "\n            * Weapon\n            * 6 self damage\n        "
+  },
+  {
+    "command": "d+1+4,?B+1,1",
+    "hitLevels": [
+      "m!",
+      "m!",
+      "m!"
+    ],
+    "damage": [
+      "60",
+      "18",
+      "20"
+    ],
+    "startupFrames": ",i1~18",
+    "blockFrames": "",
+    "hitFrames": "-29a",
+    "counterFrames": "",
+    "notes": "\n            * Weapon\n            * 6 self damage\n        "
+  },
+  {
+    "command": "d+1+4,?B+1,1,1",
+    "hitLevels": [
+      "m!",
+      "m!",
+      "m!",
+      "m!"
+    ],
+    "damage": [
+      "60",
+      "18",
+      "20",
+      "21"
+    ],
+    "startupFrames": ",i1~18",
+    "blockFrames": "",
+    "hitFrames": "-29a",
+    "counterFrames": "",
+    "notes": "\n            * Weapon\n            * 10 self damage\n        "
+  },
+  {
+    "command": "d+1+4,?B+1,1,1,1",
+    "hitLevels": [
+      "m!",
+      "m!",
+      "m!",
+      "m!",
+      "m!"
+    ],
+    "damage": [
+      "60",
+      "18",
+      "20",
+      "21",
+      "28"
+    ],
+    "startupFrames": ",i1~18",
+    "blockFrames": "",
+    "hitFrames": "-29a",
+    "counterFrames": "",
+    "notes": "\n            * Weapon\n            * 12 self damage\n        "
+  },
+  {
+    "command": "d+1+4,?B+1,1,1,1,1",
+    "hitLevels": [
+      "m!",
+      "m!",
+      "m!",
+      "m!",
+      "m!",
+      "m!"
+    ],
+    "damage": [
+      "60",
+      "18",
+      "20",
+      "21",
+      "28",
+      "30"
+    ],
+    "startupFrames": ",i1~35",
+    "blockFrames": "",
+    "hitFrames": "-30a",
+    "counterFrames": "",
+    "notes": "\n            * Weapon\n            * 17 self-damage\n            * The entire string deals 111 self damage\n        "
+  },
+  {
+    "command": "d+1*(4),n",
+    "hitLevels": [
+      "M!"
+    ],
+    "damage": [
+      "40"
+    ],
+    "startupFrames": "i179~180",
+    "blockFrames": "",
+    "hitFrames": "+16a",
+    "counterFrames": "+52a",
+    "notes": "\n            * Spike\n            * Weapon\n            * Constantly realigns while charging\n            * Can be canceled with b*\n        "
+  },
+  {
+    "command": "d+1*(5),n",
+    "hitLevels": [
+      "M!"
+    ],
+    "damage": [
+      "60"
+    ],
+    "startupFrames": "i214~215",
+    "blockFrames": "",
+    "hitFrames": "+16a",
+    "counterFrames": "+52a",
+    "notes": "\n            * Spike\n            * Weapon\n            * Constantly realigns while charging\n            * Can be canceled with b*\n        "
+  },
+  {
+    "command": "d+1*(6),n",
+    "hitLevels": [
+      "M!"
+    ],
+    "damage": [
+      "180"
+    ],
+    "startupFrames": "i249~250",
+    "blockFrames": "",
+    "hitFrames": "+16a",
+    "counterFrames": "+52a",
+    "notes": "\n            * Spike\n            * Weapon\n            * Constantly realigns while charging\n            * Can be canceled with b*\n        "
+  },
+  {
+    "command": "d+2",
+    "hitLevels": [
+      "M"
+    ],
+    "damage": [
+      "12"
+    ],
+    "startupFrames": "i16~17",
+    "blockFrames": "-9~-8",
+    "hitFrames": "+0~+1",
+    "counterFrames": "",
+    "notes": "Weapon"
+  },
+  {
+    "command": "d+2,1",
+    "hitLevels": [
+      "M",
+      "h"
+    ],
+    "damage": [
+      "12",
+      "23"
+    ],
+    "startupFrames": ",i27~28",
+    "blockFrames": "-9~-8",
+    "hitFrames": "+17a (+8)",
+    "counterFrames": "",
+    "notes": "\n            * Balcony Break\n            * Weapon\n            * Combo from 1st hit with 8f delay\n            * Input can be delayed 16f\n            * Move can be delayed 10f\n            * Alternate notation: 1SS.d+2,1\n        "
+  },
+  {
+    "command": "d+2,2",
+    "hitLevels": [
+      "M",
+      "m"
+    ],
+    "damage": [
+      "12",
+      "17"
+    ],
+    "startupFrames": ",i22~23",
+    "blockFrames": "-12~-11",
+    "hitFrames": "+7g~+8g",
+    "counterFrames": "+28a (+22)",
+    "notes": "\n            * Weapon\n            * Combo from 1st hit with 13f delay\n            * Input can be delayed 16f\n            * Move can be delayed 10f\n            * In 1SS transition to r31 NSS with B\n        "
+  },
+  {
+    "command": "d+2,2,1",
+    "hitLevels": [
+      "M",
+      "m",
+      "h"
+    ],
+    "damage": [
+      "12",
+      "17",
+      "20"
+    ],
+    "startupFrames": ",i19~20",
+    "blockFrames": "-9~-8",
+    "hitFrames": "+8a (-1)",
+    "counterFrames": "",
+    "notes": "\n            * Balcony Break\n            * Weapon\n            * Input can be delayed 10f\n            * Move can be delayed 9f\n            * Alternate notation: 1SS.d+2,2,1\n        "
+  },
+  {
+    "command": "d+2,2,2",
+    "hitLevels": [
+      "M",
+      "m",
+      "M"
+    ],
+    "damage": [
+      "12",
+      "17",
+      "19"
+    ],
+    "startupFrames": ",i25~27",
+    "blockFrames": "-13~-11",
+    "hitFrames": "+16a (+9)",
+    "counterFrames": "",
+    "notes": "\n            * Tornado\n            * Weapon\n            * Input can be delayed 10f\n            * Move can be delayed 9f\n        "
+  },
+  {
+    "command": "d+2,2,d+1",
+    "hitLevels": [
+      "M",
+      "m",
+      "m"
+    ],
+    "damage": [
+      "12",
+      "17",
+      "17"
+    ],
+    "startupFrames": ",i29~30",
+    "blockFrames": "-12~-11",
+    "hitFrames": "+2c~+3c",
+    "counterFrames": "+42a",
+    "notes": "\n            * Spike\n            * Weapon\n            * Input can be delayed 10f\n            * Move can be delayed 9f\n        "
+  },
+  {
+    "command": "d+3",
+    "hitLevels": [
+      "L"
+    ],
+    "damage": [
+      "12"
+    ],
+    "startupFrames": "i15~17",
+    "blockFrames": "-18~-16",
+    "hitFrames": "-4~-2",
+    "counterFrames": "",
+    "notes": "Most commonly impacts on frame 16, except when tracking right"
+  },
+  {
+    "command": "d+3+4",
+    "hitLevels": [
+      ""
+    ],
+    "damage": [
+      ""
+    ],
+    "startupFrames": "",
+    "blockFrames": "",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": "Alternate input: BT.d+3+4"
+  },
+  {
+    "command": "d+4",
+    "hitLevels": [
+      "l"
+    ],
+    "damage": [
+      "6"
+    ],
+    "startupFrames": "i12",
+    "blockFrames": "-15",
+    "hitFrames": "-4",
+    "counterFrames": "",
+    "notes": ""
+  },
+  {
+    "command": "db+1",
+    "hitLevels": [
+      "L"
+    ],
+    "damage": [
+      "12"
+    ],
+    "startupFrames": "i26~28",
+    "blockFrames": "-11~-9",
+    "hitFrames": "+4~+6",
+    "counterFrames": "7~+9",
+    "notes": "Unavailable in NSS"
+  },
+  {
+    "command": "db+1,2",
+    "hitLevels": [
+      "Lm"
+    ],
+    "damage": [
+      "1220"
+    ],
+    "startupFrames": "i25~26",
+    "blockFrames": "-13~12",
+    "hitFrames": "+0~+1",
+    "counterFrames": "+6g~+7g",
+    "notes": "\n            * Balcony break on CH\n            * Combo from 1st with 1f delay\n            * Combo from 1st CH with 8f delay\n            * Input can be delayed 8f\n        "
+  },
+  {
+    "command": "DB+1+2",
+    "hitLevels": [
+      ""
+    ],
+    "damage": [
+      ""
+    ],
+    "startupFrames": "",
+    "blockFrames": "",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": "\n            * Continues as long as DB is held\n            * Transition to r25 releasing db\n        "
+  },
+  {
+    "command": "DB+2",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "8"
+    ],
+    "startupFrames": "i15",
+    "blockFrames": "-5",
+    "hitFrames": "+6",
+    "counterFrames": "",
+    "notes": ""
+  },
+  {
+    "command": "DB+2,2",
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "damage": [
+      "8",
+      "7"
+    ],
+    "startupFrames": ",i10~14",
+    "blockFrames": "-9~-5",
+    "hitFrames": "+2~+6",
+    "counterFrames": "",
+    "notes": "Combo from 1st hit"
+  },
+  {
+    "command": "DB+2,2,2",
+    "hitLevels": [
+      "m",
+      "m",
+      "m"
+    ],
+    "damage": [
+      "8",
+      "7",
+      "6"
+    ],
+    "startupFrames": ",i10~14",
+    "blockFrames": "-9~-5",
+    "hitFrames": "+2~+6",
+    "counterFrames": "",
+    "notes": "Combo from 1st hit"
+  },
+  {
+    "command": "DB+2,2,2,2",
+    "hitLevels": [
+      "m",
+      "m",
+      "m",
+      "m"
+    ],
+    "damage": [
+      "8",
+      "7",
+      "6",
+      "5"
+    ],
+    "startupFrames": ",i10~14",
+    "blockFrames": "-9~-5",
+    "hitFrames": "+2~+6",
+    "counterFrames": "",
+    "notes": "Combo from 3rd CH"
+  },
+  {
+    "command": "DB+2,2,2,2,2",
+    "hitLevels": [
+      "m",
+      "m",
+      "m",
+      "m",
+      "m"
+    ],
+    "damage": [
+      "8",
+      "7",
+      "6",
+      "5",
+      "4"
+    ],
+    "startupFrames": ",i10~14",
+    "blockFrames": "-9~-5",
+    "hitFrames": "+2~+6",
+    "counterFrames": "",
+    "notes": "\n            * Combo from 4th hit\n            * Combo from 3rd CH\n        "
+  },
+  {
+    "command": "DB+2,2,2,2,2,2",
+    "hitLevels": [
+      "m",
+      "m",
+      "m",
+      "m",
+      "m",
+      "m"
+    ],
+    "damage": [
+      "8",
+      "7",
+      "6",
+      "5",
+      "4",
+      "3"
+    ],
+    "startupFrames": ",i10~14",
+    "blockFrames": "-49",
+    "hitFrames": "-37",
+    "counterFrames": "",
+    "notes": "Combo from 5th CH"
+  },
+  {
+    "command": "DB+3",
+    "hitLevels": [
+      "l"
+    ],
+    "damage": [
+      "8"
+    ],
+    "startupFrames": "i18~19",
+    "blockFrames": "-25~-24",
+    "hitFrames": "-14~-13",
+    "counterFrames": "",
+    "notes": ""
+  },
+  {
+    "command": "DB+3,3",
+    "hitLevels": [
+      "l",
+      "l"
+    ],
+    "damage": [
+      "8",
+      "7"
+    ],
+    "startupFrames": ",i15~17",
+    "blockFrames": "-19~-17",
+    "hitFrames": "-7~-5",
+    "counterFrames": "",
+    "notes": "\n            * Combo from 1st hit\n            * Transition to r20 IND with d+3+4\n        "
+  },
+  {
+    "command": "DB+3,3,3",
+    "hitLevels": [
+      "l",
+      "l",
+      "l"
+    ],
+    "damage": [
+      "8",
+      "7",
+      "7"
+    ],
+    "startupFrames": ",i15~17",
+    "blockFrames": "-19~-17",
+    "hitFrames": "-7~-5",
+    "counterFrames": "",
+    "notes": "\n            * Combo from 2nd CH\n            * Transition to r20 IND with d+3+4\n        "
+  },
+  {
+    "command": "DB+3,3,3,3",
+    "hitLevels": [
+      "l",
+      "l",
+      "l",
+      "l"
+    ],
+    "damage": [
+      "8",
+      "7",
+      "7",
+      "5"
+    ],
+    "startupFrames": ",i15~17",
+    "blockFrames": "-19~-17",
+    "hitFrames": "-7~-5",
+    "counterFrames": "",
+    "notes": "\n            * Combo from 3rd CH\n            * Transition to r20 IND with d+3+4\n        "
+  },
+  {
+    "command": "DB+3,3,3,3,3",
+    "hitLevels": [
+      "l",
+      "l",
+      "l",
+      "l",
+      "l"
+    ],
+    "damage": [
+      "8",
+      "7",
+      "7",
+      "5",
+      "5"
+    ],
+    "startupFrames": ",i15~17",
+    "blockFrames": "-19~-17",
+    "hitFrames": "-7~-5",
+    "counterFrames": "",
+    "notes": "\n            * Combo from 4th CH\n            * Transition to r20 IND with d+3+4\n        "
+  },
+  {
+    "command": "DB+3,3,3,3,3,3",
+    "hitLevels": [
+      "l",
+      "l",
+      "l",
+      "l",
+      "l",
+      "l"
+    ],
+    "damage": [
+      "8",
+      "7",
+      "7",
+      "5",
+      "5",
+      "5"
+    ],
+    "startupFrames": ",i9~11",
+    "blockFrames": "-26~-24",
+    "hitFrames": "-15~-13",
+    "counterFrames": "",
+    "notes": "\n            * Combo from 5th CH\n        "
+  },
+  {
+    "command": "DB+3,3,3,3,3,3,4",
+    "hitLevels": [
+      "l",
+      "l",
+      "l",
+      "l",
+      "l",
+      "l",
+      "m"
+    ],
+    "damage": [
+      "8",
+      "7",
+      "7",
+      "5",
+      "5",
+      "5",
+      "15"
+    ],
+    "startupFrames": ",i12~13",
+    "blockFrames": "-8~-7",
+    "hitFrames": "+23a (+13)",
+    "counterFrames": "",
+    "notes": "\n            * Balcony Break\n            * Transition to r21 KIN with 1+2 (-6~-5 on block)\n            * Transition to r24 NSS with B\n            * Same animation as ws4\n            * Alternate inputs:\n            * DB+3,3,4\n            * DB+3,3,3,4\n            * DB+3,3,3,3,4\n            * DB+3,3,3,3,3,4\n        "
+  },
+  {
+    "command": "db+4",
+    "hitLevels": [
+      "L"
+    ],
+    "damage": [
+      "14"
+    ],
+    "startupFrames": "i17",
+    "blockFrames": "-12",
+    "hitFrames": "-1",
+    "counterFrames": "",
+    "notes": ""
+  },
+  {
+    "command": "df+1",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "14"
+    ],
+    "startupFrames": "i13",
+    "blockFrames": "-4",
+    "hitFrames": "+5",
+    "counterFrames": "",
+    "notes": ""
+  },
+  {
+    "command": "df+1,2",
+    "hitLevels": [
+      "m",
+      "h"
+    ],
+    "damage": [
+      "14",
+      "16"
+    ],
+    "startupFrames": ",i25~26",
+    "blockFrames": "-4~-3",
+    "hitFrames": "+14g~+15g",
+    "counterFrames": "+39a",
+    "notes": "\n            * Balcony Break\n            * Combo from 1st CH with 2f delay\n        "
+  },
+  {
+    "command": "df+1,2,1",
+    "hitLevels": [
+      "m",
+      "h",
+      "M"
+    ],
+    "damage": [
+      "14",
+      "16",
+      "19"
+    ],
+    "startupFrames": ",i26~27",
+    "blockFrames": "-12~-11",
+    "hitFrames": "+17a (+10)",
+    "counterFrames": "",
+    "notes": "\n            * Tornado\n            * Weapon\n            * Combo from 2nd CH\n            * Alternate notation: 1SS.df+1,2,1\n        "
+  },
+  {
+    "command": "df+1,2,db+2",
+    "hitLevels": [
+      "m",
+      "h",
+      "m"
+    ],
+    "damage": [
+      "14",
+      "16",
+      "7"
+    ],
+    "startupFrames": ",i15",
+    "blockFrames": "-5",
+    "hitFrames": "+6",
+    "counterFrames": "",
+    "notes": "\n            * Links to db+2 extensions\n        "
+  },
+  {
+    "command": "df+1+4",
+    "hitLevels": [
+      "M"
+    ],
+    "damage": [
+      "20"
+    ],
+    "startupFrames": "i20~21",
+    "blockFrames": "-17~-16",
+    "hitFrames": "+35a (+25)",
+    "counterFrames": "",
+    "notes": "\n            * Weapon\n            * Can be buffered\n            * Transition to r37 KIN with 1+2\n            * Can be performed in FC\n            * Power up input: f,n,d,df+1\n            * Alternate notation: 1SS.df+1+4\n        "
+  },
+  {
+    "command": "df+1,4",
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "damage": [
+      "14",
+      "17"
+    ],
+    "startupFrames": ",i17",
+    "blockFrames": "-12",
+    "hitFrames": "+4",
+    "counterFrames": "",
+    "notes": "\n            * Jail from 1st attack with 2f delay\n        "
+  },
+  {
+    "command": "df+2",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "13"
+    ],
+    "startupFrames": "i15~16",
+    "blockFrames": "-7~-6",
+    "hitFrames": "+34a (+24)",
+    "counterFrames": "",
+    "notes": "\n            * On hit +4s~+5s against crouching opponent\n            * On CH launches crouching opponent\n        "
+  },
+  {
+    "command": "df+2+3",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "18"
+    ],
+    "startupFrames": "i17~18",
+    "blockFrames": "-13~-12",
+    "hitFrames": "+6",
+    "counterFrames": "+58a (+38)",
+    "notes": "\n            * Balcony Break\n            * Can be performed in FC\n            * Power up input: f,n,d,df+2\n            * Alternate notation: 1SS.df+2+3\n        "
+  },
+  {
+    "command": "df+3",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "10"
+    ],
+    "startupFrames": "i17~18",
+    "blockFrames": "-4~-3",
+    "hitFrames": "+4~+5",
+    "counterFrames": "",
+    "notes": ""
+  },
+  {
+    "command": "df+3,1",
+    "hitLevels": [
+      "m",
+      "M"
+    ],
+    "damage": [
+      "10",
+      "20"
+    ],
+    "startupFrames": ",i23~24",
+    "blockFrames": "-9~-8",
+    "hitFrames": "+4c~+5c",
+    "counterFrames": "+6a",
+    "notes": "\n            * Weapon\n            * Combo from 1st hit\n            * 4 chip damage on block\n            * Power up in NSS or Heat\n            * Input can be held to transition to d+1*\n        "
+  },
+  {
+    "command": "df+3,NSS.1",
+    "hitLevels": [
+      "m",
+      "M"
+    ],
+    "damage": [
+      "10",
+      "24"
+    ],
+    "startupFrames": ",i23~24",
+    "blockFrames": "-9~-8",
+    "hitFrames": "+16a",
+    "counterFrames": "+6a",
+    "notes": "\n            * Spike\n            * Weapon\n            * Combo from 1st hit\n            * Recovers health on hit\n            * 12 chip damage on block\n            * Input can be held to transition to d+1*\n        "
+  },
+  {
+    "command": "df+4",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "15"
+    ],
+    "startupFrames": "i12",
+    "blockFrames": "-7",
+    "hitFrames": "+4",
+    "counterFrames": "",
+    "notes": ""
+  },
+  {
+    "command": "DGF.1",
+    "hitLevels": [
+      "M"
+    ],
+    "damage": [
+      "15"
+    ],
+    "startupFrames": "i30~31",
+    "blockFrames": "-2c~-1c",
+    "hitFrames": "+10a",
+    "counterFrames": "+46a",
+    "notes": "\n            * Spike\n            * Weapon\n            * 7 chip damage on block\n            * Power up in Heat\n        "
+  },
+  {
+    "command": "DGF.1+2",
+    "hitLevels": [
+      ""
+    ],
+    "damage": [
+      ""
+    ],
+    "startupFrames": "",
+    "blockFrames": "",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": ""
+  },
+  {
+    "command": "DGF.2",
+    "hitLevels": [
+      "h"
+    ],
+    "damage": [
+      "15"
+    ],
+    "startupFrames": "i16~18",
+    "blockFrames": "+4~+6",
+    "hitFrames": "+13s",
+    "counterFrames": "",
+    "notes": ""
+  },
+  {
+    "command": "DGF.2,4",
+    "hitLevels": [
+      "h",
+      "M"
+    ],
+    "damage": [
+      "15",
+      "22"
+    ],
+    "startupFrames": "i26~28",
+    "blockFrames": "-14~-12",
+    "hitFrames": "+15a (+8)",
+    "counterFrames": "",
+    "notes": "\n            * Tornado\n            * Combo from 1st hit\n            * Transition to r32 NSS with B\n        "
+  },
+  {
+    "command": "DGF.3",
+    "hitLevels": [
+      "L"
+    ],
+    "damage": [
+      "18"
+    ],
+    "startupFrames": "i22~23",
+    "blockFrames": "-13~-12",
+    "hitFrames": "+6c~+7c",
+    "counterFrames": "+27a",
+    "notes": "Can’t be low parried"
+  },
+  {
+    "command": "DGF.3+4",
+    "hitLevels": [
+      "h!",
+      "t"
+    ],
+    "damage": [
+      "17",
+      "18"
+    ],
+    "startupFrames": "i20~21",
+    "blockFrames": "",
+    "hitFrames": "+0~+1",
+    "counterFrames": "",
+    "notes": "\n            * Floor Break\n            * Transitions to attack throw on front hit (air hit OK)\n            * Attack throw recovers standing\n        "
+  },
+  {
+    "command": "DGF.4",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "24"
+    ],
+    "startupFrames": "i18~20",
+    "blockFrames": "-4~-2",
+    "hitFrames": "+14g~+15g",
+    "counterFrames": "",
+    "notes": "\n            * Heat Engager\n\n            * ”’Heat Dash +5g~+7g +62a (+42)”’\n\n\n            * Balcony Break\n        "
+  },
+  {
+    "command": "DGF.b",
+    "hitLevels": [
+      ""
+    ],
+    "damage": [
+      ""
+    ],
+    "startupFrames": "",
+    "blockFrames": "",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": "realigns with opponent, creates distance"
+  },
+  {
+    "command": "DGF.d",
+    "hitLevels": [
+      ""
+    ],
+    "damage": [
+      ""
+    ],
+    "startupFrames": "",
+    "blockFrames": "",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": ""
+  },
+  {
+    "command": "DGF.d+3+4",
+    "hitLevels": [
+      ""
+    ],
+    "damage": [
+      ""
+    ],
+    "startupFrames": "",
+    "blockFrames": "",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": ""
+  },
+  {
+    "command": "DGF.f",
+    "hitLevels": [
+      ""
+    ],
+    "damage": [
+      ""
+    ],
+    "startupFrames": "",
+    "blockFrames": "",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": "realigns with opponent, closes distance"
+  },
+  {
+    "command": "DGF.f+1+2",
+    "hitLevels": [
+      "h",
+      "h",
+      "h"
+    ],
+    "damage": [
+      "10",
+      "10",
+      "20"
+    ],
+    "startupFrames": "i16~17 i11~12 i11~12",
+    "blockFrames": "-2~-1",
+    "hitFrames": "+18a (+9)",
+    "counterFrames": "",
+    "notes": "\n            * Homing\n            * Balcony Break\n            * Weapon\n            * 12 chip damage on block\n            * Power up in Heat\n        "
+  },
+  {
+    "command": "DGF.f+2",
+    "hitLevels": [
+      "h"
+    ],
+    "damage": [
+      "23"
+    ],
+    "startupFrames": "i20~21",
+    "blockFrames": "+7~+8",
+    "hitFrames": "+19a (+10)",
+    "counterFrames": "+64a (+44)",
+    "notes": "\n            * Homing\n            * Balcony Break\n            * Weapon\n            * Alternate input: FLE.f+2\n        "
+  },
+  {
+    "command": "f+1+2",
+    "hitLevels": [
+      "M"
+    ],
+    "damage": [
+      "23"
+    ],
+    "startupFrames": "i20",
+    "blockFrames": "-12",
+    "hitFrames": "+8a (-1)",
+    "counterFrames": "",
+    "notes": "\n            * Heat Engager\n\n            * ”’Heat Dash +5g +62a (+42)”’\n\n\n            * Balcony Break\n            * Weapon\n            * 4 chip damage on block\n            * 29 damage and extended range in NSS or Heat\n        "
+  },
+  {
+    "command": "f+2",
+    "hitLevels": [
+      "h"
+    ],
+    "damage": [
+      "18"
+    ],
+    "startupFrames": "i17~18",
+    "blockFrames": "-4~-3",
+    "hitFrames": "+14g~+15g",
+    "counterFrames": "+39a",
+    "notes": "Balcony Break"
+  },
+  {
+    "command": "f+2,1",
+    "hitLevels": [
+      "h",
+      "M"
+    ],
+    "damage": [
+      "18",
+      "21"
+    ],
+    "startupFrames": ",i26~27",
+    "blockFrames": "-12~-11",
+    "hitFrames": "+17a (+10)",
+    "counterFrames": "",
+    "notes": "\n            * Tornado\n            * Weapon\n            * Combo from 1st CH\n            * Alternate input: BT.2,1\n            * Alternate notation: 1SS.f+2,1\n        "
+  },
+  {
+    "command": "f+2,db+2",
+    "hitLevels": [
+      "h",
+      "m"
+    ],
+    "damage": [
+      "18",
+      "8"
+    ],
+    "startupFrames": ",i10~14",
+    "blockFrames": "-5",
+    "hitFrames": "+6",
+    "counterFrames": "",
+    "notes": "Link to db+2 extensions"
+  },
+  {
+    "command": "f+3",
+    "hitLevels": [
+      "h"
+    ],
+    "damage": [
+      "24"
+    ],
+    "startupFrames": "i16~17",
+    "blockFrames": "-9~-8",
+    "hitFrames": "+17a (+8)",
+    "counterFrames": "",
+    "notes": "\n            * Homing\n            * Balcony Break\n        "
+  },
+  {
+    "command": "f+3+4",
+    "hitLevels": [
+      "m",
+      "M",
+      "M",
+      "M"
+    ],
+    "damage": [
+      "20",
+      "3",
+      "3",
+      "3"
+    ],
+    "startupFrames": "i21~25",
+    "blockFrames": "-13~-9",
+    "hitFrames": "-8a (-15)",
+    "counterFrames": "",
+    "notes": "\n            * Balcony Break\n            * Head\n            * Floor break 3rd hit\n            * Transition to FLE on hit only\n            * Attacks after 1st only come out on hit\n            * Combo from 1st hit does 2,1,1 damage\n            * Combo does 2 extra damage from FLE.n\n            * Cancel to r55 BT with b\n            * Alternate notation: 1SS.f+3+4\n        "
+  },
+  {
+    "command": "f+3,4",
+    "hitLevels": [
+      "h",
+      "m"
+    ],
+    "damage": [
+      "2420"
+    ],
+    "startupFrames": ",i23~24",
+    "blockFrames": "-6~-5",
+    "hitFrames": "+37a (+23a)",
+    "counterFrames": "",
+    "notes": "\n            * Knee\n            * 18f delay after 1st attack\n            * Interrupt with i17 from 1st block\n        "
+  },
+  {
+    "command": "f+4",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "20"
+    ],
+    "startupFrames": "i18",
+    "blockFrames": "-13",
+    "hitFrames": "+21a (+11)",
+    "counterFrames": "",
+    "notes": "\n            * Balcony Break\n            * -9 on attack absorbtion\n            * 8 chip damage on attack absorbtion\n        "
+  },
+  {
+    "command": "FC.d+1",
+    "hitLevels": [
+      "sl"
+    ],
+    "damage": [
+      "5"
+    ],
+    "startupFrames": "i10",
+    "blockFrames": "-5",
+    "hitFrames": "+6",
+    "counterFrames": "",
+    "notes": "\n            * Alternate inputs:\n            ** FC.db+1\n            ** FC.df+1\n            * Transition to r24 with f\n            * Transition input can be delayed 16f\n        "
+  },
+  {
+    "command": "FC.d+2",
+    "hitLevels": [
+      "sl"
+    ],
+    "damage": [
+      "8"
+    ],
+    "startupFrames": "i11",
+    "blockFrames": "-4",
+    "hitFrames": "+5",
+    "counterFrames": "",
+    "notes": "\n            * Alternate inputs:\n            ** FC.db+2\n            ** FC.df+2\n        "
+  },
+  {
+    "command": "FC.d+3",
+    "hitLevels": [
+      "L"
+    ],
+    "damage": [
+      "10"
+    ],
+    "startupFrames": "i16",
+    "blockFrames": "-16",
+    "hitFrames": "-6",
+    "counterFrames": "",
+    "notes": "Alternate input: 1SS.FC.df+3"
+  },
+  {
+    "command": "FC.d+4",
+    "hitLevels": [
+      "l"
+    ],
+    "damage": [
+      "6"
+    ],
+    "startupFrames": "i12",
+    "blockFrames": "-15",
+    "hitFrames": "-4",
+    "counterFrames": "",
+    "notes": "Alternate input: FC.db+4"
+  },
+  {
+    "command": "FC.db+3",
+    "hitLevels": [
+      "l"
+    ],
+    "damage": [
+      "8"
+    ],
+    "startupFrames": "i18~19",
+    "blockFrames": "-25~-24",
+    "hitFrames": "-14~-13",
+    "counterFrames": "",
+    "notes": "Leads to db+3 extensions"
+  },
+  {
+    "command": "FC.DF+1",
+    "hitLevels": [
+      "l!"
+    ],
+    "damage": [
+      "12"
+    ],
+    "startupFrames": "i26",
+    "blockFrames": "",
+    "hitFrames": "+70a (+54)",
+    "counterFrames": "",
+    "notes": "\n            * Weapon\n            * Alternate input: FC.db,b+1\n            * Alternate notation: 1SS.FC.DF+1\n            * Alternate name: Samurai Cutter\n        "
+  },
+  {
+    "command": "FC.df+4",
+    "hitLevels": [
+      "L"
+    ],
+    "damage": [
+      "18"
+    ],
+    "startupFrames": "i18~19",
+    "blockFrames": "-26~-25",
+    "hitFrames": "+4c~+5c",
+    "counterFrames": "+31a",
+    "notes": "\n            * Homing\n            * Can be done from [[Crouch#Crouch_levels|Crouch Level 2]]\n        "
+  },
+  {
+    "command": "f,F+1+2",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "22"
+    ],
+    "startupFrames": "i22~24",
+    "blockFrames": "-8~-6",
+    "hitFrames": "+3c~+5c",
+    "counterFrames": "",
+    "notes": "\n            * Spike\n            * Cannot be buffered\n            * Visually similar to f,F+3+4\n            * Unparryable by traditional parries, Asuka, Nina, etc\n        "
+  },
+  {
+    "command": "f,F+1+4",
+    "hitLevels": [
+      "m!"
+    ],
+    "damage": [
+      "60"
+    ],
+    "startupFrames": "i45",
+    "blockFrames": "",
+    "hitFrames": "-65a",
+    "counterFrames": "",
+    "notes": "\n            * Weapon\n            * 60 self-damage during 1st recovery frame\n            * Cannot be buffered\n            * NSS.f,F+1+4 will always cancel into Confusion\n        "
+  },
+  {
+    "command": "f,F+1+4,F",
+    "hitLevels": [
+      "m!",
+      "m!"
+    ],
+    "damage": [
+      "60185"
+    ],
+    "startupFrames": ",i35~37",
+    "blockFrames": "",
+    "hitFrames": "-60a",
+    "counterFrames": "",
+    "notes": "\n            * Weapon\n            * 185 self-damage during 1st recovery frame\n        "
+  },
+  {
+    "command": "f,F+1+4,n",
+    "hitLevels": [
+      "m!"
+    ],
+    "damage": [
+      "60"
+    ],
+    "startupFrames": "",
+    "blockFrames": "",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": ""
+  },
+  {
+    "command": "f,F+2",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "15"
+    ],
+    "startupFrames": "i15",
+    "blockFrames": "-9",
+    "hitFrames": "+4",
+    "counterFrames": "",
+    "notes": "\n            * Elbow\n            * Cannot be buffered\n            * Increased pushback on CH\n        "
+  },
+  {
+    "command": "f,F+2&#58;2",
+    "hitLevels": [
+      "m",
+      "t"
+    ],
+    "damage": [
+      "15",
+      "20"
+    ],
+    "startupFrames": "",
+    "blockFrames": "",
+    "hitFrames": "+17d",
+    "counterFrames": "",
+    "notes": "\n            * Transitions to attack throw only on front hit (air hit OK)\n            * 3f input window for the transition (i13~15)\n            * After hit transition to r20 IND with d+3+4 and restore 4 health\n        "
+  },
+  {
+    "command": "f,F+3",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "20"
+    ],
+    "startupFrames": "i23~24",
+    "blockFrames": "-4~-3",
+    "hitFrames": "+5~+6",
+    "counterFrames": "",
+    "notes": "\n            * Transition to r26 KIN with 1+2 (+3~+4 on block, +12~+13 on hit)\n            * Cannot be buffered\n        "
+  },
+  {
+    "command": "f,F+3+4",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "15"
+    ],
+    "startupFrames": "i22~24",
+    "blockFrames": "-20~-18",
+    "hitFrames": "-9c~-7c",
+    "counterFrames": "",
+    "notes": "\n            * Spike\n            * Cannot be buffered\n            * Visually similar to f,F+1+2\n            * Unparryable by traditional parries, Asuka, Nina, etc\n        "
+  },
+  {
+    "command": "f,F+3+4,1+2",
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "damage": [
+      "15",
+      "15"
+    ],
+    "startupFrames": ",i12~18",
+    "blockFrames": "-31~-25",
+    "hitFrames": "-2a (-12)",
+    "counterFrames": "",
+    "notes": "\n            * Combo from 1st CH\n            * Tremendous forward travel\n            * Unparryable by traditional parries, Asuka, Nina, etc\n            * Automatically recovers to r? IND on self wallsplat\n        "
+  },
+  {
+    "command": "f,F+3+4,1+2,3+4",
+    "hitLevels": [
+      "m",
+      "m",
+      "m"
+    ],
+    "damage": [
+      "15",
+      "15",
+      "20"
+    ],
+    "startupFrames": ",i27",
+    "blockFrames": "-13",
+    "hitFrames": "+52a (+42)",
+    "counterFrames": "",
+    "notes": "\n            * Tornado\n            * Combo from 2nd hit\n            * Combo from 1st CH\n            * Tremendous forward travel\n        "
+  },
+  {
+    "command": "f,F+4",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "20z"
+    ],
+    "startupFrames": "i15~16",
+    "blockFrames": "-6~-5",
+    "hitFrames": "+37a (+23)",
+    "counterFrames": "",
+    "notes": "\n            * Balcony Break\n            * Knee\n            * Cannot be buffered\n        "
+  },
+  {
+    "command": "f,f,F+3",
+    "hitLevels": [
+      "M"
+    ],
+    "damage": [
+      "30"
+    ],
+    "startupFrames": "i22~23",
+    "blockFrames": "+5g~+6g",
+    "hitFrames": "+13a (+3)",
+    "counterFrames": "",
+    "notes": "\n            * Balcony Break\n            * 9 chip damage on block\n        "
+  },
+  {
+    "command": "f,f,F+3,U",
+    "hitLevels": [
+      "M"
+    ],
+    "damage": [
+      "30"
+    ],
+    "startupFrames": "",
+    "blockFrames": "+7g~+8g",
+    "hitFrames": "+15a (+5)",
+    "counterFrames": "",
+    "notes": "Unavailable in NSS"
+  },
+  {
+    "command": "FLE.1",
+    "hitLevels": [
+      ""
+    ],
+    "damage": [
+      ""
+    ],
+    "startupFrames": "",
+    "blockFrames": "",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": ""
+  },
+  {
+    "command": "FLE.1+2",
+    "hitLevels": [
+      "h"
+    ],
+    "damage": [
+      "20"
+    ],
+    "startupFrames": "i18~19",
+    "blockFrames": "-8~-7",
+    "hitFrames": "+31a (+21)",
+    "counterFrames": "",
+    "notes": "\n            * Tornado\n            * Head\n        "
+  },
+  {
+    "command": "FLE.2",
+    "hitLevels": [
+      "L"
+    ],
+    "damage": [
+      "20"
+    ],
+    "startupFrames": "i24~28",
+    "blockFrames": "-12~-8",
+    "hitFrames": "+30a",
+    "counterFrames": "",
+    "notes": "\n            * Side switches on close hit\n            * Can combo to ws4 on no side switch\n            * Alternate input: FLE.1~df+3+4\n        "
+  },
+  {
+    "command": "FLE.3",
+    "hitLevels": [
+      ""
+    ],
+    "damage": [
+      ""
+    ],
+    "startupFrames": "",
+    "blockFrames": "",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": "\n            * Evades like a sidestep\n            * Alternate input: FLE.4\n        "
+  },
+  {
+    "command": "FLE.3+4",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "25"
+    ],
+    "startupFrames": "i25~26",
+    "blockFrames": "-13~-12",
+    "hitFrames": "+52a (+42)",
+    "counterFrames": "",
+    "notes": "\n            * Tornado\n            * Unparryable by traditional parries, Asuka, Nina, etc\n        "
+  },
+  {
+    "command": "FLE.b",
+    "hitLevels": [
+      ""
+    ],
+    "damage": [
+      ""
+    ],
+    "startupFrames": "",
+    "blockFrames": "",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": "In WFL from frames 20-50"
+  },
+  {
+    "command": "FLE.d",
+    "hitLevels": [
+      ""
+    ],
+    "damage": [
+      ""
+    ],
+    "startupFrames": "",
+    "blockFrames": "",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": "\n            * Evades jabs from frames 4-14\n            * Evades mids from frames 7-12\n            * Can be canceled into other FLE moves (except FLE.n)\n        "
+  },
+  {
+    "command": "FLE.d+3+4",
+    "hitLevels": [
+      ""
+    ],
+    "damage": [
+      ""
+    ],
+    "startupFrames": "",
+    "blockFrames": "",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": ""
+  },
+  {
+    "command": "FLE.db",
+    "hitLevels": [
+      ""
+    ],
+    "damage": [
+      ""
+    ],
+    "startupFrames": "",
+    "blockFrames": "",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": ""
+  },
+  {
+    "command": "FLE.d",
+    "hitLevels": [
+      "M"
+    ],
+    "damage": [
+      "0"
+    ],
+    "startupFrames": "i10",
+    "blockFrames": "",
+    "hitFrames": "+31a (+24)",
+    "counterFrames": "",
+    "notes": "\n            * Balcony Break\n            * Evades jabs from frames 4-14\n            * Evades mids from frames 7-12\n            * Can be cancelled into other FLE moves (except FLE.n)\n            * Only accessible after hitting with FLE.n\n        "
+  },
+  {
+    "command": "FLE.f",
+    "hitLevels": [
+      ""
+    ],
+    "damage": [
+      ""
+    ],
+    "startupFrames": "",
+    "blockFrames": "",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": "\n            * In WFL from frames 20-50\n            * Cancel into FLE.f,f with f within 19 frames\n        "
+  },
+  {
+    "command": "FLE.f+2",
+    "hitLevels": [
+      "h"
+    ],
+    "damage": [
+      "23"
+    ],
+    "startupFrames": "i20~21",
+    "blockFrames": "+7g~+8g",
+    "hitFrames": "+19a (+10)",
+    "counterFrames": "+64a (+44)",
+    "notes": "\n            * Homing\n            * Balcony Break\n        "
+  },
+  {
+    "command": "FLE.f,f",
+    "hitLevels": [
+      "M",
+      "M",
+      "M",
+      "M",
+      "M"
+    ],
+    "damage": [
+      "3",
+      "3",
+      "3",
+      "3",
+      "3"
+    ],
+    "startupFrames": "i17~19,i6~8 i5~7 i6~8 i6~8",
+    "blockFrames": "-10",
+    "hitFrames": "+1",
+    "counterFrames": "",
+    "notes": "\n            * Combos from 1st\n            * Floor break at the wall only\n            * Sometimes combos into FLE.n\n        "
+  },
+  {
+    "command": "FLE.n",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "7"
+    ],
+    "startupFrames": "i2~60",
+    "blockFrames": "-18~",
+    "hitFrames": "+48a (+38a)",
+    "counterFrames": "",
+    "notes": "\n            * Balcony Break\n            * Weapon\n            * Hitlines exist on the sword and directly behind Yoshimitsu\n            * Can be canceled at any time into another FLE move\n            * After hitting with this attack, FLE.n has no hitbox until another FLE action (other than FLE.d) is taken\n        "
+  },
+  {
+    "command": "FLE.u+1+2",
+    "hitLevels": [
+      ""
+    ],
+    "damage": [
+      ""
+    ],
+    "startupFrames": "",
+    "blockFrames": "",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": ""
+  },
+  {
+    "command": "FLE.u+1+2",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "30"
+    ],
+    "startupFrames": "i38~40",
+    "blockFrames": "+4~+6",
+    "hitFrames": "+21a (+12)",
+    "counterFrames": "",
+    "notes": "\n            * Balcony Break\n            * Tech roll to r33 FC on frames 41-42\n        "
+  },
+  {
+    "command": "FLE.uf",
+    "hitLevels": [
+      "m!"
+    ],
+    "damage": [
+      "21"
+    ],
+    "startupFrames": "i30~45",
+    "blockFrames": "",
+    "hitFrames": "+30a (+20)",
+    "counterFrames": "",
+    "notes": "\n            * Balcony Break\n            * Alternate inputs: FLE.u and FLE.ub\n        "
+  },
+  {
+    "command": "f,n,d,df+1",
+    "hitLevels": [
+      "M"
+    ],
+    "damage": [
+      "22"
+    ],
+    "startupFrames": "i17~18",
+    "blockFrames": "-17~-16",
+    "hitFrames": "+35a (+25a)",
+    "counterFrames": "",
+    "notes": "\n            * Weapon\n            * Can be buffered\n            * Can transition to r37 KIN with 1+2\n            * Can be performed in FC\n            * Alternate notation: 1SS.f,n,d,df+1\n        "
+  },
+  {
+    "command": "f,n,d,df+2",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "20"
+    ],
+    "startupFrames": "i14~15",
+    "blockFrames": "-13~-12",
+    "hitFrames": "+6g~+7g",
+    "counterFrames": "+58a (+38)",
+    "notes": "\n            * Balcony Break\n            * Weapon\n            * Can be buffered\n            * Can be performed in FC\n        "
+  },
+  {
+    "command": "FUFT.d+3+4",
+    "hitLevels": [
+      ""
+    ],
+    "damage": [
+      ""
+    ],
+    "startupFrames": "",
+    "blockFrames": "",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": ""
+  },
+  {
+    "command": "H.2+3",
+    "hitLevels": [
+      "M",
+      "m",
+      "m",
+      "m"
+    ],
+    "damage": [
+      "51"
+    ],
+    "startupFrames": "i18~19",
+    "blockFrames": "+4~+5",
+    "hitFrames": "-3d",
+    "counterFrames": "",
+    "notes": "\n            * Heat Smash\n            * Balcony Break\n            * Recovers health on hit\n            * Transition to r29 DGF on block with U, +10~+11\n            * Transition to attack throw after 1st hit\n            * Ignores regular power crush armor\n            * 14 chip damage on block\n            * Jail from 1st attack\n            * Unparryable\n            * Ends Heat\n        "
+  },
+  {
+    "command": "H.DGF.1",
+    "hitLevels": [
+      "M"
+    ],
+    "damage": [
+      "20"
+    ],
+    "startupFrames": "i30~31",
+    "blockFrames": "+2~+3",
+    "hitFrames": "+46a",
+    "counterFrames": "",
+    "notes": "\n            * Spike\n            * Weapon\n            * 14 chip damage on block\n            * Recovers health on hit\n        "
+  },
+  {
+    "command": "H.DGF.f+1+2",
+    "hitLevels": [
+      "h",
+      "h",
+      "h"
+    ],
+    "damage": [
+      "10",
+      "10",
+      "20"
+    ],
+    "startupFrames": "i16~17 i11~12 i11~12",
+    "blockFrames": "+4~+5",
+    "hitFrames": "+18a (+9)",
+    "counterFrames": "",
+    "notes": "\n            * Homing\n            * Balcony Break\n            * Weapon\n            * 17 chip damage on block\n            * Recovers health on hit\n        "
+  },
+  {
+    "command": "IND.1",
+    "hitLevels": [
+      "M!"
+    ],
+    "damage": [
+      "15"
+    ],
+    "startupFrames": "i53~55",
+    "blockFrames": "",
+    "hitFrames": "+0c~+2c",
+    "counterFrames": "",
+    "notes": "\n            * Spike\n            * Weapon\n            * Same animation as the ending of qcf+1\n            * Alternate notation: 1SS.IND.1 or IND.1SS.1\n        "
+  },
+  {
+    "command": "IND.1+2",
+    "hitLevels": [
+      ""
+    ],
+    "damage": [
+      ""
+    ],
+    "startupFrames": "",
+    "blockFrames": "",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": "Unavailable in NSS"
+  },
+  {
+    "command": "IND.2",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "7"
+    ],
+    "startupFrames": "i39~43",
+    "blockFrames": "-8~-5",
+    "hitFrames": "+2~+6",
+    "counterFrames": "",
+    "notes": "\n            * Leads to DB+2,2 extensions\n            * Yoshimitsu will transition to IND.u if the distance to the opponent is less than 1.00 units\n            * Yoshimitsu will teleport if the distance to the opponent is less than 0.50 units\n        "
+  },
+  {
+    "command": "IND.3",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "15"
+    ],
+    "startupFrames": "i12~18",
+    "blockFrames": "-31~-25",
+    "hitFrames": "-2a (-12)",
+    "counterFrames": "",
+    "notes": "\n            * Balcony Break\n            * Automatically recovers to r? IND on self wallsplat\n            * Unparryable by traditional parries, Asuka, Nina, etc\n            * Tremendous forward travel\n        "
+  },
+  {
+    "command": "IND.3,3+4",
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "damage": [
+      "15",
+      "20"
+    ],
+    "startupFrames": ",i27",
+    "blockFrames": "-13",
+    "hitFrames": "+52a (+42)",
+    "counterFrames": "",
+    "notes": "\n            * Tornado\n            * Combo from 1st hit\n            * Tremendous forward travel\n        "
+  },
+  {
+    "command": "IND.3+4",
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "damage": [
+      "6",
+      "22"
+    ],
+    "startupFrames": "i17~18 i28~29",
+    "blockFrames": "-6~-5",
+    "hitFrames": "+3~+4",
+    "counterFrames": "",
+    "notes": "\n            * Transition to r18 DGF with 1SS.U\n        "
+  },
+  {
+    "command": "IND.4",
+    "hitLevels": [
+      "L"
+    ],
+    "damage": [
+      "18"
+    ],
+    "startupFrames": "i47~48",
+    "blockFrames": "-26~-25",
+    "hitFrames": "+4c~+5c",
+    "counterFrames": "",
+    "notes": "Homing"
+  },
+  {
+    "command": "IND.b",
+    "hitLevels": [
+      ""
+    ],
+    "damage": [
+      ""
+    ],
+    "startupFrames": "",
+    "blockFrames": "",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": "If in BT.IND closer than 1.75 units, recovers r51, 4.2 units away from the opponent"
+  },
+  {
+    "command": "IND.D+3+4*",
+    "hitLevels": [
+      ""
+    ],
+    "damage": [
+      ""
+    ],
+    "startupFrames": "",
+    "blockFrames": "",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": "\n            * Allows 8-way directional movement in IND\n            * Continues as long as 3+4 is held\n            * Holding a directional input and pressing 1, 2 or 1+2 will play different voicelines\n        "
+  },
+  {
+    "command": "IND.f",
+    "hitLevels": [
+      ""
+    ],
+    "damage": [
+      ""
+    ],
+    "startupFrames": "",
+    "blockFrames": "",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": "If closer than 1.75 units, recovers r51, 1 unit behind the opponent"
+  },
+  {
+    "command": "IND.n",
+    "hitLevels": [
+      ""
+    ],
+    "damage": [
+      ""
+    ],
+    "startupFrames": "",
+    "blockFrames": "",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": "\n            * Restores recoverable health with each pulse\n            * Can be cancelled into other IND moves\n        "
+  },
+  {
+    "command": "IND.u",
+    "hitLevels": [
+      ""
+    ],
+    "damage": [
+      ""
+    ],
+    "startupFrames": "",
+    "blockFrames": "",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": "\n            * Alternate input: IND.d\n            * Evasive, can go under some attacks if timed\n        "
+  },
+  {
+    "command": "IND.u+1+2",
+    "hitLevels": [
+      ""
+    ],
+    "damage": [
+      ""
+    ],
+    "startupFrames": "",
+    "blockFrames": "",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": "Unavailable in NSS"
+  },
+  {
+    "command": "KIN.1",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "10"
+    ],
+    "startupFrames": "i17",
+    "blockFrames": "-12",
+    "hitFrames": "-1",
+    "counterFrames": "",
+    "notes": "\n            * Spike\n            * Weapon\n        "
+  },
+  {
+    "command": "KIN.1,1",
+    "hitLevels": [
+      "m",
+      "m",
+      "m"
+    ],
+    "damage": [
+      "10",
+      "5",
+      "15"
+    ],
+    "startupFrames": ",i23~24 i14~15",
+    "blockFrames": "-9~-8",
+    "hitFrames": "+7c~+8c",
+    "counterFrames": "",
+    "notes": "\n            * Spike\n            * Weapon\n            * Combo from 1st hit with 2f delay\n            * Power up in NSS or Heat\n            * Alternate notation: 1SS.KIN.1,1\n        "
+  },
+  {
+    "command": "KIN.1+2",
+    "hitLevels": [
+      "m",
+      "m",
+      "m",
+      "m"
+    ],
+    "damage": [
+      "4",
+      "4",
+      "4",
+      "24"
+    ],
+    "startupFrames": "i12~13 i6~7 i7~8 i11~13",
+    "blockFrames": "-6~-4",
+    "hitFrames": "+11a",
+    "counterFrames": "",
+    "notes": "\n            * Weapon\n            * Combos from any hit\n            * Floor break final hit\n            * Realigns between hits\n            * Despite being i12, it always connects on i13 after f,F+3,1+2 on hit\n        "
+  },
+  {
+    "command": "KIN.1+4",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "21"
+    ],
+    "startupFrames": "i10~13",
+    "blockFrames": "-15~-12",
+    "hitFrames": "+14c~+17c",
+    "counterFrames": "",
+    "notes": "\n            * Weapon\n            * 70% proration on standing hit\n            * Knockdown against BT opponent, +23a (+14)\n            * Power up in NSS or Heat\n            * Alternate notation: 1SS.KIN.1+4\n        "
+  },
+  {
+    "command": "KIN.1,NSS.1",
+    "hitLevels": [
+      "m",
+      "m",
+      "m"
+    ],
+    "damage": [
+      "10",
+      "5",
+      "20"
+    ],
+    "startupFrames": ",i23~24 i14~15",
+    "blockFrames": "-1~+0",
+    "hitFrames": "+37a (+29)",
+    "counterFrames": "",
+    "notes": "\n            * Spike\n            * Weapon\n            * Combo from 1st hit with 2f delay\n            * Recovers health on hit\n        "
+  },
+  {
+    "command": "KIN.2",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "15"
+    ],
+    "startupFrames": "i21~22",
+    "blockFrames": "-14~-13",
+    "hitFrames": "+26a (+16a)",
+    "counterFrames": "",
+    "notes": "Weapon"
+  },
+  {
+    "command": "KIN.2,1+2",
+    "hitLevels": [
+      "m",
+      "M"
+    ],
+    "damage": [
+      "1530"
+    ],
+    "startupFrames": "i32~34",
+    "blockFrames": "-15~-13",
+    "hitFrames": "+2a",
+    "counterFrames": "",
+    "notes": "\n            * Balcony Break\n            * Spike\n            * Weapon\n            * 6 chip damage on block\n            * Power in NSS or Heat\n            * Alternate notation: 1SS.KIN.2,1+2\n        "
+  },
+  {
+    "command": "KIN.2,1+2*",
+    "hitLevels": [
+      "m",
+      "M"
+    ],
+    "damage": [
+      "1530"
+    ],
+    "startupFrames": ",i47~49",
+    "blockFrames": "+2~+4",
+    "hitFrames": "+2a",
+    "counterFrames": "",
+    "notes": "\n            * Balcony Break\n            * Spike\n            * Weapon\n            * 9 chip damage on block\n            * Power in NSS or Heat\n            * Alternate notation: 1SS.KIN.2,1+2*\n        "
+  },
+  {
+    "command": "KIN.2,NSS.1+2*",
+    "hitLevels": [
+      "m",
+      "M"
+    ],
+    "damage": [
+      "15",
+      "30"
+    ],
+    "startupFrames": ",i47~49",
+    "blockFrames": "+14~+16",
+    "hitFrames": "+69a (+49)",
+    "counterFrames": "",
+    "notes": "\n            * Balcony Break\n            * Spike\n            * Weapon\n            * Guard break\n            * 12 chip damage on block\n            * Recovers health on hit\n        "
+  },
+  {
+    "command": "KIN.2,NSS.1+2",
+    "hitLevels": [
+      "m",
+      "M"
+    ],
+    "damage": [
+      "15",
+      "30"
+    ],
+    "startupFrames": "i32~34",
+    "blockFrames": "-3~-1",
+    "hitFrames": "+15a",
+    "counterFrames": "",
+    "notes": "\n            * Balcony Break\n            * Spike\n            * Weapon\n            * 9 chip damage on block\n            * Recovers health on hit\n        "
+  },
+  {
+    "command": "KIN.3",
+    "hitLevels": [
+      "L"
+    ],
+    "damage": [
+      "17"
+    ],
+    "startupFrames": "i25~32",
+    "blockFrames": "-16~-9",
+    "hitFrames": "+13a",
+    "counterFrames": "+24a",
+    "notes": ""
+  },
+  {
+    "command": "KIN.4",
+    "hitLevels": [
+      "h"
+    ],
+    "damage": [
+      "23"
+    ],
+    "startupFrames": "i16~17",
+    "blockFrames": "+0~+1",
+    "hitFrames": "+20a (+11)",
+    "counterFrames": "+49a",
+    "notes": "\n            * Homing\n            * Balcony Break\n            * Can transition to r26 KIN with 1+2\n            * Can transition to r28 MED with 3+4\n            * Alternate input: SS.4\n        "
+  },
+  {
+    "command": "KIN.b+1+2",
+    "hitLevels": [
+      "m!"
+    ],
+    "damage": [
+      "25"
+    ],
+    "startupFrames": "i46",
+    "blockFrames": "",
+    "hitFrames": "+6a",
+    "counterFrames": "",
+    "notes": "\n            * Weapon\n            * Backswing blow\n            * Unavailable in NSS\n        "
+  },
+  {
+    "command": "KIN.b+2",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "15"
+    ],
+    "startupFrames": "i15~16",
+    "blockFrames": "-9~-8",
+    "hitFrames": "+2~+3",
+    "counterFrames": "",
+    "notes": "Weapon"
+  },
+  {
+    "command": "KIN.b+2,1",
+    "hitLevels": [
+      "m",
+      "M"
+    ],
+    "damage": [
+      "15",
+      "19"
+    ],
+    "startupFrames": ",i23~24",
+    "blockFrames": "-12~-11",
+    "hitFrames": "+30a (+20)",
+    "counterFrames": "",
+    "notes": "\n            * Tornado\n            * Weapon\n            * Combo from 1st hit\n            * Alternate notation: 1SS.KIN.b+2,1\n        "
+  },
+  {
+    "command": "KIN.d+1",
+    "hitLevels": [
+      "L"
+    ],
+    "damage": [
+      "20"
+    ],
+    "startupFrames": "i23~24",
+    "blockFrames": "-13",
+    "hitFrames": "+3",
+    "counterFrames": "+38a",
+    "notes": "\n            * Weapon\n            * Alternate notation: 1SS.KIN.d+1\n        "
+  },
+  {
+    "command": "KIN.f",
+    "hitLevels": [
+      ""
+    ],
+    "damage": [
+      ""
+    ],
+    "startupFrames": "",
+    "blockFrames": "",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": ""
+  },
+  {
+    "command": "KIN.f+1",
+    "hitLevels": [
+      "M",
+      "M",
+      "M"
+    ],
+    "damage": [
+      "6",
+      "6",
+      "10"
+    ],
+    "startupFrames": "i19~20 i6~7 i7~8",
+    "blockFrames": "-5~-4",
+    "hitFrames": "-2",
+    "counterFrames": "",
+    "notes": "\n            * Weapon\n            * Combos from any hit\n            * 8 chip damage on block\n            * Powers in NSS or Heat\n            * Alternate notation: 1SS.KIN.f+1\n        "
+  },
+  {
+    "command": "KIN.f+1*",
+    "hitLevels": [
+      "M",
+      "M",
+      "M",
+      "M",
+      "M",
+      "M"
+    ],
+    "damage": [
+      "6",
+      "6",
+      "6",
+      "6",
+      "6",
+      "10"
+    ],
+    "startupFrames": "i19~20 i6~7 i7~8 i6~7 i7~8 i7~8",
+    "blockFrames": "-12~-11",
+    "hitFrames": "+29a (+14)",
+    "counterFrames": "",
+    "notes": "\n            * Weapon\n            * Combos from any hit\n            * 14 chip damage on block\n            * Powers in NSS or Heat\n            * Alternate notation: 1SS.KIN.f+1*\n        "
+  },
+  {
+    "command": "KIN.f+2",
+    "hitLevels": [
+      "h"
+    ],
+    "damage": [
+      "25"
+    ],
+    "startupFrames": "i12~13",
+    "blockFrames": "-1~+0",
+    "hitFrames": "+9a (+0)",
+    "counterFrames": "",
+    "notes": "\n            * Heat Engager\n\n            * ”’Heat Dash +5g~+6g +34a”’\n\n\n            * Homing\n            * Balcony Break\n            * Weapon\n            * Wall crush on block +11g minimum, 3 damage on wall hit\n        "
+  },
+  {
+    "command": "KIN.u+1+2",
+    "hitLevels": [
+      ""
+    ],
+    "damage": [
+      ""
+    ],
+    "startupFrames": "",
+    "blockFrames": "",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": ""
+  },
+  {
+    "command": "Left Throw",
+    "hitLevels": [
+      "t"
+    ],
+    "damage": [
+      "45"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-3",
+    "hitFrames": "+0d",
+    "counterFrames": "",
+    "notes": "\n            * Throw break 1\n            * Side switch on hit\n        "
+  },
+  {
+    "command": "MED.1+2",
+    "hitLevels": [
+      "m!"
+    ],
+    "damage": [
+      "10"
+    ],
+    "startupFrames": "i30~34",
+    "blockFrames": "",
+    "hitFrames": "-1a",
+    "counterFrames": "",
+    "notes": "Recovers health"
+  },
+  {
+    "command": "MED.1+4",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "21"
+    ],
+    "startupFrames": "i6~9",
+    "blockFrames": "-15~-12",
+    "hitFrames": "+14c~+17c",
+    "counterFrames": "",
+    "notes": "\n            * Weapon\n            * 70% proration on standing hit\n            * Knockdown against BT opponent, +23a (+14)\n            * Power up in NSS or Heat\n            * Alternate notation: 1SS.BT.1+4\n        "
+  },
+  {
+    "command": "MED.3",
+    "hitLevels": [
+      "m",
+      "M"
+    ],
+    "damage": [
+      "15",
+      "15"
+    ],
+    "startupFrames": "i17~28 i28~39",
+    "blockFrames": "+2~+13",
+    "hitFrames": "+43a",
+    "counterFrames": "",
+    "notes": "\n            * Spike on second hit\n            * BT.d+3 is guaranteed on meaty block\n        "
+  },
+  {
+    "command": "MED.3+4",
+    "hitLevels": [
+      ""
+    ],
+    "damage": [
+      ""
+    ],
+    "startupFrames": "",
+    "blockFrames": "",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": ""
+  },
+  {
+    "command": "MED.3,d+1",
+    "hitLevels": [
+      "m",
+      "M",
+      "M"
+    ],
+    "damage": [
+      "15",
+      "15",
+      "15"
+    ],
+    "startupFrames": ",i24~25",
+    "blockFrames": "-9~-8",
+    "hitFrames": "+1c~+2c",
+    "counterFrames": "+6a",
+    "notes": "\n            * Spike\n            * Weapon\n            * 4 chip damage on block\n            * Power up in NSS or Heat\n            * Recovers in 1SS\n        "
+  },
+  {
+    "command": "MED.b",
+    "hitLevels": [
+      ""
+    ],
+    "damage": [
+      ""
+    ],
+    "startupFrames": "",
+    "blockFrames": "",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": "\n            * Can be cancelled into a backturned move\n            * Can be cancelled into instant while standing\n            * Creates distance with the opponent\n        "
+  },
+  {
+    "command": "MED.d",
+    "hitLevels": [
+      ""
+    ],
+    "damage": [
+      ""
+    ],
+    "startupFrames": "",
+    "blockFrames": "",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": "Transitions into sidewalk with held input"
+  },
+  {
+    "command": "MED.f",
+    "hitLevels": [
+      ""
+    ],
+    "damage": [
+      ""
+    ],
+    "startupFrames": "",
+    "blockFrames": "",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": "\n            * Can be cancelled into a backturned attack\n            * Can be cancelled into instant while standing\n            * Closes distance with the opponent\n        "
+  },
+  {
+    "command": "MED.n",
+    "hitLevels": [
+      ""
+    ],
+    "damage": [
+      ""
+    ],
+    "startupFrames": "",
+    "blockFrames": "",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": "\n            * May be canceled into another MED move\n            * at 26-28 frames into the animation:\n            * Restores recoverable health successively\n            ** +1 health (1st pulse)\n            ** +2 health (2nd pulse)\n            ** +3 health (3rd onward)\n        "
+  },
+  {
+    "command": "MED.u",
+    "hitLevels": [
+      ""
+    ],
+    "damage": [
+      ""
+    ],
+    "startupFrames": "",
+    "blockFrames": "",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": "Transitions into sidewalk with held input"
+  },
+  {
+    "command": "NSS.1+2+3",
+    "hitLevels": [
+      "h"
+    ],
+    "damage": [
+      "25"
+    ],
+    "startupFrames": "i22~40",
+    "blockFrames": "-18~+0",
+    "hitFrames": "+26d (-32)",
+    "counterFrames": "",
+    "notes": "Balcony Break"
+  },
+  {
+    "command": "NSS.1+4",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "24"
+    ],
+    "startupFrames": "i8~11",
+    "blockFrames": "-15~-12",
+    "hitFrames": "+14 +64a",
+    "counterFrames": "",
+    "notes": "\n            * Weapon\n            * Knockdown against BT opponent, +19a (+9)\n            * 4 chip damage on block\n            * Recovers health on hit\n            * Alternate inputs: b+1+4, f+1+4, db+1+4, ws1+4, FC.D+1+4\n        "
+  },
+  {
+    "command": "NSS.b+1+2",
+    "hitLevels": [
+      ""
+    ],
+    "damage": [
+      ""
+    ],
+    "startupFrames": "",
+    "blockFrames": "",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": ""
+  },
+  {
+    "command": "NSS.BT.b~db+1+2",
+    "hitLevels": [
+      "L"
+    ],
+    "damage": [
+      "20"
+    ],
+    "startupFrames": "i17~18",
+    "blockFrames": "-13~-12",
+    "hitFrames": "+3",
+    "counterFrames": "+38a",
+    "notes": "Weapon"
+  },
+  {
+    "command": "NSS.BT.d+1",
+    "hitLevels": [
+      "l"
+    ],
+    "damage": [
+      "15"
+    ],
+    "startupFrames": "i17~18",
+    "blockFrames": "-13~-12",
+    "hitFrames": "+3",
+    "counterFrames": "+38a",
+    "notes": ""
+  },
+  {
+    "command": "NSS.d+1",
+    "hitLevels": [
+      "M"
+    ],
+    "damage": [
+      "24"
+    ],
+    "startupFrames": "i24~25",
+    "blockFrames": "-9~-8",
+    "hitFrames": "+16a",
+    "counterFrames": "+6a",
+    "notes": "\n            * Spike\n            * Weapon\n            * Recovers health on hit\n            * 12 chip damage on block\n            * Input can be held to transition to d+1*\n        "
+  },
+  {
+    "command": "NSS.d+1+2",
+    "hitLevels": [
+      ""
+    ],
+    "damage": [
+      ""
+    ],
+    "startupFrames": "",
+    "blockFrames": "",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": ""
+  },
+  {
+    "command": "NSS.d+1+4",
+    "hitLevels": [
+      ""
+    ],
+    "damage": [
+      ""
+    ],
+    "startupFrames": "",
+    "blockFrames": "",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": "Yoshimitsu is invisible on frames 50~64, but can still be attacked"
+  },
+  {
+    "command": "NSS.db+1",
+    "hitLevels": [
+      "sl"
+    ],
+    "damage": [
+      "5"
+    ],
+    "startupFrames": "i10",
+    "blockFrames": "-5",
+    "hitFrames": "+6",
+    "counterFrames": "",
+    "notes": "\n            * In-game frame data incorrectly dispalys this move as i11\n            * Transition to r24 with f\n        "
+  },
+  {
+    "command": "NSS.f+1+2",
+    "hitLevels": [
+      "M"
+    ],
+    "damage": [
+      "29"
+    ],
+    "startupFrames": "i20",
+    "blockFrames": "-12",
+    "hitFrames": "+8a (-1)",
+    "counterFrames": "",
+    "notes": "\n            * Heat Engager\n\n            * ”’Heat Dash +5g +62a (+42)”’\n\n\n            * Balcony Break\n            * Weapon\n            * 8 chip damage on block\n            * Extended range\n        "
+  },
+  {
+    "command": "NSS.f+3+4",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "20"
+    ],
+    "startupFrames": "i21~25",
+    "blockFrames": "-13~-9",
+    "hitFrames": "+20a (+11)",
+    "counterFrames": "",
+    "notes": "\n            * Balcony Break\n            * Head\n            * Cancel to r55 BT with b\n            * +20a on left/right side hit\n        "
+  },
+  {
+    "command": "NSS.FC.DF+1",
+    "hitLevels": [
+      "l"
+    ],
+    "damage": [
+      "12"
+    ],
+    "startupFrames": "i25~26",
+    "blockFrames": "-16~-15",
+    "hitFrames": "+27a",
+    "counterFrames": "",
+    "notes": "\n            * Alternate input: NSS.db,b+1\n        "
+  },
+  {
+    "command": "NSS.FC.DF+1,2",
+    "hitLevels": [
+      "l",
+      "L"
+    ],
+    "damage": [
+      "12",
+      "20"
+    ],
+    "startupFrames": ",i25~26",
+    "blockFrames": "-14~-13",
+    "hitFrames": "+14~+15",
+    "counterFrames": "",
+    "notes": "\n            * Combo from 1st hit\n            * Alternate input: NSS.db,b+1,2\n        "
+  },
+  {
+    "command": "NSS.FC.df+3",
+    "hitLevels": [
+      "L"
+    ],
+    "damage": [
+      "12"
+    ],
+    "startupFrames": "i20~21",
+    "blockFrames": "-26~-25",
+    "hitFrames": "+67a (+51)",
+    "counterFrames": "",
+    "notes": ""
+  },
+  {
+    "command": "NSS.KIN.1+4",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "24"
+    ],
+    "startupFrames": "i12~15",
+    "blockFrames": "-15~-12",
+    "hitFrames": "+14 +64a",
+    "counterFrames": "",
+    "notes": "\n            * Weapon\n            * Knockdown against BT opponent, +19a (+9)\n            * 4 chip damage on block\n            * Recovers health on hit\n        "
+  },
+  {
+    "command": "NSS.KIN.f+1",
+    "hitLevels": [
+      "M",
+      "M",
+      "M"
+    ],
+    "damage": [
+      "6",
+      "6",
+      "12"
+    ],
+    "startupFrames": "i19~20 i6~7 i7~8",
+    "blockFrames": "-5~-4",
+    "hitFrames": "+18a (+11)",
+    "counterFrames": "",
+    "notes": "\n            * Weapon\n            * Combos from any hit\n            * 12 chip damage on block\n            * Recovers health on hit\n        "
+  },
+  {
+    "command": "NSS.KIN.f+1*",
+    "hitLevels": [
+      "M",
+      "M",
+      "M",
+      "M",
+      "M",
+      "M"
+    ],
+    "damage": [
+      "6",
+      "6",
+      "6",
+      "6",
+      "6",
+      "12"
+    ],
+    "startupFrames": "i19~20 i6~7 i7~8 i6~7 i7~8 i7~8",
+    "blockFrames": "–9~-8",
+    "hitFrames": "+29a (+14)",
+    "counterFrames": "",
+    "notes": "\n            * Weapon\n            * Combos from any hit\n            * 21 chip damage on block\n            * Recovers health on hit\n        "
+  },
+  {
+    "command": "NSS.u+1+2",
+    "hitLevels": [
+      "L"
+    ],
+    "damage": [
+      "18"
+    ],
+    "startupFrames": "i27~29",
+    "blockFrames": "+4~+6",
+    "hitFrames": "+20c~+22c",
+    "counterFrames": "",
+    "notes": "\n            * Spike\n            * Can’t be low parried\n        "
+  },
+  {
+    "command": "NSS.u,b+1+2",
+    "hitLevels": [
+      "M"
+    ],
+    "damage": [
+      "25"
+    ],
+    "startupFrames": "i24~25",
+    "blockFrames": "-8c~-7c",
+    "hitFrames": "+27a (+17)",
+    "counterFrames": "",
+    "notes": "\n            * Balcony Break\n            * Weapon\n            * 5 chip damage on block\n            * Power up in NSS or Heat\n        "
+  },
+  {
+    "command": "NSS.ub+1+2",
+    "hitLevels": [
+      "M"
+    ],
+    "damage": [
+      "30"
+    ],
+    "startupFrames": "i24~25",
+    "blockFrames": "-8c~-7c",
+    "hitFrames": "+16a (+6)",
+    "counterFrames": "",
+    "notes": "\n            * Balcony Break\n            * Weapon\n            * 15 chip damage on block\n            * Clean hit 39 damage\n            * Recovers health on hit\n            * -12c~-13c if blocked at tip range\n        "
+  },
+  {
+    "command": "NSS.uf+1+3",
+    "hitLevels": [
+      ""
+    ],
+    "damage": [
+      ""
+    ],
+    "startupFrames": "",
+    "blockFrames": "",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": ""
+  },
+  {
+    "command": "OTG.u+1",
+    "hitLevels": [
+      "M"
+    ],
+    "damage": [
+      "24"
+    ],
+    "startupFrames": "i27~29",
+    "blockFrames": "-13~-11",
+    "hitFrames": "-8c~-6c",
+    "counterFrames": "",
+    "notes": "\n            * Spike\n            * Weapon\n            * 16 damage -16a against airborne opponent\n            * 19 damage -13a (-23a) against a grounded opponent\n            * Unavailable in NSS\n        "
+  },
+  {
+    "command": "qcb,f+2",
+    "hitLevels": [
+      "t"
+    ],
+    "damage": [
+      "0"
+    ],
+    "startupFrames": "i15~16",
+    "blockFrames": "",
+    "hitFrames": "+0",
+    "counterFrames": "",
+    "notes": "\n            * Unbreakable\n            * Opponent recovers 26 health\n            * Yoshimitsu loses 35 health\n        "
+  },
+  {
+    "command": "qcf+1",
+    "hitLevels": [
+      "h",
+      "h",
+      "M"
+    ],
+    "damage": [
+      "24",
+      "15",
+      "35"
+    ],
+    "startupFrames": "i28~34 i37 i58~60",
+    "blockFrames": "+0~+2",
+    "hitFrames": "+30a",
+    "counterFrames": "",
+    "notes": "\n            * Spike 2nd and 3rd\n            * Weapon\n            * 17 chip damage on block\n            * Can be buffered\n            * Can be performed in FC\n            * 1st and 2nd hits connect only vs airborne opponent\n            * Alternate notation: 1SS.qcf+1\n        "
+  },
+  {
+    "command": "qcf+2",
+    "hitLevels": [
+      "t"
+    ],
+    "damage": [
+      "22"
+    ],
+    "startupFrames": "i15~16",
+    "blockFrames": "+0",
+    "hitFrames": "+0",
+    "counterFrames": "",
+    "notes": "\n            * Throw break 1+2\n            * 35 damage as a backthrow\n            * Yoshimitsu recovers 16 health\n            * On break:\n            ** -Opponent recovers 22 health (35 on backthrow)\n            ** -Yoshimitsu loses 16 health\n        "
+  },
+  {
+    "command": "R.df+1+2",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "10",
+      "45+"
+    ],
+    "startupFrames": "i20",
+    "blockFrames": "-15",
+    "hitFrames": "+0d",
+    "counterFrames": "",
+    "notes": "\n            * Rage Art\n            * Damage increases with lower health\n            * Erases opponent’s recoverable health on hit\n        "
+  },
+  {
+    "command": "Right Throw",
+    "hitLevels": [
+      "t"
+    ],
+    "damage": [
+      "40"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-3",
+    "hitFrames": "-3d",
+    "counterFrames": "",
+    "notes": "Throw break 2"
+  },
+  {
+    "command": "SS.1",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "23"
+    ],
+    "startupFrames": "i17~18",
+    "blockFrames": "-9~-8",
+    "hitFrames": "+2~+3",
+    "counterFrames": "",
+    "notes": ""
+  },
+  {
+    "command": "SS.2",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "22"
+    ],
+    "startupFrames": "i18~19",
+    "blockFrames": "-13~-12",
+    "hitFrames": "+30a (+20)",
+    "counterFrames": "",
+    "notes": "Tornado"
+  },
+  {
+    "command": "u+1+2",
+    "hitLevels": [
+      ""
+    ],
+    "damage": [
+      ""
+    ],
+    "startupFrames": "",
+    "blockFrames": "",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": "\n            * Unavailable in 1SS\n            * Alternate input: BT.u+1+2\n        "
+  },
+  {
+    "command": "u+3+4",
+    "hitLevels": [
+      "M",
+      "M"
+    ],
+    "damage": [
+      "10",
+      "12"
+    ],
+    "startupFrames": "i39~42 i3~6",
+    "blockFrames": "+1c~+4c",
+    "hitFrames": "+24a",
+    "counterFrames": "",
+    "notes": "\n            * Spike\n            * Evades some mid attacks from frames ?-?\n            * Can be floated out of invisibility frames\n        "
+  },
+  {
+    "command": "ub+1+2",
+    "hitLevels": [
+      "M"
+    ],
+    "damage": [
+      "25"
+    ],
+    "startupFrames": "i24~25",
+    "blockFrames": "-8c~-7c",
+    "hitFrames": "+27a (+17)",
+    "counterFrames": "",
+    "notes": "\n            * Balcony Break\n            * Weapon\n            * 5 chip damage on block\n            * Power up in NSS or Heat\n        "
+  },
+  {
+    "command": "ub+1+3",
+    "hitLevels": [
+      "m!"
+    ],
+    "damage": [
+      "40"
+    ],
+    "startupFrames": "i50~52",
+    "blockFrames": "",
+    "hitFrames": "-24",
+    "counterFrames": "",
+    "notes": "\n            * Weapon\n            * Punishable on close hit with FUFT.3\n            * Alternate notation: 1SS.ub+1+2\n        "
+  },
+  {
+    "command": "ub+1+3,1+2",
+    "hitLevels": [
+      "m!h!"
+    ],
+    "damage": [
+      "40",
+      "18"
+    ],
+    "startupFrames": ",i18~19",
+    "blockFrames": "",
+    "hitFrames": "+1~+2",
+    "counterFrames": "+45a",
+    "notes": "\n            * Weapon\n            * Alternate notation: 1SS.ub+1+2,1+2\n        "
+  },
+  {
+    "command": "ub+1+3,n+1",
+    "hitLevels": [
+      "m!",
+      "m!"
+    ],
+    "damage": [
+      "40",
+      "22"
+    ],
+    "startupFrames": ",i28~113",
+    "blockFrames": "",
+    "hitFrames": "-57a",
+    "counterFrames": "",
+    "notes": "\n            * Weapon\n            * Cancel early to r21 with B (earliest cancel -12a)\n            * Possible to double-hit\n            * Alternate notation: 1SS.ub+1+2,n+1\n        "
+  },
+  {
+    "command": "ub+4",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "17"
+    ],
+    "startupFrames": "i20~22",
+    "blockFrames": "-19~-17",
+    "hitFrames": "+12a (+2)",
+    "counterFrames": "",
+    "notes": "\n            * Balcony Break\n            * Spike\n        "
+  },
+  {
+    "command": "uf+1",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "20"
+    ],
+    "startupFrames": "i24~25",
+    "blockFrames": "-4~-5",
+    "hitFrames": "+5c~+6c",
+    "counterFrames": "+50a",
+    "notes": "\n            * Spike\n            * Weapon\n            * Alternate inputs: ub+1, u+1\n            * Alternate notation: 1SS.uf+1\n        "
+  },
+  {
+    "command": "uf+1+2",
+    "hitLevels": [
+      "t"
+    ],
+    "damage": [
+      "45"
+    ],
+    "startupFrames": "i11",
+    "blockFrames": "+0",
+    "hitFrames": "+1",
+    "counterFrames": "",
+    "notes": "\n            * Floor Break\n            * Throw break 1+2\n            * Side switch on break\n        "
+  },
+  {
+    "command": "uf+1+3",
+    "hitLevels": [
+      "M!"
+    ],
+    "damage": [
+      "40"
+    ],
+    "startupFrames": "i113~114",
+    "blockFrames": "",
+    "hitFrames": "+30a",
+    "counterFrames": "",
+    "notes": "\n            * Spike\n            * Weapon\n            * Cancel to r34 DGF with 1+2 on frames 1-34\n            * Cancel to r30 DGF with 1+2 on frame 35. delayable up to frame 92\n            * Alternate notation: 1SS.uf+1+3\n        "
+  },
+  {
+    "command": "uf+1+3,b",
+    "hitLevels": [
+      "M!"
+    ],
+    "damage": [
+      "35"
+    ],
+    "startupFrames": "i55~56",
+    "blockFrames": "",
+    "hitFrames": "+24a",
+    "counterFrames": "",
+    "notes": "\n            * Spike\n            * Weapon\n            * Cancel to r27 DGF with 1+2\n            * Input during frames 1-31 of uf+1+2\n        "
+  },
+  {
+    "command": "uf+1+3,d",
+    "hitLevels": [
+      "M"
+    ],
+    "damage": [
+      "25"
+    ],
+    "startupFrames": "i55~56",
+    "blockFrames": "-3~-2",
+    "hitFrames": "+34a",
+    "counterFrames": "",
+    "notes": "\n            * Spike\n            * Weapon\n            * 10 chip damage on block\n            * Input during frames 1-31 of uf+1+2\n        "
+  },
+  {
+    "command": "uf+1+3>d",
+    "hitLevels": [
+      "M"
+    ],
+    "damage": [
+      "30"
+    ],
+    "startupFrames": "i83~84",
+    "blockFrames": "-1c~+0c",
+    "hitFrames": "+34a",
+    "counterFrames": "",
+    "notes": "\n            * Spike\n            * Weapon\n            * 12 chip damage on block\n            * Input during frames 35-60 of uf+1+2\n        "
+  },
+  {
+    "command": "uf+2",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "25"
+    ],
+    "startupFrames": "i35~36",
+    "blockFrames": "-16~-15",
+    "hitFrames": "+6g~+7g",
+    "counterFrames": "+25a",
+    "notes": "\n            * Weapon\n            * Cancel to r20 FC with D\n        "
+  },
+  {
+    "command": "uf+3",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "15"
+    ],
+    "startupFrames": "i15",
+    "blockFrames": "-13",
+    "hitFrames": "+32a (+22)",
+    "counterFrames": "",
+    "notes": "\n            * Knee\n            * Can evade jabs at frames 5-7\n            * Alternate inputs: ub+3, u+3\n        "
+  },
+  {
+    "command": "uf+3+4",
+    "hitLevels": [
+      "M"
+    ],
+    "damage": [
+      "20"
+    ],
+    "startupFrames": "i31~35",
+    "blockFrames": "-16~-12",
+    "hitFrames": "-4a",
+    "counterFrames": "",
+    "notes": "\n            * Spike\n            * In 1SS cancel to r18 DGF with 1+2\n            * In 1SS transition to r28 FLE with d+1+2\n            * Transition to r28 IND with d+3+4 (or NSS.d+1+2)\n            * On hit, transitions to r49 backward jump automatically\n            * Unparryable by traditional parries, Asuka, Nina, etc\n        "
+  },
+  {
+    "command": "uf+3+4,1",
+    "hitLevels": [
+      "M",
+      "h"
+    ],
+    "damage": [
+      "20",
+      "8"
+    ],
+    "startupFrames": ",i16~18",
+    "blockFrames": "-1~+1",
+    "hitFrames": "-42",
+    "counterFrames": "",
+    "notes": "\n            * On hit, transitions to r49 backward jump automatically\n            * Combo from 1st hit vs grounded\n            * Combo from 1st hit\n        "
+  },
+  {
+    "command": "uf+3+4,1,3+4",
+    "hitLevels": [
+      "M",
+      "h",
+      "M"
+    ],
+    "damage": [
+      "20",
+      "8",
+      "21"
+    ],
+    "startupFrames": ",i31~35",
+    "blockFrames": "+0c~+4c",
+    "hitFrames": "-14a",
+    "counterFrames": "",
+    "notes": "\n            * Spike\n            * On hit, transitions to r49 backward jump automatically\n        "
+  },
+  {
+    "command": "uf+3+4,1,4",
+    "hitLevels": [
+      "M",
+      "h",
+      "m"
+    ],
+    "damage": [
+      "20",
+      "8",
+      "15"
+    ],
+    "startupFrames": ",i17~28 i28~39",
+    "blockFrames": "-14~+13g",
+    "hitFrames": "+27a (+17a)",
+    "counterFrames": "",
+    "notes": "Combos from 1st (requires wall)"
+  },
+  {
+    "command": "uf+3+4,1,4,1",
+    "hitLevels": [
+      "M",
+      "h",
+      "m",
+      "M"
+    ],
+    "damage": [
+      "20",
+      "8",
+      "15",
+      "15"
+    ],
+    "startupFrames": ",i24~25",
+    "blockFrames": "-9~-8",
+    "hitFrames": "+1c~+2c",
+    "counterFrames": "+6a",
+    "notes": "\n            * Spike\n            * Weapon\n            * Can transition to d+1*,n\n            * 4 chip damage on block\n            * Power up in NSS or Heat\n            * Alternate notation: 1SS.uf+3+4,b+1,4,d+1)\n        "
+  },
+  {
+    "command": "uf+3+4,1,4,NSS.1",
+    "hitLevels": [
+      "M",
+      "h",
+      "m",
+      "M"
+    ],
+    "damage": [
+      "20",
+      "8",
+      "15",
+      "15"
+    ],
+    "startupFrames": ",i24~25",
+    "blockFrames": "-9~-8",
+    "hitFrames": "+16a",
+    "counterFrames": "+52a",
+    "notes": "\n            * Spike\n            * Weapon\n            * Can transition to d+1*,n\n            * 12 chip damage on block\n            * Recovers health on hit\n        "
+  },
+  {
+    "command": "uf+3+4,3",
+    "hitLevels": [
+      "M",
+      "M",
+      "M"
+    ],
+    "damage": [
+      "20",
+      "10",
+      "10"
+    ],
+    "startupFrames": ",i39~42 i3~6",
+    "blockFrames": "-4c~-1c",
+    "hitFrames": "+27a",
+    "counterFrames": "",
+    "notes": "\n            * Spike\n            * Evades mid attacks from frames ?-?\n        "
+  },
+  {
+    "command": "uf+3+4,3+4",
+    "hitLevels": [
+      "M",
+      "m"
+    ],
+    "damage": [
+      "20",
+      "25"
+    ],
+    "startupFrames": ",i25~26",
+    "blockFrames": "-13~-12",
+    "hitFrames": "+52a (+42)",
+    "counterFrames": "",
+    "notes": "\n            * Tornado\n            * Combo from 1st hit\n            * Unparryable by traditional parries, Asuka, Nina, etc\n        "
+  },
+  {
+    "command": "uf+4",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "21"
+    ],
+    "startupFrames": "i20~22",
+    "blockFrames": "-9~-7",
+    "hitFrames": "+22a",
+    "counterFrames": "",
+    "notes": "\n            * Homing\n            * Balcony Break\n            * Spike\n            * Alternate input: u+4\n        "
+  },
+  {
+    "command": "WFL.3",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "25"
+    ],
+    "startupFrames": "i17",
+    "blockFrames": "-16",
+    "hitFrames": "+2a (-7)",
+    "counterFrames": "",
+    "notes": "\n            * Balcony Break\n            * Unparryable by traditional parries, Asuka, Nina, etc\n            * Does 37 damage on Clean Hit (See next entry)\n        "
+  },
+  {
+    "command": "WFL.3 (Close Hit)",
+    "hitLevels": [
+      "m",
+      "t"
+    ],
+    "damage": [
+      "37",
+      "20"
+    ],
+    "startupFrames": "",
+    "blockFrames": "",
+    "hitFrames": "+15a",
+    "counterFrames": "",
+    "notes": "\n            * Transition to attack throw only on front hit\n            * Can side switch on hit\n        "
+  },
+  {
+    "command": "WFL.4",
+    "hitLevels": [
+      "L"
+    ],
+    "damage": [
+      "15"
+    ],
+    "startupFrames": "i23~24",
+    "blockFrames": "-9~-8",
+    "hitFrames": "+12c~+13c",
+    "counterFrames": "+20a",
+    "notes": ""
+  },
+  {
+    "command": "ws1",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "12"
+    ],
+    "startupFrames": "i14~15",
+    "blockFrames": "-10~-9",
+    "hitFrames": "+1~+2",
+    "counterFrames": "+6~+7",
+    "notes": ""
+  },
+  {
+    "command": "ws1,1",
+    "hitLevels": [
+      "m",
+      "h"
+    ],
+    "damage": [
+      "12",
+      "12"
+    ],
+    "startupFrames": ",i18",
+    "blockFrames": "-11",
+    "hitFrames": "+0",
+    "counterFrames": "",
+    "notes": "\n            * Spike\n            * Combo from 1st hit with 11f delay\n            * Combo from 1st CH with 13f delay\n            * Input can be delayed 13f\n            * Move can be delayed 8f\n        "
+  },
+  {
+    "command": "ws1,1,1",
+    "hitLevels": [
+      "m",
+      "h",
+      "h"
+    ],
+    "damage": [
+      "12",
+      "12",
+      "12"
+    ],
+    "startupFrames": ",i18",
+    "blockFrames": "-11",
+    "hitFrames": "+0",
+    "counterFrames": "",
+    "notes": "\n            * Spike\n            * Combo from 1st CH with 13f delay\n            * Input can be delayed 12f\n        "
+  },
+  {
+    "command": "ws1,1,1,1",
+    "hitLevels": [
+      "m",
+      "h",
+      "h",
+      "m"
+    ],
+    "damage": [
+      "12",
+      "12",
+      "12",
+      "25"
+    ],
+    "startupFrames": ",i25~26",
+    "blockFrames": "+0c~+1c",
+    "hitFrames": "+6c~+7c",
+    "counterFrames": "",
+    "notes": "\n            * Spike\n            * Combos from 3rd CH with 5f delay\n            * Input can be delayed 12f\n        "
+  },
+  {
+    "command": "ws1,1~b+3",
+    "hitLevels": [
+      "m",
+      "h"
+    ],
+    "damage": [
+      "12",
+      "12"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-16",
+    "hitFrames": "-5",
+    "counterFrames": "",
+    "notes": "\n            * Alternate input: ws1,1~b+4\n        "
+  },
+  {
+    "command": "ws1,2",
+    "hitLevels": [
+      "m",
+      "h"
+    ],
+    "damage": [
+      "12",
+      "18"
+    ],
+    "startupFrames": ",i25~26",
+    "blockFrames": "-4~-3",
+    "hitFrames": "+14g~+15g",
+    "counterFrames": "+39a",
+    "notes": "\n            * Balcony Break\n            * Combos from 1st hit with 4f delay\n            * Combos from 1st CH with 9f delay\n            * Input can be delayed 15f\n            * Move can be delayed 13f\n        "
+  },
+  {
+    "command": "ws1,2,1",
+    "hitLevels": [
+      "m",
+      "h",
+      "M"
+    ],
+    "damage": [
+      "12",
+      "18",
+      "21"
+    ],
+    "startupFrames": ",i26~27",
+    "blockFrames": "-12~-11",
+    "hitFrames": "+17a (+10)",
+    "counterFrames": "",
+    "notes": "\n            * Tornado\n            * Weapon\n            * Combo from 2nd CH\n            * Alternate notation: 1SS.ws1,2,1\n        "
+  },
+  {
+    "command": "ws1,2,db+2",
+    "hitLevels": [
+      "m",
+      "h",
+      "m"
+    ],
+    "damage": [
+      "12",
+      "18",
+      "8"
+    ],
+    "startupFrames": ",i15",
+    "blockFrames": "-5",
+    "hitFrames": "+6",
+    "counterFrames": "",
+    "notes": "Links to db+2 extensions"
+  },
+  {
+    "command": "ws2",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "13"
+    ],
+    "startupFrames": "i15~16",
+    "blockFrames": "-4~-3",
+    "hitFrames": "+7~+8",
+    "counterFrames": "",
+    "notes": ""
+  },
+  {
+    "command": "ws2,1",
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "damage": [
+      "13",
+      "14"
+    ],
+    "startupFrames": ",i27~28",
+    "blockFrames": "-3a",
+    "hitFrames": "+36a (+26)",
+    "counterFrames": "",
+    "notes": "\n            * Weapon\n            * Combo from 1st hit with 1f delay\n            * Alternate notation: 1SS.ws+2,1\n        "
+  },
+  {
+    "command": "ws2,NSS.1",
+    "hitLevels": [
+      "m",
+      "h"
+    ],
+    "damage": [
+      "13",
+      "16"
+    ],
+    "startupFrames": ",i23",
+    "blockFrames": "-6",
+    "hitFrames": "+5",
+    "counterFrames": "",
+    "notes": "\n            * Elbow\n            * Combo from 1st hit with 1f delay\n        "
+  },
+  {
+    "command": "ws2,NSS.1,2",
+    "hitLevels": [
+      "m",
+      "h",
+      "m"
+    ],
+    "damage": [
+      "13",
+      "16",
+      "18"
+    ],
+    "startupFrames": ",i25",
+    "blockFrames": "-5",
+    "hitFrames": "+5",
+    "counterFrames": "+63a",
+    "notes": "\n            * Combo from 2nd CH\n            * Elbow\n        "
+  },
+  {
+    "command": "ws2,NSS.1,3",
+    "hitLevels": [
+      "m",
+      "h",
+      "h"
+    ],
+    "damage": [
+      "13",
+      "16",
+      "25"
+    ],
+    "startupFrames": ",i25~26",
+    "blockFrames": "-7~-6",
+    "hitFrames": "+27a (+17)",
+    "counterFrames": "",
+    "notes": "\n            * Balcony Break\n            * Combo from 2nd CH\n        "
+  },
+  {
+    "command": "ws3",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "12"
+    ],
+    "startupFrames": "i16",
+    "blockFrames": "-6",
+    "hitFrames": "+3",
+    "counterFrames": "",
+    "notes": ""
+  },
+  {
+    "command": "ws3,2",
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "damage": [
+      "12",
+      "20"
+    ],
+    "startupFrames": "i32",
+    "blockFrames": "-12c",
+    "hitFrames": "+0a",
+    "counterFrames": "",
+    "notes": "\n            * Spike\n            * Weapon\n            * Combo from 1st hit\n        "
+  },
+  {
+    "command": "ws4",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "14"
+    ],
+    "startupFrames": "i11~12",
+    "blockFrames": "-6~-5",
+    "hitFrames": "+5~+6",
+    "counterFrames": "",
+    "notes": "\n            * Transition to r21 KIN with 1+2\n            * Transition to r24 NSS with B\n        "
+  }
+]

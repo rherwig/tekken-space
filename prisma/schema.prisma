@@ -92,6 +92,8 @@ model Character {
     moves     Move[]
     moveLists MoveList[]
 
+    isHidden Boolean @default(false)
+
     createdAt DateTime @default(now())
     updatedAt DateTime @updatedAt
 }
@@ -112,12 +114,15 @@ model Move {
     properties Json @default("{}")
     frames     Json @default("{}")
 
+    purpose        String?
+    purposeDetails String?
+
     parent   Move?   @relation("ParentMove", fields: [parentId], references: [id], onDelete: Cascade)
     parentId String?
 
     variants Move[] @relation("ParentMove")
 
-    movesList   MoveList? @relation(fields: [movesListId], references: [id])
+    movesList   MoveList? @relation(fields: [movesListId], references: [id], onDelete: Cascade)
     movesListId String?
 
     character   Character @relation(fields: [characterId], references: [id], onDelete: Cascade)

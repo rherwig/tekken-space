@@ -2,7 +2,7 @@ import { createResolver, defineNuxtModule, addComponentsDir } from '@nuxt/kit';
 
 export default defineNuxtModule({
     meta: {
-        name: 'importer',
+        name: 'moves',
     },
 
     async setup() {

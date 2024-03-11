@@ -1,0 +1,2447 @@
+[
+  {
+    "command": "1",
+    "hitLevels": [
+      "h"
+    ],
+    "damage": [
+      "6"
+    ],
+    "startupFrames": "i10",
+    "blockFrames": "-2",
+    "hitFrames": "+9",
+    "counterFrames": "",
+    "notes": ""
+  },
+  {
+    "command": "1,1",
+    "hitLevels": [
+      "h",
+      "m"
+    ],
+    "damage": [
+      "6",
+      "15"
+    ],
+    "startupFrames": ",",
+    "blockFrames": "-7",
+    "hitFrames": "+4",
+    "counterFrames": "",
+    "notes": "\n            * Combo from 1st CH\n            * Links to f+1\n        "
+  },
+  {
+    "command": "1+2",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "21"
+    ],
+    "startupFrames": "i16~17",
+    "blockFrames": "-9",
+    "hitFrames": "KND",
+    "counterFrames": "KND",
+    "notes": ""
+  },
+  {
+    "command": "1,2",
+    "hitLevels": [
+      "h",
+      "m"
+    ],
+    "damage": [
+      "6",
+      "9"
+    ],
+    "startupFrames": ",",
+    "blockFrames": "-8",
+    "hitFrames": "+6",
+    "counterFrames": "",
+    "notes": "\n            *Combo from 1st CH\n        "
+  },
+  {
+    "command": "1,2,3",
+    "hitLevels": [
+      "h",
+      "m",
+      "m"
+    ],
+    "damage": [
+      "6",
+      "9",
+      "24"
+    ],
+    "startupFrames": ",",
+    "blockFrames": "-2",
+    "hitFrames": "KND",
+    "counterFrames": "",
+    "notes": "\n            * Chip on block\n            * Link to f+4\n            * Can interrupt with up to i15 if previous hit is blocked\n        "
+  },
+  {
+    "command": "1+2+3+4",
+    "hitLevels": [
+      ""
+    ],
+    "damage": [
+      ""
+    ],
+    "startupFrames": "",
+    "blockFrames": "",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": "\n            * Cannot block for 5 seconds\n            * CH state for 5 seconds\n        "
+  },
+  {
+    "command": "1+2+3+4,1+2",
+    "hitLevels": [
+      "",
+      "t(m)"
+    ],
+    "damage": [
+      "",
+      "5",
+      "5"
+    ],
+    "startupFrames": "i61",
+    "blockFrames": "-6",
+    "hitFrames": "LNC",
+    "counterFrames": "",
+    "notes": "\n            * Break: 1+2\n            * Opp. Position on break: Reverse Pos.\n            * Opp. Position on hit: Foot sd. FU\n            * Left slap is auto-attack\n            * Throw breaks 16f later (1f)\n        "
+  },
+  {
+    "command": "1+2+3+4,1+2,1,2,1,2",
+    "hitLevels": [
+      "",
+      "t(m)"
+    ],
+    "damage": [
+      "",
+      "5",
+      "5",
+      "5",
+      "5",
+      "5",
+      "10"
+    ],
+    "startupFrames": "",
+    "blockFrames": "",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": "\n            * Break: none\n            * Opp. Position on break:\n            * Opp. Position on hit: Foot sd. FU\n        "
+  },
+  {
+    "command": "1,2,3,B",
+    "hitLevels": [
+      "h",
+      "m",
+      "m",
+      "sp"
+    ],
+    "damage": [
+      "6",
+      "9",
+      "24",
+      "0"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-18",
+    "hitFrames": "-7",
+    "counterFrames": "",
+    "notes": ""
+  },
+  {
+    "command": "1,2,4",
+    "hitLevels": [
+      "h",
+      "m",
+      "m"
+    ],
+    "damage": [
+      "6",
+      "9",
+      "20"
+    ],
+    "startupFrames": ",",
+    "blockFrames": "-12",
+    "hitFrames": "KND",
+    "counterFrames": "",
+    "notes": "Combo from 2nd hit"
+  },
+  {
+    "command": "1+3",
+    "hitLevels": [
+      "t"
+    ],
+    "damage": [
+      "35"
+    ],
+    "startupFrames": "i12~14",
+    "blockFrames": "-2",
+    "hitFrames": "+0d",
+    "counterFrames": "",
+    "notes": "\n            * Throw break 1 or 2\n            * Opp. Position on break: CCW\n            * Opp. Position on hit: Reverse Pos., F Sd. FU\n        "
+  },
+  {
+    "command": "1,3",
+    "hitLevels": [
+      "h",
+      "l"
+    ],
+    "damage": [
+      "6",
+      "10"
+    ],
+    "startupFrames": ",",
+    "blockFrames": "-11",
+    "hitFrames": "+0",
+    "counterFrames": "",
+    "notes": "\n            * Combo from 1st hit\n        "
+  },
+  {
+    "command": "1+4",
+    "hitLevels": [
+      "sl",
+      "h"
+    ],
+    "damage": [
+      "5",
+      "8"
+    ],
+    "startupFrames": "i14",
+    "blockFrames": "-19",
+    "hitFrames": "-8",
+    "counterFrames": "",
+    "notes": "\n            * Combo from 1st CH\n            * 2nd hit when blocked is -3, on hit is +9\n        "
+  },
+  {
+    "command": "1,4",
+    "hitLevels": [
+      "h",
+      "l"
+    ],
+    "damage": [
+      "614"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-11",
+    "hitFrames": "+0",
+    "counterFrames": "+3",
+    "notes": "\n            * Combo from 1st CH\n            * Link to attack from Leg Cutter (db+4)\n        "
+  },
+  {
+    "command": "1+4,2",
+    "hitLevels": [
+      "sl",
+      "h",
+      "h"
+    ],
+    "damage": [
+      "5",
+      "8",
+      "10"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-2",
+    "hitFrames": "+9",
+    "counterFrames": "",
+    "notes": "\n            * Combo from 2nd CH\n        "
+  },
+  {
+    "command": "1+4,2,4",
+    "hitLevels": [
+      "sl",
+      "h",
+      "h",
+      "m"
+    ],
+    "damage": [
+      "5",
+      "8",
+      "10",
+      "26"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-9",
+    "hitFrames": "+4",
+    "counterFrames": "KND",
+    "notes": "\n            * Combo from 3rd CH\n        "
+  },
+  {
+    "command": "1+4,2,d+4",
+    "hitLevels": [
+      "sl",
+      "h",
+      "h",
+      "l"
+    ],
+    "damage": [
+      "5",
+      "8",
+      "10",
+      "15"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-23",
+    "hitFrames": "KND",
+    "counterFrames": "",
+    "notes": "\n            * Combo from 3rd CH\n        "
+  },
+  {
+    "command": "1+4,3",
+    "hitLevels": [
+      "sl",
+      "h",
+      "m"
+    ],
+    "damage": [
+      "5",
+      "8",
+      "25"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-2",
+    "hitFrames": "KND",
+    "counterFrames": "",
+    "notes": "\n            * Chip on block\n            * Link to attack from Spinning Heel Drop (f+3)\n        "
+  },
+  {
+    "command": "1+4,3,B",
+    "hitLevels": [
+      "sl",
+      "h",
+      "m",
+      "sp"
+    ],
+    "damage": [
+      "5",
+      "8",
+      "25",
+      "0"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-37",
+    "hitFrames": "-26",
+    "counterFrames": "",
+    "notes": "\n            * If 2nd attack is blocked, -20f\n        "
+  },
+  {
+    "command": "1,4,D",
+    "hitLevels": [
+      "h",
+      "l",
+      "sp"
+    ],
+    "damage": [
+      "6140"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-11",
+    "hitFrames": "+0",
+    "counterFrames": "+3",
+    "notes": "\n            * Combo from 1st CH\n        "
+  },
+  {
+    "command": "2",
+    "hitLevels": [
+      "h"
+    ],
+    "damage": [
+      "9"
+    ],
+    "startupFrames": "i12",
+    "blockFrames": "-11",
+    "hitFrames": "+0",
+    "counterFrames": "",
+    "notes": ""
+  },
+  {
+    "command": "2,1",
+    "hitLevels": [
+      "h",
+      "h"
+    ],
+    "damage": [
+      "9",
+      "10"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-3",
+    "hitFrames": "+8",
+    "counterFrames": "",
+    "notes": "\n            * Combo from 1st hit\n        "
+  },
+  {
+    "command": "2,1,2",
+    "hitLevels": [
+      "h",
+      "h",
+      "m"
+    ],
+    "damage": [
+      "9",
+      "10",
+      "16"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-10",
+    "hitFrames": "KND",
+    "counterFrames": "",
+    "notes": "Tornado"
+  },
+  {
+    "command": "2,1,d+1+2",
+    "hitLevels": [
+      "h",
+      "h",
+      "m"
+    ],
+    "damage": [
+      "9",
+      "10",
+      "23"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-9",
+    "hitFrames": "+3c",
+    "counterFrames": "JG",
+    "notes": "\n            * Combo from 2nd CH\n        "
+  },
+  {
+    "command": "2,1,d+1+2,B",
+    "hitLevels": [
+      "h",
+      "h",
+      "m",
+      "sp"
+    ],
+    "damage": [
+      "9",
+      "10",
+      "23",
+      "0"
+    ],
+    "startupFrames": "",
+    "blockFrames": "",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": ""
+  },
+  {
+    "command": "2,1,d+1+2,D",
+    "hitLevels": [
+      "h",
+      "h",
+      "m",
+      "sp"
+    ],
+    "damage": [
+      "9",
+      "10",
+      "23",
+      "0"
+    ],
+    "startupFrames": "",
+    "blockFrames": "",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": ""
+  },
+  {
+    "command": "2+3",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "37"
+    ],
+    "startupFrames": "i16",
+    "blockFrames": "+1",
+    "hitFrames": "+2",
+    "counterFrames": "",
+    "notes": "\n            * Heat Burst\n        "
+  },
+  {
+    "command": "2,3",
+    "hitLevels": [
+      "h",
+      "m"
+    ],
+    "damage": [
+      "9",
+      "16"
+    ],
+    "startupFrames": ",",
+    "blockFrames": "-19",
+    "hitFrames": "KND",
+    "counterFrames": "",
+    "notes": "Combo from 1st hit"
+  },
+  {
+    "command": "2+4",
+    "hitLevels": [
+      "t"
+    ],
+    "damage": [
+      "35"
+    ],
+    "startupFrames": "i12~14",
+    "blockFrames": "-3",
+    "hitFrames": "+0d",
+    "counterFrames": "",
+    "notes": "\n            * Throw break 1 or 2\n            * Opp. Position on break: CCW\n            * Opp. Position on hit: Head Sd. FD\n        "
+  },
+  {
+    "command": "3",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "17"
+    ],
+    "startupFrames": "i14",
+    "blockFrames": "-7",
+    "hitFrames": "+9",
+    "counterFrames": "",
+    "notes": ""
+  },
+  {
+    "command": "3,1",
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "damage": [
+      "17",
+      "17"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-11",
+    "hitFrames": "+8",
+    "counterFrames": "KND",
+    "notes": "\n            * Combo from 1st hit\n            * Can be delayed 14f\n            * Combo can be delayed 14f from hit\n        "
+  },
+  {
+    "command": "3+4",
+    "hitLevels": [
+      "mm"
+    ],
+    "damage": [
+      "10",
+      "21"
+    ],
+    "startupFrames": "i23",
+    "blockFrames": "-6",
+    "hitFrames": "KND",
+    "counterFrames": "",
+    "notes": "\n            * Special effect when hitting grounded opponents\n        "
+  },
+  {
+    "command": "3+4,D",
+    "hitLevels": [
+      "mm",
+      "sp"
+    ],
+    "damage": [
+      "10",
+      "21",
+      "0"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-6",
+    "hitFrames": "KND",
+    "counterFrames": "KND",
+    "notes": ""
+  },
+  {
+    "command": "4",
+    "hitLevels": [
+      "h"
+    ],
+    "damage": [
+      "18"
+    ],
+    "startupFrames": "i11",
+    "blockFrames": "-7",
+    "hitFrames": "+7",
+    "counterFrames": "JG",
+    "notes": ""
+  },
+  {
+    "command": "b+1",
+    "hitLevels": [
+      "l(",
+      "th)"
+    ],
+    "damage": [
+      "17(",
+      "22)"
+    ],
+    "startupFrames": "i29",
+    "blockFrames": "-10",
+    "hitFrames": "+6",
+    "counterFrames": "Th",
+    "notes": "\n            * Connect to Sumiregari upon CH\n            * Damage () is Throw bonus\n        "
+  },
+  {
+    "command": "b+1+3",
+    "hitLevels": [
+      ""
+    ],
+    "damage": [
+      "25"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-6",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": "\n            * Does 25 + 50% of reversed attack as damage\n            * Opp. Position on hit: Reverse Pos Foot-sd. Face-up\n            * Reverses limb-based h/m attacks\n        "
+  },
+  {
+    "command": "b+1+3*",
+    "hitLevels": [
+      ""
+    ],
+    "damage": [
+      "25"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-6",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": "\n            * Does 25 + 50% of reversed attack as damage\n            * Opp. Position on hit: Reverse Pos Foot-sd. Face-up\n            * Reverses limb-based h/m attacks\n        "
+  },
+  {
+    "command": "b+1+4",
+    "hitLevels": [
+      "h",
+      "l"
+    ],
+    "damage": [
+      "15",
+      "8"
+    ],
+    "startupFrames": "i12",
+    "blockFrames": "-8",
+    "hitFrames": "+5",
+    "counterFrames": "+7",
+    "notes": ""
+  },
+  {
+    "command": "b+1+4,3",
+    "hitLevels": [
+      "h",
+      "l",
+      "l"
+    ],
+    "damage": [
+      "15",
+      "8",
+      "18"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-13",
+    "hitFrames": "-2",
+    "counterFrames": "KND",
+    "notes": "Combo from 2nd CH"
+  },
+  {
+    "command": "b+1+4,4",
+    "hitLevels": [
+      "h",
+      "l",
+      "m"
+    ],
+    "damage": [
+      "15",
+      "8",
+      "23"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-14",
+    "hitFrames": "+5b",
+    "counterFrames": "+5b",
+    "notes": "\n            * Combo from 2nd CH\n        "
+  },
+  {
+    "command": "b+1,D",
+    "hitLevels": [
+      "l(",
+      "th)",
+      "sp"
+    ],
+    "damage": [
+      "17(",
+      "22)",
+      ""
+    ],
+    "startupFrames": "",
+    "blockFrames": "",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": ""
+  },
+  {
+    "command": "b+2",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "12"
+    ],
+    "startupFrames": "i15",
+    "blockFrames": "-4c",
+    "hitFrames": "+1c",
+    "counterFrames": "",
+    "notes": ""
+  },
+  {
+    "command": "b+2,1",
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "damage": [
+      "12",
+      "14"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-7",
+    "hitFrames": "+4",
+    "counterFrames": "",
+    "notes": "\n            * Combo from 1st CH\n            * Link to attack from Lunging Mist Thrust ()\n        "
+  },
+  {
+    "command": "b+2,1+2",
+    "hitLevels": [
+      "m",
+      "h"
+    ],
+    "damage": [
+      "12",
+      "7"
+    ],
+    "startupFrames": "i36",
+    "blockFrames": "-9",
+    "hitFrames": "+2",
+    "counterFrames": "",
+    "notes": "\n            * Combo from 1st hit\n            * Can be delayed 12F\n            * Combo can be delayed 9F from CH\n        "
+  },
+  {
+    "command": "b+2,1+2,4",
+    "hitLevels": [
+      "m",
+      "h",
+      "m"
+    ],
+    "damage": [
+      "12",
+      "7",
+      "20"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-13",
+    "hitFrames": "KND",
+    "counterFrames": "KND",
+    "notes": "\n            * Combo from 2nd CH\n        "
+  },
+  {
+    "command": "b+2,1+2,D",
+    "hitLevels": [
+      "m",
+      "h",
+      "sp"
+    ],
+    "damage": [
+      "12",
+      "7"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-6c",
+    "hitFrames": "-1c",
+    "counterFrames": "-1c",
+    "notes": "\n        "
+  },
+  {
+    "command": "b+2+3",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "23"
+    ],
+    "startupFrames": "i24",
+    "blockFrames": "-9",
+    "hitFrames": "+6",
+    "counterFrames": "",
+    "notes": "Sabaki absorbs kicks"
+  },
+  {
+    "command": "b+2,4",
+    "hitLevels": [
+      "m",
+      "l"
+    ],
+    "damage": [
+      "12",
+      "14"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-11",
+    "hitFrames": "+0",
+    "counterFrames": "+3",
+    "notes": "Link to attack from Leg Cutter ()"
+  },
+  {
+    "command": "b+2,4,D",
+    "hitLevels": [
+      "m",
+      "l",
+      "sp"
+    ],
+    "damage": [
+      "12",
+      "14",
+      ""
+    ],
+    "startupFrames": "",
+    "blockFrames": "-11",
+    "hitFrames": "+0",
+    "counterFrames": "+3",
+    "notes": ""
+  },
+  {
+    "command": "b+3",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "15"
+    ],
+    "startupFrames": "i16",
+    "blockFrames": "-19",
+    "hitFrames": "LNC",
+    "counterFrames": "LNC",
+    "notes": ""
+  },
+  {
+    "command": "b+3,2",
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "damage": [
+      "15",
+      "20"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-20",
+    "hitFrames": "LNC",
+    "counterFrames": "LNC",
+    "notes": "Interruption 23F after 1st block"
+  },
+  {
+    "command": "b+3,2,D",
+    "hitLevels": [
+      "m",
+      "mm"
+    ],
+    "damage": [
+      "15",
+      "2015"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-33",
+    "hitFrames": "LNC",
+    "counterFrames": "LNC",
+    "notes": ""
+  },
+  {
+    "command": "b+3,2,(must hit) 1",
+    "hitLevels": [
+      "m",
+      "m",
+      "sp"
+    ],
+    "damage": [
+      "15",
+      "20"
+    ],
+    "startupFrames": "",
+    "blockFrames": "",
+    "hitFrames": "LNC",
+    "counterFrames": "",
+    "notes": "\n            * Gain Naniwa Gusto\n        "
+  },
+  {
+    "command": "b+3,4",
+    "hitLevels": [
+      "m",
+      "l"
+    ],
+    "damage": [
+      "15",
+      "14"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-11",
+    "hitFrames": "+0",
+    "counterFrames": "+3",
+    "notes": "Link to attack from Leg Cutter ()"
+  },
+  {
+    "command": "b+3,4,D",
+    "hitLevels": [
+      "m",
+      "l",
+      "sp"
+    ],
+    "damage": [
+      "15",
+      "14"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-11",
+    "hitFrames": "+0",
+    "counterFrames": "+3",
+    "notes": ""
+  },
+  {
+    "command": "b+4",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "17"
+    ],
+    "startupFrames": "i15",
+    "blockFrames": "-7",
+    "hitFrames": "+8",
+    "counterFrames": "KND",
+    "notes": ""
+  },
+  {
+    "command": "b+4,2",
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "damage": [
+      "17",
+      "12"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-12",
+    "hitFrames": "+4c",
+    "counterFrames": "",
+    "notes": "\n            * Can be delayed 15F\n        "
+  },
+  {
+    "command": "b+4,2,3",
+    "hitLevels": [
+      "m",
+      "m",
+      "m"
+    ],
+    "damage": [
+      "17",
+      "12",
+      "21"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-16",
+    "hitFrames": "KND",
+    "counterFrames": "KND",
+    "notes": "\n            * Combo from 2nd hit\n            * Can be delayed 10F\n            * Combo can be delayed 10F from hit\n        "
+  },
+  {
+    "command": "b+4,2,3,(must hit) 1",
+    "hitLevels": [
+      "m",
+      "m",
+      "m",
+      "sp"
+    ],
+    "damage": [
+      "17",
+      "12",
+      "21"
+    ],
+    "startupFrames": "",
+    "blockFrames": "",
+    "hitFrames": "KND",
+    "counterFrames": "",
+    "notes": "\n        "
+  },
+  {
+    "command": "Back throw",
+    "hitLevels": [
+      "t"
+    ],
+    "damage": [
+      "50"
+    ],
+    "startupFrames": "",
+    "blockFrames": "",
+    "hitFrames": "+0d",
+    "counterFrames": "",
+    "notes": "\n            * Throw break: none\n            * Opp. Position on break: –\n            * Opp. Position on hit: Head Sd. Face D\n        "
+  },
+  {
+    "command": "(Back to wall).b,b,UB",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "21"
+    ],
+    "startupFrames": "i39",
+    "blockFrames": "+4c",
+    "hitFrames": "KND",
+    "counterFrames": "",
+    "notes": ""
+  },
+  {
+    "command": "d+1",
+    "hitLevels": [
+      "sm"
+    ],
+    "damage": [
+      "5"
+    ],
+    "startupFrames": "i10",
+    "blockFrames": "-5",
+    "hitFrames": "+6",
+    "counterFrames": "",
+    "notes": "\n            * Returns to standing when input F\n        "
+  },
+  {
+    "command": "d+1+2",
+    "hitLevels": [
+      "l"
+    ],
+    "damage": [
+      "20"
+    ],
+    "startupFrames": "i20",
+    "blockFrames": "-18",
+    "hitFrames": "KND",
+    "counterFrames": "KND",
+    "notes": "Same move as FC.1+2"
+  },
+  {
+    "command": "d+2",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "18"
+    ],
+    "startupFrames": "i18",
+    "blockFrames": "-4c",
+    "hitFrames": "+9c",
+    "counterFrames": "KND",
+    "notes": "\n            * Heat Engager\n\n            * Gain Naniwa Gusto on Heat activation\n        "
+  },
+  {
+    "command": "d+3",
+    "hitLevels": [
+      "l"
+    ],
+    "damage": [
+      "12"
+    ],
+    "startupFrames": "i16",
+    "blockFrames": "-17",
+    "hitFrames": "-3",
+    "counterFrames": "",
+    "notes": ""
+  },
+  {
+    "command": "d+3+4",
+    "hitLevels": [
+      "l",
+      "h"
+    ],
+    "damage": [
+      "5",
+      "20"
+    ],
+    "startupFrames": "i14",
+    "blockFrames": "-25",
+    "hitFrames": "LNC",
+    "counterFrames": "LNC",
+    "notes": "\n            * Block frame is blocked 1st attack\n            * -6F upon 2nd block\n        "
+  },
+  {
+    "command": "d+4",
+    "hitLevels": [
+      "l"
+    ],
+    "damage": [
+      "7"
+    ],
+    "startupFrames": "i12",
+    "blockFrames": "-13",
+    "hitFrames": "-2",
+    "counterFrames": "",
+    "notes": ""
+  },
+  {
+    "command": "db+1",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "13"
+    ],
+    "startupFrames": "i14",
+    "blockFrames": "-10",
+    "hitFrames": "+7",
+    "counterFrames": "",
+    "notes": ""
+  },
+  {
+    "command": "db+1+2",
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "damage": [
+      "10",
+      "20"
+    ],
+    "startupFrames": "i42",
+    "blockFrames": "",
+    "hitFrames": "KND",
+    "counterFrames": "",
+    "notes": "\n            * Parries lows\n        "
+  },
+  {
+    "command": "db+1,2",
+    "hitLevels": [
+      "m",
+      "h",
+      "sp"
+    ],
+    "damage": [
+      "13",
+      "20"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-9",
+    "hitFrames": "KND",
+    "counterFrames": "KND*",
+    "notes": "\n            * Heat Engager\n            * Gain Naniwa Gusto on Heat activation\n            * Combo from 1st hit\n            * Can be delayed 9F\n            * Combo can be delayed 9F from hit\n        "
+  },
+  {
+    "command": "db+1,4",
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "damage": [
+      "13",
+      "25"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-15",
+    "hitFrames": "KND",
+    "counterFrames": "",
+    "notes": "Tornado"
+  },
+  {
+    "command": "db+2",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "22"
+    ],
+    "startupFrames": "i20",
+    "blockFrames": "-11",
+    "hitFrames": "LNC",
+    "counterFrames": "LNC",
+    "notes": "Tornado"
+  },
+  {
+    "command": "db+3",
+    "hitLevels": [
+      "l"
+    ],
+    "damage": [
+      "17"
+    ],
+    "startupFrames": "i20",
+    "blockFrames": "-12",
+    "hitFrames": "+4c",
+    "counterFrames": "+14g",
+    "notes": ""
+  },
+  {
+    "command": "db,4",
+    "hitLevels": [
+      "l"
+    ],
+    "damage": [
+      "14"
+    ],
+    "startupFrames": "i21",
+    "blockFrames": "-11",
+    "hitFrames": "+0",
+    "counterFrames": "+3",
+    "notes": ""
+  },
+  {
+    "command": "db,4,4",
+    "hitLevels": [
+      "l",
+      "l"
+    ],
+    "damage": [
+      "14",
+      "15"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-7",
+    "hitFrames": "+4",
+    "counterFrames": "KND",
+    "notes": ""
+  },
+  {
+    "command": "db,4,4,4",
+    "hitLevels": [
+      "l",
+      "l",
+      "l"
+    ],
+    "damage": [
+      "14",
+      "15",
+      "16"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-7",
+    "hitFrames": "+4",
+    "counterFrames": "KND",
+    "notes": ""
+  },
+  {
+    "command": "db,4,4,4,D",
+    "hitLevels": [
+      "l",
+      "l",
+      "l",
+      "sp"
+    ],
+    "damage": [
+      "14",
+      "15",
+      "16",
+      "0"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-11",
+    "hitFrames": "+0",
+    "counterFrames": "KND",
+    "notes": ""
+  },
+  {
+    "command": "db,4,4,D",
+    "hitLevels": [
+      "l",
+      "l",
+      "sp"
+    ],
+    "damage": [
+      "14",
+      "15",
+      ""
+    ],
+    "startupFrames": "",
+    "blockFrames": "-11",
+    "hitFrames": "+0",
+    "counterFrames": "KND",
+    "notes": ""
+  },
+  {
+    "command": "db,4,D",
+    "hitLevels": [
+      "l",
+      "sp"
+    ],
+    "damage": [
+      "14"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-11",
+    "hitFrames": "+0",
+    "counterFrames": "+3",
+    "notes": ""
+  },
+  {
+    "command": "f+1+3,1",
+    "hitLevels": [
+      "t(h)m"
+    ],
+    "damage": [
+      "020"
+    ],
+    "startupFrames": "",
+    "blockFrames": "",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": "\n            * Heat Engager\n\n            * Gain Naniwa Gusto on Heat Activation\n        "
+  },
+  {
+    "command": "f+1+3Destabilizer.4",
+    "hitLevels": [
+      "t(h)l"
+    ],
+    "damage": [
+      "019"
+    ],
+    "startupFrames": "",
+    "blockFrames": "",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": ""
+  },
+  {
+    "command": "df+1",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "10"
+    ],
+    "startupFrames": "i13",
+    "blockFrames": "-3",
+    "hitFrames": "+8",
+    "counterFrames": "",
+    "notes": ""
+  },
+  {
+    "command": "df+1,2",
+    "hitLevels": [
+      "m",
+      "h(",
+      "th)"
+    ],
+    "damage": [
+      "10",
+      "13(",
+      "25)"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-1",
+    "hitFrames": "Th",
+    "counterFrames": "Th",
+    "notes": "\n            * Combo from 1st CH\n            * Can be delayed 7F\n            * Damage () is Throw bonus\n        "
+  },
+  {
+    "command": "df+1df+1,4",
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "damage": [
+      "10",
+      "22"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-12",
+    "hitFrames": "KND",
+    "counterFrames": "KND*",
+    "notes": "\n            * Combo from 1st CH\n            * Can be delayed 7F\n        "
+  },
+  {
+    "command": "df+2",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "14"
+    ],
+    "startupFrames": "i15",
+    "blockFrames": "-6",
+    "hitFrames": "LNC",
+    "counterFrames": "LNC",
+    "notes": "+5 upon crouch hit"
+  },
+  {
+    "command": "df+2+3",
+    "hitLevels": [
+      "t(h)"
+    ],
+    "damage": [
+      "40"
+    ],
+    "startupFrames": "i12",
+    "blockFrames": "-6",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": "\n            * Break: 2\n            * Opp. Position on break:\n            * Opp. Position on hit: CCW. Head sd. FU\n        "
+  },
+  {
+    "command": "df+3",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "23"
+    ],
+    "startupFrames": "i20",
+    "blockFrames": "-8",
+    "hitFrames": "KND",
+    "counterFrames": "KND",
+    "notes": ""
+  },
+  {
+    "command": "df+3+4",
+    "hitLevels": [
+      "l"
+    ],
+    "damage": [
+      "22"
+    ],
+    "startupFrames": "i28",
+    "blockFrames": "-26",
+    "hitFrames": "KND",
+    "counterFrames": "KND*",
+    "notes": "\n            * Homing\n            * Alternate input: df+3~4\n            * Start-up 27F in actuality\n        "
+  },
+  {
+    "command": "df+3+4,DB",
+    "hitLevels": [
+      "l",
+      "sp"
+    ],
+    "damage": [
+      "22"
+    ],
+    "startupFrames": "",
+    "blockFrames": "",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": ""
+  },
+  {
+    "command": "df+4",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "16"
+    ],
+    "startupFrames": "i12",
+    "blockFrames": "-9",
+    "hitFrames": "+2",
+    "counterFrames": "",
+    "notes": ""
+  },
+  {
+    "command": "(During Leg Cutter),1+4",
+    "hitLevels": [
+      "sl",
+      "h"
+    ],
+    "damage": [
+      "5",
+      "8"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-19",
+    "hitFrames": "+9",
+    "counterFrames": "",
+    "notes": "\n            * Link to attack to White Heron ()\n            * Block frame is blocked 1st attack\n            * -3F upon 2nd block\n        "
+  },
+  {
+    "command": "(During Leg Cutter),3",
+    "hitLevels": [
+      "h"
+    ],
+    "damage": [
+      "21"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-3",
+    "hitFrames": "LNC",
+    "counterFrames": "LNC",
+    "notes": "CH combo from Leg Cutter"
+  },
+  {
+    "command": "f+1",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "17"
+    ],
+    "startupFrames": "i20",
+    "blockFrames": "-7",
+    "hitFrames": "+4",
+    "counterFrames": "",
+    "notes": ""
+  },
+  {
+    "command": "f+1+2",
+    "hitLevels": [
+      "h",
+      "sp"
+    ],
+    "damage": [
+      "26"
+    ],
+    "startupFrames": "i15",
+    "blockFrames": "",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": "\n            * Heat Engager\n\n            * Absorb an attack to power up\n            * Gain Naniwa Gusto on Heat activation\n        "
+  },
+  {
+    "command": "f+1+3",
+    "hitLevels": [
+      "t(h)"
+    ],
+    "damage": [
+      "0"
+    ],
+    "startupFrames": "i19",
+    "blockFrames": "",
+    "hitFrames": "+8",
+    "counterFrames": "",
+    "notes": "\n            * Break: none\n            * Opp. Position on break:\n            * Opp. Position on hit:\n        "
+  },
+  {
+    "command": "f+1,4",
+    "hitLevels": [
+      "m",
+      "lh"
+    ],
+    "damage": [
+      "17",
+      "5",
+      "20"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-25",
+    "hitFrames": "LNC",
+    "counterFrames": "LNC",
+    "notes": "\n            * Combo from 1st CH\n            * Can be delayed 15F\n            * Combo can be delayed 12F from CH\n            * Block frame is blocked 2nd attack\n            * -6F upon 3rd block\n        "
+  },
+  {
+    "command": "f+1,d+4",
+    "hitLevels": [
+      "m",
+      "l"
+    ],
+    "damage": [
+      "17",
+      "26"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-26",
+    "hitFrames": "KND",
+    "counterFrames": "KND",
+    "notes": "\n            * Homing\n            * Combo from 1st CH\n            * Can be delayed 15F\n            * Combo can be delayed 5F from CH\n            * Interruption 11F after 1st block\n        "
+  },
+  {
+    "command": "f+1,d+4,DB",
+    "hitLevels": [
+      "m",
+      "l",
+      "sp"
+    ],
+    "damage": [
+      "17",
+      "26"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-26",
+    "hitFrames": "-15",
+    "counterFrames": "",
+    "notes": "\n            * Combo can be delayed 28F from CH\n        "
+  },
+  {
+    "command": "f+2",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "20"
+    ],
+    "startupFrames": "i17",
+    "blockFrames": "-18",
+    "hitFrames": "JG",
+    "counterFrames": "",
+    "notes": ""
+  },
+  {
+    "command": "f+2,(must hit) 1",
+    "hitLevels": [
+      "m",
+      "sp"
+    ],
+    "damage": [
+      "20",
+      "0"
+    ],
+    "startupFrames": "",
+    "blockFrames": "",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": "\n            * Gain Naniwa Gusto on hit\n        "
+  },
+  {
+    "command": "f+2+3",
+    "hitLevels": [
+      "h"
+    ],
+    "damage": [
+      "21"
+    ],
+    "startupFrames": "i23",
+    "blockFrames": "+0",
+    "hitFrames": "KND",
+    "counterFrames": "KND",
+    "notes": "\n            * Absorbs Punch (H/M) during 4 to 15F\n            * Stun on success punch parry\n        "
+  },
+  {
+    "command": "f+2,D",
+    "hitLevels": [
+      "m",
+      "sp"
+    ],
+    "damage": [
+      "20",
+      "0"
+    ],
+    "startupFrames": ",",
+    "blockFrames": "",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": ""
+  },
+  {
+    "command": "f+3",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "24"
+    ],
+    "startupFrames": "31f",
+    "blockFrames": "-2",
+    "hitFrames": "KND",
+    "counterFrames": "KND",
+    "notes": "\n            * Chip damage when guarded\n            *\n        "
+  },
+  {
+    "command": "f+3*",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "26"
+    ],
+    "startupFrames": "52f",
+    "blockFrames": "+6",
+    "hitFrames": "KND",
+    "counterFrames": "KND",
+    "notes": "\n            * Chip damage when guarded\n            * Input to cancel\n        "
+  },
+  {
+    "command": "f+3+4",
+    "hitLevels": [
+      "m",
+      "sp"
+    ],
+    "damage": [
+      "27"
+    ],
+    "startupFrames": "29f",
+    "blockFrames": "",
+    "hitFrames": "KND",
+    "counterFrames": "",
+    "notes": "\n            * Chip damage when guarded\n            * On hit gain Naniwa Gusto\n        "
+  },
+  {
+    "command": "f+3,B",
+    "hitLevels": [
+      "m",
+      "sp"
+    ],
+    "damage": [
+      "24"
+    ],
+    "startupFrames": "",
+    "blockFrames": "",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": ""
+  },
+  {
+    "command": "f+3* (max)",
+    "hitLevels": [
+      "ub(m)"
+    ],
+    "damage": [
+      "28"
+    ],
+    "startupFrames": "70f",
+    "blockFrames": "KND",
+    "hitFrames": "KND",
+    "counterFrames": "KND",
+    "notes": "\n            * Chip damage when guarded\n            * Input to cancel\n        "
+  },
+  {
+    "command": "f+4",
+    "hitLevels": [
+      "h"
+    ],
+    "damage": [
+      "21"
+    ],
+    "startupFrames": "i19",
+    "blockFrames": "+3",
+    "hitFrames": "KND",
+    "counterFrames": "KND",
+    "notes": "\n            * Homing\n        "
+  },
+  {
+    "command": "FC.1",
+    "hitLevels": [
+      "sm"
+    ],
+    "damage": [
+      "5"
+    ],
+    "startupFrames": "i10",
+    "blockFrames": "-5",
+    "hitFrames": "+6",
+    "counterFrames": "",
+    "notes": "\n            * Returns to standing when input F\n        "
+  },
+  {
+    "command": "FC.3+4",
+    "hitLevels": [
+      "mm"
+    ],
+    "damage": [
+      "10",
+      "10"
+    ],
+    "startupFrames": "i21",
+    "blockFrames": "-6",
+    "hitFrames": "+5c",
+    "counterFrames": "+5c",
+    "notes": ""
+  },
+  {
+    "command": "FC.3+4,3",
+    "hitLevels": [
+      "mm",
+      "mm"
+    ],
+    "damage": [
+      "10",
+      "10",
+      "10",
+      "10"
+    ],
+    "startupFrames": "",
+    "blockFrames": "+0c",
+    "hitFrames": "KND",
+    "counterFrames": "KND",
+    "notes": "\n            * Interruption 11F after 2nd block\n        "
+  },
+  {
+    "command": "FC.3+4,3,D",
+    "hitLevels": [
+      "mm",
+      "mm",
+      "sp"
+    ],
+    "damage": [
+      "10",
+      "10",
+      "10",
+      "10"
+    ],
+    "startupFrames": "",
+    "blockFrames": "+0c",
+    "hitFrames": "KND",
+    "counterFrames": "KND",
+    "notes": ""
+  },
+  {
+    "command": "FC.3+4,D",
+    "hitLevels": [
+      "mm",
+      "sp"
+    ],
+    "damage": [
+      "10",
+      "10",
+      ""
+    ],
+    "startupFrames": "",
+    "blockFrames": "-6",
+    "hitFrames": "+5c",
+    "counterFrames": "+5c",
+    "notes": "\n            * Forces an opponent to crouching on hit\n        "
+  },
+  {
+    "command": "FC.4",
+    "hitLevels": [
+      "l"
+    ],
+    "damage": [
+      "10"
+    ],
+    "startupFrames": "i12",
+    "blockFrames": "-15",
+    "hitFrames": "-4",
+    "counterFrames": "",
+    "notes": ""
+  },
+  {
+    "command": "FC.d+2",
+    "hitLevels": [
+      "sm"
+    ],
+    "damage": [
+      "8"
+    ],
+    "startupFrames": "i11",
+    "blockFrames": "-4",
+    "hitFrames": "+7",
+    "counterFrames": "",
+    "notes": "Alternate input: FC.db+2"
+  },
+  {
+    "command": "FC.d+3",
+    "hitLevels": [
+      "l"
+    ],
+    "damage": [
+      "12"
+    ],
+    "startupFrames": "i16",
+    "blockFrames": "-17",
+    "hitFrames": "-3",
+    "counterFrames": "",
+    "notes": "Alternate input: FC.db+3"
+  },
+  {
+    "command": "FC.db+1+2",
+    "hitLevels": [
+      "t(h)"
+    ],
+    "damage": [
+      "15",
+      "15",
+      "15"
+    ],
+    "startupFrames": "i11",
+    "blockFrames": "-6",
+    "hitFrames": "LNC",
+    "counterFrames": "",
+    "notes": "\n            * Break: 1+2\n            * Opp. Position on break: Reverse Pos.\n            * Opp. Position on hit: Reverse Pos. Foot sd. FD\n            * 2nd dmg is on landing\n            * 3rd dmg is non-ukemi bonus\n        "
+  },
+  {
+    "command": "FC.df+2",
+    "hitLevels": [
+      "l"
+    ],
+    "damage": [
+      "10"
+    ],
+    "startupFrames": "i16",
+    "blockFrames": "-11",
+    "hitFrames": "+0",
+    "counterFrames": "+25g",
+    "notes": "\n            * Crumple State 17F upon CH\n        "
+  },
+  {
+    "command": "FC.df+3",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "20"
+    ],
+    "startupFrames": "i17",
+    "blockFrames": "-9",
+    "hitFrames": "KND",
+    "counterFrames": "KND*",
+    "notes": ""
+  },
+  {
+    "command": "f,F+1",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "30"
+    ],
+    "startupFrames": "i23",
+    "blockFrames": "+5",
+    "hitFrames": "+14",
+    "counterFrames": "",
+    "notes": "\n        "
+  },
+  {
+    "command": "f,F+1+2",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "20"
+    ],
+    "startupFrames": "i19",
+    "blockFrames": "",
+    "hitFrames": "KND",
+    "counterFrames": "",
+    "notes": "\n            * Chip damage when guarded\n            * Tornado\n        "
+  },
+  {
+    "command": "f,F+2",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "16"
+    ],
+    "startupFrames": "i15",
+    "blockFrames": "-13",
+    "hitFrames": "-3",
+    "counterFrames": "",
+    "notes": "\n        "
+  },
+  {
+    "command": "f,F+2,1",
+    "hitLevels": [
+      "m",
+      "h"
+    ],
+    "damage": [
+      "16",
+      "21"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-5",
+    "hitFrames": "KND",
+    "counterFrames": "KND",
+    "notes": "\n            * Combo from 1st hit\n            * Can be delayed 13F\n            * Combo can be delayed 8F from hit\n            * Combo can be delayed 11F from CH\n        "
+  },
+  {
+    "command": "f,F+2,1+2",
+    "hitLevels": [
+      "m",
+      "m",
+      "sp"
+    ],
+    "damage": [
+      "16",
+      "25"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-13",
+    "hitFrames": "KND",
+    "counterFrames": "",
+    "notes": "Gain Naniwa Gusto on hit"
+  },
+  {
+    "command": "f,F+2,3",
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "damage": [
+      "16",
+      "22"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-8",
+    "hitFrames": "KND",
+    "counterFrames": "KND",
+    "notes": "\n            * Combo from 1st CH\n            * Can be delayed 13F\n            * Combo can be delayed 5F from CH\n        "
+  },
+  {
+    "command": "f,F+3",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "23"
+    ],
+    "startupFrames": "i20",
+    "blockFrames": "-9",
+    "hitFrames": "+11g",
+    "counterFrames": "KND",
+    "notes": "\n            * Homing\n        "
+  },
+  {
+    "command": "f,F+4",
+    "hitLevels": [
+      "h"
+    ],
+    "damage": [
+      "28"
+    ],
+    "startupFrames": "i20",
+    "blockFrames": "-3",
+    "hitFrames": "KND",
+    "counterFrames": "KND*",
+    "notes": ""
+  },
+  {
+    "command": "f,f,F+1+2",
+    "hitLevels": [
+      "h"
+    ],
+    "damage": [
+      "30"
+    ],
+    "startupFrames": "i17",
+    "blockFrames": "",
+    "hitFrames": "KND",
+    "counterFrames": "",
+    "notes": "\n            * Chip damage when guarded\n            * Homing\n        "
+  },
+  {
+    "command": "f,f,F+3",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "32"
+    ],
+    "startupFrames": "i24~28",
+    "blockFrames": "+0",
+    "hitFrames": "KND",
+    "counterFrames": "KND*",
+    "notes": "\n            * Chip damage when guarded\n        "
+  },
+  {
+    "command": "H.2+3",
+    "hitLevels": [
+      "m",
+      "th"
+    ],
+    "damage": [
+      "12",
+      "3"
+    ],
+    "startupFrames": "i16",
+    "blockFrames": "+10",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": "\n            * Heat Smash\n            * Throw on hit\n        "
+  },
+  {
+    "command": "Left throw",
+    "hitLevels": [
+      "t"
+    ],
+    "damage": [
+      "40"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-3",
+    "hitFrames": "-3d",
+    "counterFrames": "",
+    "notes": "\n            * Throw break 1\n            * Opp. Position on break: CCW\n            * Opp. Position on hit: F Sd. FD\n        "
+  },
+  {
+    "command": "NWG.f,F+1+2",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "24"
+    ],
+    "startupFrames": "i19",
+    "blockFrames": "",
+    "hitFrames": "KND",
+    "counterFrames": "",
+    "notes": "\n            * Chip damage when guarded\n            * Consumes Naniwa Gusto\n            * During Heat, remaining Heat is consumed\n            * Tornado\n        "
+  },
+  {
+    "command": "NWG.f,f,F+1+2",
+    "hitLevels": [
+      "h"
+    ],
+    "damage": [
+      "42"
+    ],
+    "startupFrames": "i17",
+    "blockFrames": "",
+    "hitFrames": "KND",
+    "counterFrames": "",
+    "notes": "\n            * Chip damage when guarded\n            * Consumes Naniwa Gusto\n            * During Heat, remaining Heat is consumed\n            * Homing\n        "
+  },
+  {
+    "command": "NWG.u+1+2",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "24"
+    ],
+    "startupFrames": "i31",
+    "blockFrames": "",
+    "hitFrames": "KDN",
+    "counterFrames": "",
+    "notes": "\n            * Chip damage when guarded\n            * Consumes Naniwa Gusto\n            * During Heat, remaining Heat is consumed\n        "
+  },
+  {
+    "command": "R.df+1+2",
+    "hitLevels": [
+      "m",
+      "th"
+    ],
+    "damage": [
+      "10",
+      "49"
+    ],
+    "startupFrames": "i20",
+    "blockFrames": "-15",
+    "hitFrames": "KND",
+    "counterFrames": "",
+    "notes": "\n            * Rage Art\n            * Damage increases with lower health\n            * Removes recoverable health on hit\n        "
+  },
+  {
+    "command": "R.df+1+2*",
+    "hitLevels": [
+      "m",
+      "th"
+    ],
+    "damage": [
+      ""
+    ],
+    "startupFrames": "i56",
+    "blockFrames": "+3",
+    "hitFrames": "KND",
+    "counterFrames": "",
+    "notes": "\n            * Rage Art\n            * Damage increases with lower health\n            * Removes recoverable health on hit\n        "
+  },
+  {
+    "command": "Right throw",
+    "hitLevels": [
+      "t"
+    ],
+    "damage": [
+      "40"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-3",
+    "hitFrames": "+0d",
+    "counterFrames": "",
+    "notes": "\n            * Throw break 2\n            * Opp. Position on break:\n            * Opp. Position on hit: FD F Sd.\n        "
+  },
+  {
+    "command": "SS.2",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "23"
+    ],
+    "startupFrames": "i13",
+    "blockFrames": "-9",
+    "hitFrames": "KND",
+    "counterFrames": "KND*",
+    "notes": "\n            * Heat Engager\n\n            * Gain Naniwa Gusto on Heat activation\n        "
+  },
+  {
+    "command": "SS.4",
+    "hitLevels": [
+      "h"
+    ],
+    "damage": [
+      "18"
+    ],
+    "startupFrames": "i17",
+    "blockFrames": "-6",
+    "hitFrames": "+7",
+    "counterFrames": "KND",
+    "notes": "Meaty 2F"
+  },
+  {
+    "command": "u+1",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "12"
+    ],
+    "startupFrames": "i18",
+    "blockFrames": "-12",
+    "hitFrames": "-1",
+    "counterFrames": "-1",
+    "notes": "Same move as ub+1 and uf+1"
+  },
+  {
+    "command": "u+1+2",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "20"
+    ],
+    "startupFrames": "i31",
+    "blockFrames": "",
+    "hitFrames": "KND",
+    "counterFrames": "",
+    "notes": "\n            * Chip damage when guarded\n            * Alternate input: ub+1+2\n        "
+  },
+  {
+    "command": "u+2",
+    "hitLevels": [
+      "h"
+    ],
+    "damage": [
+      "17"
+    ],
+    "startupFrames": "i15",
+    "blockFrames": "-12",
+    "hitFrames": "+9",
+    "counterFrames": "",
+    "notes": "Same move as ub+2"
+  },
+  {
+    "command": "u+3",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "17"
+    ],
+    "startupFrames": "i20~21",
+    "blockFrames": "-3",
+    "hitFrames": "+8",
+    "counterFrames": "KND",
+    "notes": "Same move as ub+3 and uf+3"
+  },
+  {
+    "command": "u+4",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "25"
+    ],
+    "startupFrames": "i20",
+    "blockFrames": "-13",
+    "hitFrames": "LNC",
+    "counterFrames": "LNC",
+    "notes": "Same move as uf+4"
+  },
+  {
+    "command": "ub+4",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "25"
+    ],
+    "startupFrames": "i20",
+    "blockFrames": "-15",
+    "hitFrames": "LNC",
+    "counterFrames": "LNC",
+    "notes": ""
+  },
+  {
+    "command": "ub,b",
+    "hitLevels": [
+      "sp"
+    ],
+    "damage": [
+      "–"
+    ],
+    "startupFrames": "",
+    "blockFrames": "",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": ""
+  },
+  {
+    "command": "ub,b+3",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "32"
+    ],
+    "startupFrames": "i68",
+    "blockFrames": "0",
+    "hitFrames": "KND",
+    "counterFrames": "KND*",
+    "notes": ""
+  },
+  {
+    "command": "uf+1+2",
+    "hitLevels": [
+      "t(h)"
+    ],
+    "damage": [
+      "40"
+    ],
+    "startupFrames": "i12",
+    "blockFrames": "-3",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": "\n            * Break: 1+2\n            * Opp. Position on break: Reverse Pos.\n            * Opp. Position on hit: Head sd. FU\n        "
+  },
+  {
+    "command": "uf+2",
+    "hitLevels": [
+      "h(",
+      "th)"
+    ],
+    "damage": [
+      "20(",
+      "25)"
+    ],
+    "startupFrames": "i14",
+    "blockFrames": "-7",
+    "hitFrames": "Th",
+    "counterFrames": "Th",
+    "notes": "Damage () is Throw bonus"
+  },
+  {
+    "command": "ws1",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "12"
+    ],
+    "startupFrames": "i14",
+    "blockFrames": "-7",
+    "hitFrames": "+4",
+    "counterFrames": "",
+    "notes": ""
+  },
+  {
+    "command": "ws1+2",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "20"
+    ],
+    "startupFrames": "i21",
+    "blockFrames": "-2",
+    "hitFrames": "+13g",
+    "counterFrames": "KND",
+    "notes": "\n            * Wall Crush +25g on hit\n\n\n            * Crumple state 17F upon CH\n        "
+  },
+  {
+    "command": "ws1+2,D",
+    "hitLevels": [
+      "m",
+      "sp"
+    ],
+    "damage": [
+      "20"
+    ],
+    "startupFrames": "",
+    "blockFrames": "",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": ""
+  },
+  {
+    "command": "ws1,4",
+    "hitLevels": [
+      "m",
+      "h"
+    ],
+    "damage": [
+      "12",
+      "20"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-8",
+    "hitFrames": "KND",
+    "counterFrames": "KND",
+    "notes": "\n            * Combo from 1st hit\n            * Can be delayed 7F\n        "
+  },
+  {
+    "command": "ws2",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "18"
+    ],
+    "startupFrames": "i13",
+    "blockFrames": "-8",
+    "hitFrames": "+8",
+    "counterFrames": "",
+    "notes": ""
+  },
+  {
+    "command": "ws2,1",
+    "hitLevels": [
+      "mm",
+      "h"
+    ],
+    "damage": [
+      "1818",
+      "10"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-2",
+    "hitFrames": "+9",
+    "counterFrames": "",
+    "notes": "Combo from 1st hit"
+  },
+  {
+    "command": "ws2,1+2",
+    "hitLevels": [
+      "mh",
+      "th"
+    ],
+    "damage": [
+      "18",
+      "4"
+    ],
+    "startupFrames": "",
+    "blockFrames": "",
+    "hitFrames": "Th",
+    "counterFrames": "",
+    "notes": "\n            * Link to attack from Destablilizer (f+1+3 or f+2+4)\n        "
+  },
+  {
+    "command": "ws3",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "20"
+    ],
+    "startupFrames": "i18",
+    "blockFrames": "-16",
+    "hitFrames": "LNC",
+    "counterFrames": "LNC",
+    "notes": "Tornado"
+  },
+  {
+    "command": "ws4",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "15"
+    ],
+    "startupFrames": "i11",
+    "blockFrames": "-3",
+    "hitFrames": "+8",
+    "counterFrames": "",
+    "notes": ""
+  }
+]

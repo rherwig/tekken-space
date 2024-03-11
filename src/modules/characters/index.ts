@@ -1,14 +1,14 @@
 import {
-    addServerHandler,
     createResolver,
     defineNuxtModule,
     addComponentsDir,
+    extendRouteRules,
     extendPages,
 } from '@nuxt/kit';
 
 export default defineNuxtModule({
     meta: {
-        name: 'community',
+        name: 'characters',
     },
 
     async setup() {
@@ -17,14 +17,6 @@ export default defineNuxtModule({
 
         await addComponentsDir({
             path: resolve('./components'),
-        });
-
-        extendPages((pages) => {
-            pages.unshift({
-                name: 'community',
-                path: '/community',
-                file: resolve('./pages/community.vue'),
-            });
         });
     },
 });

@@ -12,6 +12,29 @@ export enum ControllerLayout {
     PLAYSTATION = 'PLAYSTATION',
     ARCADE = 'ARCADE',
     HITBOX = 'HITBOX',
+    TEKKEN = 'TEKKEN',
+}
+
+export enum Difficulty {
+    UNKNOWN,
+    BEGINNER,
+    EASY,
+    MEDIUM,
+    HARD,
+    CHALLENGE,
+}
+
+export enum Archetype {
+    UNKNOWN,
+    GRAPPLER,
+    MIXUP,
+    RUSHDOWN,
+    ZONING,
+    DEFENSE,
+    OFFENSE,
+    BALANCED,
+    POKING,
+    MISHIMA,
 }
 
 export interface UserPreferences {
@@ -25,6 +48,26 @@ export interface TemporaryUserPreferences {
 export interface PopulatedMoveList extends MoveList {
     moves: Prisma.Move[];
     character: Prisma.Character;
+}
+
+export interface PopulatedMove extends Omit<Move, 'metadata' | 'damage' | 'frames' | 'hits'> {
+    id: string;
+    metadata: MoveMeta;
+    damage: MoveDamage;
+    frames: MoveFrames;
+    hits: MoveHits;
+}
+
+export interface PopulatedCharacter extends Omit<Character, 'metadata'> {
+    metadata: CharacterMeta;
+}
+
+export interface CharacterMeta {
+    title?: string;
+    archetype?: Archetype[];
+    difficulty?: Difficulty;
+    pros?: string[];
+    cons?: string[];
 }
 
 export interface MoveDamage {

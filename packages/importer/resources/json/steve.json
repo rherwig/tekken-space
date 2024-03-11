@@ -1,0 +1,2337 @@
+[
+  {
+    "command": "1",
+    "hitLevels": [
+      "h"
+    ],
+    "damage": [
+      "5"
+    ],
+    "startupFrames": "i10",
+    "blockFrames": "+1",
+    "hitFrames": "+8",
+    "counterFrames": "",
+    "notes": "\n        "
+  },
+  {
+    "command": "1,1",
+    "hitLevels": [
+      "h",
+      "h"
+    ],
+    "damage": [
+      "5",
+      "7"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-3",
+    "hitFrames": "+3",
+    "counterFrames": "",
+    "notes": "\n            * Combo from 1st hit\n            * Transition to LWV with 3 (-6/0/0)\n            * Transition to RWV with 4 (-6/0/0)\n            * Transition to SWY with b+3_4 (-6/0/0)\n            * Transition to DCK with f+3_4 (-2/+4/+4)\n        "
+  },
+  {
+    "command": "1,1,2",
+    "hitLevels": [
+      "h",
+      "h",
+      "h"
+    ],
+    "damage": [
+      "5",
+      "7",
+      "15"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-7",
+    "hitFrames": "+4",
+    "counterFrames": "",
+    "notes": "\n            * NC from first hit\n            * Input 3 to LWV (-5/+6/+6)\n            * Input 4 to RWV (-5/+6/+6)\n            * Input b+3_4 SWY (-5/+6/+6)\n            * Input f+3_4 DCK (-3/+8/+8)\n        "
+  },
+  {
+    "command": "1,1,d+1",
+    "hitLevels": [
+      "h",
+      "h",
+      "m"
+    ],
+    "damage": [
+      "5",
+      "7",
+      "15"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-6",
+    "hitFrames": "0",
+    "counterFrames": "+5",
+    "notes": "\n            * Transition to FLK with b (0/+6/+11)\n        "
+  },
+  {
+    "command": "1+2",
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "damage": [
+      "7",
+      "21"
+    ],
+    "startupFrames": "i14",
+    "blockFrames": "-12",
+    "hitFrames": "+17/KND",
+    "counterFrames": "",
+    "notes": "\n            Heat Engager\n\n            * In Heat input f to Heat dash (+5/KND/KND)\n        "
+  },
+  {
+    "command": "1,2",
+    "hitLevels": [
+      "h",
+      "h"
+    ],
+    "damage": [
+      "5",
+      "10"
+    ],
+    "startupFrames": "i10",
+    "blockFrames": "-3",
+    "hitFrames": "+8",
+    "counterFrames": "",
+    "notes": "\n            * Input 3 to LWV (-4/+7/+7)\n            * Input 4 to RWV (-4/+7/+7)\n            * Input b+3_4 to SWY (-4/+7/+7)\n        "
+  },
+  {
+    "command": "1,2,1",
+    "hitLevels": [
+      "h",
+      "h",
+      "h"
+    ],
+    "damage": [
+      "5",
+      "10",
+      "15"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-3",
+    "hitFrames": "+3",
+    "counterFrames": "",
+    "notes": "\n            * Input f to PAB (-2/+4/+4)\n            * Input f to FLK (-1/+5/+5)\n        "
+  },
+  {
+    "command": "1,2,1,2",
+    "hitLevels": [
+      "h",
+      "h",
+      "h",
+      "m"
+    ],
+    "damage": [
+      "5",
+      "10",
+      "15",
+      "15"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-10",
+    "hitFrames": "KND",
+    "counterFrames": "",
+    "notes": "\n            * Input f+3_4 to DCK (-4/KND/KND)\n        "
+  },
+  {
+    "command": "1,2,1,d+2",
+    "hitLevels": [
+      "h",
+      "h",
+      "h",
+      "l"
+    ],
+    "damage": [
+      "5",
+      "10",
+      "15",
+      "19"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-12",
+    "hitFrames": "+1c",
+    "counterFrames": "KND",
+    "notes": "\n            * Recover in crouch\n        "
+  },
+  {
+    "command": "1+3",
+    "hitLevels": [
+      "throw"
+    ],
+    "damage": [
+      "35"
+    ],
+    "startupFrames": "i12~14",
+    "blockFrames": "",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": "\n            * Throw break 1 or 2\n        "
+  },
+  {
+    "command": "1,d+1",
+    "hitLevels": [
+      "h",
+      "m"
+    ],
+    "damage": [
+      "5",
+      "15"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-6",
+    "hitFrames": "0",
+    "counterFrames": "+5",
+    "notes": "\n            * Transition to FLK with b (0/+6/+11)\n        "
+  },
+  {
+    "command": "2",
+    "hitLevels": [
+      "h"
+    ],
+    "damage": [
+      "12"
+    ],
+    "startupFrames": "i12",
+    "blockFrames": "-1",
+    "hitFrames": "+5",
+    "counterFrames": "",
+    "notes": "\n        "
+  },
+  {
+    "command": "2,1",
+    "hitLevels": [
+      "h",
+      "h"
+    ],
+    "damage": [
+      "12",
+      "14"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-5",
+    "hitFrames": "+6",
+    "counterFrames": "",
+    "notes": "\n            * Input f to PAB (+2/+13g/+13)\n            * Input b to FLK (+3/+14g/+14)\n        "
+  },
+  {
+    "command": "2,1,2",
+    "hitLevels": [
+      "h",
+      "h",
+      "m"
+    ],
+    "damage": [
+      "12",
+      "14",
+      "22"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-11",
+    "hitFrames": "KND",
+    "counterFrames": "",
+    "notes": "\n            * Input f to PAB (+2/+13g/+13)\n            * Input b to FLK (+3/+14g/+14)\n        "
+  },
+  {
+    "command": "2,2",
+    "hitLevels": [
+      "h",
+      "h"
+    ],
+    "damage": [
+      "12",
+      "17"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-14",
+    "hitFrames": "+6",
+    "counterFrames": "",
+    "notes": "\n            * Input f to PAB (+2/+13g/+13)\n            * Input b to FLK (+3/+14g/+14)\n        "
+  },
+  {
+    "command": "2+4",
+    "hitLevels": [
+      "throw"
+    ],
+    "damage": [
+      "35"
+    ],
+    "startupFrames": "i12~14",
+    "blockFrames": "",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": "\n            * Throw break 1 or 2\n        "
+  },
+  {
+    "command": "3",
+    "hitLevels": [
+      "sp"
+    ],
+    "damage": [
+      ""
+    ],
+    "startupFrames": "",
+    "blockFrames": "",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": "\n        "
+  },
+  {
+    "command": "3+4",
+    "hitLevels": [
+      "sp"
+    ],
+    "damage": [
+      ""
+    ],
+    "startupFrames": "",
+    "blockFrames": "",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": "\n            * Transition into ALB\n            * Input f into PAB\n        "
+  },
+  {
+    "command": "4",
+    "hitLevels": [
+      "sp"
+    ],
+    "damage": [
+      ""
+    ],
+    "startupFrames": "",
+    "blockFrames": "",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": "\n        "
+  },
+  {
+    "command": "afters+1",
+    "hitLevels": [
+      "l"
+    ],
+    "damage": [
+      "23"
+    ],
+    "startupFrames": "i16",
+    "blockFrames": "-12",
+    "hitFrames": "KND",
+    "counterFrames": "",
+    "notes": "\n        "
+  },
+  {
+    "command": "ALB.2",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "22"
+    ],
+    "startupFrames": "i23",
+    "blockFrames": "-3",
+    "hitFrames": "+17/KND",
+    "counterFrames": "",
+    "notes": "\n            Heat Engager\n\n            * In heat input f into Heat dash (+5/Launch/Launch)\n        "
+  },
+  {
+    "command": "ALB.d+2",
+    "hitLevels": [
+      "l"
+    ],
+    "damage": [
+      "17"
+    ],
+    "startupFrames": "i34",
+    "blockFrames": "-12",
+    "hitFrames": "+1c",
+    "counterFrames": "KND",
+    "notes": "\n        "
+  },
+  {
+    "command": "ALB.d",
+    "hitLevels": [
+      "sp"
+    ],
+    "damage": [
+      ""
+    ],
+    "startupFrames": "",
+    "blockFrames": "",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": "\n            * Input f into PAB\n        "
+  },
+  {
+    "command": "ALB.d",
+    "hitLevels": [
+      "sp",
+      "l"
+    ],
+    "damage": [
+      "",
+      "30"
+    ],
+    "startupFrames": ",i22",
+    "blockFrames": "-12",
+    "hitFrames": "KND",
+    "counterFrames": "",
+    "notes": "\n        "
+  },
+  {
+    "command": "ALB.d",
+    "hitLevels": [
+      "sp",
+      "m"
+    ],
+    "damage": [
+      "",
+      "34"
+    ],
+    "startupFrames": ",i12",
+    "blockFrames": "-3",
+    "hitFrames": "KND",
+    "counterFrames": "",
+    "notes": "\n        "
+  },
+  {
+    "command": "b+1",
+    "hitLevels": [
+      "h"
+    ],
+    "damage": [
+      "10"
+    ],
+    "startupFrames": "i13",
+    "blockFrames": "-14",
+    "hitFrames": "+2",
+    "counterFrames": "Launch",
+    "notes": "\n            * Input b to FLK (-1/+10/Launch)\n        "
+  },
+  {
+    "command": "b+1,2",
+    "hitLevels": [
+      "h",
+      "h"
+    ],
+    "damage": [
+      "10",
+      "17"
+    ],
+    "startupFrames": "",
+    "blockFrames": "+3",
+    "hitFrames": "+7",
+    "counterFrames": "",
+    "notes": "\n            * Transistion to LNH\n        "
+  },
+  {
+    "command": "b+1,2~1",
+    "hitLevels": [
+      "h",
+      "m"
+    ],
+    "damage": [
+      "10",
+      "17"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-8",
+    "hitFrames": "+4",
+    "counterFrames": "Launch",
+    "notes": "\n            * Transistion to LNH\n        "
+  },
+  {
+    "command": "b+1+3",
+    "hitLevels": [
+      "sp"
+    ],
+    "damage": [
+      ""
+    ],
+    "startupFrames": "",
+    "blockFrames": "",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": "\n            * Parry h and m punches\n            * Successful parry i14,30dmg (-12/KND/Launch)\n        "
+  },
+  {
+    "command": "b+1,d+2",
+    "hitLevels": [
+      "h",
+      "l"
+    ],
+    "damage": [
+      "10",
+      "10"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-11",
+    "hitFrames": "0",
+    "counterFrames": "",
+    "notes": "\n            * Input f to PAB (-9/+2/+2)\n        "
+  },
+  {
+    "command": "b+1,d+2,1",
+    "hitLevels": [
+      "h",
+      "l",
+      "m"
+    ],
+    "damage": [
+      "10",
+      "10",
+      "10"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-9",
+    "hitFrames": "KND",
+    "counterFrames": "",
+    "notes": "\n        "
+  },
+  {
+    "command": "b+2",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "15"
+    ],
+    "startupFrames": "i17",
+    "blockFrames": "-13",
+    "hitFrames": "+14",
+    "counterFrames": "",
+    "notes": "\n        "
+  },
+  {
+    "command": "b+3",
+    "hitLevels": [
+      "sp"
+    ],
+    "damage": [
+      ""
+    ],
+    "startupFrames": "",
+    "blockFrames": "",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": "\n            * Transition to SWY\n            * Input 3 to LWV\n            * Input 4 to RWV\n            * Input f+3_4 to DCK\n        "
+  },
+  {
+    "command": "b+3",
+    "hitLevels": [
+      "sp"
+    ],
+    "damage": [
+      ""
+    ],
+    "startupFrames": "",
+    "blockFrames": "",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": "\n            * Transition to FLK\n            * Auto blocks high and mid\n        "
+  },
+  {
+    "command": "Back throw",
+    "hitLevels": [
+      "throw"
+    ],
+    "damage": [
+      "55"
+    ],
+    "startupFrames": "i12",
+    "blockFrames": "",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": "\n            * Unbreakable\n        "
+  },
+  {
+    "command": "d+1",
+    "hitLevels": [
+      "l"
+    ],
+    "damage": [
+      "12"
+    ],
+    "startupFrames": "i16",
+    "blockFrames": "-13",
+    "hitFrames": "-2",
+    "counterFrames": "",
+    "notes": "\n            * Recover in crouch\n        "
+  },
+  {
+    "command": "d+2",
+    "hitLevels": [
+      "l"
+    ],
+    "damage": [
+      "11"
+    ],
+    "startupFrames": "i17",
+    "blockFrames": "-18",
+    "hitFrames": "-5",
+    "counterFrames": "",
+    "notes": "\n        "
+  },
+  {
+    "command": "d+2,1",
+    "hitLevels": [
+      "l",
+      "m"
+    ],
+    "damage": [
+      "11",
+      "8"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-11",
+    "hitFrames": "-5",
+    "counterFrames": "0",
+    "notes": "\n            * Input 3 to LWV (-6/0/0)\n            * Input 4 to RWV (-6/0/0)\n            * Input b+3_4 to SWY (-6/0/0)\n            * Input f+3_4 to DCK (-4/+2/+7)\n        "
+  },
+  {
+    "command": "d+2,1,2",
+    "hitLevels": [
+      "l",
+      "m",
+      "h"
+    ],
+    "damage": [
+      "11",
+      "8",
+      "17"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-2",
+    "hitFrames": "KND",
+    "counterFrames": "Launch",
+    "notes": "\n        "
+  },
+  {
+    "command": "d/b+1",
+    "hitLevels": [
+      "sm"
+    ],
+    "damage": [
+      ""
+    ],
+    "startupFrames": "i10",
+    "blockFrames": "-5",
+    "hitFrames": "+6",
+    "counterFrames": "",
+    "notes": "\n        "
+  },
+  {
+    "command": "d/b+1+2",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "21"
+    ],
+    "startupFrames": "i28",
+    "blockFrames": "-13",
+    "hitFrames": "+14",
+    "counterFrames": "",
+    "notes": "\n        "
+  },
+  {
+    "command": "d/b+2",
+    "hitLevels": [
+      "l"
+    ],
+    "damage": [
+      "21"
+    ],
+    "startupFrames": "i26",
+    "blockFrames": "-12",
+    "hitFrames": "+1c",
+    "counterFrames": "KND",
+    "notes": "\n            * d or d/b to recover in crouch\n        "
+  },
+  {
+    "command": "d/b+3",
+    "hitLevels": [
+      "l"
+    ],
+    "damage": [
+      "10"
+    ],
+    "startupFrames": "i16",
+    "blockFrames": "-13",
+    "hitFrames": "0",
+    "counterFrames": "",
+    "notes": "\n        "
+  },
+  {
+    "command": "d/b+3,2",
+    "hitLevels": [
+      "l",
+      "h"
+    ],
+    "damage": [
+      "10",
+      "10"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-6",
+    "hitFrames": "+7",
+    "counterFrames": "",
+    "notes": "\n            * Transition to LNH\n        "
+  },
+  {
+    "command": "DCK.1",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "17"
+    ],
+    "startupFrames": "i19",
+    "blockFrames": "-7",
+    "hitFrames": "KND",
+    "counterFrames": "CH",
+    "notes": "\n        "
+  },
+  {
+    "command": "DCK.1+2",
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "damage": [
+      "3",
+      "3"
+    ],
+    "startupFrames": "i16",
+    "blockFrames": "-9",
+    "hitFrames": "+2",
+    "counterFrames": "",
+    "notes": "\n        "
+  },
+  {
+    "command": "DCK.1+2,1+2",
+    "hitLevels": [
+      "m",
+      "m",
+      "m",
+      "m"
+    ],
+    "damage": [
+      "3",
+      "3",
+      "3",
+      "3"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-9",
+    "hitFrames": "+2",
+    "counterFrames": "",
+    "notes": "\n        "
+  },
+  {
+    "command": "DCK.1+2,1+2,1+2",
+    "hitLevels": [
+      "m",
+      "m",
+      "m",
+      "m",
+      "m",
+      "m"
+    ],
+    "damage": [
+      "3",
+      "3",
+      "3",
+      "3",
+      "2",
+      "2"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-9",
+    "hitFrames": "+2",
+    "counterFrames": "",
+    "notes": "\n        "
+  },
+  {
+    "command": "DCK.1+2,1+2,1+2,1+2",
+    "hitLevels": [
+      "m",
+      "m",
+      "m",
+      "m",
+      "m",
+      "m",
+      "m",
+      "m"
+    ],
+    "damage": [
+      "3",
+      "3",
+      "3",
+      "3",
+      "2",
+      "2",
+      "2",
+      "12"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-12",
+    "hitFrames": "KND",
+    "counterFrames": "",
+    "notes": "\n        "
+  },
+  {
+    "command": "DCK.2",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "15"
+    ],
+    "startupFrames": "i19",
+    "blockFrames": "-14",
+    "hitFrames": "Launch",
+    "counterFrames": "",
+    "notes": "\n        "
+  },
+  {
+    "command": "DCK.f+2",
+    "hitLevels": [
+      "h"
+    ],
+    "damage": [
+      "21"
+    ],
+    "startupFrames": "i15",
+    "blockFrames": "-3",
+    "hitFrames": "KND",
+    "counterFrames": "CH",
+    "notes": "\n            * Input 3 to LWV (+1/KND/Launch)\n            * Input 4 to RWV (+1/KND/Launch)\n            * Input f+3_4 to DCK (+7/KND/Launch)\n        "
+  },
+  {
+    "command": "DCK.f+3",
+    "hitLevels": [
+      "sp"
+    ],
+    "damage": [
+      ""
+    ],
+    "startupFrames": "",
+    "blockFrames": "",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": "\n            * Transition to EXTDCK\n        "
+  },
+  {
+    "command": "d/f+1",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "12"
+    ],
+    "startupFrames": "i13",
+    "blockFrames": "-2",
+    "hitFrames": "+4",
+    "counterFrames": "",
+    "notes": "\n            * Input 3 to LWV\n            * Input 4 to RWV\n            * Input b+3_4 to SWY\n            * Input f+3_4 to DCK (-5/+2/+2)\n        "
+  },
+  {
+    "command": "d/f+1,2",
+    "hitLevels": [
+      "m",
+      "h"
+    ],
+    "damage": [
+      "1213"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-6",
+    "hitFrames": "+3",
+    "counterFrames": "+5",
+    "notes": "\n            * Input 3 to LWV (-16/-9/-9)\n            * Input 4 to RWV (-16/-9/-9)\n            * Input b+3_4 to SWY (-16/-9/-9)\n            * Input f+3_4 to DCK (-14/-7/-7)\n        "
+  },
+  {
+    "command": "d/f+1,2~1",
+    "hitLevels": [
+      "m",
+      "h"
+    ],
+    "damage": [
+      "1220"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-2",
+    "hitFrames": "+2",
+    "counterFrames": "Launch",
+    "notes": "\n            * Input b to FLK (0/+4/Launch)\n        "
+  },
+  {
+    "command": "d/f+1,2~1+2",
+    "hitLevels": [
+      "m",
+      "h",
+      "h"
+    ],
+    "damage": [
+      "12",
+      "8",
+      "12"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-3",
+    "hitFrames": "0",
+    "counterFrames": "",
+    "notes": "\n            * Input b to FLK (0/+4/Launch)\n        "
+  },
+  {
+    "command": "d/f+1,2~2",
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "damage": [
+      "1212"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-10",
+    "hitFrames": "KND",
+    "counterFrames": "",
+    "notes": "\n            * Input b to FLK (0/+4/Launch)\n        "
+  },
+  {
+    "command": "d/f+2",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "10"
+    ],
+    "startupFrames": "i16",
+    "blockFrames": "-11",
+    "hitFrames": "+6",
+    "counterFrames": "+8c",
+    "notes": "\n            * Input 3 to LWV (-7/+10/+12)\n            * Input 4 to RWV (-7/+10/+12)\n            * Input b+3_4 to SWY (-7/+10/+12)\n            * Input f+3_4 to DCK (-2/+15g/+17)\n        "
+  },
+  {
+    "command": "EXD.1",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "21"
+    ],
+    "startupFrames": "i19",
+    "blockFrames": "-7",
+    "hitFrames": "+KND",
+    "counterFrames": "Launch",
+    "notes": "\n        "
+  },
+  {
+    "command": "EXD.2",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "21"
+    ],
+    "startupFrames": "i19",
+    "blockFrames": "-14",
+    "hitFrames": "Launch",
+    "counterFrames": "",
+    "notes": "\n        "
+  },
+  {
+    "command": "EXD.f+2",
+    "hitLevels": [
+      "h"
+    ],
+    "damage": [
+      "28"
+    ],
+    "startupFrames": "i15",
+    "blockFrames": "-+2",
+    "hitFrames": "Launch",
+    "counterFrames": "",
+    "notes": "\n            * Input 3 to LWV (+10/Launch/Launch)\n            * Input 4 to RWV (+10/Launch/Launch)\n            * Input b to SWY (+10/Launch/Launch)\n            * Input f+3_4 to DCK (+12/Launch/Launch)\n        "
+  },
+  {
+    "command": "f+1+2",
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "damage": [
+      "10",
+      "12"
+    ],
+    "startupFrames": "i15",
+    "blockFrames": "-14",
+    "hitFrames": "-3",
+    "counterFrames": "",
+    "notes": "\n        "
+  },
+  {
+    "command": "f+1+2,2",
+    "hitLevels": [
+      "m",
+      "m",
+      "m"
+    ],
+    "damage": [
+      "10",
+      "1220"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-13",
+    "hitFrames": "KND",
+    "counterFrames": "",
+    "notes": "\n        "
+  },
+  {
+    "command": "f+2",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "11"
+    ],
+    "startupFrames": "i21~22",
+    "blockFrames": "-6",
+    "hitFrames": "+5",
+    "counterFrames": "",
+    "notes": "\n        "
+  },
+  {
+    "command": "f+2,1",
+    "hitLevels": [
+      "m",
+      "h"
+    ],
+    "damage": [
+      "11",
+      "12"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-5",
+    "hitFrames": "+1",
+    "counterFrames": "",
+    "notes": "\n            * Input f to PAB (+0/+4/+4)\n            * Input b to FLK (+1/+5/+5)\n        "
+  },
+  {
+    "command": "f+2,1~2",
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "damage": [
+      "11",
+      "20"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-10",
+    "hitFrames": "KND",
+    "counterFrames": "",
+    "notes": "\n        "
+  },
+  {
+    "command": "f+2,2",
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "damage": [
+      "1115"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-6",
+    "hitFrames": "+11",
+    "counterFrames": "",
+    "notes": "\n            * Transistion to LNH\n        "
+  },
+  {
+    "command": "f+2,2,1+2",
+    "hitLevels": [
+      "m",
+      "m",
+      "m",
+      "m",
+      "m"
+    ],
+    "damage": [
+      "1115",
+      "5",
+      "8",
+      "20"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-12",
+    "hitFrames": "+5",
+    "counterFrames": "",
+    "notes": "\n        "
+  },
+  {
+    "command": "f+3+4",
+    "hitLevels": [
+      "sp"
+    ],
+    "damage": [
+      ""
+    ],
+    "startupFrames": "",
+    "blockFrames": "",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": "\n            * Transition to PAB\n            * Auto blocks high and mid\n        "
+  },
+  {
+    "command": "f+3",
+    "hitLevels": [
+      "sp"
+    ],
+    "damage": [
+      ""
+    ],
+    "startupFrames": "",
+    "blockFrames": "",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": "\n            * Transition to DCK\n            * Input 3 to LWV\n            * Input 4 to RWV\n            * Input f+3_4 to DCK\n        "
+  },
+  {
+    "command": "FC.d/f+1",
+    "hitLevels": [
+      "l"
+    ],
+    "damage": [
+      "11"
+    ],
+    "startupFrames": "i15",
+    "blockFrames": "-12",
+    "hitFrames": "+2",
+    "counterFrames": "",
+    "notes": "\n            * Transition to PAB\n        "
+  },
+  {
+    "command": "FC.d/f+2",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "20"
+    ],
+    "startupFrames": "i8",
+    "blockFrames": "-15",
+    "hitFrames": "Launch",
+    "counterFrames": "",
+    "notes": "\n        "
+  },
+  {
+    "command": "f,f+2",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "24"
+    ],
+    "startupFrames": "i14~17",
+    "blockFrames": "-13c",
+    "hitFrames": "KND",
+    "counterFrames": "",
+    "notes": "\n        "
+  },
+  {
+    "command": "f,f,f+2",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "30"
+    ],
+    "startupFrames": "i20~24",
+    "blockFrames": "+6",
+    "hitFrames": "+17",
+    "counterFrames": "",
+    "notes": "\n            Heat Engager\n\n            * In heat input f to Heat dash (+5/Launch/Launch)\n        "
+  },
+  {
+    "command": "FLK.1",
+    "hitLevels": [
+      "h"
+    ],
+    "damage": [
+      "14"
+    ],
+    "startupFrames": "i12",
+    "blockFrames": "-4",
+    "hitFrames": "+7",
+    "counterFrames": "",
+    "notes": "\n            * Input b to stay in FLK (-1/+10/+10)\n        "
+  },
+  {
+    "command": "FLK.1,1",
+    "hitLevels": [
+      "h",
+      "h"
+    ],
+    "damage": [
+      "14",
+      "8"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-9",
+    "hitFrames": "0",
+    "counterFrames": "0",
+    "notes": "\n            * Input b to stay in FLK (-4/+5/+5)\n        "
+  },
+  {
+    "command": "FLK.1,1,1",
+    "hitLevels": [
+      "h",
+      "h",
+      "h"
+    ],
+    "damage": [
+      "14",
+      "8",
+      "8"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-9",
+    "hitFrames": "0",
+    "counterFrames": "",
+    "notes": "\n            * Input b to stay in FLK (-4/+5/+5)\n        "
+  },
+  {
+    "command": "FLK.1,1,1,2",
+    "hitLevels": [
+      "h",
+      "h",
+      "h",
+      "m"
+    ],
+    "damage": [
+      "14",
+      "8",
+      "8"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-12",
+    "hitFrames": "KND",
+    "counterFrames": "",
+    "notes": "\n            * True +28 on CH\n            * ALB 2 guaranteed\n        "
+  },
+  {
+    "command": "FLK.1,1,1,3+4",
+    "hitLevels": [
+      "h",
+      "h",
+      "h",
+      "sp"
+    ],
+    "damage": [
+      "14",
+      "8",
+      "8"
+    ],
+    "startupFrames": "",
+    "blockFrames": "+14g",
+    "hitFrames": "+23g",
+    "counterFrames": "+23",
+    "notes": "\n            * True +28 on CH\n            * ALB 2 guaranteed\n        "
+  },
+  {
+    "command": "FLK.1,1,3+4",
+    "hitLevels": [
+      "h",
+      "h",
+      "sp"
+    ],
+    "damage": [
+      "14",
+      "8"
+    ],
+    "startupFrames": "",
+    "blockFrames": "+14g",
+    "hitFrames": "+23g",
+    "counterFrames": "",
+    "notes": "\n        "
+  },
+  {
+    "command": "FLK.1,1,f+1",
+    "hitLevels": [
+      "h",
+      "h",
+      "m"
+    ],
+    "damage": [
+      "14",
+      "8",
+      "17"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-5",
+    "hitFrames": "0",
+    "counterFrames": "",
+    "notes": "\n        "
+  },
+  {
+    "command": "FLK.1+2",
+    "hitLevels": [
+      "throw"
+    ],
+    "damage": [
+      "40"
+    ],
+    "startupFrames": "i12",
+    "blockFrames": "",
+    "hitFrames": "KND",
+    "counterFrames": "",
+    "notes": "\n            * 1+2 for throw break\n        "
+  },
+  {
+    "command": "FLK.1,2",
+    "hitLevels": [
+      "h",
+      "m"
+    ],
+    "damage": [
+      "14",
+      "22"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-13",
+    "hitFrames": "KND",
+    "counterFrames": "",
+    "notes": "\n        "
+  },
+  {
+    "command": "FLK.1,3+4",
+    "hitLevels": [
+      "h",
+      "sp"
+    ],
+    "damage": [
+      "14",
+      "14"
+    ],
+    "startupFrames": "",
+    "blockFrames": "+17g",
+    "hitFrames": "+28g",
+    "counterFrames": "+28",
+    "notes": "\n            * True +28 on CH\n            * ALB 2 guaranteed\n        "
+  },
+  {
+    "command": "FLK.1,d+1",
+    "hitLevels": [
+      "h",
+      "m"
+    ],
+    "damage": [
+      "14",
+      "23"
+    ],
+    "startupFrames": "",
+    "blockFrames": "0",
+    "hitFrames": "+18g",
+    "counterFrames": "Launch",
+    "notes": "\n        "
+  },
+  {
+    "command": "FLK.1,f+1",
+    "hitLevels": [
+      "h",
+      "m"
+    ],
+    "damage": [
+      "14",
+      "17"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-5",
+    "hitFrames": "0",
+    "counterFrames": "",
+    "notes": "\n        "
+  },
+  {
+    "command": "FLK.2",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "21"
+    ],
+    "startupFrames": "i18",
+    "blockFrames": "-5c",
+    "hitFrames": "KND",
+    "counterFrames": "Launch",
+    "notes": "\n        "
+  },
+  {
+    "command": "FLK.b+2",
+    "hitLevels": [
+      "h"
+    ],
+    "damage": [
+      "21"
+    ],
+    "startupFrames": "i4",
+    "blockFrames": "-9",
+    "hitFrames": "KND",
+    "counterFrames": "",
+    "notes": "\n        "
+  },
+  {
+    "command": "H.EXD.1+3",
+    "hitLevels": [
+      "h"
+    ],
+    "damage": [
+      ""
+    ],
+    "startupFrames": "i18",
+    "blockFrames": "",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": "\n            * Unbreakable\n        "
+  },
+  {
+    "command": "H.EXDThrow.1",
+    "hitLevels": [
+      "throw"
+    ],
+    "damage": [
+      "15"
+    ],
+    "startupFrames": "/",
+    "blockFrames": "",
+    "hitFrames": "+14",
+    "counterFrames": "",
+    "notes": "\n            * Press 1 for throw break\n        "
+  },
+  {
+    "command": "H.EXDThrow.2",
+    "hitLevels": [
+      "throw"
+    ],
+    "damage": [
+      "40"
+    ],
+    "startupFrames": "/",
+    "blockFrames": "",
+    "hitFrames": "KND",
+    "counterFrames": "",
+    "notes": "\n            * Press 2 for throw break\n        "
+  },
+  {
+    "command": "Left throw",
+    "hitLevels": [
+      "throw"
+    ],
+    "damage": [
+      "40"
+    ],
+    "startupFrames": "i12",
+    "blockFrames": "",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": "\n            * Throw break 1\n        "
+  },
+  {
+    "command": "LNH.1",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "21"
+    ],
+    "startupFrames": "14",
+    "blockFrames": "-9",
+    "hitFrames": "+17/KND",
+    "counterFrames": "",
+    "notes": "\n        "
+  },
+  {
+    "command": "LNH.1+2",
+    "hitLevels": [
+      "h"
+    ],
+    "damage": [
+      "24"
+    ],
+    "startupFrames": "20",
+    "blockFrames": "+12",
+    "hitFrames": "KND",
+    "counterFrames": "",
+    "notes": "\n            * True frame advantage\n        "
+  },
+  {
+    "command": "LNH.2",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "22"
+    ],
+    "startupFrames": "16",
+    "blockFrames": "-13",
+    "hitFrames": "Launch",
+    "counterFrames": "",
+    "notes": "\n        "
+  },
+  {
+    "command": "LWV.1",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "14"
+    ],
+    "startupFrames": "i15",
+    "blockFrames": "-10",
+    "hitFrames": "+1",
+    "counterFrames": "",
+    "notes": "\n            * Input b to FLK (-3/+8/+8)\n        "
+  },
+  {
+    "command": "LWV.1,1",
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "damage": [
+      "1422"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-13",
+    "hitFrames": "KND",
+    "counterFrames": "",
+    "notes": "\n        "
+  },
+  {
+    "command": "LWV.1,2",
+    "hitLevels": [
+      "m",
+      "h"
+    ],
+    "damage": [
+      "1414"
+    ],
+    "startupFrames": "",
+    "blockFrames": "+3",
+    "hitFrames": "+7",
+    "counterFrames": "",
+    "notes": "\n            Homing\n            * Transition to LNH\n        "
+  },
+  {
+    "command": "LWV.1,2~1",
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "damage": [
+      "1417"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-8",
+    "hitFrames": "+4",
+    "counterFrames": "Launch",
+    "notes": "\n        "
+  },
+  {
+    "command": "LWV.1,f+1",
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "damage": [
+      "149"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-3",
+    "hitFrames": "+3",
+    "counterFrames": "",
+    "notes": "\n        "
+  },
+  {
+    "command": "LWV.1,f+1,1",
+    "hitLevels": [
+      "m",
+      "m",
+      "h"
+    ],
+    "damage": [
+      "1498"
+    ],
+    "startupFrames": "",
+    "blockFrames": "+3",
+    "hitFrames": "+7",
+    "counterFrames": "Launch",
+    "notes": "\n        "
+  },
+  {
+    "command": "LWV.2",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "13"
+    ],
+    "startupFrames": "i14~16",
+    "blockFrames": "-5",
+    "hitFrames": "+4",
+    "counterFrames": "",
+    "notes": "\n            * Input f to PAB (-1/+8/+8)\n        "
+  },
+  {
+    "command": "LWV.2,1",
+    "hitLevels": [
+      "mm"
+    ],
+    "damage": [
+      "1321"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-8",
+    "hitFrames": "+4c",
+    "counterFrames": "KND",
+    "notes": "\n            * Input f into PAB (-1/+8/+8)\n        "
+  },
+  {
+    "command": "Opponent down d+1+2",
+    "hitLevels": [
+      "l"
+    ],
+    "damage": [
+      "14"
+    ],
+    "startupFrames": "i17",
+    "blockFrames": "",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": "\n            * Recovers in crouch\n        "
+  },
+  {
+    "command": "PAB.1",
+    "hitLevels": [
+      "h"
+    ],
+    "damage": [
+      "10"
+    ],
+    "startupFrames": "i12",
+    "blockFrames": "-2",
+    "hitFrames": "+9",
+    "counterFrames": "",
+    "notes": "\n        "
+  },
+  {
+    "command": "PAB.1+2",
+    "hitLevels": [
+      ""
+    ],
+    "damage": [
+      "45"
+    ],
+    "startupFrames": "i11",
+    "blockFrames": "",
+    "hitFrames": "KND",
+    "counterFrames": "",
+    "notes": "\n            * 1+2 for throw break\n        "
+  },
+  {
+    "command": "PAB.1,2",
+    "hitLevels": [
+      "h",
+      "h"
+    ],
+    "damage": [
+      "1014"
+    ],
+    "startupFrames": "",
+    "blockFrames": "0",
+    "hitFrames": "+8",
+    "counterFrames": "",
+    "notes": "\n        "
+  },
+  {
+    "command": "PAB.1,2,1",
+    "hitLevels": [
+      "h",
+      "h",
+      "m"
+    ],
+    "damage": [
+      "101421"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-13",
+    "hitFrames": "+8",
+    "counterFrames": "Launch",
+    "notes": "\n        "
+  },
+  {
+    "command": "PAB.2",
+    "hitLevels": [
+      "",
+      "h"
+    ],
+    "damage": [
+      "19"
+    ],
+    "startupFrames": "i14",
+    "blockFrames": "-3",
+    "hitFrames": "+2",
+    "counterFrames": "Launch",
+    "notes": "\n            Homing\n        "
+  },
+  {
+    "command": "PAB.b+1",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "15"
+    ],
+    "startupFrames": "i17",
+    "blockFrames": "-19",
+    "hitFrames": "-6",
+    "counterFrames": "",
+    "notes": "\n        "
+  },
+  {
+    "command": "PAB.b+1,1",
+    "hitLevels": [
+      "m",
+      "h"
+    ],
+    "damage": [
+      "15",
+      "10"
+    ],
+    "startupFrames": "i17",
+    "blockFrames": "-7",
+    "hitFrames": "-1",
+    "counterFrames": "",
+    "notes": "\n        "
+  },
+  {
+    "command": "PAB.b+1,1,2",
+    "hitLevels": [
+      "m",
+      "h",
+      "m"
+    ],
+    "damage": [
+      "15",
+      "10",
+      "12"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-11",
+    "hitFrames": "-5",
+    "counterFrames": "",
+    "notes": "\n        "
+  },
+  {
+    "command": "PAB.b+1,1,2,1",
+    "hitLevels": [
+      "m",
+      "h",
+      "m",
+      "m"
+    ],
+    "damage": [
+      "15",
+      "10",
+      "12",
+      "21"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-10",
+    "hitFrames": "KND",
+    "counterFrames": "",
+    "notes": "\n            * Input b to FLK (-3/KND/KND)\n        "
+  },
+  {
+    "command": "PAB.b+2",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "25"
+    ],
+    "startupFrames": "i28",
+    "blockFrames": "-13",
+    "hitFrames": "KND",
+    "counterFrames": "",
+    "notes": "\n        "
+  },
+  {
+    "command": "PAB.d+1",
+    "hitLevels": [
+      "l"
+    ],
+    "damage": [
+      "11"
+    ],
+    "startupFrames": "i15",
+    "blockFrames": "-12",
+    "hitFrames": "+2",
+    "counterFrames": "",
+    "notes": "\n        "
+  },
+  {
+    "command": "PAB.d+2",
+    "hitLevels": [
+      "l"
+    ],
+    "damage": [
+      "25"
+    ],
+    "startupFrames": "i28",
+    "blockFrames": "-12",
+    "hitFrames": "+7",
+    "counterFrames": "Launch",
+    "notes": "\n        "
+  },
+  {
+    "command": "PAB.d/f+1",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "12"
+    ],
+    "startupFrames": "i15",
+    "blockFrames": "-9",
+    "hitFrames": "+2",
+    "counterFrames": "",
+    "notes": "\n        "
+  },
+  {
+    "command": "PAB.d/f+1,1",
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "damage": [
+      "1214"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-10",
+    "hitFrames": "+1",
+    "counterFrames": "",
+    "notes": "\n        "
+  },
+  {
+    "command": "PAB.d/f+1,1,2",
+    "hitLevels": [
+      "m",
+      "m",
+      "m"
+    ],
+    "damage": [
+      "121412"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-11",
+    "hitFrames": "-3",
+    "counterFrames": "",
+    "notes": "\n        "
+  },
+  {
+    "command": "PAB.d/f+1,1,2,1",
+    "hitLevels": [
+      "m",
+      "m",
+      "m",
+      "m"
+    ],
+    "damage": [
+      "121412",
+      "20"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-13",
+    "hitFrames": "KND",
+    "counterFrames": "",
+    "notes": "\n        "
+  },
+  {
+    "command": "PAB.d/f+1,2",
+    "hitLevels": [
+      "m",
+      "m",
+      "h"
+    ],
+    "damage": [
+      "1220"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-6",
+    "hitFrames": "+10",
+    "counterFrames": "",
+    "notes": "\n        "
+  },
+  {
+    "command": "PAB.d/f+2",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "16"
+    ],
+    "startupFrames": "i17",
+    "blockFrames": "-10",
+    "hitFrames": "Launch",
+    "counterFrames": "",
+    "notes": "\n        "
+  },
+  {
+    "command": "PAB.f+1+2",
+    "hitLevels": [
+      "h",
+      "h"
+    ],
+    "damage": [
+      "12",
+      "23"
+    ],
+    "startupFrames": "i12",
+    "blockFrames": "-5",
+    "hitFrames": "KND",
+    "counterFrames": "",
+    "notes": "\n        "
+  },
+  {
+    "command": "PAB.f+2",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "18"
+    ],
+    "startupFrames": "i18",
+    "blockFrames": "-13",
+    "hitFrames": "KND",
+    "counterFrames": "",
+    "notes": "\n        "
+  },
+  {
+    "command": "PAB.f+2,1",
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "damage": [
+      "1824"
+    ],
+    "startupFrames": "",
+    "blockFrames": "+1",
+    "hitFrames": "KND",
+    "counterFrames": "",
+    "notes": "\n            * Interruptible by i13 move\n        "
+  },
+  {
+    "command": "PAB.u/f+2",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "23"
+    ],
+    "startupFrames": "i17",
+    "blockFrames": "-15",
+    "hitFrames": "Launch",
+    "counterFrames": "",
+    "notes": "\n        "
+  },
+  {
+    "command": "qcb+2+4",
+    "hitLevels": [
+      "throw"
+    ],
+    "damage": [
+      "40"
+    ],
+    "startupFrames": "i12",
+    "blockFrames": "",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": "\n            * 2 Throw break\n        "
+  },
+  {
+    "command": "qcf+1",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "21"
+    ],
+    "startupFrames": "i16",
+    "blockFrames": "-10",
+    "hitFrames": "+17",
+    "counterFrames": "",
+    "notes": "\n            Heat Engager\n\n            * Input b to FLK (-3/KND/KND)\n            * Input f to Heat dash (+5/KND/KND)\n        "
+  },
+  {
+    "command": "qcf+2",
+    "hitLevels": [
+      "l"
+    ],
+    "damage": [
+      "18"
+    ],
+    "startupFrames": "i19",
+    "blockFrames": "-18",
+    "hitFrames": "+2",
+    "counterFrames": "",
+    "notes": "\n            * Input f to PAB\n        "
+  },
+  {
+    "command": "Right throw",
+    "hitLevels": [
+      "throw"
+    ],
+    "damage": [
+      "40"
+    ],
+    "startupFrames": "i12",
+    "blockFrames": "",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": "\n            * Throw break 2\n        "
+  },
+  {
+    "command": "RWV.1",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "13"
+    ],
+    "startupFrames": "i14~16",
+    "blockFrames": "-5",
+    "hitFrames": "+4",
+    "counterFrames": "",
+    "notes": "\n            * Input f into PAB (-1/+8/+8)\n        "
+  },
+  {
+    "command": "RWV.1,2",
+    "hitLevels": [
+      "m",
+      "h(?)"
+    ],
+    "damage": [
+      "13",
+      "17"
+    ],
+    "startupFrames": "",
+    "blockFrames": "+3",
+    "hitFrames": "+7",
+    "counterFrames": "",
+    "notes": "\n            Homing\n            * Transition into LNH\n        "
+  },
+  {
+    "command": "RWV.1,2~1",
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "damage": [
+      "13",
+      "?"
+    ],
+    "startupFrames": "",
+    "blockFrames": "+8",
+    "hitFrames": "+4",
+    "counterFrames": "Launch",
+    "notes": "\n        "
+  },
+  {
+    "command": "RWV.2",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "22"
+    ],
+    "startupFrames": "i15",
+    "blockFrames": "-13",
+    "hitFrames": "KND",
+    "counterFrames": "",
+    "notes": "\n        "
+  },
+  {
+    "command": "SWY.1",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "26"
+    ],
+    "startupFrames": "i16",
+    "blockFrames": "-1c",
+    "hitFrames": "+14",
+    "counterFrames": "",
+    "notes": "\n        "
+  },
+  {
+    "command": "SWY.1+2",
+    "hitLevels": [
+      "throw"
+    ],
+    "damage": [
+      ""
+    ],
+    "startupFrames": "i10",
+    "blockFrames": "",
+    "hitFrames": "+10",
+    "counterFrames": "",
+    "notes": "\n            * +10 when opponent hits the wall if the throw is successful\n            * Throw break 1+2\n        "
+  },
+  {
+    "command": "SWY.1+2~b",
+    "hitLevels": [
+      "throw"
+    ],
+    "damage": [
+      ""
+    ],
+    "startupFrames": "i10",
+    "blockFrames": "",
+    "hitFrames": "+10",
+    "counterFrames": "",
+    "notes": "\n            * +13 when opponent hits the wall after being rotated by < 90 degrees\n            * +17 when opponent hits the wall after being rotated by > 90 degrees\n            * Throw break 1+2\n        "
+  },
+  {
+    "command": "SWY.2",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "30"
+    ],
+    "startupFrames": "i17",
+    "blockFrames": "-18",
+    "hitFrames": "Launch",
+    "counterFrames": "",
+    "notes": "\n        "
+  },
+  {
+    "command": "u/b+1+2",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "70"
+    ],
+    "startupFrames": "i66",
+    "blockFrames": "KND",
+    "hitFrames": "KND",
+    "counterFrames": "",
+    "notes": ""
+  },
+  {
+    "command": "u/b+2",
+    "hitLevels": [
+      "h"
+    ],
+    "damage": [
+      "17"
+    ],
+    "startupFrames": "i17",
+    "blockFrames": "+3",
+    "hitFrames": "+14",
+    "counterFrames": "",
+    "notes": "\n            * Homing\n            * Transition into LNH\n            * Input b to cancel LNH\n        "
+  },
+  {
+    "command": "u/b+2~1",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "17"
+    ],
+    "startupFrames": "i30",
+    "blockFrames": "-8",
+    "hitFrames": "+4",
+    "counterFrames": "Launch",
+    "notes": ""
+  },
+  {
+    "command": "u/b+3",
+    "hitLevels": [
+      "sp"
+    ],
+    "damage": [
+      ""
+    ],
+    "startupFrames": "",
+    "blockFrames": "",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": "\n            * Transition to LNH\n            * Input 3 to LWV\n            * Input 4 to RWV\n            * Input b+3_4 to DCK\n            * Input f+3_4 to DCK\n        "
+  },
+  {
+    "command": "u/f+1",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "18"
+    ],
+    "startupFrames": "i19~21",
+    "blockFrames": "-6",
+    "hitFrames": "+5",
+    "counterFrames": "",
+    "notes": ""
+  },
+  {
+    "command": "u/f+1+2",
+    "hitLevels": [
+      "throw"
+    ],
+    "damage": [
+      "40"
+    ],
+    "startupFrames": "i12",
+    "blockFrames": "",
+    "hitFrames": "",
+    "counterFrames": "",
+    "notes": "\n            * 1+2 Throw break\n        "
+  },
+  {
+    "command": "u/f+2",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "20"
+    ],
+    "startupFrames": "i22~25",
+    "blockFrames": "-14",
+    "hitFrames": "Launch",
+    "counterFrames": "",
+    "notes": ""
+  },
+  {
+    "command": "u/f+3",
+    "hitLevels": [
+      "l"
+    ],
+    "damage": [
+      "20"
+    ],
+    "startupFrames": "i36",
+    "blockFrames": "-12",
+    "hitFrames": "+9",
+    "counterFrames": "",
+    "notes": ""
+  },
+  {
+    "command": "u/f+3,2",
+    "hitLevels": [
+      "l",
+      "h"
+    ],
+    "damage": [
+      "20",
+      "10"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-6",
+    "hitFrames": "+7",
+    "counterFrames": "",
+    "notes": "\n            * Transition to LNH\n        "
+  },
+  {
+    "command": "u/f+4",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "20"
+    ],
+    "startupFrames": "i23",
+    "blockFrames": "-14",
+    "hitFrames": "KND",
+    "counterFrames": "Launch",
+    "notes": "\n        "
+  },
+  {
+    "command": "WS.1",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "12"
+    ],
+    "startupFrames": "i11",
+    "blockFrames": "-3",
+    "hitFrames": "+3",
+    "counterFrames": "+8",
+    "notes": "\n        "
+  },
+  {
+    "command": "WS.1,1",
+    "hitLevels": [
+      "m",
+      "h"
+    ],
+    "damage": [
+      "12",
+      "7"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-3",
+    "hitFrames": "+3",
+    "counterFrames": "",
+    "notes": "\n            * Input 3 to LWV (-6/0/0)\n            * Input 4 to RWV (-6/0/0)\n            * Input b+3_4 to SWY (-6/0/0)\n            * Input f+3_4 to DCK (-2/+4/+4)\n        "
+  },
+  {
+    "command": "WS.1,2",
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "damage": [
+      "12",
+      "20"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-13",
+    "hitFrames": "+3c",
+    "counterFrames": "KND",
+    "notes": "\n        "
+  },
+  {
+    "command": "WS.2",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      "17"
+    ],
+    "startupFrames": "i13",
+    "blockFrames": "-7",
+    "hitFrames": "+4",
+    "counterFrames": "",
+    "notes": "\n            * Input 3 to LWV\n            * Input 4 to RWV\n            * Input b+3_4 to SWY\n            * Input f+3_4 to DCK (-5/+6/+6)\n        "
+  },
+  {
+    "command": "WS.2,2",
+    "hitLevels": [
+      "mm"
+    ],
+    "damage": [
+      "1715"
+    ],
+    "startupFrames": "",
+    "blockFrames": "-6",
+    "hitFrames": "+11",
+    "counterFrames": "",
+    "notes": "\n            * Transition to LNH\n        "
+  }
+]

@@ -1,7 +1,8 @@
+import { readFileSync } from 'node:fs';
+import { fileURLToPath } from 'node:url';
+
 import type { MoveDamage, MoveFrames, MoveHits, MoveMeta, RawMove } from 'prisma/types';
 import { PrismaClient } from '@prisma/client';
-
-import rawMoves from './data/kazuya.json';
 
 const prisma = new PrismaClient();
 
@@ -22,11 +23,18 @@ function sanitizeDamage(damage: string[]): number[] {
  * @param slug Slug of the character to import moves for.
  */
 async function importCharacterMoves(slug: string) {
-    // const rawMoves: RawMove[] = await import('./data/kazuya.json');
+    const inputPath = fileURLToPath(
+        new URL(`../../packages/importer/resources/json/${slug}.json`, import.meta.url),
+    );
+
+    const rawMoves = JSON.parse(readFileSync(inputPath, 'utf-8'));
 
     const character = await prisma.character.findUnique({
         where: {
             slug,
+        },
+        include: {
+            moves: true,
         },
     });
 
@@ -34,11 +42,15 @@ async function importCharacterMoves(slug: string) {
         throw new Error(`Character not found: ${slug}`);
     }
 
+    if (character.moves.length > 0) {
+        throw new Error(`Character moves already exist: ${slug}`);
+    }
+
     const characterId = character.id;
 
-    const moves = rawMoves.map((rawMove) => {
+    const moves = rawMoves.map((rawMove: RawMove) => {
         const notation = rawMove.command;
-        const { notes } = rawMove;
+        const notes = rawMove.notes?.trim() ?? null;
 
         const metadata: MoveMeta = {};
 
@@ -77,7 +89,7 @@ async function importCharacterMoves(slug: string) {
  * Provision character moves.
  */
 async function provision() {
-    return importCharacterMoves('kazuya');
+    return importCharacterMoves('yoshimitsu');
 }
 
 provision().catch(console.log.bind(console));

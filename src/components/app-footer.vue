@@ -1,9 +1,7 @@
 <template>
-    <footer class="flex-shrink-0 bg-black/25 py-4">
+    <footer class="flex-shrink-0 bg-black/25 py-4 mt-8">
         <div class="container flex justify-between">
-            <div class="text-copy/50">
-                &copy; 2024. This is a community project.
-            </div>
+            <div class="text-copy/50">&copy; 2024. This is a community project.</div>
 
             <ul
                 class="flex gap-4"
