@@ -57,6 +57,7 @@ const characters = [
     'dragunov',
     'feng',
     'jack-8',
+    'kazuya',
     'jin',
     'jun',
     'law',

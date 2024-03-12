@@ -89,7 +89,7 @@ async function importCharacterMoves(slug: string) {
  * Provision character moves.
  */
 async function provision() {
-    return importCharacterMoves('yoshimitsu');
+    return importCharacterMoves('kazuya');
 }
 
 provision().catch(console.log.bind(console));

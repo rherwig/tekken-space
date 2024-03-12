@@ -1,10 +1,11 @@
 <script lang="ts" setup>
 import { Archetype, type PopulatedMove } from 'prisma/types';
+import { computed } from 'vue';
 
 import type { OverviewMoveItem } from '~/components/moves/moves.types';
 import MoveOverview from '~/components/moves/overview/move-overview.vue';
 import MoveOverviewCard from '~/components/moves/overview/move-overview-card.vue';
-import { useAsyncData, useRoute } from '#imports';
+import { useAsyncData, useHead, useRoute } from '#imports';
 import MoveDisplayWithMeta from '~/components/moves/move-display-with-meta.vue';
 
 const route = useRoute();
@@ -19,6 +20,18 @@ const { data } = await useAsyncData('character-details', async () => {
         moveLists,
         moves,
     };
+});
+
+const tabName = computed(() => {
+    if (!data.character?.name) {
+        return '';
+    }
+
+    return `${data.character.name} - Overview`;
+});
+
+useHead({
+    title: tabName,
 });
 
 const hasCheatSheet = false;

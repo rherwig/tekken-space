@@ -14,6 +14,11 @@ export default defineNuxtModule({
             handler: resolve('./server/api/auth/[...].ts'),
         });
 
+        addServerHandler({
+            route: '/api/auth/:action/:id',
+            handler: resolve('./server/api/auth/[...].ts'),
+        });
+
         await addComponentsDir({
             path: resolve('./components'),
         });

@@ -147,4 +147,7 @@ export const STANCE_KEYWORDS: TekkenKeywordsList = {
     WGS: {
         value: 'Wind God Step',
     },
+    DVK: {
+        value: 'Devil Kazuya',
+    },
 };
