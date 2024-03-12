@@ -19,6 +19,11 @@ export default defineNuxtModule({
             path: resolve('./components'),
         });
 
+        addServerHandler({
+            route: '/api/creators',
+            handler: resolve('./server/api/creators/index.get.ts'),
+        });
+
         extendPages((pages) => {
             pages.unshift({
                 name: 'community',

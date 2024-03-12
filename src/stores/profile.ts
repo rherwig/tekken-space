@@ -1,17 +1,20 @@
-import { ref } from 'vue';
+import { computed, type ComputedRef, ref } from 'vue';
 import { defineStore } from 'pinia';
 import Prisma from '@prisma/client';
 import {
     ControllerLayout,
     type PopulatedMoveList,
     type TemporaryUserPreferences,
+    type User,
     type UserPreferences,
 } from 'prisma/types';
 import { $fetch } from 'ofetch';
 
-import { useIsomorphicUrl } from '#build/imports';
+import { useAuth, useIsomorphicUrl } from '#build/imports';
 
 export const useProfile = defineStore('profile', () => {
+    const auth = useAuth();
+
     /**
      * The user's preferences.
      */
@@ -28,6 +31,13 @@ export const useProfile = defineStore('profile', () => {
      * The user's move lists.
      */
     const moveLists = ref<PopulatedMoveList[]>([]);
+
+    /**
+     * The user's data.
+     */
+    const user: ComputedRef<User | undefined> = computed(() => {
+        return auth.session.value?.user;
+    });
 
     /**
      * Fetches the user's move lists from the API.
@@ -69,11 +79,11 @@ export const useProfile = defineStore('profile', () => {
      * @param name
      * @param characterId
      */
-    async function createMoveList(name: string, characterId: string) {
+    async function createMoveList(name: string, characterId: string, authorId?: string) {
         try {
             const moveList = await $fetch<PopulatedMoveList>('/api/move-lists', {
-                method: 'POST',
-                body: JSON.stringify({ name, characterId }),
+                method: 'PUT',
+                body: JSON.stringify({ name, characterId, authorId }),
             });
 
             moveLists.value.push(moveList);
@@ -117,6 +127,7 @@ export const useProfile = defineStore('profile', () => {
     }
 
     return {
+        user,
         preferences,
         temporaryPreferences,
         moveLists,

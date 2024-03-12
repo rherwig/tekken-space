@@ -16,9 +16,9 @@
                 <div class="flex flex-col gap-4 flex-1 p-4">
                     <div class="flex justify-between items-center">
                         <div class="flex items-center gap-2">
-                            <AuthorOnly
-                                v-if="props.authorId"
-                                :id="props.authorId"
+                            <PermissionsOnly
+                                admin
+                                :author="props.authorId"
                             >
                                 <ClientOnly>
                                     <UDropdown
@@ -36,7 +36,7 @@
                                         </div>
                                     </UDropdown>
                                 </ClientOnly>
-                            </AuthorOnly>
+                            </PermissionsOnly>
 
                             <span
                                 v-if="props.character?.name"
@@ -130,7 +130,6 @@ import Prisma from '@prisma/client';
 import CreateMoveForm from '~/components/moves/forms/create-move-form.vue';
 import { useProfile } from '~/stores/profile';
 import MoveDisplayWithMeta from '~/components/moves/move-display-with-meta.vue';
-import AuthorOnly from '~/modules/auth/components/author-only.vue';
 
 interface Props {
     id: string;

@@ -8,7 +8,7 @@ const router = useRouter();
 
 const user = computed(() => session.value?.user);
 
-const displayName = computed(() => user.value?.handle ?? user.value?.name ?? '');
+const displayName = computed(() => user.value?.name ?? '');
 
 const items = [
     [

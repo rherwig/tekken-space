@@ -1,8 +1,10 @@
 <script lang="ts" setup>
-import Prisma from '@prisma/client';
+import type { User } from 'prisma/types';
+
+import ProfileBadges from '~/modules/auth/components/profile/profile-badges.vue';
 
 interface Props {
-    creator: Prisma.User;
+    creator: User;
 }
 
 const props = defineProps<Props>();
@@ -15,7 +17,10 @@ const props = defineProps<Props>();
     >
         <div class="flex items-center gap-2">
             <UAvatar :text="props.creator.name.at(0)" />
+
             {{ props.creator.name }}
+
+            <ProfileBadges :user="props.creator" />
         </div>
     </NuxtLink>
 </template>

@@ -1,9 +1,11 @@
-import Prisma from '@prisma/client';
+import type { User as PrismaUser } from 'prisma/types';
 
 declare module '@auth/core/types' {
     interface Session {
-        user?: Prisma.User;
+        user?: PrismaUser;
     }
+
+    type User = PrismaUser;
 }
 
 export {};

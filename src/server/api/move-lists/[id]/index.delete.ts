@@ -21,36 +21,29 @@ export default defineEventHandler(async (event) => {
         };
     }
 
-    try {
-        const moveList = await prisma.moveList.findUnique({
-            where: {
-                id,
-            },
-        });
+    const moveList = await prisma.moveList.findUnique({
+        where: {
+            id,
+        },
+    });
 
-        if (!moveList) {
-            return {
-                status: 404,
-                body: 'Not found',
-            };
-        }
-
-        if (moveList.authorId !== session.user.id) {
-            return {
-                status: 403,
-                body: 'Forbidden',
-            };
-        }
-
-        await prisma.moveList.delete({
-            where: {
-                id,
-            },
-        });
-    } catch (error: any) {
+    if (!moveList) {
         return {
-            status: 500,
-            body: error,
+            status: 404,
+            body: 'Not found',
         };
     }
+
+    if (moveList.authorId !== session.user.id) {
+        return {
+            status: 403,
+            body: 'Forbidden',
+        };
+    }
+
+    await prisma.moveList.delete({
+        where: {
+            id,
+        },
+    });
 });

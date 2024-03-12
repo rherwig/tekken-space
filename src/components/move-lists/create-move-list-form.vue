@@ -7,6 +7,7 @@ import { useProfile } from '~/stores/profile';
 
 interface Props {
     moveListId?: string;
+    authorId?: string;
 }
 
 const props = defineProps<Props>();
@@ -21,14 +22,15 @@ const schema = z.object({
 });
 
 const form = reactive({
+    authorId: props.authorId,
     name: '',
     characterId: '',
 });
 
 async function handleFormSubmit(form: any) {
-    const { name, characterId } = form.data;
+    const { name, characterId, authorId } = form.data;
 
-    await profile.createMoveList(name, characterId);
+    await profile.createMoveList(name, characterId, authorId);
 
     isCreateModalOpen.value = false;
 }
@@ -52,6 +54,14 @@ async function handleFormSubmit(form: any) {
                     Choose a character and a name for your move list. You can add moves after
                     creating it.
                 </p>
+
+                <UAlert
+                    v-if="props.authorId !== profile.user?.id"
+                    class="mb-4"
+                    title="Please Note"
+                    description="You are creating a move list for another user."
+                    color="yellow"
+                />
 
                 <UForm
                     :schema="schema"

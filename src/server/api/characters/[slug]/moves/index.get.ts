@@ -1,4 +1,3 @@
-import { prisma } from 'prisma/client';
 import { createError, defineEventHandler, getRouterParam } from 'h3';
 
 import * as charactersService from '~/server/services/characters';
@@ -13,9 +12,5 @@ export default defineEventHandler(async (event) => {
         });
     }
 
-    try {
-        return charactersService.getMovesBySlug(slug);
-    } catch (error: any) {
-        return error;
-    }
+    return charactersService.getMovesBySlug(slug);
 });

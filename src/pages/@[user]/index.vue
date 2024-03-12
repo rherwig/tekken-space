@@ -1,8 +1,11 @@
 <script lang="ts" setup>
+import { computed } from 'vue';
+
 import { useAsyncData, useHead, useProfile, useRoute, useUsers } from '#imports';
 import MoveList from '~/components/move-lists/move-list.vue';
 import CreateMoveListForm from '~/components/move-lists/create-move-list-form.vue';
-import AuthorOnly from '~/modules/auth/components/author-only.vue';
+import PermissionsOnly from '~/modules/auth/components/permissions-only.vue';
+import ProfileBadges from '~/modules/auth/components/profile/profile-badges.vue';
 
 const route = useRoute();
 const profile = useProfile();
@@ -16,6 +19,16 @@ useHead({
 
 const { data: user } = await useAsyncData('user', () => users.fetchByHandle(handle));
 const { data: moveLists } = await useAsyncData('move-lists', () => profile.fetchMoveLists(handle));
+
+const socials = computed(() => {
+    const meta = user.value?.meta;
+
+    if (!meta) {
+        return {};
+    }
+
+    return (meta as any).socials ?? {};
+});
 </script>
 
 <template>
@@ -32,14 +45,21 @@ const { data: moveLists } = await useAsyncData('move-lists', () => profile.fetch
 
                 <div>
                     <div class="text-copy/50">Overview</div>
-                    <h1 class="font-bold text-2xl">{{ user.name }}</h1>
+                    <div class="flex items-center gap-2">
+                        <h1 class="font-bold text-2xl">{{ user.name }}</h1>
+
+                        <ProfileBadges
+                            class="mt-1"
+                            :user="user"
+                        />
+                    </div>
                 </div>
             </div>
 
             <div class="flex items-center gap-4 text-2xl">
                 <a
-                    v-if="user?.metadata?.socials?.x?.url"
-                    :href="user?.metadata?.socials?.x?.url"
+                    v-if="socials.x?.url"
+                    :href="socials.x?.url"
                     rel="noreferrer noopener"
                     target="_blank"
                 >
@@ -47,8 +67,8 @@ const { data: moveLists } = await useAsyncData('move-lists', () => profile.fetch
                 </a>
 
                 <a
-                    v-if="user?.metadata?.socials?.twitch?.url"
-                    :href="user?.metadata?.socials?.twitch?.url"
+                    v-if="socials.twitch?.url"
+                    :href="socials.twitch?.url"
                     rel="noreferrer noopener"
                     target="_blank"
                 >
@@ -56,8 +76,8 @@ const { data: moveLists } = await useAsyncData('move-lists', () => profile.fetch
                 </a>
 
                 <a
-                    v-if="user?.metadata?.socials?.patreon?.url"
-                    :href="user?.metadata?.socials?.patreon?.url"
+                    v-if="socials.patreon?.url"
+                    :href="socials.patreon?.url"
                     rel="noreferrer noopener"
                     target="_blank"
                 >
@@ -65,8 +85,8 @@ const { data: moveLists } = await useAsyncData('move-lists', () => profile.fetch
                 </a>
 
                 <a
-                    v-if="user?.metadata?.socials?.youtube?.url"
-                    :href="user?.metadata?.socials?.youtube?.url"
+                    v-if="socials.youtube?.url"
+                    :href="socials.youtube?.url"
                     rel="noreferrer noopener"
                     target="_blank"
                 >
@@ -87,9 +107,12 @@ const { data: moveLists } = await useAsyncData('move-lists', () => profile.fetch
                     </p>
                 </div>
 
-                <AuthorOnly :id="user?.id">
-                    <CreateMoveListForm />
-                </AuthorOnly>
+                <PermissionsOnly
+                    :author="user?.id"
+                    admin
+                >
+                    <CreateMoveListForm :author-id="user?.id" />
+                </PermissionsOnly>
             </div>
 
             <div class="flex flex-col gap-4">

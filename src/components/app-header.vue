@@ -15,12 +15,7 @@
                     <NavigationLink href="/characters"> Characters </NavigationLink>
                 </li>
                 <li>
-                    <NavigationLink
-                        href="/community"
-                        v-if="false"
-                    >
-                        Community
-                    </NavigationLink>
+                    <NavigationLink href="/community"> Community </NavigationLink>
                 </li>
                 <li>
                     <NavigationLink href="/share"> Share </NavigationLink>
