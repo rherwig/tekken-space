@@ -5,6 +5,7 @@ import type { PopulatedMove } from 'prisma/types';
 import { computed } from '#imports';
 import { DIFFICULTIES } from '~/constants/moves';
 import TsIconBadge from '~/components/ui/badges/ts-icon-badge.vue';
+import TsFrameBadge from '~/components/ui/badges/ts-frame-badge.vue';
 
 interface Props {
     move: PopulatedMove;
@@ -38,6 +39,10 @@ const hitFrames = computed(() => {
     return props.move.frames.hit;
 });
 
+const counterFrames = computed(() => {
+    return props.move.frames.counter;
+});
+
 const blockFrames = computed(() => {
     return props.move.frames.block;
 });
@@ -55,21 +60,28 @@ const blockFrames = computed(() => {
                 icon="i-tabler-heart-broken"
                 color="red"
             />
-            <TsIconBadge
+            <TsFrameBadge
                 v-if="startupFrames"
-                :label="startupFrames.toString()"
+                :value="startupFrames.toString()"
                 tooltip="Startup Frames"
                 icon="i-tabler-clock"
             />
-            <TsIconBadge
+            <TsFrameBadge
                 v-if="hitFrames"
-                :label="hitFrames.toString()"
+                :value="hitFrames.toString()"
                 tooltip="Hit Frames"
-                icon="i-tabler-heart-discount"
+                icon="i-tabler-crosshair"
             />
-            <TsIconBadge
+            <TsFrameBadge
+                v-if="counterFrames"
+                :value="counterFrames"
+                tooltip="Counter Hit Frames"
+                icon="i-tabler-heart-discount"
+                color="yellow"
+            />
+            <TsFrameBadge
                 v-if="blockFrames"
-                :label="blockFrames.toString()"
+                :value="blockFrames.toString()"
                 tooltip="Block Frames"
                 icon="i-tabler-shield"
                 color="blue"

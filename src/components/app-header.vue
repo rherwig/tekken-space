@@ -36,14 +36,12 @@
             </ul>
 
             <div class="flex items-center gap-4">
-                <ClientOnly>
-                    <USelectMenu
-                        :options="controlSchemes"
-                        value-attribute="value"
-                        v-model="profile.preferences.layout"
-                        size="md"
-                    />
-                </ClientOnly>
+                <USelectMenu
+                    :options="controlSchemes"
+                    value-attribute="value"
+                    v-model="profile.preferences.layout"
+                    size="md"
+                />
 
                 <ProflieWidget />
             </div>

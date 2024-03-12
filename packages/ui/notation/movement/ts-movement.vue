@@ -16,7 +16,7 @@ const isHoldInput = computed(() => notation.value.toLowerCase() !== notation.val
 </script>
 
 <template>
-    <div class="relative min-h-0 flex items-center justify-center">
+    <div class="relative flex items-center justify-center overflow-hidden">
         <TsMovementNeutral v-if="isNeutral" />
         <TsMovementArrow
             v-else

@@ -200,7 +200,7 @@ const TOKENS: InstructionToken[] = [
     },
     {
         type: InstructionTypes.ATTACK,
-        expression: /^([1234])([+])([1234])/gi,
+        expression: /^([1234])(([+])([1234]))+/gi,
     },
     {
         type: InstructionTypes.ATTACK,

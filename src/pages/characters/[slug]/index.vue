@@ -6,7 +6,7 @@ import type { OverviewMoveItem } from '~/components/moves/moves.types';
 import MoveOverview from '~/components/moves/overview/move-overview.vue';
 import MoveOverviewCard from '~/components/moves/overview/move-overview-card.vue';
 import { useAsyncData, useHead, useRoute } from '#imports';
-import MoveDisplayWithMeta from '~/components/moves/move-display-with-meta.vue';
+import FilterableMoveList from '~/components/move-lists/filterable-move-list.vue';
 
 const route = useRoute();
 
@@ -78,6 +78,21 @@ const archetypes: Record<Archetype, { label: string; color: string }> = {
         color: 'gray',
     },
 };
+
+const tabs = [
+    {
+        slot: 'overview',
+        label: 'Overview',
+    },
+    {
+        slot: 'moves',
+        label: 'Moves',
+    },
+    {
+        slot: 'combos',
+        label: 'Combos',
+    },
+];
 
 const punishment: OverviewMoveItem[] = [];
 const punishmentCrouching: OverviewMoveItem[] = [];
@@ -259,19 +274,12 @@ const stapleCombos: OverviewMoveItem[] = [];
                 This is an experimental moves list and may not be accurate in some places.
             </p>
 
-            <div
+            <FilterableMoveList
                 class="bg-black/25 rounded-md"
                 v-if="data.moves.length"
-            >
-                <div
-                    v-for="move in data.moves as PopulatedMove[]"
-                    :key="move.id"
-                    class="flex flex-col gap-4 p-4 border-b border-white/10"
-                >
-                    <pre class="text-lg">{{ move.notation }}</pre>
-                    <MoveDisplayWithMeta :move="move" />
-                </div>
-            </div>
+                :moves="data.moves"
+                :show-filter="false"
+            />
             <div v-else>
                 <div class="text-copy/50">Move data not available, yet.</div>
             </div>

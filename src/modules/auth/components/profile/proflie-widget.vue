@@ -34,26 +34,24 @@ const items = [
 
 <template>
     <div class="flex items-center">
-        <ClientOnly>
-            <UDropdown
-                v-if="user"
-                :items="items"
-                :popper="{ placement: 'bottom-start' }"
-            >
-                <div class="flex items-center gap-2">
-                    <UAvatar
-                        :src="user.image"
-                        :text="displayName.charAt(0)"
-                        class="rounded-full"
-                        size="sm"
-                    />
+        <UDropdown
+            v-if="user"
+            :items="items"
+            :popper="{ placement: 'bottom-start' }"
+        >
+            <div class="flex items-center gap-2">
+                <UAvatar
+                    :src="user.image"
+                    :text="displayName.charAt(0)"
+                    class="rounded-full"
+                    size="sm"
+                />
 
-                    {{ displayName }}
+                {{ displayName }}
 
-                    <UIcon name="i-tabler-chevron-down" />
-                </div>
-            </UDropdown>
-        </ClientOnly>
+                <UIcon name="i-tabler-chevron-down" />
+            </div>
+        </UDropdown>
 
         <UButton
             v-if="!user"
