@@ -23,7 +23,19 @@ export async function getByAuthorId(authorId: string): Promise<MoveList[]> {
         },
         include: {
             character: true,
-            moves: true,
+            moves: {
+                orderBy: {
+                    createdAt: 'asc',
+                },
+            },
         },
+        orderBy: [
+            {
+                updatedAt: 'desc',
+            },
+            {
+                createdAt: 'desc',
+            },
+        ],
     });
 }

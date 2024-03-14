@@ -1,7 +1,7 @@
 <script lang="ts" setup>
 import { useClipboard } from '@vueuse/core';
 
-import NotationInput from '~/components/moves/forms/notation-input.vue';
+import NotationInput from '~/components/ui/notation/ts-notation-input.vue';
 import { computed, ref, useHead, useRoute, useRouter, useToast, watch } from '#imports';
 
 const router = useRouter();

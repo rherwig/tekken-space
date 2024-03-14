@@ -4,9 +4,9 @@ import {
     InstructionTypes,
     type ParsedInstruction,
 } from 'packages/notation-parser';
-import TsNotationBadge from 'packages/ui/notation/special/ts-notation-badge.vue';
-import TsControl from 'packages/ui/notation/control/ts-control.vue';
 
+import TsNotationBadge from '../special/ts-notation-badge.vue';
+import TsControl from '../control/ts-control.vue';
 import TsMovement from '../movement/ts-movement.vue';
 import TsAttack from '../attack/ts-attack.vue';
 import TsHeat from '../special/ts-heat.vue';

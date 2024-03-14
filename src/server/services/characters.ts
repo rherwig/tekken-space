@@ -5,7 +5,11 @@ import { Character, Move } from 'prisma/types';
  * Get all characters from the database.
  */
 export function getAll(): Promise<Character[]> {
-    return prisma.character.findMany();
+    return prisma.character.findMany({
+        orderBy: {
+            name: 'asc',
+        },
+    });
 }
 
 /**

@@ -15,19 +15,19 @@ export default defineEventHandler(async (event) => {
 
     assertAuthenticated(session?.user);
 
-    const moveList = await prisma.moveList.findUnique({
+    const move = await prisma.move.findUnique({
         where: {
             id,
         },
     });
 
-    assertFound(moveList, 'MoveList');
+    assertFound(move, 'Move');
 
-    if (!isOwner(session.user, moveList)) {
+    if (!isOwner(session.user, move)) {
         assertAdmin(session.user);
     }
 
-    await prisma.moveList.delete({
+    return prisma.move.delete({
         where: {
             id,
         },

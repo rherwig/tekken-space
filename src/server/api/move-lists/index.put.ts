@@ -1,49 +1,32 @@
-import { createError, defineEventHandler, readBody } from 'h3';
+import { defineEventHandler, readBody } from 'h3';
 import { prisma } from 'prisma/client';
 import { createId } from '@paralleldrive/cuid2';
 
 import { getServerSession } from '#auth';
 import { authOptions } from '~/modules/auth/server/api/auth/[...]';
-import { isAdmin } from '~/server/utils/permissions';
+import { assertAdmin, assertAuthenticated, isOwner } from '~/server/utils/permissions';
+import { assertDefined } from '~/server/utils/validations';
 
 export default defineEventHandler(async (event) => {
-    const body = await readBody(event);
-    const { id, name, characterId, authorId: _authorId } = body;
-
-    if (!name) {
-        throw createError({
-            statusCode: 400,
-            statusMessage: 'Name is required',
-        });
-    }
-
-    if (!characterId) {
-        throw createError({
-            statusCode: 400,
-            statusMessage: 'Character Id is required',
-        });
-    }
-
     const session = await getServerSession(event, authOptions);
-    if (!session?.user) {
-        throw createError({
-            statusCode: 401,
-            statusMessage: 'Unauthorized',
-        });
+
+    assertAuthenticated(session?.user);
+
+    const body = await readBody(event);
+    const { name, characterId } = body;
+
+    assertDefined(name, 'name');
+    assertDefined(characterId, 'characterId');
+
+    if (!isOwner(session.user, body)) {
+        assertAdmin(session.user);
     }
 
-    if (_authorId && _authorId !== session.user.id && !isAdmin(session.user)) {
-        throw createError({
-            statusCode: 403,
-            statusMessage: 'Forbidden',
-        });
-    }
-
-    const authorId = _authorId ?? session.user.id;
+    const authorId = body.authorId ?? session.user.id;
 
     const moveList = await prisma.moveList.upsert({
         where: {
-            id: id ?? createId(),
+            id: body.id ?? createId(),
         },
         update: {
             name,

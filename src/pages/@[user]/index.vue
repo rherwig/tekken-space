@@ -1,11 +1,9 @@
 <script lang="ts" setup>
-import { computed } from 'vue';
+import { computed, ref } from 'vue';
 
 import { useAsyncData, useHead, useProfile, useRoute, useUsers } from '#imports';
-import MoveList from '~/components/move-lists/move-list.vue';
-import CreateMoveListForm from '~/components/move-lists/create-move-list-form.vue';
-import PermissionsOnly from '~/modules/auth/components/permissions-only.vue';
 import ProfileBadges from '~/modules/auth/components/profile/profile-badges.vue';
+import MoveListsContainer from '~/components/move-lists/move-lists-container.vue';
 
 const route = useRoute();
 const profile = useProfile();
@@ -95,38 +93,11 @@ const socials = computed(() => {
             </div>
         </div>
 
-        <div
-            class="mt-8"
+        <MoveListsContainer
             v-if="user"
-        >
-            <div class="flex justify-between items-center mb-8">
-                <div>
-                    <h2 class="text-xl">Recent Move Lists</h2>
-                    <p class="text-copy/50">
-                        Checkout the most recent move lists made by {{ user.name }}.
-                    </p>
-                </div>
-
-                <PermissionsOnly
-                    :author="user?.id"
-                    admin
-                >
-                    <CreateMoveListForm :author-id="user?.id" />
-                </PermissionsOnly>
-            </div>
-
-            <div class="flex flex-col gap-4">
-                <MoveList
-                    v-for="list in moveLists"
-                    :key="list.id"
-                    :id="list.id"
-                    :character="list.character"
-                    :title="list.name"
-                    :moves="list.moves"
-                    :author-id="user?.id"
-                    :video-url="list.metadata?.videoUrl"
-                />
-            </div>
-        </div>
+            title="Recent Move Lists"
+            :author="user"
+            :move-lists="moveLists"
+        />
     </div>
 </template>

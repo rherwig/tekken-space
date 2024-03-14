@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import TsNotationDisplay from 'packages/ui/notation/ts-notation-display.vue';
+import TsNotationDisplay from '~/components/ui/notation/ts-notation-display.vue';
 
 const demoMove = 'd/f+2;b+1,2 T!;d+4:2:1+2';
 </script>

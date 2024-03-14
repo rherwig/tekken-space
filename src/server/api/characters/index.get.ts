@@ -1,6 +1,7 @@
-import { prisma } from 'prisma/client';
 import { defineEventHandler } from 'h3';
 
+import * as charactersService from '~/server/services/characters';
+
 export default defineEventHandler(async () => {
-    return prisma.character.findMany();
+    return charactersService.getAll();
 });

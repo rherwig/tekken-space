@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import { TsNotationDisplay } from 'packages/ui';
+import TsNotationDisplay from '~/components/ui/notation/ts-notation-display.vue';
 
 const attackButtons = [
     { notation: '1', explanation: 'Left Punch' },

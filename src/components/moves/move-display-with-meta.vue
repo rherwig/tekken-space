@@ -1,7 +1,7 @@
 <script lang="ts" setup>
-import { TsNotationDisplay } from 'packages/ui';
 import type { PopulatedMove } from 'prisma/types';
 
+import TsNotationDisplay from '~/components/ui/notation/ts-notation-display.vue';
 import { computed } from '#imports';
 import { DIFFICULTIES } from '~/constants/moves';
 import TsIconBadge from '~/components/ui/badges/ts-icon-badge.vue';
@@ -14,6 +14,11 @@ interface Props {
 const props = defineProps<Props>();
 
 const damage = computed(() => {
+    const damageTotal = props.move.damage.total;
+    if (damageTotal) {
+        return damageTotal;
+    }
+
     const damageHits = props.move.damage.hits;
     if (!Array.isArray(damageHits)) {
         return null;
@@ -60,18 +65,21 @@ const blockFrames = computed(() => {
                 icon="i-tabler-heart-broken"
                 color="red"
             />
+
             <TsFrameBadge
                 v-if="startupFrames"
                 :value="startupFrames.toString()"
                 tooltip="Startup Frames"
                 icon="i-tabler-clock"
             />
+
             <TsFrameBadge
                 v-if="hitFrames"
                 :value="hitFrames.toString()"
                 tooltip="Hit Frames"
                 icon="i-tabler-crosshair"
             />
+
             <TsFrameBadge
                 v-if="counterFrames"
                 :value="counterFrames"
@@ -79,6 +87,7 @@ const blockFrames = computed(() => {
                 icon="i-tabler-heart-discount"
                 color="yellow"
             />
+
             <TsFrameBadge
                 v-if="blockFrames"
                 :value="blockFrames.toString()"
@@ -86,11 +95,12 @@ const blockFrames = computed(() => {
                 icon="i-tabler-shield"
                 color="blue"
             />
+
             <TsIconBadge
                 v-if="difficultyLabel"
                 :label="difficultyLabel"
                 tooltip="Difficulty"
-                icon="i-tabler-clock"
+                icon="i-tabler-antenna-bars-5"
             />
         </div>
     </div>

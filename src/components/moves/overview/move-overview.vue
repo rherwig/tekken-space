@@ -1,6 +1,5 @@
 <script lang="ts" setup>
-import TsNotationDisplay from 'packages/ui/notation/ts-notation-display.vue';
-
+import TsNotationDisplay from '~/components/ui/notation/ts-notation-display.vue';
 import type { OverviewMoveItem } from '~/components/moves/moves.types';
 
 interface Props {

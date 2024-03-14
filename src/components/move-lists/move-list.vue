@@ -20,22 +20,20 @@
                                 admin
                                 :author="props.authorId"
                             >
-                                <ClientOnly>
-                                    <UDropdown
-                                        :items="moveListActions"
-                                        :popper="{ placement: 'bottom-start' }"
+                                <UDropdown
+                                    :items="moveListActions"
+                                    :popper="{ placement: 'bottom-start' }"
+                                >
+                                    <div
+                                        class="flex items-center justify-center hover:bg-white/10 transition-colors cursor-pointer rounded-full h-5 w-5 mt-0.5"
                                     >
-                                        <div
-                                            class="flex items-center justify-center hover:bg-white/10 transition-colors cursor-pointer rounded-full h-5 w-5 mt-0.5"
-                                        >
-                                            <UIcon
-                                                name="i-tabler-dots-vertical"
-                                                class="text-lg"
-                                                dynamic
-                                            />
-                                        </div>
-                                    </UDropdown>
-                                </ClientOnly>
+                                        <UIcon
+                                            name="i-tabler-dots-vertical"
+                                            class="text-lg"
+                                            dynamic
+                                        />
+                                    </div>
+                                </UDropdown>
                             </PermissionsOnly>
 
                             <span
@@ -53,11 +51,6 @@
                         </div>
 
                         <div class="flex items-center gap-8">
-                            <CreateMoveForm
-                                :move-list-id="props.id"
-                                v-model="showCreateMoveModal"
-                            />
-
                             <div class="flex items-center gap-2">
                                 <UBadge
                                     v-if="props.moves"
@@ -109,17 +102,27 @@
                 :class="isExpanded ? 'max-h-fit' : 'max-h-0'"
             >
                 <div class="flex flex-col">
-                    <div
-                        class="flex flex-col gap-4 p-4 border-t border-white/10"
+                    <MoveVariant
                         v-for="(move, index) in variants"
-                        :key="move.id"
-                    >
-                        <div class="text-sm">Variant {{ index + 1 }}</div>
-                        <MoveDisplayWithMeta :move="move" />
-                    </div>
+                        :move="move"
+                        :index="index"
+                        :author-id="props.authorId"
+                        @edit="handleEditMoveClick"
+                        @delete="handleDeleteMoveClick"
+                    />
                 </div>
             </div>
         </div>
+
+        <TsModal v-model="isCreateModalOpen">
+            <UpsertMoveForm
+                :move-list-id="props.id"
+                :move="selectedMove"
+                @created="handleMoveCreated"
+                @updated="handleMoveUpdated"
+                @cancel="reset"
+            />
+        </TsModal>
     </div>
 </template>
 
@@ -127,9 +130,13 @@
 import { computed, ref } from 'vue';
 import Prisma from '@prisma/client';
 
-import CreateMoveForm from '~/components/moves/forms/create-move-form.vue';
 import { useProfile } from '~/stores/profile';
 import MoveDisplayWithMeta from '~/components/moves/move-display-with-meta.vue';
+import TsModal from '~/components/ui/modals/ts-modal.vue';
+import UpsertMoveForm from '~/components/forms/upsert-move-form.vue';
+import MoveVariant from '~/components/move-lists/move-variant.vue';
+import { useConfirm } from '~/composables/confirm/confirm';
+import { useToast } from '#imports';
 
 interface Props {
     id: string;
@@ -141,12 +148,19 @@ interface Props {
 }
 
 const props = defineProps<Props>();
-const emit = defineEmits(['deleted']);
+const emit = defineEmits(['create', 'update', 'deleted']);
 
 const profile = useProfile();
+const confirm = useConfirm();
+const toast = useToast();
 
 const isExpanded = ref<boolean>(false);
-const showCreateMoveModal = ref<boolean>(false);
+const isCreateModalOpen = ref<boolean>(false);
+const selectedMoveId = ref<string | null>(null);
+
+const selectedMove = computed(() => {
+    return props.moves.find((move) => move.id === selectedMoveId.value);
+});
 
 const variants = computed(() => props.moves.slice(1));
 
@@ -156,20 +170,126 @@ const moveListActions = [
             label: 'Add Move',
             icon: 'i-tabler-square-rounded-plus',
             click() {
-                showCreateMoveModal.value = true;
+                isCreateModalOpen.value = true;
+            },
+        },
+        {
+            label: 'Edit Move',
+            icon: 'i-tabler-pencil',
+            disabled: !props.moves.length,
+            click() {
+                selectedMoveId.value = props.moves.at(0).id;
+                isCreateModalOpen.value = true;
+            },
+        },
+        {
+            label: 'Delete Move',
+            icon: 'i-tabler-trash',
+            disabled: !props.moves.length,
+            click() {
+                const { id } = props.moves.at(0);
+                if (!id) {
+                    return;
+                }
+
+                handleDeleteMoveClick(id);
             },
         },
     ],
     [
         {
-            label: 'Delete',
+            label: 'Edit List',
+            icon: 'i-tabler-pencil',
+            click() {
+                emit('edit', props.id);
+            },
+        },
+        {
+            label: 'Delete List',
             icon: 'i-tabler-trash',
             async click() {
-                await profile.deleteMoveList(props.id);
+                try {
+                    await confirm({
+                        title: 'Delete Move List',
+                        message:
+                            'Are you sure you want to delete this move list? This action cannot be undone.',
+                        confirmButtonText: 'Delete',
+                    });
+                } catch (error: any) {
+                    return;
+                }
+
+                try {
+                    await profile.deleteMoveList(props.id);
+
+                    toast.add({
+                        title: 'Move List deleted.',
+                    });
+                } catch (error: any) {
+                    toast.add({
+                        title: 'Failed to delete Move List.',
+                        color: 'red',
+                    });
+                }
 
                 emit('deleted', props.id);
             },
         },
     ],
 ];
+
+function handleEditMoveClick(moveId: string) {
+    selectedMoveId.value = moveId;
+    isCreateModalOpen.value = true;
+}
+
+async function handleDeleteMoveClick(moveId: string) {
+    try {
+        await confirm({
+            title: 'Delete Move',
+            message: 'Are you sure you want to delete this move? This action cannot be undone.',
+            confirmButtonText: 'Delete',
+        });
+    } catch (error: any) {
+        return;
+    }
+
+    try {
+        await profile.deleteMove(moveId, props.id);
+
+        toast.add({
+            title: 'Move deleted.',
+        });
+    } catch (error: any) {
+        toast.add({
+            title: 'Failed to delete Move.',
+            color: 'red',
+        });
+    }
+}
+
+function handleMoveCreated() {
+    toast.add({
+        title: 'Move created.',
+    });
+
+    if (props.moves.length > 1) {
+        isExpanded.value = true;
+    }
+
+    reset();
+}
+
+function handleMoveUpdated() {
+    toast.add({
+        title: 'Move updated.',
+    });
+
+    reset();
+}
+
+function reset() {
+    selectedMoveId.value = null;
+    isCreateModalOpen.value = false;
+}
 </script>

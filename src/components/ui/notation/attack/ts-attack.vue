@@ -1,8 +1,8 @@
 <script lang="ts" setup>
 import type { ComputedRef } from 'vue';
 import { ControllerLayout } from 'prisma/types';
-import TsAttackTekken from 'packages/ui/notation/attack/themes/ts-attack-tekken.vue';
 
+import TsAttackTekken from './themes/ts-attack-tekken.vue';
 import TsAttackGeneric from './themes/ts-attack-generic.vue';
 
 import { computed, useProfile } from '#imports';

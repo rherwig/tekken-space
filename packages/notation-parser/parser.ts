@@ -1,5 +1,3 @@
-import keywords from 'ajv-keywords/src/keywords';
-
 import { STANCE_KEYWORDS } from './constants/stances';
 import {
     type ConsumeTokenResult,

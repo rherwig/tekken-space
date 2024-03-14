@@ -3,6 +3,8 @@ import { defineStore } from 'pinia';
 import Prisma from '@prisma/client';
 import {
     ControllerLayout,
+    Move,
+    type MoveList,
     type PopulatedMoveList,
     type TemporaryUserPreferences,
     type User,
@@ -76,17 +78,21 @@ export const useProfile = defineStore('profile', () => {
 
     /**
      * Creates a new move list for the user.
-     * @param name
-     * @param characterId
+     * @param dto
      */
-    async function createMoveList(name: string, characterId: string, authorId?: string) {
+    async function createMoveList(dto: Partial<MoveList>) {
         try {
             const moveList = await $fetch<PopulatedMoveList>('/api/move-lists', {
                 method: 'PUT',
-                body: JSON.stringify({ name, characterId, authorId }),
+                body: JSON.stringify(dto),
             });
 
-            moveLists.value.push(moveList);
+            if (!dto.id) {
+                moveLists.value.push(moveList);
+            } else {
+                const index = moveLists.value.findIndex((list) => list.id === dto.id);
+                moveLists.value[index] = moveList;
+            }
 
             return moveList;
         } catch (error: any) {
@@ -97,32 +103,53 @@ export const useProfile = defineStore('profile', () => {
 
     /**
      * Creates a new move for the user and adds it to a move list.
-     * @param notation
+     * @param dto
      * @param moveListId
-     * @param damage
-     * @param metadata
      */
-    async function createMove(
-        notation: string,
-        moveListId: string,
-        damage: any = {},
-        metadata: any = {},
-    ) {
+    async function createMove(dto: Partial<Move>, moveListId: string) {
         try {
             const move = await $fetch<Prisma.Move>(`/api/move-lists/${moveListId}/moves`, {
-                method: 'POST',
-                body: JSON.stringify({ notation, moveListId, damage, metadata }),
+                method: 'PUT',
+                body: JSON.stringify(dto),
             });
 
             const moveList = moveLists.value.find((list) => list.id === moveListId);
             if (moveList) {
-                moveList.moves.push(move);
+                if (!dto.id) {
+                    moveList.moves.push(move);
+                } else {
+                    const index = moveList.moves.findIndex((m) => m.id === dto.id);
+                    moveList.moves[index] = move;
+                }
             }
 
             return move;
         } catch (error: any) {
             console.error(error);
             return null;
+        }
+    }
+
+    /**
+     * Deletes a move from the user's account.
+     * @param id
+     * @param moveListId
+     */
+    async function deleteMove(id: string, moveListId: string) {
+        try {
+            await $fetch<PopulatedMoveList>(`/api/moves/${id}`, {
+                method: 'DELETE',
+            });
+
+            const moveList = moveLists.value.find((list) => list.id === moveListId);
+            if (moveList) {
+                moveList.moves = moveList.moves.filter((move) => move.id !== id);
+            }
+
+            return true;
+        } catch (error: any) {
+            console.error(error);
+            return [];
         }
     }
 
@@ -135,5 +162,6 @@ export const useProfile = defineStore('profile', () => {
         createMoveList,
         deleteMoveList,
         createMove,
+        deleteMove,
     };
 });

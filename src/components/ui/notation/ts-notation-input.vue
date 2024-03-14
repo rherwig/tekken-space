@@ -1,9 +1,9 @@
 <script setup lang="ts">
 import html2canvas from 'html2canvas';
 import { computed, ref, type Ref, unref } from 'vue';
-import TsNotationDisplay from 'packages/ui/notation/ts-notation-display.vue';
 
 import { defineShortcuts } from '#imports';
+import TsNotationDisplay from '~/components/ui/notation/ts-notation-display.vue';
 import { useWrapAround } from '~/composables/wrap-around';
 
 interface Props {
