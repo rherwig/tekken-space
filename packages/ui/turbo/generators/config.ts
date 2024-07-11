@@ -1,4 +1,4 @@
-import type { PlopTypes } from '@turbo/gen';
+import type { PlopTypes } from '@turbo/gen'
 
 // Learn more about Turborepo Generators at https://turbo.build/repo/docs/core-concepts/monorepos/code-generation
 
@@ -24,8 +24,9 @@ export default function generator(plop: PlopTypes.NodePlopAPI): void {
                 path: 'package.json',
                 // @ts-expect-error Capture groups are only available in ES2018+
                 pattern: /"exports": {(?<insertion>)/g,
-                template: '    "./{{kebabCase name}}": "./src/{{kebabCase name}}.tsx",',
+                template:
+                    '    "./{{kebabCase name}}": "./src/{{kebabCase name}}.tsx",',
             },
         ],
-    });
+    })
 }

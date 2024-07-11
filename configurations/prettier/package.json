@@ -1,0 +1,20 @@
+{
+    "name": "@tekken-space/configuration-prettier",
+    "private": true,
+    "type": "module",
+    "license": "MIT",
+    "exports": {
+        ".": "./prettier.config.js"
+    },
+    "peerDependencies": {
+        "prettier": "3.3.2"
+    },
+    "dependencies": {
+        "prettier-plugin-tailwindcss": "0.6.5"
+    },
+    "devDependencies": {
+        "@tekken-space/configuration-eslint": "workspace:*",
+        "eslint": "9.6.0",
+        "prettier": "3.3.2"
+    }
+}
