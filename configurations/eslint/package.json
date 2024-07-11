@@ -1,0 +1,21 @@
+{
+    "name": "@tekken-space/configuration-eslint",
+    "type": "module",
+    "private": true,
+    "exports": "./eslint.config.js",
+    "scripts": {
+        "lint": "eslint ."
+    },
+    "devDependencies": {
+        "@eslint/eslintrc": "3.1.0",
+        "@eslint/js": "9.6.0",
+        "@tekken-space/configuration-typescript": "workspace:*",
+        "@vercel/style-guide": "6.0.0",
+        "eslint": "9.6.0",
+        "eslint-config-prettier": "9.1.0",
+        "eslint-config-turbo": "2.0.6",
+        "eslint-plugin-only-warn": "1.1.0",
+        "typescript": "5.5.3",
+        "typescript-eslint": "8.0.0-alpha.39"
+    }
+}
