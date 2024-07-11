@@ -7,3 +7,12 @@ services:
       dockerfile: ./apps/web/Dockerfile
     ports:
       - "3000:3000"
+
+  proxy:
+    build:
+      context: .
+      dockerfile: ./.docker/proxy/Dockerfile
+    ports:
+      - "8888:80"
+    depends_on:
+      - web

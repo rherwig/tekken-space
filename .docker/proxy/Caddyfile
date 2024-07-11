@@ -1,0 +1,3 @@
+tekken.space {
+    reverse_proxy frontend:3000
+}

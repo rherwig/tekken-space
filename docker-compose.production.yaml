@@ -1,0 +1,7 @@
+name: "tekken-space"
+
+services:
+  web:
+    image: ghcr.io/rherwig/turbo-next:main
+    ports:
+      - "3000:3000"
