@@ -28,10 +28,10 @@ export default ts.config(
         ]
     },
     {
-        files: ["**/*.ts"],
+        files: ["**/*.ts(x)?"],
         languageOptions: {
             parserOptions: {
-                project: join(process.cwd(), 'tsconfig.json'),
+                project: join(process.cwd(), 'tsconfig.(*.)?json'),
                 tsconfigRootDir: process.cwd(),
             },
         },
