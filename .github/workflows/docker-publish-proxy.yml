@@ -14,7 +14,7 @@ env:
   # Use docker.io for Docker Hub if empty
   REGISTRY: ghcr.io
   # github.repository as <account>/<repo>
-  IMAGE_NAME: tekken-space-proxy
+  IMAGE_NAME: ${{ github.actor }}/tekken-space-proxy
 
 jobs:
   build:
@@ -67,7 +67,7 @@ jobs:
         id: build-and-push
         uses: docker/build-push-action@v5
         with:
-          context: .
+          context: ./.docker/proxy/
           file: ./.docker/proxy/Dockerfile
           push: true
           tags: ${{ steps.meta.outputs.tags }}

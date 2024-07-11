@@ -16,7 +16,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: tekken-space-web
+  IMAGE_NAME: ${{ github.actor }}/tekken-space-web
 
 jobs:
   build:
