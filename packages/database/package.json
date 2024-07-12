@@ -1,0 +1,29 @@
+{
+    "name": "@tekken-space/database",
+    "private": true,
+    "type": "module",
+    "exports": {},
+    "scripts": {
+        "env:test": "tsx ./src/commands/env.ts",
+        "db:generate": "drizzle-kit generate",
+        "db:migrate": "tsx ./src/commands/migrate.ts",
+        "lint": "eslint ."
+    },
+    "devDependencies": {
+        "@tekken-space/configuration-eslint": "workspace:*",
+        "@tekken-space/configuration-typescript": "workspace:*",
+        "@types/node": "20.14.10",
+        "drizzle-kit": "0.23.0",
+        "eslint": "9.6.0",
+        "pg": "8.12.0",
+        "tsx": "4.16.2",
+        "typescript": "5.5.3"
+    },
+    "dependencies": {
+        "dotenv": "16.4.5",
+        "drizzle-orm": "0.32.0",
+        "drizzle-zod": "0.5.1",
+        "postgres": "3.4.4",
+        "zod": "3.23.8"
+    }
+}

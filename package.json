@@ -1,9 +1,10 @@
 {
-    "name": "turbo-next",
+    "name": "@tekken-space/source",
     "private": true,
     "type": "module",
     "scripts": {
         "build": "turbo build",
+        "db:migrate": "dotenvx run -- turbo db:migrate",
         "deps:check": "manypkg check",
         "deps:fix": "manypkg fix",
         "dev": "turbo dev",
@@ -12,6 +13,7 @@
         "postinstall": "manypkg check"
     },
     "dependencies": {
+        "@dotenvx/dotenvx": "1.6.0",
         "@manypkg/cli": "0.21.4",
         "@tekken-space/configuration-prettier": "workspace:*",
         "prettier": "3.3.2",
@@ -20,6 +22,6 @@
     },
     "packageManager": "pnpm@9.5.0",
     "engines": {
-        "node": ">=18"
+        "node": ">=20"
     }
 }
