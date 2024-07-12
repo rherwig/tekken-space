@@ -16,6 +16,7 @@ node_modules
 .env.development.local
 .env.test.local
 .env.production.local
+.env.production
 
 # Testing
 coverage
@@ -63,3 +64,11 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+var/data/*
+
+var/logs/*
+!var/logs/.gitkeep
+
+var/cache/*
+!var/cache/.gitkeep
