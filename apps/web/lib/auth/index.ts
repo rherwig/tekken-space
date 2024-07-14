@@ -6,6 +6,8 @@ import { db, sessions, users, type Profile } from '@tekken-space/database'
 
 const adapter = new DrizzlePostgreSQLAdapter(db, sessions, users)
 
+export { validateRequest } from './validate-session'
+
 export const lucia = new Lucia(adapter, {
     getSessionAttributes: () => {
         return {}
@@ -35,13 +37,11 @@ export const gitHub = new GitHub(
     process.env.AUTH_GITHUB_SECRET!,
 )
 
-type DatabaseSessionAttributes = {}
 type DatabaseUserAttributes = Profile
 
 declare module 'lucia' {
     interface Register {
         Lucia: typeof lucia
-        DatabaseSessionAttributes: DatabaseSessionAttributes
         DatabaseUserAttributes: DatabaseUserAttributes
     }
 }

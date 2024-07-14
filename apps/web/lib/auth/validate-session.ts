@@ -36,7 +36,10 @@ export const validateRequest = cache(
                     sessionCookie.attributes,
                 )
             }
-        } catch {}
+        } catch (error: unknown) {
+            console.error(error)
+        }
+
         return result
     },
 )
