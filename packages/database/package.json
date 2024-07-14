@@ -2,7 +2,9 @@
     "name": "@tekken-space/database",
     "private": true,
     "type": "module",
-    "exports": {},
+    "exports": {
+        ".": "./src/index.ts"
+    },
     "scripts": {
         "env:test": "tsx ./src/commands/env.ts",
         "db:generate": "drizzle-kit generate",

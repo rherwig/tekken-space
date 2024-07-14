@@ -10,8 +10,6 @@ const {
 
 export const CONNECTION_STRING = `postgres://${POSTGRES_USER}:${POSTGRES_PASSWORD}@${POSTGRES_HOST}:${POSTGRES_PORT}/${POSTGRES_DB}`
 
-console.log(CONNECTION_STRING)
-
 export default {
     dialect: 'postgresql',
     schema: './src/schema/index.ts',

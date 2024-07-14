@@ -7,7 +7,7 @@
         "db:migrate": "dotenvx run -- turbo db:migrate",
         "deps:check": "manypkg check",
         "deps:fix": "manypkg fix",
-        "dev": "turbo dev",
+        "dev": "dotenvx run -- turbo dev",
         "format": "prettier --write \"**/*.{js,json,ts,tsx,md}\"",
         "lint": "turbo lint",
         "postinstall": "manypkg check"

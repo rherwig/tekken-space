@@ -32,5 +32,8 @@ export default ts.config(
                 tsconfigRootDir: process.cwd(),
             },
         },
+        rules: {
+            '@typescript-eslint/ban-ts-comment': 'off',
+        },
     },
 )
