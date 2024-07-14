@@ -17,7 +17,7 @@ export const lucia = new Lucia(adapter, {
             id: attributes.id,
             handle: attributes.handle,
             role: attributes.role,
-            a: attributes.image,
+            image: attributes.image,
             isVirtual: attributes.isVirtual,
             isPro: attributes.isPro,
         }
