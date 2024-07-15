@@ -1,4 +1,4 @@
-import { cookies } from 'next/headers'
+import { cookies, headers } from 'next/headers'
 import { cache } from 'react'
 import { Profile, Session } from '@tekken-space/database'
 
@@ -9,6 +9,8 @@ export const validateRequest = cache(
         { user: Profile; session: Session } | { user: null; session: null }
     > => {
         const sessionId = cookies().get(lucia.sessionCookieName)?.value ?? null
+        console.log(cookies().get('session'))
+
         if (!sessionId) {
             return {
                 user: null,

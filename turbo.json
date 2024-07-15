@@ -28,7 +28,7 @@
         "dev": {
             "cache": false,
             "persistent": true,
-            "env": ["AUTH_GITHUB_ID", "AUTH_GITHUB_SECRET"]
+            "env": ["ORIGIN", "AUTH_GITHUB_ID", "AUTH_GITHUB_SECRET"]
         }
     }
 }

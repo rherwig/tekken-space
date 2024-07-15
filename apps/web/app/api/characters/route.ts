@@ -12,7 +12,7 @@ export async function GET() {
 }
 
 export async function POST(request: Request) {
-    const { user } = await validateRequest()
+    const { user, ...rest } = await validateRequest()
     if (!user) {
         return new Response(null, {
             status: 401,
@@ -41,17 +41,17 @@ export async function POST(request: Request) {
 
 export async function PUT(request: Request) {
     const { user } = await validateRequest()
-    // if (!user) {
-    //     return new Response(null, {
-    //         status: 401,
-    //     })
-    // }
-    //
-    // if (!isAdmin(user)) {
-    //     return new Response(null, {
-    //         status: 403,
-    //     })
-    // }
+    if (!user) {
+        return new Response(null, {
+            status: 401,
+        })
+    }
+
+    if (!isAdmin(user)) {
+        return new Response(null, {
+            status: 403,
+        })
+    }
 
     const body = await request.json()
     const validation = createCharacterSchema.safeParse(body)
