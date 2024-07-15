@@ -1,8 +1,8 @@
-import { gitHub, lucia } from '@/lib/auth'
-import { db, sql, users } from '@tekken-space/database'
-import { cookies } from 'next/headers'
 import { OAuth2RequestError } from 'arctic'
 import { generateId } from 'lucia'
+import { cookies } from 'next/headers'
+import { db, sql, users } from '@tekken-space/database'
+import { gitHub, lucia } from '@/lib/auth'
 
 interface GitHubUser {
     id: string

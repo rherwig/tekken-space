@@ -9,7 +9,6 @@ export const validateRequest = cache(
         { user: Profile; session: Session } | { user: null; session: null }
     > => {
         const sessionId = cookies().get(lucia.sessionCookieName)?.value ?? null
-        console.log(cookies().get('session'))
 
         if (!sessionId) {
             return {

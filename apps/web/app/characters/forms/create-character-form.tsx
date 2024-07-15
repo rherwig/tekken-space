@@ -16,9 +16,7 @@ const onSubmit: SubmitHandler<CreateCharacter> = async (data) => {
             '/api/characters',
             data,
         )
-
-        console.log(character)
-    } catch (error: any) {
+    } catch (error: unknown) {
         console.error(error)
     }
 }

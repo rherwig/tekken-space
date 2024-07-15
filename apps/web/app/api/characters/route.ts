@@ -12,7 +12,7 @@ export async function GET() {
 }
 
 export async function POST(request: Request) {
-    const { user, ...rest } = await validateRequest()
+    const { user } = await validateRequest()
     if (!user) {
         return new Response(null, {
             status: 401,
