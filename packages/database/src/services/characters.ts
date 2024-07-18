@@ -1,7 +1,8 @@
 import { eq } from 'drizzle-orm'
+import { UpsertCharacterSchema } from '@tekken-space/types'
 
 import { db } from '../connection'
-import { characters, type CreateCharacter } from '../schema'
+import { characters } from '../schema'
 
 export async function findAll() {
     return db.select().from(characters)
@@ -16,13 +17,13 @@ export async function findOne(id: string) {
     return result
 }
 
-export async function create(data: CreateCharacter) {
+export async function create(data: UpsertCharacterSchema) {
     const [result] = await db.insert(characters).values(data).returning()
 
     return result
 }
 
-export async function update(data: CreateCharacter) {
+export async function update(data: UpsertCharacterSchema) {
     const [result] = await db
         .update(characters)
         .set(data)
@@ -32,7 +33,7 @@ export async function update(data: CreateCharacter) {
     return result
 }
 
-export async function upsert(data: CreateCharacter) {
+export async function upsert(data: UpsertCharacterSchema) {
     const existing = await findOne(data.id)
 
     return !existing ? create(data) : update(data)

@@ -1,7 +1,6 @@
-import CharactersGrid from '@/app/characters/components/characters-grid'
-import { apiClient } from '@/lib/api'
 import { Character } from '@tekken-space/database'
-import CreateCharacterForm from '@/app/characters/forms/create-character-form'
+import { apiClient } from '@/lib/api'
+import CharactersGrid from '@/lib/characters/components/characters-grid'
 
 async function fetchCharacters() {
     const response = await apiClient.get<Character[]>('/api/characters')
@@ -21,8 +20,6 @@ export default async function Characters() {
             <h1 className="text-2xl">Characters</h1>
 
             <CharactersGrid characters={characters} />
-
-            <CreateCharacterForm />
         </div>
     )
 }

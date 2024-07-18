@@ -1,6 +1,6 @@
 import { pgTable, text, timestamp } from 'drizzle-orm/pg-core'
-import { createInsertSchema, createSelectSchema } from 'drizzle-zod'
-import type { z } from 'zod'
+import { createSelectSchema } from 'drizzle-zod'
+import { z } from 'zod'
 
 export const characters = pgTable('characters', {
     id: text('id').primaryKey(),
@@ -11,7 +11,5 @@ export const characters = pgTable('characters', {
 })
 
 export const charactersSchema = createSelectSchema(characters)
-export const createCharacterSchema = createInsertSchema(characters)
 
 export type Character = z.infer<typeof charactersSchema>
-export type CreateCharacter = z.infer<typeof createCharacterSchema>

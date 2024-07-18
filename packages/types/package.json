@@ -1,0 +1,20 @@
+{
+    "name": "@tekken-space/types",
+    "private": true,
+    "type": "module",
+    "exports": {
+        ".": "./src/index.ts"
+    },
+    "scripts": {
+        "lint": "eslint ."
+    },
+    "devDependencies": {
+        "@tekken-space/configuration-eslint": "workspace:*",
+        "@tekken-space/configuration-typescript": "workspace:*",
+        "eslint": "9.6.0",
+        "typescript": "5.5.3"
+    },
+    "dependencies": {
+        "zod": "3.23.8"
+    }
+}

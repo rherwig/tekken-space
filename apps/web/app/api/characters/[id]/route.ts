@@ -1,5 +1,4 @@
 import { charactersService } from '@tekken-space/database'
-import { upsertCharacterSchema } from '@tekken-space/types'
 import { validateRequest } from '@/lib/auth'
 import { isAdmin } from '@/lib/utils/auth'
 
@@ -9,7 +8,10 @@ export async function GET() {
     return Response.json(characters)
 }
 
-export async function PUT(request: Request) {
+export async function DELETE(
+    _: Request,
+    { params }: { params: { id: string } },
+) {
     const { user } = await validateRequest()
     if (!user) {
         return new Response(null, {
@@ -23,16 +25,15 @@ export async function PUT(request: Request) {
         })
     }
 
-    const body = await request.json()
-    const validation = upsertCharacterSchema.safeParse(body)
-    if (validation.error) {
-        console.log(validation.error)
+    if (!params.id) {
         return new Response(null, {
             status: 400,
         })
     }
 
-    const result = await charactersService.upsert(validation.data)
+    await charactersService.remove(params.id)
 
-    return Response.json(result)
+    return new Response(null, {
+        status: 204,
+    })
 }

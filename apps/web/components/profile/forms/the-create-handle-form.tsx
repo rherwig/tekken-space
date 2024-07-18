@@ -1,7 +1,6 @@
 'use client'
 
 import { z } from 'zod'
-import { Profile } from '@tekken-space/database'
 import {
     Button,
     Divider,
@@ -13,10 +12,10 @@ import {
     ModalHeader,
     useDisclosure,
 } from '@nextui-org/react'
+import { useRouter } from 'next/navigation'
 import { SubmitHandler, useForm } from 'react-hook-form'
 import { zodResolver } from '@hookform/resolvers/zod'
 import { apiClient } from '@/lib/api'
-import { redirect, useRouter } from 'next/navigation'
 
 const validateIsHandleAvailable = async (handle: string) => {
     try {
@@ -82,7 +81,7 @@ export default function TheCreateHandleForm() {
                 Choose Handle
             </Button>
 
-            <Modal isOpen={isOpen || true} onOpenChange={onOpenChange}>
+            <Modal isOpen={isOpen} onOpenChange={onOpenChange}>
                 <ModalContent>
                     {(onClose) => (
                         <form
