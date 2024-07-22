@@ -6,23 +6,23 @@ import { createPreset } from '@tekken-space/configuration-tailwind'
 const nextUiPath = require.resolve('@nextui-org/theme')
 
 const config: Config = {
-    presets: [createPreset()],
     content: [
         './app/**/*.{js,ts,jsx,tsx,mdx}',
         './pages/**/*.{js,ts,jsx,tsx,mdx}',
-        './components/**/*.{js,ts,jsx,tsx,mdx}',
+        './components/**/*.{js,ts,jsx,tsx,mdx,scss}',
         './lib/**/*.{js,ts,jsx,tsx,mdx}',
         join(nextUiPath, '../../dist/**/*.{js,ts,jsx,tsx}'),
     ],
     darkMode: 'class',
-    theme: {
-        extend: {},
-    },
     plugins: [
         nextui({
             addCommonColors: true,
         }),
     ],
+    presets: [createPreset()],
+    theme: {
+        extend: {},
+    },
 }
 
 export default config

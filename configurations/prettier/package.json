@@ -14,7 +14,7 @@
     },
     "devDependencies": {
         "@tekken-space/configuration-eslint": "workspace:*",
-        "eslint": "9.6.0",
+        "eslint": "8.57.0",
         "prettier": "3.3.2"
     }
 }

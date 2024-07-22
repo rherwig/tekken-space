@@ -16,6 +16,7 @@ export default function TheHeader({ user }: { user: Profile | null }) {
                     <nav className="flex items-center">
                         <ul className="m-0 flex items-center p-0">
                             <NavItem href="/characters">Characters</NavItem>
+                            <NavItem href="/share">Share</NavItem>
                         </ul>
                     </nav>
                 </div>

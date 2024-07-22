@@ -11,7 +11,7 @@
     "devDependencies": {
         "@tekken-space/configuration-eslint": "workspace:*",
         "@tekken-space/configuration-typescript": "workspace:*",
-        "eslint": "9.6.0",
+        "eslint": "8.57.0",
         "typescript": "5.5.3"
     },
     "dependencies": {

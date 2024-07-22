@@ -11,7 +11,7 @@
         "@tekken-space/configuration-typescript": "workspace:*",
         "@tekken-space/types": "workspace:*",
         "@types/node": "20.14.10",
-        "eslint": "9.6.0",
+        "eslint": "8.57.0",
         "tsx": "4.16.2",
         "typescript": "5.5.3"
     },

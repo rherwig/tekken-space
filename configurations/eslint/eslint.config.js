@@ -1,20 +1,20 @@
 // @ts-check
 import { join } from 'node:path'
 
-import js from '@eslint/js'
 import ts from 'typescript-eslint'
 import prettier from 'eslint-config-prettier'
 import { FlatCompat } from '@eslint/eslintrc'
 import vercelNext from '@vercel/style-guide/eslint/next'
+import perfectionist from 'eslint-plugin-perfectionist'
 
 const compat = new FlatCompat()
 
 export default ts.config(
-    js.configs.recommended,
     ...ts.configs.recommended,
     ...compat.config(vercelNext),
     prettier,
     {
+        ignores: ['**/node_modules/**', 'dist/'],
         languageOptions: {
             globals: {
                 JSX: true,
@@ -22,7 +22,18 @@ export default ts.config(
                 process: true,
             },
         },
-        ignores: ['**/node_modules/**', 'dist/'],
+        plugins: {
+            perfectionist,
+        },
+        rules: {
+            'perfectionist/sort-objects': [
+                'error',
+                {
+                    order: 'asc',
+                    type: 'natural',
+                },
+            ],
+        },
     },
     {
         files: ['**/*.ts(x)?'],

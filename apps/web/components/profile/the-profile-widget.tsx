@@ -11,8 +11,8 @@ import {
     DropdownSection,
     DropdownTrigger,
 } from '@nextui-org/react'
-import { HiLogout, HiUser } from 'react-icons/hi'
 import TheCreateHandleForm from '@/components/profile/forms/the-create-handle-form'
+import { HiLogout, HiUser } from 'react-icons/hi'
 
 function ProfileDropdown({ user }: { user: Profile }) {
     const isAdmin = user.role === 'admin'
