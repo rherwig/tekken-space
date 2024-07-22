@@ -1,0 +1,15 @@
+{
+    "name": "@tekken-space/parser",
+    "private": true,
+    "type": "module",
+    "exports": {
+        ".": "./src/index.ts"
+    },
+    "scripts": {
+        "lint": "eslint ."
+    },
+    "devDependencies": {
+        "@tekken-space/configuration-eslint": "workspace:*",
+        "@tekken-space/configuration-typescript": "workspace:*"
+    }
+}

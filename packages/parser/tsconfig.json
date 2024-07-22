@@ -1,0 +1,4 @@
+{
+    "extends": "@tekken-space/configuration-typescript/nextjs.json",
+    "include": ["src"]
+}

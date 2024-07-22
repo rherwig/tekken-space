@@ -1,0 +1,78 @@
+.root {
+    @apply relative w-[3.5em] h-[3.5em];
+}
+
+.button {
+    width: 39%;
+    height: 39%;
+
+    @apply absolute;
+    @apply border border-transparent rounded-full;
+    @apply flex items-center justify-center;
+    @apply font-medium leading-none;
+    @apply bg-white text-black;
+}
+
+.button[data-button='1'].isActive {
+    @apply bg-primary;
+}
+
+.button[data-button='2'].isActive {
+    @apply bg-warning;
+}
+
+.button[data-button='3'].isActive {
+    @apply bg-success;
+}
+
+.button[data-button='4'].isActive {
+    @apply bg-danger;
+}
+
+.isGamepad {
+    .button[data-button='1'] {
+        @apply left-0 top-1/2;
+        @apply -translate-y-1/2;
+    }
+
+    .button[data-button='2'] {
+        @apply top-0 left-1/2;
+        @apply -translate-x-1/2;
+    }
+
+    .button[data-button='3'] {
+        @apply bottom-0 left-1/2;
+        @apply -translate-x-1/2;
+    }
+
+    .button[data-button='4'] {
+        @apply top-1/2 right-0;
+        @apply -translate-y-1/2;
+    }
+}
+
+.isArcade {
+    .button[data-button='1'] {
+        @apply left-0 bottom-0;
+        @apply -translate-y-full;
+        @apply ml-1.5 mb-0.5;
+    }
+
+    .button[data-button='2'] {
+        @apply right-0 top-0;
+        @apply translate-x-0;
+        @apply mr-1.5;
+    }
+
+    .button[data-button='3'] {
+        @apply left-0 bottom-0;
+        @apply translate-x-0;
+        @apply ml-1.5;
+    }
+
+    .button[data-button='4'] {
+        @apply right-0 top-0;
+        @apply translate-y-full;
+        @apply mr-1.5 mt-0.5;
+    }
+}
