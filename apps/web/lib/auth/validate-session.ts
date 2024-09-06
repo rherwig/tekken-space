@@ -1,4 +1,4 @@
-import { cookies, headers } from 'next/headers'
+import { cookies } from 'next/headers'
 import { cache } from 'react'
 import { Profile, Session } from '@tekken-space/database'
 
@@ -12,8 +12,8 @@ export const validateRequest = cache(
 
         if (!sessionId) {
             return {
-                user: null,
                 session: null,
+                user: null,
             }
         }
 
@@ -29,14 +29,15 @@ export const validateRequest = cache(
                     sessionCookie.attributes,
                 )
             }
-            if (!result.session) {
-                const sessionCookie = lucia.createBlankSessionCookie()
-                cookies().set(
-                    sessionCookie.name,
-                    sessionCookie.value,
-                    sessionCookie.attributes,
-                )
-            }
+            // FIXME: Find out why this errors on request.
+            // if (!result.session) {
+            //     const sessionCookie = lucia.createBlankSessionCookie()
+            //     cookies().set(
+            //         sessionCookie.name,
+            //         sessionCookie.value,
+            //         sessionCookie.attributes,
+            //     )
+            // }
         } catch (error: unknown) {
             console.error(error)
         }

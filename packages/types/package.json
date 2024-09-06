@@ -12,7 +12,7 @@
         "@tekken-space/configuration-eslint": "workspace:*",
         "@tekken-space/configuration-typescript": "workspace:*",
         "eslint": "8.57.0",
-        "typescript": "5.5.3"
+        "typescript": "5.5.4"
     },
     "dependencies": {
         "zod": "3.23.8"

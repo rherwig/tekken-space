@@ -14,12 +14,12 @@
         "postinstall": "manypkg check"
     },
     "dependencies": {
-        "@dotenvx/dotenvx": "1.6.0",
+        "@dotenvx/dotenvx": "1.14.0",
         "@manypkg/cli": "0.21.4",
         "@tekken-space/configuration-prettier": "workspace:*",
-        "prettier": "3.3.2",
-        "turbo": "2.0.9",
-        "typescript": "5.5.3"
+        "prettier": "3.3.3",
+        "turbo": "2.1.1",
+        "typescript": "5.5.4"
     },
     "packageManager": "pnpm@9.5.0",
     "engines": {
