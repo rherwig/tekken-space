@@ -2,6 +2,10 @@ import type { Preview } from '@storybook/react'
 
 import '../src/styles.css'
 
+export const globals = {
+    themes: ['light', 'dark'],
+}
+
 const preview: Preview = {
     parameters: {
         controls: {
@@ -13,4 +17,7 @@ const preview: Preview = {
     },
 }
 
-export default preview
+export default {
+    globals,
+    preview,
+}

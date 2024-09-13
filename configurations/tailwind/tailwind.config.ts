@@ -21,25 +21,18 @@ export function createPreset(): Partial<Config> {
                 },
                 colors: {
                     accent: {
-                        DEFAULT: 'hsl(var(--accent))',
-                        foreground: 'hsl(var(--accent-foreground))',
+                        DEFAULT: 'var(--accent)',
+                        foreground: 'var(--accent-foreground)',
                     },
-                    background: 'hsl(var(--background))',
-                    border: 'hsl(var(--border))',
+                    background: 'var(--background)',
+                    border: 'var(--border)',
                     card: {
-                        DEFAULT: 'hsl(var(--card))',
-                        foreground: 'hsl(var(--card-foreground))',
-                    },
-                    chart: {
-                        '1': 'hsl(var(--chart-1))',
-                        '2': 'hsl(var(--chart-2))',
-                        '3': 'hsl(var(--chart-3))',
-                        '4': 'hsl(var(--chart-4))',
-                        '5': 'hsl(var(--chart-5))',
+                        DEFAULT: 'var(--card)',
+                        foreground: 'var(--card-foreground)',
                     },
                     copy: {
-                        DEFAULT: zinc['100'],
                         dark: zinc['900'],
+                        DEFAULT: zinc['100'],
                         light: zinc['50'],
                     },
                     danger: {
@@ -47,31 +40,31 @@ export function createPreset(): Partial<Config> {
                         ...red,
                     },
                     destructive: {
-                        DEFAULT: 'hsl(var(--destructive))',
-                        foreground: 'hsl(var(--destructive-foreground))',
+                        DEFAULT: 'var(--destructive)',
+                        foreground: 'var(--destructive-foreground)',
                     },
-                    foreground: 'hsl(var(--foreground))',
+                    foreground: 'var(--foreground)',
                     info: {
                         DEFAULT: blue['500'],
                         ...blue,
                     },
-                    input: 'hsl(var(--input))',
+                    input: 'var(--input)',
                     muted: {
-                        DEFAULT: 'hsl(var(--muted))',
-                        foreground: 'hsl(var(--muted-foreground))',
+                        DEFAULT: 'var(--muted)',
+                        foreground: 'var(--muted-foreground)',
                     },
                     popover: {
-                        DEFAULT: 'hsl(var(--popover))',
-                        foreground: 'hsl(var(--popover-foreground))',
+                        DEFAULT: 'var(--popover)',
+                        foreground: 'var(--popover-foreground)',
                     },
                     primary: {
-                        DEFAULT: 'hsl(var(--primary))',
-                        foreground: 'hsl(var(--primary-foreground))',
+                        DEFAULT: 'var(--primary)',
+                        foreground: 'var(--primary-foreground)',
                     },
-                    ring: 'hsl(var(--ring))',
+                    ring: 'var(--ring)',
                     secondary: {
-                        DEFAULT: 'hsl(var(--secondary))',
-                        foreground: 'hsl(var(--secondary-foreground))',
+                        DEFAULT: 'var(--secondary)',
+                        foreground: 'var(--secondary-foreground)',
                     },
                     success: {
                         DEFAULT: green['500'],
