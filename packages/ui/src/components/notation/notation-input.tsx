@@ -1,7 +1,7 @@
 'use client'
 
 import { Input } from '#base/input'
-import TsSimpleMoveDisplay from './simple-move-display'
+import { TsSimpleMoveDisplay } from './simple-move-display'
 import { FormEvent, useState } from 'react'
 
 export function TsNotationInput() {

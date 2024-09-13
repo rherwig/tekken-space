@@ -3,11 +3,7 @@ import { parseTekkenNotation } from '@tekken-space/parser'
 import Move from './move/move'
 import MovesDivider from './divider/moves-divider'
 
-export default function TsSimpleMoveDisplay({
-    notation,
-}: {
-    notation: string
-}) {
+export function TsSimpleMoveDisplay({ notation }: { notation: string }) {
     const { moves } = parseTekkenNotation(notation)
 
     return (

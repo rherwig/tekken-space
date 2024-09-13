@@ -9,8 +9,9 @@ export default function TheHeader({ user }: { user: Profile | null }) {
         <header className="bg-background text-foreground">
             <div className="container flex h-20 w-full items-center justify-between">
                 <div className="flex items-center gap-8">
-                    <a className="font-bold" href="/">
-                        TekkenSpace
+                    <a className="font-logo text-lg italic" href="/">
+                        <span>Tekken</span>
+                        <span className="text-green-500">Space</span>
                     </a>
 
                     <TheNavigation />
