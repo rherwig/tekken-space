@@ -25,16 +25,16 @@ export default function CreateCharacterForm({
 }: {
     character?: Character
 }) {
-    const { isOpen, onOpen, onOpenChange, onClose } = useDisclosure()
+    const { isOpen, onClose, onOpen, onOpenChange } = useDisclosure()
     const {
-        register,
-        handleSubmit,
         formState: { errors },
+        handleSubmit,
+        register,
     } = useForm<UpsertCharacterSchema>({
-        resolver: zodResolver(upsertCharacterSchema),
         defaultValues: {
             name: character?.name,
         },
+        resolver: zodResolver(upsertCharacterSchema),
     })
 
     const onSubmit: SubmitHandler<UpsertCharacterSchema> = async (data) => {

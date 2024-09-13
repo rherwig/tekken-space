@@ -14,22 +14,22 @@ export const lucia = new Lucia(adapter, {
     },
     getUserAttributes: (attributes) => {
         return {
-            id: attributes.id,
             handle: attributes.handle,
-            role: attributes.role,
+            id: attributes.id,
             image: attributes.image,
-            isVirtual: attributes.isVirtual,
             isPro: attributes.isPro,
+            isVirtual: attributes.isVirtual,
+            role: attributes.role,
         }
     },
-    sessionExpiresIn: new TimeSpan(30, 'd'),
     sessionCookie: {
-        name: 'session',
-        expires: false,
         attributes: {
             secure: process.env.NODE_ENV === 'production',
         },
+        expires: false,
+        name: 'session',
     },
+    sessionExpiresIn: new TimeSpan(30, 'd'),
 })
 
 export const gitHub = new GitHub(

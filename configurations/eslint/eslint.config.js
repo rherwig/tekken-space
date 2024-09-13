@@ -3,23 +3,17 @@ import { join } from 'node:path'
 
 import ts from 'typescript-eslint'
 import prettier from 'eslint-config-prettier'
-import { FlatCompat } from '@eslint/eslintrc'
-import vercelNext from '@vercel/style-guide/eslint/next'
 import perfectionist from 'eslint-plugin-perfectionist'
-
-const compat = new FlatCompat()
 
 export default ts.config(
     ...ts.configs.recommended,
-    ...compat.config(vercelNext),
-    prettier,
     {
-        ignores: ['**/node_modules/**', 'dist/'],
+        ignores: ['**/node_modules/**', 'dist/', 'public/'],
         languageOptions: {
             globals: {
                 JSX: true,
-                React: true,
                 process: true,
+                React: true,
             },
         },
         plugins: {
@@ -47,4 +41,5 @@ export default ts.config(
             '@typescript-eslint/ban-ts-comment': 'off',
         },
     },
+    prettier,
 )

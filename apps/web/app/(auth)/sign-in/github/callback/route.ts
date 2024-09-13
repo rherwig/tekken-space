@@ -47,21 +47,21 @@ export async function GET(request: Request): Promise<Response> {
                 sessionCookie.attributes,
             )
             return new Response(null, {
-                status: 302,
                 headers: {
                     Location: '/',
                 },
+                status: 302,
             })
         }
 
         const userId = generateId(15)
 
         await db.insert(users).values({
-            id: userId,
-            gitHubId: githubUser.id,
-            name: githubUser.login,
             email: githubUser.email,
+            gitHubId: githubUser.id,
+            id: userId,
             image: githubUser.avatar_url,
+            name: githubUser.login,
         })
 
         const session = await lucia.createSession(userId, {})
@@ -73,10 +73,10 @@ export async function GET(request: Request): Promise<Response> {
         )
 
         return new Response(null, {
-            status: 302,
             headers: {
                 Location: '/',
             },
+            status: 302,
         })
     } catch (e) {
         if (e instanceof OAuth2RequestError) {

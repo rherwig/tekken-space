@@ -52,12 +52,12 @@ export default function TheCreateHandleForm() {
     const router = useRouter()
     const { isOpen, onOpen, onOpenChange } = useDisclosure()
     const {
-        register,
-        handleSubmit,
         formState: { errors, isSubmitting, isValid },
+        handleSubmit,
+        register,
     } = useForm<HandleFormData>({
-        resolver: zodResolver(handleSchema),
         mode: 'all',
+        resolver: zodResolver(handleSchema),
     })
 
     const onSubmit: SubmitHandler<HandleFormData> = async (data) => {
