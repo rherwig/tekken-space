@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 function TheWelcomeHeroUnit() {
     return (
-        <div className="flex flex-col items-center bg-black py-16">
+        <div className="bg-muted flex flex-col items-center py-16 dark:bg-black">
             <TsHeadline variant="h1">
                 Welcome to <span>Tekken</span>
                 <span className="text-green-500">Space</span>
@@ -20,6 +20,7 @@ export default function Home() {
     return (
         <>
             <TheWelcomeHeroUnit />
+
             <div className="container mt-8">
                 <p className="mb-2">
                     With TekkenSpace, you can manage combos and move-lists for

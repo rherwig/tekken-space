@@ -1,7 +1,7 @@
 import { cva } from 'class-variance-authority'
 import { cn } from '#utils'
 
-const headlineVariants = cva('scroll-m-20 tracking-tight', {
+const headlineVariants = cva('scroll-m-20 tracking-tight text-foreground', {
     defaultVariants: {
         variant: 'h1',
     },
