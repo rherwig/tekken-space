@@ -17,7 +17,7 @@
         "eslint-config-turbo": "2.0.6",
         "eslint-plugin-only-warn": "1.1.0",
         "eslint-plugin-perfectionist": "2.11.0",
-        "typescript-eslint": "7.16.1"
+        "typescript-eslint": "^8.0.1"
     },
     "devDependencies": {
         "eslint": "8.57.0"

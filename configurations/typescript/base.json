@@ -16,7 +16,12 @@
         "skipLibCheck": true,
         "strict": true,
         "target": "ES2022",
-        "baseUrl": "${configDir}"
+        "baseUrl": "${configDir}",
+        "plugins": [
+            {
+                "name": "typescript-plugin-css-modules"
+            }
+        ]
     },
     "include": [],
     "exclude": ["**/node_modules/**", "dist/"]

@@ -1,5 +1,14 @@
 {
     "name": "@tekken-space/configuration-typescript",
     "private": true,
-    "license": "MIT"
+    "license": "MIT",
+    "dependencies": {
+        "typescript-plugin-css-modules": "5.1.0"
+    },
+    "devDependencies": {
+        "typescript": "5.5.4"
+    },
+    "peerDependencies": {
+        "typescript": "5.5.4"
+    }
 }

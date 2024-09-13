@@ -1,6 +1,7 @@
 {
     "extends": "@tekken-space/configuration-typescript/nextjs.json",
     "compilerOptions": {
+        "baseUrl": ".",
         "plugins": [
             {
                 "name": "next"

@@ -1,5 +1,5 @@
 import { Card, CardBody, CardHeader } from '@nextui-org/react'
-import SimpleMoveDisplay from '@/components/notation/simple-move-display'
+import TsSimpleMoveDisplay from '@tekken-space/ui/simple-move-display'
 
 interface Props {
     title: string
@@ -10,7 +10,7 @@ interface Props {
     }[]
 }
 
-export default function CheatCard({ title, items }: Props) {
+export default function CheatCard({ items, title }: Props) {
     return (
         <Card>
             <CardHeader>
@@ -24,7 +24,7 @@ export default function CheatCard({ title, items }: Props) {
                                 <div className="min-w-16">{item.key}</div>
                             )}
 
-                            <SimpleMoveDisplay notation={item.notation} />
+                            <TsSimpleMoveDisplay notation={item.notation} />
 
                             {item.description && (
                                 <div className="flex-1">{item.description}</div>

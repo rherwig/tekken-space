@@ -1,0 +1,7 @@
+{
+    "extends": "@tekken-space/configuration-typescript/react-library.json",
+    "compilerOptions": {
+        "composite": true
+    },
+    "include": ["tailwind.config.ts", "vite.config.ts"]
+}

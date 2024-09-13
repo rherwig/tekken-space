@@ -1,28 +1,20 @@
-import { join } from 'node:path'
 import { type Config } from 'tailwindcss'
-import { nextui } from '@nextui-org/react'
 import { createPreset } from '@tekken-space/configuration-tailwind'
+import { join } from 'node:path'
 
-const nextUiPath = require.resolve('@nextui-org/theme')
+const workspaceRoot = join(__dirname, '../..')
+const uiRoot = join(workspaceRoot, 'packages/ui/src')
 
 const config: Config = {
     content: [
-        './app/**/*.{js,ts,jsx,tsx,mdx}',
-        './pages/**/*.{js,ts,jsx,tsx,mdx}',
-        './components/**/*.{js,ts,jsx,tsx,mdx,scss}',
-        './lib/**/*.{js,ts,jsx,tsx,mdx}',
-        join(nextUiPath, '../../dist/**/*.{js,ts,jsx,tsx}'),
-    ],
-    darkMode: 'class',
-    plugins: [
-        nextui({
-            addCommonColors: true,
-        }),
+        './app/**/*.{ts,tsx,mdx}',
+        './pages/**/*.{ts,tsx,mdx}',
+        './components/**/*.{ts,tsx,mdx,scss}',
+        './lib/**/*.{ts,tsx,mdx}',
+        join(uiRoot, 'base/**/*.{ts,tsx,mdx}'),
+        join(uiRoot, 'components/**/*.{ts,tsx,mdx}'),
     ],
     presets: [createPreset()],
-    theme: {
-        extend: {},
-    },
 }
 
 export default config

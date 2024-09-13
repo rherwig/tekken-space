@@ -1,6 +1,6 @@
 'use client'
-import { Button } from '@nextui-org/react'
 import { useState } from 'react'
+import { Button } from '@tekken-space/ui/base'
 
 export default function TheSignInButton() {
     const [isLoading, setIsLoading] = useState<boolean>(false)
@@ -11,7 +11,7 @@ export default function TheSignInButton() {
 
     return (
         <form action="/sign-in/github" onSubmit={handleSubmit}>
-            <Button type="submit" isLoading={isLoading}>
+            <Button type="submit" data-loading={isLoading}>
                 Sign In
             </Button>
         </form>

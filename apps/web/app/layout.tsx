@@ -1,15 +1,15 @@
 import type { Metadata } from 'next'
 
-import './globals.css'
+import '@tekken-space/ui/styles'
 
 import { validateRequest } from '@/lib/auth'
-import { Providers } from '@/components/providers'
 import TheHeader from '@/components/layout/the-header'
+import { ThemeProvider } from '@tekken-space/ui/providers'
 
 export const metadata: Metadata = {
-    title: 'Tekken Space',
     description:
         'Find combos, frame data, and more for your favorite Tekken 8 characters. Easy to use, free, without ads.',
+    title: 'Tekken Space',
 }
 
 export default async function RootLayout({
@@ -20,14 +20,14 @@ export default async function RootLayout({
     const { user } = await validateRequest()
 
     return (
-        <html lang="en" className="dark">
+        <html lang="en" suppressHydrationWarning>
             <body>
-                <Providers>
-                    <main className="text-foreground bg-background h-full">
+                <ThemeProvider>
+                    <main className="h-full">
                         <TheHeader user={user} />
                         {children}
                     </main>
-                </Providers>
+                </ThemeProvider>
             </body>
         </html>
     )

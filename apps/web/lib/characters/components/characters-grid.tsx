@@ -1,5 +1,4 @@
 import { Character } from '@tekken-space/database'
-import { Image } from '@nextui-org/react'
 
 export default function CharactersGrid({
     characters,
@@ -10,7 +9,7 @@ export default function CharactersGrid({
         <div className="grid grid-cols-8 gap-2">
             {characters.map((character) => (
                 <div className="relative aspect-square" key={character.id}>
-                    <Image
+                    <img
                         src={character.imageUrl ?? undefined}
                         className="object-fit h-full w-full"
                         alt=""
