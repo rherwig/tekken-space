@@ -2,6 +2,14 @@
     "name": "provisioner",
     "private": true,
     "type": "module",
+    "imports": {
+        "#moves/*": [
+            "./resources/moves/*.json"
+        ],
+        "#types": [
+            "./src/types.ts"
+        ]
+    },
     "scripts": {
         "lint": "eslint .",
         "provision": "tsx ./src/main.ts"

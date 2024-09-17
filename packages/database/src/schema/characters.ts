@@ -3,10 +3,10 @@ import { createSelectSchema } from 'drizzle-zod'
 import { z } from 'zod'
 
 export const characters = pgTable('characters', {
-    id: text('id').primaryKey(),
-    name: text('name').notNull(),
-    imageUrl: text('image_url'),
     createdAt: timestamp('created_at').notNull().defaultNow(),
+    id: text('id').primaryKey(),
+    imageUrl: text('image_url'),
+    name: text('name').notNull(),
     updatedAt: timestamp('updated_at'),
 })
 

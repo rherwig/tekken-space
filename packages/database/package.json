@@ -3,10 +3,12 @@
     "private": true,
     "type": "module",
     "exports": {
-        ".": "./src/index.ts"
+        ".": "./src/index.ts",
+        "./adapters": "./src/adapters/index.ts",
+        "./schema": "./src/schema/index.ts",
+        "./services": "./src/services/index.ts"
     },
     "scripts": {
-        "env:test": "tsx ./src/commands/env.ts",
         "db:generate": "drizzle-kit generate",
         "db:migrate": "tsx ./src/commands/migrate.ts",
         "lint": "eslint ."
@@ -23,9 +25,12 @@
         "typescript": "5.6.2"
     },
     "dependencies": {
+        "@auth/drizzle-adapter": "1.5.0",
+        "@paralleldrive/cuid2": "2.2.2",
         "dotenv": "16.4.5",
         "drizzle-orm": "0.32.0",
         "drizzle-zod": "0.5.1",
+        "next-auth": "5.0.0-beta.21",
         "postgres": "3.4.4",
         "zod": "3.23.8"
     }

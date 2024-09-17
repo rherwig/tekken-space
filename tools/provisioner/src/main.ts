@@ -1,8 +1,9 @@
-import { charactersService } from '@tekken-space/database'
+import { provisionCharacters } from './characters'
+import { provisionMoves } from './moves'
 
 try {
-    const characters = await charactersService.findAll()
-    console.log(characters)
+    await provisionCharacters()
+    await provisionMoves()
 } catch (error: unknown) {
     console.error(error)
 }

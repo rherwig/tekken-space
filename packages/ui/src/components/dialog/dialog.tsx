@@ -8,47 +8,52 @@ import {
     DialogTitle,
     DialogTrigger,
 } from '#base/dialog'
-import { Input } from '#base/input'
-import { Label } from '#base/label'
 
-export function TsDialog() {
+interface Props {
+    title: string
+    caption: string
+    children: React.ReactNode
+    cancelCaption?: string
+    confirmCaption?: string
+    description?: string
+    onConfirm?: () => void
+    onCancel?: () => void
+}
+
+export function TsDialog({
+    cancelCaption = 'Cancel',
+    caption,
+    children,
+    confirmCaption = 'Save',
+    description,
+    onCancel,
+    onConfirm,
+    title,
+}: Props) {
     return (
         <Dialog>
             <DialogTrigger asChild>
-                <Button>Edit Profile</Button>
+                <Button>{caption}</Button>
             </DialogTrigger>
             <DialogContent className="sm:max-w-[425px]">
                 <DialogHeader>
-                    <DialogTitle>Edit profile</DialogTitle>
-                    <DialogDescription>
-                        Make changes to your profile here. Click save when
-                        you're done.
-                    </DialogDescription>
+                    <DialogTitle>{title}</DialogTitle>
+                    <DialogDescription>{description}</DialogDescription>
                 </DialogHeader>
-                <div className="grid gap-4 py-4">
-                    <div className="grid grid-cols-4 items-center gap-4">
-                        <Label htmlFor="name" className="text-right">
-                            Name
-                        </Label>
-                        <Input
-                            id="name"
-                            value="Pedro Duarte"
-                            className="col-span-3"
-                        />
-                    </div>
-                    <div className="grid grid-cols-4 items-center gap-4">
-                        <Label htmlFor="username" className="text-right">
-                            Username
-                        </Label>
-                        <Input
-                            id="username"
-                            value="@peduarte"
-                            className="col-span-3"
-                        />
-                    </div>
-                </div>
+                {children}
                 <DialogFooter>
-                    <Button type="submit">Save changes</Button>
+                    {onCancel && (
+                        <Button
+                            type="reset"
+                            variant="outline"
+                            onClick={onCancel}
+                        >
+                            {cancelCaption}
+                        </Button>
+                    )}
+                    <Button type="submit" onClick={onConfirm}>
+                        {confirmCaption}
+                    </Button>
                 </DialogFooter>
             </DialogContent>
         </Dialog>

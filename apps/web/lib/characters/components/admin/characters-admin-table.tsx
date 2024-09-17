@@ -1,69 +1,35 @@
 'use client'
 
-import {
-    Table,
-    TableBody,
-    TableHeader,
-    TableColumn,
-    TableRow,
-    TableCell,
-    Button,
-} from '@nextui-org/react'
-import { Character, Profile } from '@tekken-space/database'
-import { HiTrash } from 'react-icons/hi'
-import { useState } from 'react'
-import { apiClient } from '@/lib/api'
-import CreateCharacterForm from '@/lib/characters/components/forms/create-character-form'
+import { Character } from '@tekken-space/database'
+import { UpsertCharacterDialog } from '@/lib/characters/components/forms/upsert/upsert-character-dialog'
+import { useToast } from '@tekken-space/ui/hooks'
 
 export default function CharactersAdminTable({
     characters,
-    user,
 }: {
     characters: Character[]
-    user?: Profile
 }) {
-    const [isDeleting, setIsDeleting] = useState(false)
+    const { toast } = useToast()
 
-    const handleDelete = async (characterId: string) => {
-        setIsDeleting(true)
-
-        try {
-            await apiClient.delete(`/api/characters/${characterId}`)
-        } catch (error: any) {
-            console.error(error)
-        } finally {
-            setIsDeleting(false)
-        }
+    function handleUpsertSuccess() {
+        toast({
+            description: 'Character created.',
+            title: 'Success',
+        })
     }
 
     return (
-        <Table aria-label="Characters table">
-            <TableHeader>
-                <TableColumn>Name</TableColumn>
-                <TableColumn>Actions</TableColumn>
-            </TableHeader>
-            <TableBody>
+        <div>
+            <UpsertCharacterDialog
+                id="upsert-character"
+                onSuccess={handleUpsertSuccess}
+            />
+
+            <ul>
                 {characters.map((character) => (
-                    <TableRow key={character.id}>
-                        <TableCell>{character.name}</TableCell>
-                        <TableCell className="flex gap-2">
-                            <CreateCharacterForm character={character} />
-                            <Button
-                                isIconOnly
-                                color="danger"
-                                aria-label="Delete Character"
-                                isLoading={isDeleting}
-                                onPress={handleDelete.bind(
-                                    undefined,
-                                    character.id,
-                                )}
-                            >
-                                <HiTrash />
-                            </Button>
-                        </TableCell>
-                    </TableRow>
+                    <li key={character.id}>{character.name}</li>
                 ))}
-            </TableBody>
-        </Table>
+            </ul>
+        </div>
     )
 }

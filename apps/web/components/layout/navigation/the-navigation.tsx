@@ -17,6 +17,13 @@ export function TheNavigation() {
         <NavigationMenu>
             <NavigationMenuList>
                 <NavigationMenuItem>
+                    <Link href="/characters" legacyBehavior passHref>
+                        <NavigationMenuLink
+                            className={navigationMenuTriggerStyle()}
+                        >
+                            Characters
+                        </NavigationMenuLink>
+                    </Link>
                     <Link href="/share" legacyBehavior passHref>
                         <NavigationMenuLink
                             className={navigationMenuTriggerStyle()}

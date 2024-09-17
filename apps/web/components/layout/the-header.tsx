@@ -1,10 +1,13 @@
-import type { Profile } from '@tekken-space/database'
 import { TsColorModeSwitch } from '@tekken-space/ui/components'
 
 import TheSignInButton from '@/components/profile/the-sign-in-button'
 import { TheNavigation } from '@/components/layout/navigation/the-navigation'
+import { useAuth } from '@/hooks/use-auth'
+import { TheProfileWidget } from '@/components/profile/the-profile-widget'
 
-export default function TheHeader({ user }: { user: Profile | null }) {
+export default async function TheHeader() {
+    const { user } = await useAuth()
+
     return (
         <header className="bg-background text-foreground">
             <div className="container flex h-20 w-full items-center justify-between">
@@ -18,13 +21,13 @@ export default function TheHeader({ user }: { user: Profile | null }) {
                 </div>
 
                 <div className="flex gap-2">
+                    <TsColorModeSwitch />
+
                     {user === null ? (
                         <TheSignInButton />
                     ) : (
-                        <div>@{user.handle}</div>
+                        <TheProfileWidget user={user} />
                     )}
-
-                    <TsColorModeSwitch />
                 </div>
             </div>
         </header>

@@ -4,23 +4,20 @@ import type { z } from 'zod'
 
 export const role = pgEnum('role', ['admin', 'user'])
 
-export const users = pgTable('users', {
+export const users = pgTable('user', {
+    createdAt: timestamp('created_at').notNull().defaultNow(),
+    email: text('email').notNull(),
+    emailVerified: timestamp('emailVerified', { mode: 'date' }),
+    gitHubId: text('github_id').unique(),
+    handle: text('handle').unique(),
     id: text('id')
         .primaryKey()
         .$defaultFn(() => crypto.randomUUID()),
-    name: text('name'),
-    email: text('email').notNull(),
-    emailVerified: timestamp('email_verified', { mode: 'date' }),
     image: text('image'),
-
-    role: role('role').notNull().default('user'),
-    handle: text('handle').unique(),
-    isVirtual: boolean('is_virtual').notNull().default(false),
     isPro: boolean('is_pro').notNull().default(false),
-
-    gitHubId: text('github_id').unique(),
-
-    createdAt: timestamp('created_at').notNull().defaultNow(),
+    isVirtual: boolean('is_virtual').notNull().default(false),
+    name: text('name'),
+    role: role('role').notNull().default('user'),
     updatedAt: timestamp('updated_at'),
 })
 

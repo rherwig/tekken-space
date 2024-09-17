@@ -65,6 +65,8 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
+tools/provisioner/resources
+
 var/data/*
 
 var/logs/*

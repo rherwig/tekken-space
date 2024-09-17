@@ -6,7 +6,7 @@ import { migrate } from 'drizzle-orm/postgres-js/migrator'
 import config from '../../drizzle.config'
 import * as schema from '../schema'
 
-const { user, password, host, port, database } = config.dbCredentials
+const { database, host, password, port, user } = config.dbCredentials
 const connectionString = `postgres://${user}:${password}@${host}:${port}/${database}`
 
 const connection = postgres(connectionString, {

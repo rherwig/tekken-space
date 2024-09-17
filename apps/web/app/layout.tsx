@@ -5,6 +5,7 @@ import '@tekken-space/ui/styles'
 import { validateRequest } from '@/lib/auth'
 import TheHeader from '@/components/layout/the-header'
 import { ThemeProvider } from '@tekken-space/ui/providers'
+import { Toaster } from '@tekken-space/ui/base'
 
 export const metadata: Metadata = {
     description:
@@ -17,7 +18,7 @@ export default async function RootLayout({
 }: Readonly<{
     children: React.ReactNode
 }>) {
-    const { user } = await validateRequest()
+    const { user } = { user: null } //await validateRequest()
 
     return (
         <html lang="en" suppressHydrationWarning>
@@ -27,6 +28,8 @@ export default async function RootLayout({
                         <TheHeader user={user} />
                         {children}
                     </main>
+
+                    <Toaster />
                 </ThemeProvider>
             </body>
         </html>
