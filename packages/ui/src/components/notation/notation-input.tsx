@@ -2,25 +2,32 @@
 
 import { Input } from '#base/input'
 import { TsSimpleMoveDisplay } from './simple-move-display'
-import { FormEvent, useState } from 'react'
+import { FormEventHandler, Ref } from 'react'
 
-export function TsNotationInput() {
-    const [notation, setNotation] = useState('')
-
-    function handleInput(event: FormEvent<HTMLInputElement>) {
-        setNotation(event.currentTarget.value)
-    }
-
+export function TsNotationInput({
+    notationRef,
+    onInput,
+    onKeyDown,
+    value,
+}: {
+    notationRef?: Ref<HTMLDivElement>
+    value: string
+    onInput: FormEventHandler<HTMLInputElement>
+    onKeyDown?: FormEventHandler<HTMLInputElement>
+}) {
     return (
-        <div>
+        <div className="w-full">
             <div className="bg-background flex h-20 items-center rounded-t-md px-2">
-                <TsSimpleMoveDisplay notation={notation} />
+                <div ref={notationRef} className="">
+                    <TsSimpleMoveDisplay notation={value} />
+                </div>
             </div>
 
             <Input
                 placeholder="Notation, e.g. d/f+2; 4"
-                value={notation}
-                onInput={handleInput}
+                value={value}
+                onInput={onInput}
+                onKeyDown={onKeyDown}
                 className="rounded-t-none"
                 autoFocus
             />

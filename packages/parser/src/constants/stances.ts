@@ -1,153 +1,153 @@
-import type { TekkenKeywordsList } from '../types';
+import type { TekkenKeywordsList } from '../types'
 
 /**
  * List of all stances.
  */
 export const STANCE_KEYWORDS: TekkenKeywordsList = {
-    LIB: {
-        value: 'Libertador',
-    },
-    JGS: {
-        value: 'Jaguar Step',
-    },
-    HBS: {
-        value: 'Hunting Bear Stance',
-    },
-    KNP: {
-        value: 'Kenpo',
-    },
-    STC: {
-        value: 'Shifting Clouds',
-    },
-    SDW: {
-        value: 'Shadow Stance',
-    },
-    HAZ: {
-        value: 'Haze',
-    },
-    MED: {
-        value: 'Meditation',
-    },
-    FLE: {
-        value: 'Flea',
-    },
-    INS: {
-        value: 'Indian Stance',
-    },
-    DGF: {
-        value: 'Dragonfly',
+    ALB: {
+        value: 'Albatross',
     },
     BDS: {
         value: 'Bad Stomach',
     },
-    PDP: {
-        value: 'Bad Stomach',
-    },
-    NSS: {
-        value: 'No Sword Stance',
-    },
-    KIN: {
-        value: 'Kincho',
-    },
-    ZEN: {
-        value: 'Zenshin',
-    },
-    LFF: {
-        value: 'Left Foot Forward',
-    },
-    RFF: {
-        value: 'Right Foot Forward',
-    },
-    LFS: {
-        value: 'Left Flamingo Stance',
-    },
-    RFS: {
-        value: 'Right Flamingo Stance',
-    },
-    DSS: {
-        value: 'Dragon Sign Stance',
-    },
-    TFS: {
-        value: 'Fake Step',
-    },
-    HMS: {
-        value: 'HMS',
-    },
-    ROL: {
-        value: 'Prowling Grizzly Roll',
-    },
-
-    ALB: {
-        value: 'Albatross',
-    },
-    DCK: {
-        value: 'Ducking',
-    },
-    EDCK: {
-        value: 'Ducking In',
-    },
-    PKB: {
-        value: 'Peakaboo',
-    },
-    SWY: {
-        value: 'Sway',
-    },
-    SIT: {
-        value: 'Sit',
-    },
-    LWS: {
-        value: 'Ducking Left',
-    },
-    RWS: {
-        value: 'Ducking Right',
-    },
-    FLK: {
-        value: 'Flicker Stance',
-    },
-    KNK: {
-        value: 'Jin Ji Du Li',
-    },
     BOK: {
         value: 'Bokuho',
-    },
-
-    HPF: {
-        value: 'Whiplash Combo',
-    },
-    LCT: {
-        value: 'Leg Cutter',
-    },
-    DES: {
-        value: 'Destructive Form',
     },
     BOOT: {
         value: 'Boot',
     },
-    FLY: {
-        value: 'Fly',
-    },
-    SEN: {
-        value: 'Silent Entry',
+    DCK: {
+        value: 'Ducking',
     },
     DEN: {
         value: 'Dynamic Entry',
     },
-    TRT: {
-        value: 'Tarantula',
+    DES: {
+        value: 'Destructive Form',
     },
-    MNT: {
-        value: 'Mantis',
+    DGF: {
+        value: 'Dragonfly',
     },
-    SCR: {
-        value: 'Scarecrow',
-    },
-    STB: {
-        value: 'Starburst',
-    },
-    WGS: {
-        value: 'Wind God Step',
+    DSS: {
+        value: 'Dragon Sign Stance',
     },
     DVK: {
         value: 'Devil Kazuya',
     },
-};
+    EDCK: {
+        value: 'Ducking In',
+    },
+    FLE: {
+        value: 'Flea',
+    },
+    FLK: {
+        value: 'Flicker Stance',
+    },
+    FLY: {
+        value: 'Fly',
+    },
+    HAZ: {
+        value: 'Haze',
+    },
+    HBS: {
+        value: 'Hunting Bear Stance',
+    },
+    HMS: {
+        value: 'HMS',
+    },
+    HPF: {
+        value: 'Whiplash Combo',
+    },
+    INS: {
+        value: 'Indian Stance',
+    },
+    JGS: {
+        value: 'Jaguar Step',
+    },
+    KIN: {
+        value: 'Kincho',
+    },
+    KNK: {
+        value: 'Jin Ji Du Li',
+    },
+    KNP: {
+        value: 'Kenpo',
+    },
+    LCT: {
+        value: 'Leg Cutter',
+    },
+
+    LFF: {
+        value: 'Left Foot Forward',
+    },
+    LFS: {
+        value: 'Left Flamingo Stance',
+    },
+    LIB: {
+        value: 'Libertador',
+    },
+    LWS: {
+        value: 'Ducking Left',
+    },
+    MED: {
+        value: 'Meditation',
+    },
+    MNT: {
+        value: 'Mantis',
+    },
+    NSS: {
+        value: 'No Sword Stance',
+    },
+    PDP: {
+        value: 'Bad Stomach',
+    },
+    PKB: {
+        value: 'Peakaboo',
+    },
+    RFF: {
+        value: 'Right Foot Forward',
+    },
+    RFS: {
+        value: 'Right Flamingo Stance',
+    },
+
+    ROL: {
+        value: 'Prowling Grizzly Roll',
+    },
+    RWS: {
+        value: 'Ducking Right',
+    },
+    SCR: {
+        value: 'Scarecrow',
+    },
+    SDW: {
+        value: 'Shadow Stance',
+    },
+    SEN: {
+        value: 'Silent Entry',
+    },
+    SIT: {
+        value: 'Sit',
+    },
+    STB: {
+        value: 'Starburst',
+    },
+    STC: {
+        value: 'Shifting Clouds',
+    },
+    SWY: {
+        value: 'Sway',
+    },
+    TFS: {
+        value: 'Fake Step',
+    },
+    TRT: {
+        value: 'Tarantula',
+    },
+    WGS: {
+        value: 'Wind God Step',
+    },
+    ZEN: {
+        value: 'Zenshin',
+    },
+}

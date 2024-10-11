@@ -5,7 +5,7 @@ import animate from 'tailwindcss-animate'
 
 export function createPreset(): Partial<Config> {
     return {
-        darkMode: 'class',
+        darkMode: 'selector',
         plugins: [
             animate,
             scrollbar({

@@ -38,65 +38,77 @@ const MOVE_SEPARATOR = ';'
  * List of special keywords, like WS, WR, etc.
  */
 const SPECIAL_KEYWORDS: TekkenKeywordsList = {
-    WS: {
-        value: 'While Standing',
-    },
-    WR: {
-        value: 'While Running',
-    },
-    iWS: {
-        value: 'Instant While Standing',
-    },
-    iWR: {
-        value: 'Instant While Running',
-    },
-    FC: {
-        value: 'Full Crouch',
-    },
-    iFC: {
-        value: 'Instant Full Crouch',
-    },
-    CH: {
-        value: 'Counter Hit',
-    },
-    CD: {
-        value: 'Crouch Dash',
+    BACKDASH: {
+        value: 'Backdash',
     },
     BT: {
         value: 'Back-Turned',
     },
-    SSL: {
-        value: 'Side Step Left',
+    CD: {
+        value: 'Crouch Dash',
     },
-    SWL: {
-        value: 'Side Walk Left',
-    },
-    SSR: {
-        value: 'Side Step Right',
-    },
-    SWR: {
-        value: 'Side Walk Right',
-    },
-    QCF: {
-        value: 'Quarter Circle Forward',
-    },
-    QCB: {
-        value: 'Quarter Circle Backward',
-    },
-    HCF: {
-        value: 'Half Circle Forward',
-    },
-    HCB: {
-        value: 'Half Circle Backward',
+    CH: {
+        value: 'Counter Hit',
     },
     DASH: {
         value: 'Dash',
     },
-    BACKDASH: {
-        value: 'Backdash',
+    FC: {
+        value: 'Full Crouch',
+    },
+    HCB: {
+        value: 'Half Circle Backward',
+    },
+    HCF: {
+        value: 'Half Circle Forward',
+    },
+    iFC: {
+        value: 'Instant Full Crouch',
+    },
+    iWR: {
+        value: 'Instant While Running',
+    },
+    iWS: {
+        value: 'Instant While Rising',
+    },
+    OTG: {
+        value: 'Opponent Grounded',
+    },
+    QCB: {
+        value: 'Quarter Circle Backward',
+    },
+    QCF: {
+        value: 'Quarter Circle Forward',
+    },
+    SS: {
+        value: 'Side Step',
+    },
+    SSL: {
+        value: 'Side Step Left',
+    },
+    SSR: {
+        value: 'Side Step Right',
+    },
+    SW: {
+        value: 'Side Walk',
+    },
+    SWL: {
+        value: 'Side Walk Left',
+    },
+    SWR: {
+        value: 'Side Walk Right',
     },
     WAVEDASH: {
         value: 'Wavedash',
+    },
+    WR: {
+        value: 'While Running',
+    },
+    WS: {
+        value: 'While Rising',
+    },
+    ws: {
+        value: 'While Rising',
     },
 }
 
@@ -104,6 +116,10 @@ const SPECIAL_KEYWORDS: TekkenKeywordsList = {
  * List of Rage keywords.
  */
 const RAGE_KEYWORDS: TekkenKeywordsList = {
+    R: {
+        notation: 'R',
+        value: 'In Rage',
+    },
     'R!': {
         notation: 'R!',
         value: 'Rage Art',
@@ -156,81 +172,81 @@ const TORNADO_KEYWORDS: TekkenKeywordsList = {
  */
 const TOKENS: InstructionToken[] = [
     {
-        type: InstructionTypes.SPECIAL,
-        subType: InstructionSubType.NONE,
         expression: expressionFromKeywords(Object.keys(SPECIAL_KEYWORDS)),
         keywords: SPECIAL_KEYWORDS,
+        subType: InstructionSubType.NONE,
+        type: InstructionTypes.SPECIAL,
     },
     {
-        type: InstructionTypes.SPECIAL,
-        subType: InstructionSubType.STANCE,
         expression: expressionFromKeywords(Object.keys(STANCE_KEYWORDS)),
         keywords: STANCE_KEYWORDS,
+        subType: InstructionSubType.STANCE,
+        type: InstructionTypes.SPECIAL,
     },
     {
-        type: InstructionTypes.SPECIAL,
-        subType: InstructionSubType.RAGE,
         expression: expressionFromKeywords(Object.keys(RAGE_KEYWORDS)),
         keywords: RAGE_KEYWORDS,
+        subType: InstructionSubType.RAGE,
+        type: InstructionTypes.SPECIAL,
     },
     {
-        type: InstructionTypes.SPECIAL,
-        subType: InstructionSubType.HEAT,
         expression: expressionFromKeywords(Object.keys(HEAT_KEYWORDS)),
         keywords: HEAT_KEYWORDS,
+        subType: InstructionSubType.HEAT,
+        type: InstructionTypes.SPECIAL,
     },
     {
-        type: InstructionTypes.SPECIAL,
-        subType: InstructionSubType.TORNADO,
         expression: expressionFromKeywords(Object.keys(TORNADO_KEYWORDS)),
         keywords: TORNADO_KEYWORDS,
+        subType: InstructionSubType.TORNADO,
+        type: InstructionTypes.SPECIAL,
     },
     {
-        type: InstructionTypes.CONTROL,
-        subType: InstructionSubType.BRACKET_LEFT,
         expression: /^(\[)/g,
-    },
-    {
+        subType: InstructionSubType.BRACKET_LEFT,
         type: InstructionTypes.CONTROL,
-        subType: InstructionSubType.BRACKET_RIGHT,
+    },
+    {
         expression: /^(])/g,
+        subType: InstructionSubType.BRACKET_RIGHT,
+        type: InstructionTypes.CONTROL,
     },
     {
-        type: InstructionTypes.TEXT,
         expression: /^\((.+)\)/gi,
+        type: InstructionTypes.TEXT,
     },
     {
-        type: InstructionTypes.MOVEMENT,
         expression: expressionFromMovementPairs([
             ['u', 'f'],
             ['u', 'b'],
             ['d', 'f'],
             ['d', 'b'],
         ]),
-    },
-    {
         type: InstructionTypes.MOVEMENT,
+    },
+    {
         expression: /^[ufdbn]/gi,
+        type: InstructionTypes.MOVEMENT,
     },
     {
-        type: InstructionTypes.ATTACK,
         expression: /^([1234])(([+])([1234]))+/gi,
-    },
-    {
         type: InstructionTypes.ATTACK,
+    },
+    {
         expression: /^([1234])/gi,
+        type: InstructionTypes.ATTACK,
     },
     {
-        type: InstructionTypes.COMBINATOR,
         expression: /^([:~<])/gi,
+        type: InstructionTypes.COMBINATOR,
     },
     {
-        type: InstructionTypes.ALTERNATIVE,
         expression: /^(_)/gi,
+        type: InstructionTypes.ALTERNATIVE,
     },
     {
-        type: InstructionTypes.HIDDEN,
         expression: /^([+.,])/gi,
+        type: InstructionTypes.HIDDEN,
     },
 ]
 
@@ -268,8 +284,8 @@ const consumeToken = (
 
     return {
         index,
-        value,
         remainder,
+        value,
     }
 }
 
@@ -279,8 +295,8 @@ const consumeToken = (
  */
 const matchInstruction = (notation: string): InstructionMatchResult => {
     const result: InstructionMatchResult = {
-        remainder: notation,
         instruction: null,
+        remainder: notation,
     }
 
     for (const token of TOKENS) {
@@ -298,9 +314,9 @@ const matchInstruction = (notation: string): InstructionMatchResult => {
         result.remainder = match.remainder
         result.instruction = {
             $type: MetaTypes.INSTRUCTION,
-            type: token.type,
-            subType: token.subType,
             notation: match.value,
+            subType: token.subType,
+            type: token.type,
             value: value ?? '',
         }
 
@@ -350,13 +366,13 @@ export const parseTekkenNotation = (notation: string): ParserResult => {
 
         return {
             $type: MetaTypes.MOVE,
-            notation: moveNotation,
             instructions,
+            notation: moveNotation,
         }
     })
 
     return {
-        notation,
         moves,
+        notation,
     }
 }

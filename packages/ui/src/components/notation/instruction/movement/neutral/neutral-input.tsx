@@ -1,12 +1,13 @@
+import Image from 'next/image'
 import neutralImage from './assets/neutral.png'
 
 export default function NeutralInput() {
     return (
-        <img
+        <Image
             className="block"
             src={neutralImage.src}
-            width={64}
-            height={64}
+            width={52}
+            height={52}
             alt="Neutral"
         />
     )

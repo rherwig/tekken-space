@@ -8,6 +8,14 @@ body,
     @apply h-full;
 }
 
+/*
+ * This is needed to preserve styles in image exports.
+ * See: https://stackoverflow.com/questions/74980740/html2canvas-shifting-text-downwards
+ */
+img {
+    @apply inline-block;
+}
+
 @layer base {
     :root {
         --background: hsl(0 0% 100%);

@@ -1,9 +1,12 @@
 import { ParsedInstruction } from '@tekken-space/parser'
+import { TsChip } from '../../../chip/chip'
 
 export default function TextInstruction({
     instruction,
 }: {
     instruction: ParsedInstruction
 }) {
-    return <div>TEXT {instruction.notation}</div>
+    const text = instruction.notation.replace(/[()]/g, '')
+
+    return <TsChip>{text}</TsChip>
 }

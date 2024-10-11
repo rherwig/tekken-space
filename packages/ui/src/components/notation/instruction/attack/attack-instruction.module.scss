@@ -10,11 +10,11 @@
     @apply border border-transparent rounded-full;
     @apply flex items-center justify-center;
     @apply font-medium leading-none;
-    @apply bg-white text-black;
+    @apply bg-foreground text-background;
 }
 
 .button[data-button='1'].isActive {
-    @apply bg-primary;
+    @apply bg-blue-400;
 }
 
 .button[data-button='2'].isActive {

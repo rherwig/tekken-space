@@ -2,7 +2,6 @@ import type { Metadata } from 'next'
 
 import '@tekken-space/ui/styles'
 
-import { validateRequest } from '@/lib/auth'
 import TheHeader from '@/components/layout/the-header'
 import { ThemeProvider } from '@tekken-space/ui/providers'
 import { Toaster } from '@tekken-space/ui/base'
@@ -18,7 +17,7 @@ export default async function RootLayout({
 }: Readonly<{
     children: React.ReactNode
 }>) {
-    const { user } = { user: null } //await validateRequest()
+    const { user } = { user: null }
 
     return (
         <html lang="en" suppressHydrationWarning>

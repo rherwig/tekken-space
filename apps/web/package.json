@@ -11,20 +11,19 @@
     },
     "dependencies": {
         "@hookform/resolvers": "3.9.0",
-        "@lucia-auth/adapter-drizzle": "1.1.0",
         "@tekken-space/database": "workspace:*",
         "@tekken-space/parser": "workspace:*",
         "@tekken-space/ui": "workspace:*",
-        "arctic": "1.9.2",
         "axios": "1.7.7",
         "framer-motion": "11.5.4",
-        "lucia": "3.2.0",
+        "html2canvas": "1.4.1",
+        "lucide-react": "0.441.0",
         "next": "14.2.11",
         "next-auth": "5.0.0-beta.21",
         "react": "18.3.1",
         "react-dom": "18.3.1",
         "react-hook-form": "7.53.0",
-        "react-icons": "5.3.0",
+        "react-hotkeys-hook": "4.5.1",
         "zod": "3.23.8"
     },
     "devDependencies": {

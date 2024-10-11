@@ -4,6 +4,7 @@ import TheSignInButton from '@/components/profile/the-sign-in-button'
 import { TheNavigation } from '@/components/layout/navigation/the-navigation'
 import { useAuth } from '@/hooks/use-auth'
 import { TheProfileWidget } from '@/components/profile/the-profile-widget'
+import { ControllerLayoutSwitch } from '@/components/layout/controller-layout-switch/controller-layout-switch'
 
 export default async function TheHeader() {
     const { user } = await useAuth()
@@ -21,6 +22,8 @@ export default async function TheHeader() {
                 </div>
 
                 <div className="flex gap-2">
+                    <ControllerLayoutSwitch />
+
                     <TsColorModeSwitch />
 
                     {user === null ? (

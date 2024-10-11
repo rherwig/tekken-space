@@ -5,5 +5,9 @@ export default function CombinatorInstruction({
 }: {
     instruction: ParsedInstruction
 }) {
-    return <div>COMBINATOR {instruction.notation}</div>
+    return (
+        <div className="mx-1 -mt-2 text-3xl font-bold leading-none">
+            {instruction.notation}
+        </div>
+    )
 }

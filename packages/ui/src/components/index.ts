@@ -1,6 +1,7 @@
 export { TsChip } from './chip/chip'
 export { TsColorModeSwitch } from './color-mode-switch/color-mode-switch'
 export { TsDialog } from './dialog/dialog'
+export { TsCombobox } from './combo-box/combo-box'
 export { TsFormDialog, type FormState } from './dialog/form-dialog'
 export { TsHeadline } from './headline/headline'
 
