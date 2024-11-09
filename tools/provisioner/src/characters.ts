@@ -1,20 +1,16 @@
 import { charactersService } from '@tekken-space/database/services'
 
-export async function provisionCharacters() {
-    const characterName = 'Kazuya'
-    const characterId = slugify(characterName)
+export async function provisionCharacters(
+    characterId: string,
+    characterName: string,
+) {
+    console.log(`Provisioning Character '${characterId}'...`)
 
-    console.log(`Converting moves for '${characterId}'...`)
-
-    console.log(`Cleaning moves for '${characterId}'...`)
+    console.log(`Cleaning Character '${characterId}'...`)
     await clean(characterId)
 
-    console.log(`Provisioning moves for '${characterId}'`)
+    console.log(`Creating Character '${characterId}'`)
     return provision(characterId, characterName)
-}
-
-function slugify(name: string) {
-    return name.replace(/\s/g, '-').toLowerCase()
 }
 
 async function clean(characterId: string) {

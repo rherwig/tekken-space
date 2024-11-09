@@ -1,19 +1,24 @@
 import type { CreateMove } from '@tekken-space/database/schema'
 import { movesService } from '@tekken-space/database/services'
 import type { RawMove } from '#types'
-import kazuya from '#moves/kazuya'
 
-export async function provisionMoves() {
-    const characterId = 'kazuya'
+export async function provisionMoves(characterId: string, path: string) {
+    const rawMoves = await loadMoves(path)
 
     console.log(`Converting moves for '${characterId}'...`)
-    const moves = convertRawMoves(characterId, kazuya)
+    const moves = convertRawMoves(characterId, rawMoves)
 
     console.log(`Cleaning moves for '${characterId}'...`)
     await clean(characterId)
 
     console.log(`Provisioning moves for '${characterId}'`)
     return provision(moves)
+}
+
+async function loadMoves(path: string) {
+    const { default: moves } = await import(`../${path}`)
+
+    return moves as RawMove[]
 }
 
 function convertRawMoves(
