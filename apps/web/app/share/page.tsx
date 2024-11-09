@@ -1,5 +1,7 @@
 import { ShareNotationForm } from '@/components/share/ShareNotationForm'
 
+export const dynamic = 'force-dynamic'
+
 export default async function Share() {
     return (
         <div className="container py-4">

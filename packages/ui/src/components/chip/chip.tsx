@@ -16,8 +16,9 @@ export const TsChip = React.forwardRef<HTMLDivElement, TsChipProps>(
                 className={cn(
                     styles.root,
                     {
-                        [styles.danger]: color === 'danger',
-                        [styles.primary]: color === 'primary',
+                        'bg-danger': color === 'danger',
+                        'bg-primary text-primary-foreground':
+                            color === 'primary',
                     },
                     className,
                 )}

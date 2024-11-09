@@ -1,11 +1,5 @@
-import { TsColorModeSwitch } from '@tekken-space/ui/components'
-
-import TheSignInButton from '@/components/profile/the-sign-in-button'
 import { TheNavigation } from '@/components/layout/navigation/the-navigation'
 import { useAuth } from '@/hooks/use-auth'
-import { TheProfileWidget } from '@/components/profile/the-profile-widget'
-import { ControllerLayoutSwitch } from '@/components/layout/controller-layout-switch/controller-layout-switch'
-import { useFeatureToggle } from '@/hooks/use-feature-toggle'
 
 export default async function TheHeader() {
     const { user } = await useAuth()
