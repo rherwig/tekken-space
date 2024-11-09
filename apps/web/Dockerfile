@@ -20,6 +20,7 @@ WORKDIR /app
 COPY --from=prune /app/out/full/.gitignore .
 COPY --from=prune /app/out/full/ .
 RUN pnpm install
+RUN pnpm rebuild sharp
 RUN pnpm turbo run build --filter web...
 
 # Serve the application

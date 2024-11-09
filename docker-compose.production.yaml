@@ -15,14 +15,17 @@ services:
 
   web:
     image: ghcr.io/rherwig/tekken-space-web:latest
-    ports:
-      - "3000:3000"
     depends_on:
       - database
+    volumes:
+      - /var/tekken/frontend/.env:/app/apps/web/.env
 
   proxy:
     image: ghcr.io/rherwig/tekken-space-proxy:latest
     ports:
-      - "8888:80"
+      - "80:80"
+      - "443:443"
+    volumes:
+      - /var/tekken/proxy:/data
     depends_on:
       - web
