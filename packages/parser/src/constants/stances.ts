@@ -46,6 +46,15 @@ export const STANCE_KEYWORDS: TekkenKeywordsList = {
     FLY: {
         value: 'Fly',
     },
+    FUJ: {
+        value: 'Fujin',
+    },
+    GMC: {
+        value: 'Gamma Cannon',
+    },
+    GMH: {
+        value: 'Gamma Howl',
+    },
     HAZ: {
         value: 'Haze',
     },
@@ -76,7 +85,6 @@ export const STANCE_KEYWORDS: TekkenKeywordsList = {
     LCT: {
         value: 'Leg Cutter',
     },
-
     LFF: {
         value: 'Left Foot Forward',
     },
@@ -104,13 +112,15 @@ export const STANCE_KEYWORDS: TekkenKeywordsList = {
     PKB: {
         value: 'Peakaboo',
     },
+    RAI: {
+        value: 'Raijin',
+    },
     RFF: {
         value: 'Right Foot Forward',
     },
     RFS: {
         value: 'Right Flamingo Stance',
     },
-
     ROL: {
         value: 'Prowling Grizzly Roll',
     },
@@ -143,6 +153,9 @@ export const STANCE_KEYWORDS: TekkenKeywordsList = {
     },
     TRT: {
         value: 'Tarantula',
+    },
+    WAR: {
+        value: 'Warrior Instinct',
     },
     WGS: {
         value: 'Wind God Step',

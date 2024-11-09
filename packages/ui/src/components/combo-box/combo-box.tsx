@@ -15,17 +15,25 @@ import {
 } from '#base/command'
 import { Popover, PopoverContent, PopoverTrigger } from '#base/popover'
 
+export type ComboboxOption = {
+    label: string
+    value: string
+}
+
 type ComboboxProps = {
-    options: {
-        label: string
-        value: string
-    }[]
+    value: string
+    onChange: (value: string) => void
+    options: ComboboxOption[]
     placeholder?: string
 }
 
-export function TsCombobox({ options, placeholder }: ComboboxProps) {
+export function TsCombobox({
+    onChange,
+    options,
+    placeholder,
+    value,
+}: ComboboxProps) {
     const [open, setOpen] = React.useState(false)
-    const [value, setValue] = React.useState('')
 
     return (
         <Popover open={open} onOpenChange={setOpen}>
@@ -54,7 +62,7 @@ export function TsCombobox({ options, placeholder }: ComboboxProps) {
                                     key={option.value}
                                     value={option.value}
                                     onSelect={(currentValue) => {
-                                        setValue(
+                                        onChange(
                                             currentValue === value
                                                 ? ''
                                                 : currentValue,

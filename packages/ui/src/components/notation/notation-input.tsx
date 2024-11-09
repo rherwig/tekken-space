@@ -18,7 +18,7 @@ export function TsNotationInput({
     return (
         <div className="w-full">
             <div className="bg-background flex h-20 items-center rounded-t-md px-2">
-                <div ref={notationRef} className="">
+                <div ref={notationRef}>
                     <TsSimpleMoveDisplay notation={value} />
                 </div>
             </div>

@@ -13,9 +13,13 @@ import {
     DropdownMenuTrigger,
 } from '@tekken-space/ui/base'
 import { onLogoutAction } from '@/lib/auth/actions/logout'
+import { usePreferences } from '@/components/providers/use-preferences'
 
 export function TheProfileWidget({ user }: { user: User }) {
     const displayName = user.handle ? `@${user.handle}` : 'Profile'
+    const preferences = usePreferences()
+
+    console.log(preferences)
 
     return (
         <DropdownMenu>

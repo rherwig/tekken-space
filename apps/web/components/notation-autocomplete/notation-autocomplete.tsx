@@ -46,13 +46,13 @@ export function NotationAutocomplete({ moves }: { moves: Move[] }) {
         }
     })
 
-    function handleKeyDown(event: FocusEvent<HTMLInputElement>) {
+    function handleKeyDown(event: FormEvent<HTMLInputElement>) {
         const input = event.currentTarget
         if (!input) {
             return
         }
 
-        const cursorPosition = input.selectionStart
+        const cursorPosition = input.selectionStart ?? 0
         const segments = input.value.split(';')
 
         let segmentStartIndex = 0

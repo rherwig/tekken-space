@@ -17,14 +17,12 @@ export default async function RootLayout({
 }: Readonly<{
     children: React.ReactNode
 }>) {
-    const { user } = { user: null }
-
     return (
         <html lang="en" suppressHydrationWarning>
             <body>
                 <ThemeProvider>
                     <main className="h-full">
-                        <TheHeader user={user} />
+                        <TheHeader />
                         {children}
                     </main>
 

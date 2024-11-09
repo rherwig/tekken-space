@@ -15,11 +15,16 @@ const headlineVariants = cva('scroll-m-20 tracking-tight text-foreground', {
     },
 })
 
-interface Props {
+interface Props extends React.HTMLProps<HTMLHeadingElement> {
     variant: 'h1' | 'h2' | 'h3' | 'h4'
+    className?: string
     children?: React.ReactNode
 }
 
-export function TsHeadline({ children, variant }: Props) {
-    return <h1 className={cn(headlineVariants({ variant }))}>{children}</h1>
+export function TsHeadline({ children, className, variant, ...props }: Props) {
+    return (
+        <h1 className={cn(headlineVariants({ variant }), className)} {...props}>
+            {children}
+        </h1>
+    )
 }

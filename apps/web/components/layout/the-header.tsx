@@ -5,6 +5,7 @@ import { TheNavigation } from '@/components/layout/navigation/the-navigation'
 import { useAuth } from '@/hooks/use-auth'
 import { TheProfileWidget } from '@/components/profile/the-profile-widget'
 import { ControllerLayoutSwitch } from '@/components/layout/controller-layout-switch/controller-layout-switch'
+import { useFeatureToggle } from '@/hooks/use-feature-toggle'
 
 export default async function TheHeader() {
     const { user } = await useAuth()
@@ -22,15 +23,15 @@ export default async function TheHeader() {
                 </div>
 
                 <div className="flex gap-2">
-                    <ControllerLayoutSwitch />
+                    {/*<ControllerLayoutSwitch />*/}
 
-                    <TsColorModeSwitch />
+                    {/*<TsColorModeSwitch />*/}
 
-                    {user === null ? (
-                        <TheSignInButton />
-                    ) : (
-                        <TheProfileWidget user={user} />
-                    )}
+                    {/*{user === null ? (*/}
+                    {/*    <TheSignInButton />*/}
+                    {/*) : (*/}
+                    {/*    <TheProfileWidget user={user} />*/}
+                    {/*)}*/}
                 </div>
             </div>
         </header>
