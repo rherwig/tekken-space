@@ -14,14 +14,14 @@ services:
       - "5432:5432"
 
   web:
-    image: ghcr.io/rherwig/tekken-space-web:main
+    image: ghcr.io/rherwig/tekken-space-web:latest
     ports:
       - "3000:3000"
     depends_on:
       - database
 
   proxy:
-    image: ghcr.io/rherwig/tekken-space-proxy:main
+    image: ghcr.io/rherwig/tekken-space-proxy:latest
     ports:
       - "8888:80"
     depends_on:
