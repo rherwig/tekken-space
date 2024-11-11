@@ -3,7 +3,11 @@ import type { Metadata } from 'next'
 import '@tekken-space/ui/styles'
 
 import TheHeader from '@/components/layout/the-header'
-import { ThemeProvider } from '@tekken-space/ui/providers'
+import {
+    type NotationTheme,
+    NotationThemeProvider,
+    ThemeProvider,
+} from '@tekken-space/ui/providers'
 import { Toaster } from '@tekken-space/ui/base'
 import {
     type Preferences,
@@ -26,17 +30,21 @@ export default async function RootLayout({
         theme: 'dark',
     }
 
+    const notationTheme: NotationTheme = {}
+
     return (
         <html lang="en" suppressHydrationWarning>
             <body className={bodyClassNames}>
                 <PreferencesProvider preferences={preferences}>
                     <ThemeProvider theme={preferences.theme}>
-                        <main className="h-full">
-                            <TheHeader />
-                            {children}
-                        </main>
+                        <NotationThemeProvider theme={notationTheme}>
+                            <main className="h-full">
+                                <TheHeader />
+                                {children}
+                            </main>
 
-                        <Toaster />
+                            <Toaster />
+                        </NotationThemeProvider>
                     </ThemeProvider>
                 </PreferencesProvider>
             </body>

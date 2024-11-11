@@ -1,11 +1,9 @@
 import { TheNavigation } from '@/components/layout/navigation/the-navigation'
-import { useAuth } from '@/hooks/use-auth'
 import { TheColorModeSwitch } from '@/components/layout/color-mode-switch/the-color-mode-switch'
 import { FeatureNames, FeatureToggle } from '@/components/utils/feature-toggle'
+import { ControllerLayoutSwitch } from '@/components/layout/controller-layout-switch/controller-layout-switch'
 
 export default async function TheHeader() {
-    const { user } = await useAuth()
-
     return (
         <header className="bg-background text-foreground">
             <div className="container flex h-20 w-full items-center justify-between">
@@ -19,7 +17,7 @@ export default async function TheHeader() {
                 </div>
 
                 <div className="flex gap-2">
-                    {/*<ControllerLayoutSwitch />*/}
+                    <ControllerLayoutSwitch />
 
                     <FeatureToggle name={FeatureNames.ColorMode}>
                         <TheColorModeSwitch />
