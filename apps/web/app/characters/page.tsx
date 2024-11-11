@@ -1,6 +1,8 @@
 import { charactersService } from '@tekken-space/database'
 import CharactersGrid from '@/lib/characters/components/characters-grid'
 
+export const dynamic = 'force-dynamic'
+
 export default async function Characters() {
     const characters = await charactersService.findAll()
 
