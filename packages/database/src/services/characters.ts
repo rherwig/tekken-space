@@ -5,7 +5,7 @@ import { db } from '../connection'
 import { characters } from '../schema'
 
 export async function findAll() {
-    return db.select().from(characters)
+    return db.select().from(characters).orderBy(characters.name)
 }
 
 export async function findOne(id: string) {
