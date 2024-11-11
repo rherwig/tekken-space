@@ -38,6 +38,9 @@ const MOVE_SEPARATOR = ';'
  * List of special keywords, like WS, WR, etc.
  */
 const SPECIAL_KEYWORDS: TekkenKeywordsList = {
+    AIR: {
+        value: 'Airborne',
+    },
     BACKDASH: {
         value: 'Backdash',
     },
@@ -56,11 +59,26 @@ const SPECIAL_KEYWORDS: TekkenKeywordsList = {
     FC: {
         value: 'Full Crouch',
     },
+    FDFA: {
+        value: 'Face Down Feet Away',
+    },
+    FDFT: {
+        value: 'Face Down Feet Towards',
+    },
+    FUFA: {
+        value: 'Face Up Feet Away',
+    },
+    FUFT: {
+        value: 'Face Up Feet Towards',
+    },
     HCB: {
         value: 'Half Circle Backward',
     },
     HCF: {
         value: 'Half Circle Forward',
+    },
+    hFC: {
+        value: 'Full Crouch',
     },
     iFC: {
         value: 'Instant Full Crouch',
@@ -74,6 +92,9 @@ const SPECIAL_KEYWORDS: TekkenKeywordsList = {
     OTG: {
         value: 'Opponent Grounded',
     },
+    P: {
+        value: 'Parry',
+    },
     QCB: {
         value: 'Quarter Circle Backward',
     },
@@ -81,6 +102,9 @@ const SPECIAL_KEYWORDS: TekkenKeywordsList = {
         value: 'Quarter Circle Forward',
     },
     SS: {
+        value: 'Side Step',
+    },
+    ss: {
         value: 'Side Step',
     },
     SSL: {
@@ -172,15 +196,15 @@ const TORNADO_KEYWORDS: TekkenKeywordsList = {
  */
 const TOKENS: InstructionToken[] = [
     {
-        expression: expressionFromKeywords(Object.keys(SPECIAL_KEYWORDS)),
-        keywords: SPECIAL_KEYWORDS,
-        subType: InstructionSubType.NONE,
-        type: InstructionTypes.SPECIAL,
-    },
-    {
         expression: expressionFromKeywords(Object.keys(STANCE_KEYWORDS)),
         keywords: STANCE_KEYWORDS,
         subType: InstructionSubType.STANCE,
+        type: InstructionTypes.SPECIAL,
+    },
+    {
+        expression: expressionFromKeywords(Object.keys(SPECIAL_KEYWORDS)),
+        keywords: SPECIAL_KEYWORDS,
+        subType: InstructionSubType.NONE,
         type: InstructionTypes.SPECIAL,
     },
     {
@@ -209,6 +233,11 @@ const TOKENS: InstructionToken[] = [
     {
         expression: /^(])/g,
         subType: InstructionSubType.BRACKET_RIGHT,
+        type: InstructionTypes.CONTROL,
+    },
+    {
+        expression: /^(\*)/g,
+        subType: InstructionSubType.HOLD,
         type: InstructionTypes.CONTROL,
     },
     {

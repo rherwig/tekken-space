@@ -139,7 +139,9 @@ function FramesDisplay(props: {
                 <ul className="flex">
                     <FramesItem>
                         <Syringe />
-                        {!!props.damageTotal ? `${props.damageTotal}` : '-'}
+                        {!!props.damageTotal && props.damageTotal !== 'NaN'
+                            ? `${props.damageTotal}`
+                            : '-'}
                     </FramesItem>
                 </ul>
             </TsChip>
