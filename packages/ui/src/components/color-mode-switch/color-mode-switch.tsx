@@ -11,8 +11,17 @@ import {
     DropdownMenuTrigger,
 } from '#base/dropdown-menu'
 
-export function TsColorModeSwitch() {
+export function TsColorModeSwitch({
+    onChange,
+}: {
+    onChange?: (theme: 'light' | 'dark' | 'system') => void
+}) {
     const { setTheme } = useTheme()
+
+    function handleThemeChange(theme: 'light' | 'dark' | 'system') {
+        setTheme(theme)
+        onChange?.(theme)
+    }
 
     return (
         <DropdownMenu>
@@ -23,13 +32,13 @@ export function TsColorModeSwitch() {
                 </Button>
             </DropdownMenuTrigger>
             <DropdownMenuContent align="end">
-                <DropdownMenuItem onClick={() => setTheme('light')}>
+                <DropdownMenuItem onClick={() => handleThemeChange('light')}>
                     Light
                 </DropdownMenuItem>
-                <DropdownMenuItem onClick={() => setTheme('dark')}>
+                <DropdownMenuItem onClick={() => handleThemeChange('dark')}>
                     Dark
                 </DropdownMenuItem>
-                <DropdownMenuItem onClick={() => setTheme('system')}>
+                <DropdownMenuItem onClick={() => handleThemeChange('system')}>
                     System
                 </DropdownMenuItem>
             </DropdownMenuContent>

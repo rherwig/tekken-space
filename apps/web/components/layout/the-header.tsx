@@ -1,5 +1,7 @@
 import { TheNavigation } from '@/components/layout/navigation/the-navigation'
 import { useAuth } from '@/hooks/use-auth'
+import { TheColorModeSwitch } from '@/components/layout/color-mode-switch/the-color-mode-switch'
+import { FeatureNames, FeatureToggle } from '@/components/utils/feature-toggle'
 
 export default async function TheHeader() {
     const { user } = await useAuth()
@@ -19,7 +21,9 @@ export default async function TheHeader() {
                 <div className="flex gap-2">
                     {/*<ControllerLayoutSwitch />*/}
 
-                    {/*<TsColorModeSwitch />*/}
+                    <FeatureToggle name={FeatureNames.ColorMode}>
+                        <TheColorModeSwitch />
+                    </FeatureToggle>
 
                     {/*{user === null ? (*/}
                     {/*    <TheSignInButton />*/}

@@ -5,6 +5,11 @@ import '@tekken-space/ui/styles'
 import TheHeader from '@/components/layout/the-header'
 import { ThemeProvider } from '@tekken-space/ui/providers'
 import { Toaster } from '@tekken-space/ui/base'
+import {
+    type Preferences,
+    PreferencesProvider,
+} from '@/components/providers/preferences-provider'
+import { bodyClassNames } from '@/assets'
 
 export const metadata: Metadata = {
     description:
@@ -17,17 +22,23 @@ export default async function RootLayout({
 }: Readonly<{
     children: React.ReactNode
 }>) {
+    const preferences: Preferences = {
+        theme: 'dark',
+    }
+
     return (
         <html lang="en" suppressHydrationWarning>
-            <body>
-                <ThemeProvider>
-                    <main className="h-full">
-                        <TheHeader />
-                        {children}
-                    </main>
+            <body className={bodyClassNames}>
+                <PreferencesProvider preferences={preferences}>
+                    <ThemeProvider theme={preferences.theme}>
+                        <main className="h-full">
+                            <TheHeader />
+                            {children}
+                        </main>
 
-                    <Toaster />
-                </ThemeProvider>
+                        <Toaster />
+                    </ThemeProvider>
+                </PreferencesProvider>
             </body>
         </html>
     )

@@ -1,4 +1,4 @@
-import { ShareNotationForm } from '@/components/share/ShareNotationForm'
+import { ShareNotationForm } from '@/app/share/components/ShareNotationForm'
 
 export const dynamic = 'force-dynamic'
 

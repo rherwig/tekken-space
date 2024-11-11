@@ -79,7 +79,7 @@ export function createPreset(): Partial<Config> {
                     center: true,
                 },
                 fontFamily: {
-                    logo: "'Tarrget', serif",
+                    logo: 'var(--font-logo)',
                 },
                 fontSize: {
                     display: '8rem',
