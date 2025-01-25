@@ -7,6 +7,7 @@ const config: Config = {
         './src/components/**/*.{ts,tsx,mdx}',
         './src/docs/**/*.{ts,tsx,mdx}',
     ],
+    darkMode: ['class'],
     presets: [createPreset()],
 }
 
