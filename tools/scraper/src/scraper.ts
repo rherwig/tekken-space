@@ -1,4 +1,4 @@
-import { ScrapedMove } from '@tekken-space/types'
+import { CharacterScrapingMeta, ScrapedMove } from '@tekken-space/types'
 
 import { selectors } from './constants'
 import { scrapeFrameData } from './functions/frames'
@@ -10,11 +10,7 @@ import {
     scrapeNotes,
     scrapeState,
 } from './functions/text'
-import {
-    createCharacterUrl,
-    loadRemoteFile,
-    writeOutput,
-} from './functions/files'
+import { loadRemoteFile, writeOutput } from './functions/files'
 import { dedupeMoves } from './functions/lists'
 import { createDocument } from './functions/dom'
 
@@ -36,14 +32,13 @@ const scrapeMove = ($root: Element): ScrapedMove => {
     }
 }
 
-export const scrape = async (characterSlug: string) => {
-    const url = createCharacterUrl(characterSlug)
-    const markup = await loadRemoteFile(url)
+export const scrape = async (characterMeta: CharacterScrapingMeta) => {
+    const markup = await loadRemoteFile(characterMeta.movesListUrl)
     const document = createDocument(markup)
 
     const $moves = document.querySelectorAll(selectors.MOVE)
     const moves = Array.from($moves).map(scrapeMove)
     const uniqueMoves = dedupeMoves(moves)
 
-    writeOutput(characterSlug, uniqueMoves)
+    writeOutput(characterMeta.id, uniqueMoves)
 }

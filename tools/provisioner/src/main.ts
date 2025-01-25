@@ -1,6 +1,6 @@
 import { provisionCharacters } from './characters'
 import { provisionMoves } from './moves'
-import { CHARACTERS } from './constants'
+import { CHARACTERS_SCRAPING_META } from '@tekken-space/types'
 
 async function provision(
     characterId: string,
@@ -12,8 +12,8 @@ async function provision(
 }
 
 try {
-    for (const character of CHARACTERS) {
-        await provision(character.id, character.name, character.path)
+    for (const character of CHARACTERS_SCRAPING_META) {
+        await provision(character.id, character.name, character.scrapingPath)
     }
 } catch (error: unknown) {
     console.error(error)

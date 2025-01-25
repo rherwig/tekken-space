@@ -4,6 +4,7 @@
     "type": "module",
     "scripts": {
         "build": "turbo build",
+        "db:generate": "dotenvx run -- turbo db:generate",
         "db:migrate": "dotenvx run -- turbo db:migrate",
         "db:provision": "dotenvx run -- turbo provision",
         "deps:check": "manypkg check",

@@ -1,12 +1,12 @@
 import type { CreateMove } from '@tekken-space/database/schema'
 import { movesService } from '@tekken-space/database/services'
-import type { RawMove } from '#types'
+import { ScrapedMove } from '@tekken-space/types'
 
 export async function provisionMoves(characterId: string, path: string) {
-    const rawMoves = await loadMoves(path)
+    const scrapedMoves = await loadMoves(path)
 
     console.log(`Converting moves for '${characterId}'...`)
-    const moves = convertRawMoves(characterId, rawMoves)
+    const moves = convertScrapedMoves(characterId, scrapedMoves)
 
     console.log(`Cleaning moves for '${characterId}'...`)
     await clean(characterId)
@@ -18,37 +18,54 @@ export async function provisionMoves(characterId: string, path: string) {
 async function loadMoves(path: string) {
     const { default: moves } = await import(`../${path}`)
 
-    return moves as RawMove[]
+    return moves as ScrapedMove[]
 }
 
-function convertRawMoves(
+function convertScrapedMoves(
     characterId: string,
-    rawMoves: RawMove[],
+    rawMoves: ScrapedMove[],
 ): CreateMove[] {
     return rawMoves.map((rawMove) => convertRawMove(characterId, rawMove))
 }
 
-function convertRawMove(characterId: string, rawMove: RawMove): CreateMove {
-    const notation = rawMove.input
-    if (!notation) {
+function convertRawMove(
+    characterId: string,
+    scrapedMove: ScrapedMove,
+): CreateMove {
+    if (!scrapedMove.input) {
         throw new Error(`[Convert] Notation is missing.`)
     }
 
-    const damage = rawMove.damage
-        .split(',')
-        .reduce((sum, value) => sum + parseInt(value, 10), 0)
-
     return {
         characterId,
-        damageHits: rawMove.damage,
-        damageTotal: damage.toString(),
-        framesOnBlock: rawMove.onBlock,
-        framesOnCounterHit: rawMove.onCH,
-        framesOnHit: rawMove.onHit,
-        framesOnStartup: rawMove.startup,
-        name: rawMove.name,
-        notation,
-        properties: rawMove.properties,
+        damageHits: scrapedMove.damage.filter((damage) => damage !== null),
+        framesOnBlockLower: scrapedMove.framesOnBlock.lower,
+        framesOnBlockProperties: scrapedMove.framesOnBlock.properties,
+        framesOnBlockRaw: scrapedMove.framesOnBlock._raw,
+        framesOnBlockTech: scrapedMove.framesOnBlock.tech,
+        framesOnBlockUpper: scrapedMove.framesOnBlock.upper,
+        framesOnCounterLower: scrapedMove.framesOnCounter.lower,
+        framesOnCounterProperties: scrapedMove.framesOnCounter.properties,
+        framesOnCounterRaw: scrapedMove.framesOnCounter._raw,
+        framesOnCounterTech: scrapedMove.framesOnCounter.tech,
+        framesOnCounterUpper: scrapedMove.framesOnCounter.upper,
+        framesOnHitLower: scrapedMove.framesOnHit.lower,
+        framesOnHitProperties: scrapedMove.framesOnHit.properties,
+        framesOnHitRaw: scrapedMove.framesOnHit._raw,
+        framesOnHitTech: scrapedMove.framesOnHit.tech,
+        framesOnHitUpper: scrapedMove.framesOnHit.upper,
+        framesOnStartupLower: scrapedMove.framesOnStartup.lower,
+        framesOnStartupProperties: scrapedMove.framesOnStartup.properties,
+        framesOnStartupRaw: scrapedMove.framesOnStartup._raw,
+        framesOnStartupTech: scrapedMove.framesOnStartup.tech,
+        framesOnStartupUpper: scrapedMove.framesOnStartup.upper,
+        isCombo: false,
+        name: scrapedMove.name,
+        notation: scrapedMove.input,
+        notes: scrapedMove.notes,
+        specials: scrapedMove.specials,
+        stateKey: scrapedMove.state.key,
+        stateRaw: scrapedMove.state._raw,
     }
 }
 

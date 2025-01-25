@@ -1,13 +1,13 @@
-import { CHARACTER_SLUGS } from '@tekken-space/types'
+import { CHARACTERS_SCRAPING_META } from '@tekken-space/types'
 import { scrape } from './scraper'
 
 try {
     console.log('Starting scraper...')
 
-    for (const slug of CHARACTER_SLUGS) {
-        console.log(`Scraping: ${slug}`)
-        await scrape(slug)
-        console.log(`Finished scraping: ${slug}`)
+    for (const characterScrapingMeta of CHARACTERS_SCRAPING_META) {
+        console.log(`Scraping: ${characterScrapingMeta.id}`)
+        await scrape(characterScrapingMeta)
+        console.log(`Finished scraping: ${characterScrapingMeta.id}`)
     }
 
     console.log('Finished scraping.')

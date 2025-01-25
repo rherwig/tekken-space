@@ -1,5 +1,5 @@
 {
-  "id": "d029a816-30d0-41a6-a33a-15609ced491b",
+  "id": "5b322383-fff8-4b68-9f07-61a3ebc1db9e",
   "prevId": "00000000-0000-0000-0000-000000000000",
   "version": "7",
   "dialect": "postgresql",
@@ -207,8 +207,8 @@
           "primaryKey": false,
           "notNull": true
         },
-        "email_verified": {
-          "name": "email_verified",
+        "emailVerified": {
+          "name": "emailVerified",
           "type": "timestamp",
           "primaryKey": false,
           "notNull": false
@@ -538,36 +538,131 @@
         },
         "damage_hits": {
           "name": "damage_hits",
+          "type": "integer[]",
+          "primaryKey": false,
+          "notNull": false,
+          "default": "ARRAY[]::integer[]"
+        },
+        "frames_on_block_lower": {
+          "name": "frames_on_block_lower",
           "type": "text",
           "primaryKey": false,
           "notNull": false
         },
-        "damage_total": {
-          "name": "damage_total",
+        "frames_on_block_properties": {
+          "name": "frames_on_block_properties",
+          "type": "text[]",
+          "primaryKey": false,
+          "notNull": false,
+          "default": "ARRAY[]::text[]"
+        },
+        "frames_on_block_raw": {
+          "name": "frames_on_block_raw",
           "type": "text",
           "primaryKey": false,
           "notNull": false
         },
-        "frames_on_block": {
-          "name": "frames_on_block",
+        "frames_on_block_tech": {
+          "name": "frames_on_block_tech",
           "type": "text",
           "primaryKey": false,
           "notNull": false
         },
-        "frames_on_counter_hit": {
-          "name": "frames_on_counter_hit",
+        "frames_on_block_upper": {
+          "name": "frames_on_block_upper",
           "type": "text",
           "primaryKey": false,
           "notNull": false
         },
-        "frames_on_hit": {
-          "name": "frames_on_hit",
+        "frames_on_counter_lower": {
+          "name": "frames_on_counter_lower",
           "type": "text",
           "primaryKey": false,
           "notNull": false
         },
-        "frames_on_startup": {
-          "name": "frames_on_startup",
+        "frames_on_counter_properties": {
+          "name": "frames_on_counter_properties",
+          "type": "text[]",
+          "primaryKey": false,
+          "notNull": false,
+          "default": "ARRAY[]::text[]"
+        },
+        "frames_on_counter_raw": {
+          "name": "frames_on_counter_raw",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "frames_on_counter_tech": {
+          "name": "frames_on_counter_tech",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "frames_on_counter_upper": {
+          "name": "frames_on_counter_upper",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "frames_on_hit_lower": {
+          "name": "frames_on_hit_lower",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "frames_on_hit_properties": {
+          "name": "frames_on_hit_properties",
+          "type": "text[]",
+          "primaryKey": false,
+          "notNull": false,
+          "default": "ARRAY[]::text[]"
+        },
+        "frames_on_hit_raw": {
+          "name": "frames_on_hit_raw",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "frames_on_hit_tech": {
+          "name": "frames_on_hit_tech",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "frames_on_hit_upper": {
+          "name": "frames_on_hit_upper",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "frames_on_startup_lower": {
+          "name": "frames_on_startup_lower",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "frames_on_startup_properties": {
+          "name": "frames_on_startup_properties",
+          "type": "text[]",
+          "primaryKey": false,
+          "notNull": false,
+          "default": "ARRAY[]::text[]"
+        },
+        "frames_on_startup_raw": {
+          "name": "frames_on_startup_raw",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "frames_on_startup_tech": {
+          "name": "frames_on_startup_tech",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "frames_on_startup_upper": {
+          "name": "frames_on_startup_upper",
           "type": "text",
           "primaryKey": false,
           "notNull": false
@@ -576,7 +671,7 @@
           "name": "hit_levels",
           "type": "text[]",
           "primaryKey": false,
-          "notNull": true,
+          "notNull": false,
           "default": "ARRAY[]::text[]"
         },
         "id": {
@@ -612,16 +707,29 @@
         },
         "notes": {
           "name": "notes",
+          "type": "text[]",
+          "primaryKey": false,
+          "notNull": false,
+          "default": "ARRAY[]::text[]"
+        },
+        "specials": {
+          "name": "specials",
+          "type": "text[]",
+          "primaryKey": false,
+          "notNull": false,
+          "default": "ARRAY[]::text[]"
+        },
+        "state_key": {
+          "name": "state_key",
           "type": "text",
           "primaryKey": false,
           "notNull": false
         },
-        "properties": {
-          "name": "properties",
-          "type": "text[]",
+        "state_raw": {
+          "name": "state_raw",
+          "type": "text",
           "primaryKey": false,
-          "notNull": true,
-          "default": "ARRAY[]::text[]"
+          "notNull": false
         },
         "updated_at": {
           "name": "updated_at",

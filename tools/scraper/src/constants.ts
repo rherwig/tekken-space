@@ -1,7 +1,5 @@
 import { fileURLToPath } from 'node:url'
 
-export const BASE_URL = 'https://wavu.wiki/t'
-export const MOVELIST_SUFFIX = '_movelist'
 export const OUTPUT_PATH = fileURLToPath(new URL('../.output', import.meta.url))
 export const COMBINATOR_FRAMES = '~'
 export const COMBINATOR_DAMAGE = ','
