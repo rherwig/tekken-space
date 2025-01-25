@@ -1,5 +1,6 @@
 import { charactersService } from '@tekken-space/database'
-import CharactersGrid from '@/lib/characters/components/characters-grid'
+
+import CharactersGrid from './components/characters-grid'
 
 export const dynamic = 'force-dynamic'
 

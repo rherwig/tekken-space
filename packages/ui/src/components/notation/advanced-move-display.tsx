@@ -6,7 +6,7 @@ import { cn } from '../../utils'
 interface Props {
     notation: string
     name?: string | null
-    damageTotal?: string | null
+    damageTotal?: number | null
     framesOnBlock?: string | null
     framesOnHit?: string | null
     framesOnCounterHit?: string | null
@@ -42,12 +42,12 @@ function getBlockFrameStyles(framesString?: string | null) {
     }
 
     // Safe moves
-    if (frames < 0 && frames >= -10) {
+    if (frames < 0 && frames > -10) {
         return 'text-foreground'
     }
 
     // Unsafe moves
-    if (frames < -10 && frames >= -14) {
+    if (frames <= -10 && frames >= -14) {
         return 'text-warning'
     }
 
@@ -85,7 +85,7 @@ function getHitFrameStyles(framesString?: string | null) {
 }
 
 function FramesDisplay(props: {
-    damageTotal?: string | null
+    damageTotal?: number | null
     framesOnBlock?: string | null
     framesOnHit?: string | null
     framesOnCounterHit?: string | null
@@ -108,9 +108,7 @@ function FramesDisplay(props: {
                 <ul className="flex">
                     <FramesItem>
                         <Timer />
-                        {!!props.framesOnStartup
-                            ? `i${props.framesOnStartup}`
-                            : '-'}
+                        {!!props.framesOnStartup ? props.framesOnStartup : '-'}
                     </FramesItem>
                 </ul>
             </TsChip>
@@ -140,7 +138,7 @@ function FramesDisplay(props: {
                 <ul className="flex">
                     <FramesItem>
                         <Syringe />
-                        {!!props.damageTotal && props.damageTotal !== 'NaN'
+                        {!!props.damageTotal && !Number.isNaN(props.damageTotal)
                             ? `${props.damageTotal}`
                             : '-'}
                     </FramesItem>
@@ -162,10 +160,6 @@ export function TsAdvancedMoveDisplay(props: Props) {
             <TsSimpleMoveDisplay notation={props.notation} />
 
             <div className="mt-4">
-                {props.damageTotal && false && (
-                    <TsChip color="danger">{props.damageTotal}</TsChip>
-                )}
-
                 <FramesDisplay {...props} />
             </div>
         </div>
