@@ -1,0 +1,6512 @@
+[
+  {
+    "damage": [
+      12,
+      12
+    ],
+    "framesOnBlock": {
+      "_raw": "+1",
+      "lower": "+1",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+2c",
+      "lower": "+2",
+      "properties": [
+        "c"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i16",
+      "lower": "i16",
+      "properties": []
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "2+3",
+    "name": "Heat Burst",
+    "notes": [
+      "Cancel to r45 with b,b",
+      "3 chip damage on block",
+      "12 chip damage on hit",
+      "Only deals recoverable damage",
+      "Cannot cause a K.O."
+    ],
+    "specials": [
+      "Heat Burst"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      10,
+      4,
+      2,
+      3,
+      3,
+      3,
+      25
+    ],
+    "framesOnBlock": {
+      "_raw": "+8 LNH",
+      "lower": "+8",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+0",
+      "lower": "+0",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i16",
+      "lower": "i16",
+      "properties": []
+    },
+    "hitLevels": [
+      "m",
+      "th"
+    ],
+    "input": "H.2+3",
+    "name": "Bretwalda",
+    "notes": [
+      "14 Chip Damage on block",
+      "Alternate input: H.FLK.2+3 or H.PAB.2+3"
+    ],
+    "specials": [
+      "Heat Smash",
+      "Floor Break",
+      "Spike"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [],
+    "framesOnBlock": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "hitLevels": [
+      "sp"
+    ],
+    "input": "H.df+3+4",
+    "name": "",
+    "notes": [
+      "Transitions to EXD",
+      "Partially uses remaining heat time"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [],
+    "framesOnBlock": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i18",
+      "lower": "i18",
+      "properties": []
+    },
+    "hitLevels": [
+      "h(th)"
+    ],
+    "input": "H.EXD.1+3",
+    "name": "Two-Faced (TFA)",
+    "notes": [
+      "Unbreakable",
+      "Transitions to TFA"
+    ],
+    "specials": [
+      "Homing"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      15
+    ],
+    "framesOnBlock": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "hitLevels": [
+      "sp",
+      "m",
+      "h(th)"
+    ],
+    "input": "H.LNH",
+    "name": "Two-Faced",
+    "notes": [
+      "Parries mid attacks",
+      "Transitions to TFA after successful parry"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      15
+    ],
+    "framesOnBlock": {
+      "_raw": "+0",
+      "lower": "+0",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+14",
+      "lower": "+14",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "hitLevels": [
+      "th"
+    ],
+    "input": "TFA.1",
+    "name": "Dominion Rush",
+    "notes": [
+      "Press 1 for throw break",
+      "Partially uses remaining heat time"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      50
+    ],
+    "framesOnBlock": {
+      "_raw": "+0",
+      "lower": "+0",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+0d",
+      "lower": "+0",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "hitLevels": [
+      "th"
+    ],
+    "input": "TFA.2",
+    "name": "Debutante Ball",
+    "notes": [
+      "Press 2 for throw break",
+      "Partially uses remaining heat time"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      7,
+      21
+    ],
+    "framesOnBlock": {
+      "_raw": "-12",
+      "lower": "-12",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+18a (+11)",
+      "lower": "+18",
+      "properties": [
+        "a"
+      ],
+      "tech": "+11"
+    },
+    "framesOnStartup": {
+      "_raw": "i14",
+      "lower": "i14",
+      "properties": []
+    },
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "input": "1+2",
+    "name": "Sonic Fang",
+    "notes": [],
+    "specials": [
+      "Heat Engager",
+      "Heat Dash  (+5/+35d/-)"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      21
+    ],
+    "framesOnBlock": {
+      "_raw": "-10",
+      "lower": "-10",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+16a (+7)",
+      "lower": "+16",
+      "properties": [
+        "a"
+      ],
+      "tech": "+7"
+    },
+    "framesOnStartup": {
+      "_raw": "i16",
+      "lower": "i16",
+      "properties": []
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "qcf+1",
+    "name": "Rocket Launcher",
+    "notes": [
+      "Input B to FLK (-3/+23a (+14)/+23a (+14))"
+    ],
+    "specials": [
+      "Heat Engager",
+      "Heat Dash (+5/+36a (+26)/+36a (+26))",
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      30
+    ],
+    "framesOnBlock": {
+      "_raw": "+6",
+      "lower": "+6",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+10d",
+      "lower": "+10",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i20~24",
+      "lower": "i20",
+      "properties": [],
+      "upper": "24"
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "f,f,F+2",
+    "name": "Eraser",
+    "notes": [
+      "9 Chip Damage on block",
+      "12 Chip Damage on block while in heat"
+    ],
+    "specials": [
+      "Heat Engager",
+      "Heat Dash (+5/+67a (+50)/-)",
+      "Balcony Break",
+      "Spike"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      22
+    ],
+    "framesOnBlock": {
+      "_raw": "-3",
+      "lower": "-3",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+16a (+7)",
+      "lower": "+16",
+      "properties": [
+        "a"
+      ],
+      "tech": "+7"
+    },
+    "framesOnStartup": {
+      "_raw": "i23",
+      "lower": "i23",
+      "properties": []
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "ALB.2",
+    "name": "Cyclone Punch",
+    "notes": [],
+    "specials": [
+      "Heat Engager",
+      "Heat Dash (+5/+36a (+26)/-)",
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      21
+    ],
+    "framesOnBlock": {
+      "_raw": "-4",
+      "lower": "-4",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+9/HE",
+      "lower": "+9",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i14-15",
+      "lower": "i14",
+      "properties": []
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "LNH.1",
+    "name": "Vigilant Blow",
+    "notes": [],
+    "specials": [
+      "Heat Engager",
+      "Heat Dash +5g +43a(+35)",
+      "Homing"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      5
+    ],
+    "framesOnBlock": {
+      "_raw": "+1",
+      "lower": "+1",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+8",
+      "lower": "+8",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i10",
+      "lower": "i10",
+      "properties": []
+    },
+    "hitLevels": [
+      "h"
+    ],
+    "input": "1",
+    "name": "",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      5,
+      7
+    ],
+    "framesOnBlock": {
+      "_raw": "-3",
+      "lower": "-3",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+3",
+      "lower": "+3",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i15",
+      "lower": "i15",
+      "properties": []
+    },
+    "hitLevels": [
+      "h",
+      "h"
+    ],
+    "input": "1,1",
+    "name": "Double Jab",
+    "notes": [
+      "Combo from 1st hit",
+      "Transition to LWV with 3 (-6/+0/+0)",
+      "Transition to RWV with 4 (-6/+0/+0)",
+      "Transition to SWY with b+3_4 (-6/+0/+0)",
+      "Transition to DCK with f+3_4 (-2/+4/+4)"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      5,
+      15
+    ],
+    "framesOnBlock": {
+      "_raw": "-6",
+      "lower": "-6",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+5",
+      "lower": "+5",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+0",
+      "lower": "+0",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i25",
+      "lower": "i25",
+      "properties": []
+    },
+    "hitLevels": [
+      "h",
+      "m"
+    ],
+    "input": "1,d+1",
+    "name": "Jab > Body Blow",
+    "notes": [
+      "Transition to FLK with b (+0/+6/+11)"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      5,
+      7,
+      15
+    ],
+    "framesOnBlock": {
+      "_raw": "-6",
+      "lower": "-6",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+5",
+      "lower": "+5",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+0",
+      "lower": "+0",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i25",
+      "lower": "i25",
+      "properties": []
+    },
+    "hitLevels": [
+      "h",
+      "h",
+      "m"
+    ],
+    "input": "1,1,d+1",
+    "name": "Double Jab > Body Blow",
+    "notes": [
+      "Transition to FLK with b (+0/+6/+11)"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      5,
+      7,
+      15
+    ],
+    "framesOnBlock": {
+      "_raw": "-7",
+      "lower": "-7",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+4",
+      "lower": "+4",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i13-14",
+      "lower": "i13",
+      "properties": []
+    },
+    "hitLevels": [
+      "h",
+      "h",
+      "h"
+    ],
+    "input": "1,1,2",
+    "name": "Lightning Combo",
+    "notes": [
+      "Combo from 1st hit",
+      "Input 3 to LWV (-5/+6/+6)",
+      "Input 4 to RWV (-5/+6/+6)",
+      "Input b+3_4 SWY (-5/+6/+6)",
+      "Input f+3_4 DCK (-3/+8/+8)"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      5,
+      10
+    ],
+    "framesOnBlock": {
+      "_raw": "-3",
+      "lower": "-3",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+8",
+      "lower": "+8",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i10",
+      "lower": "i10",
+      "properties": []
+    },
+    "hitLevels": [
+      "h",
+      "h"
+    ],
+    "input": "1,2",
+    "name": "Left Right",
+    "notes": [
+      "Input 3 to LWV (-4/+7/+7)",
+      "Input 4 to RWV (-4/+7/+7)",
+      "Input b+3_4 to SWY (-4/+7/+7)",
+      "Input f+3_4 DCK (-2/+9/+9)"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      5,
+      10,
+      15
+    ],
+    "framesOnBlock": {
+      "_raw": "-3",
+      "lower": "-3",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+3",
+      "lower": "+3",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i14",
+      "lower": "i14",
+      "properties": []
+    },
+    "hitLevels": [
+      "h",
+      "h",
+      "h"
+    ],
+    "input": "1,2,1",
+    "name": "",
+    "notes": [
+      "Combo from 1st CH or 2nd CH",
+      "Input f to PAB (-2/+4/+4)",
+      "Input b to FLK (-1/+5/+5)"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      5,
+      10,
+      15,
+      15
+    ],
+    "framesOnBlock": {
+      "_raw": "-10",
+      "lower": "-10",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+16a (+7)",
+      "lower": "+16",
+      "properties": [
+        "a"
+      ],
+      "tech": "+7"
+    },
+    "framesOnStartup": {
+      "_raw": "i18-19",
+      "lower": "i18",
+      "properties": []
+    },
+    "hitLevels": [
+      "h",
+      "h",
+      "h",
+      "m"
+    ],
+    "input": "1,2,1,2",
+    "name": "British Edge Combo",
+    "notes": [
+      "Combo from 3rd CH",
+      "Transition to LWV with 3 (-6/+20a (+11)/+20a (+11))",
+      "Transition to RWV with 4 (-6/+20a (+11)/+20a (+11))",
+      "Transition to SWY with b+3_4 (-6/+20a (+11)/+20a (+11))",
+      "Input f+3_4 to DCK (-4/+22a (+13)/+22a (+13))"
+    ],
+    "specials": [
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      5,
+      10,
+      15,
+      19
+    ],
+    "framesOnBlock": {
+      "_raw": "-12",
+      "lower": "-12",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+14d",
+      "lower": "+14",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnHit": {
+      "_raw": "+1c",
+      "lower": "+1",
+      "properties": [
+        "c"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i26-27",
+      "lower": "i26",
+      "properties": []
+    },
+    "hitLevels": [
+      "h",
+      "h",
+      "h",
+      "l"
+    ],
+    "input": "1,2,1,d+2",
+    "name": "British Edge Combo 2",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      12
+    ],
+    "framesOnBlock": {
+      "_raw": "-1",
+      "lower": "-1",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+5",
+      "lower": "+5",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i12",
+      "lower": "i12",
+      "properties": []
+    },
+    "hitLevels": [
+      "h"
+    ],
+    "input": "2",
+    "name": "",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      12,
+      14
+    ],
+    "framesOnBlock": {
+      "_raw": "-5",
+      "lower": "-5",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+6",
+      "lower": "+6",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i19",
+      "lower": "i19",
+      "properties": []
+    },
+    "hitLevels": [
+      "h",
+      "h"
+    ],
+    "input": "2,1",
+    "name": "",
+    "notes": [
+      "Combo from 1st hit",
+      "Input f to PAB (+2/+13g/+13)",
+      "Input b to FLK (+3/+14g/+14)"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      12,
+      14,
+      22
+    ],
+    "framesOnBlock": {
+      "_raw": "-11",
+      "lower": "-11",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+13a (+4)",
+      "lower": "+13",
+      "properties": [
+        "a"
+      ],
+      "tech": "+4"
+    },
+    "framesOnStartup": {
+      "_raw": "i25",
+      "lower": "i25",
+      "properties": []
+    },
+    "hitLevels": [
+      "h",
+      "h",
+      "m"
+    ],
+    "input": "2,1,2",
+    "name": "Vanguard Rush",
+    "notes": [
+      "Combo from 2nd CH"
+    ],
+    "specials": [
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      12,
+      17
+    ],
+    "framesOnBlock": {
+      "_raw": "-14",
+      "lower": "-14",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+6",
+      "lower": "+6",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i22-24",
+      "lower": "i22",
+      "properties": []
+    },
+    "hitLevels": [
+      "h",
+      "m"
+    ],
+    "input": "2,2",
+    "name": "Cromwell Combination",
+    "notes": [],
+    "specials": [
+      "Tornado"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      11
+    ],
+    "framesOnBlock": {
+      "_raw": "-6",
+      "lower": "-6",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+5",
+      "lower": "+5",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i21~22",
+      "lower": "i21",
+      "properties": [],
+      "upper": "22"
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "f+2",
+    "name": "",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      11,
+      12
+    ],
+    "framesOnBlock": {
+      "_raw": "-5",
+      "lower": "-5",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+1",
+      "lower": "+1",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i15",
+      "lower": "i15",
+      "properties": []
+    },
+    "hitLevels": [
+      "m",
+      "h"
+    ],
+    "input": "f+2,1",
+    "name": "Ducking Body Blow > Left Hook",
+    "notes": [
+      "Combo from 1st hit",
+      "Input f to r15? PAB (+0/+4/+4)",
+      "Input b to r14? FLK (+1/+5/+5)"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      11,
+      20
+    ],
+    "framesOnBlock": {
+      "_raw": "-10",
+      "lower": "-10",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+36d (+28)",
+      "lower": "+36",
+      "properties": [
+        "d"
+      ],
+      "tech": "+28"
+    },
+    "framesOnStartup": {
+      "_raw": "i31",
+      "lower": "i31",
+      "properties": []
+    },
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "input": "f+2,1~2",
+    "name": "Ducking Psyche-out Body",
+    "notes": [],
+    "specials": [
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      11,
+      15
+    ],
+    "framesOnBlock": {
+      "_raw": "-6",
+      "lower": "-6",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+11g",
+      "lower": "+11",
+      "properties": [
+        "g"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i16~17",
+      "lower": "i16",
+      "properties": [],
+      "upper": "17"
+    },
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "input": "f+2,2",
+    "name": "",
+    "notes": [
+      "Combo from 1st hit",
+      "Transistion to LNH",
+      "Input b to cancel LNH r29? (-10/+7/+7)"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      11,
+      15,
+      5,
+      8,
+      20
+    ],
+    "framesOnBlock": {
+      "_raw": "-12",
+      "lower": "-12",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+5c",
+      "lower": "+5",
+      "properties": [
+        "c"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i18~19, i7~8, i16",
+      "lower": "i18",
+      "properties": [],
+      "upper": "19"
+    },
+    "hitLevels": [
+      "m",
+      "m",
+      "m",
+      "m",
+      "m"
+    ],
+    "input": "f+2,2,1+2",
+    "name": "Conqueror Combination",
+    "notes": [
+      "Combo from 2nd CH"
+    ],
+    "specials": [
+      "Spike",
+      "Floor Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      10,
+      12
+    ],
+    "framesOnBlock": {
+      "_raw": "-14",
+      "lower": "-14",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "-3",
+      "lower": "-3",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i15~16, i7~9",
+      "lower": "i15",
+      "properties": [],
+      "upper": "16"
+    },
+    "hitLevels": [
+      "m",
+      "h"
+    ],
+    "input": "f+1+2",
+    "name": "",
+    "notes": [
+      "Jails from 1st hit"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      10,
+      12,
+      20
+    ],
+    "framesOnBlock": {
+      "_raw": "-13",
+      "lower": "-13",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+3d",
+      "lower": "+3",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i18~19",
+      "lower": "i18",
+      "properties": [],
+      "upper": "19"
+    },
+    "hitLevels": [
+      "m",
+      "h",
+      "m"
+    ],
+    "input": "f+1+2,2",
+    "name": "Shotgun Combination",
+    "notes": [
+      "Combo from 1st hit"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      12
+    ],
+    "framesOnBlock": {
+      "_raw": "-2",
+      "lower": "-2",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+5",
+      "lower": "+5",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i13",
+      "lower": "i13",
+      "properties": []
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "df+1",
+    "name": "Left Uppercut",
+    "notes": [
+      "Input 3 to LWV (-7/0/0)",
+      "Input 4 to RWV (-7/0/0)",
+      "Input b+3_4 to SWY (-7/0/0)",
+      "Input f+3_4 to DCK (-5/+2/+2)"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      12,
+      13
+    ],
+    "framesOnBlock": {
+      "_raw": "-6",
+      "lower": "-6",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+5",
+      "lower": "+5",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+3",
+      "lower": "+3",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i19",
+      "lower": "i19",
+      "properties": []
+    },
+    "hitLevels": [
+      "m",
+      "h"
+    ],
+    "input": "df+1,2",
+    "name": "Uppercut Cross Combo",
+    "notes": [
+      "Combo from 1st hit",
+      "Input 3 to cancel into r16? LWV (-16/-9/-9)",
+      "Input 4 to cancel into r16? RWV (-16/-9/-9)",
+      "Input b+3_4 to cancel into SWY (-16/-9/-9)",
+      "Input f+3_4 to cancel into DCK (-14/-7/-7)"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      12,
+      20
+    ],
+    "framesOnBlock": {
+      "_raw": "-2",
+      "lower": "-2",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+61a",
+      "lower": "+61",
+      "properties": [
+        "a"
+      ]
+    },
+    "framesOnHit": {
+      "_raw": "+2",
+      "lower": "+2",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i30~31",
+      "lower": "i30",
+      "properties": [],
+      "upper": "31"
+    },
+    "hitLevels": [
+      "m",
+      "h"
+    ],
+    "input": "df+1,2~1",
+    "name": "Uppercut Psyche-out Hook",
+    "notes": [
+      "Input b to r14? FLK (+0/+4/+63a)"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      12,
+      12
+    ],
+    "framesOnBlock": {
+      "_raw": "-10",
+      "lower": "-10",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+36d (+28)",
+      "lower": "+36",
+      "properties": [
+        "d"
+      ],
+      "tech": "+28"
+    },
+    "framesOnStartup": {
+      "_raw": "i37",
+      "lower": "i37",
+      "properties": []
+    },
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "input": "df+1,2~2",
+    "name": "Uppercut Psyche-out Body",
+    "notes": [],
+    "specials": [
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      12,
+      8,
+      12
+    ],
+    "framesOnBlock": {
+      "_raw": "-3",
+      "lower": "-3",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+0",
+      "lower": "+0",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i34, i9",
+      "lower": "i34",
+      "properties": []
+    },
+    "hitLevels": [
+      "m",
+      "h",
+      "h"
+    ],
+    "input": "df+1,2~f+1+2",
+    "name": "Uppercut Psyche-out Left Right Combo",
+    "notes": [
+      "Input 3 to LWV (-4/-1/-1)",
+      "Input 4 to RWV (-4/-1/-1)",
+      "Input b+3_4 to SWY (-4/-1/-1)",
+      "Input f+3_4 to DCK (-2/+1/+1)"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      10
+    ],
+    "framesOnBlock": {
+      "_raw": "-11",
+      "lower": "-11",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+8c",
+      "lower": "+8",
+      "properties": [
+        "c"
+      ]
+    },
+    "framesOnHit": {
+      "_raw": "+6",
+      "lower": "+6",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i16",
+      "lower": "i16",
+      "properties": []
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "df+2",
+    "name": "Crescent Hook",
+    "notes": [
+      "Input 3 to LWV (-7/+10/+12)",
+      "Input 4 to RWV (-7/+10/+12)",
+      "Input b+3_4 to SWY (-7/+10/+12)",
+      "Input f+3_4 to DCK (-2/+15g/+17)"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      12
+    ],
+    "framesOnBlock": {
+      "_raw": "-13",
+      "lower": "-13",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "-2",
+      "lower": "-2",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i16",
+      "lower": "i16",
+      "properties": []
+    },
+    "hitLevels": [
+      "l"
+    ],
+    "input": "d+1",
+    "name": "Knee Blaster",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      11
+    ],
+    "framesOnBlock": {
+      "_raw": "-18",
+      "lower": "-18",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "-5",
+      "lower": "-5",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i17",
+      "lower": "i17",
+      "properties": []
+    },
+    "hitLevels": [
+      "l"
+    ],
+    "input": "d+2",
+    "name": "",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      11,
+      8
+    ],
+    "framesOnBlock": {
+      "_raw": "-11",
+      "lower": "-11",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+0",
+      "lower": "+0",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "-5",
+      "lower": "-5",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i14~15",
+      "lower": "i14",
+      "properties": [],
+      "upper": "15"
+    },
+    "hitLevels": [
+      "l",
+      "m"
+    ],
+    "input": "d+2,1",
+    "name": "",
+    "notes": [
+      "Combo from 1st CH",
+      "Input 3 to cancel into LWV (-6/+0/+0)",
+      "Input 4 to cancel into RWV (-6/+0/+0)",
+      "Input b+3_4 to cancel into SWY (-6/+0/+0)",
+      "Input f+3_4 to cancel into DCK (-4/+2/+7)"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      11,
+      8,
+      17
+    ],
+    "framesOnBlock": {
+      "_raw": "-2",
+      "lower": "-2",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+56a",
+      "lower": "+56",
+      "properties": [
+        "a"
+      ]
+    },
+    "framesOnHit": {
+      "_raw": "+27a (+18)",
+      "lower": "+27",
+      "properties": [
+        "a"
+      ],
+      "tech": "+18"
+    },
+    "framesOnStartup": {
+      "_raw": "i24~25",
+      "lower": "i24",
+      "properties": [],
+      "upper": "25"
+    },
+    "hitLevels": [
+      "l",
+      "m",
+      "h"
+    ],
+    "input": "d+2,1,2",
+    "name": "Wildman Combo",
+    "notes": [
+      "Combo from 2nd CH"
+    ],
+    "specials": [
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      5
+    ],
+    "framesOnBlock": {
+      "_raw": "-5",
+      "lower": "-5",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+6",
+      "lower": "+6",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i10",
+      "lower": "i10",
+      "properties": []
+    },
+    "hitLevels": [
+      "sl"
+    ],
+    "input": "db+1",
+    "name": "Crouch Jab",
+    "notes": [
+      "Transition to Standing with f"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      21
+    ],
+    "framesOnBlock": {
+      "_raw": "-12",
+      "lower": "-12",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+14d",
+      "lower": "+14",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnHit": {
+      "_raw": "+1c",
+      "lower": "+1",
+      "properties": [
+        "c"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i26",
+      "lower": "i26",
+      "properties": []
+    },
+    "hitLevels": [
+      "l"
+    ],
+    "input": "db+2",
+    "name": "Knee Clipper",
+    "notes": [
+      "d or db to recover in crouch"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      10
+    ],
+    "framesOnBlock": {
+      "_raw": "-13",
+      "lower": "-13",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+0",
+      "lower": "+0",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i16",
+      "lower": "i16",
+      "properties": []
+    },
+    "hitLevels": [
+      "l"
+    ],
+    "input": "db+3",
+    "name": "",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      10,
+      10
+    ],
+    "framesOnBlock": {
+      "_raw": "-6",
+      "lower": "-6",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+8",
+      "lower": "+8",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i15~16",
+      "lower": "i15",
+      "properties": [],
+      "upper": "16"
+    },
+    "hitLevels": [
+      "l",
+      "h"
+    ],
+    "input": "db+3,2",
+    "name": "Foot Stomp Right Hook",
+    "notes": [
+      "Combo from first hit",
+      "-27 on block after blocking first hit",
+      "Transition to LNH",
+      "Input b to cancel LNH (-31/-10/+4/+4)"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      21
+    ],
+    "framesOnBlock": {
+      "_raw": "-13",
+      "lower": "-13",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+14",
+      "lower": "+14",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i28",
+      "lower": "i28",
+      "properties": []
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "db+1+2",
+    "name": "Stun Gun",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      10
+    ],
+    "framesOnBlock": {
+      "_raw": "-14",
+      "lower": "-14",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+61a",
+      "lower": "+61",
+      "properties": [
+        "a"
+      ]
+    },
+    "framesOnHit": {
+      "_raw": "+2",
+      "lower": "+2",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i13",
+      "lower": "i13",
+      "properties": []
+    },
+    "hitLevels": [
+      "h"
+    ],
+    "input": "b+1",
+    "name": "Quick Hook",
+    "notes": [
+      "Input B to FLK (-1/+10/+69)"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      10,
+      17
+    ],
+    "framesOnBlock": {
+      "_raw": "+3",
+      "lower": "+3",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+8",
+      "lower": "+8",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i17~18",
+      "lower": "i17",
+      "properties": [],
+      "upper": "18"
+    },
+    "hitLevels": [
+      "h",
+      "h"
+    ],
+    "input": "b+1,2",
+    "name": "Quick Draw",
+    "notes": [
+      "Combo from 1st hit",
+      "Transitions to LNH",
+      "Input b to cancel LNH (-1/+4/+4)"
+    ],
+    "specials": [
+      "Homing",
+      "Strong Aerial Tailspin"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      10,
+      17
+    ],
+    "framesOnBlock": {
+      "_raw": "-8",
+      "lower": "-8",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+63a",
+      "lower": "+63",
+      "properties": [
+        "a"
+      ]
+    },
+    "framesOnHit": {
+      "_raw": "+4",
+      "lower": "+4",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i30~31",
+      "lower": "i30",
+      "properties": [],
+      "upper": "31"
+    },
+    "hitLevels": [
+      "h",
+      "m"
+    ],
+    "input": "b+1,2~1",
+    "name": "Swindler",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      10,
+      10
+    ],
+    "framesOnBlock": {
+      "_raw": "-11",
+      "lower": "-11",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+0",
+      "lower": "+0",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i27~28",
+      "lower": "i27",
+      "properties": [],
+      "upper": "28"
+    },
+    "hitLevels": [
+      "h",
+      "l"
+    ],
+    "input": "b+1,d+2",
+    "name": "",
+    "notes": [
+      "Combo from 1st hit",
+      "Input F to PAB (-9/+2/+2)"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      10,
+      10,
+      10
+    ],
+    "framesOnBlock": {
+      "_raw": "-9",
+      "lower": "-9",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+35a (+20a)",
+      "lower": "+35",
+      "properties": [
+        "a"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i25~27",
+      "lower": "i25",
+      "properties": [],
+      "upper": "27"
+    },
+    "hitLevels": [
+      "h",
+      "l",
+      "m"
+    ],
+    "input": "b+1,d+2,1",
+    "name": "Frigate Combo",
+    "notes": [
+      "Combo from 2nd CH"
+    ],
+    "specials": [
+      "Tornado"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      20
+    ],
+    "framesOnBlock": {
+      "_raw": "-13",
+      "lower": "-13",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+14",
+      "lower": "+14",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i17",
+      "lower": "i17",
+      "properties": []
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "b+2",
+    "name": "Body Bomb",
+    "notes": [
+      "Can evade highs"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      17
+    ],
+    "framesOnBlock": {
+      "_raw": "+3",
+      "lower": "+3",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+14",
+      "lower": "+14",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i17",
+      "lower": "i17",
+      "properties": []
+    },
+    "hitLevels": [
+      "h"
+    ],
+    "input": "ub+2",
+    "name": "Bounty Hunter",
+    "notes": [
+      "Causes Strong Aerial Tailspin",
+      "Transition into LNH",
+      "Input b to cancel LNH (+3/+14/+14)"
+    ],
+    "specials": [
+      "Strong Aerial Tailspin",
+      "Homing"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      17
+    ],
+    "framesOnBlock": {
+      "_raw": "-8",
+      "lower": "-8",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+63a",
+      "lower": "+63",
+      "properties": [
+        "a"
+      ]
+    },
+    "framesOnHit": {
+      "_raw": "+4",
+      "lower": "+4",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i30~31",
+      "lower": "i30",
+      "properties": [],
+      "upper": "31"
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "ub+2~1",
+    "name": "Swindler",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      70
+    ],
+    "framesOnBlock": {
+      "_raw": "+12a (+1)",
+      "lower": "+12",
+      "properties": [
+        "a"
+      ],
+      "tech": "+1"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+12a (+1)",
+      "lower": "+12",
+      "properties": [
+        "a"
+      ],
+      "tech": "+1"
+    },
+    "framesOnStartup": {
+      "_raw": "i66~69",
+      "lower": "i66",
+      "properties": [],
+      "upper": "69"
+    },
+    "hitLevels": [
+      "ub(m)"
+    ],
+    "input": "ub+1+2",
+    "name": "Hellfire",
+    "notes": [],
+    "specials": [
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      18
+    ],
+    "framesOnBlock": {
+      "_raw": "-6",
+      "lower": "-6",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+5",
+      "lower": "+5",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i19~21",
+      "lower": "i19",
+      "properties": [],
+      "upper": "21"
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "uf+1",
+    "name": "Over the Top",
+    "notes": [],
+    "specials": [
+      "Spike"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      20
+    ],
+    "framesOnBlock": {
+      "_raw": "-14",
+      "lower": "-14",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+52a",
+      "lower": "+52",
+      "properties": [
+        "a"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i22~25",
+      "lower": "i22",
+      "properties": [],
+      "upper": "25"
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "uf+2",
+    "name": "Burst Hammer",
+    "notes": [],
+    "specials": [
+      "Spike"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      20
+    ],
+    "framesOnBlock": {
+      "_raw": "-12",
+      "lower": "-12",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+9",
+      "lower": "+9",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i36~37",
+      "lower": "i36",
+      "properties": [],
+      "upper": "37"
+    },
+    "hitLevels": [
+      "l"
+    ],
+    "input": "uf+3",
+    "name": "",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      20,
+      10
+    ],
+    "framesOnBlock": {
+      "_raw": "-6",
+      "lower": "-6",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+8",
+      "lower": "+8",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i15~16",
+      "lower": "i15",
+      "properties": [],
+      "upper": "16"
+    },
+    "hitLevels": [
+      "l",
+      "h"
+    ],
+    "input": "uf+3,2",
+    "name": "Jump-in Foot Stomp Right Hook",
+    "notes": [
+      "Combo from 1st hit",
+      "-27 on block after blocking 1st hit",
+      "Transition to LNH",
+      "Input b to cancel LNH (-31/-10/+4/+4)"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      20
+    ],
+    "framesOnBlock": {
+      "_raw": "-9",
+      "lower": "-9",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+36a (+26)",
+      "lower": "+36",
+      "properties": [
+        "a"
+      ],
+      "tech": "+26"
+    },
+    "framesOnHit": {
+      "_raw": "+22a (+5)",
+      "lower": "+22",
+      "properties": [
+        "a"
+      ],
+      "tech": "+5"
+    },
+    "framesOnStartup": {
+      "_raw": "i23",
+      "lower": "i23",
+      "properties": []
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "uf+4",
+    "name": "Jumping Duck Kick",
+    "notes": [],
+    "specials": [
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      24
+    ],
+    "framesOnBlock": {
+      "_raw": "-13c",
+      "lower": "-13",
+      "properties": [
+        "c"
+      ]
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+12d",
+      "lower": "+12",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i14~17",
+      "lower": "i14",
+      "properties": [],
+      "upper": "17"
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "f,F+2",
+    "name": "Beat Down",
+    "notes": [],
+    "specials": [
+      "Spike"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      18
+    ],
+    "framesOnBlock": {
+      "_raw": "-18",
+      "lower": "-18",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+2c",
+      "lower": "+2",
+      "properties": [
+        "c"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i19",
+      "lower": "i19",
+      "properties": []
+    },
+    "hitLevels": [
+      "l"
+    ],
+    "input": "qcf+2",
+    "name": "Low Cross Blaster",
+    "notes": [
+      "Input F transitions to PAB"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      23
+    ],
+    "framesOnBlock": {
+      "_raw": "-12",
+      "lower": "-12",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+17d",
+      "lower": "+17",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i16",
+      "lower": "i16",
+      "properties": []
+    },
+    "hitLevels": [
+      "l"
+    ],
+    "input": "after_2steps+1",
+    "name": "Sliding Low Punch",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      20
+    ],
+    "framesOnBlock": {
+      "_raw": "-15",
+      "lower": "-15",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+34a (+24)",
+      "lower": "+34",
+      "properties": [
+        "a"
+      ],
+      "tech": "+24"
+    },
+    "framesOnStartup": {
+      "_raw": "i16",
+      "lower": "i16",
+      "properties": []
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "FC.df+2",
+    "name": "Finishing Blow",
+    "notes": [],
+    "specials": [
+      "Tornado"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      12
+    ],
+    "framesOnBlock": {
+      "_raw": "-3",
+      "lower": "-3",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+8",
+      "lower": "+8",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+3",
+      "lower": "+3",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i11~12",
+      "lower": "i11",
+      "properties": [],
+      "upper": "12"
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "WS.1",
+    "name": "",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      12,
+      7
+    ],
+    "framesOnBlock": {
+      "_raw": "-3",
+      "lower": "-3",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+3",
+      "lower": "+3",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i15",
+      "lower": "i15",
+      "properties": []
+    },
+    "hitLevels": [
+      "m",
+      "h"
+    ],
+    "input": "WS.1,1",
+    "name": "Eagle Jab",
+    "notes": [
+      "Combo from 1st hit",
+      "Input 3 to LWV (-6/+0/+0)",
+      "Input 4 to RWV (-6/+0/+0)",
+      "Input b+3_4 to SWY (-6/+0/+0)",
+      "Input f+3_4 to DCK (-2/+4/+4)"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      12,
+      20
+    ],
+    "framesOnBlock": {
+      "_raw": "-13",
+      "lower": "-13",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+23d",
+      "lower": "+23",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnHit": {
+      "_raw": "+3c",
+      "lower": "+3",
+      "properties": [
+        "c"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i13~14",
+      "lower": "i13",
+      "properties": [],
+      "upper": "14"
+    },
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "input": "WS.1,2",
+    "name": "Wildman",
+    "notes": [
+      "Combo from 1st hit"
+    ],
+    "specials": [
+      "Spike"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      17
+    ],
+    "framesOnBlock": {
+      "_raw": "-7",
+      "lower": "-7",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+4",
+      "lower": "+4",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i13~15",
+      "lower": "i13",
+      "properties": [],
+      "upper": "15"
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "WS.2",
+    "name": "",
+    "notes": [
+      "Input 3 to LWV (-7/+4/+4)",
+      "Input 4 to RWV (-7/+4/+4)",
+      "Input b+3_4 to SWY (-7/+4/+4)",
+      "Input f+3_4 to DCK (-5/+6/+6)"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      17,
+      15
+    ],
+    "framesOnBlock": {
+      "_raw": "-6",
+      "lower": "-6",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+11",
+      "lower": "+11",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i16~17",
+      "lower": "i16",
+      "properties": [],
+      "upper": "17"
+    },
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "input": "WS.2,2",
+    "name": "Nighthawk Combination",
+    "notes": [
+      "Combo from 1st hit",
+      "Transition to LNH",
+      "Input b to cancel LNH (-10/+7/+7)"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      7,
+      21
+    ],
+    "framesOnBlock": {
+      "_raw": "-12",
+      "lower": "-12",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+18a (+11)",
+      "lower": "+18",
+      "properties": [
+        "a"
+      ],
+      "tech": "+11"
+    },
+    "framesOnStartup": {
+      "_raw": "i14, i9-10",
+      "lower": "i14",
+      "properties": []
+    },
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "input": "WS.1+2",
+    "name": "Sonic Fang",
+    "notes": [],
+    "specials": [
+      "Heat Engager",
+      "Heat Dash  (+5/+35d/-)"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [],
+    "framesOnBlock": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "hitLevels": [
+      "sp"
+    ],
+    "input": "3",
+    "name": "Ducking Left",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      14
+    ],
+    "framesOnBlock": {
+      "_raw": "-10",
+      "lower": "-10",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+1",
+      "lower": "+1",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i15",
+      "lower": "i15",
+      "properties": []
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "LWV.1",
+    "name": "",
+    "notes": [
+      "Input b to r18? FLK (-3/+8/+8)"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      14,
+      22
+    ],
+    "framesOnBlock": {
+      "_raw": "-13",
+      "lower": "-13",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+28a (+19)",
+      "lower": "+28",
+      "properties": [
+        "a"
+      ],
+      "tech": "+19"
+    },
+    "framesOnStartup": {
+      "_raw": "i24~26",
+      "lower": "i24",
+      "properties": [],
+      "upper": "26"
+    },
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "input": "LWV.1,1",
+    "name": "Double Stinger",
+    "notes": [
+      "Combo from 1st hit"
+    ],
+    "specials": [
+      "Strong Aerial Tailspin",
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      14,
+      9
+    ],
+    "framesOnBlock": {
+      "_raw": "-3",
+      "lower": "-3",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+3",
+      "lower": "+3",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i17",
+      "lower": "i17",
+      "properties": []
+    },
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "input": "LWV.1,f+1",
+    "name": "",
+    "notes": [
+      "Combo from 1st hit"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      14,
+      9,
+      8
+    ],
+    "framesOnBlock": {
+      "_raw": "+3",
+      "lower": "+3",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+68a",
+      "lower": "+68",
+      "properties": [
+        "a"
+      ]
+    },
+    "framesOnHit": {
+      "_raw": "+7",
+      "lower": "+7",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i16",
+      "lower": "i16",
+      "properties": []
+    },
+    "hitLevels": [
+      "m",
+      "m",
+      "h"
+    ],
+    "input": "LWV.1,f+1,1",
+    "name": "Centurion Rush",
+    "notes": [
+      "Combo from 1st or 2nd hit",
+      "Input b to r14? FLK (+4/+3/+68a)"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      14,
+      14
+    ],
+    "framesOnBlock": {
+      "_raw": "+3",
+      "lower": "+3",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+8",
+      "lower": "+8",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i22~23",
+      "lower": "i22",
+      "properties": [],
+      "upper": "23"
+    },
+    "hitLevels": [
+      "m",
+      "h"
+    ],
+    "input": "LWV.1,2",
+    "name": "Bee Sting Combo",
+    "notes": [
+      "Combo from 1st hit",
+      "Transition to LNH",
+      "Input b to cancel LNH (-1/+4/+4)"
+    ],
+    "specials": [
+      "Strong Aerial Tailspin",
+      "Homing"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      14,
+      17
+    ],
+    "framesOnBlock": {
+      "_raw": "-8",
+      "lower": "-8",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+63a",
+      "lower": "+63",
+      "properties": [
+        "a"
+      ]
+    },
+    "framesOnHit": {
+      "_raw": "+4",
+      "lower": "+4",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i30~31",
+      "lower": "i30",
+      "properties": [],
+      "upper": "31"
+    },
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "input": "LWV.1,2~1",
+    "name": "Swindler",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      13
+    ],
+    "framesOnBlock": {
+      "_raw": "-5",
+      "lower": "-5",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+4",
+      "lower": "+4",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i14~16",
+      "lower": "i14",
+      "properties": [],
+      "upper": "16"
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "LWV.2",
+    "name": "",
+    "notes": [
+      "Input f to PAB (-1/+8/+8)"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      13,
+      21
+    ],
+    "framesOnBlock": {
+      "_raw": "-8",
+      "lower": "-8",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+7d",
+      "lower": "+7",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnHit": {
+      "_raw": "+4c",
+      "lower": "+4",
+      "properties": [
+        "c"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i19",
+      "lower": "i19",
+      "properties": []
+    },
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "input": "LWV.2,1",
+    "name": "Right Shoulder Rush > Billy Club",
+    "notes": [
+      "Combo from 1st CH"
+    ],
+    "specials": [
+      "Spike"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [],
+    "framesOnBlock": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "hitLevels": [
+      "sp"
+    ],
+    "input": "4",
+    "name": "Ducking Right",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      13
+    ],
+    "framesOnBlock": {
+      "_raw": "-5",
+      "lower": "-5",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+4",
+      "lower": "+4",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i14~16",
+      "lower": "i14",
+      "properties": [],
+      "upper": "16"
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "RWV.1",
+    "name": "",
+    "notes": [
+      "Input f into PAB (-1/+8/+8)"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      13,
+      17
+    ],
+    "framesOnBlock": {
+      "_raw": "+3",
+      "lower": "+3",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+8",
+      "lower": "+8",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i22~23",
+      "lower": "i22",
+      "properties": [],
+      "upper": "23"
+    },
+    "hitLevels": [
+      "m",
+      "h"
+    ],
+    "input": "RWV.1,2",
+    "name": "Hawk Swoop Combo",
+    "notes": [
+      "Combo from 1st hit",
+      "Transition into LNH",
+      "Input b to cancel LNH (-1/+4/+4)"
+    ],
+    "specials": [
+      "Strong Aerial Tailspin",
+      "Homing"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      13,
+      17
+    ],
+    "framesOnBlock": {
+      "_raw": "-8",
+      "lower": "-8",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+63a",
+      "lower": "+63",
+      "properties": [
+        "a"
+      ]
+    },
+    "framesOnHit": {
+      "_raw": "+4",
+      "lower": "+4",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i30~31",
+      "lower": "i30",
+      "properties": [],
+      "upper": "31"
+    },
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "input": "RWV.1,2~1",
+    "name": "Swindler",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      22
+    ],
+    "framesOnBlock": {
+      "_raw": "-13",
+      "lower": "-13",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+10a (+1)",
+      "lower": "+10",
+      "properties": [
+        "a"
+      ],
+      "tech": "+1"
+    },
+    "framesOnStartup": {
+      "_raw": "i15",
+      "lower": "i15",
+      "properties": []
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "RWV.2",
+    "name": "Gut Drill",
+    "notes": [],
+    "specials": [
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [],
+    "framesOnBlock": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "hitLevels": [
+      "sp"
+    ],
+    "input": "b+3_4",
+    "name": "Swaying",
+    "notes": [
+      "Transition to SWY",
+      "Input 3 to LWV",
+      "Input 4 to RWV",
+      "Input f+3_4 to DCK"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      26
+    ],
+    "framesOnBlock": {
+      "_raw": "-1c",
+      "lower": "-1",
+      "properties": [
+        "c"
+      ]
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+14c",
+      "lower": "+14",
+      "properties": [
+        "c"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i16~17",
+      "lower": "i16",
+      "properties": [],
+      "upper": "17"
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "SWY.1",
+    "name": "Billy Club",
+    "notes": [
+      "Can be +15c at farther ranges"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      30
+    ],
+    "framesOnBlock": {
+      "_raw": "-18",
+      "lower": "-18",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+36a",
+      "lower": "+36",
+      "properties": [
+        "a"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i17~18",
+      "lower": "i17",
+      "properties": [],
+      "upper": "18"
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "SWY.2",
+    "name": "Snake Charmer",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [],
+    "framesOnBlock": {
+      "_raw": "-2",
+      "lower": "-2",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+1 / +10~17wc",
+      "lower": "+1",
+      "properties": [
+        "wc"
+      ],
+      "upper": "17"
+    },
+    "framesOnStartup": {
+      "_raw": "i10~15",
+      "lower": "i10",
+      "properties": [],
+      "upper": "15"
+    },
+    "hitLevels": [
+      "th"
+    ],
+    "input": "SWY.1+2",
+    "name": "Position Change",
+    "notes": [
+      "+10 when opponent hits the wall, if the throw is successful",
+      "Frame advantage on wall crush increases up to +17 the further the opponent is from the wall",
+      "Throw break 1+2"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [],
+    "framesOnBlock": {
+      "_raw": "-2",
+      "lower": "-2",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+1 / +13~17wc",
+      "lower": "+1",
+      "properties": [
+        "wc"
+      ],
+      "upper": "17"
+    },
+    "framesOnStartup": {
+      "_raw": "i10~15",
+      "lower": "i10",
+      "properties": [],
+      "upper": "15"
+    },
+    "hitLevels": [
+      "th"
+    ],
+    "input": "SWY.1+2~b_u_d",
+    "name": "",
+    "notes": [
+      "+13 when opponent hits the wall after being rotated by < 90 degrees",
+      "+17 when opponent hits the wall after being rotated by > 90 degrees",
+      "Frame advantage on wall crush increases up to +17 the further the opponent is from the wall",
+      "Throw break 1+2"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [],
+    "framesOnBlock": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "hitLevels": [
+      "sp"
+    ],
+    "input": "3+4",
+    "name": "Quick Spin",
+    "notes": [
+      "Transition into ALB",
+      "Input f into PAB"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      17
+    ],
+    "framesOnBlock": {
+      "_raw": "-12",
+      "lower": "-12",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+14d",
+      "lower": "+14",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnHit": {
+      "_raw": "+1c",
+      "lower": "+1",
+      "properties": [
+        "c"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i34",
+      "lower": "i34",
+      "properties": []
+    },
+    "hitLevels": [
+      "l"
+    ],
+    "input": "ALB.d+2",
+    "name": "Cyclone Knee Clip",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [],
+    "framesOnBlock": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "hitLevels": [
+      "sp"
+    ],
+    "input": "ALB.d_u",
+    "name": "Cyclone Left (Right)",
+    "notes": [
+      "Input F to transition PAB"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      null,
+      34
+    ],
+    "framesOnBlock": {
+      "_raw": "-3",
+      "lower": "-3",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+16a (+7)",
+      "lower": "+16",
+      "properties": [
+        "a"
+      ],
+      "tech": "+7"
+    },
+    "framesOnStartup": {
+      "_raw": ",i12",
+      "lower": "i12",
+      "properties": []
+    },
+    "hitLevels": [
+      "sp",
+      "m"
+    ],
+    "input": "ALB.d_u,1",
+    "name": "Double Cyclone Punch",
+    "notes": [],
+    "specials": [
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      null,
+      30
+    ],
+    "framesOnBlock": {
+      "_raw": "-12",
+      "lower": "-12",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+14d",
+      "lower": "+14",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": ",i22",
+      "lower": "i22",
+      "properties": []
+    },
+    "hitLevels": [
+      "sp",
+      "l"
+    ],
+    "input": "ALB.d_u,d+1",
+    "name": "Double Cyclone Knee Punch",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [],
+    "framesOnBlock": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "hitLevels": [
+      "sp"
+    ],
+    "input": "f+3_4",
+    "name": "Ducking",
+    "notes": [
+      "Transition to DCK",
+      "Input u+3_4 to LWV",
+      "Input d+3_4 to RWV",
+      "Input b+3_4 to SWY",
+      "Input f+3_4 to DCK",
+      "Input db to FC"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      17
+    ],
+    "framesOnBlock": {
+      "_raw": "-7",
+      "lower": "-7",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+34a (+24)",
+      "lower": "+34",
+      "properties": [
+        "a"
+      ],
+      "tech": "+24"
+    },
+    "framesOnHit": {
+      "_raw": "+58a (+27)",
+      "lower": "+58",
+      "properties": [
+        "a"
+      ],
+      "tech": "+27"
+    },
+    "framesOnStartup": {
+      "_raw": "i19",
+      "lower": "i19",
+      "properties": []
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "DCK.1",
+    "name": "Fox Hunt",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      15
+    ],
+    "framesOnBlock": {
+      "_raw": "-14",
+      "lower": "-14",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+35a (+25)",
+      "lower": "+35",
+      "properties": [
+        "a"
+      ],
+      "tech": "+25"
+    },
+    "framesOnStartup": {
+      "_raw": "i19",
+      "lower": "i19",
+      "properties": []
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "DCK.2",
+    "name": "Skyscraper",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      21
+    ],
+    "framesOnBlock": {
+      "_raw": "-7",
+      "lower": "-7",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+49a",
+      "lower": "+49",
+      "properties": [
+        "a"
+      ]
+    },
+    "framesOnHit": {
+      "_raw": "+9d",
+      "lower": "+9",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i15",
+      "lower": "i15",
+      "properties": []
+    },
+    "hitLevels": [
+      "h"
+    ],
+    "input": "DCK.f+2",
+    "name": "Punisher",
+    "notes": [
+      "Input 3 to LWV (+1/+17d/+57a)",
+      "Input 4 to RWV (+1/+17d/+57a)",
+      "Input b+3_4 to SWY (+1/+17d/+57a)",
+      "Input f+3_4 to DCK (+3/+19d/+59a)"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      3,
+      3
+    ],
+    "framesOnBlock": {
+      "_raw": "-9",
+      "lower": "-9",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+2",
+      "lower": "+2",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i16, i7",
+      "lower": "i16",
+      "properties": []
+    },
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "input": "DCK.1+2",
+    "name": "",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      3,
+      3,
+      3,
+      3
+    ],
+    "framesOnBlock": {
+      "_raw": "-9",
+      "lower": "-9",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+2",
+      "lower": "+2",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i5, i2",
+      "lower": "i5",
+      "properties": []
+    },
+    "hitLevels": [
+      "m",
+      "m",
+      "m",
+      "m"
+    ],
+    "input": "DCK.1+2,1+2",
+    "name": "",
+    "notes": [
+      "Combo from 1st hit"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      3,
+      3,
+      3,
+      3,
+      2,
+      2
+    ],
+    "framesOnBlock": {
+      "_raw": "-9",
+      "lower": "-9",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+2",
+      "lower": "+2",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i5, i2",
+      "lower": "i5",
+      "properties": []
+    },
+    "hitLevels": [
+      "m",
+      "m",
+      "m",
+      "m",
+      "m",
+      "m"
+    ],
+    "input": "DCK.1+2,1+2,1+2",
+    "name": "",
+    "notes": [
+      "Combo from 1st hit"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      3,
+      3,
+      3,
+      3,
+      2,
+      2,
+      2,
+      12
+    ],
+    "framesOnBlock": {
+      "_raw": "-12",
+      "lower": "-12",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+32a (+22)",
+      "lower": "+32",
+      "properties": [
+        "a"
+      ],
+      "tech": "+22"
+    },
+    "framesOnStartup": {
+      "_raw": "i7, i9",
+      "lower": "i7",
+      "properties": []
+    },
+    "hitLevels": [
+      "m",
+      "m",
+      "m",
+      "m",
+      "m",
+      "m",
+      "m",
+      "m"
+    ],
+    "input": "DCK.1+2,1+2,1+2,1+2",
+    "name": "Gatling Gun",
+    "notes": [
+      "Combo from 1st hit"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [],
+    "framesOnBlock": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "hitLevels": [
+      "sp"
+    ],
+    "input": "DCK.f+3_4",
+    "name": "Ducking In",
+    "notes": [
+      "Transition to EXTDCK"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      21
+    ],
+    "framesOnBlock": {
+      "_raw": "-7",
+      "lower": "-7",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+41a (+31)",
+      "lower": "+41",
+      "properties": [
+        "a"
+      ],
+      "tech": "+31"
+    },
+    "framesOnHit": {
+      "_raw": "+44d (+36)",
+      "lower": "+44",
+      "properties": [
+        "d"
+      ],
+      "tech": "+36"
+    },
+    "framesOnStartup": {
+      "_raw": "i19",
+      "lower": "i19",
+      "properties": []
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "EXD.1",
+    "name": "Power Fox Hunt",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      21
+    ],
+    "framesOnBlock": {
+      "_raw": "-14",
+      "lower": "-14",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+61a (+51)",
+      "lower": "+61",
+      "properties": [
+        "a"
+      ],
+      "tech": "+51"
+    },
+    "framesOnStartup": {
+      "_raw": "i19",
+      "lower": "i19",
+      "properties": []
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "EXD.2",
+    "name": "Power Skyscraper",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      28
+    ],
+    "framesOnBlock": {
+      "_raw": "+2",
+      "lower": "+2",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+49a",
+      "lower": "+49",
+      "properties": [
+        "a"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i15",
+      "lower": "i15",
+      "properties": []
+    },
+    "hitLevels": [
+      "h"
+    ],
+    "input": "EXD.f+2",
+    "name": "Power Punisher",
+    "notes": [
+      "Input 3 to LWV (+10/+59a/-)",
+      "Input 4 to RWV (+10/+59a/-)",
+      "Input b+3_4 to SWY (+10/+57a/-)",
+      "Input f+3_4 to DCK (+12/+59a/-)"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [],
+    "framesOnBlock": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "hitLevels": [
+      "sp"
+    ],
+    "input": "f+3+4",
+    "name": "Peekaboo",
+    "notes": [
+      "Transition to PAB",
+      "Auto blocks high and mid"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      10
+    ],
+    "framesOnBlock": {
+      "_raw": "-2",
+      "lower": "-2",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+9",
+      "lower": "+9",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i12~13",
+      "lower": "i12",
+      "properties": [],
+      "upper": "13"
+    },
+    "hitLevels": [
+      "h"
+    ],
+    "input": "PAB.1",
+    "name": "",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      10,
+      14
+    ],
+    "framesOnBlock": {
+      "_raw": "+0",
+      "lower": "+0",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+8",
+      "lower": "+8",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i15~16",
+      "lower": "i15",
+      "properties": [],
+      "upper": "16"
+    },
+    "hitLevels": [
+      "h",
+      "h"
+    ],
+    "input": "PAB.1,2",
+    "name": "",
+    "notes": [
+      "Combo from 1st"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      10,
+      14,
+      21
+    ],
+    "framesOnBlock": {
+      "_raw": "-13",
+      "lower": "-13",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+44a",
+      "lower": "+44",
+      "properties": [
+        "a"
+      ]
+    },
+    "framesOnHit": {
+      "_raw": "+8c",
+      "lower": "+8",
+      "properties": [
+        "c"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i18~20",
+      "lower": "i18",
+      "properties": [],
+      "upper": "20"
+    },
+    "hitLevels": [
+      "h",
+      "h",
+      "m"
+    ],
+    "input": "PAB.1,2,1",
+    "name": "Albion Combination",
+    "notes": [
+      "Combo from 2nd CH"
+    ],
+    "specials": [
+      "Spike"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      19
+    ],
+    "framesOnBlock": {
+      "_raw": "-3",
+      "lower": "-3",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+58a",
+      "lower": "+58",
+      "properties": [
+        "a"
+      ]
+    },
+    "framesOnHit": {
+      "_raw": "+2",
+      "lower": "+2",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i14",
+      "lower": "i14",
+      "properties": []
+    },
+    "hitLevels": [
+      "h"
+    ],
+    "input": "PAB.2",
+    "name": "Spite Hook",
+    "notes": [
+      "Punch parry"
+    ],
+    "specials": [
+      "Homing"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      45
+    ],
+    "framesOnBlock": {
+      "_raw": "0",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+0d",
+      "lower": "+0",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i11",
+      "lower": "i11",
+      "properties": []
+    },
+    "hitLevels": [
+      "th"
+    ],
+    "input": "PAB.1+2",
+    "name": "Ten Count",
+    "notes": [
+      "1+2 for throw break"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      18
+    ],
+    "framesOnBlock": {
+      "_raw": "-13",
+      "lower": "-13",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+31a (+16)",
+      "lower": "+31",
+      "properties": [
+        "a"
+      ],
+      "tech": "+16"
+    },
+    "framesOnStartup": {
+      "_raw": "i18~19",
+      "lower": "i18",
+      "properties": [],
+      "upper": "19"
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "PAB.f+2",
+    "name": "",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      18,
+      24
+    ],
+    "framesOnBlock": {
+      "_raw": "+1",
+      "lower": "+1",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+24a (+14)",
+      "lower": "+24",
+      "properties": [
+        "a"
+      ],
+      "tech": "+14"
+    },
+    "framesOnStartup": {
+      "_raw": "i34~35",
+      "lower": "i34",
+      "properties": [],
+      "upper": "35"
+    },
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "input": "PAB.f+2,1",
+    "name": "Straight Punch Combination",
+    "notes": [
+      "Combo from 1st hit",
+      "Interruptible by i16 or faster moves"
+    ],
+    "specials": [
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      12,
+      23
+    ],
+    "framesOnBlock": {
+      "_raw": "-5",
+      "lower": "-5",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+24a (+15)",
+      "lower": "+24",
+      "properties": [
+        "a"
+      ],
+      "tech": "+15"
+    },
+    "framesOnStartup": {
+      "_raw": "i12, i15~16",
+      "lower": "i12",
+      "properties": [],
+      "upper": "16"
+    },
+    "hitLevels": [
+      "h",
+      "h"
+    ],
+    "input": "PAB.f+1+2",
+    "name": "Nimrod Combination",
+    "notes": [
+      "Combo from 1st hit"
+    ],
+    "specials": [
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      12
+    ],
+    "framesOnBlock": {
+      "_raw": "-9",
+      "lower": "-9",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+2",
+      "lower": "+2",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i15~16",
+      "lower": "i15",
+      "properties": [],
+      "upper": "16"
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "PAB.df+1",
+    "name": "",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      12,
+      14
+    ],
+    "framesOnBlock": {
+      "_raw": "-10",
+      "lower": "-10",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+1",
+      "lower": "+1",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i19~20",
+      "lower": "i19",
+      "properties": [],
+      "upper": "20"
+    },
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "input": "PAB.df+1,1",
+    "name": "",
+    "notes": [
+      "Combo from 1st hit"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      12,
+      14,
+      12
+    ],
+    "framesOnBlock": {
+      "_raw": "-11",
+      "lower": "-11",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "-3",
+      "lower": "-3",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i22",
+      "lower": "i22",
+      "properties": []
+    },
+    "hitLevels": [
+      "m",
+      "m",
+      "m"
+    ],
+    "input": "PAB.df+1,1,2",
+    "name": "",
+    "notes": [
+      "Combo from 2nd CH"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      12,
+      14,
+      12,
+      20
+    ],
+    "framesOnBlock": {
+      "_raw": "-13",
+      "lower": "-13",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+17d",
+      "lower": "+17",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i16",
+      "lower": "i16",
+      "properties": []
+    },
+    "hitLevels": [
+      "m",
+      "m",
+      "m",
+      "m"
+    ],
+    "input": "PAB.df+1,1,2,1",
+    "name": "Argos Rush",
+    "notes": [
+      "Combo from 3rd hit"
+    ],
+    "specials": [
+      "Spike"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      12,
+      20
+    ],
+    "framesOnBlock": {
+      "_raw": "-6",
+      "lower": "-6",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+10",
+      "lower": "+10",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i18-19",
+      "lower": "i18",
+      "properties": []
+    },
+    "hitLevels": [
+      "m",
+      "h"
+    ],
+    "input": "PAB.df+1,2",
+    "name": "Cross Cut",
+    "notes": [
+      "Combo from 1st hit",
+      "6 Chip Damage on block",
+      "8 Chip Damage on block in heat"
+    ],
+    "specials": [
+      "Wall Crush +18g on hit"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      16
+    ],
+    "framesOnBlock": {
+      "_raw": "-10",
+      "lower": "-10",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+31a (+21)",
+      "lower": "+31",
+      "properties": [
+        "a"
+      ],
+      "tech": "+21"
+    },
+    "framesOnStartup": {
+      "_raw": "i16~17",
+      "lower": "i16",
+      "properties": [],
+      "upper": "17"
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "PAB.df+2",
+    "name": "Cutting Elbow",
+    "notes": [],
+    "specials": [
+      "Elbow"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      11
+    ],
+    "framesOnBlock": {
+      "_raw": "-12",
+      "lower": "-12",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+2",
+      "lower": "+2",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i15~16",
+      "lower": "i15",
+      "properties": [],
+      "upper": "16"
+    },
+    "hitLevels": [
+      "l"
+    ],
+    "input": "PAB.d+1",
+    "name": "Patella Smash",
+    "notes": [
+      "Alternate input: FC df1"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      25
+    ],
+    "framesOnBlock": {
+      "_raw": "-12",
+      "lower": "-12",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+32a",
+      "lower": "+32",
+      "properties": [
+        "a"
+      ]
+    },
+    "framesOnHit": {
+      "_raw": "+7",
+      "lower": "+7",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i28~29",
+      "lower": "i28",
+      "properties": [],
+      "upper": "29"
+    },
+    "hitLevels": [
+      "l"
+    ],
+    "input": "PAB.d+2",
+    "name": "Knuckle Plow",
+    "notes": [
+      "Transition to FC with D"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      15
+    ],
+    "framesOnBlock": {
+      "_raw": "-19",
+      "lower": "-19",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "-6",
+      "lower": "-6",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i17~18",
+      "lower": "i17",
+      "properties": [],
+      "upper": "18"
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "PAB.b+1",
+    "name": "",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      15,
+      10
+    ],
+    "framesOnBlock": {
+      "_raw": "-7",
+      "lower": "-7",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "-1",
+      "lower": "-1",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i18~19",
+      "lower": "i18",
+      "properties": [],
+      "upper": "19"
+    },
+    "hitLevels": [
+      "m",
+      "h"
+    ],
+    "input": "PAB.b+1,1",
+    "name": "",
+    "notes": [
+      "Combo from 1st hit"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      15,
+      10,
+      12
+    ],
+    "framesOnBlock": {
+      "_raw": "-11",
+      "lower": "-11",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "-5",
+      "lower": "-5",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i18~20",
+      "lower": "i18",
+      "properties": [],
+      "upper": "20"
+    },
+    "hitLevels": [
+      "m",
+      "h",
+      "m"
+    ],
+    "input": "PAB.b+1,1,2",
+    "name": "",
+    "notes": [
+      "Combo from 2nd CH"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      15,
+      10,
+      12,
+      21
+    ],
+    "framesOnBlock": {
+      "_raw": "-10",
+      "lower": "-10",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+16a (+7)",
+      "lower": "+16",
+      "properties": [
+        "a"
+      ],
+      "tech": "+7"
+    },
+    "framesOnStartup": {
+      "_raw": "i21",
+      "lower": "i21",
+      "properties": []
+    },
+    "hitLevels": [
+      "m",
+      "h",
+      "m",
+      "m"
+    ],
+    "input": "PAB.b+1,1,2,1",
+    "name": "Lancaster Combination",
+    "notes": [
+      "Combo from 3rd hit",
+      "Input b to FLK (-3/+23a (+14)/-)"
+    ],
+    "specials": [
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      25
+    ],
+    "framesOnBlock": {
+      "_raw": "-13",
+      "lower": "-13",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+11a (+2)",
+      "lower": "+11",
+      "properties": [
+        "a"
+      ],
+      "tech": "+2"
+    },
+    "framesOnStartup": {
+      "_raw": "i28~29",
+      "lower": "i28",
+      "properties": [],
+      "upper": "29"
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "PAB.b+2",
+    "name": "Swaying Hook",
+    "notes": [
+      "Backswing Blow"
+    ],
+    "specials": [
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      23
+    ],
+    "framesOnBlock": {
+      "_raw": "-15",
+      "lower": "-15",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+34a (+24",
+      "lower": "+34",
+      "properties": [
+        "a"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i17~19",
+      "lower": "i17",
+      "properties": [],
+      "upper": "19"
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "PAB.uf+2",
+    "name": "Dreadnought Uppercut",
+    "notes": [],
+    "specials": [
+      "Tornado"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [],
+    "framesOnBlock": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "hitLevels": [
+      "sp"
+    ],
+    "input": "b+3+4",
+    "name": "Flicker Stance",
+    "notes": [
+      "Transition to FLK",
+      "Auto blocks high and mid",
+      "Can perform an i5? cancel to r35? LWV/RWV with input 3 or 4"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      14
+    ],
+    "framesOnBlock": {
+      "_raw": "-4",
+      "lower": "-4",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+7",
+      "lower": "+7",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i12",
+      "lower": "i12",
+      "properties": []
+    },
+    "hitLevels": [
+      "h"
+    ],
+    "input": "FLK.1",
+    "name": "",
+    "notes": [
+      "Input b to stay in FLK (-1/+10/+10)",
+      "Input 3+4 to ALB (+17g/+28g/+28)"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      14,
+      8
+    ],
+    "framesOnBlock": {
+      "_raw": "-9",
+      "lower": "-9",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+0",
+      "lower": "+0",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i15",
+      "lower": "i15",
+      "properties": []
+    },
+    "hitLevels": [
+      "h",
+      "h"
+    ],
+    "input": "FLK.1,1",
+    "name": "",
+    "notes": [
+      "Combo from 1st CH",
+      "Input b to stay in FLK (-4/+5/+5)",
+      "Input 3+4 to ALB (+17g/+28g/+28)"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      14,
+      8,
+      8
+    ],
+    "framesOnBlock": {
+      "_raw": "-9",
+      "lower": "-9",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+0",
+      "lower": "+0",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i15",
+      "lower": "i15",
+      "properties": []
+    },
+    "hitLevels": [
+      "h",
+      "h",
+      "h"
+    ],
+    "input": "FLK.1,1,1",
+    "name": "",
+    "notes": [
+      "Combo from 2nd CH",
+      "Input b to stay in FLK (-4/+5/+5)",
+      "Input 3+4 to ALB (+17g/+28g/+28)"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      14,
+      8,
+      8,
+      22
+    ],
+    "framesOnBlock": {
+      "_raw": "-12",
+      "lower": "-12",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+17a (+0)",
+      "lower": "+17",
+      "properties": [
+        "a"
+      ],
+      "tech": "+0"
+    },
+    "framesOnStartup": {
+      "_raw": "i20~22",
+      "lower": "i20",
+      "properties": [],
+      "upper": "22"
+    },
+    "hitLevels": [
+      "h",
+      "h",
+      "h",
+      "m"
+    ],
+    "input": "FLK.1,1,1,2",
+    "name": "Spiteful Combination",
+    "notes": [
+      "Combo from 3rd hit"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      14,
+      8,
+      22
+    ],
+    "framesOnBlock": {
+      "_raw": "-12",
+      "lower": "-12",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+17a (+0)",
+      "lower": "+17",
+      "properties": [
+        "a"
+      ],
+      "tech": "+0"
+    },
+    "framesOnStartup": {
+      "_raw": "i20~22",
+      "lower": "i20",
+      "properties": [],
+      "upper": "22"
+    },
+    "hitLevels": [
+      "h",
+      "h",
+      "m"
+    ],
+    "input": "FLK.1,1,2",
+    "name": "",
+    "notes": [
+      "Combo from 2nd CH",
+      "Same hit as (FLK.1,1,1),2"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      14,
+      8,
+      17
+    ],
+    "framesOnBlock": {
+      "_raw": "-5",
+      "lower": "-5",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+10d",
+      "lower": "+10",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnHit": {
+      "_raw": "+0",
+      "lower": "+0",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i15",
+      "lower": "i15",
+      "properties": []
+    },
+    "hitLevels": [
+      "h",
+      "h",
+      "m"
+    ],
+    "input": "FLK.1,1,f+1",
+    "name": "",
+    "notes": [
+      "Combo from 2nd CH",
+      "Same hit as (FLK.1),f+1"
+    ],
+    "specials": [
+      "Spike"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      14,
+      8,
+      23
+    ],
+    "framesOnBlock": {
+      "_raw": "+0",
+      "lower": "+0",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+42a",
+      "lower": "+42",
+      "properties": [
+        "a"
+      ]
+    },
+    "framesOnHit": {
+      "_raw": "+18g",
+      "lower": "+18",
+      "properties": [
+        "g"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i15~17",
+      "lower": "i15",
+      "properties": [],
+      "upper": "17"
+    },
+    "hitLevels": [
+      "h",
+      "h",
+      "h"
+    ],
+    "input": "FLK.1,1,d+1",
+    "name": "",
+    "notes": [
+      "Combo from 2nd CH",
+      "Same hit as (FLK.1),d+1"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      14,
+      22
+    ],
+    "framesOnBlock": {
+      "_raw": "-12",
+      "lower": "-12",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+17a (+0)",
+      "lower": "+17",
+      "properties": [
+        "a"
+      ],
+      "tech": "+0"
+    },
+    "framesOnStartup": {
+      "_raw": "i20~22",
+      "lower": "i20",
+      "properties": [],
+      "upper": "22"
+    },
+    "hitLevels": [
+      "h",
+      "m"
+    ],
+    "input": "FLK.1,2",
+    "name": "",
+    "notes": [
+      "Combo from 1st CH",
+      "Same hit as (FLK.1,1,1),2"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      14,
+      17
+    ],
+    "framesOnBlock": {
+      "_raw": "-5",
+      "lower": "-5",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+10d",
+      "lower": "+10",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnHit": {
+      "_raw": "+0",
+      "lower": "+0",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i15",
+      "lower": "i15",
+      "properties": []
+    },
+    "hitLevels": [
+      "h",
+      "m"
+    ],
+    "input": "FLK.1,f+1",
+    "name": "Tempest Combo",
+    "notes": [
+      "Combo from 1st CH"
+    ],
+    "specials": [
+      "Spike"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      14,
+      23
+    ],
+    "framesOnBlock": {
+      "_raw": "+0",
+      "lower": "+0",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+42a",
+      "lower": "+42",
+      "properties": [
+        "a"
+      ]
+    },
+    "framesOnHit": {
+      "_raw": "+18g",
+      "lower": "+18",
+      "properties": [
+        "g"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i15~17",
+      "lower": "i15",
+      "properties": [],
+      "upper": "17"
+    },
+    "hitLevels": [
+      "h",
+      "h"
+    ],
+    "input": "FLK.1,d+1",
+    "name": "Power Hook Combo",
+    "notes": [
+      "Combo from 1st CH"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      21
+    ],
+    "framesOnBlock": {
+      "_raw": "-5c",
+      "lower": "-5",
+      "properties": [
+        "c"
+      ]
+    },
+    "framesOnCounter": {
+      "_raw": "+42a",
+      "lower": "+42",
+      "properties": [
+        "a"
+      ]
+    },
+    "framesOnHit": {
+      "_raw": "+7d",
+      "lower": "+7",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i18~19",
+      "lower": "i18",
+      "properties": [],
+      "upper": "19"
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "FLK.2",
+    "name": "Fly Swatter",
+    "notes": [],
+    "specials": [
+      "Spike"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      21
+    ],
+    "framesOnBlock": {
+      "_raw": "-9",
+      "lower": "-9",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+35d (+27)",
+      "lower": "+35",
+      "properties": [
+        "d"
+      ],
+      "tech": "+27"
+    },
+    "framesOnStartup": {
+      "_raw": "i14~15",
+      "lower": "i14",
+      "properties": [],
+      "upper": "15"
+    },
+    "hitLevels": [
+      "h"
+    ],
+    "input": "FLK.b+2",
+    "name": "British Lancer",
+    "notes": [],
+    "specials": [
+      "Tornado",
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      40
+    ],
+    "framesOnBlock": {
+      "_raw": "-6",
+      "lower": "-6",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+0d",
+      "lower": "+0",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i12~14",
+      "lower": "i12",
+      "properties": [],
+      "upper": "14"
+    },
+    "hitLevels": [
+      "th"
+    ],
+    "input": "FLK.1+2",
+    "name": "Griffin Throw",
+    "notes": [
+      "1+2 for throw break"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [],
+    "framesOnBlock": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "hitLevels": [
+      "sp"
+    ],
+    "input": "ub+3",
+    "name": "Lion Heart",
+    "notes": [
+      "Transition to LNH",
+      "Input 3 to LWV",
+      "Input 4 to RWV",
+      "Input b+3_4 to SWY",
+      "Input f+3_4 to DCK"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      22
+    ],
+    "framesOnBlock": {
+      "_raw": "-13",
+      "lower": "-13",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+61a (+51)",
+      "lower": "+61",
+      "properties": [
+        "a"
+      ],
+      "tech": "+51"
+    },
+    "framesOnStartup": {
+      "_raw": "i16-17",
+      "lower": "i16",
+      "properties": []
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "LNH.2",
+    "name": "Bloodhound",
+    "notes": [],
+    "specials": [
+      "Tornado"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      24
+    ],
+    "framesOnBlock": {
+      "_raw": "+12",
+      "lower": "+12",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+51a (+31)",
+      "lower": "+51",
+      "properties": [
+        "a"
+      ],
+      "tech": "+31"
+    },
+    "framesOnStartup": {
+      "_raw": "i18-19",
+      "lower": "i18",
+      "properties": []
+    },
+    "hitLevels": [
+      "h"
+    ],
+    "input": "LNH.1+2",
+    "name": "Swingfire Advance",
+    "notes": [
+      "Chip damage on block"
+    ],
+    "specials": [
+      "Guard Break",
+      "Reversal Break",
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      55
+    ],
+    "framesOnBlock": {
+      "_raw": "-15",
+      "lower": "-15",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+0d",
+      "lower": "+0",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i20",
+      "lower": "i20",
+      "properties": []
+    },
+    "hitLevels": [
+      "m",
+      "t"
+    ],
+    "input": "R.df+1+2",
+    "name": "Dear Land of Hope",
+    "notes": [
+      "Damage increases with lower health, maximum 82",
+      "Freezes match timer on activation and on hit",
+      "Restores recoverable health on hit",
+      "Transition to attack throw on hit",
+      "Consumes Rage"
+    ],
+    "specials": [
+      "Rage Art",
+      "Removes Recoverable Health",
+      "Reversal Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [],
+    "framesOnBlock": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "hitLevels": [],
+    "input": "1+2+4",
+    "name": "Taunt",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [],
+    "framesOnBlock": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "hitLevels": [],
+    "input": "1+2+3+4",
+    "name": "Ki Charge",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      14
+    ],
+    "framesOnBlock": {
+      "_raw": "-11c",
+      "lower": "-11",
+      "properties": [
+        "c"
+      ]
+    },
+    "framesOnCounter": {
+      "_raw": "+2",
+      "lower": "+2",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+2",
+      "lower": "+2",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i17",
+      "lower": "i17",
+      "properties": []
+    },
+    "hitLevels": [
+      "l"
+    ],
+    "input": "OTG.d+1+2",
+    "name": "Cheapshot",
+    "notes": [
+      "Recovers in crouch"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [],
+    "framesOnBlock": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "hitLevels": [
+      "sp"
+    ],
+    "input": "b+1+3_b+2+4",
+    "name": "Parry",
+    "notes": [
+      "Parry h and m punches",
+      "Successful parry i14,30dmg (-12/+24a (+18)/+26a (+16))"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      35
+    ],
+    "framesOnBlock": {
+      "_raw": "-6",
+      "lower": "-6",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i12~14",
+      "lower": "i12",
+      "properties": [],
+      "upper": "14"
+    },
+    "hitLevels": [
+      "throw"
+    ],
+    "input": "1+3",
+    "name": "Gut Wrencher",
+    "notes": [
+      "Throw break 1 or 2"
+    ],
+    "specials": [
+      "Homing"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      35
+    ],
+    "framesOnBlock": {
+      "_raw": "-3",
+      "lower": "-3",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i12~14",
+      "lower": "i12",
+      "properties": [],
+      "upper": "14"
+    },
+    "hitLevels": [
+      "throw"
+    ],
+    "input": "2+4",
+    "name": "Brain Pulverizer",
+    "notes": [
+      "Throw break 1 or 2"
+    ],
+    "specials": [
+      "Homing",
+      "Floor Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      40
+    ],
+    "framesOnBlock": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i12",
+      "lower": "i12",
+      "properties": []
+    },
+    "hitLevels": [
+      "throw"
+    ],
+    "input": "Leftthrow",
+    "name": "Choke Slam",
+    "notes": [
+      "Throw break 1"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      40
+    ],
+    "framesOnBlock": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i12",
+      "lower": "i12",
+      "properties": []
+    },
+    "hitLevels": [
+      "throw"
+    ],
+    "input": "Rightthrow",
+    "name": "Throw Down",
+    "notes": [
+      "Throw break 2"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      55
+    ],
+    "framesOnBlock": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i12",
+      "lower": "i12",
+      "properties": []
+    },
+    "hitLevels": [
+      "throw"
+    ],
+    "input": "Backthrow",
+    "name": "Schoolyard Bully",
+    "notes": [
+      "Unbreakable"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      40
+    ],
+    "framesOnBlock": {
+      "_raw": "+0",
+      "lower": "+0",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i12",
+      "lower": "i12",
+      "properties": []
+    },
+    "hitLevels": [
+      "throw"
+    ],
+    "input": "uf+1+2",
+    "name": "Armlock Throw",
+    "notes": [
+      "1+2 Throw break"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      40
+    ],
+    "framesOnBlock": {
+      "_raw": "-2",
+      "lower": "-2",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i12",
+      "lower": "i12",
+      "properties": []
+    },
+    "hitLevels": [
+      "throw"
+    ],
+    "input": "qcb+2+4",
+    "name": "Spinning Elbow Drop",
+    "notes": [
+      "2 Throw break"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  }
+]

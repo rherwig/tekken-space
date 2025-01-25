@@ -1,0 +1,6013 @@
+[
+  {
+    "damage": [
+      12
+    ],
+    "framesOnBlock": {
+      "_raw": "+1",
+      "lower": "+1",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+2c",
+      "lower": "+2",
+      "properties": [
+        "c"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i16",
+      "lower": "i16",
+      "properties": []
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "2+3",
+    "name": "Heat Burst",
+    "notes": [
+      "Cancel to r45 with b,b",
+      "3 chip damage on block",
+      "Partially uses Heat"
+    ],
+    "specials": [
+      "Heat Burst"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      20,
+      25
+    ],
+    "framesOnBlock": {
+      "_raw": "+8",
+      "lower": "+8",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+0d",
+      "lower": "+0",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i21",
+      "lower": "i21",
+      "properties": []
+    },
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "input": "H.2+3",
+    "name": "Divine Dominance of Annihilation",
+    "notes": [
+      "Alternate input: H.R1",
+      "Jails from 1st block",
+      "Transitions to attack throw on 1st hit for a total of 50 dmg",
+      "Transitions to r53 WRA on 2nd block, whiff or hit",
+      "+19d WRA if only second hit connects (25 dmg)"
+    ],
+    "specials": [
+      "Heat Smash",
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      12,
+      6,
+      6,
+      20
+    ],
+    "framesOnBlock": {
+      "_raw": "-17",
+      "lower": "-17",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+0",
+      "lower": "+0",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i18~19",
+      "lower": "i18",
+      "properties": [],
+      "upper": "19"
+    },
+    "hitLevels": [
+      "l",
+      "m",
+      "m",
+      "m"
+    ],
+    "input": "H.WRA.2+3",
+    "name": "Divine Wrath of Annihilation",
+    "notes": [
+      "Alternate input: H.WRA.R1",
+      "Jails if any hit is blocked",
+      "Transitions to attack throw on 1st hit for a total of 40 dmg",
+      "+4a (-5) if any hit after the 1st connects"
+    ],
+    "specials": [
+      "Heat Smash",
+      "Spike"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      12,
+      20,
+      28
+    ],
+    "framesOnBlock": {
+      "_raw": "-8",
+      "lower": "-8",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+23a (+3)",
+      "lower": "+23",
+      "properties": [
+        "a"
+      ],
+      "tech": "+3"
+    },
+    "framesOnStartup": {
+      "_raw": ",i27",
+      "lower": "i27",
+      "properties": []
+    },
+    "hitLevels": [
+      "h",
+      "m",
+      "m"
+    ],
+    "input": "3,4,H.4",
+    "name": "Senjomanji Lethal Fury",
+    "notes": [
+      "Combo from 2nd hit"
+    ],
+    "specials": [
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      5,
+      10,
+      20,
+      28
+    ],
+    "framesOnBlock": {
+      "_raw": "-8",
+      "lower": "-8",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+23a (+3)",
+      "lower": "+23",
+      "properties": [
+        "a"
+      ],
+      "tech": "+3"
+    },
+    "framesOnStartup": {
+      "_raw": ",i27",
+      "lower": "i27",
+      "properties": []
+    },
+    "hitLevels": [
+      "m",
+      "m",
+      "m",
+      "m"
+    ],
+    "input": "3+4,4,H.4",
+    "name": "Aerial Manji Lethal Fury",
+    "notes": [
+      "Combo from 2nd hit"
+    ],
+    "specials": [
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      25,
+      28
+    ],
+    "framesOnBlock": {
+      "_raw": "-8",
+      "lower": "-8",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+23a (+3)",
+      "lower": "+23",
+      "properties": [
+        "a"
+      ],
+      "tech": "+3"
+    },
+    "framesOnStartup": {
+      "_raw": ",i27",
+      "lower": "i27",
+      "properties": []
+    },
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "input": "f+3+4,H.4",
+    "name": "Ouhen Manji Lethal Fury",
+    "notes": [
+      "Combo from 1st hit"
+    ],
+    "specials": [
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      30,
+      28
+    ],
+    "framesOnBlock": {
+      "_raw": "-8",
+      "lower": "-8",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+23a (+3)",
+      "lower": "+23",
+      "properties": [
+        "a"
+      ],
+      "tech": "+3"
+    },
+    "framesOnStartup": {
+      "_raw": ",i27",
+      "lower": "i27",
+      "properties": []
+    },
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "input": "f+3+4*,H.4",
+    "name": "",
+    "notes": [
+      "Combo from 1st block"
+    ],
+    "specials": [
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [],
+    "framesOnBlock": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "hitLevels": [
+      "sp"
+    ],
+    "input": "H.d+1+2",
+    "name": "Charging Hard",
+    "notes": [
+      "Automatically parries limb-based, non-airborne mids and highs",
+      "Deals 40 damage on successful parry",
+      "+1d on successful parry"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      8,
+      20
+    ],
+    "framesOnBlock": {
+      "_raw": "-14",
+      "lower": "-14",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+12a",
+      "lower": "+12",
+      "properties": [
+        "a"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": ",i22~23",
+      "lower": "i22",
+      "properties": [],
+      "upper": "23"
+    },
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "input": "df+1,2",
+    "name": "Muso Basara",
+    "notes": [
+      "Combo from 1st hit with 2?F delay",
+      "Can be delayed"
+    ],
+    "specials": [
+      "Heat Engager",
+      "Heat Dash +18g, +43a (+35)"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      20
+    ],
+    "framesOnBlock": {
+      "_raw": "-3",
+      "lower": "-3",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+20a",
+      "lower": "+20",
+      "properties": [
+        "a"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i20~22",
+      "lower": "i20",
+      "properties": [],
+      "upper": "22"
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "f,F+3",
+    "name": "Trailokya Splits Kick",
+    "notes": [],
+    "specials": [
+      "Balcony Break",
+      "Heat Engager",
+      "Heat Dash +5, +67a (+50)",
+      "Spike"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      22
+    ],
+    "framesOnBlock": {
+      "_raw": "+1",
+      "lower": "+1",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+7",
+      "lower": "+7",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i12~13",
+      "lower": "i12",
+      "properties": [],
+      "upper": "13"
+    },
+    "hitLevels": [
+      "h"
+    ],
+    "input": "SEN.3",
+    "name": "Sen Kaijo-geri",
+    "notes": [
+      "Deals chip damage on block"
+    ],
+    "specials": [
+      "Homing",
+      "Heat Engager",
+      "Heat Dash +5, +34a (+27)"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      30
+    ],
+    "framesOnBlock": {
+      "_raw": "-8",
+      "lower": "-8",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+43a (-15)",
+      "lower": "+43",
+      "properties": [
+        "a"
+      ],
+      "tech": "-15"
+    },
+    "framesOnStartup": {
+      "_raw": "i18~19",
+      "lower": "i18",
+      "properties": [],
+      "upper": "19"
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "UNS.4",
+    "name": "Unpu Tobi-Manji",
+    "notes": [
+      "Deals chip damage on block",
+      "Can be cancelled into crouch with DB/D/DF"
+    ],
+    "specials": [
+      "Balcony Break",
+      "Heat Engager",
+      "Heat Dash +5, +62a (+42)"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      30
+    ],
+    "framesOnBlock": {
+      "_raw": "-9",
+      "lower": "-9",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+11a (+2)",
+      "lower": "+11",
+      "properties": [
+        "a"
+      ],
+      "tech": "+2"
+    },
+    "framesOnStartup": {
+      "_raw": "i15~16",
+      "lower": "i15",
+      "properties": [],
+      "upper": "16"
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "WRA.2",
+    "name": "Iron Hand",
+    "notes": [
+      "Deals chip damage on block"
+    ],
+    "specials": [
+      "Balcony Break",
+      "Heat Engager",
+      "Heat Dash +5, +36a (+26)"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      5
+    ],
+    "framesOnBlock": {
+      "_raw": "+1",
+      "lower": "+1",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+8",
+      "lower": "+8",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i10",
+      "lower": "i10",
+      "properties": []
+    },
+    "hitLevels": [
+      "h"
+    ],
+    "input": "1",
+    "name": "Jab",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      5,
+      6
+    ],
+    "framesOnBlock": {
+      "_raw": "-1",
+      "lower": "-1",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+8",
+      "lower": "+8",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": ",i15",
+      "lower": "i15",
+      "properties": []
+    },
+    "hitLevels": [
+      "h",
+      "h"
+    ],
+    "input": "1,1",
+    "name": "",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      5,
+      6,
+      12
+    ],
+    "framesOnBlock": {
+      "_raw": "-17",
+      "lower": "-17",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+11",
+      "lower": "+11",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": ",i13",
+      "lower": "i13",
+      "properties": []
+    },
+    "hitLevels": [
+      "h",
+      "h",
+      "m"
+    ],
+    "input": "1,1,2",
+    "name": "Flash Punch Combo",
+    "notes": [
+      "Combo from 1st hit with 11f delay",
+      "Hit-confirmable from 1st hit",
+      "Cancel transition with input B, frame advantage +2",
+      "Transition to SEN on hit only"
+    ],
+    "specials": [
+      "Wall Crush +23g on hit\nTransition to SEN on hit only"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      5,
+      8
+    ],
+    "framesOnBlock": {
+      "_raw": "-3",
+      "lower": "-3",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+8",
+      "lower": "+8",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": ",i10",
+      "lower": "i10",
+      "properties": []
+    },
+    "hitLevels": [
+      "h",
+      "h"
+    ],
+    "input": "1,2",
+    "name": "One Two Strike",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      5,
+      8,
+      14
+    ],
+    "framesOnBlock": {
+      "_raw": "-14",
+      "lower": "-14",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+0",
+      "lower": "+0",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": ",i17",
+      "lower": "i17",
+      "properties": []
+    },
+    "hitLevels": [
+      "h",
+      "h",
+      "h"
+    ],
+    "input": "1,2,2",
+    "name": "Back Fist Combo",
+    "notes": [
+      "Jail from 2nd attack with 2f delay",
+      "Input can be delayed 3f",
+      "Move can be delayed 2f"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      5,
+      8,
+      10
+    ],
+    "framesOnBlock": {
+      "_raw": "-10",
+      "lower": "-10",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+1",
+      "lower": "+1",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": ",i21~22",
+      "lower": "i21",
+      "properties": [],
+      "upper": "22"
+    },
+    "hitLevels": [
+      "h",
+      "h",
+      "m"
+    ],
+    "input": "1,2,3",
+    "name": "",
+    "notes": [
+      "Combo from 2nd CH with 3f delay",
+      "Input can be delayed 3f",
+      "Move can be delayed 2f"
+    ],
+    "specials": [
+      "Knee"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      5,
+      8,
+      10,
+      21
+    ],
+    "framesOnBlock": {
+      "_raw": "-4",
+      "lower": "-4",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+21a (+12)",
+      "lower": "+21",
+      "properties": [
+        "a"
+      ],
+      "tech": "+12"
+    },
+    "framesOnStartup": {
+      "_raw": ",i22~23",
+      "lower": "i22",
+      "properties": [],
+      "upper": "23"
+    },
+    "hitLevels": [
+      "h",
+      "h",
+      "m",
+      "h"
+    ],
+    "input": "1,2,3,4",
+    "name": "Sting the Works",
+    "notes": [
+      "CH-confirmable from 2nd CH",
+      "Combo from 3rd hit with 5f delay",
+      "Input can be delayed 10f",
+      "Move can be delayed 8f",
+      "Interrupt with i5 from 3rd block"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      6
+    ],
+    "framesOnBlock": {
+      "_raw": "-4",
+      "lower": "-4",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+7",
+      "lower": "+7",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i12",
+      "lower": "i12",
+      "properties": []
+    },
+    "hitLevels": [
+      "h"
+    ],
+    "input": "2",
+    "name": "",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      6,
+      6
+    ],
+    "framesOnBlock": {
+      "_raw": "-11",
+      "lower": "-11",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+0",
+      "lower": "+0",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": ",i14~15",
+      "lower": "i14",
+      "properties": [],
+      "upper": "15"
+    },
+    "hitLevels": [
+      "h",
+      "h"
+    ],
+    "input": "2,2",
+    "name": "",
+    "notes": [
+      "Jail from 1st attack with 1f delay"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      6,
+      6,
+      20
+    ],
+    "framesOnBlock": {
+      "_raw": "-14",
+      "lower": "-14",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+12a",
+      "lower": "+12",
+      "properties": [
+        "a"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": ",i22~23",
+      "lower": "i22",
+      "properties": [],
+      "upper": "23"
+    },
+    "hitLevels": [
+      "h",
+      "h",
+      "m"
+    ],
+    "input": "2,2,1",
+    "name": "Ganzan Basara",
+    "notes": [
+      "Hit-confirmable from 1st hit",
+      "Combo from 2nd hit with 5f delay",
+      "Input can be delayed 10f",
+      "Move can be delayed 9f"
+    ],
+    "specials": [
+      "Balcony Break",
+      "Spike",
+      "Head"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      6,
+      6,
+      21
+    ],
+    "framesOnBlock": {
+      "_raw": "-4",
+      "lower": "-4",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+6",
+      "lower": "+6",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": ",i29",
+      "lower": "i29",
+      "properties": []
+    },
+    "hitLevels": [
+      "h",
+      "h",
+      "m"
+    ],
+    "input": "2,2,2",
+    "name": "",
+    "notes": [
+      "Combo from 2nd hit only if the 2nd hit connects on i15, otherwise no combo",
+      "Input can be delayed 10f",
+      "Move can be delayed 9f",
+      "Interrupt with i11 from 2nd block"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      6,
+      6,
+      21,
+      20
+    ],
+    "framesOnBlock": {
+      "_raw": "-15~13",
+      "lower": "-15",
+      "properties": [],
+      "upper": "13"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+30a (+20)",
+      "lower": "+30",
+      "properties": [
+        "a"
+      ],
+      "tech": "+20"
+    },
+    "framesOnStartup": {
+      "_raw": ",i35~37",
+      "lower": "i35",
+      "properties": [],
+      "upper": "37"
+    },
+    "hitLevels": [
+      "h",
+      "h",
+      "m",
+      "m"
+    ],
+    "input": "2,2,2,1",
+    "name": "Bishamon Massacre",
+    "notes": [
+      "Combo from 3rd hit with 1f delay",
+      "Input can be delayed 4f",
+      "Move can be delayed 3f",
+      "Evasive, can go under jabs"
+    ],
+    "specials": [
+      "Tornado"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      6,
+      6,
+      21,
+      25
+    ],
+    "framesOnBlock": {
+      "_raw": "-14",
+      "lower": "-14",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+21a (+0)",
+      "lower": "+21",
+      "properties": [
+        "a"
+      ],
+      "tech": "+0"
+    },
+    "framesOnStartup": {
+      "_raw": ",i31",
+      "lower": "i31",
+      "properties": []
+    },
+    "hitLevels": [
+      "h",
+      "h",
+      "m",
+      "m"
+    ],
+    "input": "2,2,2,2",
+    "name": "Raging Bishamon",
+    "notes": [
+      "Combo from 3rd hit with 4f delay",
+      "Move can be delayed 3f",
+      "Blue spark with input qcf+2 for 5 more damage"
+    ],
+    "specials": [
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      4,
+      18
+    ],
+    "framesOnBlock": {
+      "_raw": "-14",
+      "lower": "-14",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+31d (+23)",
+      "lower": "+31",
+      "properties": [
+        "d"
+      ],
+      "tech": "+23"
+    },
+    "framesOnStartup": {
+      "_raw": "i11(~14)",
+      "lower": "i11",
+      "properties": [],
+      "upper": "14"
+    },
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "input": "2~1",
+    "name": "Ondeko",
+    "notes": [
+      "Just frame if 2 is held for exactly one frame and then 1 on the next frame. Hits for 26 damage.",
+      "5f input window"
+    ],
+    "specials": [
+      "Balcony Break",
+      "Spike"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      12
+    ],
+    "framesOnBlock": {
+      "_raw": "-11",
+      "lower": "-11",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+5",
+      "lower": "+5",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i18~19",
+      "lower": "i18",
+      "properties": [],
+      "upper": "19"
+    },
+    "hitLevels": [
+      "h"
+    ],
+    "input": "3",
+    "name": "",
+    "notes": [],
+    "specials": [
+      "Homing"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      12,
+      16
+    ],
+    "framesOnBlock": {
+      "_raw": "-9",
+      "lower": "-9",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+66a (+50)",
+      "lower": "+66",
+      "properties": [
+        "a"
+      ],
+      "tech": "+50"
+    },
+    "framesOnHit": {
+      "_raw": "+8",
+      "lower": "+8",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": ",i20",
+      "lower": "i20",
+      "properties": []
+    },
+    "hitLevels": [
+      "h",
+      "h"
+    ],
+    "input": "3,2",
+    "name": "Senjo-zuki",
+    "notes": [
+      "Combo from 1st hit"
+    ],
+    "specials": [
+      "Tornado"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      12,
+      20
+    ],
+    "framesOnBlock": {
+      "_raw": "-14",
+      "lower": "-14",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+54a",
+      "lower": "+54",
+      "properties": [
+        "a"
+      ]
+    },
+    "framesOnHit": {
+      "_raw": "+50 (+19)",
+      "lower": "+50",
+      "properties": [],
+      "tech": "+19"
+    },
+    "framesOnStartup": {
+      "_raw": ",i20",
+      "lower": "i20",
+      "properties": []
+    },
+    "hitLevels": [
+      "h",
+      "m"
+    ],
+    "input": "3,4",
+    "name": "Senjo-manji",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      20
+    ],
+    "framesOnBlock": {
+      "_raw": "-8",
+      "lower": "-8",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+35a",
+      "lower": "+35",
+      "properties": [
+        "a"
+      ]
+    },
+    "framesOnHit": {
+      "_raw": "+11g",
+      "lower": "+11",
+      "properties": [
+        "g"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i13~14",
+      "lower": "i13",
+      "properties": [],
+      "upper": "14"
+    },
+    "hitLevels": [
+      "h"
+    ],
+    "input": "4",
+    "name": "Nobility Hunter",
+    "notes": [
+      "Opponent is FUFA on CH"
+    ],
+    "specials": [
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      25
+    ],
+    "framesOnBlock": {
+      "_raw": "-10~-9",
+      "lower": "-10",
+      "properties": [],
+      "upper": "-9"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+24a (+14)",
+      "lower": "+24",
+      "properties": [
+        "a"
+      ],
+      "tech": "+14"
+    },
+    "framesOnStartup": {
+      "_raw": "i12~13",
+      "lower": "i12",
+      "properties": [],
+      "upper": "13"
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "1+2",
+    "name": "Demon Breath",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      5,
+      10
+    ],
+    "framesOnBlock": {
+      "_raw": "-8",
+      "lower": "-8",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+3c",
+      "lower": "+3",
+      "properties": [
+        "c"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i18 i26",
+      "lower": "i18",
+      "properties": []
+    },
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "input": "3+4",
+    "name": "",
+    "notes": [],
+    "specials": [
+      "Spike"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      5,
+      10,
+      20
+    ],
+    "framesOnBlock": {
+      "_raw": "-14",
+      "lower": "-14",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+54a",
+      "lower": "+54",
+      "properties": [
+        "a"
+      ]
+    },
+    "framesOnHit": {
+      "_raw": "+50 (+19)",
+      "lower": "+50",
+      "properties": [],
+      "tech": "+19"
+    },
+    "framesOnStartup": {
+      "_raw": ",i16",
+      "lower": "i16",
+      "properties": []
+    },
+    "hitLevels": [
+      "m",
+      "m",
+      "m"
+    ],
+    "input": "3+4,4",
+    "name": "Aerial Manji-geri",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [],
+    "framesOnBlock": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "hitLevels": [],
+    "input": "1+4",
+    "name": "Fukuteki",
+    "notes": [
+      "Can transition to WGS with DF after 14 frames",
+      "Can execute EWGF or EWGK by inputting 2 or 3 respectively exactly one frame after DF"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      8
+    ],
+    "framesOnBlock": {
+      "_raw": "-9",
+      "lower": "-9",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "-3",
+      "lower": "-3",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i13",
+      "lower": "i13",
+      "properties": []
+    },
+    "hitLevels": [
+      "h"
+    ],
+    "input": "f+2",
+    "name": "",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      8,
+      16
+    ],
+    "framesOnBlock": {
+      "_raw": "-9",
+      "lower": "-9",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+2",
+      "lower": "+2",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": ",i18~19",
+      "lower": "i18",
+      "properties": [],
+      "upper": "19"
+    },
+    "hitLevels": [
+      "h",
+      "m"
+    ],
+    "input": "f+2,3",
+    "name": "Sousoku Rengeki",
+    "notes": [
+      "Jails from 1st hit without delay",
+      "Combo from 1st hit without delay",
+      "Can transition to SEN (-2/+9/+9) with input F",
+      "Cannot block up to i12 on empty transition on block",
+      "Can be delayed"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [],
+    "framesOnBlock": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "hitLevels": [],
+    "input": "f+3",
+    "name": "Sentai",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      20
+    ],
+    "framesOnBlock": {
+      "_raw": "+2c",
+      "lower": "+2",
+      "properties": [
+        "c"
+      ]
+    },
+    "framesOnCounter": {
+      "_raw": "+29d",
+      "lower": "+29",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnHit": {
+      "_raw": "+5c",
+      "lower": "+5",
+      "properties": [
+        "c"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i19~20",
+      "lower": "i19",
+      "properties": [],
+      "upper": "20"
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "f+4",
+    "name": "Kamadhatu Splits Kick",
+    "notes": [
+      "+13c on crouching hit",
+      "Opponent is FDFA on CH"
+    ],
+    "specials": [
+      "Spike"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      22
+    ],
+    "framesOnBlock": {
+      "_raw": "-11",
+      "lower": "-11",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+7",
+      "lower": "+7",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i32",
+      "lower": "i32",
+      "properties": []
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "f+1+2",
+    "name": "Senshin-zuki",
+    "notes": [],
+    "specials": [
+      "Wall Crush +19g on hit"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      25
+    ],
+    "framesOnBlock": {
+      "_raw": "-14",
+      "lower": "-14",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+55a",
+      "lower": "+55",
+      "properties": [
+        "a"
+      ]
+    },
+    "framesOnHit": {
+      "_raw": "+50 (+19)",
+      "lower": "+50",
+      "properties": [],
+      "tech": "+19"
+    },
+    "framesOnStartup": {
+      "_raw": "i43",
+      "lower": "i43",
+      "properties": []
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "f+3+4",
+    "name": "Ouhen Manji-geri",
+    "notes": [
+      "Cancel to r24 FC at earliest with input DB/D/DF"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      30
+    ],
+    "framesOnBlock": {
+      "_raw": "+10",
+      "lower": "+10",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+52a",
+      "lower": "+52",
+      "properties": [
+        "a"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i67",
+      "lower": "i67",
+      "properties": []
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "f+3+4*",
+    "name": "Ouhen Fubi Manji-geri",
+    "notes": [
+      "Cancel to r24 FC at earliest with input DB/D/DF"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      8
+    ],
+    "framesOnBlock": {
+      "_raw": "-3",
+      "lower": "-3",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+4",
+      "lower": "+4",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i13~14",
+      "lower": "i13",
+      "properties": [],
+      "upper": "14"
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "df+1",
+    "name": "",
+    "notes": [
+      "Can transition to r18 SEN (-3/+4/+4) with input F",
+      "Cannot block up to i15 on empty transition on block"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      8,
+      10
+    ],
+    "framesOnBlock": {
+      "_raw": "-4",
+      "lower": "-4",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+7",
+      "lower": "+7",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": ",i20",
+      "lower": "i20",
+      "properties": []
+    },
+    "hitLevels": [
+      "m",
+      "h"
+    ],
+    "input": "df+1,1",
+    "name": "Muso Tensho",
+    "notes": [
+      "Combo from 1st hit with 18F delay",
+      "Can be delayed 19F"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      13
+    ],
+    "framesOnBlock": {
+      "_raw": "-12",
+      "lower": "-12",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+30a (+20)",
+      "lower": "+30",
+      "properties": [
+        "a"
+      ],
+      "tech": "+20"
+    },
+    "framesOnStartup": {
+      "_raw": "i15~16",
+      "lower": "i15",
+      "properties": [],
+      "upper": "16"
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "df+2",
+    "name": "Queen Bee Stinger",
+    "notes": [
+      "+2 on hit on crouching opp.",
+      "+30a (+20) on CH on crouching opp."
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [],
+    "framesOnBlock": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "hitLevels": [
+      "sp"
+    ],
+    "input": "df+3",
+    "name": "Wind God Step",
+    "notes": [
+      "Can transition to SEN with input WGS.f+3"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      14
+    ],
+    "framesOnBlock": {
+      "_raw": "-4",
+      "lower": "-4",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+7",
+      "lower": "+7",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i15",
+      "lower": "i15",
+      "properties": []
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "df+4",
+    "name": "",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      14,
+      10
+    ],
+    "framesOnBlock": {
+      "_raw": "-8",
+      "lower": "-8",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+6",
+      "lower": "+6",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": ",i18",
+      "lower": "i18",
+      "properties": []
+    },
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "input": "df+4,2",
+    "name": "",
+    "notes": [
+      "Can transition to WRA (-6/+8/+8) with input D",
+      "Combo from 1st hit"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      14,
+      10,
+      20
+    ],
+    "framesOnBlock": {
+      "_raw": "-8",
+      "lower": "-8",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+71a (+55)",
+      "lower": "+71",
+      "properties": [
+        "a"
+      ],
+      "tech": "+55"
+    },
+    "framesOnHit": {
+      "_raw": "+35a",
+      "lower": "+35",
+      "properties": [
+        "a"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": ",i27",
+      "lower": "i27",
+      "properties": []
+    },
+    "hitLevels": [
+      "m",
+      "m",
+      "h"
+    ],
+    "input": "df+4,2,3",
+    "name": "Gekirosatsu",
+    "notes": [
+      "Combo from 2nd CH",
+      "Can be delayed"
+    ],
+    "specials": [
+      "Tornado"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      5,
+      10
+    ],
+    "framesOnBlock": {
+      "_raw": "-15",
+      "lower": "-15",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+2",
+      "lower": "+2",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i16,i5~9",
+      "lower": "i16",
+      "properties": [],
+      "upper": ""
+    },
+    "hitLevels": [
+      "m",
+      "h"
+    ],
+    "input": "df+3+4",
+    "name": "",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      6,
+      35
+    ],
+    "framesOnBlock": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+0",
+      "lower": "+0",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i16",
+      "lower": "i16",
+      "properties": []
+    },
+    "hitLevels": [
+      "m",
+      "t"
+    ],
+    "input": "CH.df+3+4",
+    "name": "Nen Dougarami",
+    "notes": [],
+    "specials": [
+      "Spike"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      5,
+      10,
+      20
+    ],
+    "framesOnBlock": {
+      "_raw": "-14",
+      "lower": "-14",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+54a",
+      "lower": "+54",
+      "properties": [
+        "a"
+      ]
+    },
+    "framesOnHit": {
+      "_raw": "+50 (+19)",
+      "lower": "+50",
+      "properties": [],
+      "tech": "+19"
+    },
+    "framesOnStartup": {
+      "_raw": ",i20",
+      "lower": "i20",
+      "properties": []
+    },
+    "hitLevels": [
+      "m",
+      "h",
+      "m"
+    ],
+    "input": "df+3+4,4",
+    "name": "Kasho Maki-manji",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      5
+    ],
+    "framesOnBlock": {
+      "_raw": "-5",
+      "lower": "-5",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+6",
+      "lower": "+6",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i10",
+      "lower": "i10",
+      "properties": []
+    },
+    "hitLevels": [
+      "sm"
+    ],
+    "input": "d+1",
+    "name": "Crouch Jab",
+    "notes": [
+      "Returns to standing when input F"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      17
+    ],
+    "framesOnBlock": {
+      "_raw": "+0c",
+      "lower": "+0",
+      "properties": [
+        "c"
+      ]
+    },
+    "framesOnCounter": {
+      "_raw": "+27d",
+      "lower": "+27",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnHit": {
+      "_raw": "+3c",
+      "lower": "+3",
+      "properties": [
+        "c"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i15",
+      "lower": "i15",
+      "properties": []
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "d+2",
+    "name": "Tecchuu-ate",
+    "notes": [],
+    "specials": [
+      "Spike"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [],
+    "framesOnBlock": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "hitLevels": [
+      "sp"
+    ],
+    "input": "d+3",
+    "name": "Unsoku Kou",
+    "notes": [
+      "Transitions to UNS (Kou, d)",
+      "Can transition to UNS (Kou, u) with input u+3",
+      "Can transition to UNS (Gen) with input b+3",
+      "Can transition to WGS with input DF",
+      "Can execute EWGF or EWGK by inputting 2 or 3 respectively exactly one frame after DF"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      6
+    ],
+    "framesOnBlock": {
+      "_raw": "-15",
+      "lower": "-15",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "-4",
+      "lower": "-4",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i12",
+      "lower": "i12",
+      "properties": []
+    },
+    "hitLevels": [
+      "l"
+    ],
+    "input": "d+4",
+    "name": "Crouch Chin Kick",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [],
+    "framesOnBlock": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "hitLevels": [
+      "sp"
+    ],
+    "input": "d+1+2",
+    "name": "Heaven's Wrath",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      10,
+      12
+    ],
+    "framesOnBlock": {
+      "_raw": "-16",
+      "lower": "-16",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "-3",
+      "lower": "-3",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i20~21,i9~10",
+      "lower": "i20",
+      "properties": [],
+      "upper": "21"
+    },
+    "hitLevels": [
+      "l",
+      "l"
+    ],
+    "input": "db+2",
+    "name": "Eisaimon",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      7
+    ],
+    "framesOnBlock": {
+      "_raw": "-13",
+      "lower": "-13",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+2",
+      "lower": "+2",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "-2",
+      "lower": "-2",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i16",
+      "lower": "i16",
+      "properties": []
+    },
+    "hitLevels": [
+      "L"
+    ],
+    "input": "db+4",
+    "name": "",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      7,
+      20
+    ],
+    "framesOnBlock": {
+      "_raw": "-12",
+      "lower": "-12",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+39d (-19)",
+      "lower": "+39",
+      "properties": [
+        "d"
+      ],
+      "tech": "-19"
+    },
+    "framesOnStartup": {
+      "_raw": ",i15",
+      "lower": "i15",
+      "properties": []
+    },
+    "hitLevels": [
+      "L",
+      "m"
+    ],
+    "input": "db+4,1+2",
+    "name": "Un Oshi-kuzushi",
+    "notes": [
+      "Combo from 1st CH even with delay",
+      "Can be delayed",
+      "CH-confirmable from 1st CH"
+    ],
+    "specials": [
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      14
+    ],
+    "framesOnBlock": {
+      "_raw": "-4",
+      "lower": "-4",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+6",
+      "lower": "+6",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i18",
+      "lower": "i18",
+      "properties": []
+    },
+    "hitLevels": [
+      "h"
+    ],
+    "input": "b+1",
+    "name": "",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      14,
+      15
+    ],
+    "framesOnBlock": {
+      "_raw": "-10",
+      "lower": "-10",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "-4",
+      "lower": "-4",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": ",i22",
+      "lower": "i22",
+      "properties": []
+    },
+    "hitLevels": [
+      "h",
+      "m"
+    ],
+    "input": "b+1,1",
+    "name": "",
+    "notes": [
+      "Combo from 1st hit without delay",
+      "Can be delayed"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      14,
+      15,
+      13
+    ],
+    "framesOnBlock": {
+      "_raw": "-10",
+      "lower": "-10",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+3",
+      "lower": "+3",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": ",i15~17",
+      "lower": "i15",
+      "properties": [],
+      "upper": "17"
+    },
+    "hitLevels": [
+      "h",
+      "m",
+      "m"
+    ],
+    "input": "b+1,1,3",
+    "name": "",
+    "notes": [
+      "Can transition to SEN (+0/+13/+13) with input F",
+      "Cannot block up to i14 on empty transition on block",
+      "Combo from 2nd CH",
+      "Jails from 2nd block"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      14,
+      15,
+      13,
+      20
+    ],
+    "framesOnBlock": {
+      "_raw": "-16",
+      "lower": "-16",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+53a",
+      "lower": "+53",
+      "properties": [
+        "a"
+      ]
+    },
+    "framesOnHit": {
+      "_raw": "+48 (+17)",
+      "lower": "+48",
+      "properties": [],
+      "tech": "+17"
+    },
+    "framesOnStartup": {
+      "_raw": ",i32",
+      "lower": "i32",
+      "properties": []
+    },
+    "hitLevels": [
+      "h",
+      "m",
+      "m",
+      "m"
+    ],
+    "input": "b+1,1,3,3",
+    "name": "Hen-in 4 Hit Combo",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      14
+    ],
+    "framesOnBlock": {
+      "_raw": "-9",
+      "lower": "-9",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+3",
+      "lower": "+3",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i16~17",
+      "lower": "i16",
+      "properties": [],
+      "upper": "17"
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "b+2",
+    "name": "Sin Smiter",
+    "notes": [],
+    "specials": [
+      "Homing"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [],
+    "framesOnBlock": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "hitLevels": [],
+    "input": "b+3",
+    "name": "Unsoku Gen",
+    "notes": [
+      "Partially drains heat meter when in heat",
+      "Transitions to UNS (Gen)",
+      "Can transition to UNS (Kou, u/d) with input u+3 or d+3",
+      "Can transition to SEN with input f+3",
+      "Can transition to WGS with input DF",
+      "Can execute EWGF or EWGK by inputting 2 or 3 respectively exactly one frame after DF",
+      "See also Unsoku Cancel"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      20
+    ],
+    "framesOnBlock": {
+      "_raw": "-8",
+      "lower": "-8",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+71a (+55)",
+      "lower": "+71",
+      "properties": [
+        "a"
+      ],
+      "tech": "+55"
+    },
+    "framesOnHit": {
+      "_raw": "+35a",
+      "lower": "+35",
+      "properties": [
+        "a"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i18",
+      "lower": "i18",
+      "properties": []
+    },
+    "hitLevels": [
+      "h"
+    ],
+    "input": "b+4",
+    "name": "Ebi-geri",
+    "notes": [],
+    "specials": [
+      "Tornado"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [],
+    "framesOnBlock": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "hitLevels": [],
+    "input": "b+1+3",
+    "name": "Tatenashi",
+    "notes": [
+      "Parry mids and highs",
+      "Converts incoming damage to recoverable health",
+      "Partially restores Heat on successful parry",
+      "Transitions to WRA on successful parry with +(recv - 17) where recv is the recovery of the parried move"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      50
+    ],
+    "framesOnBlock": {
+      "_raw": "+20d (-1)",
+      "lower": "+20",
+      "properties": [
+        "d"
+      ],
+      "tech": "-1"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+20d (-1)",
+      "lower": "+20",
+      "properties": [
+        "d"
+      ],
+      "tech": "-1"
+    },
+    "framesOnStartup": {
+      "_raw": "i64",
+      "lower": "i64",
+      "properties": []
+    },
+    "hitLevels": [
+      "ub(m)"
+    ],
+    "input": "b+1+4",
+    "name": "Clairvoyant Fatal Violet",
+    "notes": [
+      "Can cancel with input b,b"
+    ],
+    "specials": [
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      20
+    ],
+    "framesOnBlock": {
+      "_raw": "-13",
+      "lower": "-13",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+14g",
+      "lower": "+14",
+      "properties": [
+        "g"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i18",
+      "lower": "i18",
+      "properties": []
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "b+1+2",
+    "name": "Kugai Dachi",
+    "notes": [],
+    "specials": [
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [],
+    "framesOnBlock": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "hitLevels": [
+      "sp"
+    ],
+    "input": "u+3",
+    "name": "Unsoku Kou",
+    "notes": [
+      "Transitions to UNS (Kou, u)",
+      "Can transition to UNS (Kou, d) with input d+3",
+      "Can transition to WGS with input DF",
+      "Can execute EWGF or EWGK by inputting 2/3 exactly one frame after DF"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      15
+    ],
+    "framesOnBlock": {
+      "_raw": "-9",
+      "lower": "-9",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+17",
+      "lower": "+17",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+8",
+      "lower": "+8",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i13",
+      "lower": "i13",
+      "properties": []
+    },
+    "hitLevels": [
+      "h"
+    ],
+    "input": "uf+1",
+    "name": "Seigan Ugachi",
+    "notes": [
+      "Transitions to WRA (-/+8/+17) on hit"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      17
+    ],
+    "framesOnBlock": {
+      "_raw": "-12",
+      "lower": "-12",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+9",
+      "lower": "+9",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i15-i16",
+      "lower": "i15",
+      "properties": []
+    },
+    "hitLevels": [
+      "h"
+    ],
+    "input": "uf+2",
+    "name": "",
+    "notes": [
+      "Normal hit offsets opponent slightly to the left of the axis and rotates them.",
+      "Counter hit pushes the opponent on axis like most moves and does not rotate the opponent."
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      10
+    ],
+    "framesOnBlock": {
+      "_raw": "-10",
+      "lower": "-10",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+1",
+      "lower": "+1",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i21~22",
+      "lower": "i21",
+      "properties": [],
+      "upper": "22"
+    },
+    "hitLevels": [
+      "h"
+    ],
+    "input": "uf+3",
+    "name": "",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      10,
+      15
+    ],
+    "framesOnBlock": {
+      "_raw": "-5",
+      "lower": "-5",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+5",
+      "lower": "+5",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": ",i16",
+      "lower": "i16",
+      "properties": []
+    },
+    "hitLevels": [
+      "h",
+      "m"
+    ],
+    "input": "uf+3,1",
+    "name": "Tobisenzuki",
+    "notes": [
+      "+13c on crouching hit",
+      "Jails on 1st block",
+      "Combo from 1st hit"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      15
+    ],
+    "framesOnBlock": {
+      "_raw": "-13",
+      "lower": "-13",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+70a (+54)",
+      "lower": "+70",
+      "properties": [
+        "a"
+      ],
+      "tech": "+54"
+    },
+    "framesOnStartup": {
+      "_raw": "i17~18",
+      "lower": "i17",
+      "properties": [],
+      "upper": "18"
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "uf+4",
+    "name": "Silver Gleam",
+    "notes": [],
+    "specials": [
+      "Tornado"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      13
+    ],
+    "framesOnBlock": {
+      "_raw": "-13",
+      "lower": "-13",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+16a (-1)",
+      "lower": "+16",
+      "properties": [
+        "a"
+      ],
+      "tech": "-1"
+    },
+    "framesOnStartup": {
+      "_raw": "i17~18",
+      "lower": "i17",
+      "properties": [],
+      "upper": "18"
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "ub+4",
+    "name": "Silver Gleam",
+    "notes": [],
+    "specials": [
+      "Tornado",
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      10,
+      10
+    ],
+    "framesOnBlock": {
+      "_raw": "-10",
+      "lower": "-10",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "-1",
+      "lower": "-1",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i20,i4",
+      "lower": "i20",
+      "properties": []
+    },
+    "hitLevels": [
+      "mm"
+    ],
+    "input": "uf+3+4",
+    "name": "",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      10,
+      10,
+      20
+    ],
+    "framesOnBlock": {
+      "_raw": "-14",
+      "lower": "-14",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "-4",
+      "lower": "-4",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": ",i17",
+      "lower": "i17",
+      "properties": []
+    },
+    "hitLevels": [
+      "mm",
+      "m"
+    ],
+    "input": "uf+3+4,1+2",
+    "name": "Un Hiensatsu",
+    "notes": [
+      "Combo from 1st hit"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [],
+    "framesOnBlock": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "hitLevels": [
+      "sp"
+    ],
+    "input": "ub+1+2",
+    "name": "Fading Shadow",
+    "notes": [
+      "Can transition to Wind God Step with input DF",
+      "Can execute EWGF or EWGK by inputting 2 or 3 respectively exactly one frame after DF"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [],
+    "framesOnBlock": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "hitLevels": [
+      "sp"
+    ],
+    "input": "u+1+2",
+    "name": "Swift Shadow",
+    "notes": [
+      "Can transition to Wind God Step with input DF",
+      "Can execute EWGF or EWGK by inputting 2/3 exactly one frame after DF"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      14
+    ],
+    "framesOnBlock": {
+      "_raw": "-9",
+      "lower": "-9",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+1",
+      "lower": "+1",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i12",
+      "lower": "i12",
+      "properties": []
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "f,F+2",
+    "name": "Raiden",
+    "notes": [
+      "Can transition to SEN (+2/+12/+12) with input F",
+      "Cannot block up to i12 on empty transition on block"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      22
+    ],
+    "framesOnBlock": {
+      "_raw": "-2",
+      "lower": "-2",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+49a",
+      "lower": "+49",
+      "properties": [
+        "a"
+      ]
+    },
+    "framesOnHit": {
+      "_raw": "+49d (-9)",
+      "lower": "+49",
+      "properties": [
+        "d"
+      ],
+      "tech": "-9"
+    },
+    "framesOnStartup": {
+      "_raw": "i16~19",
+      "lower": "i16",
+      "properties": [],
+      "upper": "19"
+    },
+    "hitLevels": [
+      "h"
+    ],
+    "input": "f,F+3+4",
+    "name": "Un Hien-geri",
+    "notes": [],
+    "specials": [
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      22
+    ],
+    "framesOnBlock": {
+      "_raw": "+6",
+      "lower": "+6",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+32a (+24)",
+      "lower": "+32",
+      "properties": [
+        "a"
+      ],
+      "tech": "+24"
+    },
+    "framesOnStartup": {
+      "_raw": "i24~27",
+      "lower": "i24",
+      "properties": [],
+      "upper": "27"
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "f,f,F+3",
+    "name": "Ten Chuten-geri",
+    "notes": [
+      "Chip damage when guarded"
+    ],
+    "specials": [
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      28
+    ],
+    "framesOnBlock": {
+      "_raw": "+4",
+      "lower": "+4",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+31a (+5)",
+      "lower": "+31",
+      "properties": [
+        "a"
+      ],
+      "tech": "+5"
+    },
+    "framesOnStartup": {
+      "_raw": "i26~27",
+      "lower": "i26",
+      "properties": [],
+      "upper": "27"
+    },
+    "hitLevels": [
+      "h"
+    ],
+    "input": "f,f,F+4",
+    "name": "Un Tobi Kaijo-geri",
+    "notes": [
+      "Can transition to WRA (+8/+35a (+9)/-) with input D"
+    ],
+    "specials": [
+      "Balcony Break",
+      "Homing"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      10
+    ],
+    "framesOnBlock": {
+      "_raw": "-17",
+      "lower": "-17",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "-6",
+      "lower": "-6",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i16",
+      "lower": "i16",
+      "properties": []
+    },
+    "hitLevels": [
+      "l"
+    ],
+    "input": "FC.d+3",
+    "name": "",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      25
+    ],
+    "framesOnBlock": {
+      "_raw": "-17",
+      "lower": "-17",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+54a (+34)",
+      "lower": "+54",
+      "properties": [
+        "a"
+      ],
+      "tech": "+34"
+    },
+    "framesOnStartup": {
+      "_raw": "i20",
+      "lower": "i20",
+      "properties": []
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "FC.df+3",
+    "name": "Nen Hangetsu-ate",
+    "notes": [],
+    "specials": [
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      20
+    ],
+    "framesOnBlock": {
+      "_raw": "-14",
+      "lower": "-14",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+54a",
+      "lower": "+54",
+      "properties": [
+        "a"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i15",
+      "lower": "i15",
+      "properties": []
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "FC.df+4",
+    "name": "Manji-geri",
+    "notes": [],
+    "specials": [
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      12
+    ],
+    "framesOnBlock": {
+      "_raw": "-10",
+      "lower": "-10",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+13 SEN",
+      "lower": "+13",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i13",
+      "lower": "i13",
+      "properties": []
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "ws1",
+    "name": "Jewel Snatcher",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      20
+    ],
+    "framesOnBlock": {
+      "_raw": "-8",
+      "lower": "-8",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+14c",
+      "lower": "+14",
+      "properties": [
+        "c"
+      ]
+    },
+    "framesOnHit": {
+      "_raw": "+9",
+      "lower": "+9",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i18",
+      "lower": "i18",
+      "properties": []
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "ws2",
+    "name": "Benten Thrust",
+    "notes": [],
+    "specials": [
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      14
+    ],
+    "framesOnBlock": {
+      "_raw": "-10",
+      "lower": "-10",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+1",
+      "lower": "+1",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i15~16",
+      "lower": "i15",
+      "properties": [],
+      "upper": "16"
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "ws3",
+    "name": "",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      14,
+      21
+    ],
+    "framesOnBlock": {
+      "_raw": "-4",
+      "lower": "-4",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+21a (+12)",
+      "lower": "+21",
+      "properties": [
+        "a"
+      ],
+      "tech": "+12"
+    },
+    "framesOnStartup": {
+      "_raw": ",i22~23",
+      "lower": "i22",
+      "properties": [],
+      "upper": "23"
+    },
+    "hitLevels": [
+      "m",
+      "h"
+    ],
+    "input": "ws3,4",
+    "name": "Twin Stingers",
+    "notes": [
+      "Combo from 1st hit without delay",
+      "Can be delayed"
+    ],
+    "specials": [
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      10
+    ],
+    "framesOnBlock": {
+      "_raw": "-6",
+      "lower": "-6",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+5",
+      "lower": "+5",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i11~12",
+      "lower": "i11",
+      "properties": [],
+      "upper": "12"
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "ws4",
+    "name": "",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      10,
+      15
+    ],
+    "framesOnBlock": {
+      "_raw": "-17",
+      "lower": "-17",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "-1c",
+      "lower": "-1",
+      "properties": [
+        "c"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": ",i17~18",
+      "lower": "i17",
+      "properties": [],
+      "upper": "18"
+    },
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "input": "ws4,4",
+    "name": "Seven Seas Splits Kick",
+    "notes": [
+      "Can transition to WRA (-10/+6/+6) with input D",
+      "Combo from 1st hit",
+      "Jails from 1st block"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      14
+    ],
+    "framesOnBlock": {
+      "_raw": "-8",
+      "lower": "-8",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+14",
+      "lower": "+14",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+14",
+      "lower": "+14",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i14~15",
+      "lower": "i14",
+      "properties": [],
+      "upper": "15"
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "ws3+4",
+    "name": "Hen Gyakujo-geri",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      24
+    ],
+    "framesOnBlock": {
+      "_raw": "-22",
+      "lower": "-22",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+24a (+14)",
+      "lower": "+24",
+      "properties": [
+        "a"
+      ],
+      "tech": "+14"
+    },
+    "framesOnStartup": {
+      "_raw": "i19~21",
+      "lower": "i19",
+      "properties": [],
+      "upper": "21"
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "WGS.1",
+    "name": "Thunder God Fist",
+    "notes": [
+      "26 dmg if manual CD"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      24,
+      22
+    ],
+    "framesOnBlock": {
+      "_raw": "-12",
+      "lower": "-12",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+18d (-17)",
+      "lower": "+18",
+      "properties": [
+        "d"
+      ],
+      "tech": "-17"
+    },
+    "framesOnStartup": {
+      "_raw": ",i26~30",
+      "lower": "i26",
+      "properties": [],
+      "upper": "30"
+    },
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "input": "WGS.1,3",
+    "name": "Lightning Splits Kick",
+    "notes": [
+      "Combo from 1st hit"
+    ],
+    "specials": [
+      "Spike"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      24,
+      26
+    ],
+    "framesOnBlock": {
+      "_raw": "-7",
+      "lower": "-7",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+1 (+0)",
+      "lower": "+1",
+      "properties": [],
+      "tech": "+0"
+    },
+    "framesOnStartup": {
+      "_raw": ",i23~27",
+      "lower": "i23",
+      "properties": [],
+      "upper": "27"
+    },
+    "hitLevels": [
+      "m",
+      "h"
+    ],
+    "input": "WGS.1,4",
+    "name": "Lightning Wheel",
+    "notes": [
+      "Combo from 1st hit"
+    ],
+    "specials": [
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      15
+    ],
+    "framesOnBlock": {
+      "_raw": "-10",
+      "lower": "-10",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+35a (+25)",
+      "lower": "+35",
+      "properties": [
+        "a"
+      ],
+      "tech": "+25"
+    },
+    "framesOnStartup": {
+      "_raw": "i11~12",
+      "lower": "i11",
+      "properties": [],
+      "upper": "12"
+    },
+    "hitLevels": [
+      "h"
+    ],
+    "input": "WGS.2",
+    "name": "Wind God Fist",
+    "notes": [
+      "Becomes Electric Wind God Fist during Heat (partially uses remaining Heat Time)",
+      "20dmg if manual CD"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      23
+    ],
+    "framesOnBlock": {
+      "_raw": "+5",
+      "lower": "+5",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+25a (+25)",
+      "lower": "+25",
+      "properties": [
+        "a"
+      ],
+      "tech": "+25"
+    },
+    "framesOnStartup": {
+      "_raw": "i11~12 (~i13)",
+      "lower": "i11",
+      "properties": [],
+      "upper": "12"
+    },
+    "hitLevels": [
+      "h"
+    ],
+    "input": "f,n,d,df#2",
+    "name": "Electric Wind God Fist",
+    "notes": [
+      "Chip damage when guarded"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      17
+    ],
+    "framesOnBlock": {
+      "_raw": "-13",
+      "lower": "-13",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+23a (+17)",
+      "lower": "+23",
+      "properties": [
+        "a"
+      ],
+      "tech": "+17"
+    },
+    "framesOnHit": {
+      "_raw": "+3",
+      "lower": "+3",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i15~17",
+      "lower": "i15",
+      "properties": [],
+      "upper": "17"
+    },
+    "hitLevels": [
+      "M"
+    ],
+    "input": "WGS.df+3",
+    "name": "War God Kick",
+    "notes": [
+      "Becomes Electric War God Kick during Heat (partially uses remaining Heat Time",
+      "21dmg if manual CD)"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      27
+    ],
+    "framesOnBlock": {
+      "_raw": "-9",
+      "lower": "-9",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+23a (+17)",
+      "lower": "+23",
+      "properties": [
+        "a"
+      ],
+      "tech": "+17"
+    },
+    "framesOnHit": {
+      "_raw": "+13a (-4)",
+      "lower": "+13",
+      "properties": [
+        "a"
+      ],
+      "tech": "-4"
+    },
+    "framesOnStartup": {
+      "_raw": "i15~17",
+      "lower": "i15",
+      "properties": [],
+      "upper": "17"
+    },
+    "hitLevels": [
+      "M"
+    ],
+    "input": "f,n,d,df#3",
+    "name": "Electric War God Kick",
+    "notes": [
+      "Chip damage when guarded"
+    ],
+    "specials": [
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      6
+    ],
+    "framesOnBlock": {
+      "_raw": "-23",
+      "lower": "-23",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+2c",
+      "lower": "+2",
+      "properties": [
+        "c"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i16",
+      "lower": "i16",
+      "properties": []
+    },
+    "hitLevels": [
+      "l"
+    ],
+    "input": "WGS.DF+4",
+    "name": "",
+    "notes": [
+      "8 dmg if manual CD"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      6,
+      20
+    ],
+    "framesOnBlock": {
+      "_raw": "-22",
+      "lower": "-22",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "-1",
+      "lower": "-1",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": ",i24",
+      "lower": "i24",
+      "properties": []
+    },
+    "hitLevels": [
+      "l",
+      "h"
+    ],
+    "input": "WGS.DF+4,2",
+    "name": "Ruthless Demon",
+    "notes": [
+      "Can transition to WRA (-15/+6/+6) with input D",
+      "Combo from 1st hit"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      6,
+      16
+    ],
+    "framesOnBlock": {
+      "_raw": "-23",
+      "lower": "-23",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+23a",
+      "lower": "+23",
+      "properties": [
+        "a"
+      ]
+    },
+    "framesOnHit": {
+      "_raw": "+2",
+      "lower": "+2",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": ",i17~18",
+      "lower": "i17",
+      "properties": [],
+      "upper": "18"
+    },
+    "hitLevels": [
+      "l",
+      "l"
+    ],
+    "input": "WGS.DF+4,4",
+    "name": "Spinning Demon",
+    "notes": [
+      "Combo from 1st hit"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      12
+    ],
+    "framesOnBlock": {
+      "_raw": "-14",
+      "lower": "-14",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+1",
+      "lower": "+1",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i16",
+      "lower": "i16",
+      "properties": []
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "SEN.1",
+    "name": "",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      12,
+      25
+    ],
+    "framesOnBlock": {
+      "_raw": "-16",
+      "lower": "-16",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+21a (+0)",
+      "lower": "+21",
+      "properties": [
+        "a"
+      ],
+      "tech": "+0"
+    },
+    "framesOnStartup": {
+      "_raw": ",i26",
+      "lower": "i26",
+      "properties": []
+    },
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "input": "SEN.1,2",
+    "name": "Furin Kazan",
+    "notes": [
+      "Blue spark with input qcf+2 for 5 extra damage",
+      "Hit-confirmable from 1st hit or if attack was absorbed",
+      "Combo from 1st hit even with 9?F delay",
+      "Can be delayed by 10?F",
+      "Becomes -9 on block if 1st hit absorbed an attack"
+    ],
+    "specials": [
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      20
+    ],
+    "framesOnBlock": {
+      "_raw": "-4",
+      "lower": "-4",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+8",
+      "lower": "+8",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i13",
+      "lower": "i13",
+      "properties": []
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "SEN.2",
+    "name": "Rashomon",
+    "notes": [],
+    "specials": [
+      "Tornado"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      24
+    ],
+    "framesOnBlock": {
+      "_raw": "+4",
+      "lower": "+4",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+12d",
+      "lower": "+12",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i26~27",
+      "lower": "i26",
+      "properties": [],
+      "upper": "27"
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "SEN.4",
+    "name": "Kandachi-geri",
+    "notes": [
+      "Deals chip damage on block"
+    ],
+    "specials": [
+      "Spike"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      13,
+      17
+    ],
+    "framesOnBlock": {
+      "_raw": "-6 WRA",
+      "lower": "-6",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+32a (+18)",
+      "lower": "+32",
+      "properties": [
+        "a"
+      ],
+      "tech": "+18"
+    },
+    "framesOnStartup": {
+      "_raw": "i14~15,i12~13",
+      "lower": "i14",
+      "properties": [],
+      "upper": "15"
+    },
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "input": "SEN.1+2",
+    "name": "Inverse Deva Laser",
+    "notes": [
+      "Transitions to WRA after recovery"
+    ],
+    "specials": [
+      "Tornado",
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      10,
+      12
+    ],
+    "framesOnBlock": {
+      "_raw": "-29, -11",
+      "lower": "-29",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+4",
+      "lower": "+4",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i20~21,i35~36",
+      "lower": "i20",
+      "properties": [],
+      "upper": "21"
+    },
+    "hitLevels": [
+      "l",
+      "h"
+    ],
+    "input": "SEN.3+4",
+    "name": "Yaksha Sweep",
+    "notes": [],
+    "specials": [
+      "Homing"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      12
+    ],
+    "framesOnBlock": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "-3",
+      "lower": "-3",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i16",
+      "lower": "i16",
+      "properties": []
+    },
+    "hitLevels": [
+      "th(h)"
+    ],
+    "input": "SEN.1+3",
+    "name": "Haburi-kaze",
+    "notes": [
+      "Throw break: none",
+      "Opponent recovery on hit: FUFA"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      26
+    ],
+    "framesOnBlock": {
+      "_raw": "-26",
+      "lower": "-26",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "-4c",
+      "lower": "-4",
+      "properties": [
+        "c"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i32",
+      "lower": "i32",
+      "properties": []
+    },
+    "hitLevels": [
+      "L"
+    ],
+    "input": "SSH.3",
+    "name": "Senshin Karami-ate",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      33,
+      18
+    ],
+    "framesOnBlock": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+0",
+      "lower": "+0",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i22",
+      "lower": "i22",
+      "properties": []
+    },
+    "hitLevels": [
+      "l"
+    ],
+    "input": "SSH.CH.3",
+    "name": "Nen Ashigarami",
+    "notes": [],
+    "specials": [
+      "Spike"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [],
+    "framesOnBlock": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "hitLevels": [
+      "sp"
+    ],
+    "input": "SSH.uf",
+    "name": "Senshin Hiei",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      22
+    ],
+    "framesOnBlock": {
+      "_raw": "+6",
+      "lower": "+6",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+32a (+24)",
+      "lower": "+32",
+      "properties": [
+        "a"
+      ],
+      "tech": "+24"
+    },
+    "framesOnStartup": {
+      "_raw": "i30~33",
+      "lower": "i30",
+      "properties": [],
+      "upper": "33"
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "SSH.uf+3",
+    "name": "Senshin Chuten-geri",
+    "notes": [],
+    "specials": [
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      28
+    ],
+    "framesOnBlock": {
+      "_raw": "+4",
+      "lower": "+4",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+31a (+5)",
+      "lower": "+31",
+      "properties": [
+        "a"
+      ],
+      "tech": "+5"
+    },
+    "framesOnStartup": {
+      "_raw": "i32~33",
+      "lower": "i32",
+      "properties": [],
+      "upper": "33"
+    },
+    "hitLevels": [
+      "h"
+    ],
+    "input": "SSH.uf+4",
+    "name": "Senshin Tobi Kaijo-geri",
+    "notes": [
+      "Can transition to WRA (+8/+35a (+9)/-) with input D"
+    ],
+    "specials": [
+      "Homing",
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      12
+    ],
+    "framesOnBlock": {
+      "_raw": "-4",
+      "lower": "-4",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+13",
+      "lower": "+13",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+8",
+      "lower": "+8",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i12",
+      "lower": "i12",
+      "properties": []
+    },
+    "hitLevels": [
+      "h"
+    ],
+    "input": "WRA.1",
+    "name": "",
+    "notes": [
+      "Deals chip damage on block",
+      "Can transition to SEN (+0/+13/+17) with input F",
+      "Cannot block up to i14 on empty transition on block"
+    ],
+    "specials": [
+      "Homing"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      12,
+      22
+    ],
+    "framesOnBlock": {
+      "_raw": "-9",
+      "lower": "-9",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+9g",
+      "lower": "+9",
+      "properties": [
+        "g"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": ",i25~26",
+      "lower": "i25",
+      "properties": [],
+      "upper": "26"
+    },
+    "hitLevels": [
+      "h",
+      "M"
+    ],
+    "input": "WRA.1,4",
+    "name": "Funkei Goma",
+    "notes": [
+      "Combo from 1st hit"
+    ],
+    "specials": [
+      "Balcony Break",
+      "Spike"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      17
+    ],
+    "framesOnBlock": {
+      "_raw": "-6",
+      "lower": "-6",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+22a (+12)",
+      "lower": "+22",
+      "properties": [
+        "a"
+      ],
+      "tech": "+12"
+    },
+    "framesOnStartup": {
+      "_raw": "i28",
+      "lower": "i28",
+      "properties": []
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "WRA.3",
+    "name": "",
+    "notes": [
+      "Deals chip damage on block"
+    ],
+    "specials": [
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      17,
+      20
+    ],
+    "framesOnBlock": {
+      "_raw": "+6",
+      "lower": "+6",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+17a (+16)",
+      "lower": "+17",
+      "properties": [
+        "a"
+      ],
+      "tech": "+16"
+    },
+    "framesOnStartup": {
+      "_raw": ",i18~19",
+      "lower": "i18",
+      "properties": [],
+      "upper": "19"
+    },
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "input": "WRA.3,4",
+    "name": "Hell Axle",
+    "notes": [
+      "Deals chip damage on block",
+      "Can transition to WRA (+8/+19a (+18)/-) with input D",
+      "Jails from 1st block",
+      "Combo from 1st hit",
+      "Hunting Hawk",
+      "HW.3,4"
+    ],
+    "specials": [
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      6,
+      8
+    ],
+    "framesOnBlock": {
+      "_raw": "-10",
+      "lower": "-10",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+7",
+      "lower": "+7",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "-10",
+      "lower": "-10",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i17~18,i13",
+      "lower": "i17",
+      "properties": [],
+      "upper": "18"
+    },
+    "hitLevels": [
+      "M",
+      "M"
+    ],
+    "input": "WRA.4",
+    "name": "",
+    "notes": [
+      "on 2nd hit",
+      "on 2nd hit",
+      "Combo from 1st CH",
+      "Both hits jail on block"
+    ],
+    "specials": [
+      "Spike"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      6,
+      8,
+      8
+    ],
+    "framesOnBlock": {
+      "_raw": "-18",
+      "lower": "-18",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "-7",
+      "lower": "-7",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": ",i15",
+      "lower": "i15",
+      "properties": []
+    },
+    "hitLevels": [
+      "M",
+      "M",
+      "m"
+    ],
+    "input": "WRA.4,2",
+    "name": "",
+    "notes": [
+      "Jails from 2nd block",
+      "Hit-confirmable from 2nd hit",
+      "Combo from 1st CH",
+      "Combo from 2nd hit",
+      "Can be delayed"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      6,
+      8,
+      8,
+      4
+    ],
+    "framesOnBlock": {
+      "_raw": "-12",
+      "lower": "-12",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "-1",
+      "lower": "-1",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": ",i15",
+      "lower": "i15",
+      "properties": []
+    },
+    "hitLevels": [
+      "M",
+      "M",
+      "m",
+      "h"
+    ],
+    "input": "WRA.4,2,2",
+    "name": "",
+    "notes": [
+      "Jails from 3rd block",
+      "Combo from 3rd hit",
+      "Can be delayed"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      6,
+      8,
+      8,
+      4,
+      22
+    ],
+    "framesOnBlock": {
+      "_raw": "-20",
+      "lower": "-20",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+24 (+3)",
+      "lower": "+24",
+      "properties": [],
+      "tech": "+3"
+    },
+    "framesOnStartup": {
+      "_raw": ",i24~25",
+      "lower": "i24",
+      "properties": [],
+      "upper": "25"
+    },
+    "hitLevels": [
+      "M",
+      "M",
+      "m",
+      "h",
+      "m"
+    ],
+    "input": "WRA.4,2,2,1+2",
+    "name": "Kongo Gekimetsujin",
+    "notes": [
+      "Blue spark with input qcf+1+2 for 6 extra damage",
+      "Combo from 4th hit without delay",
+      "Can be delayed"
+    ],
+    "specials": [
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      30
+    ],
+    "framesOnBlock": {
+      "_raw": "-13",
+      "lower": "-13",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+16d",
+      "lower": "+16",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i15~16",
+      "lower": "i15",
+      "properties": [],
+      "upper": "16"
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "WRA.1+2",
+    "name": "Demon Bolt",
+    "notes": [],
+    "specials": [
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      26
+    ],
+    "framesOnBlock": {
+      "_raw": "-5",
+      "lower": "-5",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+5d",
+      "lower": "+5",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i18~19",
+      "lower": "i18",
+      "properties": [],
+      "upper": "19"
+    },
+    "hitLevels": [
+      "M"
+    ],
+    "input": "WRA.3+4",
+    "name": "Goma-sai",
+    "notes": [
+      "Deals chip damage on block",
+      "Opponent is FDFA on normal hit"
+    ],
+    "specials": [
+      "Spike"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      20
+    ],
+    "framesOnBlock": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+10d",
+      "lower": "+10",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i16",
+      "lower": "i16",
+      "properties": []
+    },
+    "hitLevels": [
+      "t(h)"
+    ],
+    "input": "WRA.1+3",
+    "name": "Heaven's Roar",
+    "notes": [
+      "Unbreakable",
+      "Opponent recovery on hit: FUFT",
+      "Does 35 damage on wall hit",
+      "HW.1+3",
+      "HW.2+4"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      9
+    ],
+    "framesOnBlock": {
+      "_raw": "-15",
+      "lower": "-15",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+2",
+      "lower": "+2",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "-4",
+      "lower": "-4",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i16~17",
+      "lower": "i16",
+      "properties": [],
+      "upper": "17"
+    },
+    "hitLevels": [
+      "L"
+    ],
+    "input": "WRA.d+4",
+    "name": "",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      9,
+      20
+    ],
+    "framesOnBlock": {
+      "_raw": "-16",
+      "lower": "-16",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+53a",
+      "lower": "+53",
+      "properties": [
+        "a"
+      ]
+    },
+    "framesOnHit": {
+      "_raw": "+48 (+17)",
+      "lower": "+48",
+      "properties": [],
+      "tech": "+17"
+    },
+    "framesOnStartup": {
+      "_raw": ",i21~22",
+      "lower": "i21",
+      "properties": [],
+      "upper": "22"
+    },
+    "hitLevels": [
+      "L",
+      "m"
+    ],
+    "input": "WRA.d+4,3",
+    "name": "Harai Kuzushi-manji",
+    "notes": [
+      "Combo from 1st CH with 14f delay",
+      "Input can be delayed 15f",
+      "Move can be delayed 13f",
+      "CH-confirmable"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [],
+    "framesOnBlock": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "hitLevels": [],
+    "input": "f,n",
+    "name": "Wind Step",
+    "notes": [
+      "Can transition to WGS with input DF",
+      "Punch parry, transitions to WGS on successful parry with +10"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      17
+    ],
+    "framesOnBlock": {
+      "_raw": "-6",
+      "lower": "-6",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+58a",
+      "lower": "+58",
+      "properties": [
+        "a"
+      ]
+    },
+    "framesOnHit": {
+      "_raw": "+4",
+      "lower": "+4",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i16~17",
+      "lower": "i16",
+      "properties": [],
+      "upper": "17"
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "WDS.3",
+    "name": "Fusenkyaku",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      55
+    ],
+    "framesOnBlock": {
+      "_raw": "-15",
+      "lower": "-15",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+0d",
+      "lower": "+0",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i20",
+      "lower": "i20",
+      "properties": []
+    },
+    "hitLevels": [
+      "m",
+      "t"
+    ],
+    "input": "R.df+1+2",
+    "name": "Sacred Dismantle Spark",
+    "notes": [
+      "Damage increases with lower health, maximum 82",
+      "Freezes match timer on activation and on hit",
+      "Restores recoverable health on hit",
+      "Transition to attack throw on hit",
+      "Consumes Rage"
+    ],
+    "specials": [
+      "Rage Art",
+      "Removes Recoverable Health",
+      "Reversal Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      17
+    ],
+    "framesOnBlock": {
+      "_raw": "-13",
+      "lower": "-13",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+13g",
+      "lower": "+13",
+      "properties": [
+        "g"
+      ]
+    },
+    "framesOnHit": {
+      "_raw": "+0",
+      "lower": "+0",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i18~19",
+      "lower": "i18",
+      "properties": [],
+      "upper": "19"
+    },
+    "hitLevels": [
+      "l"
+    ],
+    "input": "SS.4",
+    "name": "Jirin Sweep",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      20
+    ],
+    "framesOnBlock": {
+      "_raw": "-14",
+      "lower": "-14",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+54a",
+      "lower": "+54",
+      "properties": [
+        "a"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i17",
+      "lower": "i17",
+      "properties": []
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "BT.4",
+    "name": "Rear Manji-geri",
+    "notes": [
+      "back facing 4",
+      "back turned 4"
+    ],
+    "specials": [
+      "Strong Aerial Tailspin"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [],
+    "framesOnBlock": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "hitLevels": [
+      "sp"
+    ],
+    "input": "2+3+4",
+    "name": "Taunt",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [],
+    "framesOnBlock": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "hitLevels": [
+      "sp"
+    ],
+    "input": "1+2+3+4",
+    "name": "Ki Charge",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      14
+    ],
+    "framesOnBlock": {
+      "_raw": "-19",
+      "lower": "-19",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "-8 / -8a (-16)",
+      "lower": "-8",
+      "properties": [],
+      "tech": "-16"
+    },
+    "framesOnStartup": {
+      "_raw": "i19",
+      "lower": "i19",
+      "properties": []
+    },
+    "hitLevels": [
+      "L"
+    ],
+    "input": "OTG.d+4",
+    "name": "",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      14,
+      17
+    ],
+    "framesOnBlock": {
+      "_raw": "-26",
+      "lower": "-26",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "-10 / -15a (-23)",
+      "lower": "-10",
+      "properties": [],
+      "tech": "-23"
+    },
+    "framesOnStartup": {
+      "_raw": ",i20~21",
+      "lower": "i20",
+      "properties": [],
+      "upper": "21"
+    },
+    "hitLevels": [
+      "L",
+      "L"
+    ],
+    "input": "OTG.d+4,1",
+    "name": "Totetsu Jyurin",
+    "notes": [
+      "Blue spark with input OTG.d+4:1 for 20 dmg",
+      "Jails from 1st block",
+      "Combo from 1st hit"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      21
+    ],
+    "framesOnBlock": {
+      "_raw": "+4c",
+      "lower": "+4",
+      "properties": [
+        "c"
+      ]
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+22a",
+      "lower": "+22",
+      "properties": [
+        "a"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i39-41",
+      "lower": "i39",
+      "properties": []
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "b,b,UB",
+    "name": "Wall Jump",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      35
+    ],
+    "framesOnBlock": {
+      "_raw": "-3",
+      "lower": "-3",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+0",
+      "lower": "+0",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i12~14",
+      "lower": "i12",
+      "properties": [],
+      "upper": "14"
+    },
+    "hitLevels": [
+      "th(h)"
+    ],
+    "input": "1+3",
+    "name": "Gekka Hyojin",
+    "notes": [
+      "Throw break 1 or 2",
+      "Opponent recovery on hit: FUFA off-axis to the left"
+    ],
+    "specials": [
+      "Spike"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      35
+    ],
+    "framesOnBlock": {
+      "_raw": "-6",
+      "lower": "-6",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+0",
+      "lower": "+0",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i12~14",
+      "lower": "i12",
+      "properties": [],
+      "upper": "14"
+    },
+    "hitLevels": [
+      "th(h)"
+    ],
+    "input": "2+4",
+    "name": "Saijin Ikkoku",
+    "notes": [
+      "Throw break: 1 or 2",
+      "Opponent recovery on hit: FUFA",
+      "Side switch on Hit or Throw break"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      40
+    ],
+    "framesOnBlock": {
+      "_raw": "-3",
+      "lower": "-3",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+0",
+      "lower": "+0",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i12~14",
+      "lower": "i12",
+      "properties": [],
+      "upper": "14"
+    },
+    "hitLevels": [
+      "th(h)"
+    ],
+    "input": "Leftthrow",
+    "name": "Gekka Hyojin",
+    "notes": [
+      "Throw break: 1",
+      "Opponent recovery on hit: FUFA off-axis to the left"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      40
+    ],
+    "framesOnBlock": {
+      "_raw": "-3",
+      "lower": "-3",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+0",
+      "lower": "+0",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i12~14",
+      "lower": "i12",
+      "properties": [],
+      "upper": "14"
+    },
+    "hitLevels": [
+      "th(h)"
+    ],
+    "input": "Rightthrow",
+    "name": "Saijin Ikkoku",
+    "notes": [
+      "Throw break 2",
+      "Opponent recovery on hit: FUFA"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      50
+    ],
+    "framesOnBlock": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+0",
+      "lower": "+0",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i12~14",
+      "lower": "i12",
+      "properties": [],
+      "upper": "14"
+    },
+    "hitLevels": [
+      "th(h)"
+    ],
+    "input": "Backthrow",
+    "name": "Trailokyavijaya",
+    "notes": [
+      "Break: none",
+      "Opponent recovery on hit: FDFA"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      35
+    ],
+    "framesOnBlock": {
+      "_raw": "-6",
+      "lower": "-6",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+25 (+8)",
+      "lower": "+25",
+      "properties": [],
+      "tech": "+8"
+    },
+    "framesOnStartup": {
+      "_raw": "i12",
+      "lower": "i12",
+      "properties": []
+    },
+    "hitLevels": [
+      "th(h)"
+    ],
+    "input": "uf+1+2",
+    "name": "Stonehead",
+    "notes": [
+      "Throw break: 1+2",
+      "Side switch on Throw break"
+    ],
+    "specials": [
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      40
+    ],
+    "framesOnBlock": {
+      "_raw": "-3",
+      "lower": "-3",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+0",
+      "lower": "+0",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i12",
+      "lower": "i12",
+      "properties": []
+    },
+    "hitLevels": [
+      "th(h)"
+    ],
+    "input": "d,db,b,f+2",
+    "name": "Raidou Hitsumetsu",
+    "notes": [
+      "Throw break: 2",
+      "Opponent recovery on hit: FUFT"
+    ],
+    "specials": [
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  }
+]

@@ -1,0 +1,5729 @@
+[
+  {
+    "damage": [
+      1212
+    ],
+    "framesOnBlock": {
+      "_raw": "+1~+2",
+      "lower": "+1",
+      "properties": [],
+      "upper": "+2"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+2c",
+      "lower": "+2",
+      "properties": [
+        "c"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i16~17",
+      "lower": "i16",
+      "properties": [],
+      "upper": "17"
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "2+3",
+    "name": "Heat Burst",
+    "notes": [],
+    "specials": [
+      "Heat Burst"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      14,
+      13,
+      2350
+    ],
+    "framesOnBlock": {
+      "_raw": "+8~+9",
+      "lower": "+8",
+      "properties": [],
+      "upper": "+9"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+5a",
+      "lower": "+5",
+      "properties": [
+        "a"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i16~17",
+      "lower": "i16",
+      "properties": [],
+      "upper": "17"
+    },
+    "hitLevels": [
+      "m",
+      "m",
+      "h"
+    ],
+    "input": "H.2+3",
+    "name": "Ultimate Feng Huo Lun Kick",
+    "notes": [
+      "Enter CD +16g with df on block"
+    ],
+    "specials": [
+      "Heat Smash",
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      8,
+      13,
+      1435
+    ],
+    "framesOnBlock": {
+      "_raw": "-13~-12",
+      "lower": "-13",
+      "properties": [],
+      "upper": "-12"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+31a (+13)",
+      "lower": "+31",
+      "properties": [
+        "a"
+      ],
+      "tech": "+13"
+    },
+    "framesOnStartup": {
+      "_raw": "i20~21",
+      "lower": "i20",
+      "properties": [],
+      "upper": "21"
+    },
+    "hitLevels": [
+      "l",
+      "m",
+      "m"
+    ],
+    "input": "H.KNK.2+3",
+    "name": "Ultimate Huo Jian Qiang Fist",
+    "notes": [],
+    "specials": [
+      "Heat Smash",
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      16,
+      24
+    ],
+    "framesOnBlock": {
+      "_raw": "-9~-7",
+      "lower": "-9",
+      "properties": [],
+      "upper": "-7"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+12a (+3)",
+      "lower": "+12",
+      "properties": [
+        "a"
+      ],
+      "tech": "+3"
+    },
+    "framesOnStartup": {
+      "_raw": "i24~26",
+      "lower": "i24",
+      "properties": [],
+      "upper": "26"
+    },
+    "hitLevels": [
+      "m",
+      "h"
+    ],
+    "input": "db+2,4",
+    "name": "Bei Zhan Juan Long Jiao",
+    "notes": [
+      "Combo from 1st hit"
+    ],
+    "specials": [
+      "Heat Engager",
+      "Heat Dash +5g, +64a (+42)",
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      11,
+      21
+    ],
+    "framesOnBlock": {
+      "_raw": "-11~-10",
+      "lower": "-11",
+      "properties": [],
+      "upper": "-10"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+8",
+      "lower": "+8",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i27~28",
+      "lower": "i27",
+      "properties": [],
+      "upper": "28"
+    },
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "input": "b+2,1+2",
+    "name": "Er Lang Dan Shan",
+    "notes": [
+      "Combo from 1st hit"
+    ],
+    "specials": [
+      "Heat Engager",
+      "Heat Dash +5 +67a (+50)"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      8,
+      18
+    ],
+    "framesOnBlock": {
+      "_raw": "-12~-10",
+      "lower": "-12",
+      "properties": [],
+      "upper": "-10"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+4d",
+      "lower": "+4",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i25~27",
+      "lower": "i25",
+      "properties": [],
+      "upper": "27"
+    },
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "input": "ws4,1+2",
+    "name": "Rising Bei Zhe Kao",
+    "notes": [
+      "Combo from 1st hit",
+      "Alternate input CD.4,1+2"
+    ],
+    "specials": [
+      "Heat Engager",
+      "Heat Dash +5 +43a (+35)"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      12,
+      17
+    ],
+    "framesOnBlock": {
+      "_raw": "-9",
+      "lower": "-9",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+17",
+      "lower": "+17",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i18",
+      "lower": "i18",
+      "properties": []
+    },
+    "hitLevels": [
+      "h",
+      "m"
+    ],
+    "input": "KNK.1,2",
+    "name": "Bai She Tui Chuang",
+    "notes": [
+      "Combo from 1st hit"
+    ],
+    "specials": [
+      "Heat Engager",
+      "Heat Dash +5 +36a (+26)"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      22
+    ],
+    "framesOnBlock": {
+      "_raw": "-12~-11",
+      "lower": "-12",
+      "properties": [],
+      "upper": "-11"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+15d",
+      "lower": "+15",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i20~21",
+      "lower": "i20",
+      "properties": [],
+      "upper": "21"
+    },
+    "hitLevels": [
+      "M"
+    ],
+    "input": "BOK.1+2",
+    "name": "Lao Pao Ba",
+    "notes": [
+      "Chip damage on block"
+    ],
+    "specials": [
+      "Heat Engager",
+      "Heat Dash +5 +17d",
+      "Balcony Break",
+      "Spike"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      5
+    ],
+    "framesOnBlock": {
+      "_raw": "+1",
+      "lower": "+1",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+8",
+      "lower": "+8",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i10",
+      "lower": "i10",
+      "properties": []
+    },
+    "hitLevels": [
+      "h"
+    ],
+    "input": "1",
+    "name": "Jab",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      5,
+      10
+    ],
+    "framesOnBlock": {
+      "_raw": "-3",
+      "lower": "-3",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+8",
+      "lower": "+8",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i12",
+      "lower": "i12",
+      "properties": []
+    },
+    "hitLevels": [
+      "h",
+      "h"
+    ],
+    "input": "1,2",
+    "name": "He Zi Shou",
+    "notes": [
+      "Jail from 1st attack",
+      "Enter KNK -9 +2 with b"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      5,
+      10,
+      16
+    ],
+    "framesOnBlock": {
+      "_raw": "-5~-4",
+      "lower": "-5",
+      "properties": [],
+      "upper": "-4"
+    },
+    "framesOnCounter": {
+      "_raw": "+9",
+      "lower": "+9",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+6",
+      "lower": "+6",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i20~21",
+      "lower": "i20",
+      "properties": [],
+      "upper": "21"
+    },
+    "hitLevels": [
+      "h",
+      "h",
+      "h"
+    ],
+    "input": "1,2,1",
+    "name": "",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      5,
+      10,
+      16,
+      21
+    ],
+    "framesOnBlock": {
+      "_raw": "-13",
+      "lower": "-13",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+12a (+3)",
+      "lower": "+12",
+      "properties": [
+        "a"
+      ],
+      "tech": "+3"
+    },
+    "framesOnStartup": {
+      "_raw": "i18",
+      "lower": "i18",
+      "properties": []
+    },
+    "hitLevels": [
+      "h",
+      "h",
+      "h",
+      "m"
+    ],
+    "input": "1,2,1,1",
+    "name": "Liang Yi Zhou",
+    "notes": [
+      "Combo from 3rd Hit"
+    ],
+    "specials": [
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      5,
+      10,
+      16,
+      30
+    ],
+    "framesOnBlock": {
+      "_raw": "-6~-4",
+      "lower": "-6",
+      "properties": [],
+      "upper": "-4"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+32a (+6)",
+      "lower": "+32",
+      "properties": [
+        "a"
+      ],
+      "tech": "+6"
+    },
+    "framesOnStartup": {
+      "_raw": "i21~23",
+      "lower": "i21",
+      "properties": [],
+      "upper": "23"
+    },
+    "hitLevels": [
+      "h",
+      "h",
+      "h",
+      "h"
+    ],
+    "input": "1,2,1,4",
+    "name": "Wai Bai Tui",
+    "notes": [
+      "Combo from 3rd Hit"
+    ],
+    "specials": [
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      5,
+      10,
+      15
+    ],
+    "framesOnBlock": {
+      "_raw": "-13",
+      "lower": "-13",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+8d",
+      "lower": "+8",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnHit": {
+      "_raw": "+3",
+      "lower": "+3",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i24",
+      "lower": "i24",
+      "properties": []
+    },
+    "hitLevels": [
+      "h",
+      "h",
+      "L"
+    ],
+    "input": "1,2,4",
+    "name": "Ye Chui",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      5,
+      17
+    ],
+    "framesOnBlock": {
+      "_raw": "-5",
+      "lower": "-5",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+11",
+      "lower": "+11",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i16",
+      "lower": "i16",
+      "properties": []
+    },
+    "hitLevels": [
+      "h",
+      "h"
+    ],
+    "input": "1,4",
+    "name": "Lian Tan Jin Ji Du Li",
+    "notes": [
+      "Jail from 1st attack"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      9
+    ],
+    "framesOnBlock": {
+      "_raw": "-1",
+      "lower": "-1",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+5",
+      "lower": "+5",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i11",
+      "lower": "i11",
+      "properties": []
+    },
+    "hitLevels": [
+      "h"
+    ],
+    "input": "2",
+    "name": "Right Jab",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      9,
+      12
+    ],
+    "framesOnBlock": {
+      "_raw": "-7~-6",
+      "lower": "-7",
+      "properties": [],
+      "upper": "-6"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+4",
+      "lower": "+4",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i16~17",
+      "lower": "i16",
+      "properties": [],
+      "upper": "17"
+    },
+    "hitLevels": [
+      "h",
+      "h"
+    ],
+    "input": "2,1",
+    "name": "Xiang Long Shi Chong Tian Zhang",
+    "notes": [
+      "Jail from 1st block",
+      "Combo from 1st hit"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      9,
+      20
+    ],
+    "framesOnBlock": {
+      "_raw": "-12",
+      "lower": "-12",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+6",
+      "lower": "+6",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i22",
+      "lower": "i22",
+      "properties": []
+    },
+    "hitLevels": [
+      "h",
+      "m"
+    ],
+    "input": "2,2",
+    "name": "Xiang Long Shi Ling Zhou",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      15
+    ],
+    "framesOnBlock": {
+      "_raw": "-8",
+      "lower": "-8",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+4",
+      "lower": "+4",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i14",
+      "lower": "i14",
+      "properties": []
+    },
+    "hitLevels": [
+      "h"
+    ],
+    "input": "3",
+    "name": "",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      15,
+      10
+    ],
+    "framesOnBlock": {
+      "_raw": "-2",
+      "lower": "-2",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+9",
+      "lower": "+9",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i19",
+      "lower": "i19",
+      "properties": []
+    },
+    "hitLevels": [
+      "h",
+      "h"
+    ],
+    "input": "3,2",
+    "name": "",
+    "notes": [
+      "Combo from 1st hit",
+      "Enter BOK -6 +5 with d"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      15,
+      10,
+      26
+    ],
+    "framesOnBlock": {
+      "_raw": "-7~-6",
+      "lower": "-7",
+      "properties": [],
+      "upper": "-6"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+13a (+4)",
+      "lower": "+13",
+      "properties": [
+        "a"
+      ],
+      "tech": "+4"
+    },
+    "framesOnStartup": {
+      "_raw": "i23~24",
+      "lower": "i23",
+      "properties": [],
+      "upper": "24"
+    },
+    "hitLevels": [
+      "h",
+      "h",
+      "m"
+    ],
+    "input": "3,2,3",
+    "name": "Wu Dang Xuan Feng Jiao",
+    "notes": [
+      "Combo from 2nd CH",
+      "Cancel to -15 -4 with B"
+    ],
+    "specials": [
+      "Tornado",
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      15,
+      10,
+      14
+    ],
+    "framesOnBlock": {
+      "_raw": "+9~+10",
+      "lower": "+9",
+      "properties": [],
+      "upper": "+10"
+    },
+    "framesOnCounter": {
+      "_raw": "+19",
+      "lower": "+19",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+15g",
+      "lower": "+15",
+      "properties": [
+        "g"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i22~23",
+      "lower": "i22",
+      "properties": [],
+      "upper": "23"
+    },
+    "hitLevels": [
+      "h",
+      "h",
+      "m"
+    ],
+    "input": "3,2,4",
+    "name": "Wu Dang Jin Ji Du Li",
+    "notes": [
+      "Combo from 2nd CH"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      17
+    ],
+    "framesOnBlock": {
+      "_raw": "-7",
+      "lower": "-7",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+31a",
+      "lower": "+31",
+      "properties": [
+        "a"
+      ]
+    },
+    "framesOnHit": {
+      "_raw": "+6",
+      "lower": "+6",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i12",
+      "lower": "i12",
+      "properties": []
+    },
+    "hitLevels": [
+      "h"
+    ],
+    "input": "4",
+    "name": "",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      25
+    ],
+    "framesOnBlock": {
+      "_raw": "-12",
+      "lower": "-12",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+11a (+2)",
+      "lower": "+11",
+      "properties": [
+        "a"
+      ],
+      "tech": "+2"
+    },
+    "framesOnStartup": {
+      "_raw": "i25",
+      "lower": "i25",
+      "properties": []
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "1+2",
+    "name": "Dual Thunder Fists",
+    "notes": [
+      "Chip damage on block"
+    ],
+    "specials": [
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      14
+    ],
+    "framesOnBlock": {
+      "_raw": "0~+2",
+      "lower": "",
+      "properties": [],
+      "upper": "+2"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+6",
+      "lower": "+6",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i14~16",
+      "lower": "i14",
+      "properties": [],
+      "upper": "16"
+    },
+    "hitLevels": [
+      "h"
+    ],
+    "input": "f+2",
+    "name": "",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      14,
+      21
+    ],
+    "framesOnBlock": {
+      "_raw": "-12~-11",
+      "lower": "-12",
+      "properties": [],
+      "upper": "-11"
+    },
+    "framesOnCounter": {
+      "_raw": "+25d",
+      "lower": "+25",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnHit": {
+      "_raw": "+8",
+      "lower": "+8",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i23~24",
+      "lower": "i23",
+      "properties": [],
+      "upper": "24"
+    },
+    "hitLevels": [
+      "h",
+      "m"
+    ],
+    "input": "f+2,2",
+    "name": "Heng Da Er Lang Dan Shan",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      14,
+      16
+    ],
+    "framesOnBlock": {
+      "_raw": "-1~0",
+      "lower": "-1",
+      "properties": [],
+      "upper": ""
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+7",
+      "lower": "+7",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i22~23",
+      "lower": "i22",
+      "properties": [],
+      "upper": "23"
+    },
+    "hitLevels": [
+      "h",
+      "h"
+    ],
+    "input": "f+2,4",
+    "name": "Heng Da Bai Tui",
+    "notes": [
+      "Jail from 1st attack",
+      "Enter CD -1 +7 with df"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      23
+    ],
+    "framesOnBlock": {
+      "_raw": "0~+1",
+      "lower": "",
+      "properties": [],
+      "upper": "+1"
+    },
+    "framesOnCounter": {
+      "_raw": "+27a",
+      "lower": "+27",
+      "properties": [
+        "a"
+      ]
+    },
+    "framesOnHit": {
+      "_raw": "+4",
+      "lower": "+4",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i20~21",
+      "lower": "i20",
+      "properties": [],
+      "upper": "21"
+    },
+    "hitLevels": [
+      "h"
+    ],
+    "input": "f+3",
+    "name": "Bai Tui",
+    "notes": [
+      "Enter BOK +2 +6 +29a with d"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      14
+    ],
+    "framesOnBlock": {
+      "_raw": "+9~+10",
+      "lower": "+9",
+      "properties": [],
+      "upper": "+10"
+    },
+    "framesOnCounter": {
+      "_raw": "+19",
+      "lower": "+19",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+15g",
+      "lower": "+15",
+      "properties": [
+        "g"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i17~18",
+      "lower": "i17",
+      "properties": [],
+      "upper": "18"
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "f+4",
+    "name": "Jin Ji Du Li",
+    "notes": [
+      "Stance moves may be delayed by 11F",
+      "Enter CD -5 +1 +5 with df"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      24
+    ],
+    "framesOnBlock": {
+      "_raw": "-14~-13",
+      "lower": "-14",
+      "properties": [],
+      "upper": "-13"
+    },
+    "framesOnCounter": {
+      "_raw": "+56a",
+      "lower": "+56",
+      "properties": [
+        "a"
+      ]
+    },
+    "framesOnHit": {
+      "_raw": "+10a (+1)",
+      "lower": "+10",
+      "properties": [
+        "a"
+      ],
+      "tech": "+1"
+    },
+    "framesOnStartup": {
+      "_raw": "i17~18",
+      "lower": "i17",
+      "properties": [],
+      "upper": "18"
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "f+1+2",
+    "name": "Bei Zhe Kao",
+    "notes": [],
+    "specials": [
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      24
+    ],
+    "framesOnBlock": {
+      "_raw": "0~-1",
+      "lower": "",
+      "properties": [],
+      "upper": "-1"
+    },
+    "framesOnCounter": {
+      "_raw": "+71a (+55)",
+      "lower": "+71",
+      "properties": [
+        "a"
+      ],
+      "tech": "+55"
+    },
+    "framesOnHit": {
+      "_raw": "+8",
+      "lower": "+8",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i17~18",
+      "lower": "i17",
+      "properties": [],
+      "upper": "18"
+    },
+    "hitLevels": [
+      "h"
+    ],
+    "input": "f+3+4",
+    "name": "Yellow Crane",
+    "notes": [
+      "Chip damage on block"
+    ],
+    "specials": [
+      "Tornado",
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      21
+    ],
+    "framesOnBlock": {
+      "_raw": "-9~-8",
+      "lower": "-9",
+      "properties": [],
+      "upper": "-8"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+11a (+2)",
+      "lower": "+11",
+      "properties": [
+        "a"
+      ],
+      "tech": "+2"
+    },
+    "framesOnStartup": {
+      "_raw": "i20~21",
+      "lower": "i20",
+      "properties": [],
+      "upper": "21"
+    },
+    "hitLevels": [
+      "h"
+    ],
+    "input": "f+2+3",
+    "name": "Xiang Chui",
+    "notes": [],
+    "specials": [
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      13
+    ],
+    "framesOnBlock": {
+      "_raw": "-1~0",
+      "lower": "-1",
+      "properties": [],
+      "upper": ""
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+7",
+      "lower": "+7",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i13~14",
+      "lower": "i13",
+      "properties": [],
+      "upper": "14"
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "df+1",
+    "name": "Quick Upper",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      13,
+      20
+    ],
+    "framesOnBlock": {
+      "_raw": "-6",
+      "lower": "-6",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+34d (+26)",
+      "lower": "+34",
+      "properties": [
+        "d"
+      ],
+      "tech": "+26"
+    },
+    "framesOnHit": {
+      "_raw": "+9d",
+      "lower": "+9",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i18",
+      "lower": "i18",
+      "properties": []
+    },
+    "hitLevels": [
+      "m",
+      "h"
+    ],
+    "input": "df+1,2",
+    "name": "Shuang Huan Da",
+    "notes": [
+      "Combo from 1st CH with 7?F delay",
+      "Move can be delayed 8?F"
+    ],
+    "specials": [
+      "Tornado",
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      15
+    ],
+    "framesOnBlock": {
+      "_raw": "-13~-12",
+      "lower": "-13",
+      "properties": [],
+      "upper": "-12"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+28a (+18)",
+      "lower": "+28",
+      "properties": [
+        "a"
+      ],
+      "tech": "+18"
+    },
+    "framesOnStartup": {
+      "_raw": "i15~16",
+      "lower": "i15",
+      "properties": [],
+      "upper": "16"
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "df+2",
+    "name": "Sheng Pao",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      22
+    ],
+    "framesOnBlock": {
+      "_raw": "-9~-7",
+      "lower": "-9",
+      "properties": [],
+      "upper": "-7"
+    },
+    "framesOnCounter": {
+      "_raw": "+27a (-9)",
+      "lower": "+27",
+      "properties": [
+        "a"
+      ],
+      "tech": "-9"
+    },
+    "framesOnHit": {
+      "_raw": "+6a (-3)",
+      "lower": "+6",
+      "properties": [
+        "a"
+      ],
+      "tech": "-3"
+    },
+    "framesOnStartup": {
+      "_raw": "i17~19",
+      "lower": "i17",
+      "properties": [],
+      "upper": "19"
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "df+3",
+    "name": "Chuan Pao",
+    "notes": [],
+    "specials": [
+      "Homing",
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      14
+    ],
+    "framesOnBlock": {
+      "_raw": "-6",
+      "lower": "-6",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+5",
+      "lower": "+5",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i13",
+      "lower": "i13",
+      "properties": []
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "df+4",
+    "name": "",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      20
+    ],
+    "framesOnBlock": {
+      "_raw": "-12~-11",
+      "lower": "-12",
+      "properties": [],
+      "upper": "-11"
+    },
+    "framesOnCounter": {
+      "_raw": "+21d",
+      "lower": "+21",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnHit": {
+      "_raw": "+5",
+      "lower": "+5",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i21~22",
+      "lower": "i21",
+      "properties": [],
+      "upper": "22"
+    },
+    "hitLevels": [
+      "L"
+    ],
+    "input": "df+2+3",
+    "name": "Gui Xi",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      18
+    ],
+    "framesOnBlock": {
+      "_raw": "-2~-1",
+      "lower": "-2",
+      "properties": [],
+      "upper": "-1"
+    },
+    "framesOnCounter": {
+      "_raw": "+13",
+      "lower": "+13",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+5",
+      "lower": "+5",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i18~19",
+      "lower": "i18",
+      "properties": [],
+      "upper": "19"
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "d+1",
+    "name": "Fu Hu",
+    "notes": [
+      "Enter FC with d"
+    ],
+    "specials": [
+      "Spike"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      23
+    ],
+    "framesOnBlock": {
+      "_raw": "+4c",
+      "lower": "+4",
+      "properties": [
+        "c"
+      ]
+    },
+    "framesOnCounter": {
+      "_raw": "+56a",
+      "lower": "+56",
+      "properties": [
+        "a"
+      ]
+    },
+    "framesOnHit": {
+      "_raw": "+9c",
+      "lower": "+9",
+      "properties": [
+        "c"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i21",
+      "lower": "i21",
+      "properties": []
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "d+2",
+    "name": "Pi Zhong",
+    "notes": [],
+    "specials": [
+      "Spike"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      10
+    ],
+    "framesOnBlock": {
+      "_raw": "-17",
+      "lower": "-17",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "-6",
+      "lower": "-6",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i16",
+      "lower": "i16",
+      "properties": []
+    },
+    "hitLevels": [
+      "l"
+    ],
+    "input": "d+3",
+    "name": "Crouch Spin Kick",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      13
+    ],
+    "framesOnBlock": {
+      "_raw": "-11~-10",
+      "lower": "-11",
+      "properties": [],
+      "upper": "-10"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+0",
+      "lower": "+0",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i16~17",
+      "lower": "i16",
+      "properties": [],
+      "upper": "17"
+    },
+    "hitLevels": [
+      "L"
+    ],
+    "input": "d+4",
+    "name": "Sao Tang Ti",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      13,
+      23
+    ],
+    "framesOnBlock": {
+      "_raw": "-5~-4",
+      "lower": "-5",
+      "properties": [],
+      "upper": "-4"
+    },
+    "framesOnCounter": {
+      "_raw": "+3d",
+      "lower": "+3",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnHit": {
+      "_raw": "-7d",
+      "lower": "-7",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i26~27",
+      "lower": "i26",
+      "properties": [],
+      "upper": "27"
+    },
+    "hitLevels": [
+      "L",
+      "h"
+    ],
+    "input": "d+4,2",
+    "name": "Sao Tang Ti > Shang Bu Zhuang Zhang",
+    "notes": [
+      "Combo from 1st CH",
+      "Gain LTG -11d -1d on hit with 1+2"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      7
+    ],
+    "framesOnBlock": {
+      "_raw": "-15",
+      "lower": "-15",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "-4",
+      "lower": "-4",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i12",
+      "lower": "i12",
+      "properties": []
+    },
+    "hitLevels": [
+      "l"
+    ],
+    "input": "d+3+4",
+    "name": "Crouch Shin Kick",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      6
+    ],
+    "framesOnBlock": {
+      "_raw": "-5",
+      "lower": "-5",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+6",
+      "lower": "+6",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i10",
+      "lower": "i10",
+      "properties": []
+    },
+    "hitLevels": [
+      "s"
+    ],
+    "input": "db+1",
+    "name": "Crouch Jab",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      16
+    ],
+    "framesOnBlock": {
+      "_raw": "-9~-8",
+      "lower": "-9",
+      "properties": [],
+      "upper": "-8"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+5",
+      "lower": "+5",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i16~17",
+      "lower": "i16",
+      "properties": [],
+      "upper": "17"
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "db+2",
+    "name": "",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      23
+    ],
+    "framesOnBlock": {
+      "_raw": "-8~-9",
+      "lower": "-8",
+      "properties": [],
+      "upper": "-9"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+38a (+28)",
+      "lower": "+38",
+      "properties": [
+        "a"
+      ],
+      "tech": "+28"
+    },
+    "framesOnStartup": {
+      "_raw": "i31~32",
+      "lower": "i31",
+      "properties": [],
+      "upper": "32"
+    },
+    "hitLevels": [
+      "h"
+    ],
+    "input": "db+3",
+    "name": "Lie Huo Fan Jiao",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      11
+    ],
+    "framesOnBlock": {
+      "_raw": "-31~-29",
+      "lower": "-31",
+      "properties": [],
+      "upper": "-29"
+    },
+    "framesOnCounter": {
+      "_raw": "+33a",
+      "lower": "+33",
+      "properties": [
+        "a"
+      ]
+    },
+    "framesOnHit": {
+      "_raw": "+2",
+      "lower": "+2",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i20~22",
+      "lower": "i20",
+      "properties": [],
+      "upper": "22"
+    },
+    "hitLevels": [
+      "L"
+    ],
+    "input": "db+4",
+    "name": "",
+    "notes": [
+      "Clean hit +2",
+      "Staggers on block",
+      "Causes float on hit if db+4,1 is input"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      11,
+      27
+    ],
+    "framesOnBlock": {
+      "_raw": "-16~-15",
+      "lower": "-16",
+      "properties": [],
+      "upper": "-15"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+8a",
+      "lower": "+8",
+      "properties": [
+        "a"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i25~26",
+      "lower": "i25",
+      "properties": [],
+      "upper": "26"
+    },
+    "hitLevels": [
+      "L",
+      "m"
+    ],
+    "input": "db+4,1",
+    "name": "Qian Sao Lei Wang Quan",
+    "notes": [
+      "Combo from 1st hit\n+14a (+7)",
+      "+14a (+7)"
+    ],
+    "specials": [
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      17
+    ],
+    "framesOnBlock": {
+      "_raw": "-9~-7",
+      "lower": "-9",
+      "properties": [],
+      "upper": "-7"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+7",
+      "lower": "+7",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i21~23",
+      "lower": "i21",
+      "properties": [],
+      "upper": "23"
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "db+1+2",
+    "name": "",
+    "notes": [
+      "Enter BOK -12 +4 with d"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      17,
+      20
+    ],
+    "framesOnBlock": {
+      "_raw": "-12~-11",
+      "lower": "-12",
+      "properties": [],
+      "upper": "-11"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+22a (+17)",
+      "lower": "+22",
+      "properties": [
+        "a"
+      ],
+      "tech": "+17"
+    },
+    "framesOnStartup": {
+      "_raw": "i17~18",
+      "lower": "i17",
+      "properties": [],
+      "upper": "18"
+    },
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "input": "db+1+2,1",
+    "name": "Ba Wang Zhe Jiang",
+    "notes": [
+      "Combo from 1st hit with delay"
+    ],
+    "specials": [
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      17
+    ],
+    "framesOnBlock": {
+      "_raw": "-12~-11",
+      "lower": "-12",
+      "properties": [],
+      "upper": "-11"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+1",
+      "lower": "+1",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i18~19",
+      "lower": "i18",
+      "properties": [],
+      "upper": "19"
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "b+1",
+    "name": "",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      17,
+      14
+    ],
+    "framesOnBlock": {
+      "_raw": "+9",
+      "lower": "+9",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+19",
+      "lower": "+19",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+15g",
+      "lower": "+15",
+      "properties": [
+        "g"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i23",
+      "lower": "i23",
+      "properties": []
+    },
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "input": "b+1,4",
+    "name": "Ding Zhou Jin Ji Du Li",
+    "notes": [
+      "Combo from 1st CH"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      17,
+      18
+    ],
+    "framesOnBlock": {
+      "_raw": "-12~-11",
+      "lower": "-12",
+      "properties": [],
+      "upper": "-11"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+9",
+      "lower": "+9",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i22~23",
+      "lower": "i22",
+      "properties": [],
+      "upper": "23"
+    },
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "input": "b+1,1+2",
+    "name": "Ding Zhou Meng Po Kao",
+    "notes": [
+      "Combo from 1st hit",
+      "Enter BOK -10 +11 with d"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      11
+    ],
+    "framesOnBlock": {
+      "_raw": "-11",
+      "lower": "-11",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+0",
+      "lower": "+0",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i14",
+      "lower": "i14",
+      "properties": []
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "b+2",
+    "name": "",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      11,
+      11
+    ],
+    "framesOnBlock": {
+      "_raw": "-4~-3",
+      "lower": "-4",
+      "properties": [],
+      "upper": "-3"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+7",
+      "lower": "+7",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i22~23",
+      "lower": "i22",
+      "properties": [],
+      "upper": "23"
+    },
+    "hitLevels": [
+      "m",
+      "h"
+    ],
+    "input": "b+2,1",
+    "name": "Wu Hu Chu Dong",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      12
+    ],
+    "framesOnBlock": {
+      "_raw": "-7~-6",
+      "lower": "-7",
+      "properties": [],
+      "upper": "-6"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+4",
+      "lower": "+4",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i14~15",
+      "lower": "i14",
+      "properties": [],
+      "upper": "15"
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "b+3",
+    "name": "",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      12,
+      13
+    ],
+    "framesOnBlock": {
+      "_raw": "-10",
+      "lower": "-10",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+4",
+      "lower": "+4",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i20",
+      "lower": "i20",
+      "properties": []
+    },
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "input": "b+3,1",
+    "name": "Ying Mian Tui",
+    "notes": [
+      "Combo from 1st hit",
+      "Enter BOK -8 +5 with d",
+      "Enter KNK -10 +1 with b"
+    ],
+    "specials": [
+      "Spike"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      13
+    ],
+    "framesOnBlock": {
+      "_raw": "-8",
+      "lower": "-8",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+5",
+      "lower": "+5",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i18",
+      "lower": "i18",
+      "properties": []
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "b+4",
+    "name": "",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      13,
+      20
+    ],
+    "framesOnBlock": {
+      "_raw": "-12~-11",
+      "lower": "-12",
+      "properties": [],
+      "upper": "-11"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+15a (+6)",
+      "lower": "+15",
+      "properties": [
+        "a"
+      ],
+      "tech": "+6"
+    },
+    "framesOnStartup": {
+      "_raw": "i30~31",
+      "lower": "i30",
+      "properties": [],
+      "upper": "31"
+    },
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "input": "b+4,1",
+    "name": "Dragon's Impact",
+    "notes": [
+      "Combo from 1st hit",
+      "Cancel to FC -16 -3 with D"
+    ],
+    "specials": [
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      13,
+      14
+    ],
+    "framesOnBlock": {
+      "_raw": "+9~+10",
+      "lower": "+9",
+      "properties": [],
+      "upper": "+10"
+    },
+    "framesOnCounter": {
+      "_raw": "+19",
+      "lower": "+19",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+15g",
+      "lower": "+15",
+      "properties": [
+        "g"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i17~18",
+      "lower": "i17",
+      "properties": [],
+      "upper": "18"
+    },
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "input": "b+4,1~4",
+    "name": "Dragon's Impact > Jin Ji Du Li",
+    "notes": [
+      "Combo from 1st hit",
+      "Enter CD -5 +1 +5 with df"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      15
+    ],
+    "framesOnBlock": {
+      "_raw": "-24~-23",
+      "lower": "-24",
+      "properties": [],
+      "upper": "-23"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "-11",
+      "lower": "-11",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i17~18",
+      "lower": "i17",
+      "properties": [],
+      "upper": "18"
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "b+1+2",
+    "name": "",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      15,
+      13
+    ],
+    "framesOnBlock": {
+      "_raw": "-14~-13",
+      "lower": "-14",
+      "properties": [],
+      "upper": "-13"
+    },
+    "framesOnCounter": {
+      "_raw": "+7",
+      "lower": "+7",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "-3",
+      "lower": "-3",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i21~22",
+      "lower": "i21",
+      "properties": [],
+      "upper": "22"
+    },
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "input": "b+1+2,1+2",
+    "name": "",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      15,
+      13,
+      30
+    ],
+    "framesOnBlock": {
+      "_raw": "-13~-12",
+      "lower": "-13",
+      "properties": [],
+      "upper": "-12"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+17d (+12)",
+      "lower": "+17",
+      "properties": [
+        "d"
+      ],
+      "tech": "+12"
+    },
+    "framesOnStartup": {
+      "_raw": "i20~21",
+      "lower": "i20",
+      "properties": [],
+      "upper": "21"
+    },
+    "hitLevels": [
+      "m",
+      "m",
+      "m"
+    ],
+    "input": "b+1+2,1+2,d,df,f+2",
+    "name": "Jin Gang Hua Shan Tuo Tian Zhang",
+    "notes": [
+      "Combo from 2nd CH",
+      "Chip damage on block",
+      "Deals 25 damage without motion input"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      6,
+      12
+    ],
+    "framesOnBlock": {
+      "_raw": "-12~-10",
+      "lower": "-12",
+      "properties": [],
+      "upper": "-10"
+    },
+    "framesOnCounter": {
+      "_raw": "+14",
+      "lower": "+14",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+3",
+      "lower": "+3",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i19~21",
+      "lower": "i19",
+      "properties": [],
+      "upper": "21"
+    },
+    "hitLevels": [
+      "h",
+      "l"
+    ],
+    "input": "b+1+4",
+    "name": "Cuo Zhang",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [],
+    "framesOnBlock": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "hitLevels": [],
+    "input": "b+1+3",
+    "name": "Shi Zi Xiao Zhang Kou",
+    "notes": [
+      "Parries high and mid punches and kicks"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      30
+    ],
+    "framesOnBlock": {
+      "_raw": "-9~-8",
+      "lower": "-9",
+      "properties": [],
+      "upper": "-8"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "-9a",
+      "lower": "-9",
+      "properties": [
+        "a"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i14~15",
+      "lower": "i14",
+      "properties": [],
+      "upper": "15"
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "b+1+3,P.2",
+    "name": "Shang Bu Zhuang Quan",
+    "notes": [
+      "Combo from parry",
+      "Gain LTG on hit"
+    ],
+    "specials": [
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [],
+    "framesOnBlock": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "hitLevels": [],
+    "input": "b+2+4",
+    "name": "Shi Zi Zhou",
+    "notes": [
+      "Parries high and mid punches and kicks",
+      "Side switch on punch parry (+5)",
+      "25 damage on kick parry (+1d), does not Balcony Break"
+    ],
+    "specials": [
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      21
+    ],
+    "framesOnBlock": {
+      "_raw": "-8~-7",
+      "lower": "-8",
+      "properties": [],
+      "upper": "-7"
+    },
+    "framesOnCounter": {
+      "_raw": "+28a",
+      "lower": "+28",
+      "properties": [
+        "a"
+      ]
+    },
+    "framesOnHit": {
+      "_raw": "+23g",
+      "lower": "+23",
+      "properties": [
+        "g"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i30~31",
+      "lower": "i30",
+      "properties": [],
+      "upper": "31"
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "b+2+3",
+    "name": "Ye Kua",
+    "notes": [
+      "Parries high and mid punches",
+      "Hit after parry is the same as on CH"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [],
+    "framesOnBlock": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "hitLevels": [],
+    "input": "ub+1",
+    "name": "Bao Zhou",
+    "notes": [
+      "Parries high and mid kicks"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      22
+    ],
+    "framesOnBlock": {
+      "_raw": "-16~-15",
+      "lower": "-16",
+      "properties": [],
+      "upper": "-15"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+14c",
+      "lower": "+14",
+      "properties": [
+        "c"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i17~18",
+      "lower": "i17",
+      "properties": [],
+      "upper": "18"
+    },
+    "hitLevels": [
+      "h"
+    ],
+    "input": "ub+1,P.4",
+    "name": "Bao Zhou Ji Tui",
+    "notes": [
+      "Combo from parry"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      26
+    ],
+    "framesOnBlock": {
+      "_raw": "+0c~+3c",
+      "lower": "+0",
+      "properties": [
+        "c",
+        "c"
+      ],
+      "upper": "+3"
+    },
+    "framesOnCounter": {
+      "_raw": "+53a",
+      "lower": "+53",
+      "properties": [
+        "a"
+      ]
+    },
+    "framesOnHit": {
+      "_raw": "+6c",
+      "lower": "+6",
+      "properties": [
+        "c"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i24~27",
+      "lower": "i24",
+      "properties": [],
+      "upper": "27"
+    },
+    "hitLevels": [
+      "M"
+    ],
+    "input": "ub+3",
+    "name": "Sky Vibration",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      15
+    ],
+    "framesOnBlock": {
+      "_raw": "-13~-12",
+      "lower": "-13",
+      "properties": [],
+      "upper": "-12"
+    },
+    "framesOnCounter": {
+      "_raw": "+33a (+23)",
+      "lower": "+33",
+      "properties": [
+        "a"
+      ],
+      "tech": "+23"
+    },
+    "framesOnHit": {
+      "_raw": "+19a (+9)",
+      "lower": "+19",
+      "properties": [
+        "a"
+      ],
+      "tech": "+9"
+    },
+    "framesOnStartup": {
+      "_raw": "i15~16",
+      "lower": "i15",
+      "properties": [],
+      "upper": "16"
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "ub+4",
+    "name": "Yue Bu San Jing Ti",
+    "notes": [
+      "Same move as uf+4"
+    ],
+    "specials": [
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      60
+    ],
+    "framesOnBlock": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+26a (-21)",
+      "lower": "+26",
+      "properties": [
+        "a"
+      ],
+      "tech": "-21"
+    },
+    "framesOnStartup": {
+      "_raw": "i70~71",
+      "lower": "i70",
+      "properties": [],
+      "upper": "71"
+    },
+    "hitLevels": [
+      "m!"
+    ],
+    "input": "ub+1+2",
+    "name": "Xiao Jia Er Lu Liang Yi Zhou",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      17
+    ],
+    "framesOnBlock": {
+      "_raw": "-6~-5",
+      "lower": "-6",
+      "properties": [],
+      "upper": "-5"
+    },
+    "framesOnCounter": {
+      "_raw": "+22a (+5)",
+      "lower": "+22",
+      "properties": [
+        "a"
+      ],
+      "tech": "+5"
+    },
+    "framesOnHit": {
+      "_raw": "+2",
+      "lower": "+2",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i19~20",
+      "lower": "i19",
+      "properties": [],
+      "upper": "20"
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "u+1",
+    "name": "Xiang Quan",
+    "notes": [
+      "CH only\nDoesn't Balcony Break on airborne",
+      "CH only",
+      "Doesn't Balcony Break on airborne"
+    ],
+    "specials": [
+      "Tornado",
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      8
+    ],
+    "framesOnBlock": {
+      "_raw": "-1",
+      "lower": "-1",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+6",
+      "lower": "+6",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i13",
+      "lower": "i13",
+      "properties": []
+    },
+    "hitLevels": [
+      "h"
+    ],
+    "input": "uf+1",
+    "name": "",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      8,
+      17
+    ],
+    "framesOnBlock": {
+      "_raw": "-6~-5",
+      "lower": "-6",
+      "properties": [],
+      "upper": "-5"
+    },
+    "framesOnCounter": {
+      "_raw": "+22a (+5)",
+      "lower": "+22",
+      "properties": [
+        "a"
+      ],
+      "tech": "+5"
+    },
+    "framesOnHit": {
+      "_raw": "+2",
+      "lower": "+2",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i19~20",
+      "lower": "i19",
+      "properties": [],
+      "upper": "20"
+    },
+    "hitLevels": [
+      "h",
+      "m"
+    ],
+    "input": "uf+1,1",
+    "name": "Li Xiang Quan",
+    "notes": [
+      "CH only\nDoesn't Balcony Break on airborne",
+      "CH only",
+      "Doesn't Balcony Break on airborne"
+    ],
+    "specials": [
+      "Tornado",
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      8,
+      25
+    ],
+    "framesOnBlock": {
+      "_raw": "-14~-13",
+      "lower": "-14",
+      "properties": [],
+      "upper": "-13"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+37d (-21)",
+      "lower": "+37",
+      "properties": [
+        "d"
+      ],
+      "tech": "-21"
+    },
+    "framesOnStartup": {
+      "_raw": "i20~21",
+      "lower": "i20",
+      "properties": [],
+      "upper": "21"
+    },
+    "hitLevels": [
+      "h",
+      "m"
+    ],
+    "input": "uf+1,2",
+    "name": "Chuan Chong Quan",
+    "notes": [
+      "Combo from 1st hit",
+      "Gain LTG +22g on hit with 1+2"
+    ],
+    "specials": [
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      15
+    ],
+    "framesOnBlock": {
+      "_raw": "-14~-11",
+      "lower": "-14",
+      "properties": [],
+      "upper": "-11"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+18a (+11)",
+      "lower": "+18",
+      "properties": [
+        "a"
+      ],
+      "tech": "+11"
+    },
+    "framesOnStartup": {
+      "_raw": "i18~21",
+      "lower": "i18",
+      "properties": [],
+      "upper": "21"
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "uf+2",
+    "name": "",
+    "notes": [
+      "Enter BOK -11 +21a (+14) with d"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      15,
+      17
+    ],
+    "framesOnBlock": {
+      "_raw": "-8~-7",
+      "lower": "-8",
+      "properties": [],
+      "upper": "-7"
+    },
+    "framesOnCounter": {
+      "_raw": "+32d",
+      "lower": "+32",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnHit": {
+      "_raw": "+4",
+      "lower": "+4",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i25~26",
+      "lower": "i25",
+      "properties": [],
+      "upper": "26"
+    },
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "input": "uf+2,1",
+    "name": "Yue Bu Si Quan",
+    "notes": [
+      "Combo from 1st hit\n+23a (+16)",
+      "+23a (+16)"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      21
+    ],
+    "framesOnBlock": {
+      "_raw": "-9~-5",
+      "lower": "-9",
+      "properties": [],
+      "upper": "-5"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+13a (+4)",
+      "lower": "+13",
+      "properties": [
+        "a"
+      ],
+      "tech": "+4"
+    },
+    "framesOnStartup": {
+      "_raw": "i17~21",
+      "lower": "i17",
+      "properties": [],
+      "upper": "21"
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "uf+3",
+    "name": "Yi Qi Jiao",
+    "notes": [
+      "Can input with u+3\nLess forward movement and deals 20 damage",
+      "Less forward movement and deals 20 damage"
+    ],
+    "specials": [
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      15
+    ],
+    "framesOnBlock": {
+      "_raw": "-13~-12",
+      "lower": "-13",
+      "properties": [],
+      "upper": "-12"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+33a (+23)",
+      "lower": "+33",
+      "properties": [
+        "a"
+      ],
+      "tech": "+23"
+    },
+    "framesOnStartup": {
+      "_raw": "i15~16",
+      "lower": "i15",
+      "properties": [],
+      "upper": "16"
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "uf+4",
+    "name": "Yue Bu San Jing Ti",
+    "notes": [
+      "Can input with u+4\nLess forward movement",
+      "Less forward movement"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      20
+    ],
+    "framesOnBlock": {
+      "_raw": "-13~-11",
+      "lower": "-13",
+      "properties": [],
+      "upper": "-11"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+32a (+22)",
+      "lower": "+32",
+      "properties": [
+        "a"
+      ],
+      "tech": "+22"
+    },
+    "framesOnStartup": {
+      "_raw": "i23~25",
+      "lower": "i23",
+      "properties": [],
+      "upper": "25"
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "uf,n,4",
+    "name": "Delayed Rising Toe Kick",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      25
+    ],
+    "framesOnBlock": {
+      "_raw": "-9~-8",
+      "lower": "-9",
+      "properties": [],
+      "upper": "-8"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+8a",
+      "lower": "+8",
+      "properties": [
+        "a"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i14~15",
+      "lower": "i14",
+      "properties": [],
+      "upper": "15"
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "f,F+2",
+    "name": "Shang Bu Zhuang Quan",
+    "notes": [
+      "Gain LTG -9a on hit with 1+2"
+    ],
+    "specials": [
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      20
+    ],
+    "framesOnBlock": {
+      "_raw": "-7c~-4c",
+      "lower": "-7",
+      "properties": [
+        "c",
+        "c"
+      ],
+      "upper": "-4"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+3d",
+      "lower": "+3",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i26~29",
+      "lower": "i26",
+      "properties": [],
+      "upper": "29"
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "f,F+3",
+    "name": "Tiao Shan Fu Ren",
+    "notes": [
+      "Enter BOK +0 +10d with d"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      12
+    ],
+    "framesOnBlock": {
+      "_raw": "-13",
+      "lower": "-13",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+28a (+18)",
+      "lower": "+28",
+      "properties": [
+        "a"
+      ],
+      "tech": "+18"
+    },
+    "framesOnStartup": {
+      "_raw": "i19",
+      "lower": "i19",
+      "properties": []
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "f,F+4",
+    "name": "",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      12,
+      23
+    ],
+    "framesOnBlock": {
+      "_raw": "-14",
+      "lower": "-14",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+20 (+11)",
+      "lower": "+20",
+      "properties": [],
+      "tech": "+11"
+    },
+    "framesOnStartup": {
+      "_raw": "i12",
+      "lower": "i12",
+      "properties": []
+    },
+    "hitLevels": [
+      "m",
+      "h"
+    ],
+    "input": "f,F+4,3",
+    "name": "",
+    "notes": [
+      "Jail from 1st block",
+      "Combo from 1st hit +28a (+21)"
+    ],
+    "specials": [
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      12,
+      23,
+      17
+    ],
+    "framesOnBlock": {
+      "_raw": "-14~-12",
+      "lower": "-14",
+      "properties": [],
+      "upper": "-12"
+    },
+    "framesOnCounter": {
+      "_raw": "+30a",
+      "lower": "+30",
+      "properties": [
+        "a"
+      ]
+    },
+    "framesOnHit": {
+      "_raw": "-1",
+      "lower": "-1",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i29~31",
+      "lower": "i29",
+      "properties": [],
+      "upper": "31"
+    },
+    "hitLevels": [
+      "m",
+      "h",
+      "L"
+    ],
+    "input": "f,F+4,3,4",
+    "name": "",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      30
+    ],
+    "framesOnBlock": {
+      "_raw": "+6~+9",
+      "lower": "+6",
+      "properties": [],
+      "upper": "+9"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+13a (+3)",
+      "lower": "+13",
+      "properties": [
+        "a"
+      ],
+      "tech": "+3"
+    },
+    "framesOnStartup": {
+      "_raw": "i23~26",
+      "lower": "i23",
+      "properties": [],
+      "upper": "26"
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "f,f,F+3",
+    "name": "Tiao Shan Jiang Jiao",
+    "notes": [
+      "Alternate input wr3"
+    ],
+    "specials": [
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      5
+    ],
+    "framesOnBlock": {
+      "_raw": "-5",
+      "lower": "-5",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+6",
+      "lower": "+6",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i10",
+      "lower": "i10",
+      "properties": []
+    },
+    "hitLevels": [
+      "sl"
+    ],
+    "input": "hFC.1",
+    "name": "Crouch Jab",
+    "notes": [
+      "Transition to Standing with f"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      8
+    ],
+    "framesOnBlock": {
+      "_raw": "-4",
+      "lower": "-4",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+7",
+      "lower": "+7",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i11",
+      "lower": "i11",
+      "properties": []
+    },
+    "hitLevels": [
+      "sl"
+    ],
+    "input": "hFC.2",
+    "name": "Crouch Straight",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      10
+    ],
+    "framesOnBlock": {
+      "_raw": "-17",
+      "lower": "-17",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "-6",
+      "lower": "-6",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i16",
+      "lower": "i16",
+      "properties": []
+    },
+    "hitLevels": [
+      "l"
+    ],
+    "input": "hFC.3",
+    "name": "Crouch Spin Kick",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      6
+    ],
+    "framesOnBlock": {
+      "_raw": "-15",
+      "lower": "-15",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "-4",
+      "lower": "-4",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i12",
+      "lower": "i12",
+      "properties": []
+    },
+    "hitLevels": [
+      "l"
+    ],
+    "input": "hFC.4",
+    "name": "Crouch Shin Kick",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      20
+    ],
+    "framesOnBlock": {
+      "_raw": "-26~-24",
+      "lower": "-26",
+      "properties": [],
+      "upper": "-24"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+37a",
+      "lower": "+37",
+      "properties": [
+        "a"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i21~23",
+      "lower": "i21",
+      "properties": [],
+      "upper": "23"
+    },
+    "hitLevels": [
+      "L"
+    ],
+    "input": "FC.df+3",
+    "name": "Hou Sao Xuan",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      13
+    ],
+    "framesOnBlock": {
+      "_raw": "-8~-7",
+      "lower": "-8",
+      "properties": [],
+      "upper": "-7"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+4",
+      "lower": "+4",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i14~15",
+      "lower": "i14",
+      "properties": [],
+      "upper": "15"
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "ws1",
+    "name": "",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      13,
+      12
+    ],
+    "framesOnBlock": {
+      "_raw": "-12~-11",
+      "lower": "-12",
+      "properties": [],
+      "upper": "-11"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "-1",
+      "lower": "-1",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i19~20",
+      "lower": "i19",
+      "properties": [],
+      "upper": "20"
+    },
+    "hitLevels": [
+      "m",
+      "L"
+    ],
+    "input": "ws1,4",
+    "name": "",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      13,
+      12,
+      24
+    ],
+    "framesOnBlock": {
+      "_raw": "-14",
+      "lower": "-14",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+44a (-3)",
+      "lower": "+44",
+      "properties": [
+        "a"
+      ],
+      "tech": "-3"
+    },
+    "framesOnHit": {
+      "_raw": "+12a (+3)",
+      "lower": "+12",
+      "properties": [
+        "a"
+      ],
+      "tech": "+3"
+    },
+    "framesOnStartup": {
+      "_raw": "i22",
+      "lower": "i22",
+      "properties": []
+    },
+    "hitLevels": [
+      "m",
+      "L",
+      "m"
+    ],
+    "input": "ws1,4,1",
+    "name": "Huo Da Ding Zhou",
+    "notes": [
+      "Combo from 2nd CH"
+    ],
+    "specials": [
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      17
+    ],
+    "framesOnBlock": {
+      "_raw": "-13~-12",
+      "lower": "-13",
+      "properties": [],
+      "upper": "-12"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+28a (+18)",
+      "lower": "+28",
+      "properties": [
+        "a"
+      ],
+      "tech": "+18"
+    },
+    "framesOnStartup": {
+      "_raw": "i15~16",
+      "lower": "i15",
+      "properties": [],
+      "upper": "16"
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "ws2",
+    "name": "Shang Bu Gua Shan",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      9
+    ],
+    "framesOnBlock": {
+      "_raw": "-6~-5",
+      "lower": "-6",
+      "properties": [],
+      "upper": "-5"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+5",
+      "lower": "+5",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i13~14",
+      "lower": "i13",
+      "properties": [],
+      "upper": "14"
+    },
+    "hitLevels": [
+      "M"
+    ],
+    "input": "ws3",
+    "name": "",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      9,
+      9
+    ],
+    "framesOnBlock": {
+      "_raw": "-10",
+      "lower": "-10",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+3",
+      "lower": "+3",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i21",
+      "lower": "i21",
+      "properties": []
+    },
+    "hitLevels": [
+      "M",
+      "m"
+    ],
+    "input": "ws3,1",
+    "name": "",
+    "notes": [
+      "Combo from 1st hit",
+      "Enter BOK -10 +9 with d",
+      "Alternate input CD.3,1"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      9,
+      9,
+      20
+    ],
+    "framesOnBlock": {
+      "_raw": "-9~-8",
+      "lower": "-9",
+      "properties": [],
+      "upper": "-8"
+    },
+    "framesOnCounter": {
+      "_raw": "+31d (+23)",
+      "lower": "+31",
+      "properties": [
+        "d"
+      ],
+      "tech": "+23"
+    },
+    "framesOnHit": {
+      "_raw": "+6d",
+      "lower": "+6",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i24~25",
+      "lower": "i24",
+      "properties": [],
+      "upper": "25"
+    },
+    "hitLevels": [
+      "M",
+      "m",
+      "h"
+    ],
+    "input": "ws3,1,2",
+    "name": "Liang Yi Er Tui Ya Zhou",
+    "notes": [
+      "Combo from 1st CH or 2nd CH",
+      "Alternate input CD.3,1,2"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      8
+    ],
+    "framesOnBlock": {
+      "_raw": "-9~-8",
+      "lower": "-9",
+      "properties": [],
+      "upper": "-8"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+2",
+      "lower": "+2",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i11~12",
+      "lower": "i11",
+      "properties": [],
+      "upper": "12"
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "ws4",
+    "name": "",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      25
+    ],
+    "framesOnBlock": {
+      "_raw": "-14~-12",
+      "lower": "-14",
+      "properties": [],
+      "upper": "-12"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+22g",
+      "lower": "+22",
+      "properties": [
+        "g"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i13~15",
+      "lower": "i13",
+      "properties": [],
+      "upper": "15"
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "ws1+2",
+    "name": "Le Kua Kao",
+    "notes": [
+      "Gain LTG +3 on hit with 1+2",
+      "Alternate input CD.1+2"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [],
+    "framesOnBlock": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "hitLevels": [],
+    "input": "1+2+3+4",
+    "name": "Ki Charge",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      14,
+      16,
+      20
+    ],
+    "framesOnBlock": {
+      "_raw": "+1c~+4c",
+      "lower": "+1",
+      "properties": [
+        "c",
+        "c"
+      ],
+      "upper": "+4"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+16d",
+      "lower": "+16",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": ",i32~35",
+      "lower": "i32",
+      "properties": [],
+      "upper": "35"
+    },
+    "hitLevels": [
+      "h",
+      "h",
+      "M"
+    ],
+    "input": "f+2,4,LTG.3",
+    "name": "Jue Zhao Heng Da Bai Tui",
+    "notes": [
+      "Chip damage on block",
+      "Combo from 1st hit",
+      "Enter BOK +4c +19d with d"
+    ],
+    "specials": [
+      "Balcony Break",
+      "Spike"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      11,
+      27,
+      20
+    ],
+    "framesOnBlock": {
+      "_raw": "-15~-14",
+      "lower": "-15",
+      "properties": [],
+      "upper": "-14"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+6a (-3)",
+      "lower": "+6",
+      "properties": [
+        "a"
+      ],
+      "tech": "-3"
+    },
+    "framesOnStartup": {
+      "_raw": ",i15~16",
+      "lower": "i15",
+      "properties": [],
+      "upper": "16"
+    },
+    "hitLevels": [
+      "L",
+      "m",
+      "m"
+    ],
+    "input": "db+4,1,LTG.1+2",
+    "name": "Jue Zhao Qian Sao Lei Wang Quan",
+    "notes": [
+      "Chip damage on block",
+      "Combo from 1st hit\n+27a (+17)",
+      "+27a (+17)"
+    ],
+    "specials": [
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      12,
+      13,
+      25
+    ],
+    "framesOnBlock": {
+      "_raw": "-13",
+      "lower": "-13",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+10a",
+      "lower": "+10",
+      "properties": [
+        "a"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": ",i17",
+      "lower": "i17",
+      "properties": []
+    },
+    "hitLevels": [
+      "m",
+      "m",
+      "m"
+    ],
+    "input": "b+3,1,LTG.2",
+    "name": "Jue Zhao Ying Mian Tui",
+    "notes": [
+      "Chip damage on block",
+      "Combo from 1st hit"
+    ],
+    "specials": [
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [],
+    "framesOnBlock": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "hitLevels": [],
+    "input": "b+3+4",
+    "name": "Tui Bu Jin Ji Du Li",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      12
+    ],
+    "framesOnBlock": {
+      "_raw": "-9",
+      "lower": "-9",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+2",
+      "lower": "+2",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i18",
+      "lower": "i18",
+      "properties": []
+    },
+    "hitLevels": [
+      "h"
+    ],
+    "input": "KNK.1",
+    "name": "",
+    "notes": [
+      "Enter BOK -7 +4 with d"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      20
+    ],
+    "framesOnBlock": {
+      "_raw": "-4",
+      "lower": "-4",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+58a",
+      "lower": "+58",
+      "properties": [
+        "a"
+      ]
+    },
+    "framesOnHit": {
+      "_raw": "+22a (+13)",
+      "lower": "+22",
+      "properties": [
+        "a"
+      ],
+      "tech": "+13"
+    },
+    "framesOnStartup": {
+      "_raw": "i13",
+      "lower": "i13",
+      "properties": []
+    },
+    "hitLevels": [
+      "h"
+    ],
+    "input": "KNK.2",
+    "name": "Heng Quan",
+    "notes": [],
+    "specials": [
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      13
+    ],
+    "framesOnBlock": {
+      "_raw": "-13",
+      "lower": "-13",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+28a (+18)",
+      "lower": "+28",
+      "properties": [
+        "a"
+      ],
+      "tech": "+18"
+    },
+    "framesOnStartup": {
+      "_raw": "i20",
+      "lower": "i20",
+      "properties": []
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "KNK.3",
+    "name": "Yi Qi Jiao",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      13,
+      18
+    ],
+    "framesOnBlock": {
+      "_raw": "-12",
+      "lower": "-12",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+80a",
+      "lower": "+80",
+      "properties": [
+        "a"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i15",
+      "lower": "i15",
+      "properties": []
+    },
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "input": "KNK.3,4",
+    "name": "Er Qi Jiao",
+    "notes": [],
+    "specials": [
+      "Tornado"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      18
+    ],
+    "framesOnBlock": {
+      "_raw": "-12",
+      "lower": "-12",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+17d",
+      "lower": "+17",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnHit": {
+      "_raw": "+4c",
+      "lower": "+4",
+      "properties": [
+        "c"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i20",
+      "lower": "i20",
+      "properties": []
+    },
+    "hitLevels": [
+      "L"
+    ],
+    "input": "KNK.4",
+    "name": "Cuo Ti Fu Ren",
+    "notes": [
+      "Enter CD -10 +6c +19d with df"
+    ],
+    "specials": [
+      "Spike"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      20
+    ],
+    "framesOnBlock": {
+      "_raw": "-6",
+      "lower": "-6",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+41a (+31)",
+      "lower": "+41",
+      "properties": [
+        "a"
+      ],
+      "tech": "+31"
+    },
+    "framesOnHit": {
+      "_raw": "+21",
+      "lower": "+21",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i25",
+      "lower": "i25",
+      "properties": []
+    },
+    "hitLevels": [
+      "M"
+    ],
+    "input": "KNK.1+2",
+    "name": "Upper Rising Fist",
+    "notes": [
+      "On non-CH grounded connect",
+      "On non-CH grounded connect",
+      "Chip Damage on Block"
+    ],
+    "specials": [
+      "Tornado",
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      24
+    ],
+    "framesOnBlock": {
+      "_raw": "-26",
+      "lower": "-26",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+19d",
+      "lower": "+19",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i24",
+      "lower": "i24",
+      "properties": []
+    },
+    "hitLevels": [
+      "L"
+    ],
+    "input": "KNK.3+4",
+    "name": "Tree Feller",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [],
+    "framesOnBlock": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "hitLevels": [],
+    "input": "KNK.DF",
+    "name": "Jin Bu",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [],
+    "framesOnBlock": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "hitLevels": [],
+    "input": "d+1+2",
+    "name": "Fo Bu",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [],
+    "framesOnBlock": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "hitLevels": [],
+    "input": "BOK.n",
+    "name": "Fo Bu (Elapsed)",
+    "notes": [
+      "Stance moves may be delayed by 8F?",
+      "May perform FC moves from frame 9?"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      14
+    ],
+    "framesOnBlock": {
+      "_raw": "-4",
+      "lower": "-4",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+9",
+      "lower": "+9",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i13",
+      "lower": "i13",
+      "properties": []
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "BOK.1",
+    "name": "",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      14,
+      20
+    ],
+    "framesOnBlock": {
+      "_raw": "-14~-13",
+      "lower": "-14",
+      "properties": [],
+      "upper": "-13"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+72 (+56)",
+      "lower": "+72",
+      "properties": [],
+      "tech": "+56"
+    },
+    "framesOnStartup": {
+      "_raw": "i17~18",
+      "lower": "i17",
+      "properties": [],
+      "upper": "18"
+    },
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "input": "BOK.1,2",
+    "name": "Ya Sui Ying Quan",
+    "notes": [
+      "Combo from 1st hit"
+    ],
+    "specials": [
+      "Tornado"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      23
+    ],
+    "framesOnBlock": {
+      "_raw": "-9~-8",
+      "lower": "-9",
+      "properties": [],
+      "upper": "-8"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+41a (+31)",
+      "lower": "+41",
+      "properties": [
+        "a"
+      ],
+      "tech": "+31"
+    },
+    "framesOnStartup": {
+      "_raw": "i19~20",
+      "lower": "i19",
+      "properties": [],
+      "upper": "20"
+    },
+    "hitLevels": [
+      "M"
+    ],
+    "input": "BOK.2",
+    "name": "Fan Lan Chui",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      30
+    ],
+    "framesOnBlock": {
+      "_raw": "+5",
+      "lower": "+5",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+15d",
+      "lower": "+15",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i21",
+      "lower": "i21",
+      "properties": []
+    },
+    "hitLevels": [
+      "h"
+    ],
+    "input": "BOK.3",
+    "name": "Startled Crane",
+    "notes": [
+      "Chip damage on block"
+    ],
+    "specials": [
+      "Homing",
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      14
+    ],
+    "framesOnBlock": {
+      "_raw": "+9",
+      "lower": "+9",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+19",
+      "lower": "+19",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+15g",
+      "lower": "+15",
+      "properties": [
+        "g"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i20",
+      "lower": "i20",
+      "properties": []
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "BOK.4",
+    "name": "Jin Ji Du Li",
+    "notes": [
+      "Same move as f+4"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [],
+    "framesOnBlock": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "hitLevels": [],
+    "input": "d,df,f",
+    "name": "Jin Bu",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [],
+    "framesOnBlock": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "hitLevels": [],
+    "input": "d,DF",
+    "name": "Jin Bu (Crouching state ver.)",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      17
+    ],
+    "framesOnBlock": {
+      "_raw": "-13~-12",
+      "lower": "-13",
+      "properties": [],
+      "upper": "-12"
+    },
+    "framesOnCounter": {
+      "_raw": "+11",
+      "lower": "+11",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "-1",
+      "lower": "-1",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i18~19",
+      "lower": "i18",
+      "properties": [],
+      "upper": "19"
+    },
+    "hitLevels": [
+      "L"
+    ],
+    "input": "CD.1",
+    "name": "Lei Zhang",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      14
+    ],
+    "framesOnBlock": {
+      "_raw": "-9",
+      "lower": "-9",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+9",
+      "lower": "+9",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i17",
+      "lower": "i17",
+      "properties": []
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "CD.2",
+    "name": "",
+    "notes": [
+      "Enter KNK -9 +9 with b"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      14,
+      17
+    ],
+    "framesOnBlock": {
+      "_raw": "-6~-5",
+      "lower": "-6",
+      "properties": [],
+      "upper": "-5"
+    },
+    "framesOnCounter": {
+      "_raw": "+30d",
+      "lower": "+30",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnHit": {
+      "_raw": "+10",
+      "lower": "+10",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i18~19",
+      "lower": "i18",
+      "properties": [],
+      "upper": "19"
+    },
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "input": "CD.2,1",
+    "name": "Lightning Spear",
+    "notes": [
+      "Combo from 1st hit"
+    ],
+    "specials": [
+      "Wall Crush on hit +22g"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      14,
+      26
+    ],
+    "framesOnBlock": {
+      "_raw": "-4~-1",
+      "lower": "-4",
+      "properties": [],
+      "upper": "-1"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+10d (+0)",
+      "lower": "+10",
+      "properties": [
+        "d"
+      ],
+      "tech": "+0"
+    },
+    "framesOnStartup": {
+      "_raw": "i25~28",
+      "lower": "i25",
+      "properties": [],
+      "upper": "28"
+    },
+    "hitLevels": [
+      "m",
+      "h"
+    ],
+    "input": "CD.2,4",
+    "name": "Lightning Skypiercer",
+    "notes": [
+      "Combo from 1st hit"
+    ],
+    "specials": [
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      6,
+      20
+    ],
+    "framesOnBlock": {
+      "_raw": "-6~-4",
+      "lower": "-6",
+      "properties": [],
+      "upper": "-4"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+13g",
+      "lower": "+13",
+      "properties": [
+        "g"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i18~20 i22~24",
+      "lower": "i18",
+      "properties": [],
+      "upper": "20"
+    },
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "input": "CD.3+4",
+    "name": "Swallow Step",
+    "notes": [],
+    "specials": [
+      "Homing",
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      55
+    ],
+    "framesOnBlock": {
+      "_raw": "-15",
+      "lower": "-15",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+0d",
+      "lower": "+0",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i20",
+      "lower": "i20",
+      "properties": []
+    },
+    "hitLevels": [
+      "m",
+      "t"
+    ],
+    "input": "R.df+1+2",
+    "name": "Transcendent Blow",
+    "notes": [
+      "Damage increases with lower health, maximum 82",
+      "Freezes match timer on activation and on hit",
+      "Restores recoverable health on hit",
+      "Transition to attack throw on hit",
+      "Consumes Rage"
+    ],
+    "specials": [
+      "Rage Art",
+      "Removes Recoverable Health",
+      "Reversal Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      20
+    ],
+    "framesOnBlock": {
+      "_raw": "-13~-12",
+      "lower": "-13",
+      "properties": [],
+      "upper": "-12"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+3",
+      "lower": "+3",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i21~22",
+      "lower": "i21",
+      "properties": [],
+      "upper": "22"
+    },
+    "hitLevels": [
+      "L"
+    ],
+    "input": "OTG.d+3+4",
+    "name": "Zhen Jiao",
+    "notes": [
+      "-2d (-10) on grounded hit"
+    ],
+    "specials": [
+      "Spike"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      30
+    ],
+    "framesOnBlock": {
+      "_raw": "-9",
+      "lower": "-9",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+29d",
+      "lower": "+29",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnHit": {
+      "_raw": "+14a (+5)",
+      "lower": "+14",
+      "properties": [
+        "a"
+      ],
+      "tech": "+5"
+    },
+    "framesOnStartup": {
+      "_raw": "i19",
+      "lower": "i19",
+      "properties": []
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "SS.1+2",
+    "name": "Da Kai",
+    "notes": [],
+    "specials": [
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      21
+    ],
+    "framesOnBlock": {
+      "_raw": "-20",
+      "lower": "-20",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+22a (-14)",
+      "lower": "+22",
+      "properties": [
+        "a"
+      ],
+      "tech": "-14"
+    },
+    "framesOnHit": {
+      "_raw": "+1a (-8)",
+      "lower": "+1",
+      "properties": [
+        "a"
+      ],
+      "tech": "-8"
+    },
+    "framesOnStartup": {
+      "_raw": "i11",
+      "lower": "i11",
+      "properties": []
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "BT.1+2",
+    "name": "Tui Bu Dan Yi",
+    "notes": [],
+    "specials": [
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      35
+    ],
+    "framesOnBlock": {
+      "_raw": "-3",
+      "lower": "-3",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+0d",
+      "lower": "+0",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i12~14",
+      "lower": "i12",
+      "properties": [],
+      "upper": "14"
+    },
+    "hitLevels": [
+      "t"
+    ],
+    "input": "1+3",
+    "name": "Bao Hu Gui Shan",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      35
+    ],
+    "framesOnBlock": {
+      "_raw": "-6",
+      "lower": "-6",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+0d",
+      "lower": "+0",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i12~14",
+      "lower": "i12",
+      "properties": [],
+      "upper": "14"
+    },
+    "hitLevels": [
+      "t"
+    ],
+    "input": "2+4",
+    "name": "Dan Yang Da",
+    "notes": [
+      "Throw break 1 or 2",
+      "Side switch on hit",
+      "Deals 4 more damage at the wall"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      40
+    ],
+    "framesOnBlock": {
+      "_raw": "-3",
+      "lower": "-3",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+0d",
+      "lower": "+0",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i12~14",
+      "lower": "i12",
+      "properties": [],
+      "upper": "14"
+    },
+    "hitLevels": [
+      "t"
+    ],
+    "input": "Leftthrow",
+    "name": "Chou Bie Zi",
+    "notes": [
+      "Throw break 1",
+      "Side switch on hit",
+      "Deals 4 more damage at the wall"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      40
+    ],
+    "framesOnBlock": {
+      "_raw": "-3",
+      "lower": "-3",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+1d",
+      "lower": "+1",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i12~14",
+      "lower": "i12",
+      "properties": [],
+      "upper": "14"
+    },
+    "hitLevels": [
+      "t"
+    ],
+    "input": "Rightthrow",
+    "name": "Da Zhe Jiang",
+    "notes": [
+      "Throw break 2",
+      "Side switch on hit"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      50
+    ],
+    "framesOnBlock": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "-3d",
+      "lower": "-3",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i12~14",
+      "lower": "i12",
+      "properties": [],
+      "upper": "14"
+    },
+    "hitLevels": [
+      "t"
+    ],
+    "input": "Backthrow",
+    "name": "Yang Di Tou",
+    "notes": [
+      "Deals 10 more damage at the wall"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      40
+    ],
+    "framesOnBlock": {
+      "_raw": "-6",
+      "lower": "-6",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+8d",
+      "lower": "+8",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i12~14",
+      "lower": "i12",
+      "properties": [],
+      "upper": "14"
+    },
+    "hitLevels": [
+      "t"
+    ],
+    "input": "uf+1+2",
+    "name": "Shuang Pai Shou",
+    "notes": [
+      "Throw break 1+2",
+      "Side switch"
+    ],
+    "specials": [
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  }
+]

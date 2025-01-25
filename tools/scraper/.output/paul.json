@@ -1,0 +1,5951 @@
+[
+  {
+    "damage": [
+      12
+    ],
+    "framesOnBlock": {
+      "_raw": "+1",
+      "lower": "+1",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+2c",
+      "lower": "+2",
+      "properties": [
+        "c"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i16",
+      "lower": "i16",
+      "properties": []
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "2+3",
+    "name": "Heat Burst",
+    "notes": [
+      "Consumes Heat",
+      "t92 on whiff",
+      "Cinematic freeze on frame 15",
+      "Cancel to t42 r26 standing with b,b"
+    ],
+    "specials": [
+      "Heat Burst"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      9,
+      23,
+      25
+    ],
+    "framesOnBlock": {
+      "_raw": "-12",
+      "lower": "-12",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+3d",
+      "lower": "+3",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i18,i21,i38",
+      "lower": "i18",
+      "properties": []
+    },
+    "hitLevels": [
+      "L",
+      "m",
+      "t"
+    ],
+    "input": "H.2+3",
+    "name": "Demolition Ball",
+    "notes": [
+      "Fully consumes Heat",
+      "Chip damage (2,6,7)",
+      "Transition to throw on 1st hit only",
+      "40 damage with throw transition",
+      "53 damage on 2nd + 3rd hit",
+      "t134 r49 on block",
+      "t124 on whiff"
+    ],
+    "specials": [
+      "Heat Smash",
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      12,
+      26
+    ],
+    "framesOnBlock": {
+      "_raw": "-5",
+      "lower": "-5",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+9",
+      "lower": "+9",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i13",
+      "lower": "i13",
+      "properties": []
+    },
+    "hitLevels": [
+      "h",
+      "t"
+    ],
+    "input": "f+2",
+    "name": "Phoenix Hook, Tiger Claw",
+    "notes": [
+      "Transition to throw on front hit",
+      "+32a without throw transition"
+    ],
+    "specials": [
+      "Heat Engager +9",
+      "Heat Dash +5, +62a (+42)"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      27
+    ],
+    "framesOnBlock": {
+      "_raw": "-9",
+      "lower": "-9",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+39d (-19)",
+      "lower": "+39",
+      "properties": [
+        "d"
+      ],
+      "tech": "-19"
+    },
+    "framesOnStartup": {
+      "_raw": "i15",
+      "lower": "i15",
+      "properties": []
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "SWA.2",
+    "name": "Rubber Band Attack",
+    "notes": [
+      "Clean Hit range 2.45",
+      "Heat Dash disables Clean Hit",
+      "21 damage without Clean Hit"
+    ],
+    "specials": [
+      "Heat Engager",
+      "Heat Dash +5, +36a (+26)"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      24
+    ],
+    "framesOnBlock": {
+      "_raw": "-5",
+      "lower": "-5",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+6",
+      "lower": "+6",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i22",
+      "lower": "i22",
+      "properties": []
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "f+4",
+    "name": "Stone Lion",
+    "notes": [],
+    "specials": [
+      "Heat Engager",
+      "Heat Dash +5, +62a (+42)",
+      "Homing"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      26
+    ],
+    "framesOnBlock": {
+      "_raw": "+5",
+      "lower": "+5",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+17d FDFA",
+      "lower": "+17",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i22~23",
+      "lower": "i22",
+      "properties": [],
+      "upper": "23"
+    },
+    "hitLevels": [
+      "h"
+    ],
+    "input": "uf+2",
+    "name": "Moonfall",
+    "notes": [
+      "Chip damage (6)"
+    ],
+    "specials": [
+      "Heat Engager",
+      "Heat Dash +5, +67a (+50)",
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      45
+    ],
+    "framesOnBlock": {
+      "_raw": "-17",
+      "lower": "-17",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+26a (-10) FDFA",
+      "lower": "+26",
+      "properties": [
+        "a"
+      ],
+      "tech": "-10"
+    },
+    "framesOnStartup": {
+      "_raw": "i13~14",
+      "lower": "i13",
+      "properties": [],
+      "upper": "14"
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "CS.2",
+    "name": "Phoenix Smasher",
+    "notes": [
+      "H.CS.2 with Heat",
+      "Clean Hit range 2.3",
+      "30 damage without Clean Hit",
+      "qcf+2",
+      "Deathfist"
+    ],
+    "specials": [
+      "Heat Engager",
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      51
+    ],
+    "framesOnBlock": {
+      "_raw": "-13",
+      "lower": "-13",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+26a (-10) FDFA",
+      "lower": "+26",
+      "properties": [
+        "a"
+      ],
+      "tech": "-10"
+    },
+    "framesOnStartup": {
+      "_raw": "i13~14",
+      "lower": "i13",
+      "properties": [],
+      "upper": "14"
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "H.CS.2",
+    "name": "Phoenix Smasher",
+    "notes": [
+      "Consumes Heat",
+      "Chip damage (11)",
+      "Clean Hit range 2.3",
+      "Heat Dash disables Clean Hit",
+      "34 damage without Clean Hit",
+      "H.qcf+2",
+      "Heat Deathfist"
+    ],
+    "specials": [
+      "Heat Dash +5, +36a (+26)",
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      35
+    ],
+    "framesOnBlock": {
+      "_raw": "-9",
+      "lower": "-9",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+30d (-6) FDFA",
+      "lower": "+30",
+      "properties": [
+        "d"
+      ],
+      "tech": "-6"
+    },
+    "framesOnStartup": {
+      "_raw": "i28",
+      "lower": "i28",
+      "properties": []
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "H.1+2",
+    "name": "Half-Step Phoenix Smasher",
+    "notes": [
+      "Consumes Heat unless canceled",
+      "Chip damage (10)",
+      "Move can be delayed 11f (i39)",
+      "Charge begins on frame 1",
+      "Requires 1~27f charge",
+      "Delayed startup from 17~27f charge",
+      "Cancel to t27~35 r1 CS from 17~35f with f\nSidestep u can be buffered 2f after cancel\nCS attacks can be buffered from 26f\nDecaying 13f delay on CS attacks\nDecays to 0 delay 24f after cancel",
+      "Sidestep u can be buffered 2f after cancel",
+      "CS attacks can be buffered from 26f",
+      "Decaying 13f delay on CS attacks\nDecays to 0 delay 24f after cancel",
+      "Decays to 0 delay 24f after cancel",
+      "Cancel to t41~49 r12 SWA from 17~35f with b\nSidestep u can be buffered from 27f\nSWA attacks can be buffered from 26f",
+      "Sidestep u can be buffered from 27f",
+      "SWA attacks can be buffered from 26f",
+      "H.1+2* from 28~55f charge",
+      "Burning Fist at 56f charge"
+    ],
+    "specials": [
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      40
+    ],
+    "framesOnBlock": {
+      "_raw": "+10",
+      "lower": "+10",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+30d (-6) FDFA",
+      "lower": "+30",
+      "properties": [
+        "d"
+      ],
+      "tech": "-6"
+    },
+    "framesOnStartup": {
+      "_raw": "i46",
+      "lower": "i46",
+      "properties": []
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "H.1+2*",
+    "name": "Half-Step Phoenix Smasher (Hold)",
+    "notes": [
+      "Consumes Heat unless canceled",
+      "Chip damage (16)",
+      "Move can be delayed 21f (i67)",
+      "Charge begins on frame 1",
+      "Requires 28~55f charge",
+      "Delayed startup from 35~55f charge",
+      "Cancel to t27~35 r1 CS from 17~35f with f\nSidestep u can be buffered 2f after cancel\nCS attacks can be buffered from 26f\nDecaying 13f delay on CS attacks\nDecays to 0 delay 24f after cancel",
+      "Sidestep u can be buffered 2f after cancel",
+      "CS attacks can be buffered from 26f",
+      "Decaying 13f delay on CS attacks\nDecays to 0 delay 24f after cancel",
+      "Decays to 0 delay 24f after cancel",
+      "Cancel to t41~49 r12 SWA from 17~35f with b\nSidestep u can be buffered from 27f\nSWA attacks can be buffered from 26f",
+      "Sidestep u can be buffered from 27f",
+      "SWA attacks can be buffered from 26f",
+      "H.1+2 from 1~27f charge",
+      "Burning Fist at 56f charge"
+    ],
+    "specials": [
+      "Balcony Break",
+      "Wall Crush +17g"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      50
+    ],
+    "framesOnBlock": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+30d (-6) FDFA",
+      "lower": "+30",
+      "properties": [
+        "d"
+      ],
+      "tech": "-6"
+    },
+    "framesOnStartup": {
+      "_raw": "i71",
+      "lower": "i71",
+      "properties": []
+    },
+    "hitLevels": [
+      "m!"
+    ],
+    "input": "H.1+2**",
+    "name": "Burning Fist",
+    "notes": [
+      "Consumes Heat",
+      "Charge begins on frame 1",
+      "Requires 56f charge",
+      "H.1+2 from 1~27f charge",
+      "H.1+2* from 28~55f charge"
+    ],
+    "specials": [
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      22,
+      21
+    ],
+    "framesOnBlock": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+16d (-20) FDFA",
+      "lower": "+16",
+      "properties": [
+        "d"
+      ],
+      "tech": "-20"
+    },
+    "framesOnStartup": {
+      "_raw": ",i13~14",
+      "lower": "i13",
+      "properties": [],
+      "upper": "14"
+    },
+    "hitLevels": [
+      "t",
+      "m"
+    ],
+    "input": "df+1+3,H.qcf+2",
+    "name": "Phoenix Smasher",
+    "notes": [
+      "Consumes Heat",
+      "Strict qcf input required (d,f does not work)",
+      "Perfect input window 55-56f"
+    ],
+    "specials": [
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      22,
+      26
+    ],
+    "framesOnBlock": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+16d (-20) FDFA",
+      "lower": "+16",
+      "properties": [
+        "d"
+      ],
+      "tech": "-20"
+    },
+    "framesOnStartup": {
+      "_raw": ",i13~14",
+      "lower": "i13",
+      "properties": [],
+      "upper": "14"
+    },
+    "hitLevels": [
+      "t",
+      "m"
+    ],
+    "input": "df+1+3:H.qcf+2",
+    "name": "Phoenix Smasher (Perfect Input)",
+    "notes": [
+      "Consumes Heat",
+      "Strict qcf input required (d,f does not work)",
+      "Perfect input window 55-56f",
+      "Perfect input increases damage, wall carry"
+    ],
+    "specials": [
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      16,
+      32
+    ],
+    "framesOnBlock": {
+      "_raw": "-13",
+      "lower": "-13",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+29d (-7) FDFA",
+      "lower": "+29",
+      "properties": [
+        "d"
+      ],
+      "tech": "-7"
+    },
+    "framesOnStartup": {
+      "_raw": ",i29",
+      "lower": "i29",
+      "properties": []
+    },
+    "hitLevels": [
+      "M",
+      "m"
+    ],
+    "input": "d+1,H.2",
+    "name": "Phoenix Smasher",
+    "notes": [
+      "Consumes Heat",
+      "Move can be delayed 14f (i43)",
+      "Charge begins on frame 16",
+      "Requires 0~26f charge",
+      "Delayed startup from 1~26f charge",
+      "Combo from 1st CH with 0~6f charge",
+      "H.d+1,2* at 27f charge"
+    ],
+    "specials": [
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      16,
+      45
+    ],
+    "framesOnBlock": {
+      "_raw": "+12",
+      "lower": "+12",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+30d (-6) FDFA",
+      "lower": "+30",
+      "properties": [
+        "d"
+      ],
+      "tech": "-6"
+    },
+    "framesOnStartup": {
+      "_raw": ",i43",
+      "lower": "i43",
+      "properties": []
+    },
+    "hitLevels": [
+      "M",
+      "m"
+    ],
+    "input": "d+1,H.2*",
+    "name": "Phoenix Smasher (Hold)",
+    "notes": [
+      "Consumes Heat",
+      "Chip damage (13)",
+      "Charge begins on frame 16",
+      "Requires 27f charge",
+      "H.d+1,2 from 0~26f charge"
+    ],
+    "specials": [
+      "Balcony Break",
+      "Guard Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      22,
+      35
+    ],
+    "framesOnBlock": {
+      "_raw": "+12",
+      "lower": "+12",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+56a",
+      "lower": "+56",
+      "properties": [
+        "a"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": ",i60~61",
+      "lower": "i60",
+      "properties": [],
+      "upper": "61"
+    },
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "input": "b+2,H.1*",
+    "name": "Crushing Wind (Hold)",
+    "notes": [
+      "Consumes Heat",
+      "Chip damage (13)",
+      "Charge begins on frame 18",
+      "Requires 42f charge",
+      "b+2,1 from 0~41f charge"
+    ],
+    "specials": [
+      "Balcony Break",
+      "Guard Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      30
+    ],
+    "framesOnBlock": {
+      "_raw": "+5c",
+      "lower": "+5",
+      "properties": [
+        "c"
+      ]
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+55a",
+      "lower": "+55",
+      "properties": [
+        "a"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i29~30",
+      "lower": "i29",
+      "properties": [],
+      "upper": "30"
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "H.f+1+2*",
+    "name": "Hammer of the Gods (Hold)",
+    "notes": [
+      "Consumes Heat",
+      "Chip damage (13)",
+      "Requires 24f charge",
+      "f+1+2 from 0~23f charge"
+    ],
+    "specials": [
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      5
+    ],
+    "framesOnBlock": {
+      "_raw": "+1",
+      "lower": "+1",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+8",
+      "lower": "+8",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i10",
+      "lower": "i10",
+      "properties": []
+    },
+    "hitLevels": [
+      "h"
+    ],
+    "input": "1",
+    "name": "Left Jab",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      5,
+      12
+    ],
+    "framesOnBlock": {
+      "_raw": "-3",
+      "lower": "-3",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+8",
+      "lower": "+8",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": ",i10",
+      "lower": "i10",
+      "properties": []
+    },
+    "hitLevels": [
+      "h",
+      "h"
+    ],
+    "input": "1,2",
+    "name": "Left Right Combo",
+    "notes": [
+      "Move can be delayed 3f",
+      "Input can be delayed 3f",
+      "Combo from 1st hit with 3f delay",
+      "Jail from 1st hit with 3f delay"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      5,
+      12,
+      7
+    ],
+    "framesOnBlock": {
+      "_raw": "-25",
+      "lower": "-25",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "-14",
+      "lower": "-14",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": ",i16~17",
+      "lower": "i16",
+      "properties": [],
+      "upper": "17"
+    },
+    "hitLevels": [
+      "h",
+      "h",
+      "m"
+    ],
+    "input": "1,2,3",
+    "name": "",
+    "notes": [
+      "Combo from 1st hit",
+      "Jail from 1st hit",
+      "Cancel to 10 strings"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      5,
+      8
+    ],
+    "framesOnBlock": {
+      "_raw": "-11c",
+      "lower": "-11",
+      "properties": [
+        "c"
+      ]
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+1",
+      "lower": "+1",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": ",i23",
+      "lower": "i23",
+      "properties": []
+    },
+    "hitLevels": [
+      "h",
+      "L"
+    ],
+    "input": "1,4",
+    "name": "Reverse PDK Combo",
+    "notes": [
+      "Combo from 1st CH"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      10
+    ],
+    "framesOnBlock": {
+      "_raw": "+0",
+      "lower": "+0",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+6",
+      "lower": "+6",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i10",
+      "lower": "i10",
+      "properties": []
+    },
+    "hitLevels": [
+      "h"
+    ],
+    "input": "2",
+    "name": "Right Jab",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      10,
+      21
+    ],
+    "framesOnBlock": {
+      "_raw": "-9",
+      "lower": "-9",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+51a",
+      "lower": "+51",
+      "properties": [
+        "a"
+      ]
+    },
+    "framesOnHit": {
+      "_raw": "+22d (+13)",
+      "lower": "+22",
+      "properties": [
+        "d"
+      ],
+      "tech": "+13"
+    },
+    "framesOnStartup": {
+      "_raw": ",i22~23",
+      "lower": "i22",
+      "properties": [],
+      "upper": "23"
+    },
+    "hitLevels": [
+      "h",
+      "h"
+    ],
+    "input": "2,3",
+    "name": "PK Combo",
+    "notes": [
+      "Combo from 1st CH"
+    ],
+    "specials": [
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      10,
+      11
+    ],
+    "framesOnBlock": {
+      "_raw": "-12c",
+      "lower": "-12",
+      "properties": [
+        "c"
+      ]
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "-1",
+      "lower": "-1",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": ",i22",
+      "lower": "i22",
+      "properties": []
+    },
+    "hitLevels": [
+      "h",
+      "L"
+    ],
+    "input": "2,d+3",
+    "name": "PDK Combo",
+    "notes": [
+      "Combo from 1st CH"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      14
+    ],
+    "framesOnBlock": {
+      "_raw": "-7",
+      "lower": "-7",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+4",
+      "lower": "+4",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i15~16",
+      "lower": "i15",
+      "properties": [],
+      "upper": "16"
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "3",
+    "name": "Left Kick",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      14,
+      17
+    ],
+    "framesOnBlock": {
+      "_raw": "-3",
+      "lower": "-3",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+50a",
+      "lower": "+50",
+      "properties": [
+        "a"
+      ]
+    },
+    "framesOnHit": {
+      "_raw": "+7",
+      "lower": "+7",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": ",i23",
+      "lower": "i23",
+      "properties": []
+    },
+    "hitLevels": [
+      "m",
+      "h"
+    ],
+    "input": "3,2",
+    "name": "Piston Fire",
+    "notes": [
+      "Move can be delayed 4f",
+      "Input can be delayed 4f",
+      "Combo from 1st hit with 4f delay",
+      "Transition to t60 r19 SWA +4 +14g +57a at 43f with b"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      14,
+      17
+    ],
+    "framesOnBlock": {
+      "_raw": "+4",
+      "lower": "+4",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+57a",
+      "lower": "+57",
+      "properties": [
+        "a"
+      ]
+    },
+    "framesOnHit": {
+      "_raw": "+14g",
+      "lower": "+14",
+      "properties": [
+        "g"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "hitLevels": [
+      "m",
+      "h"
+    ],
+    "input": "3,2~b",
+    "name": "",
+    "notes": [
+      "Sidestep u can be buffered from 45f",
+      "SWA attacks can be buffered from 54f",
+      "Transition to cs1~ r9 -13 +4 +47a DPD from 61f with df"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      17
+    ],
+    "framesOnBlock": {
+      "_raw": "-7",
+      "lower": "-7",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+32d",
+      "lower": "+32",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnHit": {
+      "_raw": "+7",
+      "lower": "+7",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i12",
+      "lower": "i12",
+      "properties": []
+    },
+    "hitLevels": [
+      "h"
+    ],
+    "input": "4",
+    "name": "Right Kick",
+    "notes": [],
+    "specials": [
+      "Balcony Break (CH only)"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      30
+    ],
+    "framesOnBlock": {
+      "_raw": "-13",
+      "lower": "-13",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+20d (+10)",
+      "lower": "+20",
+      "properties": [
+        "d"
+      ],
+      "tech": "+10"
+    },
+    "framesOnStartup": {
+      "_raw": "i28",
+      "lower": "i28",
+      "properties": []
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "1+2",
+    "name": "Half-Step Phoenix Smasher",
+    "notes": [
+      "H.1+2 with Heat",
+      "Move can be delayed 11f (i39)",
+      "Charge begins on frame 1",
+      "Requires 1~27f charge",
+      "Delayed startup from 17~27f charge",
+      "Cancel to t27 r1 CS from 17~35f with f\nCancel can be delayed 8f\nSidestep u can be buffered 2f after cancel\nCS attacks can be buffered from 26f\nDecaying 13f delay on CS attacks\nDecays to 0 delay 24f after cancel",
+      "Cancel can be delayed 8f",
+      "Sidestep u can be buffered 2f after cancel",
+      "CS attacks can be buffered from 26f",
+      "Decaying 13f delay on CS attacks\nDecays to 0 delay 24f after cancel",
+      "Decays to 0 delay 24f after cancel",
+      "Cancel to t41 r12 SWA from 17~35f with b",
+      "Cancel can be delayed 8f\nSidestep u can be buffered from 27f\nSWA attacks can be buffered from 26f",
+      "Sidestep u can be buffered from 27f",
+      "SWA attacks can be buffered from 26f",
+      "1+2* from 28~55f charge",
+      "Burning Fist at 56f charge"
+    ],
+    "specials": [
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      35
+    ],
+    "framesOnBlock": {
+      "_raw": "+0",
+      "lower": "+0",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+20d (+10)",
+      "lower": "+20",
+      "properties": [
+        "d"
+      ],
+      "tech": "+10"
+    },
+    "framesOnStartup": {
+      "_raw": "i46",
+      "lower": "i46",
+      "properties": []
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "1+2*",
+    "name": "Half-Step Phoenix Smasher (Hold)",
+    "notes": [
+      "H.1+2* with Heat",
+      "Chip damage (10)",
+      "Move can be delayed 21f (i67)",
+      "Charge begins on frame 1",
+      "Requires 28~55f charge",
+      "Delayed startup from 35~55f charge",
+      "Cancel to t27 r1 CS from 17~35f with f\nCancel can be delayed 8f\nSidestep u can be buffered 2f after cancel\nCS attacks can be buffered from 26f\nDecaying 13f delay on CS attacks\nDecays to 0 delay 24f after cancel",
+      "Cancel can be delayed 8f",
+      "Sidestep u can be buffered 2f after cancel",
+      "CS attacks can be buffered from 26f",
+      "Decaying 13f delay on CS attacks\nDecays to 0 delay 24f after cancel",
+      "Decays to 0 delay 24f after cancel",
+      "Cancel to t41 r12 SWA from 17~35f with b\nCancel can be delayed 8f\nSidestep u can be buffered from 27f\nSWA attacks can be buffered from 26f",
+      "Cancel can be delayed 8f",
+      "Sidestep u can be buffered from 27f",
+      "SWA attacks can be buffered from 26f",
+      "1+2 from 1~27f charge",
+      "Burning Fist at 56f charge"
+    ],
+    "specials": [
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      40
+    ],
+    "framesOnBlock": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+20d (+10)",
+      "lower": "+20",
+      "properties": [
+        "d"
+      ],
+      "tech": "+10"
+    },
+    "framesOnStartup": {
+      "_raw": "i71",
+      "lower": "i71",
+      "properties": []
+    },
+    "hitLevels": [
+      "m!"
+    ],
+    "input": "1+2**",
+    "name": "Burning Fist",
+    "notes": [
+      "H.1+2** with Heat",
+      "Charge begins on frame 1",
+      "Requires 56f charge",
+      "1+2 from 1~27f charge",
+      "1+2* from 28~55f charge"
+    ],
+    "specials": [
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      11
+    ],
+    "framesOnBlock": {
+      "_raw": "-9",
+      "lower": "-9",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+2",
+      "lower": "+2",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i16~17",
+      "lower": "i16",
+      "properties": [],
+      "upper": "17"
+    },
+    "hitLevels": [
+      "h"
+    ],
+    "input": "f+3",
+    "name": "",
+    "notes": [],
+    "specials": [
+      "Homing"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      11,
+      21
+    ],
+    "framesOnBlock": {
+      "_raw": "-10",
+      "lower": "-10",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+12d (+3)",
+      "lower": "+12",
+      "properties": [
+        "d"
+      ],
+      "tech": "+3"
+    },
+    "framesOnStartup": {
+      "_raw": ",i17",
+      "lower": "i17",
+      "properties": []
+    },
+    "hitLevels": [
+      "h",
+      "m"
+    ],
+    "input": "f+3,1",
+    "name": "Lion's Tempest",
+    "notes": [
+      "Combo from 1st hit"
+    ],
+    "specials": [
+      "Homing",
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      22
+    ],
+    "framesOnBlock": {
+      "_raw": "+3c",
+      "lower": "+3",
+      "properties": [
+        "c"
+      ]
+    },
+    "framesOnCounter": {
+      "_raw": "+35d (+27)",
+      "lower": "+35",
+      "properties": [
+        "d"
+      ],
+      "tech": "+27"
+    },
+    "framesOnHit": {
+      "_raw": "+8c",
+      "lower": "+8",
+      "properties": [
+        "c"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i20~21",
+      "lower": "i20",
+      "properties": [],
+      "upper": "21"
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "f+1+2",
+    "name": "Hammer of the Gods",
+    "notes": [
+      "Chip damage (4)",
+      "Move can be delayed 9f (i29~30)",
+      "Delayed startup from 5~23f charge",
+      "f+1+2* at 24f charge",
+      "H.f+1+2* at 24f charge"
+    ],
+    "specials": [
+      "Balcony Break (CH only)"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      26
+    ],
+    "framesOnBlock": {
+      "_raw": "+5c",
+      "lower": "+5",
+      "properties": [
+        "c"
+      ]
+    },
+    "framesOnCounter": {
+      "_raw": "+55a",
+      "lower": "+55",
+      "properties": [
+        "a"
+      ]
+    },
+    "framesOnHit": {
+      "_raw": "+20d FDFA",
+      "lower": "+20",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i29~30",
+      "lower": "i29",
+      "properties": [],
+      "upper": "30"
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "f+1+2*",
+    "name": "Hammer of the Gods (Hold)",
+    "notes": [
+      "H.f+1+2* with Heat",
+      "Chip damage (10)",
+      "Requires 24f charge",
+      "f+1+2 from 0~23f charge"
+    ],
+    "specials": [
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      25
+    ],
+    "framesOnBlock": {
+      "_raw": "-14",
+      "lower": "-14",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+41d (-17)",
+      "lower": "+41",
+      "properties": [
+        "d"
+      ],
+      "tech": "-17"
+    },
+    "framesOnStartup": {
+      "_raw": "i21~23",
+      "lower": "i21",
+      "properties": [],
+      "upper": "23"
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "f+1+4",
+    "name": "Shoulder Tackle",
+    "notes": [
+      "Sharp leftward movement on startup"
+    ],
+    "specials": [
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      11
+    ],
+    "framesOnBlock": {
+      "_raw": "-2",
+      "lower": "-2",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+4",
+      "lower": "+4",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i14",
+      "lower": "i14",
+      "properties": []
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "df+1",
+    "name": "",
+    "notes": [
+      "Transition to r15 SWA +3 +9 from 2~14f, 16f with b"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      11
+    ],
+    "framesOnBlock": {
+      "_raw": "+3",
+      "lower": "+3",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+9",
+      "lower": "+9",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "df+1~b",
+    "name": "",
+    "notes": [
+      "Sidestep u can be buffered from 16f",
+      "SWA attacks can be buffered from 24f",
+      "Transition to cs1~ r9 -1 -12 DPD from 32f with df"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      11,
+      9
+    ],
+    "framesOnBlock": {
+      "_raw": "-5",
+      "lower": "-5",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+8",
+      "lower": "+8",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+5",
+      "lower": "+5",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": ",i20~21",
+      "lower": "i20",
+      "properties": [],
+      "upper": "21"
+    },
+    "hitLevels": [
+      "m",
+      "h"
+    ],
+    "input": "df+1,1",
+    "name": "",
+    "notes": [
+      "Combo from 1st hit with 4f delay",
+      "Move can be delayed 10f",
+      "Input can be delayed 10f"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      11,
+      9,
+      22
+    ],
+    "framesOnBlock": {
+      "_raw": "-9",
+      "lower": "-9",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+32a (+24)",
+      "lower": "+32",
+      "properties": [
+        "a"
+      ],
+      "tech": "+24"
+    },
+    "framesOnStartup": {
+      "_raw": ",i22~23",
+      "lower": "i22",
+      "properties": [],
+      "upper": "23"
+    },
+    "hitLevels": [
+      "m",
+      "h",
+      "m"
+    ],
+    "input": "df+1,1,2",
+    "name": "Lion's Roar",
+    "notes": [
+      "Combo from 2nd CH"
+    ],
+    "specials": [
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      13
+    ],
+    "framesOnBlock": {
+      "_raw": "-8",
+      "lower": "-8",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+33a (+23)",
+      "lower": "+33",
+      "properties": [
+        "a"
+      ],
+      "tech": "+23"
+    },
+    "framesOnStartup": {
+      "_raw": "i15~16",
+      "lower": "i15",
+      "properties": [],
+      "upper": "16"
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "df+2",
+    "name": "Kurenai",
+    "notes": [
+      "High evasion"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      14
+    ],
+    "framesOnBlock": {
+      "_raw": "-9",
+      "lower": "-9",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+2",
+      "lower": "+2",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i16",
+      "lower": "i16",
+      "properties": []
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "df+3",
+    "name": "",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      14,
+      17
+    ],
+    "framesOnBlock": {
+      "_raw": "-10",
+      "lower": "-10",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+59a",
+      "lower": "+59",
+      "properties": [
+        "a"
+      ]
+    },
+    "framesOnHit": {
+      "_raw": "+6",
+      "lower": "+6",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": ",i21~22",
+      "lower": "i21",
+      "properties": [],
+      "upper": "22"
+    },
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "input": "df+3,4",
+    "name": "Phoenix Wings",
+    "notes": [
+      "Move can be delayed 14f",
+      "Input can be delayed 14f",
+      "Combo from 1st hit with 10f delay"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      17
+    ],
+    "framesOnBlock": {
+      "_raw": "-2",
+      "lower": "-2",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+14",
+      "lower": "+14",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+8",
+      "lower": "+8",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i17~18",
+      "lower": "i17",
+      "properties": [],
+      "upper": "18"
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "df+4",
+    "name": "Tiger Claw",
+    "notes": [],
+    "specials": [
+      "Knee"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      16
+    ],
+    "framesOnBlock": {
+      "_raw": "-9",
+      "lower": "-9",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+3c",
+      "lower": "+3",
+      "properties": [
+        "c"
+      ]
+    },
+    "framesOnHit": {
+      "_raw": "+2",
+      "lower": "+2",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i14~15",
+      "lower": "i14",
+      "properties": [],
+      "upper": "15"
+    },
+    "hitLevels": [
+      "M"
+    ],
+    "input": "d+1",
+    "name": "Hammer Punch",
+    "notes": [
+      "Transition to r27 FC with d"
+    ],
+    "specials": [
+      "Spike"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      16,
+      26
+    ],
+    "framesOnBlock": {
+      "_raw": "-17",
+      "lower": "-17",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+20d (+10)",
+      "lower": "+20",
+      "properties": [
+        "d"
+      ],
+      "tech": "+10"
+    },
+    "framesOnStartup": {
+      "_raw": ",i29",
+      "lower": "i29",
+      "properties": []
+    },
+    "hitLevels": [
+      "M",
+      "m"
+    ],
+    "input": "d+1,2",
+    "name": "Phoenix Smasher",
+    "notes": [
+      "H.d+1,2 with Heat",
+      "Move can be delayed 14f (i43)",
+      "Charge begins on frame 16",
+      "Requires 0~26f charge",
+      "Delayed startup from 1~26f charge",
+      "Combo from 1st CH with 0~6f charge",
+      "d+1,2* at 27f charge"
+    ],
+    "specials": [
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      16,
+      39
+    ],
+    "framesOnBlock": {
+      "_raw": "+9",
+      "lower": "+9",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+20d (+10)",
+      "lower": "+20",
+      "properties": [
+        "d"
+      ],
+      "tech": "+10"
+    },
+    "framesOnStartup": {
+      "_raw": ",i43",
+      "lower": "i43",
+      "properties": []
+    },
+    "hitLevels": [
+      "M"
+    ],
+    "input": "d+1,2*",
+    "name": "Phoenix Smasher (Hold)",
+    "notes": [
+      "H.d+1,2* with Heat",
+      "Chip damage (11)",
+      "Charge begins on frame 16",
+      "Requires 27f charge",
+      "d+1,2 from 0~26f charge"
+    ],
+    "specials": [
+      "Balcony Break",
+      "Wall Crush +16g"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      16,
+      15
+    ],
+    "framesOnBlock": {
+      "_raw": "-31c",
+      "lower": "-31",
+      "properties": [
+        "c"
+      ]
+    },
+    "framesOnCounter": {
+      "_raw": "+14a FUFA",
+      "lower": "+14",
+      "properties": [
+        "a"
+      ]
+    },
+    "framesOnHit": {
+      "_raw": "-17",
+      "lower": "-17",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": ",i19",
+      "lower": "i19",
+      "properties": []
+    },
+    "hitLevels": [
+      "M",
+      "L"
+    ],
+    "input": "d+1,4",
+    "name": "",
+    "notes": [
+      "Move can be delayed 5f",
+      "Input can be delayed 5f",
+      "Combo from 1st CH with 5f delay"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      16,
+      15,
+      21
+    ],
+    "framesOnBlock": {
+      "_raw": "-14",
+      "lower": "-14",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+35a (-12)",
+      "lower": "+35",
+      "properties": [
+        "a"
+      ],
+      "tech": "-12"
+    },
+    "framesOnHit": {
+      "_raw": "+3d (-6)",
+      "lower": "+3",
+      "properties": [
+        "d"
+      ],
+      "tech": "-6"
+    },
+    "framesOnStartup": {
+      "_raw": ",i21",
+      "lower": "i21",
+      "properties": []
+    },
+    "hitLevels": [
+      "M",
+      "L",
+      "m"
+    ],
+    "input": "d+1,4,2",
+    "name": "Hang Over",
+    "notes": [
+      "Combo from 2nd CH +11d (+4)"
+    ],
+    "specials": [
+      "Balcony Break",
+      "Elbow"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      8
+    ],
+    "framesOnBlock": {
+      "_raw": "-4",
+      "lower": "-4",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+7",
+      "lower": "+7",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i11",
+      "lower": "i11",
+      "properties": []
+    },
+    "hitLevels": [
+      "sl"
+    ],
+    "input": "d+2",
+    "name": "",
+    "notes": [
+      "cs1~ from 6f d/db/df input hold",
+      "OTG.d+2 when opponent is downed"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      9
+    ],
+    "framesOnBlock": {
+      "_raw": "-31c",
+      "lower": "-31",
+      "properties": [
+        "c"
+      ]
+    },
+    "framesOnCounter": {
+      "_raw": "+14a",
+      "lower": "+14",
+      "properties": [
+        "a"
+      ]
+    },
+    "framesOnHit": {
+      "_raw": "+14a FUFA",
+      "lower": "+14",
+      "properties": [
+        "a"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i15",
+      "lower": "i15",
+      "properties": []
+    },
+    "hitLevels": [
+      "L"
+    ],
+    "input": "d+4",
+    "name": "",
+    "notes": [
+      "Clean Hit range 1.59",
+      "8 damage, -17 on hit without Clean Hit",
+      "Stagger state on block"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      9,
+      23
+    ],
+    "framesOnBlock": {
+      "_raw": "-18",
+      "lower": "-18",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "-9",
+      "lower": "-9",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": ",i21",
+      "lower": "i21",
+      "properties": []
+    },
+    "hitLevels": [
+      "L",
+      "m"
+    ],
+    "input": "d+4,2",
+    "name": "Bone Breaker",
+    "notes": [
+      "Move can be delayed 3f",
+      "Input can be delayed 4f",
+      "Combo from 1st CL with 3f delay +5d (-2)",
+      "Combo from 1st CH with 3f delay +5d (-2)"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      9,
+      23,
+      26
+    ],
+    "framesOnBlock": {
+      "_raw": "-17",
+      "lower": "-17",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+35a (-12)",
+      "lower": "+35",
+      "properties": [
+        "a"
+      ],
+      "tech": "-12"
+    },
+    "framesOnHit": {
+      "_raw": "+3d (-6)",
+      "lower": "+3",
+      "properties": [
+        "d"
+      ],
+      "tech": "-6"
+    },
+    "framesOnStartup": {
+      "_raw": ",i26~27",
+      "lower": "i26",
+      "properties": [],
+      "upper": "27"
+    },
+    "hitLevels": [
+      "L",
+      "m",
+      "m"
+    ],
+    "input": "d+4,2,1+2",
+    "name": "Demolition Man",
+    "notes": [
+      "Move can be delayed 4f",
+      "Input can be delayed 4f",
+      "Combo from 1st CL with 4f delay +13d (+6)",
+      "Combo from 1st CH with 4f delay +13d (+6)",
+      "Combo from 2nd hit with 4f delay +13d (+6)",
+      "Perfect input window 21~22f after 2 input"
+    ],
+    "specials": [
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      9,
+      23,
+      30
+    ],
+    "framesOnBlock": {
+      "_raw": "-17",
+      "lower": "-17",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+35a (-12)",
+      "lower": "+35",
+      "properties": [
+        "a"
+      ],
+      "tech": "-12"
+    },
+    "framesOnHit": {
+      "_raw": "+3d (-6)",
+      "lower": "+3",
+      "properties": [
+        "d"
+      ],
+      "tech": "-6"
+    },
+    "framesOnStartup": {
+      "_raw": ",i26~27",
+      "lower": "i26",
+      "properties": [],
+      "upper": "27"
+    },
+    "hitLevels": [
+      "L",
+      "m",
+      "m"
+    ],
+    "input": "d+4,2:1+2",
+    "name": "Demolition Man (Perfect Input)",
+    "notes": [
+      "Move can be delayed 1f",
+      "Input can be delayed 1f",
+      "Combo from 1st CL with 1f delay +13d (+6)",
+      "Combo from 1st CH with 1f delay +13d (+6)",
+      "Combo from 2nd hit with 1f delay +13d (+6)",
+      "Perfect input window 21~22f after 2 input",
+      "Perfect input increases damage, wall carry"
+    ],
+    "specials": [
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      30
+    ],
+    "framesOnBlock": {
+      "_raw": "-16",
+      "lower": "-16",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+16d (+11)",
+      "lower": "+16",
+      "properties": [
+        "d"
+      ],
+      "tech": "+11"
+    },
+    "framesOnStartup": {
+      "_raw": "i12~13",
+      "lower": "i12",
+      "properties": [],
+      "upper": "13"
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "d+1+2",
+    "name": "Shoulder Smash",
+    "notes": [],
+    "specials": [
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      5
+    ],
+    "framesOnBlock": {
+      "_raw": "-5",
+      "lower": "-5",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+6",
+      "lower": "+6",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i10",
+      "lower": "i10",
+      "properties": []
+    },
+    "hitLevels": [
+      "sl"
+    ],
+    "input": "db+1",
+    "name": "Dickjab",
+    "notes": [
+      "Transition to r24 standing with f"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      21
+    ],
+    "framesOnBlock": {
+      "_raw": "-11",
+      "lower": "-11",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+28a (+18)",
+      "lower": "+28",
+      "properties": [
+        "a"
+      ],
+      "tech": "+18"
+    },
+    "framesOnHit": {
+      "_raw": "+14d (-3) FDFA",
+      "lower": "+14",
+      "properties": [
+        "d"
+      ],
+      "tech": "-3"
+    },
+    "framesOnStartup": {
+      "_raw": "i19~20",
+      "lower": "i19",
+      "properties": [],
+      "upper": "20"
+    },
+    "hitLevels": [
+      "M"
+    ],
+    "input": "db+2",
+    "name": "Shoot the Moon",
+    "notes": [],
+    "specials": [
+      "Tornado",
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      12
+    ],
+    "framesOnBlock": {
+      "_raw": "-18c",
+      "lower": "-18",
+      "properties": [
+        "c"
+      ]
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "-4",
+      "lower": "-4",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i15~i17",
+      "lower": "i15",
+      "properties": [],
+      "upper": "i17"
+    },
+    "hitLevels": [
+      "L"
+    ],
+    "input": "db+3",
+    "name": "",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      6
+    ],
+    "framesOnBlock": {
+      "_raw": "-15c",
+      "lower": "-15",
+      "properties": [
+        "c"
+      ]
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "-4",
+      "lower": "-4",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i12",
+      "lower": "i12",
+      "properties": []
+    },
+    "hitLevels": [
+      "L"
+    ],
+    "input": "db+4",
+    "name": "",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      21
+    ],
+    "framesOnBlock": {
+      "_raw": "-14",
+      "lower": "-14",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+30a (+22)",
+      "lower": "+30",
+      "properties": [
+        "a"
+      ],
+      "tech": "+22"
+    },
+    "framesOnStartup": {
+      "_raw": "i20~21",
+      "lower": "i20",
+      "properties": [],
+      "upper": "21"
+    },
+    "hitLevels": [
+      "M"
+    ],
+    "input": "db+1+2",
+    "name": "Chain Breaker",
+    "notes": [
+      "Chip damage (11) if attack is absorbed"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      12
+    ],
+    "framesOnBlock": {
+      "_raw": "-9",
+      "lower": "-9",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+2",
+      "lower": "+2",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i12~13",
+      "lower": "i12",
+      "properties": [],
+      "upper": "13"
+    },
+    "hitLevels": [
+      "h"
+    ],
+    "input": "b+1",
+    "name": "",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      12,
+      21
+    ],
+    "framesOnBlock": {
+      "_raw": "-14",
+      "lower": "-14",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+16d (-1) FDFA",
+      "lower": "+16",
+      "properties": [
+        "d"
+      ],
+      "tech": "-1"
+    },
+    "framesOnStartup": {
+      "_raw": ",i20~21",
+      "lower": "i20",
+      "properties": [],
+      "upper": "21"
+    },
+    "hitLevels": [
+      "h",
+      "M"
+    ],
+    "input": "b+1,2",
+    "name": "Double Wing",
+    "notes": [
+      "Move can be delayed 5f",
+      "Input can be delayed 5f",
+      "Combo from 1st hit with 5f delay"
+    ],
+    "specials": [
+      "Tornado",
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      25
+    ],
+    "framesOnBlock": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+1d FUFA",
+      "lower": "+1",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "hitLevels": [],
+    "input": "b+1+3_2+4",
+    "name": "Attack Reversal",
+    "notes": [
+      "Parry"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      22
+    ],
+    "framesOnBlock": {
+      "_raw": "-5c",
+      "lower": "-5",
+      "properties": [
+        "c"
+      ]
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+4c",
+      "lower": "+4",
+      "properties": [
+        "c"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i18",
+      "lower": "i18",
+      "properties": []
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "b+2",
+    "name": "",
+    "notes": [],
+    "specials": [
+      "Spike"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      22,
+      22
+    ],
+    "framesOnBlock": {
+      "_raw": "-12",
+      "lower": "-12",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+48a",
+      "lower": "+48",
+      "properties": [
+        "a"
+      ]
+    },
+    "framesOnHit": {
+      "_raw": "0c",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": ",i36",
+      "lower": "i36",
+      "properties": []
+    },
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "input": "b+2,1",
+    "name": "Crushing Wind",
+    "notes": [
+      "Move can be delayed 20f (i56)",
+      "Charge begins on frame 18",
+      "Requires 0~41f charge",
+      "Delayed startup from 22~41f charge",
+      "Combo from 1st CH with 0~23f charge",
+      "b+2,1* / H.b+2,1* at 42f charge"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      22,
+      35
+    ],
+    "framesOnBlock": {
+      "_raw": "+8",
+      "lower": "+8",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+56a",
+      "lower": "+56",
+      "properties": [
+        "a"
+      ]
+    },
+    "framesOnHit": {
+      "_raw": "+20d",
+      "lower": "+20",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": ",i60~61",
+      "lower": "i60",
+      "properties": [],
+      "upper": "61"
+    },
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "input": "b+2,1*",
+    "name": "Crushing Wind (Hold)",
+    "notes": [
+      "H.b+2,1* with Heat",
+      "Chip damage (7)",
+      "Charge begins on frame 18",
+      "Requires 42f charge",
+      "b+2,1 from 0~41f charge"
+    ],
+    "specials": [
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      16
+    ],
+    "framesOnBlock": {
+      "_raw": "-6",
+      "lower": "-6",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+31a (+25)",
+      "lower": "+31",
+      "properties": [
+        "a"
+      ],
+      "tech": "+25"
+    },
+    "framesOnStartup": {
+      "_raw": "i14~15",
+      "lower": "i14",
+      "properties": [],
+      "upper": "15"
+    },
+    "hitLevels": [
+      "h"
+    ],
+    "input": "b+3",
+    "name": "Lights Out",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      14
+    ],
+    "framesOnBlock": {
+      "_raw": "-12c",
+      "lower": "-12",
+      "properties": [
+        "c"
+      ]
+    },
+    "framesOnCounter": {
+      "_raw": "+17g",
+      "lower": "+17",
+      "properties": [
+        "g"
+      ]
+    },
+    "framesOnHit": {
+      "_raw": "+4",
+      "lower": "+4",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i20~21",
+      "lower": "i20",
+      "properties": [],
+      "upper": "21"
+    },
+    "hitLevels": [
+      "L"
+    ],
+    "input": "b+4",
+    "name": "Leg Sweep",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      28
+    ],
+    "framesOnBlock": {
+      "_raw": "-9",
+      "lower": "-9",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+21d (+16)",
+      "lower": "+21",
+      "properties": [
+        "d"
+      ],
+      "tech": "+16"
+    },
+    "framesOnStartup": {
+      "_raw": "i24",
+      "lower": "i24",
+      "properties": []
+    },
+    "hitLevels": [
+      "h"
+    ],
+    "input": "b+1+2",
+    "name": "Hassou Strike",
+    "notes": [
+      "Chip damage (11) if attack is absorbed"
+    ],
+    "specials": [
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      22
+    ],
+    "framesOnBlock": {
+      "_raw": "-5",
+      "lower": "-5",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+14d",
+      "lower": "+14",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i18",
+      "lower": "i18",
+      "properties": []
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "ub+2",
+    "name": "Wrecking Ball",
+    "notes": [
+      "+21d (+14) on airborne opponent"
+    ],
+    "specials": [
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      15
+    ],
+    "framesOnBlock": {
+      "_raw": "-16",
+      "lower": "-16",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+25a (+15)",
+      "lower": "+25",
+      "properties": [
+        "a"
+      ],
+      "tech": "+15"
+    },
+    "framesOnStartup": {
+      "_raw": "i15~16",
+      "lower": "i15",
+      "properties": [],
+      "upper": "16"
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "uf+3",
+    "name": "",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      15,
+      10
+    ],
+    "framesOnBlock": {
+      "_raw": "-13",
+      "lower": "-13",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+32a (+22)",
+      "lower": "+32",
+      "properties": [
+        "a"
+      ],
+      "tech": "+22"
+    },
+    "framesOnStartup": {
+      "_raw": ",i13~14",
+      "lower": "i13",
+      "properties": [],
+      "upper": "14"
+    },
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "input": "uf+3,4",
+    "name": "Shredder",
+    "notes": [
+      "Combo from 1st hit +28a (+21)"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      13
+    ],
+    "framesOnBlock": {
+      "_raw": "-13",
+      "lower": "-13",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+33a (+23)",
+      "lower": "+33",
+      "properties": [
+        "a"
+      ],
+      "tech": "+23"
+    },
+    "framesOnStartup": {
+      "_raw": "i15~17",
+      "lower": "i15",
+      "properties": [],
+      "upper": "17"
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "uf+4",
+    "name": "Rising Toe Kick",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      20
+    ],
+    "framesOnBlock": {
+      "_raw": "-13",
+      "lower": "-13",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+32a (+22)",
+      "lower": "+32",
+      "properties": [
+        "a"
+      ],
+      "tech": "+22"
+    },
+    "framesOnStartup": {
+      "_raw": "i23~25",
+      "lower": "i23",
+      "properties": [],
+      "upper": "25"
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "uf,n,4",
+    "name": "Delayed Rising Toe Kick",
+    "notes": [
+      "Can be delayed 12f after jump",
+      "Additional range with delay"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      14
+    ],
+    "framesOnBlock": {
+      "_raw": "-17",
+      "lower": "-17",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "-7",
+      "lower": "-7",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i15~17",
+      "lower": "i15",
+      "properties": [],
+      "upper": "17"
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "f,F+2",
+    "name": "",
+    "notes": [
+      "Alternate input FC.df+2"
+    ],
+    "specials": [
+      "Elbow"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      14,
+      20
+    ],
+    "framesOnBlock": {
+      "_raw": "-12",
+      "lower": "-12",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+14d",
+      "lower": "+14",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": ",i26",
+      "lower": "i26",
+      "properties": []
+    },
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "input": "f,F+2,1",
+    "name": "Juggernaut",
+    "notes": [
+      "Combo from 1st hit",
+      "Cancel to -21 -11 standing with B",
+      "Alternate input FC.df+2,1"
+    ],
+    "specials": [
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      14,
+      24
+    ],
+    "framesOnBlock": {
+      "_raw": "-4",
+      "lower": "-4",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+37d (+11)",
+      "lower": "+37",
+      "properties": [
+        "d"
+      ],
+      "tech": "+11"
+    },
+    "framesOnStartup": {
+      "_raw": ",i15",
+      "lower": "i15",
+      "properties": []
+    },
+    "hitLevels": [
+      "m",
+      "h"
+    ],
+    "input": "f,F+2:1",
+    "name": "Phoenix Bone Breaker",
+    "notes": [
+      "Chip damage (7)",
+      "Combo from 1st hit",
+      "Alternate input FC.df+2:1"
+    ],
+    "specials": [
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      14,
+      21
+    ],
+    "framesOnBlock": {
+      "_raw": "-19c",
+      "lower": "-19",
+      "properties": [
+        "c"
+      ]
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+27a",
+      "lower": "+27",
+      "properties": [
+        "a"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": ",i36~38",
+      "lower": "i36",
+      "properties": [],
+      "upper": "38"
+    },
+    "hitLevels": [
+      "m",
+      "L"
+    ],
+    "input": "f,F+2,2",
+    "name": "Bulldozer",
+    "notes": [
+      "Cancel to -28 -18 FC with B",
+      "Alternate input FC.df+2,2"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      17
+    ],
+    "framesOnBlock": {
+      "_raw": "-17",
+      "lower": "-17",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+24a (+14)",
+      "lower": "+24",
+      "properties": [
+        "a"
+      ],
+      "tech": "+14"
+    },
+    "framesOnStartup": {
+      "_raw": "i15~16",
+      "lower": "i15",
+      "properties": [],
+      "upper": "16"
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "f,F+3",
+    "name": "",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      17,
+      10
+    ],
+    "framesOnBlock": {
+      "_raw": "-16",
+      "lower": "-16",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+30a (+20)",
+      "lower": "+30",
+      "properties": [
+        "a"
+      ],
+      "tech": "+20"
+    },
+    "framesOnStartup": {
+      "_raw": ",i13~14",
+      "lower": "i13",
+      "properties": [],
+      "upper": "14"
+    },
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "input": "f,F+3,4",
+    "name": "",
+    "notes": [
+      "Combo from 1st hit +27a (+10)"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      17,
+      10,
+      25
+    ],
+    "framesOnBlock": {
+      "_raw": "-5",
+      "lower": "-5",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+62a (+42)",
+      "lower": "+62",
+      "properties": [
+        "a"
+      ],
+      "tech": "+42"
+    },
+    "framesOnStartup": {
+      "_raw": ",i23~25",
+      "lower": "i23",
+      "properties": [],
+      "upper": "25"
+    },
+    "hitLevels": [
+      "m",
+      "m",
+      "h"
+    ],
+    "input": "f,F+3,4,4",
+    "name": "Double Hop Kick High",
+    "notes": [],
+    "specials": [
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      17,
+      10,
+      18
+    ],
+    "framesOnBlock": {
+      "_raw": "-14",
+      "lower": "-14",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+12d (+3)",
+      "lower": "+12",
+      "properties": [
+        "d"
+      ],
+      "tech": "+3"
+    },
+    "framesOnStartup": {
+      "_raw": ",i27~29",
+      "lower": "i27",
+      "properties": [],
+      "upper": "29"
+    },
+    "hitLevels": [
+      "m",
+      "m",
+      "m"
+    ],
+    "input": "f,F+3,4,f+4",
+    "name": "Triple Kick Combo",
+    "notes": [],
+    "specials": [
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      17,
+      10,
+      15
+    ],
+    "framesOnBlock": {
+      "_raw": "-17c",
+      "lower": "-17",
+      "properties": [
+        "c"
+      ]
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "-6",
+      "lower": "-6",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": ",i27~28",
+      "lower": "i27",
+      "properties": [],
+      "upper": "28"
+    },
+    "hitLevels": [
+      "m",
+      "m",
+      "L"
+    ],
+    "input": "f,F+3,4,d+4",
+    "name": "Double Hop Kick Low",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      20
+    ],
+    "framesOnBlock": {
+      "_raw": "+2",
+      "lower": "+2",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+18a",
+      "lower": "+18",
+      "properties": [
+        "a"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i27~34",
+      "lower": "i27",
+      "properties": [],
+      "upper": "34"
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "f,F+4",
+    "name": "Neutron Bomb",
+    "notes": [
+      "Chip damage (8)"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      21,
+      34
+    ],
+    "framesOnBlock": {
+      "_raw": "-9",
+      "lower": "-9",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+35a FUFA",
+      "lower": "+35",
+      "properties": [
+        "a"
+      ]
+    },
+    "framesOnHit": {
+      "_raw": "+0d FDFA",
+      "lower": "+0",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i18~19",
+      "lower": "i18",
+      "properties": [],
+      "upper": "19"
+    },
+    "hitLevels": [
+      "m",
+      "t"
+    ],
+    "input": "f,f,F+2",
+    "name": "Turbulent Hammer",
+    "notes": [
+      "Transition to throw on airborne hit",
+      "+17d FDFA without throw transition"
+    ],
+    "specials": [
+      "Spike on 2nd hit"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      22
+    ],
+    "framesOnBlock": {
+      "_raw": "-6",
+      "lower": "-6",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+34a (+25)",
+      "lower": "+34",
+      "properties": [
+        "a"
+      ],
+      "tech": "+25"
+    },
+    "framesOnStartup": {
+      "_raw": "i28~31",
+      "lower": "i28",
+      "properties": [],
+      "upper": "31"
+    },
+    "hitLevels": [
+      "h"
+    ],
+    "input": "b,n,f+1",
+    "name": "Burning Spear",
+    "notes": [
+      "High Evasion",
+      ".73 backward movement over first 14f",
+      "b,F+1",
+      "Backswing Blow"
+    ],
+    "specials": [
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      16
+    ],
+    "framesOnBlock": {
+      "_raw": "-10",
+      "lower": "-10",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+1",
+      "lower": "+1",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "-7",
+      "lower": "-7",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i15~16",
+      "lower": "i15",
+      "properties": [],
+      "upper": "16"
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "ws1",
+    "name": "",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      16,
+      17
+    ],
+    "framesOnBlock": {
+      "_raw": "-11",
+      "lower": "-11",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+3",
+      "lower": "+3",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+2",
+      "lower": "+2",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": ",i20",
+      "lower": "i20",
+      "properties": []
+    },
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "input": "ws1,2",
+    "name": "Enfolding Dragon",
+    "notes": [
+      "Move can be delayed 10f",
+      "Input can be delayed 10f",
+      "Combo from 1st CH with 10f delay",
+      "Transition to t59 r19 SWA +1 +14g +15 from 39~44f with b"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      16,
+      17
+    ],
+    "framesOnBlock": {
+      "_raw": "+1",
+      "lower": "+1",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+15",
+      "lower": "+15",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+14g",
+      "lower": "+14",
+      "properties": [
+        "g"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "input": "ws1,2~b",
+    "name": "",
+    "notes": [
+      "Sidestep u can be buffered from 44f",
+      "SWA attacks can be buffered from 51f",
+      "Transition to cs1~ r9 -10 +4 +5 DPD from 60f with df"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      20
+    ],
+    "framesOnBlock": {
+      "_raw": "-14",
+      "lower": "-14",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+27a (+17)",
+      "lower": "+27",
+      "properties": [
+        "a"
+      ],
+      "tech": "+17"
+    },
+    "framesOnStartup": {
+      "_raw": "i15~16",
+      "lower": "i15",
+      "properties": [],
+      "upper": "16"
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "ws2",
+    "name": "Thunder Palm",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      16
+    ],
+    "framesOnBlock": {
+      "_raw": "-8",
+      "lower": "-8",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+6",
+      "lower": "+6",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i13~14",
+      "lower": "i13",
+      "properties": [],
+      "upper": "14"
+    },
+    "hitLevels": [
+      "M"
+    ],
+    "input": "ws3",
+    "name": "",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      16,
+      21
+    ],
+    "framesOnBlock": {
+      "_raw": "-9",
+      "lower": "-9",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+46a",
+      "lower": "+46",
+      "properties": [
+        "a"
+      ]
+    },
+    "framesOnHit": {
+      "_raw": "+17d (+8)",
+      "lower": "+17",
+      "properties": [
+        "d"
+      ],
+      "tech": "+8"
+    },
+    "framesOnStartup": {
+      "_raw": ",i21~22",
+      "lower": "i21",
+      "properties": [],
+      "upper": "22"
+    },
+    "hitLevels": [
+      "M",
+      "h"
+    ],
+    "input": "ws3,2",
+    "name": "Shioh",
+    "notes": [
+      "Move can be delayed 12f",
+      "Input can be delayed 12f",
+      "Combo from 1st hit with 12f delay"
+    ],
+    "specials": [
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      18
+    ],
+    "framesOnBlock": {
+      "_raw": "-6",
+      "lower": "-6",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+5",
+      "lower": "+5",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i11~12",
+      "lower": "i11",
+      "properties": [],
+      "upper": "12"
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "ws4",
+    "name": "Toe Smash",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [],
+    "framesOnBlock": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "hitLevels": [],
+    "input": "FC.D",
+    "name": "Somersault Kick Warm-Up Moves",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      40
+    ],
+    "framesOnBlock": {
+      "_raw": "-49d",
+      "lower": "-49",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "-9d (-24)",
+      "lower": "-9",
+      "properties": [
+        "d"
+      ],
+      "tech": "-24"
+    },
+    "framesOnStartup": {
+      "_raw": "i13~18",
+      "lower": "i13",
+      "properties": [],
+      "upper": "18"
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "FC.D,U+4",
+    "name": "Incomplete Somersault",
+    "notes": [
+      "Deals recoverable damage to self"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      55
+    ],
+    "framesOnBlock": {
+      "_raw": "-15",
+      "lower": "-15",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+0d",
+      "lower": "+0",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i20",
+      "lower": "i20",
+      "properties": []
+    },
+    "hitLevels": [
+      "m",
+      "t"
+    ],
+    "input": "R.df+1+2",
+    "name": "Big Bang Phoenix Smasher",
+    "notes": [
+      "Damage increases with lower health, maximum 82",
+      "Restores recoverable health on hit",
+      "Transition to attack throw on hit",
+      "Consumes Rage",
+      "114f cinematic freeze on frame 8",
+      "t193 r56 on block",
+      "t134 on whiff"
+    ],
+    "specials": [
+      "Rage Art",
+      "Removes Recoverable Health",
+      "Reversal Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [],
+    "framesOnBlock": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "hitLevels": [],
+    "input": "1+2+3+4",
+    "name": "Ki Charge",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      16
+    ],
+    "framesOnBlock": {
+      "_raw": "-12c",
+      "lower": "-12",
+      "properties": [
+        "c"
+      ]
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "-1d (-9)",
+      "lower": "-1",
+      "properties": [
+        "d"
+      ],
+      "tech": "-9"
+    },
+    "framesOnStartup": {
+      "_raw": "i18",
+      "lower": "i18",
+      "properties": []
+    },
+    "hitLevels": [
+      "L"
+    ],
+    "input": "OTG.d+2",
+    "name": "Down Strike",
+    "notes": [
+      "+4 on hit against standing opponent"
+    ],
+    "specials": [
+      "Spike"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      21
+    ],
+    "framesOnBlock": {
+      "_raw": "+8",
+      "lower": "+8",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+35a (+27)",
+      "lower": "+35",
+      "properties": [
+        "a"
+      ],
+      "tech": "+27"
+    },
+    "framesOnStartup": {
+      "_raw": "i20",
+      "lower": "i20",
+      "properties": []
+    },
+    "hitLevels": [
+      "h"
+    ],
+    "input": "SS.1",
+    "name": "Turn Thruster",
+    "notes": [
+      "Chip damage (6)",
+      "Effective minimum startup 30f"
+    ],
+    "specials": [
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      17
+    ],
+    "framesOnBlock": {
+      "_raw": "-12c",
+      "lower": "-12",
+      "properties": [
+        "c"
+      ]
+    },
+    "framesOnCounter": {
+      "_raw": "+12c",
+      "lower": "+12",
+      "properties": [
+        "c"
+      ]
+    },
+    "framesOnHit": {
+      "_raw": "+4",
+      "lower": "+4",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i19",
+      "lower": "i19",
+      "properties": []
+    },
+    "hitLevels": [
+      "L"
+    ],
+    "input": "SS.3",
+    "name": "Pump In Pedal",
+    "notes": [
+      "Effective minimum startup 28f"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [],
+    "framesOnBlock": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "hitLevels": [],
+    "input": "d,df",
+    "name": "Crouch Dash",
+    "notes": [
+      "Cannot be buffered",
+      "1.12 movement over 20f",
+      "Transition to CS from 2f with f",
+      "Transition to r9 DPD from 3~19f with df",
+      "Cancel to r1 block from 2f with b",
+      "Cancel to r1 sidestep from 2f with u"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [],
+    "framesOnBlock": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "hitLevels": [],
+    "input": "d,df,f",
+    "name": "Cormorant Step",
+    "notes": [
+      "Cannot be buffered",
+      "t35 from 1+2~f",
+      "Exits crouching state on frame 1",
+      "1.63 movement over 25f (includes CD)",
+      "1.98 movement over 35f from 1+2 cancel",
+      "Transition to r9 DPD from 2f with df",
+      "Cancel to r1 sidestep from 2f with u",
+      "Cancel to r1 block from 24f with b",
+      "CS",
+      "qcf"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      21
+    ],
+    "framesOnBlock": {
+      "_raw": "-4",
+      "lower": "-4",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+33a (+26)",
+      "lower": "+33",
+      "properties": [
+        "a"
+      ],
+      "tech": "+26"
+    },
+    "framesOnStartup": {
+      "_raw": "i16~17",
+      "lower": "i16",
+      "properties": [],
+      "upper": "17"
+    },
+    "hitLevels": [
+      "h"
+    ],
+    "input": "CS.1",
+    "name": "Thruster",
+    "notes": [
+      "Chip damage (4)"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      18
+    ],
+    "framesOnBlock": {
+      "_raw": "-14c",
+      "lower": "-14",
+      "properties": [
+        "c"
+      ]
+    },
+    "framesOnCounter": {
+      "_raw": "+20a FUFA",
+      "lower": "+20",
+      "properties": [
+        "a"
+      ]
+    },
+    "framesOnHit": {
+      "_raw": "+0",
+      "lower": "+0",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i18~19",
+      "lower": "i18",
+      "properties": [],
+      "upper": "19"
+    },
+    "hitLevels": [
+      "L"
+    ],
+    "input": "CS.3",
+    "name": "Gengetsu",
+    "notes": [
+      "Clean hit range 2.0",
+      "17 damage on hit without Clean Hit",
+      "+7 on CH without Clean Hit"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      20
+    ],
+    "framesOnBlock": {
+      "_raw": "-12c",
+      "lower": "-12",
+      "properties": [
+        "c"
+      ]
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+71a (+55) T!",
+      "lower": "+71",
+      "properties": [
+        "a"
+      ],
+      "tech": "+55"
+    },
+    "framesOnStartup": {
+      "_raw": "i32~33",
+      "lower": "i32",
+      "properties": [],
+      "upper": "33"
+    },
+    "hitLevels": [
+      "L"
+    ],
+    "input": "CS.1+2",
+    "name": "Gunba",
+    "notes": [
+      "Cancel to t41 FC with B"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      22
+    ],
+    "framesOnBlock": {
+      "_raw": "-9",
+      "lower": "-9",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+74a (+58) T!",
+      "lower": "+74",
+      "properties": [
+        "a"
+      ],
+      "tech": "+58"
+    },
+    "framesOnHit": {
+      "_raw": "+35a (+27)",
+      "lower": "+35",
+      "properties": [
+        "a"
+      ],
+      "tech": "+27"
+    },
+    "framesOnStartup": {
+      "_raw": "i19~20",
+      "lower": "i19",
+      "properties": [],
+      "upper": "20"
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "CS.3+4",
+    "name": "Mountain Raze",
+    "notes": [
+      "High Evasion (brief)"
+    ],
+    "specials": [
+      "Tornado",
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [],
+    "framesOnBlock": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "hitLevels": [],
+    "input": "CD.df",
+    "name": "Deep Dive",
+    "notes": [
+      "Buffer window 2~9f (3~9f from SWA)",
+      "Sidestep can be buffered with u",
+      "DPD attacks can be buffered",
+      "While standing attacks can be buffered",
+      "Cancel to r1 block from 10f with b",
+      "DPD",
+      "DD"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      10
+    ],
+    "framesOnBlock": {
+      "_raw": "-10",
+      "lower": "-10",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+6",
+      "lower": "+6",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i14",
+      "lower": "i14",
+      "properties": []
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "DPD.df+2",
+    "name": "",
+    "notes": [
+      "Effective minimum startup 24f",
+      "DPD.2",
+      "DD.2"
+    ],
+    "specials": [
+      "Balcony Break",
+      "Elbow"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      10,
+      30
+    ],
+    "framesOnBlock": {
+      "_raw": "-5",
+      "lower": "-5",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+23d FUFA",
+      "lower": "+23",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": ",i18~19",
+      "lower": "i18",
+      "properties": [],
+      "upper": "19"
+    },
+    "hitLevels": [
+      "m",
+      "h"
+    ],
+    "input": "DPD.df+2,1",
+    "name": "Quick Petal Strike",
+    "notes": [
+      "Move can be delayed 10f",
+      "Input can be delayed 17f",
+      "Combo from 1st hit with 10f delay",
+      "DPD.2,1",
+      "DD.2,1"
+    ],
+    "specials": [
+      "Tornado",
+      "Balcony Break",
+      "Wall Crush +7g"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      10,
+      22
+    ],
+    "framesOnBlock": {
+      "_raw": "-13c",
+      "lower": "-13",
+      "properties": [
+        "c"
+      ]
+    },
+    "framesOnCounter": {
+      "_raw": "+46a",
+      "lower": "+46",
+      "properties": [
+        "a"
+      ]
+    },
+    "framesOnHit": {
+      "_raw": "+10d FDFA",
+      "lower": "+10",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": ",i25~26",
+      "lower": "i25",
+      "properties": [],
+      "upper": "26"
+    },
+    "hitLevels": [
+      "m",
+      "M"
+    ],
+    "input": "DPD.df+2,3",
+    "name": "Quick Lightning Breaker",
+    "notes": [
+      "Move can be delayed 10f",
+      "Input can be delayed 17f",
+      "Combo from 1st hit with 6f delay",
+      "DPD.2,3",
+      "DD.2,3"
+    ],
+    "specials": [
+      "Spike"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      18
+    ],
+    "framesOnBlock": {
+      "_raw": "-12c",
+      "lower": "-12",
+      "properties": [
+        "c"
+      ]
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "0",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i17",
+      "lower": "i17",
+      "properties": []
+    },
+    "hitLevels": [
+      "L"
+    ],
+    "input": "DPD.df+4",
+    "name": "Bigetsu",
+    "notes": [
+      "Effective minimum startup 27f",
+      "DPD.4",
+      "DD.4"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      32,
+      10
+    ],
+    "framesOnBlock": {
+      "_raw": "-49d",
+      "lower": "-49",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "-9d (-24)",
+      "lower": "-9",
+      "properties": [
+        "d"
+      ],
+      "tech": "-24"
+    },
+    "framesOnStartup": {
+      "_raw": "i18~23,i51~61",
+      "lower": "i18",
+      "properties": [],
+      "upper": "23"
+    },
+    "hitLevels": [
+      "m",
+      "M"
+    ],
+    "input": "DPD.df+3+4",
+    "name": "Incomplete Somersault",
+    "notes": [
+      "Effective minimum startup 28f",
+      "t112 on hit",
+      "Deals recoverable damage to self",
+      "DPD.3+4",
+      "DD.3+4"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [],
+    "framesOnBlock": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "hitLevels": [],
+    "input": "d,db,b",
+    "name": "Sway",
+    "notes": [
+      "Cannot be buffered",
+      "Moves backward up to 1.04",
+      "Less movement against distant opponent",
+      "cs1~10 against distant opponent",
+      "Less movement from attack transition",
+      "No crouching state from attack transition",
+      "High evasion from attack transition",
+      "Transition to r9 DPD from 2f with df",
+      "SWA",
+      "qcb"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      24
+    ],
+    "framesOnBlock": {
+      "_raw": "+0c",
+      "lower": "+0",
+      "properties": [
+        "c"
+      ]
+    },
+    "framesOnCounter": {
+      "_raw": "+53a",
+      "lower": "+53",
+      "properties": [
+        "a"
+      ]
+    },
+    "framesOnHit": {
+      "_raw": "+21d FDFA",
+      "lower": "+21",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i21~22",
+      "lower": "i21",
+      "properties": [],
+      "upper": "22"
+    },
+    "hitLevels": [
+      "M"
+    ],
+    "input": "SWA.1",
+    "name": "God Hammer Punch",
+    "notes": [
+      "Chip damage (7)"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      14
+    ],
+    "framesOnBlock": {
+      "_raw": "-21c",
+      "lower": "-21",
+      "properties": [
+        "c"
+      ]
+    },
+    "framesOnCounter": {
+      "_raw": "+21a",
+      "lower": "+21",
+      "properties": [
+        "a"
+      ]
+    },
+    "framesOnHit": {
+      "_raw": "-10g",
+      "lower": "-10",
+      "properties": [
+        "g"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i18~19",
+      "lower": "i18",
+      "properties": [],
+      "upper": "19"
+    },
+    "hitLevels": [
+      "L"
+    ],
+    "input": "SWA.3",
+    "name": "Rapid Fire",
+    "notes": [],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      14,
+      20
+    ],
+    "framesOnBlock": {
+      "_raw": "-10",
+      "lower": "-10",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+6",
+      "lower": "+6",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": ",i27~28",
+      "lower": "i27",
+      "properties": [],
+      "upper": "28"
+    },
+    "hitLevels": [
+      "L",
+      "m"
+    ],
+    "input": "SWA.3,2",
+    "name": "",
+    "notes": [
+      "Combo from 1st CH +20d (+13)"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      14,
+      20,
+      25
+    ],
+    "framesOnBlock": {
+      "_raw": "-5",
+      "lower": "-5",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+21d (-5)",
+      "lower": "+21",
+      "properties": [
+        "d"
+      ],
+      "tech": "-5"
+    },
+    "framesOnStartup": {
+      "_raw": ",i18~19",
+      "lower": "i18",
+      "properties": [],
+      "upper": "19"
+    },
+    "hitLevels": [
+      "L",
+      "m",
+      "h"
+    ],
+    "input": "SWA.3,2,1",
+    "name": "Petal Strike",
+    "notes": [
+      "Combo from 1st CH +63a (+47) T!"
+    ],
+    "specials": [
+      "Tornado",
+      "Wall Crush +7g"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      14,
+      20,
+      22
+    ],
+    "framesOnBlock": {
+      "_raw": "-13c",
+      "lower": "-13",
+      "properties": [
+        "c"
+      ]
+    },
+    "framesOnCounter": {
+      "_raw": "+46a",
+      "lower": "+46",
+      "properties": [
+        "a"
+      ]
+    },
+    "framesOnHit": {
+      "_raw": "+10d FDFA",
+      "lower": "+10",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": ",i25~26",
+      "lower": "i25",
+      "properties": [],
+      "upper": "26"
+    },
+    "hitLevels": [
+      "L",
+      "m",
+      "M"
+    ],
+    "input": "SWA.3,2,3",
+    "name": "Lightning Breaker",
+    "notes": [
+      "Combo from 1st CH +15d (-20) FDFA",
+      "Move can be delayed 10f",
+      "Input can be delayed 17f"
+    ],
+    "specials": [
+      "Spike"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      20
+    ],
+    "framesOnBlock": {
+      "_raw": "+1",
+      "lower": "+1",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+59a",
+      "lower": "+59",
+      "properties": [
+        "a"
+      ]
+    },
+    "framesOnHit": {
+      "_raw": "+23d (+14)",
+      "lower": "+23",
+      "properties": [
+        "d"
+      ],
+      "tech": "+14"
+    },
+    "framesOnStartup": {
+      "_raw": "i15~16",
+      "lower": "i15",
+      "properties": [],
+      "upper": "16"
+    },
+    "hitLevels": [
+      "h"
+    ],
+    "input": "SWA.4",
+    "name": "Kawaragoma",
+    "notes": [
+      "Chip damage (6)"
+    ],
+    "specials": [
+      "Homing"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      22
+    ],
+    "framesOnBlock": {
+      "_raw": "-14",
+      "lower": "-14",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+37a (+27)",
+      "lower": "+37",
+      "properties": [
+        "a"
+      ],
+      "tech": "+27"
+    },
+    "framesOnStartup": {
+      "_raw": "i16~17",
+      "lower": "i16",
+      "properties": [],
+      "upper": "17"
+    },
+    "hitLevels": [
+      "m"
+    ],
+    "input": "SWA.1+2",
+    "name": "Unseen Gust",
+    "notes": [
+      "High evasion"
+    ],
+    "specials": [
+      "Tornado"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      35
+    ],
+    "framesOnBlock": {
+      "_raw": "-6",
+      "lower": "-6",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+1d FUFA",
+      "lower": "+1",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i12~14",
+      "lower": "i12",
+      "properties": [],
+      "upper": "14"
+    },
+    "hitLevels": [
+      "t"
+    ],
+    "input": "1+3",
+    "name": "Over The Shoulder",
+    "notes": [
+      "Throw break 1 or 2",
+      "Side switch"
+    ],
+    "specials": [
+      "Homing"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      35
+    ],
+    "framesOnBlock": {
+      "_raw": "-3",
+      "lower": "-3",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+1d FUFA",
+      "lower": "+1",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i12~14",
+      "lower": "i12",
+      "properties": [],
+      "upper": "14"
+    },
+    "hitLevels": [
+      "t"
+    ],
+    "input": "2+4",
+    "name": "Shoulder Pop",
+    "notes": [
+      "Throw break 1 or 2",
+      "Side switch"
+    ],
+    "specials": [
+      "Homing"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      40
+    ],
+    "framesOnBlock": {
+      "_raw": "-2",
+      "lower": "-2",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+0d",
+      "lower": "+0",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i12~14",
+      "lower": "i12",
+      "properties": [],
+      "upper": "14"
+    },
+    "hitLevels": [
+      "t"
+    ],
+    "input": "2+4~b",
+    "name": "Chest Crusher",
+    "notes": [
+      "Throw break 2"
+    ],
+    "specials": [
+      "Homing"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      45
+    ],
+    "framesOnBlock": {
+      "_raw": "-6",
+      "lower": "-6",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+1d FUFA",
+      "lower": "+1",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i12~14",
+      "lower": "i12",
+      "properties": [],
+      "upper": "14"
+    },
+    "hitLevels": [
+      "t"
+    ],
+    "input": "LeftThrow",
+    "name": "Dragon Screw",
+    "notes": [
+      "Throw break 1"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      40
+    ],
+    "framesOnBlock": {
+      "_raw": "-3",
+      "lower": "-3",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "-2d FUFA",
+      "lower": "-2",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i12~14",
+      "lower": "i12",
+      "properties": [],
+      "upper": "14"
+    },
+    "hitLevels": [
+      "t"
+    ],
+    "input": "RightThrow",
+    "name": "Fall Away",
+    "notes": [
+      "Throw break 2",
+      "Side switch"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      50
+    ],
+    "framesOnBlock": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "-14d FUFA",
+      "lower": "-14",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i12~14",
+      "lower": "i12",
+      "properties": [],
+      "upper": "14"
+    },
+    "hitLevels": [
+      "t"
+    ],
+    "input": "BackThrow.1+3",
+    "name": "Reverse Neck Throw",
+    "notes": [
+      "Throw cannot be broken"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      50
+    ],
+    "framesOnBlock": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+1d FDFA",
+      "lower": "+1",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i12~14",
+      "lower": "i12",
+      "properties": [],
+      "upper": "14"
+    },
+    "hitLevels": [
+      "t"
+    ],
+    "input": "BackThrow.2+4",
+    "name": "Piggyback Throw",
+    "notes": [
+      "Throw cannot be broken"
+    ],
+    "specials": [
+      "Spike"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      22
+    ],
+    "framesOnBlock": {
+      "_raw": "-2",
+      "lower": "-2",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+9",
+      "lower": "+9",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i12~13",
+      "lower": "i12",
+      "properties": [],
+      "upper": "13"
+    },
+    "hitLevels": [
+      "t"
+    ],
+    "input": "df+1+3",
+    "name": "Kongo Blast",
+    "notes": [
+      "Throw break 1"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      22,
+      15
+    ],
+    "framesOnBlock": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+16d (-20) FDFA",
+      "lower": "+16",
+      "properties": [
+        "d"
+      ],
+      "tech": "-20"
+    },
+    "framesOnStartup": {
+      "_raw": ",i13~14",
+      "lower": "i13",
+      "properties": [],
+      "upper": "14"
+    },
+    "hitLevels": [
+      "t",
+      "m"
+    ],
+    "input": "df+1+3,qcf+2",
+    "name": "Kongo Blast > Phoenix Smasher",
+    "notes": [
+      "H.df+1+3,qcf+2 with Heat",
+      "Strict qcf input required (d,f does not work)",
+      "Perfect input window 55-56f",
+      "Perfect input increases damage, wall carry"
+    ],
+    "specials": [
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      22,
+      20
+    ],
+    "framesOnBlock": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+16d (-20) FDFA",
+      "lower": "+16",
+      "properties": [
+        "d"
+      ],
+      "tech": "-20"
+    },
+    "framesOnStartup": {
+      "_raw": ",i13~14",
+      "lower": "i13",
+      "properties": [],
+      "upper": "14"
+    },
+    "hitLevels": [
+      "t",
+      "m"
+    ],
+    "input": "df+1+3:qcf+2",
+    "name": "Phoenix Smasher (Perfect Input)",
+    "notes": [
+      "H.df+1+3:qcf+2 with Heat",
+      "Strict qcf input required (d,f does not work)",
+      "Perfect input window 55-56f",
+      "Perfect input increases damage, wall carry"
+    ],
+    "specials": [
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      40
+    ],
+    "framesOnBlock": {
+      "_raw": "-2",
+      "lower": "-2",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+6d FUFA",
+      "lower": "+6",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i11",
+      "lower": "i11",
+      "properties": []
+    },
+    "hitLevels": [
+      "t"
+    ],
+    "input": "b+1+4",
+    "name": "Foot Launch",
+    "notes": [
+      "Throw break 1",
+      "Side switch"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      40
+    ],
+    "framesOnBlock": {
+      "_raw": "-6",
+      "lower": "-6",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+0d",
+      "lower": "+0",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i12",
+      "lower": "i12",
+      "properties": []
+    },
+    "hitLevels": [
+      "t"
+    ],
+    "input": "uf+1+2",
+    "name": "Twist and Shout",
+    "notes": [
+      "Throw break 1+2"
+    ],
+    "specials": [
+      "Spike"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      38
+    ],
+    "framesOnBlock": {
+      "_raw": "+0 BT/+0 FUFA",
+      "lower": "+0",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+20d",
+      "lower": "+20",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i12",
+      "lower": "i12",
+      "properties": []
+    },
+    "hitLevels": [
+      "t"
+    ],
+    "input": "f,F+1+2",
+    "name": "Push Away",
+    "notes": [
+      "Throw break 1+2",
+      "Side switch if broken",
+      "+0 FUFA if broken at wall"
+    ],
+    "specials": [
+      "Balcony Break"
+    ],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      0
+    ],
+    "framesOnBlock": {
+      "_raw": "-5 BT",
+      "lower": "-5",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+3d",
+      "lower": "+3",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i26",
+      "lower": "i26",
+      "properties": []
+    },
+    "hitLevels": [
+      "t"
+    ],
+    "input": "FC.1+2",
+    "name": "Ultimate Tackle",
+    "notes": [
+      "Throw break 1+2",
+      "Transition to Takedown on hit"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      30
+    ],
+    "framesOnBlock": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+0d",
+      "lower": "+0",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": ",i26",
+      "lower": "i26",
+      "properties": []
+    },
+    "hitLevels": [
+      "t"
+    ],
+    "input": "FC.1+2,2,1,2,1",
+    "name": "Ultimate Punch",
+    "notes": [
+      "Throw break 1 or 2",
+      "Alternate input 1,2,1,2"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      25
+    ],
+    "framesOnBlock": {
+      "_raw": "-9",
+      "lower": "-9",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+1d",
+      "lower": "+1",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": ",i26",
+      "lower": "i26",
+      "properties": []
+    },
+    "hitLevels": [
+      "t"
+    ],
+    "input": "FC.1+2,1+2,1+2",
+    "name": "Arm Breaker",
+    "notes": [
+      "Throw break 1+2"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  },
+  {
+    "damage": [
+      50
+    ],
+    "framesOnBlock": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+0d FDFA",
+      "lower": "+0",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": ",i26",
+      "lower": "i26",
+      "properties": []
+    },
+    "hitLevels": [
+      "t"
+    ],
+    "input": "FC.1+2,2,d+1,1,1+2",
+    "name": "Ultimate Punishment",
+    "notes": [
+      "Throw break 1",
+      "Transition to Arm Breaker with 1+2 after third hit"
+    ],
+    "specials": [],
+    "state": {
+      "_raw": ""
+    }
+  }
+]

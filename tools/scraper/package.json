@@ -1,0 +1,29 @@
+{
+    "name": "scraper",
+    "private": true,
+    "type": "module",
+    "imports": {
+        "#types": [
+            "./src/types.ts"
+        ]
+    },
+    "scripts": {
+        "lint": "eslint .",
+        "start": "tsx ./src/main.ts",
+        "test": "node --test --experimental-strip-types --import tsx"
+    },
+    "devDependencies": {
+        "@tekken-space/configuration-eslint": "workspace:*",
+        "@tekken-space/configuration-typescript": "workspace:*",
+        "@tekken-space/types": "workspace:*",
+        "@types/jsdom": "21.1.7",
+        "@types/node": "20.14.10",
+        "eslint": "9.10.0",
+        "tsx": "4.16.2",
+        "typescript": "5.6.2"
+    },
+    "dependencies": {
+        "jsdom": "26.0.0",
+        "rambda": "9.4.2"
+    }
+}
