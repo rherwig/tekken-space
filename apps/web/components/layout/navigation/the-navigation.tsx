@@ -23,6 +23,8 @@ export function TheNavigation() {
                             Characters
                         </NavigationMenuLink>
                     </Link>
+                </NavigationMenuItem>
+                <NavigationMenuItem>
                     <Link href="/share" legacyBehavior passHref>
                         <NavigationMenuLink
                             className={navigationMenuTriggerStyle()}
