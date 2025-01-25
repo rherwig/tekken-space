@@ -1,5 +1,5 @@
 {
-  "id": "5b322383-fff8-4b68-9f07-61a3ebc1db9e",
+  "id": "715e4767-5c9a-4a52-a301-4b63d9a7690f",
   "prevId": "00000000-0000-0000-0000-000000000000",
   "version": "7",
   "dialect": "postgresql",
@@ -679,6 +679,13 @@
           "type": "varchar(128)",
           "primaryKey": true,
           "notNull": true
+        },
+        "index": {
+          "name": "index",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false,
+          "default": 0
         },
         "is_combo": {
           "name": "is_combo",

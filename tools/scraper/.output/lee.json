@@ -28,6 +28,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 0,
     "input": "2+3",
     "name": "",
     "notes": [],
@@ -68,6 +69,7 @@
       "l",
       "t"
     ],
+    "index": 1,
     "input": "H.2+3",
     "name": "Paradigm Breaker",
     "notes": [],
@@ -114,6 +116,7 @@
       "h",
       "h"
     ],
+    "index": 2,
     "input": "4,4:4",
     "name": "Machinegun Kicks Cardinal",
     "notes": [
@@ -162,6 +165,7 @@
       "m",
       "h"
     ],
+    "index": 3,
     "input": "df+4,4",
     "name": "Fabulous Whip",
     "notes": [
@@ -205,6 +209,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 4,
     "input": "b+3+4",
     "name": "Silver Revolution",
     "notes": [],
@@ -248,6 +253,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 5,
     "input": "f,F+3",
     "name": "Pulse Blast",
     "notes": [
@@ -293,6 +299,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 6,
     "input": "HMS.u+3",
     "name": "Silver Slash",
     "notes": [
@@ -341,6 +348,7 @@
       "h",
       "m"
     ],
+    "index": 7,
     "input": "1,2:4",
     "name": "Left Right Mid Kick",
     "notes": [
@@ -387,6 +395,7 @@
       "m",
       "h"
     ],
+    "index": 8,
     "input": "1,3:3:3",
     "name": "Acid Rain",
     "notes": [
@@ -431,6 +440,7 @@
       "h",
       "t"
     ],
+    "index": 9,
     "input": "3~3:4",
     "name": "Mist Trap Throw",
     "notes": [
@@ -475,6 +485,7 @@
       "h",
       "h"
     ],
+    "index": 10,
     "input": "f+4:1",
     "name": "Deadly Revolution Cardinal",
     "notes": [
@@ -529,6 +540,7 @@
       "h",
       "h"
     ],
+    "index": 11,
     "input": "f+3,3,3,3,3:4",
     "name": "Acid Storm Cardinal",
     "notes": [
@@ -576,6 +588,7 @@
       "",
       "h"
     ],
+    "index": 12,
     "input": ",2",
     "name": "Triple Fang Cardinal",
     "notes": [
@@ -622,6 +635,7 @@
       "h",
       "h"
     ],
+    "index": 13,
     "input": "b+1:1+2",
     "name": "Double Fang Cardinal",
     "notes": [
@@ -669,6 +683,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 14,
     "input": "f:F+2",
     "name": "Jostle Wolf Cardinal",
     "notes": [
@@ -713,6 +728,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 15,
     "input": "FC.df,d,DF#3",
     "name": "Friction Spear Cardinal",
     "notes": [
@@ -753,6 +769,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 16,
     "input": "1",
     "name": "Jab",
     "notes": [],
@@ -790,6 +807,7 @@
       "h",
       "h"
     ],
+    "index": 17,
     "input": "1,2",
     "name": "Left Right Combo",
     "notes": [
@@ -835,6 +853,7 @@
       "h",
       "m"
     ],
+    "index": 18,
     "input": "1,2,2",
     "name": "",
     "notes": [
@@ -883,6 +902,7 @@
       "m",
       "h"
     ],
+    "index": 19,
     "input": "1,2,2,3",
     "name": "Left Right Combo > Revolution Zwei",
     "notes": [
@@ -931,6 +951,7 @@
       "h",
       "m"
     ],
+    "index": 20,
     "input": "1,2,4",
     "name": "Left Right Mid Kick",
     "notes": [
@@ -973,6 +994,7 @@
       "h",
       "h"
     ],
+    "index": 22,
     "input": "1,3",
     "name": "",
     "notes": [],
@@ -1012,6 +1034,7 @@
       "h",
       "m"
     ],
+    "index": 23,
     "input": "1,3:3",
     "name": "",
     "notes": [
@@ -1050,6 +1073,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 25,
     "input": "2",
     "name": "Right Cross",
     "notes": [],
@@ -1087,6 +1111,7 @@
       "h",
       "h"
     ],
+    "index": 26,
     "input": "2,1",
     "name": "",
     "notes": [
@@ -1131,6 +1156,7 @@
       "h",
       "m"
     ],
+    "index": 27,
     "input": "2,1,1",
     "name": "Combination Drei",
     "notes": [],
@@ -1176,6 +1202,7 @@
       "h",
       "h"
     ],
+    "index": 28,
     "input": "2,1,3",
     "name": "Combination Fünf",
     "notes": [],
@@ -1217,6 +1244,7 @@
       "h",
       "l"
     ],
+    "index": 29,
     "input": "2,1,4",
     "name": "Combination Vier",
     "notes": [],
@@ -1254,6 +1282,7 @@
       "h",
       "m"
     ],
+    "index": 30,
     "input": "2,2",
     "name": "",
     "notes": [
@@ -1298,6 +1327,7 @@
       "m",
       "h"
     ],
+    "index": 31,
     "input": "2,2,3",
     "name": "Right Cross > Revolution Zwei",
     "notes": [
@@ -1338,6 +1368,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 32,
     "input": "3",
     "name": "",
     "notes": [
@@ -1377,6 +1408,7 @@
       "m",
       "h"
     ],
+    "index": 33,
     "input": "3,3",
     "name": "Mist Wolf Combination",
     "notes": [
@@ -1414,6 +1446,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 34,
     "input": "3~3",
     "name": "Mist Trap",
     "notes": [],
@@ -1451,6 +1484,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 36,
     "input": "4",
     "name": "Magic Four",
     "notes": [],
@@ -1488,6 +1522,7 @@
       "h",
       "h"
     ],
+    "index": 37,
     "input": "4,3",
     "name": "",
     "notes": [],
@@ -1529,6 +1564,7 @@
       "h",
       "m"
     ],
+    "index": 38,
     "input": "4,3,3",
     "name": "Spinning Hammer Kick",
     "notes": [
@@ -1574,6 +1610,7 @@
       "h",
       "m"
     ],
+    "index": 39,
     "input": "4,3,4",
     "name": "Spin Kick Somersault Combo",
     "notes": [],
@@ -1613,6 +1650,7 @@
       "h",
       "h"
     ],
+    "index": 40,
     "input": "4,4",
     "name": "",
     "notes": [
@@ -1655,6 +1693,7 @@
       "h",
       "h"
     ],
+    "index": 41,
     "input": "4,4,4",
     "name": "Machinegun Kicks",
     "notes": [
@@ -1698,6 +1737,7 @@
       "h",
       "m"
     ],
+    "index": 43,
     "input": "4,u+3",
     "name": "Lee Somersault",
     "notes": [
@@ -1737,6 +1777,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 44,
     "input": "1+2",
     "name": "Pirouette Punch",
     "notes": [
@@ -1773,6 +1814,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 45,
     "input": "3+4",
     "name": "Hitman",
     "notes": [],
@@ -1808,6 +1850,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 46,
     "input": "f+2",
     "name": "",
     "notes": [],
@@ -1848,6 +1891,7 @@
       "m",
       "h"
     ],
+    "index": 47,
     "input": "f+2,1",
     "name": "Double Signal",
     "notes": [
@@ -1888,6 +1932,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 48,
     "input": "f+3",
     "name": "",
     "notes": [],
@@ -1925,6 +1970,7 @@
       "m",
       "m"
     ],
+    "index": 49,
     "input": "f+3,3",
     "name": "",
     "notes": [],
@@ -1964,6 +2010,7 @@
       "m",
       "m"
     ],
+    "index": 50,
     "input": "f+3,3,3",
     "name": "",
     "notes": [],
@@ -2005,6 +2052,7 @@
       "m",
       "m"
     ],
+    "index": 51,
     "input": "f+3,3,3,3",
     "name": "",
     "notes": [],
@@ -2051,6 +2099,7 @@
       "m",
       "h"
     ],
+    "index": 52,
     "input": "f+3,3,3,3,3",
     "name": "",
     "notes": [],
@@ -2099,6 +2148,7 @@
       "h",
       "h"
     ],
+    "index": 53,
     "input": "f+3,3,3,3,3,4",
     "name": "Acid Storm",
     "notes": [
@@ -2140,6 +2190,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 55,
     "input": "f+4",
     "name": "",
     "notes": [],
@@ -2180,6 +2231,7 @@
       "h",
       "h"
     ],
+    "index": 56,
     "input": "f+4,1",
     "name": "Deadly Revolution",
     "notes": [
@@ -2226,6 +2278,7 @@
       "h",
       "m"
     ],
+    "index": 58,
     "input": "f+4,3",
     "name": "Deadly Arc",
     "notes": [
@@ -2270,6 +2323,7 @@
       "h",
       "h"
     ],
+    "index": 59,
     "input": "f+1+2",
     "name": "Aggressive One-Two",
     "notes": [],
@@ -2313,6 +2367,7 @@
       "m",
       "m"
     ],
+    "index": 60,
     "input": "f+3+4",
     "name": "Feather Landing",
     "notes": [],
@@ -2350,6 +2405,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 61,
     "input": "df+1",
     "name": "",
     "notes": [],
@@ -2388,6 +2444,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 62,
     "input": "df+2",
     "name": "Silver Uppercut",
     "notes": [],
@@ -2423,6 +2480,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 63,
     "input": "df+3",
     "name": "",
     "notes": [],
@@ -2460,6 +2518,7 @@
       "m",
       "h"
     ],
+    "index": 64,
     "input": "df+3,2",
     "name": "",
     "notes": [
@@ -2504,6 +2563,7 @@
       "h",
       "m"
     ],
+    "index": 65,
     "input": "df+3,2,3",
     "name": "Mercury Drive",
     "notes": [
@@ -2543,6 +2603,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 66,
     "input": "df+4",
     "name": "",
     "notes": [],
@@ -2578,6 +2639,7 @@
     "hitLevels": [
       "s"
     ],
+    "index": 68,
     "input": "d+1",
     "name": "",
     "notes": [],
@@ -2613,6 +2675,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 69,
     "input": "d+2",
     "name": "Gut Polisher",
     "notes": [],
@@ -2650,6 +2713,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 70,
     "input": "d+3",
     "name": "Silver Low",
     "notes": [],
@@ -2685,6 +2749,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 71,
     "input": "d+4",
     "name": "Shin",
     "notes": [],
@@ -2725,6 +2790,7 @@
       "l",
       "h"
     ],
+    "index": 72,
     "input": "d+4,n,4",
     "name": "Shin > Head Kick",
     "notes": [
@@ -2763,6 +2829,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 73,
     "input": "D+4",
     "name": "",
     "notes": [],
@@ -2800,6 +2867,7 @@
       "l",
       "l"
     ],
+    "index": 74,
     "input": "D+4,4",
     "name": "",
     "notes": [],
@@ -2839,6 +2907,7 @@
       "l",
       "l"
     ],
+    "index": 75,
     "input": "D+4,4,4",
     "name": "",
     "notes": [],
@@ -2883,6 +2952,7 @@
       "l",
       "m"
     ],
+    "index": 76,
     "input": "D+4,4,4,4",
     "name": "Laser Edge Kick Combo",
     "notes": [
@@ -2925,6 +2995,7 @@
     "hitLevels": [
       "!"
     ],
+    "index": 77,
     "input": "d+3+4",
     "name": "Silver Cyclone",
     "notes": [
@@ -2965,6 +3036,7 @@
     "hitLevels": [
       "s"
     ],
+    "index": 78,
     "input": "db+2",
     "name": "",
     "notes": [],
@@ -3000,6 +3072,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 79,
     "input": "db+3",
     "name": "Bump Kick",
     "notes": [],
@@ -3035,6 +3108,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 80,
     "input": "db+4",
     "name": "",
     "notes": [],
@@ -3072,6 +3146,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 81,
     "input": "db+3+4",
     "name": "Grass Snake",
     "notes": [],
@@ -3107,6 +3182,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 82,
     "input": "b+1",
     "name": "",
     "notes": [],
@@ -3144,6 +3220,7 @@
       "h",
       "m"
     ],
+    "index": 83,
     "input": "b+1,1",
     "name": "",
     "notes": [
@@ -3186,6 +3263,7 @@
       "m",
       "h"
     ],
+    "index": 84,
     "input": "b+1,1,2",
     "name": "Triple Fang",
     "notes": [
@@ -3225,6 +3303,7 @@
       "h",
       "m"
     ],
+    "index": 85,
     "input": "b+1:1",
     "name": "",
     "notes": [
@@ -3272,6 +3351,7 @@
       "m",
       "h"
     ],
+    "index": 86,
     "input": "b+1:1,2",
     "name": "Triple Fang Cardinal",
     "notes": [
@@ -3313,6 +3393,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 88,
     "input": "b+2",
     "name": "Rear Cross Punch",
     "notes": [
@@ -3352,6 +3433,7 @@
       "h",
       "h"
     ],
+    "index": 89,
     "input": "b+2,4",
     "name": "",
     "notes": [
@@ -3400,6 +3482,7 @@
       "h",
       "h"
     ],
+    "index": 90,
     "input": "b+2,4,3",
     "name": "Super High Combination",
     "notes": [],
@@ -3438,6 +3521,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 91,
     "input": "b+3",
     "name": "",
     "notes": [],
@@ -3475,6 +3559,7 @@
       "l",
       "h"
     ],
+    "index": 92,
     "input": "b+3,3",
     "name": "Stinging Rush",
     "notes": [
@@ -3517,6 +3602,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 93,
     "input": "b+4",
     "name": "Silver Heel",
     "notes": [
@@ -3556,6 +3642,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 94,
     "input": "b+1+3",
     "name": "Mist Illusion",
     "notes": [
@@ -3598,6 +3685,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 95,
     "input": "b+1+3,4",
     "name": "Illusion Edge",
     "notes": [
@@ -3644,6 +3732,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 97,
     "input": "ub+3",
     "name": "Wheel of Fate",
     "notes": [],
@@ -3677,6 +3766,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 98,
     "input": "u+3",
     "name": "Fake",
     "notes": [
@@ -3715,6 +3805,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 99,
     "input": "uf+3",
     "name": "",
     "notes": [],
@@ -3754,6 +3845,7 @@
       "m",
       "m"
     ],
+    "index": 100,
     "input": "uf+3,1",
     "name": "Brilliant Rosé",
     "notes": [],
@@ -3793,6 +3885,7 @@
       "m",
       "h"
     ],
+    "index": 101,
     "input": "uf+3,4",
     "name": "Double Mazurek",
     "notes": [],
@@ -3831,6 +3924,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 102,
     "input": "uf+4",
     "name": "Silver Arrow",
     "notes": [
@@ -3873,6 +3967,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 103,
     "input": "uf+3+4",
     "name": "Silver Bullet",
     "notes": [
@@ -3916,6 +4011,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 104,
     "input": "uf,n,4",
     "name": "Delayed Rising Toe Kick",
     "notes": [],
@@ -3956,6 +4052,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 105,
     "input": "f,F+2",
     "name": "Jostle Wolf",
     "notes": [
@@ -3999,6 +4096,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 108,
     "input": "f,F+4",
     "name": "Deadly Edge",
     "notes": [],
@@ -4037,6 +4135,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 109,
     "input": "d,DB+4",
     "name": "Blazing Kick",
     "notes": [],
@@ -4076,6 +4175,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 110,
     "input": "b,B+4",
     "name": "Lee Cutter",
     "notes": [
@@ -4120,6 +4220,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 111,
     "input": "f,f,F+3",
     "name": "",
     "notes": [
@@ -4163,6 +4264,7 @@
       "m",
       "m"
     ],
+    "index": 112,
     "input": "f,f,F+3,4",
     "name": "Waxing Crescent",
     "notes": [
@@ -4201,6 +4303,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 113,
     "input": "ub,b",
     "name": "Back Handspring > Hitman",
     "notes": [
@@ -4238,6 +4341,7 @@
     "hitLevels": [
       "s"
     ],
+    "index": 114,
     "input": "FC.1",
     "name": "",
     "notes": [
@@ -4275,6 +4379,7 @@
     "hitLevels": [
       "s"
     ],
+    "index": 115,
     "input": "FC.2",
     "name": "",
     "notes": [
@@ -4312,6 +4417,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 116,
     "input": "FC.3",
     "name": "",
     "notes": [],
@@ -4347,6 +4453,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 117,
     "input": "FC.4",
     "name": "",
     "notes": [
@@ -4386,6 +4493,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 118,
     "input": "FC.df+4",
     "name": "Silver Tail",
     "notes": [
@@ -4427,6 +4535,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 119,
     "input": "FC.UF+4",
     "name": "Catapult Kick",
     "notes": [
@@ -4469,6 +4578,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 120,
     "input": "FC.UF+3+4",
     "name": "Catapult Drop",
     "notes": [
@@ -4505,6 +4615,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 121,
     "input": "FC.df,d,DF",
     "name": "Slide Step",
     "notes": [],
@@ -4543,6 +4654,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 122,
     "input": "FC.df,d,DF+3",
     "name": "Friction Spear",
     "notes": [
@@ -4580,6 +4692,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 124,
     "input": "ws1",
     "name": "",
     "notes": [
@@ -4619,6 +4732,7 @@
       "m",
       "h"
     ],
+    "index": 125,
     "input": "ws1,2",
     "name": "Wonderful Spin Blow",
     "notes": [
@@ -4658,6 +4772,7 @@
       "m",
       "h"
     ],
+    "index": 126,
     "input": "ws1,4",
     "name": "Wonderful Combo",
     "notes": [
@@ -4695,6 +4810,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 127,
     "input": "ws2",
     "name": "",
     "notes": [],
@@ -4735,6 +4851,7 @@
       "m",
       "m"
     ],
+    "index": 128,
     "input": "ws2,3",
     "name": "Rocket Heel",
     "notes": [
@@ -4780,6 +4897,7 @@
       "m",
       "h"
     ],
+    "index": 129,
     "input": "ws2,4",
     "name": "Twister Heel",
     "notes": [
@@ -4820,6 +4938,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 130,
     "input": "ws3",
     "name": "",
     "notes": [],
@@ -4859,6 +4978,7 @@
       "m",
       "m"
     ],
+    "index": 131,
     "input": "ws3,3",
     "name": "",
     "notes": [
@@ -4901,6 +5021,7 @@
       "m",
       "l"
     ],
+    "index": 132,
     "input": "ws3,3,D+3",
     "name": "",
     "notes": [
@@ -4944,6 +5065,7 @@
       "l",
       "h"
     ],
+    "index": 133,
     "input": "ws3,3,D+3,3...",
     "name": "Infinite Kick Chain: Low",
     "notes": [
@@ -4987,6 +5109,7 @@
       "m",
       "m"
     ],
+    "index": 134,
     "input": "ws3,3,DF+3",
     "name": "",
     "notes": [
@@ -5030,6 +5153,7 @@
       "m",
       "h"
     ],
+    "index": 135,
     "input": "ws3,3,DF+3,3...",
     "name": "Infinite Kick Chain: Middle",
     "notes": [
@@ -5069,6 +5193,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 136,
     "input": "ws4",
     "name": "Toe Smash",
     "notes": [
@@ -5106,6 +5231,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 138,
     "input": "HMS.1",
     "name": "Freaker Jab",
     "notes": [
@@ -5146,6 +5272,7 @@
       "h",
       "h"
     ],
+    "index": 139,
     "input": "HMS.1,1",
     "name": "",
     "notes": [
@@ -5191,6 +5318,7 @@
       "h",
       "h"
     ],
+    "index": 140,
     "input": "HMS.1,1,1",
     "name": "Amazing Swipe",
     "notes": [
@@ -5234,6 +5362,7 @@
       "h",
       "m"
     ],
+    "index": 141,
     "input": "HMS.1,4",
     "name": "Excellent Combo",
     "notes": [
@@ -5274,6 +5403,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 142,
     "input": "HMS.2",
     "name": "Scatter Blow",
     "notes": [],
@@ -5315,6 +5445,7 @@
       "h",
       "t"
     ],
+    "index": 143,
     "input": "HMS.3",
     "name": "Scatter Kick",
     "notes": [
@@ -5361,6 +5492,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 144,
     "input": "HMS.4",
     "name": "Shin Slicer",
     "notes": [
@@ -5403,6 +5535,7 @@
       "m",
       "m"
     ],
+    "index": 145,
     "input": "HMS.1+2",
     "name": "Poison Touch",
     "notes": [
@@ -5447,6 +5580,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 147,
     "input": "HMS.u+4",
     "name": "Silver Circle",
     "notes": [],
@@ -5478,6 +5612,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 148,
     "input": "f,n",
     "name": "Mist Step",
     "notes": [
@@ -5516,6 +5651,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 149,
     "input": "MS.3",
     "name": "",
     "notes": [],
@@ -5556,6 +5692,7 @@
       "m",
       "m"
     ],
+    "index": 150,
     "input": "MS.3,4",
     "name": "Inverted Axle",
     "notes": [],
@@ -5595,6 +5732,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 151,
     "input": "MS.3+4",
     "name": "Friction Spear",
     "notes": [],
@@ -5626,6 +5764,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 152,
     "input": "b,n",
     "name": "Sway",
     "notes": [],
@@ -5661,6 +5800,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 153,
     "input": "b,n,4",
     "name": "Axe Sweep",
     "notes": [],
@@ -5699,6 +5839,7 @@
       "m",
       "t"
     ],
+    "index": 154,
     "input": "R.df+1+2",
     "name": "The Marvelous Rose",
     "notes": [
@@ -5740,6 +5881,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 155,
     "input": "1+2+3+4",
     "name": "Ki Charge",
     "notes": [],
@@ -5778,6 +5920,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 156,
     "input": "1+3",
     "name": "Forearm Drop",
     "notes": [],
@@ -5816,6 +5959,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 157,
     "input": "2+4",
     "name": "Axle Throw",
     "notes": [
@@ -5857,6 +6001,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 158,
     "input": "LeftThrow",
     "name": "Lee Harassment",
     "notes": [],
@@ -5895,6 +6040,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 159,
     "input": "RightThrow",
     "name": "Lee Stunner",
     "notes": [],
@@ -5935,6 +6081,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 160,
     "input": "BackThrow",
     "name": "Face Crusher",
     "notes": [],
@@ -5973,6 +6120,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 161,
     "input": "uf+1+2",
     "name": "Knee Drive",
     "notes": [

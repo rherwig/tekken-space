@@ -29,6 +29,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 0,
     "input": "2+3",
     "name": "Heat Burst",
     "notes": [
@@ -76,6 +77,7 @@
       "m",
       "t"
     ],
+    "index": 1,
     "input": "H.2+3",
     "name": "Ultimo Jaguar",
     "notes": [
@@ -123,6 +125,7 @@
       "m",
       "h"
     ],
+    "index": 2,
     "input": "f+2,1",
     "name": "Elbow Impact",
     "notes": [
@@ -168,6 +171,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 3,
     "input": "f+2+3",
     "name": "Shoulder Tackle",
     "notes": [
@@ -213,6 +217,7 @@
       "m",
       "t"
     ],
+    "index": 4,
     "input": "db+1+2,2",
     "name": "Muscle Armor > Emerald Elbow",
     "notes": [
@@ -258,6 +263,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 5,
     "input": "JGR.1+3_2+4",
     "name": "Rapid King Onslaught",
     "notes": [
@@ -303,6 +309,7 @@
     "hitLevels": [
       "t(c)"
     ],
+    "index": 6,
     "input": "d+1+4",
     "name": "Freedom Face Buster (Pedigree)",
     "notes": [
@@ -345,6 +352,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 7,
     "input": "1",
     "name": "Jab",
     "notes": [],
@@ -383,6 +391,7 @@
       "h",
       "h"
     ],
+    "index": 8,
     "input": "1,2",
     "name": "Palm Strike",
     "notes": [
@@ -427,6 +436,7 @@
       "h",
       "t"
     ],
+    "index": 9,
     "input": "1,2,2+4",
     "name": "Palm Strike > Head Jammer",
     "notes": [
@@ -470,6 +480,7 @@
       "h",
       "t(c)"
     ],
+    "index": 10,
     "input": "1,2,d+2+4",
     "name": "Palm Strike > V Driver",
     "notes": [
@@ -519,6 +530,7 @@
       "h",
       "m"
     ],
+    "index": 11,
     "input": "1,2,1",
     "name": "Palm Strike Uppercut",
     "notes": [
@@ -567,6 +579,7 @@
       "m",
       "t"
     ],
+    "index": 12,
     "input": "1,2,1,2+4",
     "name": "Palm Strike Uppercut > Suplex",
     "notes": [
@@ -613,6 +626,7 @@
       "m",
       "t(c)"
     ],
+    "index": 13,
     "input": "1,2,1,d+2+4",
     "name": "Palm Strike Uppercut > V Driver",
     "notes": [
@@ -653,6 +667,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 14,
     "input": "2",
     "name": "Right Jab",
     "notes": [],
@@ -691,6 +706,7 @@
       "h",
       "m"
     ],
+    "index": 15,
     "input": "2,1",
     "name": "Right Jab > Uppercut",
     "notes": [
@@ -731,6 +747,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 16,
     "input": "3",
     "name": "Left Kick",
     "notes": [
@@ -772,6 +789,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 17,
     "input": "4",
     "name": "Right Kick",
     "notes": [
@@ -813,6 +831,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 18,
     "input": "1+2",
     "name": "",
     "notes": [
@@ -856,6 +875,7 @@
       "m",
       "m"
     ],
+    "index": 19,
     "input": "1+2,1",
     "name": "Head Spinner",
     "notes": [
@@ -902,6 +922,7 @@
       "m",
       "h"
     ],
+    "index": 20,
     "input": "1+2,3",
     "name": "Brutal Sting",
     "notes": [
@@ -945,6 +966,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 21,
     "input": "f+2",
     "name": "",
     "notes": [
@@ -988,6 +1010,7 @@
       "m",
       "m"
     ],
+    "index": 23,
     "input": "f+2,d+1",
     "name": "",
     "notes": [
@@ -1036,6 +1059,7 @@
       "m",
       "m"
     ],
+    "index": 24,
     "input": "f+2,d+1,2",
     "name": "Jaguar Smash Combo",
     "notes": [
@@ -1077,6 +1101,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 25,
     "input": "f+3",
     "name": "Front Kick",
     "notes": [
@@ -1118,6 +1143,7 @@
       "m",
       "t"
     ],
+    "index": 26,
     "input": "f+3:1+2",
     "name": "Front Kick > DDT",
     "notes": [
@@ -1160,6 +1186,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 27,
     "input": "f+4",
     "name": "Rolling Sobat",
     "notes": [],
@@ -1201,6 +1228,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 28,
     "input": "f+1+2",
     "name": "Shadow Lariat",
     "notes": [],
@@ -1239,6 +1267,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 29,
     "input": "f+1+4",
     "name": "Body Check",
     "notes": [
@@ -1279,6 +1308,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 31,
     "input": "df+1",
     "name": "",
     "notes": [
@@ -1321,6 +1351,7 @@
       "m",
       "m"
     ],
+    "index": 32,
     "input": "df+1,2",
     "name": "Elbow Sting",
     "notes": [
@@ -1360,6 +1391,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 33,
     "input": "df+2",
     "name": "",
     "notes": [
@@ -1402,6 +1434,7 @@
       "m",
       "h"
     ],
+    "index": 34,
     "input": "df+2,1",
     "name": "Double Hook Disaster",
     "notes": [
@@ -1443,6 +1476,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 35,
     "input": "df+3",
     "name": "",
     "notes": [
@@ -1485,6 +1519,7 @@
       "m",
       "h"
     ],
+    "index": 36,
     "input": "df+3,4",
     "name": "Lasso Kick",
     "notes": [
@@ -1525,6 +1560,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 37,
     "input": "df+4",
     "name": "",
     "notes": [
@@ -1564,6 +1600,7 @@
       "l",
       "h"
     ],
+    "index": 38,
     "input": "df+4,3",
     "name": "",
     "notes": [
@@ -1611,6 +1648,7 @@
       "h",
       "m"
     ],
+    "index": 39,
     "input": "df+4,3,4",
     "name": "Mincer",
     "notes": [
@@ -1662,6 +1700,7 @@
       "h",
       "l"
     ],
+    "index": 40,
     "input": "df+4,3,d+4",
     "name": "Mincer Low",
     "notes": [
@@ -1705,6 +1744,7 @@
     "hitLevels": [
       "t/s"
     ],
+    "index": 41,
     "input": "df+3+4",
     "name": "Frankensteiner",
     "notes": [
@@ -1744,6 +1784,7 @@
     "hitLevels": [
       "s.l"
     ],
+    "index": 42,
     "input": "d+1",
     "name": "",
     "notes": [
@@ -1786,6 +1827,7 @@
       "s.l",
       "m"
     ],
+    "index": 43,
     "input": "d+1,2",
     "name": "Jab > Uppercut",
     "notes": [
@@ -1827,6 +1869,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 44,
     "input": "d+1+2",
     "name": "Atlas Hammer",
     "notes": [
@@ -1866,6 +1909,7 @@
     "hitLevels": [
       "s.l"
     ],
+    "index": 45,
     "input": "d+2",
     "name": "",
     "notes": [
@@ -1903,6 +1947,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 46,
     "input": "d+3",
     "name": "Stomp",
     "notes": [
@@ -1940,6 +1985,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 47,
     "input": "d+4",
     "name": "",
     "notes": [
@@ -1977,6 +2023,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 48,
     "input": "d+3+4",
     "name": "",
     "notes": [
@@ -2016,6 +2063,7 @@
       "l",
       "l"
     ],
+    "index": 49,
     "input": "d+3+4,4",
     "name": "",
     "notes": [
@@ -2057,6 +2105,7 @@
       "l",
       "l"
     ],
+    "index": 50,
     "input": "d+3+4,4,4",
     "name": "Stagger Kicks",
     "notes": [
@@ -2103,6 +2152,7 @@
       "l",
       "m"
     ],
+    "index": 51,
     "input": "d+3+4,4,4,2",
     "name": "Stagger Kick Spinning Uppercut",
     "notes": [
@@ -2151,6 +2201,7 @@
       "l",
       "l"
     ],
+    "index": 52,
     "input": "d+3+4,4,4,4",
     "name": "Stagger Kick Flurry",
     "notes": [
@@ -2193,6 +2244,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 53,
     "input": "d+2+3",
     "name": "Corporate Elbow",
     "notes": [
@@ -2238,6 +2290,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 54,
     "input": "db+2",
     "name": "Brain Chop",
     "notes": [
@@ -2279,6 +2332,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 55,
     "input": "db+3",
     "name": "Crouching Low Kick",
     "notes": [
@@ -2321,6 +2375,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 56,
     "input": "db+4",
     "name": "Low Drop Kick",
     "notes": [
@@ -2357,6 +2412,7 @@
       "upper": ""
     },
     "hitLevels": [],
+    "index": 57,
     "input": "db+1+2",
     "name": "Muscle Armor",
     "notes": [
@@ -2393,6 +2449,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 59,
     "input": "db+1+2,3+4",
     "name": "Muscle Armor > Jaguar Sprint",
     "notes": [
@@ -2435,6 +2492,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 60,
     "input": "b+1",
     "name": "Quick Hook",
     "notes": [],
@@ -2475,6 +2533,7 @@
       "h",
       "h"
     ],
+    "index": 61,
     "input": "b+1,2",
     "name": "Quick Hook > Uppercut",
     "notes": [
@@ -2519,6 +2578,7 @@
       "h",
       "m"
     ],
+    "index": 62,
     "input": "b+1,4",
     "name": "Quick Hook > Heel Kick",
     "notes": [
@@ -2557,6 +2617,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 63,
     "input": "b+2",
     "name": "Chupacabra",
     "notes": [],
@@ -2598,6 +2659,7 @@
       "h",
       "h"
     ],
+    "index": 64,
     "input": "b+2,1",
     "name": "Chupacabra > Spinning Back Elbow",
     "notes": [
@@ -2643,6 +2705,7 @@
       "m",
       "t"
     ],
+    "index": 65,
     "input": "b+2,4",
     "name": "Chupacabra > Olympia Slam",
     "notes": [
@@ -2687,6 +2750,7 @@
       "h",
       "h"
     ],
+    "index": 66,
     "input": "b+2,1+2",
     "name": "Chupacabra > Head Butt",
     "notes": [
@@ -2727,6 +2791,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 67,
     "input": "b+3",
     "name": "Toll Kick",
     "notes": [
@@ -2770,6 +2835,7 @@
       "h",
       "t"
     ],
+    "index": 68,
     "input": "b+3:1+2",
     "name": "Guillotine Drop",
     "notes": [
@@ -2811,6 +2877,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 69,
     "input": "b+4",
     "name": "Disgraceful Kick",
     "notes": [
@@ -2855,6 +2922,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 70,
     "input": "u+1+2",
     "name": "Capital Punishment",
     "notes": [
@@ -2896,6 +2964,7 @@
     "hitLevels": [
       "m!"
     ],
+    "index": 71,
     "input": "u+1+2*",
     "name": "Burning Knuckle",
     "notes": [
@@ -2939,6 +3008,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 72,
     "input": "uf+1",
     "name": "Water Parting Chop",
     "notes": [
@@ -2984,6 +3054,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 73,
     "input": "uf+2",
     "name": "High Elbow Drop",
     "notes": [
@@ -3026,6 +3097,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 74,
     "input": "uf+3",
     "name": "Falling Heel Kick",
     "notes": [
@@ -3066,6 +3138,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 75,
     "input": "uf+4",
     "name": "Jumping Knee Lift",
     "notes": [
@@ -3107,6 +3180,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 76,
     "input": "uf,n,4",
     "name": "Delayed Rising Toe Kick",
     "notes": [],
@@ -3148,6 +3222,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 77,
     "input": "ub+4",
     "name": "",
     "notes": [
@@ -3188,6 +3263,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 78,
     "input": "uf+3+4",
     "name": "Sole Crusher",
     "notes": [
@@ -3232,6 +3308,7 @@
       "l/(l",
       "t)"
     ],
+    "index": 79,
     "input": "f,f,n,2",
     "name": "Stomach Smash / Jaguar Hammer",
     "notes": [
@@ -3274,6 +3351,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 80,
     "input": "f,f,n,1+2",
     "name": "Lay Off",
     "notes": [
@@ -3317,6 +3395,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 81,
     "input": "f,F,1",
     "name": "Jaguar Hook",
     "notes": [],
@@ -3358,6 +3437,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 82,
     "input": "f,F,2",
     "name": "Beast Elbow",
     "notes": [
@@ -3403,6 +3483,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 83,
     "input": "f,F,4",
     "name": "Konvict Kick",
     "notes": [
@@ -3449,6 +3530,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 84,
     "input": "f,F,3+4",
     "name": "Exploder",
     "notes": [
@@ -3501,6 +3583,7 @@
       "m",
       "t"
     ],
+    "index": 85,
     "input": "f,F,2+3",
     "name": "Diving Body Press",
     "notes": [
@@ -3541,6 +3624,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 86,
     "input": "f,f,F,3",
     "name": "Strong Knee",
     "notes": [
@@ -3584,6 +3668,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 87,
     "input": "f,f,F,3+4",
     "name": "Running Exploder",
     "notes": [],
@@ -3625,6 +3710,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 88,
     "input": "FC.df+1",
     "name": "Leg Breaker",
     "notes": [
@@ -3665,6 +3751,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 89,
     "input": "FC.df+2",
     "name": "Body Blow",
     "notes": [
@@ -3702,6 +3789,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 90,
     "input": "FC.d+3",
     "name": "",
     "notes": [
@@ -3744,6 +3832,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 91,
     "input": "ws1",
     "name": "",
     "notes": [
@@ -3784,6 +3873,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 92,
     "input": "ws2",
     "name": "",
     "notes": [
@@ -3828,6 +3918,7 @@
       "m",
       "m"
     ],
+    "index": 93,
     "input": "ws2,2",
     "name": "Round Trip Chop",
     "notes": [
@@ -3870,6 +3961,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 94,
     "input": "ws3",
     "name": "",
     "notes": [],
@@ -3906,6 +3998,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 95,
     "input": "ws4",
     "name": "Toe Smash",
     "notes": [],
@@ -3945,6 +4038,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 96,
     "input": "ws1+2",
     "name": "Snap Uppercut",
     "notes": [],
@@ -3985,6 +4079,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 97,
     "input": "BT.3",
     "name": "Blind Kick",
     "notes": [
@@ -4029,6 +4124,7 @@
       "m",
       "t"
     ],
+    "index": 98,
     "input": "BT.3:1+2",
     "name": "Blind Kick > Neck Breaker",
     "notes": [
@@ -4072,6 +4168,7 @@
     "hitLevels": [
       "h!"
     ],
+    "index": 99,
     "input": "BT.1+2",
     "name": "Atomic Blaster",
     "notes": [
@@ -4112,6 +4209,7 @@
     "hitLevels": [
       "m!"
     ],
+    "index": 100,
     "input": "BT.1+4",
     "name": "Moonsault Body Press",
     "notes": [
@@ -4154,6 +4252,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 101,
     "input": "BT.d+4",
     "name": "Low Drop Kick (BT)",
     "notes": [
@@ -4188,6 +4287,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 102,
     "input": "BT.3+4",
     "name": "Jaguar Step (BT)",
     "notes": [
@@ -4224,6 +4324,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 103,
     "input": "3+4",
     "name": "Jaguar Step",
     "notes": [
@@ -4258,6 +4359,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 104,
     "input": "b+3+4",
     "name": "Reverse Jaguar Step",
     "notes": [
@@ -4298,6 +4400,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 105,
     "input": "JGS.1",
     "name": "Jaguar Step > Hook",
     "notes": [
@@ -4340,6 +4443,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 106,
     "input": "JGS.2",
     "name": "Jaguar Step > Hammer",
     "notes": [
@@ -4383,6 +4487,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 107,
     "input": "JGS.3",
     "name": "Jaguar Step > Sobat",
     "notes": [
@@ -4436,6 +4541,7 @@
       "m",
       "t"
     ],
+    "index": 108,
     "input": "JGS.3,2+3",
     "name": "Jaguar Step > Sobat & Press",
     "notes": [
@@ -4479,6 +4585,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 109,
     "input": "JGS.4",
     "name": "Jaguar Step > High Kick",
     "notes": [
@@ -4525,6 +4632,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 110,
     "input": "JGS.df+4",
     "name": "Jaguar Step > Mid Kick",
     "notes": [
@@ -4561,6 +4669,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 111,
     "input": "f+3+4",
     "name": "Jaguar Sprint",
     "notes": [
@@ -4604,6 +4713,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 112,
     "input": "JGR.1",
     "name": "Running Elbow Smash",
     "notes": [
@@ -4645,6 +4755,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 113,
     "input": "JGR.2",
     "name": "Jaguar Axe",
     "notes": [
@@ -4688,6 +4799,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 114,
     "input": "JGR.3",
     "name": "Sprint K.",
     "notes": [],
@@ -4729,6 +4841,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 115,
     "input": "JGR.4",
     "name": "Dashing Low Drop Kick",
     "notes": [],
@@ -4775,6 +4888,7 @@
       "M",
       "t"
     ],
+    "index": 116,
     "input": "JGR.2+3",
     "name": "Diving Body Press",
     "notes": [
@@ -4809,6 +4923,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 118,
     "input": "f,n,d,df",
     "name": "Beast Step",
     "notes": [
@@ -4854,6 +4969,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 120,
     "input": "CD.4",
     "name": "Knee Lift",
     "notes": [
@@ -4899,6 +5015,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 121,
     "input": "CD.1+2",
     "name": "Black Bomb",
     "notes": [
@@ -4942,6 +5059,7 @@
       "m",
       "t"
     ],
+    "index": 122,
     "input": "R.df+1+2",
     "name": "Anger Of The Beast",
     "notes": [
@@ -4983,6 +5101,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 123,
     "input": "1+2+3+4",
     "name": "Ki Charge",
     "notes": [
@@ -5022,6 +5141,7 @@
     "hitLevels": [
       "t/m"
     ],
+    "index": 124,
     "input": "WallBack.b,b,ub",
     "name": "Wall Jumping Attack",
     "notes": [
@@ -5064,6 +5184,7 @@
     "hitLevels": [
       "r(l)"
     ],
+    "index": 125,
     "input": "DF",
     "name": "Low Parry",
     "notes": [
@@ -5104,6 +5225,7 @@
     "hitLevels": [
       "r(m)"
     ],
+    "index": 126,
     "input": "b+1+3",
     "name": "Arm Whip",
     "notes": [
@@ -5146,6 +5268,7 @@
     "hitLevels": [
       "r(m)"
     ],
+    "index": 127,
     "input": "b+2+4",
     "name": "Spinning Heel Hold",
     "notes": [
@@ -5187,6 +5310,7 @@
     "hitLevels": [
       "r(m)"
     ],
+    "index": 128,
     "input": "b+2+4:3+4",
     "name": "Leg Screw > Figure Four Leg Lock",
     "notes": [
@@ -5231,6 +5355,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 129,
     "input": "ss2",
     "name": "Victory Palm",
     "notes": [],
@@ -5271,6 +5396,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 130,
     "input": "ss3+4",
     "name": "Deadly Boomerang",
     "notes": [
@@ -5306,6 +5432,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 131,
     "input": "ss2+4,b/db",
     "name": "Reverse Special Stretch Bomb (Cancel)",
     "notes": [
@@ -5348,6 +5475,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 132,
     "input": "FUFT.b+3+4",
     "name": "Whirling Spring Kick",
     "notes": [
@@ -5390,6 +5518,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 133,
     "input": "1+3/f+1+3",
     "name": "Winding Nut",
     "notes": [
@@ -5435,6 +5564,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 134,
     "input": "2+4/f+2+4",
     "name": "Suplex",
     "notes": [
@@ -5479,6 +5609,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 135,
     "input": "uf+1+2/uf+1+2,B",
     "name": "Executioner Drop",
     "notes": [
@@ -5521,6 +5652,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 136,
     "input": "(Leftsidethrow)",
     "name": "Argentina Backbreaker",
     "notes": [
@@ -5562,6 +5694,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 137,
     "input": "(Rightsidethrow)",
     "name": "Knee Crusher",
     "notes": [
@@ -5603,6 +5736,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 138,
     "input": "(Behind1throw)",
     "name": "Half Boston Crab",
     "notes": [
@@ -5644,6 +5778,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 139,
     "input": "(Behind2throw)",
     "name": "Cobra Twist",
     "notes": [
@@ -5685,6 +5820,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 140,
     "input": "df+2+3",
     "name": "Knee Bash",
     "notes": [
@@ -5725,6 +5861,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 141,
     "input": "db+2+3",
     "name": "Figure Four Leg Lock",
     "notes": [
@@ -5767,6 +5904,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 142,
     "input": "b+1+2(,f,F)",
     "name": "Throw Away",
     "notes": [
@@ -5811,6 +5949,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 143,
     "input": "b+1+2,1+2(,f,F)",
     "name": "Throw Away > Back Swing",
     "notes": [
@@ -5852,6 +5991,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 144,
     "input": "db,n,f+2+4",
     "name": "Tombstone Pile Driver",
     "notes": [
@@ -5894,6 +6034,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 145,
     "input": "qcb+1+2",
     "name": "Muscle Buster",
     "notes": [
@@ -5938,6 +6079,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 146,
     "input": "f,f,F+2+4",
     "name": "Tomahawk",
     "notes": [
@@ -5982,6 +6124,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 147,
     "input": "f,hcf+1",
     "name": "Giant Swing",
     "notes": [
@@ -6026,6 +6169,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 148,
     "input": "f,hcf+2",
     "name": "Tijuana Twister",
     "notes": [
@@ -6069,6 +6213,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 149,
     "input": "qcf+1",
     "name": "Pile Driver (PD)",
     "notes": [
@@ -6109,6 +6254,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 150,
     "input": "PD.1+2,1+2",
     "name": "Double Arm Face Buster (from PD)",
     "notes": [
@@ -6151,6 +6297,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 151,
     "input": "PD.1+2,3,4,1+2",
     "name": "Boston Crab (from PD)",
     "notes": [
@@ -6192,6 +6339,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 152,
     "input": "FC.db,d,db+1+2",
     "name": "Clothesline Press (Rock Bottom)",
     "notes": [
@@ -6234,6 +6382,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 153,
     "input": "Behind.b,f+1+2",
     "name": "Stretch Buster",
     "notes": [
@@ -6276,6 +6425,7 @@
     "hitLevels": [
       "t(s)"
     ],
+    "index": 154,
     "input": "FC.1+2",
     "name": "Ultimate Tackle (UT)",
     "notes": [
@@ -6319,6 +6469,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 155,
     "input": "UT,2,1,2,1",
     "name": "Ultimate Punch",
     "notes": [
@@ -6359,6 +6510,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 156,
     "input": "UT,1+2",
     "name": "Armbar",
     "notes": [
@@ -6402,6 +6554,7 @@
       "t",
       "t"
     ],
+    "index": 157,
     "input": "UT,1+2,1+2",
     "name": "Arm Twist",
     "notes": [
@@ -6442,6 +6595,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 158,
     "input": "UT,3+4",
     "name": "Leg Cross Hold",
     "notes": [
@@ -6485,6 +6639,7 @@
       "t",
       "t"
     ],
+    "index": 159,
     "input": "UT,3+4:1+2",
     "name": "Stretch Combo",
     "notes": [
@@ -6527,6 +6682,7 @@
     "hitLevels": [
       "t(c)"
     ],
+    "index": 160,
     "input": "d+1+3",
     "name": "Iron Lariat",
     "notes": [
@@ -6571,6 +6727,7 @@
     "hitLevels": [
       "t(c)"
     ],
+    "index": 161,
     "input": "d+2+4",
     "name": "V Driver",
     "notes": [
@@ -6617,6 +6774,7 @@
     "hitLevels": [
       "t(g)"
     ],
+    "index": 163,
     "input": "FUFT.db+1+3_2+4",
     "name": "Swing Away",
     "notes": [
@@ -6659,6 +6817,7 @@
     "hitLevels": [
       "t(g)"
     ],
+    "index": 164,
     "input": "FUFT.DB+1+3",
     "name": "Head Bomber",
     "notes": [
@@ -6702,6 +6861,7 @@
     "hitLevels": [
       "t(g)"
     ],
+    "index": 165,
     "input": "FUFT.DB+2+4",
     "name": "Figure Four Leg Lock (OTG)",
     "notes": [
@@ -6743,6 +6903,7 @@
     "hitLevels": [
       "t(g)"
     ],
+    "index": 166,
     "input": "FDFT.db+1+3_2+4",
     "name": "Half Boston Crab (OTG)",
     "notes": [
@@ -6785,6 +6946,7 @@
     "hitLevels": [
       "t(g)"
     ],
+    "index": 167,
     "input": "FUFA.db+1+3_2+4",
     "name": "Shoulder Cracker",
     "notes": [
@@ -6826,6 +6988,7 @@
     "hitLevels": [
       "t(g)"
     ],
+    "index": 168,
     "input": "FDFA.db+1+3_2+4",
     "name": "Wing Tearer",
     "notes": [
@@ -6867,6 +7030,7 @@
     "hitLevels": [
       "t(g)"
     ],
+    "index": 169,
     "input": "FUFL.db+1+3_2+4/FUFR.db+1+3_2+4",
     "name": "Turn Over",
     "notes": [
@@ -6908,6 +7072,7 @@
     "hitLevels": [
       "t(g)"
     ],
+    "index": 170,
     "input": "FDFR.db+1+3_2+4",
     "name": "Camel Clutch",
     "notes": [
@@ -6950,6 +7115,7 @@
     "hitLevels": [
       "t(g)"
     ],
+    "index": 171,
     "input": "FDFL.db+1+3_2+4",
     "name": "Bow & Arrow Stretch Hold",
     "notes": [
@@ -6991,6 +7157,7 @@
     "hitLevels": [
       "t(a)"
     ],
+    "index": 172,
     "input": "AIR.1+3/AIR.f+1+3",
     "name": "Mid-Air Leg Cross Hold",
     "notes": [
@@ -7036,6 +7203,7 @@
     "hitLevels": [
       "t(a)"
     ],
+    "index": 173,
     "input": "AIR.2+4/AIR.f+2+4",
     "name": "Spine Cracker",
     "notes": [
@@ -7081,6 +7249,7 @@
     "hitLevels": [
       "t(a)"
     ],
+    "index": 174,
     "input": "AIR.d+1+3_2+4",
     "name": "Double Heel Hold (DHH)",
     "notes": [
@@ -7121,6 +7290,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 175,
     "input": "DHH.1+2,1+2",
     "name": "Flapjack (From DHH)",
     "notes": [
@@ -7163,6 +7333,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 176,
     "input": "DHH.2,1,3,4",
     "name": "Giant Swing (From DHH)",
     "notes": [
@@ -7204,6 +7375,7 @@
     "hitLevels": [
       "t(a)"
     ],
+    "index": 177,
     "input": "AIR.f,f,F+2+4",
     "name": "Running Jaguar Bomb",
     "notes": [
@@ -7249,6 +7421,7 @@
     "hitLevels": [
       "t(a)"
     ],
+    "index": 178,
     "input": "AIR.f,hcf+1_2",
     "name": "Aerial Jaguar Bomb",
     "notes": [
@@ -7294,6 +7467,7 @@
     "hitLevels": [
       "t(w)"
     ],
+    "index": 179,
     "input": "WALL.f,hcf+1/WALL.f,f,F+2+4",
     "name": "Shining Torpedo",
     "notes": [
@@ -7336,6 +7510,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 180,
     "input": "df+1+3",
     "name": "Reverse Arm Slam (RAS1)",
     "notes": [
@@ -7379,6 +7554,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 181,
     "input": "RAS1.1_2",
     "name": "Backdrop (RAS2)",
     "notes": [
@@ -7420,6 +7596,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 182,
     "input": "RAS2.1_2",
     "name": "German Suplex (RAS3)",
     "notes": [
@@ -7461,6 +7638,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 183,
     "input": "RAS3.1_2",
     "name": "Power Bomb (RAS4)",
     "notes": [
@@ -7502,6 +7680,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 184,
     "input": "RAS4.1",
     "name": "Giant Swing (RAS5a)",
     "notes": [
@@ -7544,6 +7723,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 185,
     "input": "RAS4.2",
     "name": "Muscle Buster (RAS5b)",
     "notes": [
@@ -7586,6 +7766,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 186,
     "input": "df+2+4",
     "name": "Reverse Special Stretch Bomb (RSSB1)",
     "notes": [
@@ -7629,6 +7810,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 187,
     "input": "ss2+4",
     "name": "Side Step to RSSB2 / RSSB1",
     "notes": [
@@ -7673,6 +7855,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 188,
     "input": "RSSB1.1_2",
     "name": "Cannonball Buster (RSSB2)",
     "notes": [
@@ -7714,6 +7897,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 189,
     "input": "RSSB2.1_2",
     "name": "Manhattan Drop (RSSB3)",
     "notes": [
@@ -7755,6 +7939,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 190,
     "input": "RSSB3.1_2",
     "name": "Victory Bomb (RSSB4)",
     "notes": [
@@ -7796,6 +7981,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 191,
     "input": "RSSB4.1",
     "name": "Giant Swing (RSSB5a)",
     "notes": [
@@ -7837,6 +8023,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 192,
     "input": "RSSB4.2",
     "name": "Muscle Buster (RSSB5b)",
     "notes": [
@@ -7879,6 +8066,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 193,
     "input": "CD.2+3",
     "name": "Standing Heel Hold (SHH1)",
     "notes": [
@@ -7919,6 +8107,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 194,
     "input": "SHH1.1,2,1+2",
     "name": "S.T.F. (SHH2a)",
     "notes": [
@@ -7960,6 +8149,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 195,
     "input": "SHH1.2,1,1+3",
     "name": "Scorpion Death Lock (SHH2b)",
     "notes": [
@@ -8001,6 +8191,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 196,
     "input": "SHH1.1+2,1,3",
     "name": "Indian Death Lock (SHH2c)",
     "notes": [
@@ -8042,6 +8233,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 197,
     "input": "SHH2c.3,4,1+2,3+4",
     "name": "King's Bridge (SHH3ca)",
     "notes": [
@@ -8082,6 +8274,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 198,
     "input": "CD.1+4",
     "name": "Arm Breaker (AB1)",
     "notes": [
@@ -8123,6 +8316,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 199,
     "input": "AB1.1,1+2",
     "name": "Triple Arm Breaker (AB2a)",
     "notes": [
@@ -8163,6 +8357,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 200,
     "input": "AB1.2,4,2+4",
     "name": "Head Jammer (AB2b)",
     "notes": [
@@ -8203,6 +8398,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 201,
     "input": "AB2b.3,4,3+4,1+2",
     "name": "Struggle Combination (AB2b1)",
     "notes": [
@@ -8243,6 +8439,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 202,
     "input": "AB1.2,1,1+3",
     "name": "Chicken Wing Face Lock (AB2c)",
     "notes": [
@@ -8283,6 +8480,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 203,
     "input": "AB2c.2,1,3,1+2",
     "name": "Dragon Sleeper Finish (AB3ca)",
     "notes": [
@@ -8323,6 +8521,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 204,
     "input": "AB2c.1,3,4,2,1+2",
     "name": "Rolling Death Cradle (AB3cb)",
     "notes": [
@@ -8363,6 +8562,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 205,
     "input": "JGS.1+4_2+3",
     "name": "Cobra Clutch (MMD1)",
     "notes": [
@@ -8406,6 +8606,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 206,
     "input": "MMD1.1,4,2,3",
     "name": "Cobra Twist (MMD2)",
     "notes": [
@@ -8446,6 +8647,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 207,
     "input": "MMD2.1,1+3/MMD2.2,2+4",
     "name": "Reverse DDT (MMD3)",
     "notes": [
@@ -8486,6 +8688,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 208,
     "input": "MMD3.1+2,1,1+3/MMD3.1+2,2,2+4",
     "name": "Reverse Special Stretch Bomb (MMD4)",
     "notes": [
@@ -8526,6 +8729,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 209,
     "input": "MMD3.2,3,1,1+2",
     "name": "Samurai Rock (MMD4a)",
     "notes": [
@@ -8566,6 +8770,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 210,
     "input": "MMD4.3+4,1+2",
     "name": "Backdrop (MMD5)",
     "notes": [
@@ -8607,6 +8812,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 211,
     "input": "MMD5.1+2,4,2,1+2",
     "name": "Sol Naciente (MMD6a)",
     "notes": [
@@ -8647,6 +8853,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 212,
     "input": "MMD5.1+2,3,1+3/MMD5.1+2,4,2+4",
     "name": "Burning Hammer (MMD6)",
     "notes": [
@@ -8687,6 +8894,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 213,
     "input": "MMD6.2,4,1,1+3/MMD6.2,4,1,2+4",
     "name": "Screwdriver (MMD7)",
     "notes": [

@@ -29,6 +29,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 0,
     "input": "2+3",
     "name": "Heat Burst",
     "notes": [
@@ -75,6 +76,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 1,
     "input": "H.2+3",
     "name": "Quick-fix Protocol",
     "notes": [
@@ -112,6 +114,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 2,
     "input": "H.f+1+4",
     "name": "Emergency Dual Boot",
     "notes": [
@@ -145,6 +148,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 3,
     "input": "H.d+1+2",
     "name": "Emergency Destructive Form",
     "notes": [
@@ -189,6 +193,7 @@
       "m",
       "h"
     ],
+    "index": 4,
     "input": "3,2",
     "name": "Quick Trim",
     "notes": [
@@ -237,6 +242,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 5,
     "input": "1+2",
     "name": "Uninstall",
     "notes": [
@@ -285,6 +291,7 @@
       "m",
       "m"
     ],
+    "index": 6,
     "input": "f+2,1",
     "name": "Dual Session",
     "notes": [
@@ -332,6 +339,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 7,
     "input": "uf+2",
     "name": "Image Cutter",
     "notes": [
@@ -385,6 +393,7 @@
       "m",
       "m"
     ],
+    "index": 8,
     "input": "DES.f+2,1,2",
     "name": "Gigahertz Storm",
     "notes": [
@@ -427,6 +436,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 9,
     "input": "1",
     "name": "Jab",
     "notes": [],
@@ -466,6 +476,7 @@
       "h",
       "h"
     ],
+    "index": 10,
     "input": "1,1",
     "name": "Stop Bit",
     "notes": [
@@ -507,6 +518,7 @@
       "h",
       "h"
     ],
+    "index": 11,
     "input": "1,2",
     "name": "Typing Combo",
     "notes": [],
@@ -551,6 +563,7 @@
       "h",
       "h"
     ],
+    "index": 12,
     "input": "1,2,2",
     "name": "Liftoff Combo",
     "notes": [
@@ -602,6 +615,7 @@
       "h",
       "l"
     ],
+    "index": 13,
     "input": "1,2,d+2",
     "name": "Coil Punch Combo",
     "notes": [
@@ -648,6 +662,7 @@
       "h",
       "l"
     ],
+    "index": 14,
     "input": "1,2,d+2*",
     "name": "Coil Punch Combo (Hold)",
     "notes": [
@@ -686,6 +701,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 15,
     "input": "2",
     "name": "",
     "notes": [],
@@ -728,6 +744,7 @@
       "h",
       "h"
     ],
+    "index": 16,
     "input": "2,2",
     "name": "Troubleshooting",
     "notes": [
@@ -771,6 +788,7 @@
       "h",
       "m"
     ],
+    "index": 17,
     "input": "2,3",
     "name": "",
     "notes": [
@@ -821,6 +839,7 @@
       "m",
       "m"
     ],
+    "index": 18,
     "input": "2,3,3",
     "name": "Down Time",
     "notes": [
@@ -868,6 +887,7 @@
       "m",
       "L"
     ],
+    "index": 19,
     "input": "2,3,4",
     "name": "Down Link",
     "notes": [],
@@ -904,6 +924,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 20,
     "input": "3",
     "name": "Accelerator",
     "notes": [],
@@ -942,6 +963,7 @@
       "m",
       "m"
     ],
+    "index": 22,
     "input": "3,f+2",
     "name": "Quick Access",
     "notes": [
@@ -987,6 +1009,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 23,
     "input": "4",
     "name": "Magic 4",
     "notes": [],
@@ -1026,6 +1049,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 25,
     "input": "f+2",
     "name": "",
     "notes": [
@@ -1065,6 +1089,7 @@
       "m",
       "h"
     ],
+    "index": 27,
     "input": "f+2,3",
     "name": "",
     "notes": [
@@ -1115,6 +1140,7 @@
       "h",
       "m"
     ],
+    "index": 28,
     "input": "f+2,3,3",
     "name": "Triple Session",
     "notes": [
@@ -1155,6 +1181,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 29,
     "input": "f+3",
     "name": "",
     "notes": [],
@@ -1195,6 +1222,7 @@
       "h",
       "h"
     ],
+    "index": 30,
     "input": "f+3,2",
     "name": "Lost Access",
     "notes": [
@@ -1239,6 +1267,7 @@
       "h",
       "m"
     ],
+    "index": 31,
     "input": "f+3,1+2",
     "name": "Automatic Transmission",
     "notes": [
@@ -1280,6 +1309,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 32,
     "input": "f+4",
     "name": "",
     "notes": [
@@ -1325,6 +1355,7 @@
       "m",
       "h"
     ],
+    "index": 33,
     "input": "f+4,1",
     "name": "",
     "notes": [
@@ -1375,6 +1406,7 @@
       "h",
       "m"
     ],
+    "index": 34,
     "input": "f+4,1,4",
     "name": "Logic Bomb",
     "notes": [
@@ -1416,6 +1448,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 35,
     "input": "f+1+2",
     "name": "Overflow",
     "notes": [
@@ -1453,6 +1486,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 36,
     "input": "f+3+4",
     "name": "Boot",
     "notes": [],
@@ -1488,6 +1522,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 37,
     "input": "df+1",
     "name": "",
     "notes": [],
@@ -1526,6 +1561,7 @@
       "m",
       "h"
     ],
+    "index": 38,
     "input": "df+1,1",
     "name": "",
     "notes": [
@@ -1572,6 +1608,7 @@
       "h",
       "h"
     ],
+    "index": 39,
     "input": "df+1,1,2",
     "name": "Cyclone Mixer",
     "notes": [
@@ -1617,6 +1654,7 @@
       "m",
       "m"
     ],
+    "index": 40,
     "input": "df+1,4",
     "name": "Cyclone Hacker",
     "notes": [
@@ -1660,6 +1698,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 41,
     "input": "df+2",
     "name": "Pickup",
     "notes": [
@@ -1698,6 +1737,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 42,
     "input": "df+3",
     "name": "",
     "notes": [],
@@ -1738,6 +1778,7 @@
       "m",
       "L"
     ],
+    "index": 43,
     "input": "df+3,3",
     "name": "Double Socket",
     "notes": [
@@ -1779,6 +1820,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 44,
     "input": "df+4",
     "name": "",
     "notes": [],
@@ -1817,6 +1859,7 @@
     "hitLevels": [
       "M"
     ],
+    "index": 45,
     "input": "d+2",
     "name": "",
     "notes": [],
@@ -1858,6 +1901,7 @@
       "M",
       "M"
     ],
+    "index": 46,
     "input": "d+2,4",
     "name": "Deadlock",
     "notes": [
@@ -1904,6 +1948,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 47,
     "input": "d+3",
     "name": "Quick Slider",
     "notes": [],
@@ -1942,6 +1987,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 48,
     "input": "d+4",
     "name": "",
     "notes": [],
@@ -1983,6 +2029,7 @@
       "L",
       "h"
     ],
+    "index": 49,
     "input": "d+4,1+2",
     "name": "Optimizer",
     "notes": [
@@ -2020,6 +2067,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 50,
     "input": "d+1+2",
     "name": "Destructive Form",
     "notes": [
@@ -2062,6 +2110,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 51,
     "input": "d+3+4",
     "name": "Harpoon Sweep",
     "notes": [
@@ -2097,6 +2146,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 52,
     "input": "db+1",
     "name": "Backup",
     "notes": [
@@ -2136,6 +2186,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 53,
     "input": "db+2",
     "name": "",
     "notes": [],
@@ -2174,6 +2225,7 @@
       "m",
       "m"
     ],
+    "index": 54,
     "input": "db+2,2",
     "name": "Daisy Chain",
     "notes": [
@@ -2214,6 +2266,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 55,
     "input": "db+3",
     "name": "Deep Link",
     "notes": [],
@@ -2252,6 +2305,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 56,
     "input": "db+4",
     "name": "Deep Web",
     "notes": [],
@@ -2288,6 +2342,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 57,
     "input": "b+1",
     "name": "",
     "notes": [],
@@ -2330,6 +2385,7 @@
       "SL",
       "m"
     ],
+    "index": 58,
     "input": "b+1,1+2",
     "name": "Gadget Found",
     "notes": [
@@ -2371,6 +2427,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 59,
     "input": "b+2",
     "name": "",
     "notes": [],
@@ -2413,6 +2470,7 @@
       "m",
       "m"
     ],
+    "index": 60,
     "input": "b+2,1",
     "name": "Trance Hammer",
     "notes": [
@@ -2459,6 +2517,7 @@
       "m",
       "m"
     ],
+    "index": 61,
     "input": "b+2,3",
     "name": "Trance Generator",
     "notes": [
@@ -2507,6 +2566,7 @@
       "m",
       "h"
     ],
+    "index": 62,
     "input": "b+2,4",
     "name": "Trance Accelerator Kick",
     "notes": [
@@ -2550,6 +2610,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 63,
     "input": "b+3",
     "name": "Spinning Top",
     "notes": [],
@@ -2591,6 +2652,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 64,
     "input": "b+4",
     "name": "",
     "notes": [],
@@ -2635,6 +2697,7 @@
       "m",
       "m"
     ],
+    "index": 65,
     "input": "b+4,3",
     "name": "Double Threading",
     "notes": [
@@ -2681,6 +2744,7 @@
       "m",
       "M"
     ],
+    "index": 66,
     "input": "b+4,4",
     "name": "Double Override",
     "notes": [
@@ -2723,6 +2787,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 67,
     "input": "b+1+2",
     "name": "Transmission",
     "notes": [
@@ -2760,6 +2825,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 68,
     "input": "b+1+3",
     "name": "Model Change",
     "notes": [
@@ -2801,6 +2867,7 @@
     "hitLevels": [
       "m!"
     ],
+    "index": 69,
     "input": "b+1+3,P",
     "name": "",
     "notes": [
@@ -2844,6 +2911,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 70,
     "input": "b+3+4",
     "name": "",
     "notes": [],
@@ -2890,6 +2958,7 @@
       "m",
       "M"
     ],
+    "index": 71,
     "input": "b+3+4,3+4",
     "name": "Dynamic Range",
     "notes": [
@@ -2930,6 +2999,7 @@
     "hitLevels": [
       "m!"
     ],
+    "index": 72,
     "input": "b+2+3",
     "name": "Hang-Up",
     "notes": [],
@@ -2972,6 +3042,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 73,
     "input": "ub+2",
     "name": "Overload",
     "notes": [
@@ -3018,6 +3089,7 @@
     "hitLevels": [
       "M"
     ],
+    "index": 74,
     "input": "ub+3+4",
     "name": "",
     "notes": [],
@@ -3061,6 +3133,7 @@
       "M",
       "m"
     ],
+    "index": 75,
     "input": "ub+3+4,1+2",
     "name": "Docking Bay",
     "notes": [],
@@ -3101,6 +3174,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 76,
     "input": "u+1+2",
     "name": "Gigabyte Hammer",
     "notes": [],
@@ -3146,6 +3220,7 @@
       "m",
       "m"
     ],
+    "index": 77,
     "input": "uf+1",
     "name": "Brute Force Attack",
     "notes": [
@@ -3188,6 +3263,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 79,
     "input": "uf+3",
     "name": "",
     "notes": [
@@ -3232,6 +3308,7 @@
       "m",
       "m"
     ],
+    "index": 80,
     "input": "uf+3,2",
     "name": "Cradle Star",
     "notes": [
@@ -3274,6 +3351,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 81,
     "input": "uf+4",
     "name": "",
     "notes": [],
@@ -3315,6 +3393,7 @@
       "m",
       "M"
     ],
+    "index": 82,
     "input": "uf+4,4",
     "name": "Inbound Kick",
     "notes": [
@@ -3356,6 +3435,7 @@
     "hitLevels": [
       "M"
     ],
+    "index": 83,
     "input": "uf+3+4",
     "name": "Downstream",
     "notes": [],
@@ -3396,6 +3476,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 84,
     "input": "f,F+2",
     "name": "",
     "notes": [],
@@ -3439,6 +3520,7 @@
       "m",
       "m"
     ],
+    "index": 85,
     "input": "f,F+2,3",
     "name": "Jumper Switch",
     "notes": [
@@ -3481,6 +3563,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 86,
     "input": "f,F+3",
     "name": "",
     "notes": [],
@@ -3522,6 +3605,7 @@
       "m",
       "h"
     ],
+    "index": 87,
     "input": "f,F+3,4",
     "name": "",
     "notes": [
@@ -3570,6 +3654,7 @@
       "h",
       "m"
     ],
+    "index": 88,
     "input": "f,F+3,4,4",
     "name": "Cutover",
     "notes": [
@@ -3617,6 +3702,7 @@
       "m",
       "m"
     ],
+    "index": 89,
     "input": "f,F+4",
     "name": "Sandbox",
     "notes": [
@@ -3662,6 +3748,7 @@
       "m",
       "m"
     ],
+    "index": 90,
     "input": "f,F+1+2",
     "name": "Worm Virus",
     "notes": [],
@@ -3701,6 +3788,7 @@
     "hitLevels": [
       "h!"
     ],
+    "index": 91,
     "input": "b,B+1+4",
     "name": "Double Rocket Punch",
     "notes": [],
@@ -3744,6 +3832,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 92,
     "input": "f,f,F+2",
     "name": "Linear Punch",
     "notes": [
@@ -3785,6 +3874,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 93,
     "input": "f,f,F+3",
     "name": "",
     "notes": [
@@ -3831,6 +3921,7 @@
       "m",
       "m"
     ],
+    "index": 94,
     "input": "f,f,F+3,4",
     "name": "Linear Dropkick",
     "notes": [
@@ -3874,6 +3965,7 @@
     "hitLevels": [
       "M"
     ],
+    "index": 95,
     "input": "f,f,F+1+2",
     "name": "Thruster Double Punch",
     "notes": [],
@@ -3918,6 +4010,7 @@
       "L",
       "L"
     ],
+    "index": 96,
     "input": "FC.1+2",
     "name": "Sad Hound",
     "notes": [
@@ -3955,6 +4048,7 @@
     "hitLevels": [
       "sl"
     ],
+    "index": 97,
     "input": "FC.d+1",
     "name": "",
     "notes": [],
@@ -3990,6 +4084,7 @@
     "hitLevels": [
       "sl"
     ],
+    "index": 98,
     "input": "FC.d+2",
     "name": "",
     "notes": [],
@@ -4025,6 +4120,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 99,
     "input": "FC.d+3",
     "name": "",
     "notes": [],
@@ -4060,6 +4156,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 100,
     "input": "FC.d+4",
     "name": "",
     "notes": [],
@@ -4096,6 +4193,7 @@
     "hitLevels": [
       "M"
     ],
+    "index": 101,
     "input": "ws1",
     "name": "",
     "notes": [],
@@ -4136,6 +4234,7 @@
       "M",
       "h"
     ],
+    "index": 102,
     "input": "ws1,2",
     "name": "",
     "notes": [
@@ -4182,6 +4281,7 @@
       "h",
       "m"
     ],
+    "index": 103,
     "input": "ws1,2,3",
     "name": "Spear Fishing",
     "notes": [
@@ -4225,6 +4325,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 104,
     "input": "ws2",
     "name": "Digital Lift",
     "notes": [
@@ -4266,6 +4367,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 105,
     "input": "ws3",
     "name": "Clockwork (CLK)",
     "notes": [
@@ -4305,6 +4407,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 106,
     "input": "CLK.B",
     "name": "Clockwork Cancel",
     "notes": [
@@ -4345,6 +4448,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 107,
     "input": "CLK.3",
     "name": "Clockwork Spring Middle",
     "notes": [
@@ -4391,6 +4495,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 108,
     "input": "CLK(Twospins).3",
     "name": "",
     "notes": [
@@ -4434,6 +4539,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 109,
     "input": "CLK.d+3",
     "name": "Clockwork Spring Low",
     "notes": [
@@ -4472,6 +4578,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 110,
     "input": "ws4",
     "name": "Key Smash",
     "notes": [],
@@ -4508,6 +4615,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 111,
     "input": "ws1+2",
     "name": "Cute But Deadly",
     "notes": [
@@ -4548,6 +4656,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 112,
     "input": "ws>1+2",
     "name": "",
     "notes": [
@@ -4590,6 +4699,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 113,
     "input": "ws1+2*",
     "name": "Cute But Deadly (Hold)",
     "notes": [
@@ -4637,6 +4747,7 @@
       "h",
       "m"
     ],
+    "index": 115,
     "input": "DES.1",
     "name": "Shredder",
     "notes": [
@@ -4685,6 +4796,7 @@
       "M",
       "m"
     ],
+    "index": 116,
     "input": "DES.2",
     "name": "Shredding Uppercut",
     "notes": [
@@ -4733,6 +4845,7 @@
       "m",
       "h!"
     ],
+    "index": 117,
     "input": "DES.2,1",
     "name": "Shredding Sky Punch",
     "notes": [
@@ -4769,6 +4882,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 118,
     "input": "DES.3",
     "name": "Idling",
     "notes": [],
@@ -4811,6 +4925,7 @@
       "h",
       "h"
     ],
+    "index": 119,
     "input": "DES.1+2",
     "name": "Death Marionette",
     "notes": [
@@ -4854,6 +4969,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 120,
     "input": "DES.f+1",
     "name": "Hertz Blade",
     "notes": [
@@ -4897,6 +5013,7 @@
       "m",
       "m"
     ],
+    "index": 121,
     "input": "DES.f+2",
     "name": "",
     "notes": [
@@ -4943,6 +5060,7 @@
       "m",
       "m"
     ],
+    "index": 122,
     "input": "DES.f+2,1",
     "name": "",
     "notes": [
@@ -4979,6 +5097,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 124,
     "input": "DES.f+3",
     "name": "Dual Boot",
     "notes": [
@@ -5025,6 +5144,7 @@
       "m",
       "m"
     ],
+    "index": 125,
     "input": "DES.f+1+2",
     "name": "",
     "notes": [
@@ -5075,6 +5195,7 @@
       "m",
       "m"
     ],
+    "index": 126,
     "input": "DES.f+1+2,1+2",
     "name": "Hertz Blade - Diablo",
     "notes": [
@@ -5119,6 +5240,7 @@
       "L",
       "L"
     ],
+    "index": 127,
     "input": "DES.d+1",
     "name": "Hertz Blade - Scud",
     "notes": [
@@ -5166,6 +5288,7 @@
       "L",
       "L"
     ],
+    "index": 128,
     "input": "DES.d+2",
     "name": "Clock Boosting",
     "notes": [
@@ -5203,6 +5326,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 129,
     "input": "DES.d+3",
     "name": "Evasive Action",
     "notes": [
@@ -5243,6 +5367,7 @@
       "",
       "m"
     ],
+    "index": 130,
     "input": "DES.d+3,1",
     "name": "Evasive Slash",
     "notes": [
@@ -5286,6 +5411,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 131,
     "input": "DES.b+2",
     "name": "",
     "notes": [
@@ -5336,6 +5462,7 @@
       "SL",
       "SL"
     ],
+    "index": 132,
     "input": "DES.b+2,1",
     "name": "Hertz Blade - Tomahawk",
     "notes": [
@@ -5373,6 +5500,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 133,
     "input": "DES.b+3",
     "name": "Retro Rockets",
     "notes": [],
@@ -5420,6 +5548,7 @@
       "h",
       "h"
     ],
+    "index": 134,
     "input": "DES.uf+2",
     "name": "Hertz Blade - Aegis",
     "notes": [
@@ -5466,6 +5595,7 @@
       "M",
       "M"
     ],
+    "index": 135,
     "input": "DES.uf+1+2",
     "name": "Spindle Slash",
     "notes": [
@@ -5520,6 +5650,7 @@
       "m",
       "m"
     ],
+    "index": 136,
     "input": "DES.BT.1",
     "name": "Hertz Blade - Flare",
     "notes": [
@@ -5556,6 +5687,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 137,
     "input": "DES.f,f",
     "name": "Move Forward",
     "notes": [],
@@ -5587,6 +5719,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 138,
     "input": "DES.b,b",
     "name": "Move Back",
     "notes": [],
@@ -5618,6 +5751,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 140,
     "input": "SBT.D",
     "name": "Abort",
     "notes": [
@@ -5656,6 +5790,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 141,
     "input": "SBT.1",
     "name": "",
     "notes": [],
@@ -5696,6 +5831,7 @@
       "m",
       "m"
     ],
+    "index": 142,
     "input": "SBT.1,2",
     "name": "",
     "notes": [
@@ -5741,6 +5877,7 @@
       "m",
       "m"
     ],
+    "index": 143,
     "input": "SBT.1,2,1",
     "name": "",
     "notes": [
@@ -5787,6 +5924,7 @@
       "m",
       "m"
     ],
+    "index": 144,
     "input": "SBT.1,2,1,3+4",
     "name": "Hard Reset",
     "notes": [
@@ -5832,6 +5970,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 145,
     "input": "SBT.2",
     "name": "Linear Elbow",
     "notes": [
@@ -5880,6 +6019,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 146,
     "input": "SBT.3",
     "name": "Eject Slider",
     "notes": [
@@ -5922,6 +6062,7 @@
     "hitLevels": [
       "M"
     ],
+    "index": 147,
     "input": "SBT.4",
     "name": "Upstream",
     "notes": [],
@@ -5958,6 +6099,7 @@
     "hitLevels": [
       "h!"
     ],
+    "index": 148,
     "input": "SBT.1+2",
     "name": "Wire Clipper",
     "notes": [],
@@ -6004,6 +6146,7 @@
       "h",
       "h"
     ],
+    "index": 150,
     "input": "DBT.1",
     "name": "Thruster Left",
     "notes": [
@@ -6052,6 +6195,7 @@
       "h",
       "h"
     ],
+    "index": 151,
     "input": "DBT.2",
     "name": "Thruster Right",
     "notes": [
@@ -6101,6 +6245,7 @@
       "h",
       "hh"
     ],
+    "index": 152,
     "input": "DBT.2,1",
     "name": "Thruster Right - Burst",
     "notes": [
@@ -6148,6 +6293,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 153,
     "input": "DBT.3",
     "name": "Eject Slider",
     "notes": [
@@ -6190,6 +6336,7 @@
     "hitLevels": [
       "M"
     ],
+    "index": 154,
     "input": "DBT.4",
     "name": "Upstream",
     "notes": [],
@@ -6235,6 +6382,7 @@
       "M",
       "M"
     ],
+    "index": 155,
     "input": "DBT.1+2",
     "name": "Thruster Drill",
     "notes": [
@@ -6281,6 +6429,7 @@
       "M",
       "t"
     ],
+    "index": 156,
     "input": "DBT.f+1",
     "name": "Heartbeat Disabler",
     "notes": [
@@ -6323,6 +6472,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 157,
     "input": "DBT.f+2",
     "name": "Boot Up",
     "notes": [
@@ -6368,6 +6518,7 @@
       "L",
       "m"
     ],
+    "index": 158,
     "input": "DBT.f+2,2",
     "name": "Shut Down",
     "notes": [
@@ -6414,6 +6565,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 160,
     "input": "BKP.1",
     "name": "Recovery Hook",
     "notes": [
@@ -6457,6 +6609,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 161,
     "input": "BKP.2",
     "name": "Rapid Rocket Punch",
     "notes": [
@@ -6499,6 +6652,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 162,
     "input": "BKP.3",
     "name": "Meteor Kick",
     "notes": [],
@@ -6541,6 +6695,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 163,
     "input": "BKP.4",
     "name": "Uplink Knee",
     "notes": [],
@@ -6581,6 +6736,7 @@
     "hitLevels": [
       "h!"
     ],
+    "index": 164,
     "input": "BKP.1+2",
     "name": "Rocket Punch",
     "notes": [],
@@ -6621,6 +6777,7 @@
       "m",
       "t"
     ],
+    "index": 165,
     "input": "R.df+1+2",
     "name": "Radiant Pegasus Bomb",
     "notes": [
@@ -6662,6 +6819,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 166,
     "input": "1+2+3",
     "name": "Taunt 1",
     "notes": [],
@@ -6693,6 +6851,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 167,
     "input": "1+2+4",
     "name": "Taunt 2",
     "notes": [],
@@ -6724,6 +6883,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 168,
     "input": "1+2+3+4",
     "name": "Ki Charge",
     "notes": [
@@ -6764,6 +6924,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 169,
     "input": "SS.4",
     "name": "",
     "notes": [],
@@ -6808,6 +6969,7 @@
       "h",
       "m"
     ],
+    "index": 170,
     "input": "SS.4,1+2",
     "name": "Happy Propeller",
     "notes": [
@@ -6851,6 +7013,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 171,
     "input": "BT.4",
     "name": "Goody Two Shoes",
     "notes": [],
@@ -6884,6 +7047,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 172,
     "input": "FUFT.1+2",
     "name": "Reboot",
     "notes": [],
@@ -6924,6 +7088,7 @@
       "",
       "m"
     ],
+    "index": 173,
     "input": "FUFT.1+2,3",
     "name": "Reboot Meteor Kick",
     "notes": [],
@@ -6964,6 +7129,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 174,
     "input": "OTG.db+1+2",
     "name": "Ground Rocket Punch",
     "notes": [],
@@ -6998,6 +7164,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 175,
     "input": "(Backtowall).b,b,UB",
     "name": "Wall Jump Attack",
     "notes": [],
@@ -7036,6 +7203,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 176,
     "input": "1+3",
     "name": "Trigger Shuffle",
     "notes": [
@@ -7080,6 +7248,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 177,
     "input": "2+4",
     "name": "Back Door",
     "notes": [
@@ -7125,6 +7294,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 178,
     "input": "Leftthrow",
     "name": "Compression",
     "notes": [
@@ -7166,6 +7336,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 179,
     "input": "Rightthrow",
     "name": "Hat Trick",
     "notes": [
@@ -7208,6 +7379,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 180,
     "input": "Backthrow",
     "name": "Random Typing",
     "notes": [
@@ -7250,6 +7422,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 181,
     "input": "uf+1+2",
     "name": "Spam Bomb",
     "notes": [
@@ -7288,6 +7461,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 182,
     "input": "FC.db+1+2",
     "name": "Double Bull Shoot",
     "notes": [
@@ -7327,6 +7501,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 183,
     "input": "ub+4",
     "name": "1st Hit",
     "notes": [],
@@ -7365,6 +7540,7 @@
       "m",
       "m"
     ],
+    "index": 184,
     "input": "ub+4,1",
     "name": "2nd Hit",
     "notes": [],
@@ -7404,6 +7580,7 @@
       "m",
       "m"
     ],
+    "index": 185,
     "input": "ub+4,1,1",
     "name": "3rd Hit",
     "notes": [
@@ -7451,6 +7628,7 @@
       "m",
       "h"
     ],
+    "index": 186,
     "input": "ub+4,1,1,2",
     "name": "4th Hit",
     "notes": [
@@ -7498,6 +7676,7 @@
       "h",
       "h"
     ],
+    "index": 187,
     "input": "ub+4,1,1,2,1",
     "name": "5th Hit",
     "notes": [
@@ -7553,6 +7732,7 @@
       "M",
       "M"
     ],
+    "index": 188,
     "input": "ub+4,1,1,2,1,1",
     "name": "6th Hit",
     "notes": [
@@ -7612,6 +7792,7 @@
       "M",
       "L"
     ],
+    "index": 189,
     "input": "ub+4,1,1,2,1,1,3+4",
     "name": "7th Hit",
     "notes": [],
@@ -7666,6 +7847,7 @@
       "L",
       "m"
     ],
+    "index": 190,
     "input": "ub+4,1,1,2,1,1,3+4,3",
     "name": "8th Hit",
     "notes": [
@@ -7727,6 +7909,7 @@
       "m",
       "M"
     ],
+    "index": 191,
     "input": "ub+4,1,1,2,1,1,3+4,3,2",
     "name": "9th Hit",
     "notes": [
@@ -7797,6 +7980,7 @@
       "h",
       "h"
     ],
+    "index": 192,
     "input": "ub+4,1,1,2,1,1,3+4,3,2,2",
     "name": "10 Hit Combo",
     "notes": [

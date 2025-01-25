@@ -29,6 +29,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 0,
     "input": "2+3",
     "name": "Heat Burst",
     "notes": [
@@ -82,6 +83,7 @@
       "m",
       "m"
     ],
+    "index": 1,
     "input": "H.2+3",
     "name": "Yomotsu Ooyumi",
     "notes": [
@@ -126,6 +128,7 @@
       "l",
       "m"
     ],
+    "index": 2,
     "input": "H.GEN.2+3",
     "name": "Yomotsu Mihashira",
     "notes": [
@@ -169,6 +172,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 3,
     "input": "H.f+1+2,P",
     "name": "",
     "notes": [
@@ -208,6 +212,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 4,
     "input": "1+2",
     "name": "Shunkei",
     "notes": [],
@@ -250,6 +255,7 @@
       "M",
       "M"
     ],
+    "index": 5,
     "input": "f+2,1+2",
     "name": "Ame-no-Habakiri",
     "notes": [
@@ -299,6 +305,7 @@
       "m",
       "h"
     ],
+    "index": 6,
     "input": "IZU.3",
     "name": "Zuiun Renkyaku",
     "notes": [
@@ -342,6 +349,7 @@
     "hitLevels": [
       "sm"
     ],
+    "index": 7,
     "input": "MIA.2",
     "name": "Ame-no-Nuboko",
     "notes": [
@@ -390,6 +398,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 8,
     "input": "SS.4",
     "name": "Kagura",
     "notes": [],
@@ -428,6 +437,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 9,
     "input": "1",
     "name": "Jab",
     "notes": [],
@@ -465,6 +475,7 @@
       "h",
       "m"
     ],
+    "index": 10,
     "input": "1,1",
     "name": "Suikei > Izumo Smash",
     "notes": [
@@ -504,6 +515,7 @@
       "h",
       "h"
     ],
+    "index": 11,
     "input": "1,2",
     "name": "Spear Step",
     "notes": [
@@ -545,6 +557,7 @@
       "h",
       "h"
     ],
+    "index": 12,
     "input": "1,2,u_d",
     "name": "",
     "notes": [],
@@ -591,6 +604,7 @@
       "h",
       "h"
     ],
+    "index": 13,
     "input": "1,2,2",
     "name": "Spear Step > Izumo Strike",
     "notes": [
@@ -642,6 +656,7 @@
       "h",
       "m"
     ],
+    "index": 14,
     "input": "1,2,4",
     "name": "Spear Step > Spin Kick",
     "notes": [
@@ -686,6 +701,7 @@
       "h",
       "L"
     ],
+    "index": 15,
     "input": "1,3",
     "name": "Suiren Leg Scythe",
     "notes": [
@@ -723,6 +739,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 16,
     "input": "2",
     "name": "Right Jab",
     "notes": [],
@@ -760,6 +777,7 @@
       "h",
       "m"
     ],
+    "index": 17,
     "input": "2,1",
     "name": "",
     "notes": [
@@ -802,6 +820,7 @@
       "m",
       "m"
     ],
+    "index": 18,
     "input": "2,1,4",
     "name": "",
     "notes": [
@@ -853,6 +872,7 @@
       "m",
       "m"
     ],
+    "index": 19,
     "input": "2,1,4,1",
     "name": "Byakuren Tsukinuki",
     "notes": [
@@ -904,6 +924,7 @@
       "m",
       "h"
     ],
+    "index": 20,
     "input": "2,1,4,3",
     "name": "Byakuren Tamasudare",
     "notes": [
@@ -951,6 +972,7 @@
       "m",
       "h"
     ],
+    "index": 21,
     "input": "2,1,1+2",
     "name": "Byakuren Misogi",
     "notes": [
@@ -995,6 +1017,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 22,
     "input": "3",
     "name": "Shion",
     "notes": [],
@@ -1034,6 +1057,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 23,
     "input": "4",
     "name": "Magic Four",
     "notes": [],
@@ -1072,6 +1096,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 25,
     "input": "H.1+2,F",
     "name": "Shunkei > Heat Dash",
     "notes": [],
@@ -1116,6 +1141,7 @@
       "M",
       "M"
     ],
+    "index": 26,
     "input": "3+4",
     "name": "Ryuuntsui - Misogi",
     "notes": [
@@ -1159,6 +1185,7 @@
       "SL",
       "h"
     ],
+    "index": 27,
     "input": "1+4",
     "name": "",
     "notes": [
@@ -1201,6 +1228,7 @@
       "h",
       "h"
     ],
+    "index": 28,
     "input": "1+4,2",
     "name": "",
     "notes": [],
@@ -1245,6 +1273,7 @@
       "h",
       "m"
     ],
+    "index": 29,
     "input": "1+4,2,4",
     "name": "White Heron Dance",
     "notes": [],
@@ -1290,6 +1319,7 @@
       "h",
       "L"
     ],
+    "index": 30,
     "input": "1+4,2,d+4",
     "name": "White Heron Lower Dance",
     "notes": [],
@@ -1332,6 +1362,7 @@
       "h",
       "m"
     ],
+    "index": 31,
     "input": "1+4,3",
     "name": "",
     "notes": [],
@@ -1378,6 +1409,7 @@
       "m",
       "m"
     ],
+    "index": 32,
     "input": "1+4,3,1",
     "name": "White Heron Sun Palm",
     "notes": [],
@@ -1427,6 +1459,7 @@
       "m",
       "L"
     ],
+    "index": 33,
     "input": "1+4,3,4",
     "name": "White Heron Moon Kick",
     "notes": [],
@@ -1462,6 +1495,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 34,
     "input": "f+1",
     "name": "Izumo Smash",
     "notes": [
@@ -1504,6 +1538,7 @@
     "hitLevels": [
       "M"
     ],
+    "index": 35,
     "input": "f+2",
     "name": "Demon Slayer",
     "notes": [],
@@ -1539,6 +1574,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 37,
     "input": "f+3",
     "name": "",
     "notes": [],
@@ -1576,6 +1612,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 38,
     "input": "f+3~u_d",
     "name": "",
     "notes": [],
@@ -1620,6 +1657,7 @@
       "m",
       "h"
     ],
+    "index": 39,
     "input": "f+3,2",
     "name": "Kanbashira > Izumo Strike",
     "notes": [
@@ -1667,6 +1705,7 @@
       "m",
       "M"
     ],
+    "index": 40,
     "input": "f+3,4",
     "name": "Double Kanbashira",
     "notes": [
@@ -1709,6 +1748,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 41,
     "input": "f+4",
     "name": "Getsukankyaku",
     "notes": [],
@@ -1748,6 +1788,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 42,
     "input": "f+1+2",
     "name": "Inner Peace",
     "notes": [
@@ -1791,6 +1832,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 44,
     "input": "f+2+3",
     "name": "Wheel Kick",
     "notes": [
@@ -1832,6 +1874,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 45,
     "input": "df+1",
     "name": "Mid Check",
     "notes": [],
@@ -1876,6 +1919,7 @@
       "m",
       "m"
     ],
+    "index": 46,
     "input": "df+1,1",
     "name": "Habotan",
     "notes": [],
@@ -1917,6 +1961,7 @@
       "m",
       "h"
     ],
+    "index": 47,
     "input": "df+1,2",
     "name": "Aya Stitch",
     "notes": [],
@@ -1957,6 +2002,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 48,
     "input": "df+2",
     "name": "Mizuho",
     "notes": [],
@@ -1999,6 +2045,7 @@
       "m",
       "M"
     ],
+    "index": 49,
     "input": "df+2,1+2",
     "name": "Ame-no-Murakumo",
     "notes": [
@@ -2042,6 +2089,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 50,
     "input": "df+3",
     "name": "Kazakiri",
     "notes": [],
@@ -2085,6 +2133,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 51,
     "input": "df+4",
     "name": "Katabami",
     "notes": [
@@ -2127,6 +2176,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 52,
     "input": "df+3+4",
     "name": "",
     "notes": [],
@@ -2169,6 +2219,7 @@
       "m",
       "m"
     ],
+    "index": 53,
     "input": "df+3+4,1",
     "name": "Heavenly Sun Palm",
     "notes": [],
@@ -2214,6 +2265,7 @@
       "m",
       "L"
     ],
+    "index": 54,
     "input": "df+3+4,4",
     "name": "Heavenly Moon Kick",
     "notes": [],
@@ -2260,6 +2312,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 55,
     "input": "d+2",
     "name": "Narumi",
     "notes": [],
@@ -2297,6 +2350,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 56,
     "input": "d+4",
     "name": "",
     "notes": [],
@@ -2339,6 +2393,7 @@
       "L",
       "h"
     ],
+    "index": 57,
     "input": "d+4,4",
     "name": "Suminagashi",
     "notes": [
@@ -2381,6 +2436,7 @@
     "hitLevels": [
       "M"
     ],
+    "index": 58,
     "input": "d+1+2",
     "name": "Kamudo-no-Tsurugi",
     "notes": [
@@ -2428,6 +2484,7 @@
       "l",
       "h"
     ],
+    "index": 59,
     "input": "d+3+4",
     "name": "Double Lift Kicks",
     "notes": [
@@ -2468,6 +2525,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 60,
     "input": "db+1",
     "name": "",
     "notes": [],
@@ -2505,6 +2563,7 @@
       "m",
       "m"
     ],
+    "index": 61,
     "input": "db+1,1",
     "name": "",
     "notes": [],
@@ -2551,6 +2610,7 @@
       "m",
       "m"
     ],
+    "index": 62,
     "input": "db+1,1,1+2",
     "name": "Hourai's Dance",
     "notes": [
@@ -2599,6 +2659,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 63,
     "input": "db+2",
     "name": "Ayame",
     "notes": [],
@@ -2636,6 +2697,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 64,
     "input": "db+3",
     "name": "Leg Scythe",
     "notes": [],
@@ -2675,6 +2737,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 65,
     "input": "db+4",
     "name": "",
     "notes": [],
@@ -2717,6 +2780,7 @@
       "L",
       "L"
     ],
+    "index": 66,
     "input": "db+4,4",
     "name": "",
     "notes": [
@@ -2764,6 +2828,7 @@
       "L",
       "L"
     ],
+    "index": 67,
     "input": "db+4,4,4",
     "name": "Kariashi",
     "notes": [
@@ -2805,6 +2870,7 @@
       "sl",
       "h"
     ],
+    "index": 68,
     "input": "db+4,1+4",
     "name": "Kariashi Hakuro",
     "notes": [
@@ -2852,6 +2918,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 69,
     "input": "b+1",
     "name": "Violet",
     "notes": [
@@ -2894,6 +2961,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 70,
     "input": "b+2",
     "name": "",
     "notes": [],
@@ -2934,6 +3002,7 @@
       "m",
       "h"
     ],
+    "index": 71,
     "input": "b+2,1",
     "name": "",
     "notes": [
@@ -2980,6 +3049,7 @@
       "m",
       "h"
     ],
+    "index": 72,
     "input": "b+2,1~F",
     "name": "",
     "notes": [
@@ -3026,6 +3096,7 @@
       "m",
       "h"
     ],
+    "index": 73,
     "input": "b+2,1~B",
     "name": "",
     "notes": [
@@ -3072,6 +3143,7 @@
       "h",
       "m"
     ],
+    "index": 74,
     "input": "b+2,1,1",
     "name": "Ryuen Saika Shikei",
     "notes": [
@@ -3122,6 +3194,7 @@
       "h",
       "M"
     ],
+    "index": 75,
     "input": "b+2,1,2",
     "name": "Ryuen Saika Renken",
     "notes": [
@@ -3174,6 +3247,7 @@
       "h",
       "h"
     ],
+    "index": 76,
     "input": "b+2,1,4",
     "name": "Ryuen Saika Renshuu",
     "notes": [
@@ -3218,6 +3292,7 @@
       "m",
       "m"
     ],
+    "index": 77,
     "input": "b+2,2",
     "name": "Ryuen Magushi",
     "notes": [],
@@ -3258,6 +3333,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 78,
     "input": "b+3",
     "name": "Dragon Wheel Kick",
     "notes": [],
@@ -3301,6 +3377,7 @@
       "m",
       "M"
     ],
+    "index": 79,
     "input": "b+3,2",
     "name": "Ryuusha Renken",
     "notes": [
@@ -3346,6 +3423,7 @@
       "m",
       "L"
     ],
+    "index": 80,
     "input": "b+3,4",
     "name": "Dragon Wheel Leg Cutter",
     "notes": [
@@ -3387,6 +3465,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 81,
     "input": "b+4",
     "name": "",
     "notes": [],
@@ -3432,6 +3511,7 @@
       "m",
       "M"
     ],
+    "index": 82,
     "input": "b+4,2",
     "name": "Shirabyoushi",
     "notes": [],
@@ -3472,6 +3552,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 83,
     "input": "b+3+4",
     "name": "Omoikane",
     "notes": [
@@ -3513,6 +3594,7 @@
     "hitLevels": [
       "m!"
     ],
+    "index": 84,
     "input": "b+2+3",
     "name": "Shinki",
     "notes": [],
@@ -3554,6 +3636,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 85,
     "input": "u+4",
     "name": "Chikura",
     "notes": [
@@ -3595,6 +3678,7 @@
       "h",
       "h"
     ],
+    "index": 86,
     "input": "uf+1",
     "name": "Divine Exile - Heaven",
     "notes": [
@@ -3643,6 +3727,7 @@
     "hitLevels": [
       "M"
     ],
+    "index": 87,
     "input": "uf+2",
     "name": "Totsuka-no-Tsurugi",
     "notes": [
@@ -3689,6 +3774,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 88,
     "input": "uf+3",
     "name": "Iwato",
     "notes": [],
@@ -3727,6 +3813,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 89,
     "input": "uf+4",
     "name": "",
     "notes": [],
@@ -3769,6 +3856,7 @@
       "m",
       "M"
     ],
+    "index": 90,
     "input": "uf+4,3",
     "name": "Housenka - Misogi",
     "notes": [
@@ -3817,6 +3905,7 @@
       "m",
       "M"
     ],
+    "index": 91,
     "input": "uf+3+4",
     "name": "Saiuntsui",
     "notes": [
@@ -3859,6 +3948,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 92,
     "input": "f,F+2",
     "name": "",
     "notes": [],
@@ -3899,6 +3989,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 93,
     "input": "f,F+2~F",
     "name": "",
     "notes": [
@@ -3943,6 +4034,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 94,
     "input": "f,F+2~B",
     "name": "",
     "notes": [
@@ -3986,6 +4078,7 @@
       "m",
       "m"
     ],
+    "index": 95,
     "input": "f,F+2,2",
     "name": "Suiei Ura Saika",
     "notes": [
@@ -4033,6 +4126,7 @@
       "m",
       "h"
     ],
+    "index": 96,
     "input": "f,F+2,3",
     "name": "Suiei Kagetsu",
     "notes": [],
@@ -4071,6 +4165,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 97,
     "input": "f,F+3",
     "name": "",
     "notes": [],
@@ -4116,6 +4211,7 @@
       "m",
       "m"
     ],
+    "index": 98,
     "input": "f,F+3,3+4",
     "name": "Yukimiguruma",
     "notes": [
@@ -4159,6 +4255,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 99,
     "input": "f,F+1+2",
     "name": "Tokkei - Misogi",
     "notes": [
@@ -4207,6 +4304,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 100,
     "input": "f,f,F+3",
     "name": "Ame-no-Uzume",
     "notes": [
@@ -4255,6 +4353,7 @@
       "m",
       "m"
     ],
+    "index": 101,
     "input": "FC.3+4",
     "name": "",
     "notes": [
@@ -4302,6 +4401,7 @@
       "m",
       "m"
     ],
+    "index": 102,
     "input": "FC.3+4,3",
     "name": "Twin Cloud Kicks",
     "notes": [
@@ -4346,6 +4446,7 @@
       "sl",
       "m"
     ],
+    "index": 103,
     "input": "FC.df+1",
     "name": "Divine Exile - Earth",
     "notes": [
@@ -4389,6 +4490,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 104,
     "input": "FC.df+2",
     "name": "Grace",
     "notes": [],
@@ -4426,6 +4528,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 105,
     "input": "FC.df+3",
     "name": "Kanamegaeshi",
     "notes": [
@@ -4467,6 +4570,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 106,
     "input": "ws1",
     "name": "",
     "notes": [],
@@ -4507,6 +4611,7 @@
       "h",
       "h"
     ],
+    "index": 107,
     "input": "ws1,1",
     "name": "",
     "notes": [
@@ -4553,6 +4658,7 @@
       "h",
       "h"
     ],
+    "index": 108,
     "input": "ws1,1~F",
     "name": "",
     "notes": [
@@ -4599,6 +4705,7 @@
       "h",
       "h"
     ],
+    "index": 109,
     "input": "ws1,1~B",
     "name": "",
     "notes": [
@@ -4645,6 +4752,7 @@
       "h",
       "m"
     ],
+    "index": 110,
     "input": "ws1,1,1",
     "name": "Tenkan Saika Shikei",
     "notes": [
@@ -4695,6 +4803,7 @@
       "h",
       "M"
     ],
+    "index": 111,
     "input": "ws1,1,2",
     "name": "Tenkan Saika Renken",
     "notes": [
@@ -4746,6 +4855,7 @@
       "h",
       "h"
     ],
+    "index": 112,
     "input": "ws1,1,4",
     "name": "Tenkan Saika Renshuu",
     "notes": [
@@ -4794,6 +4904,7 @@
       "h",
       "m"
     ],
+    "index": 113,
     "input": "ws1,4",
     "name": "",
     "notes": [
@@ -4847,6 +4958,7 @@
       "m",
       "L"
     ],
+    "index": 114,
     "input": "ws1,4,2",
     "name": "Tomoezakura",
     "notes": [
@@ -4895,6 +5007,7 @@
       "m",
       "m"
     ],
+    "index": 115,
     "input": "ws1,4,1+2",
     "name": "Tomoefuji",
     "notes": [
@@ -4939,6 +5052,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 116,
     "input": "ws2",
     "name": "",
     "notes": [],
@@ -4980,6 +5094,7 @@
       "m",
       "m"
     ],
+    "index": 117,
     "input": "ws2,1",
     "name": "Hyakkaou",
     "notes": [
@@ -5024,6 +5139,7 @@
     "hitLevels": [
       "M"
     ],
+    "index": 118,
     "input": "ws3",
     "name": "Gioh",
     "notes": [],
@@ -5064,6 +5180,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 119,
     "input": "ws4",
     "name": "Ichikaku",
     "notes": [],
@@ -5099,6 +5216,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 120,
     "input": "ws1+2",
     "name": "Sudare Nagashi",
     "notes": [
@@ -5143,6 +5261,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 121,
     "input": "ws3+4",
     "name": "Flowing Moon Scent",
     "notes": [],
@@ -5187,6 +5306,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 122,
     "input": "u+2",
     "name": "Izumo Strike",
     "notes": [
@@ -5229,6 +5349,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 123,
     "input": "IZU.1",
     "name": "",
     "notes": [],
@@ -5271,6 +5392,7 @@
       "h",
       "h"
     ],
+    "index": 124,
     "input": "IZU.1,1",
     "name": "Haraede Kannagi",
     "notes": [
@@ -5319,6 +5441,7 @@
       "h",
       "m"
     ],
+    "index": 125,
     "input": "IZU.1,2",
     "name": "Haraede Musubi",
     "notes": [
@@ -5364,6 +5487,7 @@
     "hitLevels": [
       "M"
     ],
+    "index": 126,
     "input": "IZU.2",
     "name": "Setsurinbu - Misogi",
     "notes": [
@@ -5412,6 +5536,7 @@
       "m",
       "h"
     ],
+    "index": 128,
     "input": "H.IZU.3,F",
     "name": "Zuiun Renkyaku > Heat Dash",
     "notes": [
@@ -5457,6 +5582,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 129,
     "input": "IZU.4",
     "name": "",
     "notes": [],
@@ -5499,6 +5625,7 @@
       "L",
       "M"
     ],
+    "index": 130,
     "input": "IZU.4,1",
     "name": "Wakeikazuchi - Misogi",
     "notes": [
@@ -5544,6 +5671,7 @@
     "hitLevels": [
       "M"
     ],
+    "index": 131,
     "input": "IZU.1+2",
     "name": "Mihikarioroshi",
     "notes": [
@@ -5586,6 +5714,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 132,
     "input": "IZU.f+1+2",
     "name": "Dianthus Garden",
     "notes": [
@@ -5621,6 +5750,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 133,
     "input": "f+3+4",
     "name": "Genjitsu",
     "notes": [
@@ -5670,6 +5800,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 134,
     "input": "f+3+4,P(Low)",
     "name": "Amaterasu",
     "notes": [
@@ -5710,6 +5841,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 135,
     "input": "f+3+4,P(Throw)",
     "name": "Throw Reversal",
     "notes": [
@@ -5756,6 +5888,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 136,
     "input": "GEN.1",
     "name": "Rurikoukai",
     "notes": [],
@@ -5797,6 +5930,7 @@
       "m",
       "t"
     ],
+    "index": 137,
     "input": "GEN.2",
     "name": "Kazama Style Spirit",
     "notes": [
@@ -5846,6 +5980,7 @@
     "hitLevels": [
       "M"
     ],
+    "index": 138,
     "input": "GEN.3",
     "name": "",
     "notes": [],
@@ -5888,6 +6023,7 @@
       "M",
       "M"
     ],
+    "index": 139,
     "input": "GEN.3,2",
     "name": "Getsuun Renken",
     "notes": [
@@ -5933,6 +6069,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 140,
     "input": "GEN.4",
     "name": "Nichiun",
     "notes": [],
@@ -5967,6 +6104,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 142,
     "input": "b+1+2",
     "name": "Miare",
     "notes": [
@@ -6011,6 +6149,7 @@
     "hitLevels": [
       "M"
     ],
+    "index": 143,
     "input": "MIA.1",
     "name": "Ame-no-Sakahoko",
     "notes": [
@@ -6055,6 +6194,7 @@
     "hitLevels": [
       "sm"
     ],
+    "index": 145,
     "input": "H.MIA.2,F",
     "name": "Ame-no-Nuboko > Heat Dash",
     "notes": [
@@ -6100,6 +6240,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 146,
     "input": "MIA.1+2",
     "name": "Izumo Strike",
     "notes": [],
@@ -6133,6 +6274,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 147,
     "input": "MIA.F",
     "name": "Genjitsu",
     "notes": [
@@ -6175,6 +6317,7 @@
       "m",
       "t"
     ],
+    "index": 148,
     "input": "R.df+1+2",
     "name": "Amatsu Izanami",
     "notes": [
@@ -6216,6 +6359,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 149,
     "input": "1+2+3+4",
     "name": "\nKi Charge\nSupercharger\n",
     "notes": [
@@ -6260,6 +6404,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 150,
     "input": "SS.2",
     "name": "Kasanegasumi",
     "notes": [
@@ -6305,6 +6450,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 152,
     "input": "H.SS.4,F",
     "name": "Kagura > Heat Dash",
     "notes": [],
@@ -6349,6 +6495,7 @@
       "h",
       "m"
     ],
+    "index": 153,
     "input": "SS.1+2",
     "name": "Sankouchou",
     "notes": [
@@ -6387,6 +6534,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 154,
     "input": "b+1+3",
     "name": "Attack Reversal",
     "notes": [
@@ -6429,6 +6577,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 155,
     "input": "b+1+3,P",
     "name": "",
     "notes": [
@@ -6462,6 +6611,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 156,
     "input": "UB,b",
     "name": "Back Handspring",
     "notes": [],
@@ -6502,6 +6652,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 157,
     "input": "(Backtowall).b,b,UB",
     "name": "Wall Jump Attack",
     "notes": [],
@@ -6540,6 +6691,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 158,
     "input": "1+3",
     "name": "Shiho Nage",
     "notes": [
@@ -6582,6 +6734,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 159,
     "input": "2+4",
     "name": "Katanuki",
     "notes": [
@@ -6624,6 +6777,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 160,
     "input": "Leftthrow",
     "name": "Cloud Taste",
     "notes": [
@@ -6664,6 +6818,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 161,
     "input": "Rightthrow",
     "name": "Wind Wheel",
     "notes": [
@@ -6704,6 +6859,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 162,
     "input": "Backthrow",
     "name": "Twisted Limbs",
     "notes": [
@@ -6744,6 +6900,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 163,
     "input": "df+2+3",
     "name": "White Mountain",
     "notes": [
@@ -6785,6 +6942,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 164,
     "input": "uf+1+2",
     "name": "Riai",
     "notes": [],
@@ -6826,6 +6984,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 165,
     "input": "FC.db+1+2",
     "name": "Falling Rain",
     "notes": [
@@ -6866,6 +7025,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 166,
     "input": "IZU.1+4",
     "name": "Tsukuyomi",
     "notes": [

@@ -28,6 +28,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 0,
     "input": "2+3",
     "name": "Heat Burst",
     "notes": [],
@@ -68,6 +69,7 @@
       "m",
       "t"
     ],
+    "index": 1,
     "input": "H.2+3",
     "name": "Divine Shooting Star",
     "notes": [
@@ -112,6 +114,7 @@
       "m",
       "t"
     ],
+    "index": 2,
     "input": "H.BT.2+3",
     "name": "Innumerable Moons",
     "notes": [
@@ -160,6 +163,7 @@
       "h",
       "m"
     ],
+    "index": 3,
     "input": "H.f+2,1,2",
     "name": "Bai Yang Yan Di Po",
     "notes": [
@@ -208,6 +212,7 @@
       "m",
       "m"
     ],
+    "index": 4,
     "input": "H.f,F+1,2",
     "name": "Bai Lian Yan Di Po",
     "notes": [
@@ -253,6 +258,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 5,
     "input": "db+1",
     "name": "Storming Flower",
     "notes": [
@@ -299,6 +305,7 @@
       "m",
       "m"
     ],
+    "index": 6,
     "input": "b+4,1",
     "name": "Moonhare Palm",
     "notes": [
@@ -345,6 +352,7 @@
       "m",
       "h"
     ],
+    "index": 7,
     "input": "BT.1+2,4",
     "name": "Battering Storm",
     "notes": [
@@ -388,6 +396,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 8,
     "input": "HYP.2",
     "name": "Spin Sticker",
     "notes": [
@@ -437,6 +446,7 @@
       "m",
       "m"
     ],
+    "index": 9,
     "input": "AOP.2,1",
     "name": "Phoenix Double Palm",
     "notes": [
@@ -481,6 +491,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 10,
     "input": "HYP.3",
     "name": "Blue Luan Sweep",
     "notes": [
@@ -521,6 +532,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 11,
     "input": "1",
     "name": "",
     "notes": [],
@@ -558,6 +570,7 @@
       "h",
       "h"
     ],
+    "index": 12,
     "input": "1,2",
     "name": "Bayonet",
     "notes": [
@@ -602,6 +615,7 @@
       "h",
       "m"
     ],
+    "index": 13,
     "input": "1,2,1",
     "name": "Bayonet Thruster",
     "notes": [
@@ -643,6 +657,7 @@
       "h",
       "m"
     ],
+    "index": 14,
     "input": "1,d+2",
     "name": "Fan Dance",
     "notes": [
@@ -688,6 +703,7 @@
       "m",
       "m"
     ],
+    "index": 15,
     "input": "1,d+2,1+2",
     "name": "Fan Dance > Birds Flock",
     "notes": [
@@ -725,6 +741,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 16,
     "input": "2",
     "name": "",
     "notes": [],
@@ -762,6 +779,7 @@
       "h",
       "m"
     ],
+    "index": 17,
     "input": "2,1",
     "name": "April Showers",
     "notes": [
@@ -802,6 +820,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 18,
     "input": "3",
     "name": "Cloud Kick",
     "notes": [],
@@ -839,6 +858,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 19,
     "input": "4",
     "name": "",
     "notes": [],
@@ -876,6 +896,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 20,
     "input": "1+2",
     "name": "Birds Flock",
     "notes": [],
@@ -917,6 +938,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 21,
     "input": "3+4",
     "name": "Crescent Moon Kick",
     "notes": [
@@ -954,6 +976,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 22,
     "input": "f+2",
     "name": "",
     "notes": [],
@@ -991,6 +1014,7 @@
       "m",
       "h"
     ],
+    "index": 23,
     "input": "f+2,1",
     "name": "",
     "notes": [
@@ -1037,6 +1061,7 @@
       "h",
       "m"
     ],
+    "index": 24,
     "input": "f+2,1,4",
     "name": "Bai Yang Zhuan Wu",
     "notes": [
@@ -1076,6 +1101,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 25,
     "input": "f+3",
     "name": "",
     "notes": [],
@@ -1115,6 +1141,7 @@
       "m",
       "m"
     ],
+    "index": 26,
     "input": "f+3,1",
     "name": "",
     "notes": [
@@ -1159,6 +1186,7 @@
       "m",
       "m"
     ],
+    "index": 27,
     "input": "f+3,1,4",
     "name": "Talons of Fury",
     "notes": [
@@ -1205,6 +1233,7 @@
       "m",
       "m"
     ],
+    "index": 28,
     "input": "f+3,1,1+2",
     "name": "Wings of Fury",
     "notes": [
@@ -1242,6 +1271,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 29,
     "input": "f+4",
     "name": "Swivel Kick",
     "notes": [
@@ -1284,6 +1314,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 30,
     "input": "f+1+2",
     "name": "Clouded Peak",
     "notes": [],
@@ -1317,6 +1348,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 31,
     "input": "f+3+4",
     "name": "Forward Roll",
     "notes": [
@@ -1356,6 +1388,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 32,
     "input": "f+3+4,3+4",
     "name": "Forward Roll > Phoenix Talon",
     "notes": [],
@@ -1391,6 +1424,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 33,
     "input": "df+1",
     "name": "Belly Chop",
     "notes": [
@@ -1428,6 +1462,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 34,
     "input": "df+2",
     "name": "",
     "notes": [],
@@ -1468,6 +1503,7 @@
       "m",
       "h"
     ],
+    "index": 35,
     "input": "df+2,3",
     "name": "Moon Swallow",
     "notes": [],
@@ -1508,6 +1544,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 36,
     "input": "df+3",
     "name": "Phoenix Tail",
     "notes": [
@@ -1550,6 +1587,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 37,
     "input": "df+4",
     "name": "",
     "notes": [],
@@ -1589,6 +1627,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 38,
     "input": "d+1",
     "name": "Sunset Fan",
     "notes": [
@@ -1626,6 +1665,7 @@
     "hitLevels": [
       "s"
     ],
+    "index": 39,
     "input": "d+2",
     "name": "",
     "notes": [
@@ -1663,6 +1703,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 40,
     "input": "d+3",
     "name": "",
     "notes": [],
@@ -1703,6 +1744,7 @@
       "l",
       "h"
     ],
+    "index": 41,
     "input": "d+3,4",
     "name": "Giant Slayer",
     "notes": [
@@ -1742,6 +1784,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 42,
     "input": "d+4",
     "name": "",
     "notes": [
@@ -1775,6 +1818,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 43,
     "input": "d+1+2",
     "name": "Phoenix",
     "notes": [
@@ -1811,6 +1855,7 @@
     "hitLevels": [
       "special"
     ],
+    "index": 44,
     "input": "d+3+4",
     "name": "Spinner",
     "notes": [
@@ -1852,6 +1897,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 46,
     "input": "db+2",
     "name": "Feathered Fan",
     "notes": [],
@@ -1891,6 +1937,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 47,
     "input": "db+3",
     "name": "Knee Cracker",
     "notes": [],
@@ -1928,6 +1975,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 48,
     "input": "db+4",
     "name": "Nutcracker",
     "notes": [],
@@ -1959,6 +2007,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 49,
     "input": "db+1+2",
     "name": "Hypnotist",
     "notes": [
@@ -1999,6 +2048,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 50,
     "input": "b+1",
     "name": "Great Wall Left",
     "notes": [
@@ -2037,6 +2087,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 51,
     "input": "b+2",
     "name": "",
     "notes": [],
@@ -2076,6 +2127,7 @@
       "m",
       "l"
     ],
+    "index": 52,
     "input": "b+2,2",
     "name": "Seven Star Fist",
     "notes": [
@@ -2117,6 +2169,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 53,
     "input": "b+3",
     "name": "Peacock Kick",
     "notes": [
@@ -2154,6 +2207,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 54,
     "input": "b+4",
     "name": "",
     "notes": [],
@@ -2192,6 +2246,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 56,
     "input": "b+1+2",
     "name": "Cross Lifting Palms",
     "notes": [],
@@ -2223,6 +2278,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 57,
     "input": "b+1+3",
     "name": "High Mid Parry",
     "notes": [
@@ -2258,6 +2314,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 58,
     "input": "b+3+4",
     "name": "Rain Dance",
     "notes": [
@@ -2299,6 +2356,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 59,
     "input": "ub+3",
     "name": "From the Ashes",
     "notes": [
@@ -2341,6 +2399,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 60,
     "input": "ub+4",
     "name": "Born of Fire",
     "notes": [],
@@ -2381,6 +2440,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 61,
     "input": "u+1+2",
     "name": "",
     "notes": [],
@@ -2418,6 +2478,7 @@
       "m",
       "m"
     ],
+    "index": 62,
     "input": "u+1+2,2",
     "name": "",
     "notes": [],
@@ -2460,6 +2521,7 @@
       "m",
       "m"
     ],
+    "index": 63,
     "input": "u+1+2,2,1",
     "name": "Fortune Cookie",
     "notes": [
@@ -2502,6 +2564,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 64,
     "input": "uf+1",
     "name": "Silver Needle",
     "notes": [
@@ -2547,6 +2610,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 65,
     "input": "uf+2",
     "name": "Phoenix Flight",
     "notes": [
@@ -2589,6 +2653,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 66,
     "input": "uf+3",
     "name": "Bolting Rabbit",
     "notes": [
@@ -2628,6 +2693,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 67,
     "input": "uf+4",
     "name": "Flare Kick",
     "notes": [
@@ -2668,6 +2734,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 68,
     "input": "uf+3+4",
     "name": "Shooting Star",
     "notes": [
@@ -2711,6 +2778,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 69,
     "input": "uf,n,4",
     "name": "Delayed Rising Toe Kick",
     "notes": [],
@@ -2748,6 +2816,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 70,
     "input": "f,F+1",
     "name": "",
     "notes": [
@@ -2790,6 +2859,7 @@
       "m",
       "h"
     ],
+    "index": 71,
     "input": "f,F+1,3",
     "name": "Poison Flower",
     "notes": [
@@ -2833,6 +2903,7 @@
       "m",
       "m"
     ],
+    "index": 72,
     "input": "f,F+1,4",
     "name": "Eclipsing Moon",
     "notes": [
@@ -2870,6 +2941,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 73,
     "input": "f,F+2",
     "name": "",
     "notes": [],
@@ -2910,6 +2982,7 @@
       "m",
       "m"
     ],
+    "index": 74,
     "input": "f,F+2,1",
     "name": "Fortune",
     "notes": [
@@ -2950,6 +3023,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 75,
     "input": "f,F+3",
     "name": "Raccoon Swing",
     "notes": [],
@@ -2990,6 +3064,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 76,
     "input": "f,F+4",
     "name": "Soaring Blaze",
     "notes": [
@@ -3033,6 +3108,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 77,
     "input": "f,F+1+2",
     "name": "",
     "notes": [
@@ -3076,6 +3152,7 @@
       "m",
       "m"
     ],
+    "index": 78,
     "input": "f,F+1+2,1+2",
     "name": "X Marks the Spot",
     "notes": [
@@ -3115,6 +3192,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 79,
     "input": "f,F+3+4",
     "name": "Front Layout",
     "notes": [
@@ -3155,6 +3233,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 80,
     "input": "f,f,F+3",
     "name": "Diving Falcon",
     "notes": [
@@ -3194,6 +3273,7 @@
     "hitLevels": [
       "s"
     ],
+    "index": 81,
     "input": "FC.1",
     "name": "",
     "notes": [],
@@ -3229,6 +3309,7 @@
     "hitLevels": [
       "s"
     ],
+    "index": 82,
     "input": "FC.2",
     "name": "",
     "notes": [],
@@ -3264,6 +3345,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 83,
     "input": "FC.3",
     "name": "",
     "notes": [],
@@ -3301,6 +3383,7 @@
       "l",
       "h"
     ],
+    "index": 84,
     "input": "FC.3,2",
     "name": "",
     "notes": [
@@ -3344,6 +3427,7 @@
       "h",
       "h"
     ],
+    "index": 85,
     "input": "FC.3,2,1",
     "name": "",
     "notes": [
@@ -3392,6 +3476,7 @@
       "h",
       "m"
     ],
+    "index": 86,
     "input": "FC.3,2,1,4",
     "name": "Fire Dancer",
     "notes": [
@@ -3429,6 +3514,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 87,
     "input": "FC.4",
     "name": "",
     "notes": [],
@@ -3464,6 +3550,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 88,
     "input": "FC.df+2",
     "name": "",
     "notes": [
@@ -3503,6 +3590,7 @@
       "l",
       "l"
     ],
+    "index": 89,
     "input": "FC.df+2,1",
     "name": "Lotus Twist",
     "notes": [
@@ -3540,6 +3628,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 90,
     "input": "FC.df+4",
     "name": "",
     "notes": [
@@ -3580,6 +3669,7 @@
       "l",
       "l"
     ],
+    "index": 91,
     "input": "FC.df+4,4",
     "name": "Flower Garden",
     "notes": [
@@ -3614,6 +3704,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 92,
     "input": "db+3+4",
     "name": "Low Back Turn",
     "notes": [
@@ -3651,6 +3742,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 93,
     "input": "ws1",
     "name": "",
     "notes": [
@@ -3692,6 +3784,7 @@
       "m",
       "m"
     ],
+    "index": 94,
     "input": "ws1,4",
     "name": "Whirlwind Cross Kick",
     "notes": [],
@@ -3730,6 +3823,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 95,
     "input": "ws2",
     "name": "Sunflower",
     "notes": [
@@ -3770,6 +3864,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 96,
     "input": "ws2*",
     "name": "Jasmine Blossom",
     "notes": [
@@ -3813,6 +3908,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 97,
     "input": "ws3",
     "name": "Rising Axe Kick",
     "notes": [],
@@ -3851,6 +3947,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 98,
     "input": "ws4",
     "name": "Skyscraper Kick",
     "notes": [],
@@ -3887,6 +3984,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 99,
     "input": "ws1+2",
     "name": "",
     "notes": [
@@ -3931,6 +4029,7 @@
       "m",
       "m"
     ],
+    "index": 100,
     "input": "ws1+2,1+2",
     "name": "X Marks the Spot",
     "notes": [
@@ -3969,6 +4068,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 102,
     "input": "AOP.1",
     "name": "",
     "notes": [
@@ -4010,6 +4110,7 @@
       "m",
       "h"
     ],
+    "index": 103,
     "input": "AOP.1,2",
     "name": "Double Serving",
     "notes": [
@@ -4052,6 +4153,7 @@
       "m",
       "m"
     ],
+    "index": 104,
     "input": "AOP.1,4",
     "name": "Twin Mandarin Blows",
     "notes": [
@@ -4092,6 +4194,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 105,
     "input": "AOP.2",
     "name": "",
     "notes": [],
@@ -4129,6 +4232,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 107,
     "input": "AOP.3",
     "name": "Piercing Spear Kick",
     "notes": [],
@@ -4164,6 +4268,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 108,
     "input": "AOP.4",
     "name": "Rising Front Kick",
     "notes": [],
@@ -4202,6 +4307,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 109,
     "input": "AOP.1+2",
     "name": "Phoenix Cannon",
     "notes": [],
@@ -4242,6 +4348,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 110,
     "input": "AOP.3+4",
     "name": "Sliding Firecracker",
     "notes": [
@@ -4279,6 +4386,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 111,
     "input": "AOP.f+4",
     "name": "",
     "notes": [
@@ -4319,6 +4427,7 @@
       "l",
       "l"
     ],
+    "index": 112,
     "input": "AOP.f+4,4",
     "name": "Flower Garden",
     "notes": [
@@ -4353,6 +4462,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 113,
     "input": "AOP.f+3+4",
     "name": "Roll Ball",
     "notes": [
@@ -4386,6 +4496,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 114,
     "input": "AOP.d",
     "name": "Butterfly",
     "notes": [
@@ -4423,6 +4534,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 115,
     "input": "AOP.d+1",
     "name": "Phoenix Swipe",
     "notes": [],
@@ -4459,6 +4571,7 @@
       "l",
       "t"
     ],
+    "index": 116,
     "input": "CHAOP.d+1",
     "name": "Return to the Nest",
     "notes": [
@@ -4501,6 +4614,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 117,
     "input": "AOP.d+1+2",
     "name": "Wave Crest",
     "notes": [],
@@ -4539,6 +4653,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 118,
     "input": "AOP.uf+3",
     "name": "",
     "notes": [
@@ -4580,6 +4695,7 @@
       "m",
       "m"
     ],
+    "index": 119,
     "input": "AOP.uf+3,1",
     "name": "Alley-Oop",
     "notes": [
@@ -4623,6 +4739,7 @@
       "m",
       "m"
     ],
+    "index": 120,
     "input": "AOP.uf+3,4",
     "name": "Double Scissor Kick",
     "notes": [
@@ -4662,6 +4779,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 121,
     "input": "AOP.uf+4",
     "name": "",
     "notes": [
@@ -4703,6 +4821,7 @@
       "m",
       "m"
     ],
+    "index": 122,
     "input": "AOP.uf+4,4",
     "name": "Flower Power",
     "notes": [
@@ -4736,6 +4855,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 123,
     "input": "AOP.uf",
     "name": "Jumping",
     "notes": [
@@ -4775,6 +4895,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 124,
     "input": "Whileintheair3",
     "name": "Jumping Pirouette",
     "notes": [
@@ -4818,6 +4939,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 125,
     "input": "Whilelanding4",
     "name": "Crane Kick",
     "notes": [],
@@ -4857,6 +4979,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 126,
     "input": "Whilelanding3",
     "name": "Sky Kick",
     "notes": [],
@@ -4894,6 +5017,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 128,
     "input": "BT.1",
     "name": "",
     "notes": [],
@@ -4935,6 +5059,7 @@
       "m",
       "m"
     ],
+    "index": 129,
     "input": "BT.1,2",
     "name": "Waking Prominence",
     "notes": [],
@@ -4973,6 +5098,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 130,
     "input": "BT.2",
     "name": "",
     "notes": [],
@@ -5010,6 +5136,7 @@
       "h",
       "h"
     ],
+    "index": 131,
     "input": "BT.2,1",
     "name": "",
     "notes": [
@@ -5055,6 +5182,7 @@
       "h",
       "m"
     ],
+    "index": 132,
     "input": "BT.2,1,4",
     "name": "Dark & Stormy",
     "notes": [],
@@ -5092,6 +5220,7 @@
       "h",
       "m"
     ],
+    "index": 133,
     "input": "BT.2,2",
     "name": "",
     "notes": [
@@ -5135,6 +5264,7 @@
       "m",
       "m"
     ],
+    "index": 134,
     "input": "BT.2,2,1",
     "name": "Turn of Fortune",
     "notes": [
@@ -5176,6 +5306,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 135,
     "input": "BT.3",
     "name": "Peg Leg",
     "notes": [
@@ -5218,6 +5349,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 136,
     "input": "BT.4",
     "name": "Mistrust",
     "notes": [],
@@ -5253,6 +5385,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 137,
     "input": "BT.1+2",
     "name": "",
     "notes": [],
@@ -5292,6 +5425,7 @@
       "m",
       "m"
     ],
+    "index": 139,
     "input": "BT.1+2,1+2",
     "name": "Battering Winds",
     "notes": [
@@ -5332,6 +5466,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 140,
     "input": "BT.3+4",
     "name": "Monkey Kick",
     "notes": [],
@@ -5369,6 +5504,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 141,
     "input": "BT.f+1+2",
     "name": "Spinning Push Hands",
     "notes": [
@@ -5403,6 +5539,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 142,
     "input": "BT.f+3+4",
     "name": "",
     "notes": [
@@ -5443,6 +5580,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 143,
     "input": "BT.f+3+4,3+4",
     "name": "Cyclone Left",
     "notes": [
@@ -5482,6 +5620,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 144,
     "input": "BT.d+3",
     "name": "",
     "notes": [],
@@ -5524,6 +5663,7 @@
       "l",
       "h"
     ],
+    "index": 145,
     "input": "BT.d+3,4",
     "name": "Spinning Crane",
     "notes": [
@@ -5569,6 +5709,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 146,
     "input": "BT.d+4",
     "name": "Hou Sao Tui",
     "notes": [
@@ -5606,6 +5747,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 147,
     "input": "BT.d+1+3",
     "name": "Reverse Low Parry",
     "notes": [
@@ -5640,6 +5782,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 148,
     "input": "BT.d+3+4",
     "name": "Spin Tornado Up (Down)",
     "notes": [
@@ -5678,6 +5821,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 149,
     "input": "BT.db+4",
     "name": "Reverse Knee Cracker",
     "notes": [
@@ -5717,6 +5861,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 150,
     "input": "BT.uf+1",
     "name": "Silver Needle",
     "notes": [
@@ -5758,6 +5903,7 @@
     "hitLevels": [
       "m(t)"
     ],
+    "index": 151,
     "input": "BT.f,F+3+4",
     "name": "Back Layout",
     "notes": [
@@ -5800,6 +5946,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 155,
     "input": "HYP.4",
     "name": "Falling Tiger Kick",
     "notes": [],
@@ -5833,6 +5980,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 156,
     "input": "HYP.1+2",
     "name": "Hypnotist",
     "notes": [
@@ -5872,6 +6020,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 157,
     "input": "HYP.3+4",
     "name": "Deadly Orchid",
     "notes": [
@@ -5913,6 +6062,7 @@
     "hitLevels": [
       "!"
     ],
+    "index": 158,
     "input": "HYP.2+3",
     "name": "Thunder Strike",
     "notes": [
@@ -5953,6 +6103,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 159,
     "input": "ss4",
     "name": "Street Sweeper",
     "notes": [],
@@ -5991,6 +6142,7 @@
       "m",
       "t"
     ],
+    "index": 160,
     "input": "R.df+1+2",
     "name": "Wang's Celestial Epic",
     "notes": [
@@ -6032,6 +6184,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 161,
     "input": "1+3+4",
     "name": "False Salute",
     "notes": [],
@@ -6063,6 +6216,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 162,
     "input": "2+3+4",
     "name": "Greetings",
     "notes": [],
@@ -6094,6 +6248,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 163,
     "input": "1+2+3+4",
     "name": "Ki Charge",
     "notes": [],
@@ -6131,6 +6286,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 164,
     "input": "1+3",
     "name": "Jade",
     "notes": [
@@ -6170,6 +6326,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 165,
     "input": "2+4",
     "name": "Ruby",
     "notes": [
@@ -6210,6 +6367,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 166,
     "input": "LeftThrow",
     "name": "Arm Flip",
     "notes": [
@@ -6249,6 +6407,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 167,
     "input": "RightThrow",
     "name": "Dump the Bucket",
     "notes": [
@@ -6288,6 +6447,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 168,
     "input": "BackThrow",
     "name": "Crank up",
     "notes": [
@@ -6327,6 +6487,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 169,
     "input": "f+2+3",
     "name": "Wang's Waning Moon",
     "notes": [
@@ -6370,6 +6531,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 170,
     "input": "df+2+4",
     "name": "Dragon Fall",
     "notes": [
@@ -6412,6 +6574,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 171,
     "input": "uf+1+2",
     "name": "Dislocator",
     "notes": [
@@ -6452,6 +6615,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 172,
     "input": "BT.f+1+3",
     "name": "Bei Shen Zhuan Wu",
     "notes": [
@@ -6493,6 +6657,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 173,
     "input": "BT.f+2+3",
     "name": "Wang's Waning Moon (BT)",
     "notes": [
@@ -6535,6 +6700,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 174,
     "input": "AOP.1+3",
     "name": "Feng Huang Zhuan Wu",
     "notes": [

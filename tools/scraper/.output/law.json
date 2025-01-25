@@ -28,6 +28,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 0,
     "input": "2+3",
     "name": "Heat Burst",
     "notes": [],
@@ -73,6 +74,7 @@
       "m",
       "t"
     ],
+    "index": 1,
     "input": "H.2+3",
     "name": "Heavenly Dragon",
     "notes": [
@@ -120,6 +122,7 @@
       "h",
       "m"
     ],
+    "index": 2,
     "input": "1,1,1",
     "name": "Furious Rush",
     "notes": [
@@ -168,6 +171,7 @@
       "m",
       "m"
     ],
+    "index": 3,
     "input": "b+1,2,2",
     "name": "Dragon Storm",
     "notes": [
@@ -213,6 +217,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 4,
     "input": "uf+3",
     "name": "Dragon's Fury",
     "notes": [],
@@ -255,6 +260,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 5,
     "input": "f,F+3",
     "name": "Dragon Cannon",
     "notes": [
@@ -299,6 +305,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 6,
     "input": "DSS.f+1",
     "name": "Dragon Roar",
     "notes": [
@@ -345,6 +352,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 7,
     "input": "H.1+2",
     "name": "Tornado Claw",
     "notes": [
@@ -388,6 +396,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 8,
     "input": "H.DSS,P",
     "name": "Dragon Parry",
     "notes": [
@@ -427,6 +436,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 9,
     "input": "1",
     "name": "Jab",
     "notes": [],
@@ -464,6 +474,7 @@
       "h",
       "h"
     ],
+    "index": 10,
     "input": "1,1",
     "name": "",
     "notes": [],
@@ -503,6 +514,7 @@
       "h",
       "h"
     ],
+    "index": 12,
     "input": "1,1,2",
     "name": "Knuckle Barrage Combo",
     "notes": [
@@ -543,6 +555,7 @@
       "h",
       "h"
     ],
+    "index": 13,
     "input": "1,2",
     "name": "Left Right Combo",
     "notes": [
@@ -585,6 +598,7 @@
       "h",
       "m"
     ],
+    "index": 14,
     "input": "1,2,2",
     "name": "",
     "notes": [],
@@ -628,6 +642,7 @@
       "m",
       "h"
     ],
+    "index": 15,
     "input": "1,2,2,2",
     "name": "Left Right Dragon Fist Combo",
     "notes": [
@@ -677,6 +692,7 @@
       "m",
       "m"
     ],
+    "index": 16,
     "input": "1,2,2,1+2",
     "name": "Left Right Blazing Fist Combo",
     "notes": [],
@@ -718,6 +734,7 @@
       "h",
       "m"
     ],
+    "index": 17,
     "input": "1,2,3",
     "name": "Left Right > Knee",
     "notes": [
@@ -759,6 +776,7 @@
       "h",
       "Special"
     ],
+    "index": 18,
     "input": "1,2,uf+3",
     "name": "Left Right Combo > Somersault",
     "notes": [],
@@ -800,6 +818,7 @@
       "Special",
       "m"
     ],
+    "index": 19,
     "input": "1,2,uf+3,4",
     "name": "Left Right Combo > Somersault Feint",
     "notes": [],
@@ -835,6 +854,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 20,
     "input": "2",
     "name": "Right Jab",
     "notes": [],
@@ -872,6 +892,7 @@
       "h",
       "m"
     ],
+    "index": 21,
     "input": "2,2",
     "name": "",
     "notes": [],
@@ -913,6 +934,7 @@
       "m",
       "h"
     ],
+    "index": 22,
     "input": "2,2,2",
     "name": "Rave War Combo",
     "notes": [
@@ -959,6 +981,7 @@
       "m",
       "m"
     ],
+    "index": 23,
     "input": "2,2,1+2",
     "name": "Blazing Fist Combo",
     "notes": [
@@ -1001,6 +1024,7 @@
       "h",
       "h"
     ],
+    "index": 24,
     "input": "2,b+2",
     "name": "",
     "notes": [
@@ -1043,6 +1067,7 @@
       "h",
       "h"
     ],
+    "index": 25,
     "input": "2,b+2,1",
     "name": "",
     "notes": [
@@ -1091,6 +1116,7 @@
       "h",
       "m"
     ],
+    "index": 26,
     "input": "2,b+2,1,2",
     "name": "Rage Dragon Combo",
     "notes": [
@@ -1130,6 +1156,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 27,
     "input": "3",
     "name": "High Kick",
     "notes": [],
@@ -1170,6 +1197,7 @@
       "h",
       "m"
     ],
+    "index": 28,
     "input": "3,3",
     "name": "Feint > Middle Kick",
     "notes": [
@@ -1213,6 +1241,7 @@
       "h",
       "h"
     ],
+    "index": 29,
     "input": "3,4",
     "name": "High Kick > Bloody Cleaver",
     "notes": [
@@ -1252,6 +1281,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 30,
     "input": "4",
     "name": "Right High Kick",
     "notes": [],
@@ -1291,6 +1321,7 @@
       "h",
       "h"
     ],
+    "index": 31,
     "input": "4,3",
     "name": "",
     "notes": [
@@ -1338,6 +1369,7 @@
       "h",
       "h"
     ],
+    "index": 32,
     "input": "4,3,4",
     "name": "Shaolin Spin Kicks",
     "notes": [
@@ -1383,6 +1415,7 @@
       "h",
       "m"
     ],
+    "index": 33,
     "input": "4,u+3",
     "name": "Crescent Kick Combo",
     "notes": [],
@@ -1426,6 +1459,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 34,
     "input": "1+2",
     "name": "Tornado Claw",
     "notes": [
@@ -1471,6 +1505,7 @@
       "m",
       "m"
     ],
+    "index": 35,
     "input": "3+4",
     "name": "",
     "notes": [],
@@ -1513,6 +1548,7 @@
       "m",
       "h"
     ],
+    "index": 36,
     "input": "3+4,4",
     "name": "Wild Dragon's Flight",
     "notes": [
@@ -1555,6 +1591,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 37,
     "input": "f+2",
     "name": "",
     "notes": [
@@ -1598,6 +1635,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 38,
     "input": "f+2~1",
     "name": "Poison Arrow",
     "notes": [
@@ -1640,6 +1678,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 39,
     "input": "f+3",
     "name": "",
     "notes": [],
@@ -1677,6 +1716,7 @@
       "m",
       "m"
     ],
+    "index": 40,
     "input": "f+3,1",
     "name": "Plunging Knock",
     "notes": [
@@ -1721,6 +1761,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 41,
     "input": "f+1+2",
     "name": "Dragon Hammer",
     "notes": [],
@@ -1760,6 +1801,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 42,
     "input": "f+3+4",
     "name": "Dragon Killer",
     "notes": [],
@@ -1795,6 +1837,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 43,
     "input": "df+1",
     "name": "",
     "notes": [],
@@ -1832,6 +1875,7 @@
       "m",
       "l"
     ],
+    "index": 44,
     "input": "df+1,3",
     "name": "",
     "notes": [],
@@ -1871,6 +1915,7 @@
       "l",
       "m"
     ],
+    "index": 45,
     "input": "df+1,3,2",
     "name": "",
     "notes": [],
@@ -1909,6 +1954,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 46,
     "input": "df+2",
     "name": "Dragon Raise",
     "notes": [],
@@ -1947,6 +1993,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 47,
     "input": "df+3",
     "name": "Dragon Lance",
     "notes": [],
@@ -1982,6 +2029,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 48,
     "input": "df+4",
     "name": "Right Middle Kick",
     "notes": [],
@@ -2023,6 +2071,7 @@
       "m",
       "m"
     ],
+    "index": 49,
     "input": "df+4,3",
     "name": "Right Middle Kick > Somersault Kick",
     "notes": [
@@ -2066,6 +2115,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 51,
     "input": "df+3+4",
     "name": "Banana Peel",
     "notes": [],
@@ -2101,6 +2151,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 52,
     "input": "d+1",
     "name": "Low Backhand",
     "notes": [],
@@ -2144,6 +2195,7 @@
       "l",
       "h"
     ],
+    "index": 53,
     "input": "d+1,3",
     "name": "Low Backhand > High Kick",
     "notes": [
@@ -2183,6 +2235,7 @@
     "hitLevels": [
       "s"
     ],
+    "index": 54,
     "input": "d+2",
     "name": "Body Blow",
     "notes": [],
@@ -2223,6 +2276,7 @@
       "s",
       "m"
     ],
+    "index": 55,
     "input": "d+2,3",
     "name": "Body Blow > Dragon Lift",
     "notes": [
@@ -2262,6 +2316,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 56,
     "input": "d+3",
     "name": "Dragon Low",
     "notes": [],
@@ -2303,6 +2358,7 @@
       "l",
       "h"
     ],
+    "index": 57,
     "input": "d+3,3",
     "name": "Dragon Low > Hook Kick",
     "notes": [
@@ -2342,6 +2398,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 58,
     "input": "d+4",
     "name": "",
     "notes": [],
@@ -2379,6 +2436,7 @@
       "l",
       "h"
     ],
+    "index": 59,
     "input": "d+4,3",
     "name": "Construct Kick",
     "notes": [
@@ -2418,6 +2476,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 60,
     "input": "d+3+4",
     "name": "Low Kick",
     "notes": [],
@@ -2457,6 +2516,7 @@
       "l",
       "m"
     ],
+    "index": 61,
     "input": "d+3+4,3",
     "name": "Low Kick > Somersault",
     "notes": [
@@ -2497,6 +2557,7 @@
     "hitLevels": [
       "s"
     ],
+    "index": 62,
     "input": "db+1",
     "name": "Crouch Jab",
     "notes": [],
@@ -2532,6 +2593,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 63,
     "input": "db+2",
     "name": "",
     "notes": [],
@@ -2571,6 +2633,7 @@
       "m",
       "m"
     ],
+    "index": 64,
     "input": "db+2,4",
     "name": "Elbow Spring Kick",
     "notes": [],
@@ -2610,6 +2673,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 65,
     "input": "db+3",
     "name": "Shin Crusher",
     "notes": [],
@@ -2647,6 +2711,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 66,
     "input": "db+4",
     "name": "Dragon's Tail",
     "notes": [],
@@ -2689,6 +2754,7 @@
       "l",
       "m"
     ],
+    "index": 67,
     "input": "db+4,4",
     "name": "Dragon's Tail > Somersault Kick",
     "notes": [],
@@ -2724,6 +2790,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 68,
     "input": "b+1",
     "name": "",
     "notes": [
@@ -2764,6 +2831,7 @@
       "m",
       "m"
     ],
+    "index": 69,
     "input": "b+1,2",
     "name": "",
     "notes": [
@@ -2804,6 +2872,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 71,
     "input": "b+2",
     "name": "",
     "notes": [],
@@ -2843,6 +2912,7 @@
       "m",
       "m"
     ],
+    "index": 72,
     "input": "b+2,1",
     "name": "Vortex Rush",
     "notes": [
@@ -2887,6 +2957,7 @@
       "m",
       "h"
     ],
+    "index": 73,
     "input": "b+2,2",
     "name": "Knuckle Rush",
     "notes": [
@@ -2929,6 +3000,7 @@
       "m",
       "l"
     ],
+    "index": 74,
     "input": "b+2,3",
     "name": "",
     "notes": [],
@@ -2971,6 +3043,7 @@
       "l",
       "m"
     ],
+    "index": 75,
     "input": "b+2,3,4",
     "name": "Junkyard Kick",
     "notes": [
@@ -3019,6 +3092,7 @@
       "l",
       "l"
     ],
+    "index": 76,
     "input": "b+2,3,d+4",
     "name": "Dragon Rush Combo",
     "notes": [],
@@ -3057,6 +3131,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 77,
     "input": "b+3",
     "name": "Dragon Spin Kick",
     "notes": [
@@ -3098,6 +3173,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 78,
     "input": "b+4",
     "name": "",
     "notes": [
@@ -3143,6 +3219,7 @@
       "m",
       "h"
     ],
+    "index": 79,
     "input": "b+4,3",
     "name": "Tiger Fang",
     "notes": [
@@ -3185,6 +3262,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 80,
     "input": "b+1+2",
     "name": "Dragon Stinger",
     "notes": [],
@@ -3218,6 +3296,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 81,
     "input": "b+1+3",
     "name": "Parry",
     "notes": [
@@ -3258,6 +3337,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 82,
     "input": "b+2+4",
     "name": "Dragon Parry",
     "notes": [
@@ -3300,6 +3380,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 83,
     "input": "b+3+4",
     "name": "Dragon Arrow",
     "notes": [
@@ -3339,6 +3420,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 84,
     "input": "ub+2",
     "name": "generic hook",
     "notes": [],
@@ -3383,6 +3465,7 @@
       "h",
       "h"
     ],
+    "index": 85,
     "input": "ub+1,2,1,2",
     "name": "Fury Fist Rush",
     "notes": [
@@ -3419,6 +3502,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 86,
     "input": "ub+3",
     "name": "Somersault",
     "notes": [
@@ -3460,6 +3544,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 87,
     "input": "ub+3,4",
     "name": "Somersault Fake",
     "notes": [],
@@ -3501,6 +3586,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 88,
     "input": "u+4",
     "name": "Rising Toe Kick",
     "notes": [],
@@ -3536,6 +3622,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 89,
     "input": "uf+1",
     "name": "Blackout",
     "notes": [
@@ -3576,6 +3663,7 @@
       "h",
       "l"
     ],
+    "index": 90,
     "input": "uf+1,3",
     "name": "Blackout > Muggin'",
     "notes": [
@@ -3619,6 +3707,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 92,
     "input": "uf+4",
     "name": "Dragon's Rising Kick",
     "notes": [],
@@ -3654,6 +3743,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 93,
     "input": "uf+3+4",
     "name": "Dragon's Descent",
     "notes": [],
@@ -3692,6 +3782,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 94,
     "input": "uf,n,4",
     "name": "Dragon's Rising Cannon",
     "notes": [],
@@ -3730,6 +3821,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 95,
     "input": "UF+4",
     "name": "Somersault Kick",
     "notes": [
@@ -3772,6 +3864,7 @@
       "m",
       "m"
     ],
+    "index": 96,
     "input": "UF+4,3",
     "name": "Backflipper",
     "notes": [
@@ -3816,6 +3909,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 97,
     "input": "f,F+2",
     "name": "Dragon's Poke",
     "notes": [],
@@ -3853,6 +3947,7 @@
       "m",
       "h"
     ],
+    "index": 98,
     "input": "f,F+2,1",
     "name": "",
     "notes": [],
@@ -3894,6 +3989,7 @@
       "h",
       "m"
     ],
+    "index": 99,
     "input": "f,F+2,1,3",
     "name": "Dragon Strike Combo",
     "notes": [
@@ -3939,6 +4035,7 @@
       "m",
       "h"
     ],
+    "index": 100,
     "input": "f,F+2,3",
     "name": "Dragon Dagger",
     "notes": [
@@ -3986,6 +4083,7 @@
       "m",
       "m"
     ],
+    "index": 101,
     "input": "f,F+2,f+1+2",
     "name": "Dragon's Poke > Poison Arrow",
     "notes": [
@@ -4028,6 +4126,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 103,
     "input": "f,F+4",
     "name": "Dragon's Leap Shot",
     "notes": [],
@@ -4069,6 +4168,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 104,
     "input": "f,f,F+3",
     "name": "Running Side Kick",
     "notes": [
@@ -4111,6 +4211,7 @@
     "hitLevels": [
       "m!"
     ],
+    "index": 105,
     "input": "b,B+2+3",
     "name": "Charge Power Punch",
     "notes": [],
@@ -4146,6 +4247,7 @@
     "hitLevels": [
       "s"
     ],
+    "index": 106,
     "input": "FC.1",
     "name": "Crouch Jab",
     "notes": [],
@@ -4181,6 +4283,7 @@
     "hitLevels": [
       "s"
     ],
+    "index": 107,
     "input": "FC.2",
     "name": "Body Blow",
     "notes": [],
@@ -4216,6 +4319,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 108,
     "input": "FC.3",
     "name": "",
     "notes": [],
@@ -4256,6 +4360,7 @@
       "l",
       "m"
     ],
+    "index": 109,
     "input": "FC.3,4",
     "name": "Double Impact",
     "notes": [],
@@ -4291,6 +4396,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 110,
     "input": "FC.4",
     "name": "Low Kick",
     "notes": [],
@@ -4330,6 +4436,7 @@
       "l",
       "m"
     ],
+    "index": 111,
     "input": "FC.4,3",
     "name": "Low Kick > Somersault",
     "notes": [
@@ -4372,6 +4479,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 112,
     "input": "FC.UF+3+4",
     "name": "Rainbow Kick",
     "notes": [],
@@ -4408,6 +4516,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 113,
     "input": "FC.df,d,df+3",
     "name": "Slide Kick",
     "notes": [
@@ -4445,6 +4554,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 114,
     "input": "ws1",
     "name": "",
     "notes": [
@@ -4488,6 +4598,7 @@
       "m",
       "h"
     ],
+    "index": 115,
     "input": "ws1,2",
     "name": "Flash Fist",
     "notes": [
@@ -4530,6 +4641,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 116,
     "input": "ws2",
     "name": "Dragon Uppercut",
     "notes": [],
@@ -4567,6 +4679,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 117,
     "input": "ws3",
     "name": "Side Kick",
     "notes": [
@@ -4605,6 +4718,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 118,
     "input": "ws4",
     "name": "",
     "notes": [
@@ -4648,6 +4762,7 @@
       "m",
       "m"
     ],
+    "index": 119,
     "input": "ws4,3",
     "name": "Front Kick Somersault Variation",
     "notes": [
@@ -4691,6 +4806,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 120,
     "input": "ws3+4",
     "name": "Catapult Kick",
     "notes": [],
@@ -4724,6 +4840,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 121,
     "input": "d+1+2",
     "name": "Dragon Charge",
     "notes": [
@@ -4764,6 +4881,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 122,
     "input": "DSS.1",
     "name": "Dragon Knuckle",
     "notes": [
@@ -4807,6 +4925,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 123,
     "input": "DSS.2",
     "name": "Cloud Gates",
     "notes": [
@@ -4848,6 +4967,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 124,
     "input": "DSS.3",
     "name": "Dragon Charge Spin Kick",
     "notes": [
@@ -4892,6 +5012,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 125,
     "input": "DSS.4",
     "name": "Dragon Charge Kick",
     "notes": [],
@@ -4931,6 +5052,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 126,
     "input": "DSS.1+2",
     "name": "Tornado Claw",
     "notes": [
@@ -4976,6 +5098,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 128,
     "input": "DSS.f+2~1",
     "name": "Poison Arrow",
     "notes": [
@@ -5021,6 +5144,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 129,
     "input": "DSS.f+3",
     "name": "Dragon Cannon",
     "notes": [
@@ -5067,6 +5191,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 130,
     "input": "DSS.f+4",
     "name": "Dragon's Flight",
     "notes": [
@@ -5110,6 +5235,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 131,
     "input": "DSS.uf+1+2",
     "name": "Facelift",
     "notes": [],
@@ -5145,6 +5271,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 132,
     "input": "BT.1",
     "name": "Turning Knuckles",
     "notes": [],
@@ -5182,6 +5309,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 133,
     "input": "BT.2",
     "name": "",
     "notes": [],
@@ -5222,6 +5350,7 @@
       "m",
       "m"
     ],
+    "index": 134,
     "input": "BT.2,2",
     "name": "Blind Elbow Combo",
     "notes": [
@@ -5260,6 +5389,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 135,
     "input": "BT.3",
     "name": "",
     "notes": [],
@@ -5295,6 +5425,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 136,
     "input": "BT.4",
     "name": "",
     "notes": [],
@@ -5335,6 +5466,7 @@
       "h",
       "m"
     ],
+    "index": 137,
     "input": "BT.4,3",
     "name": "Wolf Fang",
     "notes": [
@@ -5376,6 +5508,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 138,
     "input": "BT.1+2",
     "name": "Dragon Back Blow",
     "notes": [],
@@ -5414,6 +5547,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 139,
     "input": "BT.d+3",
     "name": "",
     "notes": [],
@@ -5453,6 +5587,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 140,
     "input": "BT.d+4",
     "name": "Reverse Low",
     "notes": [],
@@ -5488,6 +5623,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 141,
     "input": "BT.d+3+4",
     "name": "Frogman",
     "notes": [
@@ -5529,6 +5665,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 142,
     "input": "ss2",
     "name": "Spinning Dragon Blow",
     "notes": [
@@ -5570,6 +5707,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 143,
     "input": "ss3",
     "name": "Low Crush",
     "notes": [
@@ -5612,6 +5750,7 @@
       "h",
       "m"
     ],
+    "index": 144,
     "input": "ss1+2",
     "name": "",
     "notes": [],
@@ -5656,6 +5795,7 @@
       "m",
       "m"
     ],
+    "index": 145,
     "input": "ss1+2,1",
     "name": "Dragon Judgment",
     "notes": [],
@@ -5696,6 +5836,7 @@
       "m",
       "h"
     ],
+    "index": 146,
     "input": "ss3+4",
     "name": "Double Dragon",
     "notes": [],
@@ -5736,6 +5877,7 @@
       "m",
       "t"
     ],
+    "index": 147,
     "input": "R.df+1+2",
     "name": "Fate of the Dragon",
     "notes": [
@@ -5777,6 +5919,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 148,
     "input": "1+2+3+4",
     "name": "Ki Charge",
     "notes": [],
@@ -5812,6 +5955,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 149,
     "input": "1+2+3+4~1",
     "name": "Blackout",
     "notes": [
@@ -5853,6 +5997,7 @@
       "h",
       "l"
     ],
+    "index": 150,
     "input": "1+2+3+4~1,3",
     "name": "Blackout > Muggin'",
     "notes": [
@@ -5895,6 +6040,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 152,
     "input": "1+2+3+4,2",
     "name": "Cloud Gates",
     "notes": [
@@ -5929,6 +6075,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 153,
     "input": "(Whiledown,facingup)1+2+3+4",
     "name": "Taunt",
     "notes": [],
@@ -5960,6 +6107,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 154,
     "input": "2+3+4",
     "name": "Taunt",
     "notes": [],
@@ -5998,6 +6146,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 155,
     "input": "(Backtowall).b,b,ub",
     "name": "Wall Jump Attack",
     "notes": [],
@@ -6036,6 +6185,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 156,
     "input": "1+3",
     "name": "Dragon's Fire",
     "notes": [],
@@ -6074,6 +6224,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 157,
     "input": "2+4",
     "name": "Hopping Frog",
     "notes": [
@@ -6117,6 +6268,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 158,
     "input": "LeftThrow",
     "name": "Headlock Kick",
     "notes": [],
@@ -6155,6 +6307,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 159,
     "input": "RightThrow",
     "name": "Ball Breaker",
     "notes": [],
@@ -6193,6 +6346,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 160,
     "input": "BackThrow",
     "name": "Dragon Bites",
     "notes": [],
@@ -6230,6 +6384,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 161,
     "input": "f+2+3",
     "name": "Run Up > Drop",
     "notes": [],
@@ -6267,6 +6422,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 162,
     "input": "uf+1+2",
     "name": "Headlock Punch",
     "notes": [],
@@ -6304,6 +6460,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 163,
     "input": "uf+1+2,2,1,1+2",
     "name": "Headlock Drop",
     "notes": [
@@ -6346,6 +6503,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 164,
     "input": "f,F+3+4",
     "name": "Knee Lift",
     "notes": [],
@@ -6377,6 +6535,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 165,
     "input": "df+1,3,2,2,3,3,3,4,4,4",
     "name": "10 Hit Combo",
     "notes": [],

@@ -28,6 +28,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 0,
     "input": "2+3",
     "name": "Heat Burst",
     "notes": [
@@ -73,6 +74,7 @@
       "m",
       "m"
     ],
+    "index": 1,
     "input": "H.2+3",
     "name": "Divine Dominance of Annihilation",
     "notes": [
@@ -124,6 +126,7 @@
       "m",
       "m"
     ],
+    "index": 2,
     "input": "H.WRA.2+3",
     "name": "Divine Wrath of Annihilation",
     "notes": [
@@ -174,6 +177,7 @@
       "m",
       "m"
     ],
+    "index": 3,
     "input": "3,4,H.4",
     "name": "Senjomanji Lethal Fury",
     "notes": [
@@ -222,6 +226,7 @@
       "m",
       "m"
     ],
+    "index": 4,
     "input": "3+4,4,H.4",
     "name": "Aerial Manji Lethal Fury",
     "notes": [
@@ -266,6 +271,7 @@
       "m",
       "m"
     ],
+    "index": 5,
     "input": "f+3+4,H.4",
     "name": "Ouhen Manji Lethal Fury",
     "notes": [
@@ -310,6 +316,7 @@
       "m",
       "m"
     ],
+    "index": 6,
     "input": "f+3+4*,H.4",
     "name": "",
     "notes": [
@@ -347,6 +354,7 @@
     "hitLevels": [
       "sp"
     ],
+    "index": 7,
     "input": "H.d+1+2",
     "name": "Charging Hard",
     "notes": [
@@ -391,6 +399,7 @@
       "m",
       "m"
     ],
+    "index": 8,
     "input": "df+1,2",
     "name": "Muso Basara",
     "notes": [
@@ -435,6 +444,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 9,
     "input": "f,F+3",
     "name": "Trailokya Splits Kick",
     "notes": [],
@@ -476,6 +486,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 10,
     "input": "SEN.3",
     "name": "Sen Kaijo-geri",
     "notes": [
@@ -521,6 +532,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 11,
     "input": "UNS.4",
     "name": "Unpu Tobi-Manji",
     "notes": [
@@ -567,6 +579,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 12,
     "input": "WRA.2",
     "name": "Iron Hand",
     "notes": [
@@ -608,6 +621,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 13,
     "input": "1",
     "name": "Jab",
     "notes": [],
@@ -645,6 +659,7 @@
       "h",
       "h"
     ],
+    "index": 14,
     "input": "1,1",
     "name": "",
     "notes": [],
@@ -684,6 +699,7 @@
       "h",
       "m"
     ],
+    "index": 15,
     "input": "1,1,2",
     "name": "Flash Punch Combo",
     "notes": [
@@ -728,6 +744,7 @@
       "h",
       "h"
     ],
+    "index": 16,
     "input": "1,2",
     "name": "One Two Strike",
     "notes": [],
@@ -767,6 +784,7 @@
       "h",
       "h"
     ],
+    "index": 17,
     "input": "1,2,2",
     "name": "Back Fist Combo",
     "notes": [
@@ -811,6 +829,7 @@
       "h",
       "m"
     ],
+    "index": 18,
     "input": "1,2,3",
     "name": "",
     "notes": [
@@ -862,6 +881,7 @@
       "m",
       "h"
     ],
+    "index": 19,
     "input": "1,2,3,4",
     "name": "Sting the Works",
     "notes": [
@@ -903,6 +923,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 20,
     "input": "2",
     "name": "",
     "notes": [],
@@ -941,6 +962,7 @@
       "h",
       "h"
     ],
+    "index": 21,
     "input": "2,2",
     "name": "",
     "notes": [
@@ -985,6 +1007,7 @@
       "h",
       "m"
     ],
+    "index": 22,
     "input": "2,2,1",
     "name": "Ganzan Basara",
     "notes": [
@@ -1033,6 +1056,7 @@
       "h",
       "m"
     ],
+    "index": 23,
     "input": "2,2,2",
     "name": "",
     "notes": [
@@ -1084,6 +1108,7 @@
       "m",
       "m"
     ],
+    "index": 24,
     "input": "2,2,2,1",
     "name": "Bishamon Massacre",
     "notes": [
@@ -1135,6 +1160,7 @@
       "m",
       "m"
     ],
+    "index": 25,
     "input": "2,2,2,2",
     "name": "Raging Bishamon",
     "notes": [
@@ -1182,6 +1208,7 @@
       "m",
       "m"
     ],
+    "index": 26,
     "input": "2~1",
     "name": "Ondeko",
     "notes": [
@@ -1224,6 +1251,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 27,
     "input": "3",
     "name": "",
     "notes": [],
@@ -1266,6 +1294,7 @@
       "h",
       "h"
     ],
+    "index": 28,
     "input": "3,2",
     "name": "Senjo-zuki",
     "notes": [
@@ -1310,6 +1339,7 @@
       "h",
       "m"
     ],
+    "index": 29,
     "input": "3,4",
     "name": "Senjo-manji",
     "notes": [],
@@ -1350,6 +1380,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 30,
     "input": "4",
     "name": "Nobility Hunter",
     "notes": [
@@ -1394,6 +1425,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 31,
     "input": "1+2",
     "name": "Demon Breath",
     "notes": [],
@@ -1433,6 +1465,7 @@
       "m",
       "m"
     ],
+    "index": 32,
     "input": "3+4",
     "name": "",
     "notes": [],
@@ -1477,6 +1510,7 @@
       "m",
       "m"
     ],
+    "index": 33,
     "input": "3+4,4",
     "name": "Aerial Manji-geri",
     "notes": [],
@@ -1508,6 +1542,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 34,
     "input": "1+4",
     "name": "Fukuteki",
     "notes": [
@@ -1546,6 +1581,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 35,
     "input": "f+2",
     "name": "",
     "notes": [],
@@ -1584,6 +1620,7 @@
       "h",
       "m"
     ],
+    "index": 36,
     "input": "f+2,3",
     "name": "Sousoku Rengeki",
     "notes": [
@@ -1621,6 +1658,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 37,
     "input": "f+3",
     "name": "Sentai",
     "notes": [],
@@ -1663,6 +1701,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 38,
     "input": "f+4",
     "name": "Kamadhatu Splits Kick",
     "notes": [
@@ -1703,6 +1742,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 39,
     "input": "f+1+2",
     "name": "Senshin-zuki",
     "notes": [],
@@ -1743,6 +1783,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 40,
     "input": "f+3+4",
     "name": "Ouhen Manji-geri",
     "notes": [
@@ -1782,6 +1823,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 41,
     "input": "f+3+4*",
     "name": "Ouhen Fubi Manji-geri",
     "notes": [
@@ -1820,6 +1862,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 42,
     "input": "df+1",
     "name": "",
     "notes": [
@@ -1860,6 +1903,7 @@
       "m",
       "h"
     ],
+    "index": 43,
     "input": "df+1,1",
     "name": "Muso Tensho",
     "notes": [
@@ -1902,6 +1946,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 45,
     "input": "df+2",
     "name": "Queen Bee Stinger",
     "notes": [
@@ -1938,6 +1983,7 @@
     "hitLevels": [
       "sp"
     ],
+    "index": 46,
     "input": "df+3",
     "name": "Wind God Step",
     "notes": [
@@ -1975,6 +2021,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 47,
     "input": "df+4",
     "name": "",
     "notes": [],
@@ -2012,6 +2059,7 @@
       "m",
       "m"
     ],
+    "index": 48,
     "input": "df+4,2",
     "name": "",
     "notes": [
@@ -2059,6 +2107,7 @@
       "m",
       "h"
     ],
+    "index": 49,
     "input": "df+4,2,3",
     "name": "Gekirosatsu",
     "notes": [
@@ -2102,6 +2151,7 @@
       "m",
       "h"
     ],
+    "index": 50,
     "input": "df+3+4",
     "name": "",
     "notes": [],
@@ -2139,6 +2189,7 @@
       "m",
       "t"
     ],
+    "index": 51,
     "input": "CH.df+3+4",
     "name": "Nen Dougarami",
     "notes": [],
@@ -2183,6 +2234,7 @@
       "h",
       "m"
     ],
+    "index": 52,
     "input": "df+3+4,4",
     "name": "Kasho Maki-manji",
     "notes": [],
@@ -2218,6 +2270,7 @@
     "hitLevels": [
       "sm"
     ],
+    "index": 53,
     "input": "d+1",
     "name": "Crouch Jab",
     "notes": [
@@ -2261,6 +2314,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 54,
     "input": "d+2",
     "name": "Tecchuu-ate",
     "notes": [],
@@ -2296,6 +2350,7 @@
     "hitLevels": [
       "sp"
     ],
+    "index": 55,
     "input": "d+3",
     "name": "Unsoku Kou",
     "notes": [
@@ -2337,6 +2392,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 56,
     "input": "d+4",
     "name": "Crouch Chin Kick",
     "notes": [],
@@ -2370,6 +2426,7 @@
     "hitLevels": [
       "sp"
     ],
+    "index": 57,
     "input": "d+1+2",
     "name": "Heaven's Wrath",
     "notes": [],
@@ -2408,6 +2465,7 @@
       "l",
       "l"
     ],
+    "index": 58,
     "input": "db+2",
     "name": "Eisaimon",
     "notes": [],
@@ -2443,6 +2501,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 59,
     "input": "db+4",
     "name": "",
     "notes": [],
@@ -2483,6 +2542,7 @@
       "L",
       "m"
     ],
+    "index": 60,
     "input": "db+4,1+2",
     "name": "Un Oshi-kuzushi",
     "notes": [
@@ -2524,6 +2584,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 61,
     "input": "b+1",
     "name": "",
     "notes": [],
@@ -2561,6 +2622,7 @@
       "h",
       "m"
     ],
+    "index": 62,
     "input": "b+1,1",
     "name": "",
     "notes": [
@@ -2604,6 +2666,7 @@
       "m",
       "m"
     ],
+    "index": 63,
     "input": "b+1,1,3",
     "name": "",
     "notes": [
@@ -2653,6 +2716,7 @@
       "m",
       "m"
     ],
+    "index": 64,
     "input": "b+1,1,3,3",
     "name": "Hen-in 4 Hit Combo",
     "notes": [],
@@ -2689,6 +2753,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 65,
     "input": "b+2",
     "name": "Sin Smiter",
     "notes": [],
@@ -2722,6 +2787,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 66,
     "input": "b+3",
     "name": "Unsoku Gen",
     "notes": [
@@ -2770,6 +2836,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 67,
     "input": "b+4",
     "name": "Ebi-geri",
     "notes": [],
@@ -2803,6 +2870,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 68,
     "input": "b+1+3",
     "name": "Tatenashi",
     "notes": [
@@ -2849,6 +2917,7 @@
     "hitLevels": [
       "ub(m)"
     ],
+    "index": 69,
     "input": "b+1+4",
     "name": "Clairvoyant Fatal Violet",
     "notes": [
@@ -2890,6 +2959,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 70,
     "input": "b+1+2",
     "name": "Kugai Dachi",
     "notes": [],
@@ -2925,6 +2995,7 @@
     "hitLevels": [
       "sp"
     ],
+    "index": 71,
     "input": "u+3",
     "name": "Unsoku Kou",
     "notes": [
@@ -2965,6 +3036,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 72,
     "input": "uf+1",
     "name": "Seigan Ugachi",
     "notes": [
@@ -3002,6 +3074,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 73,
     "input": "uf+2",
     "name": "",
     "notes": [
@@ -3041,6 +3114,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 74,
     "input": "uf+3",
     "name": "",
     "notes": [],
@@ -3078,6 +3152,7 @@
       "h",
       "m"
     ],
+    "index": 75,
     "input": "uf+3,1",
     "name": "Tobisenzuki",
     "notes": [
@@ -3121,6 +3196,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 76,
     "input": "uf+4",
     "name": "Silver Gleam",
     "notes": [],
@@ -3162,6 +3238,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 77,
     "input": "ub+4",
     "name": "Silver Gleam",
     "notes": [],
@@ -3201,6 +3278,7 @@
     "hitLevels": [
       "mm"
     ],
+    "index": 78,
     "input": "uf+3+4",
     "name": "",
     "notes": [],
@@ -3239,6 +3317,7 @@
       "mm",
       "m"
     ],
+    "index": 79,
     "input": "uf+3+4,1+2",
     "name": "Un Hiensatsu",
     "notes": [
@@ -3274,6 +3353,7 @@
     "hitLevels": [
       "sp"
     ],
+    "index": 80,
     "input": "ub+1+2",
     "name": "Fading Shadow",
     "notes": [
@@ -3310,6 +3390,7 @@
     "hitLevels": [
       "sp"
     ],
+    "index": 81,
     "input": "u+1+2",
     "name": "Swift Shadow",
     "notes": [
@@ -3348,6 +3429,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 82,
     "input": "f,F+2",
     "name": "Raiden",
     "notes": [
@@ -3392,6 +3474,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 84,
     "input": "f,F+3+4",
     "name": "Un Hien-geri",
     "notes": [],
@@ -3433,6 +3516,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 85,
     "input": "f,f,F+3",
     "name": "Ten Chuten-geri",
     "notes": [
@@ -3476,6 +3560,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 86,
     "input": "f,f,F+4",
     "name": "Un Tobi Kaijo-geri",
     "notes": [
@@ -3516,6 +3601,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 87,
     "input": "FC.d+3",
     "name": "",
     "notes": [],
@@ -3554,6 +3640,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 88,
     "input": "FC.df+3",
     "name": "Nen Hangetsu-ate",
     "notes": [],
@@ -3593,6 +3680,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 89,
     "input": "FC.df+4",
     "name": "Manji-geri",
     "notes": [],
@@ -3630,6 +3718,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 90,
     "input": "ws1",
     "name": "Jewel Snatcher",
     "notes": [],
@@ -3667,6 +3756,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 91,
     "input": "ws2",
     "name": "Benten Thrust",
     "notes": [],
@@ -3705,6 +3795,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 92,
     "input": "ws3",
     "name": "",
     "notes": [],
@@ -3746,6 +3837,7 @@
       "m",
       "h"
     ],
+    "index": 93,
     "input": "ws3,4",
     "name": "Twin Stingers",
     "notes": [
@@ -3787,6 +3879,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 94,
     "input": "ws4",
     "name": "",
     "notes": [],
@@ -3827,6 +3920,7 @@
       "m",
       "m"
     ],
+    "index": 95,
     "input": "ws4,4",
     "name": "Seven Seas Splits Kick",
     "notes": [
@@ -3867,6 +3961,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 96,
     "input": "ws3+4",
     "name": "Hen Gyakujo-geri",
     "notes": [],
@@ -3906,6 +4001,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 98,
     "input": "WGS.1",
     "name": "Thunder God Fist",
     "notes": [
@@ -3949,6 +4045,7 @@
       "m",
       "m"
     ],
+    "index": 99,
     "input": "WGS.1,3",
     "name": "Lightning Splits Kick",
     "notes": [
@@ -3992,6 +4089,7 @@
       "m",
       "h"
     ],
+    "index": 100,
     "input": "WGS.1,4",
     "name": "Lightning Wheel",
     "notes": [
@@ -4035,6 +4133,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 101,
     "input": "WGS.2",
     "name": "Wind God Fist",
     "notes": [
@@ -4077,6 +4176,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 102,
     "input": "f,n,d,df#2",
     "name": "Electric Wind God Fist",
     "notes": [
@@ -4118,6 +4218,7 @@
     "hitLevels": [
       "M"
     ],
+    "index": 103,
     "input": "WGS.df+3",
     "name": "War God Kick",
     "notes": [
@@ -4163,6 +4264,7 @@
     "hitLevels": [
       "M"
     ],
+    "index": 104,
     "input": "f,n,d,df#3",
     "name": "Electric War God Kick",
     "notes": [
@@ -4204,6 +4306,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 105,
     "input": "WGS.DF+4",
     "name": "",
     "notes": [
@@ -4243,6 +4346,7 @@
       "l",
       "h"
     ],
+    "index": 106,
     "input": "WGS.DF+4,2",
     "name": "Ruthless Demon",
     "notes": [
@@ -4286,6 +4390,7 @@
       "l",
       "l"
     ],
+    "index": 107,
     "input": "WGS.DF+4,4",
     "name": "Spinning Demon",
     "notes": [
@@ -4323,6 +4428,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 109,
     "input": "SEN.1",
     "name": "",
     "notes": [],
@@ -4363,6 +4469,7 @@
       "m",
       "m"
     ],
+    "index": 110,
     "input": "SEN.1,2",
     "name": "Furin Kazan",
     "notes": [
@@ -4406,6 +4513,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 111,
     "input": "SEN.2",
     "name": "Rashomon",
     "notes": [],
@@ -4446,6 +4554,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 113,
     "input": "SEN.4",
     "name": "Kandachi-geri",
     "notes": [
@@ -4491,6 +4600,7 @@
       "m",
       "m"
     ],
+    "index": 114,
     "input": "SEN.1+2",
     "name": "Inverse Deva Laser",
     "notes": [
@@ -4534,6 +4644,7 @@
       "l",
       "h"
     ],
+    "index": 115,
     "input": "SEN.3+4",
     "name": "Yaksha Sweep",
     "notes": [],
@@ -4571,6 +4682,7 @@
     "hitLevels": [
       "th(h)"
     ],
+    "index": 116,
     "input": "SEN.1+3",
     "name": "Haburi-kaze",
     "notes": [
@@ -4611,6 +4723,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 118,
     "input": "SSH.3",
     "name": "Senshin Karami-ate",
     "notes": [],
@@ -4647,6 +4760,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 119,
     "input": "SSH.CH.3",
     "name": "Nen Ashigarami",
     "notes": [],
@@ -4682,6 +4796,7 @@
     "hitLevels": [
       "sp"
     ],
+    "index": 120,
     "input": "SSH.uf",
     "name": "Senshin Hiei",
     "notes": [],
@@ -4721,6 +4836,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 121,
     "input": "SSH.uf+3",
     "name": "Senshin Chuten-geri",
     "notes": [],
@@ -4762,6 +4878,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 122,
     "input": "SSH.uf+4",
     "name": "Senshin Tobi Kaijo-geri",
     "notes": [
@@ -4802,6 +4919,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 128,
     "input": "WRA.1",
     "name": "",
     "notes": [
@@ -4848,6 +4966,7 @@
       "h",
       "M"
     ],
+    "index": 129,
     "input": "WRA.1,4",
     "name": "Funkei Goma",
     "notes": [
@@ -4891,6 +5010,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 131,
     "input": "WRA.3",
     "name": "",
     "notes": [
@@ -4936,6 +5056,7 @@
       "m",
       "m"
     ],
+    "index": 132,
     "input": "WRA.3,4",
     "name": "Hell Axle",
     "notes": [
@@ -4983,6 +5104,7 @@
       "M",
       "M"
     ],
+    "index": 133,
     "input": "WRA.4",
     "name": "",
     "notes": [
@@ -5029,6 +5151,7 @@
       "M",
       "m"
     ],
+    "index": 134,
     "input": "WRA.4,2",
     "name": "",
     "notes": [
@@ -5076,6 +5199,7 @@
       "m",
       "h"
     ],
+    "index": 135,
     "input": "WRA.4,2,2",
     "name": "",
     "notes": [
@@ -5125,6 +5249,7 @@
       "h",
       "m"
     ],
+    "index": 136,
     "input": "WRA.4,2,2,1+2",
     "name": "Kongo Gekimetsujin",
     "notes": [
@@ -5169,6 +5294,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 137,
     "input": "WRA.1+2",
     "name": "Demon Bolt",
     "notes": [],
@@ -5209,6 +5335,7 @@
     "hitLevels": [
       "M"
     ],
+    "index": 138,
     "input": "WRA.3+4",
     "name": "Goma-sai",
     "notes": [
@@ -5251,6 +5378,7 @@
     "hitLevels": [
       "t(h)"
     ],
+    "index": 139,
     "input": "WRA.1+3",
     "name": "Heaven's Roar",
     "notes": [
@@ -5293,6 +5421,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 140,
     "input": "WRA.d+4",
     "name": "",
     "notes": [],
@@ -5334,6 +5463,7 @@
       "L",
       "m"
     ],
+    "index": 141,
     "input": "WRA.d+4,3",
     "name": "Harai Kuzushi-manji",
     "notes": [
@@ -5370,6 +5500,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 142,
     "input": "f,n",
     "name": "Wind Step",
     "notes": [
@@ -5411,6 +5542,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 143,
     "input": "WDS.3",
     "name": "Fusenkyaku",
     "notes": [],
@@ -5449,6 +5581,7 @@
       "m",
       "t"
     ],
+    "index": 144,
     "input": "R.df+1+2",
     "name": "Sacred Dismantle Spark",
     "notes": [
@@ -5497,6 +5630,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 145,
     "input": "SS.4",
     "name": "Jirin Sweep",
     "notes": [],
@@ -5534,6 +5668,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 146,
     "input": "BT.4",
     "name": "Rear Manji-geri",
     "notes": [
@@ -5572,6 +5707,7 @@
     "hitLevels": [
       "sp"
     ],
+    "index": 147,
     "input": "2+3+4",
     "name": "Taunt",
     "notes": [],
@@ -5605,6 +5741,7 @@
     "hitLevels": [
       "sp"
     ],
+    "index": 148,
     "input": "1+2+3+4",
     "name": "Ki Charge",
     "notes": [],
@@ -5641,6 +5778,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 149,
     "input": "OTG.d+4",
     "name": "",
     "notes": [],
@@ -5680,6 +5818,7 @@
       "L",
       "L"
     ],
+    "index": 150,
     "input": "OTG.d+4,1",
     "name": "Totetsu Jyurin",
     "notes": [
@@ -5723,6 +5862,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 151,
     "input": "b,b,UB",
     "name": "Wall Jump",
     "notes": [],
@@ -5759,6 +5899,7 @@
     "hitLevels": [
       "th(h)"
     ],
+    "index": 152,
     "input": "1+3",
     "name": "Gekka Hyojin",
     "notes": [
@@ -5800,6 +5941,7 @@
     "hitLevels": [
       "th(h)"
     ],
+    "index": 153,
     "input": "2+4",
     "name": "Saijin Ikkoku",
     "notes": [
@@ -5840,6 +5982,7 @@
     "hitLevels": [
       "th(h)"
     ],
+    "index": 154,
     "input": "Leftthrow",
     "name": "Gekka Hyojin",
     "notes": [
@@ -5879,6 +6022,7 @@
     "hitLevels": [
       "th(h)"
     ],
+    "index": 155,
     "input": "Rightthrow",
     "name": "Saijin Ikkoku",
     "notes": [
@@ -5918,6 +6062,7 @@
     "hitLevels": [
       "th(h)"
     ],
+    "index": 156,
     "input": "Backthrow",
     "name": "Trailokyavijaya",
     "notes": [
@@ -5957,6 +6102,7 @@
     "hitLevels": [
       "th(h)"
     ],
+    "index": 157,
     "input": "uf+1+2",
     "name": "Stonehead",
     "notes": [
@@ -5997,6 +6143,7 @@
     "hitLevels": [
       "th(h)"
     ],
+    "index": 158,
     "input": "d,db,b,f+2",
     "name": "Raidou Hitsumetsu",
     "notes": [

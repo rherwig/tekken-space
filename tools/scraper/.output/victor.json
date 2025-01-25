@@ -26,6 +26,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 0,
     "input": "2+3",
     "name": "Heat Burst",
     "notes": [
@@ -67,6 +68,7 @@
       "l",
       "m"
     ],
+    "index": 1,
     "input": "H.2+3",
     "name": "Élimination Samouraï",
     "notes": [
@@ -113,6 +115,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 2,
     "input": "H.db+1+2",
     "name": "Monsieur Samurai",
     "notes": [
@@ -160,6 +163,7 @@
       "m",
       "h"
     ],
+    "index": 3,
     "input": "f+4,1",
     "name": "Carving Cameo",
     "notes": [],
@@ -199,6 +203,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 4,
     "input": "f+1+2",
     "name": "Durandal",
     "notes": [
@@ -240,6 +245,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 5,
     "input": "d+2",
     "name": "Llawfrodedd",
     "notes": [
@@ -282,6 +288,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 6,
     "input": "b+1+2",
     "name": "Failnaught",
     "notes": [
@@ -325,6 +332,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 7,
     "input": "PRF.3",
     "name": "Flying Gentleman",
     "notes": [],
@@ -364,6 +372,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 8,
     "input": "1",
     "name": "Jab",
     "notes": [],
@@ -401,6 +410,7 @@
       "h",
       "h"
     ],
+    "index": 9,
     "input": "1,1",
     "name": "",
     "notes": [],
@@ -442,6 +452,7 @@
       "h",
       "hh"
     ],
+    "index": 10,
     "input": "1,1,2",
     "name": "Double Cabochon Cut",
     "notes": [],
@@ -479,6 +490,7 @@
       "h",
       "h"
     ],
+    "index": 11,
     "input": "1,2",
     "name": "Basic Etiquette",
     "notes": [],
@@ -522,6 +534,7 @@
       "h",
       "m"
     ],
+    "index": 12,
     "input": "1,2,1",
     "name": "Briolette Cut",
     "notes": [],
@@ -563,6 +576,7 @@
       "h",
       "l"
     ],
+    "index": 13,
     "input": "1,3",
     "name": "Basic Manners",
     "notes": [],
@@ -599,6 +613,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 14,
     "input": "2",
     "name": "Right Jab",
     "notes": [],
@@ -636,6 +651,7 @@
       "h",
       "h"
     ],
+    "index": 15,
     "input": "2,1",
     "name": "Cutlery Etiquette",
     "notes": [
@@ -677,6 +693,7 @@
       "h",
       "mm"
     ],
+    "index": 16,
     "input": "2,2",
     "name": "",
     "notes": [
@@ -719,6 +736,7 @@
       "mm",
       "h"
     ],
+    "index": 17,
     "input": "2,2,2",
     "name": "Crybaby Sophia",
     "notes": [
@@ -761,6 +779,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 18,
     "input": "3",
     "name": "",
     "notes": [],
@@ -800,6 +819,7 @@
       "h",
       "hh"
     ],
+    "index": 19,
     "input": "3,1+2",
     "name": "Good Communication",
     "notes": [
@@ -838,6 +858,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 20,
     "input": "4",
     "name": "",
     "notes": [],
@@ -876,6 +897,7 @@
       "h",
       "m"
     ],
+    "index": 21,
     "input": "4,3",
     "name": "",
     "notes": [],
@@ -922,6 +944,7 @@
       "m",
       "m"
     ],
+    "index": 22,
     "input": "4,3,2",
     "name": "Asterism of Benevolence",
     "notes": [
@@ -962,6 +985,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 23,
     "input": "1+2",
     "name": "Eden",
     "notes": [],
@@ -995,6 +1019,7 @@
     "hitLevels": [
       "sp"
     ],
+    "index": 24,
     "input": "3+4",
     "name": "Iai Stance",
     "notes": [
@@ -1033,6 +1058,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 25,
     "input": "f+2",
     "name": "",
     "notes": [],
@@ -1070,6 +1096,7 @@
       "h",
       "h"
     ],
+    "index": 26,
     "input": "f+2,2",
     "name": "",
     "notes": [],
@@ -1110,6 +1137,7 @@
       "h",
       "m"
     ],
+    "index": 27,
     "input": "f+2,2,1",
     "name": "",
     "notes": [],
@@ -1154,6 +1182,7 @@
       "m",
       "m"
     ],
+    "index": 28,
     "input": "f+2,2,1,1",
     "name": "Gorlagon",
     "notes": [
@@ -1204,6 +1233,7 @@
       "h",
       "hmm"
     ],
+    "index": 29,
     "input": "f+2,2,2",
     "name": "Radiant Cut",
     "notes": [],
@@ -1239,6 +1269,7 @@
     "hitLevels": [
       "sp"
     ],
+    "index": 30,
     "input": "f+3",
     "name": "Perfumer",
     "notes": [
@@ -1277,6 +1308,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 31,
     "input": "f+4",
     "name": "",
     "notes": [],
@@ -1317,6 +1349,7 @@
       "m",
       "m"
     ],
+    "index": 33,
     "input": "f+4,2",
     "name": "Carving Intaglio",
     "notes": [
@@ -1356,6 +1389,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 35,
     "input": "df+1",
     "name": "",
     "notes": [],
@@ -1394,6 +1428,7 @@
       "m",
       "hh"
     ],
+    "index": 36,
     "input": "df+1,1",
     "name": "Trilliant Cut",
     "notes": [],
@@ -1436,6 +1471,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 37,
     "input": "df+2",
     "name": "Arcadia",
     "notes": [],
@@ -1471,6 +1507,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 38,
     "input": "df+3",
     "name": "",
     "notes": [],
@@ -1508,6 +1545,7 @@
       "m",
       "m"
     ],
+    "index": 39,
     "input": "df+3,4",
     "name": "",
     "notes": [],
@@ -1555,6 +1593,7 @@
       "m",
       "sm"
     ],
+    "index": 40,
     "input": "df+3,4,2",
     "name": "Iridescence of Loyalty",
     "notes": [
@@ -1595,6 +1634,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 41,
     "input": "df+4",
     "name": "",
     "notes": [],
@@ -1634,6 +1674,7 @@
       "m",
       "h"
     ],
+    "index": 42,
     "input": "df+4,2",
     "name": "Selfish Miranda",
     "notes": [
@@ -1679,6 +1720,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 43,
     "input": "df+3+4",
     "name": "Llamrei",
     "notes": [],
@@ -1716,6 +1758,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 44,
     "input": "d+1",
     "name": "",
     "notes": [],
@@ -1753,6 +1796,7 @@
       "l",
       "h"
     ],
+    "index": 45,
     "input": "d+1,1",
     "name": "Concave Cut",
     "notes": [
@@ -1793,6 +1837,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 47,
     "input": "d+3",
     "name": "Good Manners",
     "notes": [],
@@ -1828,6 +1873,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 48,
     "input": "d+4",
     "name": "Fine Salute",
     "notes": [],
@@ -1865,6 +1911,7 @@
       "l",
       "th"
     ],
+    "index": 49,
     "input": "CH.d+4",
     "name": "Guilty Mariko",
     "notes": [],
@@ -1904,6 +1951,7 @@
     "hitLevels": [
       "sm"
     ],
+    "index": 50,
     "input": "d+1+2",
     "name": "Iridescence of Prowess",
     "notes": [
@@ -1944,6 +1992,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 51,
     "input": "db+1",
     "name": "",
     "notes": [],
@@ -1982,6 +2031,7 @@
       "m",
       "m"
     ],
+    "index": 52,
     "input": "db+1,1",
     "name": "Emerald Cut",
     "notes": [
@@ -2019,6 +2069,7 @@
     "hitLevels": [
       "s.l"
     ],
+    "index": 53,
     "input": "db+2",
     "name": "Crouch Straight",
     "notes": [],
@@ -2056,6 +2107,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 54,
     "input": "db+3",
     "name": "Polite Greetings",
     "notes": [],
@@ -2099,6 +2151,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 55,
     "input": "db+4",
     "name": "Welcome Sweep",
     "notes": [],
@@ -2139,6 +2192,7 @@
       "l",
       "th"
     ],
+    "index": 56,
     "input": "CH.db+4",
     "name": "Musk-Scented Natasha",
     "notes": [],
@@ -2174,6 +2228,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 57,
     "input": "b+1",
     "name": "",
     "notes": [
@@ -2214,6 +2269,7 @@
       "h",
       "th"
     ],
+    "index": 58,
     "input": "b+1,2",
     "name": "Vanity Love",
     "notes": [
@@ -2252,6 +2308,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 59,
     "input": "b+2",
     "name": "Strobing Memories",
     "notes": [],
@@ -2287,6 +2344,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 60,
     "input": "b+3",
     "name": "",
     "notes": [],
@@ -2331,6 +2389,7 @@
       "m",
       "m"
     ],
+    "index": 61,
     "input": "b+3,1",
     "name": "Caval",
     "notes": [
@@ -2375,6 +2434,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 62,
     "input": "b+4",
     "name": "Cordial Circuit",
     "notes": [],
@@ -2416,6 +2476,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 64,
     "input": "b+1+4",
     "name": "Dun Stallion",
     "notes": [],
@@ -2456,6 +2517,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 65,
     "input": "u+1+2",
     "name": "Caliburnus",
     "notes": [
@@ -2497,6 +2559,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 66,
     "input": "H.u+1+2",
     "name": "Excalibur",
     "notes": [
@@ -2538,6 +2601,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 67,
     "input": "uf+1",
     "name": "",
     "notes": [
@@ -2578,6 +2642,7 @@
       "m",
       "m"
     ],
+    "index": 68,
     "input": "uf+1,1",
     "name": "Gringolet",
     "notes": [
@@ -2618,6 +2683,7 @@
       "upper": "20"
     },
     "hitLevels": [],
+    "index": 69,
     "input": "uf+2",
     "name": "Marquise Cut",
     "notes": [],
@@ -2658,6 +2724,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 70,
     "input": "uf+3",
     "name": "Peaceful Shoes",
     "notes": [
@@ -2700,6 +2767,7 @@
       "m",
       "sm"
     ],
+    "index": 71,
     "input": "uf+4",
     "name": "Chatoyant Courage",
     "notes": [
@@ -2742,6 +2810,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 72,
     "input": "f,F+2",
     "name": "Carnwennan",
     "notes": [
@@ -2783,6 +2852,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 73,
     "input": "f,f,F+2",
     "name": "Asterism of Virtue",
     "notes": [
@@ -2823,6 +2893,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 74,
     "input": "qcf+2",
     "name": "Amour Shaft",
     "notes": [
@@ -2867,6 +2938,7 @@
     "hitLevels": [
       "ub(m)"
     ],
+    "index": 75,
     "input": "b,B+2+3",
     "name": "Montjoie Takemikazuchi",
     "notes": [],
@@ -2909,6 +2981,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 76,
     "input": "ws1",
     "name": "Oval Cut",
     "notes": [],
@@ -2948,6 +3021,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 77,
     "input": "ws2",
     "name": "Baguette Cut",
     "notes": [],
@@ -2984,6 +3058,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 78,
     "input": "ws3",
     "name": "",
     "notes": [],
@@ -3024,6 +3099,7 @@
       "h",
       "sm"
     ],
+    "index": 79,
     "input": "ws3,2",
     "name": "Iridescence of Faith",
     "notes": [
@@ -3064,6 +3140,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 80,
     "input": "ws4",
     "name": "Praise Smash",
     "notes": [],
@@ -3101,6 +3178,7 @@
     "hitLevels": [
       "mm"
     ],
+    "index": 81,
     "input": "ws1+2",
     "name": "Pearly Gates",
     "notes": [
@@ -3139,6 +3217,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 83,
     "input": "IAI.1",
     "name": "",
     "notes": [],
@@ -3181,6 +3260,7 @@
       "m",
       "m"
     ],
+    "index": 84,
     "input": "IAI.1,1",
     "name": "Spumador",
     "notes": [
@@ -3231,6 +3311,7 @@
       "m",
       "m"
     ],
+    "index": 85,
     "input": "IAI.1,2",
     "name": "",
     "notes": [
@@ -3282,6 +3363,7 @@
       "m",
       "m"
     ],
+    "index": 86,
     "input": "IAI.1,2,2",
     "name": "Clarent",
     "notes": [
@@ -3330,6 +3412,7 @@
       "m",
       "h"
     ],
+    "index": 87,
     "input": "IAI.1,1+2",
     "name": "Chastiefol",
     "notes": [
@@ -3370,6 +3453,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 88,
     "input": "IAI.2",
     "name": "Almace",
     "notes": [
@@ -3413,6 +3497,7 @@
       "m",
       "th(m)"
     ],
+    "index": 89,
     "input": "IAI.3",
     "name": "Sequence",
     "notes": [],
@@ -3451,6 +3536,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 90,
     "input": "IAI.4",
     "name": "",
     "notes": [],
@@ -3490,6 +3576,7 @@
       "l",
       "h"
     ],
+    "index": 91,
     "input": "IAI.4,2",
     "name": "Murgleys",
     "notes": [
@@ -3533,6 +3620,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 92,
     "input": "IAI.1+2",
     "name": "Hauteclaire",
     "notes": [
@@ -3573,6 +3661,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 93,
     "input": "IAI.d+2",
     "name": "Rhongomyniad",
     "notes": [
@@ -3614,6 +3703,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 94,
     "input": "H.IAI.d+2",
     "name": "Longinus",
     "notes": [
@@ -3654,6 +3744,7 @@
     "hitLevels": [
       "ll"
     ],
+    "index": 95,
     "input": "IAI.d+1+2",
     "name": "Espee Aventureuse",
     "notes": [],
@@ -3687,6 +3778,7 @@
     "hitLevels": [
       "sp"
     ],
+    "index": 96,
     "input": "IAI.d",
     "name": "Take a Bow",
     "notes": [],
@@ -3720,6 +3812,7 @@
     "hitLevels": [
       "sp"
     ],
+    "index": 97,
     "input": "IAI.f",
     "name": "Move Forward",
     "notes": [
@@ -3759,6 +3852,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 98,
     "input": "IAI.P.f",
     "name": "Gwen",
     "notes": [],
@@ -3795,6 +3889,7 @@
     "hitLevels": [
       "sp"
     ],
+    "index": 99,
     "input": "IAI.b",
     "name": "Move Backward",
     "notes": [],
@@ -3833,6 +3928,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 101,
     "input": "PRF.1",
     "name": "Maceration",
     "notes": [],
@@ -3869,6 +3965,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 102,
     "input": "PRF.2",
     "name": "",
     "notes": [],
@@ -3907,6 +4004,7 @@
       "m",
       "m"
     ],
+    "index": 103,
     "input": "PRF.2,2",
     "name": "",
     "notes": [
@@ -3951,6 +4049,7 @@
       "m",
       "h"
     ],
+    "index": 104,
     "input": "PRF.2,2,1",
     "name": "Top Note",
     "notes": [
@@ -3999,6 +4098,7 @@
       "m",
       "m"
     ],
+    "index": 105,
     "input": "PRF.2,2,1+2",
     "name": "Last Note",
     "notes": [],
@@ -4039,6 +4139,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 107,
     "input": "PRF.4",
     "name": "Cordial Circuit",
     "notes": [],
@@ -4082,6 +4183,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 108,
     "input": "PRF.1+2",
     "name": "Hengroen",
     "notes": [
@@ -4119,6 +4221,7 @@
     "hitLevels": [
       "sp"
     ],
+    "index": 109,
     "input": "PRF.df",
     "name": "Sillage",
     "notes": [
@@ -4159,6 +4262,7 @@
       "m",
       "t"
     ],
+    "index": 110,
     "input": "R.df+1+2",
     "name": "Coup de Chevalier",
     "notes": [
@@ -4206,6 +4310,7 @@
     "hitLevels": [
       "lh"
     ],
+    "index": 111,
     "input": "FC.1+2",
     "name": "Shangri-La",
     "notes": [
@@ -4246,6 +4351,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 112,
     "input": "SS.1+2",
     "name": "Dandy Blow",
     "notes": [],
@@ -4281,6 +4387,7 @@
     "hitLevels": [
       "sp"
     ],
+    "index": 113,
     "input": "2+3+4",
     "name": "Taunt",
     "notes": [],
@@ -4314,6 +4421,7 @@
     "hitLevels": [
       "sp"
     ],
+    "index": 114,
     "input": "1+2+3+4",
     "name": "Ki Charge",
     "notes": [],
@@ -4347,6 +4455,7 @@
     "hitLevels": [
       "sp"
     ],
+    "index": 115,
     "input": "ub,b",
     "name": "Le Blanc",
     "notes": [],
@@ -4383,6 +4492,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 116,
     "input": "1+3",
     "name": "One Night Miracle",
     "notes": [
@@ -4422,6 +4532,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 117,
     "input": "2+4",
     "name": "Je Te Veux",
     "notes": [
@@ -4461,6 +4572,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 118,
     "input": "Leftthrow",
     "name": "One Night Miracle",
     "notes": [
@@ -4500,6 +4612,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 119,
     "input": "Rightthrow",
     "name": "Je Te Veux",
     "notes": [
@@ -4539,6 +4652,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 120,
     "input": "Backthrow",
     "name": "Farewell in Taj Mahal",
     "notes": [
@@ -4578,6 +4692,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 121,
     "input": "uf+1+2",
     "name": "Romancing Chaser",
     "notes": [

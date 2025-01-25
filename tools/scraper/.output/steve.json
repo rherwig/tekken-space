@@ -29,6 +29,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 0,
     "input": "2+3",
     "name": "Heat Burst",
     "notes": [
@@ -79,6 +80,7 @@
       "m",
       "th"
     ],
+    "index": 1,
     "input": "H.2+3",
     "name": "Bretwalda",
     "notes": [
@@ -119,6 +121,7 @@
     "hitLevels": [
       "sp"
     ],
+    "index": 2,
     "input": "H.df+3+4",
     "name": "",
     "notes": [
@@ -155,6 +158,7 @@
     "hitLevels": [
       "h(th)"
     ],
+    "index": 3,
     "input": "H.EXD.1+3",
     "name": "Two-Faced (TFA)",
     "notes": [
@@ -197,6 +201,7 @@
       "m",
       "h(th)"
     ],
+    "index": 4,
     "input": "H.LNH",
     "name": "Two-Faced",
     "notes": [
@@ -235,6 +240,7 @@
     "hitLevels": [
       "th"
     ],
+    "index": 5,
     "input": "TFA.1",
     "name": "Dominion Rush",
     "notes": [
@@ -275,6 +281,7 @@
     "hitLevels": [
       "th"
     ],
+    "index": 6,
     "input": "TFA.2",
     "name": "Debutante Ball",
     "notes": [
@@ -318,6 +325,7 @@
       "m",
       "m"
     ],
+    "index": 7,
     "input": "1+2",
     "name": "Sonic Fang",
     "notes": [],
@@ -359,6 +367,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 8,
     "input": "qcf+1",
     "name": "Rocket Launcher",
     "notes": [
@@ -403,6 +412,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 9,
     "input": "f,f,F+2",
     "name": "Eraser",
     "notes": [
@@ -449,6 +459,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 10,
     "input": "ALB.2",
     "name": "Cyclone Punch",
     "notes": [],
@@ -488,6 +499,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 11,
     "input": "LNH.1",
     "name": "Vigilant Blow",
     "notes": [],
@@ -527,6 +539,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 12,
     "input": "1",
     "name": "",
     "notes": [],
@@ -564,6 +577,7 @@
       "h",
       "h"
     ],
+    "index": 13,
     "input": "1,1",
     "name": "Double Jab",
     "notes": [
@@ -607,6 +621,7 @@
       "h",
       "m"
     ],
+    "index": 14,
     "input": "1,d+1",
     "name": "Jab > Body Blow",
     "notes": [
@@ -648,6 +663,7 @@
       "h",
       "m"
     ],
+    "index": 15,
     "input": "1,1,d+1",
     "name": "Double Jab > Body Blow",
     "notes": [
@@ -689,6 +705,7 @@
       "h",
       "h"
     ],
+    "index": 16,
     "input": "1,1,2",
     "name": "Lightning Combo",
     "notes": [
@@ -732,6 +749,7 @@
       "h",
       "h"
     ],
+    "index": 17,
     "input": "1,2",
     "name": "Left Right",
     "notes": [
@@ -776,6 +794,7 @@
       "h",
       "h"
     ],
+    "index": 18,
     "input": "1,2,1",
     "name": "",
     "notes": [
@@ -824,6 +843,7 @@
       "h",
       "m"
     ],
+    "index": 19,
     "input": "1,2,1,2",
     "name": "British Edge Combo",
     "notes": [
@@ -877,6 +897,7 @@
       "h",
       "l"
     ],
+    "index": 20,
     "input": "1,2,1,d+2",
     "name": "British Edge Combo 2",
     "notes": [],
@@ -912,6 +933,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 21,
     "input": "2",
     "name": "",
     "notes": [],
@@ -949,6 +971,7 @@
       "h",
       "h"
     ],
+    "index": 22,
     "input": "2,1",
     "name": "",
     "notes": [
@@ -995,6 +1018,7 @@
       "h",
       "m"
     ],
+    "index": 23,
     "input": "2,1,2",
     "name": "Vanguard Rush",
     "notes": [
@@ -1036,6 +1060,7 @@
       "h",
       "m"
     ],
+    "index": 24,
     "input": "2,2",
     "name": "Cromwell Combination",
     "notes": [],
@@ -1074,6 +1099,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 26,
     "input": "f+2",
     "name": "",
     "notes": [],
@@ -1111,6 +1137,7 @@
       "m",
       "h"
     ],
+    "index": 27,
     "input": "f+2,1",
     "name": "Ducking Body Blow > Left Hook",
     "notes": [
@@ -1155,6 +1182,7 @@
       "m",
       "m"
     ],
+    "index": 28,
     "input": "f+2,1~2",
     "name": "Ducking Psyche-out Body",
     "notes": [],
@@ -1197,6 +1225,7 @@
       "m",
       "m"
     ],
+    "index": 29,
     "input": "f+2,2",
     "name": "",
     "notes": [
@@ -1247,6 +1276,7 @@
       "m",
       "m"
     ],
+    "index": 30,
     "input": "f+2,2,1+2",
     "name": "Conqueror Combination",
     "notes": [
@@ -1290,6 +1320,7 @@
       "m",
       "h"
     ],
+    "index": 31,
     "input": "f+1+2",
     "name": "",
     "notes": [
@@ -1334,6 +1365,7 @@
       "h",
       "m"
     ],
+    "index": 32,
     "input": "f+1+2,2",
     "name": "Shotgun Combination",
     "notes": [
@@ -1371,6 +1403,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 33,
     "input": "df+1",
     "name": "Left Uppercut",
     "notes": [
@@ -1413,6 +1446,7 @@
       "m",
       "h"
     ],
+    "index": 34,
     "input": "df+1,2",
     "name": "Uppercut Cross Combo",
     "notes": [
@@ -1459,6 +1493,7 @@
       "m",
       "h"
     ],
+    "index": 35,
     "input": "df+1,2~1",
     "name": "Uppercut Psyche-out Hook",
     "notes": [
@@ -1501,6 +1536,7 @@
       "m",
       "m"
     ],
+    "index": 36,
     "input": "df+1,2~2",
     "name": "Uppercut Psyche-out Body",
     "notes": [],
@@ -1542,6 +1578,7 @@
       "h",
       "h"
     ],
+    "index": 37,
     "input": "df+1,2~f+1+2",
     "name": "Uppercut Psyche-out Left Right Combo",
     "notes": [
@@ -1584,6 +1621,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 38,
     "input": "df+2",
     "name": "Crescent Hook",
     "notes": [
@@ -1624,6 +1662,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 39,
     "input": "d+1",
     "name": "Knee Blaster",
     "notes": [],
@@ -1659,6 +1698,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 40,
     "input": "d+2",
     "name": "",
     "notes": [],
@@ -1697,6 +1737,7 @@
       "l",
       "m"
     ],
+    "index": 41,
     "input": "d+2,1",
     "name": "",
     "notes": [
@@ -1748,6 +1789,7 @@
       "m",
       "h"
     ],
+    "index": 42,
     "input": "d+2,1,2",
     "name": "Wildman Combo",
     "notes": [
@@ -1787,6 +1829,7 @@
     "hitLevels": [
       "sl"
     ],
+    "index": 43,
     "input": "db+1",
     "name": "Crouch Jab",
     "notes": [
@@ -1828,6 +1871,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 44,
     "input": "db+2",
     "name": "Knee Clipper",
     "notes": [
@@ -1865,6 +1909,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 45,
     "input": "db+3",
     "name": "",
     "notes": [],
@@ -1903,6 +1948,7 @@
       "l",
       "h"
     ],
+    "index": 46,
     "input": "db+3,2",
     "name": "Foot Stomp Right Hook",
     "notes": [
@@ -1943,6 +1989,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 47,
     "input": "db+1+2",
     "name": "Stun Gun",
     "notes": [],
@@ -1980,6 +2027,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 48,
     "input": "b+1",
     "name": "Quick Hook",
     "notes": [
@@ -2020,6 +2068,7 @@
       "h",
       "h"
     ],
+    "index": 49,
     "input": "b+1,2",
     "name": "Quick Draw",
     "notes": [
@@ -2067,6 +2116,7 @@
       "h",
       "m"
     ],
+    "index": 50,
     "input": "b+1,2~1",
     "name": "Swindler",
     "notes": [],
@@ -2105,6 +2155,7 @@
       "h",
       "l"
     ],
+    "index": 51,
     "input": "b+1,d+2",
     "name": "",
     "notes": [
@@ -2150,6 +2201,7 @@
       "l",
       "m"
     ],
+    "index": 52,
     "input": "b+1,d+2,1",
     "name": "Frigate Combo",
     "notes": [
@@ -2189,6 +2241,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 53,
     "input": "b+2",
     "name": "Body Bomb",
     "notes": [
@@ -2226,6 +2279,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 54,
     "input": "ub+2",
     "name": "Bounty Hunter",
     "notes": [
@@ -2271,6 +2325,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 55,
     "input": "ub+2~1",
     "name": "Swindler",
     "notes": [],
@@ -2313,6 +2368,7 @@
     "hitLevels": [
       "ub(m)"
     ],
+    "index": 56,
     "input": "ub+1+2",
     "name": "Hellfire",
     "notes": [],
@@ -2351,6 +2407,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 57,
     "input": "uf+1",
     "name": "Over the Top",
     "notes": [],
@@ -2391,6 +2448,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 58,
     "input": "uf+2",
     "name": "Burst Hammer",
     "notes": [],
@@ -2429,6 +2487,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 59,
     "input": "uf+3",
     "name": "",
     "notes": [],
@@ -2467,6 +2526,7 @@
       "l",
       "h"
     ],
+    "index": 60,
     "input": "uf+3,2",
     "name": "Jump-in Foot Stomp Right Hook",
     "notes": [
@@ -2513,6 +2573,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 61,
     "input": "uf+4",
     "name": "Jumping Duck Kick",
     "notes": [],
@@ -2555,6 +2616,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 62,
     "input": "f,F+2",
     "name": "Beat Down",
     "notes": [],
@@ -2594,6 +2656,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 64,
     "input": "qcf+2",
     "name": "Low Cross Blaster",
     "notes": [
@@ -2633,6 +2696,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 66,
     "input": "after_2steps+1",
     "name": "Sliding Low Punch",
     "notes": [],
@@ -2671,6 +2735,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 67,
     "input": "FC.df+2",
     "name": "Finishing Blow",
     "notes": [],
@@ -2709,6 +2774,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 68,
     "input": "WS.1",
     "name": "",
     "notes": [],
@@ -2746,6 +2812,7 @@
       "m",
       "h"
     ],
+    "index": 69,
     "input": "WS.1,1",
     "name": "Eagle Jab",
     "notes": [
@@ -2794,6 +2861,7 @@
       "m",
       "m"
     ],
+    "index": 70,
     "input": "WS.1,2",
     "name": "Wildman",
     "notes": [
@@ -2834,6 +2902,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 71,
     "input": "WS.2",
     "name": "",
     "notes": [
@@ -2877,6 +2946,7 @@
       "m",
       "m"
     ],
+    "index": 72,
     "input": "WS.2,2",
     "name": "Nighthawk Combination",
     "notes": [
@@ -2921,6 +2991,7 @@
       "m",
       "m"
     ],
+    "index": 73,
     "input": "WS.1+2",
     "name": "Sonic Fang",
     "notes": [],
@@ -2957,6 +3028,7 @@
     "hitLevels": [
       "sp"
     ],
+    "index": 74,
     "input": "3",
     "name": "Ducking Left",
     "notes": [],
@@ -2992,6 +3064,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 75,
     "input": "LWV.1",
     "name": "",
     "notes": [
@@ -3035,6 +3108,7 @@
       "m",
       "m"
     ],
+    "index": 76,
     "input": "LWV.1,1",
     "name": "Double Stinger",
     "notes": [
@@ -3077,6 +3151,7 @@
       "m",
       "m"
     ],
+    "index": 77,
     "input": "LWV.1,f+1",
     "name": "",
     "notes": [
@@ -3120,6 +3195,7 @@
       "m",
       "h"
     ],
+    "index": 78,
     "input": "LWV.1,f+1,1",
     "name": "Centurion Rush",
     "notes": [
@@ -3161,6 +3237,7 @@
       "m",
       "h"
     ],
+    "index": 79,
     "input": "LWV.1,2",
     "name": "Bee Sting Combo",
     "notes": [
@@ -3208,6 +3285,7 @@
       "m",
       "m"
     ],
+    "index": 80,
     "input": "LWV.1,2~1",
     "name": "Swindler",
     "notes": [],
@@ -3244,6 +3322,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 81,
     "input": "LWV.2",
     "name": "",
     "notes": [
@@ -3287,6 +3366,7 @@
       "m",
       "m"
     ],
+    "index": 82,
     "input": "LWV.2,1",
     "name": "Right Shoulder Rush > Billy Club",
     "notes": [
@@ -3324,6 +3404,7 @@
     "hitLevels": [
       "sp"
     ],
+    "index": 83,
     "input": "4",
     "name": "Ducking Right",
     "notes": [],
@@ -3360,6 +3441,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 84,
     "input": "RWV.1",
     "name": "",
     "notes": [
@@ -3400,6 +3482,7 @@
       "m",
       "h"
     ],
+    "index": 85,
     "input": "RWV.1,2",
     "name": "Hawk Swoop Combo",
     "notes": [
@@ -3447,6 +3530,7 @@
       "m",
       "m"
     ],
+    "index": 86,
     "input": "RWV.1,2~1",
     "name": "Swindler",
     "notes": [],
@@ -3485,6 +3569,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 87,
     "input": "RWV.2",
     "name": "Gut Drill",
     "notes": [],
@@ -3520,6 +3605,7 @@
     "hitLevels": [
       "sp"
     ],
+    "index": 88,
     "input": "b+3_4",
     "name": "Swaying",
     "notes": [
@@ -3565,6 +3651,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 89,
     "input": "SWY.1",
     "name": "Billy Club",
     "notes": [
@@ -3605,6 +3692,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 90,
     "input": "SWY.2",
     "name": "Snake Charmer",
     "notes": [],
@@ -3642,6 +3730,7 @@
     "hitLevels": [
       "th"
     ],
+    "index": 91,
     "input": "SWY.1+2",
     "name": "Position Change",
     "notes": [
@@ -3683,6 +3772,7 @@
     "hitLevels": [
       "th"
     ],
+    "index": 92,
     "input": "SWY.1+2~b_u_d",
     "name": "",
     "notes": [
@@ -3721,6 +3811,7 @@
     "hitLevels": [
       "sp"
     ],
+    "index": 93,
     "input": "3+4",
     "name": "Quick Spin",
     "notes": [
@@ -3763,6 +3854,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 95,
     "input": "ALB.d+2",
     "name": "Cyclone Knee Clip",
     "notes": [],
@@ -3796,6 +3888,7 @@
     "hitLevels": [
       "sp"
     ],
+    "index": 96,
     "input": "ALB.d_u",
     "name": "Cyclone Left (Right)",
     "notes": [
@@ -3838,6 +3931,7 @@
       "sp",
       "m"
     ],
+    "index": 97,
     "input": "ALB.d_u,1",
     "name": "Double Cyclone Punch",
     "notes": [],
@@ -3879,6 +3973,7 @@
       "sp",
       "l"
     ],
+    "index": 98,
     "input": "ALB.d_u,d+1",
     "name": "Double Cyclone Knee Punch",
     "notes": [],
@@ -3912,6 +4007,7 @@
     "hitLevels": [
       "sp"
     ],
+    "index": 99,
     "input": "f+3_4",
     "name": "Ducking",
     "notes": [
@@ -3960,6 +4056,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 100,
     "input": "DCK.1",
     "name": "Fox Hunt",
     "notes": [],
@@ -3998,6 +4095,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 101,
     "input": "DCK.2",
     "name": "Skyscraper",
     "notes": [],
@@ -4037,6 +4135,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 102,
     "input": "DCK.f+2",
     "name": "Punisher",
     "notes": [
@@ -4079,6 +4178,7 @@
       "m",
       "m"
     ],
+    "index": 103,
     "input": "DCK.1+2",
     "name": "",
     "notes": [],
@@ -4120,6 +4220,7 @@
       "m",
       "m"
     ],
+    "index": 104,
     "input": "DCK.1+2,1+2",
     "name": "",
     "notes": [
@@ -4167,6 +4268,7 @@
       "m",
       "m"
     ],
+    "index": 105,
     "input": "DCK.1+2,1+2,1+2",
     "name": "",
     "notes": [
@@ -4221,6 +4323,7 @@
       "m",
       "m"
     ],
+    "index": 106,
     "input": "DCK.1+2,1+2,1+2,1+2",
     "name": "Gatling Gun",
     "notes": [
@@ -4256,6 +4359,7 @@
     "hitLevels": [
       "sp"
     ],
+    "index": 107,
     "input": "DCK.f+3_4",
     "name": "Ducking In",
     "notes": [
@@ -4299,6 +4403,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 108,
     "input": "EXD.1",
     "name": "Power Fox Hunt",
     "notes": [],
@@ -4337,6 +4442,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 109,
     "input": "EXD.2",
     "name": "Power Skyscraper",
     "notes": [],
@@ -4374,6 +4480,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 110,
     "input": "EXD.f+2",
     "name": "Power Punisher",
     "notes": [
@@ -4412,6 +4519,7 @@
     "hitLevels": [
       "sp"
     ],
+    "index": 111,
     "input": "f+3+4",
     "name": "Peekaboo",
     "notes": [
@@ -4451,6 +4559,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 112,
     "input": "PAB.1",
     "name": "",
     "notes": [],
@@ -4489,6 +4598,7 @@
       "h",
       "h"
     ],
+    "index": 113,
     "input": "PAB.1,2",
     "name": "",
     "notes": [
@@ -4535,6 +4645,7 @@
       "h",
       "m"
     ],
+    "index": 114,
     "input": "PAB.1,2,1",
     "name": "Albion Combination",
     "notes": [
@@ -4576,6 +4687,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 115,
     "input": "PAB.2",
     "name": "Spite Hook",
     "notes": [
@@ -4617,6 +4729,7 @@
     "hitLevels": [
       "th"
     ],
+    "index": 116,
     "input": "PAB.1+2",
     "name": "Ten Count",
     "notes": [
@@ -4658,6 +4771,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 117,
     "input": "PAB.f+2",
     "name": "",
     "notes": [],
@@ -4699,6 +4813,7 @@
       "m",
       "m"
     ],
+    "index": 118,
     "input": "PAB.f+2,1",
     "name": "Straight Punch Combination",
     "notes": [
@@ -4745,6 +4860,7 @@
       "h",
       "h"
     ],
+    "index": 119,
     "input": "PAB.f+1+2",
     "name": "Nimrod Combination",
     "notes": [
@@ -4785,6 +4901,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 120,
     "input": "PAB.df+1",
     "name": "",
     "notes": [],
@@ -4823,6 +4940,7 @@
       "m",
       "m"
     ],
+    "index": 121,
     "input": "PAB.df+1,1",
     "name": "",
     "notes": [
@@ -4864,6 +4982,7 @@
       "m",
       "m"
     ],
+    "index": 122,
     "input": "PAB.df+1,1,2",
     "name": "",
     "notes": [
@@ -4909,6 +5028,7 @@
       "m",
       "m"
     ],
+    "index": 123,
     "input": "PAB.df+1,1,2,1",
     "name": "Argos Rush",
     "notes": [
@@ -4950,6 +5070,7 @@
       "m",
       "h"
     ],
+    "index": 124,
     "input": "PAB.df+1,2",
     "name": "Cross Cut",
     "notes": [
@@ -4995,6 +5116,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 125,
     "input": "PAB.df+2",
     "name": "Cutting Elbow",
     "notes": [],
@@ -5033,6 +5155,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 126,
     "input": "PAB.d+1",
     "name": "Patella Smash",
     "notes": [
@@ -5073,6 +5196,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 127,
     "input": "PAB.d+2",
     "name": "Knuckle Plow",
     "notes": [
@@ -5111,6 +5235,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 128,
     "input": "PAB.b+1",
     "name": "",
     "notes": [],
@@ -5149,6 +5274,7 @@
       "m",
       "h"
     ],
+    "index": 129,
     "input": "PAB.b+1,1",
     "name": "",
     "notes": [
@@ -5191,6 +5317,7 @@
       "h",
       "m"
     ],
+    "index": 130,
     "input": "PAB.b+1,1,2",
     "name": "",
     "notes": [
@@ -5237,6 +5364,7 @@
       "m",
       "m"
     ],
+    "index": 131,
     "input": "PAB.b+1,1,2,1",
     "name": "Lancaster Combination",
     "notes": [
@@ -5281,6 +5409,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 132,
     "input": "PAB.b+2",
     "name": "Swaying Hook",
     "notes": [
@@ -5323,6 +5452,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 133,
     "input": "PAB.uf+2",
     "name": "Dreadnought Uppercut",
     "notes": [],
@@ -5358,6 +5488,7 @@
     "hitLevels": [
       "sp"
     ],
+    "index": 134,
     "input": "b+3+4",
     "name": "Flicker Stance",
     "notes": [
@@ -5397,6 +5528,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 135,
     "input": "FLK.1",
     "name": "",
     "notes": [
@@ -5437,6 +5569,7 @@
       "h",
       "h"
     ],
+    "index": 136,
     "input": "FLK.1,1",
     "name": "",
     "notes": [
@@ -5480,6 +5613,7 @@
       "h",
       "h"
     ],
+    "index": 137,
     "input": "FLK.1,1,1",
     "name": "",
     "notes": [
@@ -5529,6 +5663,7 @@
       "h",
       "m"
     ],
+    "index": 138,
     "input": "FLK.1,1,1,2",
     "name": "Spiteful Combination",
     "notes": [
@@ -5574,6 +5709,7 @@
       "h",
       "m"
     ],
+    "index": 139,
     "input": "FLK.1,1,2",
     "name": "",
     "notes": [
@@ -5618,6 +5754,7 @@
       "h",
       "m"
     ],
+    "index": 140,
     "input": "FLK.1,1,f+1",
     "name": "",
     "notes": [
@@ -5667,6 +5804,7 @@
       "h",
       "h"
     ],
+    "index": 141,
     "input": "FLK.1,1,d+1",
     "name": "",
     "notes": [
@@ -5711,6 +5849,7 @@
       "h",
       "m"
     ],
+    "index": 142,
     "input": "FLK.1,2",
     "name": "",
     "notes": [
@@ -5753,6 +5892,7 @@
       "h",
       "m"
     ],
+    "index": 143,
     "input": "FLK.1,f+1",
     "name": "Tempest Combo",
     "notes": [
@@ -5799,6 +5939,7 @@
       "h",
       "h"
     ],
+    "index": 144,
     "input": "FLK.1,d+1",
     "name": "Power Hook Combo",
     "notes": [
@@ -5843,6 +5984,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 145,
     "input": "FLK.2",
     "name": "Fly Swatter",
     "notes": [],
@@ -5884,6 +6026,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 146,
     "input": "FLK.b+2",
     "name": "British Lancer",
     "notes": [],
@@ -5925,6 +6068,7 @@
     "hitLevels": [
       "th"
     ],
+    "index": 147,
     "input": "FLK.1+2",
     "name": "Griffin Throw",
     "notes": [
@@ -5960,6 +6104,7 @@
     "hitLevels": [
       "sp"
     ],
+    "index": 148,
     "input": "ub+3",
     "name": "Lion Heart",
     "notes": [
@@ -6004,6 +6149,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 150,
     "input": "LNH.2",
     "name": "Bloodhound",
     "notes": [],
@@ -6044,6 +6190,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 151,
     "input": "LNH.1+2",
     "name": "Swingfire Advance",
     "notes": [
@@ -6088,6 +6235,7 @@
       "m",
       "t"
     ],
+    "index": 153,
     "input": "R.df+1+2",
     "name": "Dear Land of Hope",
     "notes": [
@@ -6129,6 +6277,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 154,
     "input": "1+2+4",
     "name": "Taunt",
     "notes": [],
@@ -6160,6 +6309,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 155,
     "input": "1+2+3+4",
     "name": "Ki Charge",
     "notes": [],
@@ -6197,6 +6347,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 156,
     "input": "OTG.d+1+2",
     "name": "Cheapshot",
     "notes": [
@@ -6232,6 +6383,7 @@
     "hitLevels": [
       "sp"
     ],
+    "index": 157,
     "input": "b+1+3_b+2+4",
     "name": "Parry",
     "notes": [
@@ -6271,6 +6423,7 @@
     "hitLevels": [
       "throw"
     ],
+    "index": 158,
     "input": "1+3",
     "name": "Gut Wrencher",
     "notes": [
@@ -6311,6 +6464,7 @@
     "hitLevels": [
       "throw"
     ],
+    "index": 159,
     "input": "2+4",
     "name": "Brain Pulverizer",
     "notes": [
@@ -6351,6 +6505,7 @@
     "hitLevels": [
       "throw"
     ],
+    "index": 160,
     "input": "Leftthrow",
     "name": "Choke Slam",
     "notes": [
@@ -6388,6 +6543,7 @@
     "hitLevels": [
       "throw"
     ],
+    "index": 161,
     "input": "Rightthrow",
     "name": "Throw Down",
     "notes": [
@@ -6425,6 +6581,7 @@
     "hitLevels": [
       "throw"
     ],
+    "index": 162,
     "input": "Backthrow",
     "name": "Schoolyard Bully",
     "notes": [
@@ -6462,6 +6619,7 @@
     "hitLevels": [
       "throw"
     ],
+    "index": 163,
     "input": "uf+1+2",
     "name": "Armlock Throw",
     "notes": [
@@ -6499,6 +6657,7 @@
     "hitLevels": [
       "throw"
     ],
+    "index": 164,
     "input": "qcb+2+4",
     "name": "Spinning Elbow Drop",
     "notes": [

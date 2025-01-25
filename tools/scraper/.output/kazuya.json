@@ -26,6 +26,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 0,
     "input": "2+3",
     "name": "Heat Burst",
     "notes": [],
@@ -67,6 +68,7 @@
       "m",
       "th"
     ],
+    "index": 1,
     "input": "H.2+3",
     "name": "Omega Crash",
     "notes": [],
@@ -110,6 +112,7 @@
       "m",
       "h"
     ],
+    "index": 2,
     "input": "df+1,2",
     "name": "Slaughter Hook",
     "notes": [
@@ -159,6 +162,7 @@
       "m",
       "m"
     ],
+    "index": 3,
     "input": "db+1,2",
     "name": "Goutsuiken",
     "notes": [
@@ -204,6 +208,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 4,
     "input": "b+4",
     "name": "Flash Tornado",
     "notes": [
@@ -246,6 +251,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 5,
     "input": "b+1+2",
     "name": "Kumo Kiri",
     "notes": [
@@ -290,6 +296,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 6,
     "input": "f,F+2",
     "name": "Devil Fist",
     "notes": [
@@ -332,6 +339,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 7,
     "input": "1",
     "name": "Jab",
     "notes": [],
@@ -369,6 +377,7 @@
       "h",
       "h"
     ],
+    "index": 8,
     "input": "1,1",
     "name": "",
     "notes": [
@@ -414,6 +423,7 @@
       "h",
       "m"
     ],
+    "index": 9,
     "input": "1,1,2",
     "name": "Flash Punch Combo",
     "notes": [
@@ -456,6 +466,7 @@
       "h",
       "h"
     ],
+    "index": 10,
     "input": "1,2",
     "name": "One Two Strike",
     "notes": [
@@ -499,6 +510,7 @@
       "h",
       "h"
     ],
+    "index": 11,
     "input": "1,2,2",
     "name": "Back Fist Combo",
     "notes": [],
@@ -538,6 +550,7 @@
       "h",
       "m"
     ],
+    "index": 12,
     "input": "1,2,2~3",
     "name": "Twin Fang Shattered Spine",
     "notes": [],
@@ -582,6 +595,7 @@
       "h",
       "l"
     ],
+    "index": 13,
     "input": "1,2,4",
     "name": "Twin Fang Stature Smash",
     "notes": [
@@ -631,6 +645,7 @@
       "l",
       "m"
     ],
+    "index": 14,
     "input": "1,2,4,3",
     "name": "Twin Fang Double Kick",
     "notes": [
@@ -671,6 +686,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 15,
     "input": "2",
     "name": "Right Jab",
     "notes": [],
@@ -711,6 +727,7 @@
       "h",
       "m"
     ],
+    "index": 16,
     "input": "2,2",
     "name": "Double Back Fist",
     "notes": [
@@ -748,6 +765,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 17,
     "input": "3",
     "name": "Face Kick",
     "notes": [],
@@ -785,6 +803,7 @@
       "h",
       "h"
     ],
+    "index": 18,
     "input": "3,1",
     "name": "Face Kick to Jab",
     "notes": [
@@ -831,6 +850,7 @@
       "h",
       "m"
     ],
+    "index": 19,
     "input": "3,1,4",
     "name": "Agony Spear",
     "notes": [
@@ -872,6 +892,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 20,
     "input": "4",
     "name": "Roundhouse",
     "notes": [],
@@ -911,6 +932,7 @@
       "m",
       "m"
     ],
+    "index": 21,
     "input": "4~3",
     "name": "Demon Scissors",
     "notes": [],
@@ -952,6 +974,7 @@
       "m",
       "m"
     ],
+    "index": 22,
     "input": "1+2",
     "name": "Acute Pain",
     "notes": [],
@@ -992,6 +1015,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 23,
     "input": "f+2",
     "name": "Soul Thrust",
     "notes": [
@@ -1036,6 +1060,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 24,
     "input": "f+3",
     "name": "Oni Front Kick",
     "notes": [],
@@ -1080,6 +1105,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 25,
     "input": "f+4",
     "name": "Right Splits Kick",
     "notes": [],
@@ -1120,6 +1146,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 26,
     "input": "f+1+2",
     "name": "Glorious Demon God Fist",
     "notes": [
@@ -1160,6 +1187,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 27,
     "input": "df+1",
     "name": "Entrails Smash",
     "notes": [],
@@ -1202,6 +1230,7 @@
       "m",
       "m"
     ],
+    "index": 29,
     "input": "df+1,df+2",
     "name": "Slaughter Uppercut",
     "notes": [
@@ -1244,6 +1273,7 @@
       "m",
       "h"
     ],
+    "index": 30,
     "input": "df+1,4",
     "name": "Slaughter High Kick",
     "notes": [
@@ -1285,6 +1315,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 31,
     "input": "df+2",
     "name": "Abolishing Fist",
     "notes": [
@@ -1325,6 +1356,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 32,
     "input": "df+3",
     "name": "Impaling Knee",
     "notes": [],
@@ -1364,6 +1396,7 @@
       "m",
       "m"
     ],
+    "index": 33,
     "input": "df+3,2",
     "name": "",
     "notes": [
@@ -1408,6 +1441,7 @@
       "m",
       "m"
     ],
+    "index": 34,
     "input": "df+3,2,1",
     "name": "Impaling Knee Twin Thrust",
     "notes": [
@@ -1454,6 +1488,7 @@
       "m",
       "m"
     ],
+    "index": 35,
     "input": "df+3,2,1*",
     "name": "Impaling Knee Twin Skewer",
     "notes": [
@@ -1496,6 +1531,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 36,
     "input": "df+4",
     "name": "",
     "notes": [],
@@ -1535,6 +1571,7 @@
       "m",
       "m"
     ],
+    "index": 37,
     "input": "df+4,4",
     "name": "Tsunami Kick",
     "notes": [
@@ -1578,6 +1615,7 @@
       "m",
       "h"
     ],
+    "index": 38,
     "input": "df+3+4",
     "name": "",
     "notes": [],
@@ -1617,6 +1655,7 @@
       "h",
       "m"
     ],
+    "index": 39,
     "input": "df+3+4,1",
     "name": "",
     "notes": [],
@@ -1661,6 +1700,7 @@
       "sm",
       "sm"
     ],
+    "index": 40,
     "input": "df+3+4,1,2",
     "name": "Kyogeki Goutsuiken",
     "notes": [
@@ -1700,6 +1740,7 @@
     "hitLevels": [
       "sl"
     ],
+    "index": 41,
     "input": "d+1",
     "name": "Crouch Jab",
     "notes": [
@@ -1737,6 +1778,7 @@
     "hitLevels": [
       "sl"
     ],
+    "index": 42,
     "input": "d+2",
     "name": "Crouch Straight",
     "notes": [],
@@ -1772,6 +1814,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 43,
     "input": "d+3",
     "name": "Crouch Spin Kick",
     "notes": [],
@@ -1807,6 +1850,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 44,
     "input": "d+4",
     "name": "Crouch Chin Kick",
     "notes": [],
@@ -1848,6 +1892,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 45,
     "input": "d+1+2",
     "name": "Nejiri Uraken",
     "notes": [],
@@ -1885,6 +1930,7 @@
       "l",
       "sp"
     ],
+    "index": 46,
     "input": "d+1+2,B",
     "name": "Nejiri Uraken to Cancel",
     "notes": [],
@@ -1920,6 +1966,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 47,
     "input": "db+1",
     "name": "",
     "notes": [],
@@ -1961,6 +2008,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 49,
     "input": "db+2",
     "name": "Lion Slayer",
     "notes": [],
@@ -2003,6 +2051,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 50,
     "input": "db+3",
     "name": "Sliding Low Kick",
     "notes": [],
@@ -2040,6 +2089,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 51,
     "input": "db+4",
     "name": "Stature Smash",
     "notes": [],
@@ -2075,6 +2125,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 52,
     "input": "b+1",
     "name": "",
     "notes": [],
@@ -2113,6 +2164,7 @@
       "h",
       "m"
     ],
+    "index": 53,
     "input": "b+1,2",
     "name": "Sokushitsu Goda",
     "notes": [
@@ -2154,6 +2206,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 54,
     "input": "b+2",
     "name": "",
     "notes": [],
@@ -2191,6 +2244,7 @@
       "m",
       "m"
     ],
+    "index": 55,
     "input": "b+2,2",
     "name": "",
     "notes": [],
@@ -2234,6 +2288,7 @@
       "m",
       "h"
     ],
+    "index": 56,
     "input": "b+2,2,1+2",
     "name": "Danzui Raizanba",
     "notes": [
@@ -2275,6 +2330,7 @@
       "m",
       "h"
     ],
+    "index": 57,
     "input": "b+2,4",
     "name": "",
     "notes": [
@@ -2321,6 +2377,7 @@
       "h",
       "m"
     ],
+    "index": 58,
     "input": "b+2,4,1",
     "name": "Rampaging Demon",
     "notes": [
@@ -2360,6 +2417,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 59,
     "input": "b+3",
     "name": "",
     "notes": [],
@@ -2397,6 +2455,7 @@
       "h",
       "h"
     ],
+    "index": 60,
     "input": "b+3,1",
     "name": "",
     "notes": [
@@ -2441,6 +2500,7 @@
       "h",
       "l"
     ],
+    "index": 61,
     "input": "b+3,1,4",
     "name": "",
     "notes": [],
@@ -2485,6 +2545,7 @@
       "l",
       "m"
     ],
+    "index": 62,
     "input": "b+3,1,4,1",
     "name": "Demon's Wrath",
     "notes": [],
@@ -2530,6 +2591,7 @@
       "l",
       "l"
     ],
+    "index": 63,
     "input": "b+3,1,4,3",
     "name": "Reign of Terror",
     "notes": [],
@@ -2571,6 +2633,7 @@
     "hitLevels": [
       "ub(m)"
     ],
+    "index": 66,
     "input": "b+1+4",
     "name": "Lightning Screw Uppercut",
     "notes": [],
@@ -2606,6 +2669,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 67,
     "input": "uf+1",
     "name": "Jumping Knuckle",
     "notes": [],
@@ -2643,6 +2707,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 68,
     "input": "uf+2",
     "name": "Hook",
     "notes": [],
@@ -2681,6 +2746,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 69,
     "input": "uf+3",
     "name": "Searing Edge",
     "notes": [],
@@ -2724,6 +2790,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 70,
     "input": "ub+1+2",
     "name": "Inferno",
     "notes": [
@@ -2764,6 +2831,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 71,
     "input": "uf+4",
     "name": "",
     "notes": [],
@@ -2805,6 +2873,7 @@
       "m",
       "l"
     ],
+    "index": 72,
     "input": "uf+4,4",
     "name": "",
     "notes": [],
@@ -2847,6 +2916,7 @@
       "l",
       "l"
     ],
+    "index": 73,
     "input": "uf+4,4,4",
     "name": "",
     "notes": [],
@@ -2891,6 +2961,7 @@
       "l",
       "m"
     ],
+    "index": 74,
     "input": "uf+4,4,4,4",
     "name": "Roundhouse > Triple Spin Kick",
     "notes": [],
@@ -2931,6 +3002,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 75,
     "input": "uf,n,4",
     "name": "Delayed Rising Toe Kick",
     "notes": [],
@@ -2970,6 +3042,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 77,
     "input": "f,F+3",
     "name": "Left Splits Kick",
     "notes": [],
@@ -3011,6 +3084,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 78,
     "input": "f,F+4",
     "name": "Devil's Steel Pedal",
     "notes": [],
@@ -3050,6 +3124,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 79,
     "input": "f,f,F+3",
     "name": "Leaping Side Kick",
     "notes": [
@@ -3089,6 +3164,7 @@
     "hitLevels": [
       "sl"
     ],
+    "index": 80,
     "input": "hFC.1",
     "name": "Crouch Jab",
     "notes": [
@@ -3126,6 +3202,7 @@
     "hitLevels": [
       "sl"
     ],
+    "index": 81,
     "input": "hFC.2",
     "name": "Crouch Straight",
     "notes": [],
@@ -3161,6 +3238,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 82,
     "input": "hFC.3",
     "name": "Crouch Spin Kick",
     "notes": [],
@@ -3196,6 +3274,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 83,
     "input": "hFC.4",
     "name": "Crouch Shin Kick",
     "notes": [],
@@ -3235,6 +3314,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 84,
     "input": "FC.df+3+4",
     "name": "Tombstone Crusher",
     "notes": [],
@@ -3270,6 +3350,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 85,
     "input": "ws1",
     "name": "Uppercut",
     "notes": [],
@@ -3310,6 +3391,7 @@
       "m",
       "m"
     ],
+    "index": 86,
     "input": "ws1,2",
     "name": "Twin Pistons",
     "notes": [
@@ -3351,6 +3433,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 87,
     "input": "ws2",
     "name": "Demon God Fist",
     "notes": [],
@@ -3391,6 +3474,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 88,
     "input": "ws3",
     "name": "Engetsusen",
     "notes": [],
@@ -3430,6 +3514,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 89,
     "input": "ws4",
     "name": "Toe Smash",
     "notes": [],
@@ -3469,6 +3554,7 @@
       "m",
       "m"
     ],
+    "index": 90,
     "input": "ws4,4",
     "name": "Tsunami Kick",
     "notes": [
@@ -3508,6 +3594,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 91,
     "input": "ws1+2",
     "name": "Fujin Uraken",
     "notes": [],
@@ -3548,6 +3635,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 92,
     "input": "SS.3",
     "name": "Shattered Spine",
     "notes": [],
@@ -3587,6 +3675,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 93,
     "input": "SS.1+2",
     "name": "Elkeid",
     "notes": [],
@@ -3622,6 +3711,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 94,
     "input": "BT.1",
     "name": "",
     "notes": [],
@@ -3657,6 +3747,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 95,
     "input": "BT.3",
     "name": "",
     "notes": [],
@@ -3692,6 +3783,7 @@
     "hitLevels": [
       "sl"
     ],
+    "index": 96,
     "input": "BT.d+1",
     "name": "",
     "notes": [],
@@ -3727,6 +3819,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 97,
     "input": "BT.d+3",
     "name": "",
     "notes": [],
@@ -3765,6 +3858,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 98,
     "input": "BT.u+3",
     "name": "",
     "notes": [],
@@ -3798,6 +3892,7 @@
     "hitLevels": [
       "sp"
     ],
+    "index": 99,
     "input": "f,(oddnumbersframes).n",
     "name": "Mist Step (Left Side)",
     "notes": [],
@@ -3831,6 +3926,7 @@
     "hitLevels": [
       "sp"
     ],
+    "index": 100,
     "input": "f,(evennumbersframes).n",
     "name": "Mist Step (Left Side)",
     "notes": [],
@@ -3864,6 +3960,7 @@
     "hitLevels": [
       "sp"
     ],
+    "index": 101,
     "input": "f,n,DF",
     "name": "Mist Step to Wind God Step",
     "notes": [
@@ -3901,6 +3998,7 @@
     "hitLevels": [
       "sp"
     ],
+    "index": 102,
     "input": "f,n,d,DF",
     "name": "Wind God Step",
     "notes": [
@@ -3942,6 +4040,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 103,
     "input": "f,n,d,df+1",
     "name": "Thunder God Fist",
     "notes": [
@@ -3984,6 +4083,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 104,
     "input": "f,n,d,df+2",
     "name": "Wind God Fist",
     "notes": [],
@@ -4022,6 +4122,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 105,
     "input": "f,n,d,df#2",
     "name": "Electric Wind God Fist",
     "notes": [
@@ -4063,6 +4164,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 106,
     "input": "f,n,d,df+3",
     "name": "Hell Lancer",
     "notes": [],
@@ -4104,6 +4206,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 107,
     "input": "f,n,d,DF+4",
     "name": "Spinning Demon",
     "notes": [],
@@ -4143,6 +4246,7 @@
       "l",
       "m"
     ],
+    "index": 108,
     "input": "f,n,d,DF+4,1",
     "name": "Spinning Demon > Left Hook",
     "notes": [
@@ -4187,6 +4291,7 @@
       "l",
       "h"
     ],
+    "index": 109,
     "input": "f,n,d,DF+4,4",
     "name": "Illusive Demon",
     "notes": [
@@ -4231,6 +4336,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 110,
     "input": "f,n,d,df+1+2",
     "name": "Patricide Fist",
     "notes": [
@@ -4277,6 +4383,7 @@
       "m",
       "th"
     ],
+    "index": 111,
     "input": "1,1,2,DVK.F",
     "name": "Devil Break",
     "notes": [
@@ -4320,6 +4427,7 @@
     "hitLevels": [
       "ub(m)"
     ],
+    "index": 112,
     "input": "DVK.3+4",
     "name": "Devil Blaster",
     "notes": [
@@ -4360,6 +4468,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 113,
     "input": "DVK.1+4",
     "name": "Roar of the Devil",
     "notes": [
@@ -4400,6 +4509,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 114,
     "input": "DVK.db+3+4",
     "name": "Devil Impact",
     "notes": [
@@ -4439,6 +4549,7 @@
       "l",
       "sp"
     ],
+    "index": 115,
     "input": "DVK.db+3+4,DF",
     "name": "Devil Impact to Wind God Step",
     "notes": [
@@ -4477,6 +4588,7 @@
     "hitLevels": [
       "ub(h)"
     ],
+    "index": 116,
     "input": "DVK.ub+1+2",
     "name": "Inferno",
     "notes": [
@@ -4515,6 +4627,7 @@
     "hitLevels": [
       "ub(h)"
     ],
+    "index": 117,
     "input": "DVK.uf+1+2",
     "name": "Air Inferno",
     "notes": [
@@ -4556,6 +4669,7 @@
       "m",
       "th"
     ],
+    "index": 118,
     "input": "DVK.f,F+2",
     "name": "Chaos Inferno",
     "notes": [
@@ -4597,6 +4711,7 @@
       "m",
       "th"
     ],
+    "index": 119,
     "input": "DVK.f,n,d,df+1",
     "name": "Damnation",
     "notes": [
@@ -4639,6 +4754,7 @@
       "h",
       "th"
     ],
+    "index": 120,
     "input": "DVK.f,n,d,df+3",
     "name": "Tempest Blaster",
     "notes": [
@@ -4686,6 +4802,7 @@
       "m",
       "th"
     ],
+    "index": 121,
     "input": "f,n,d,DF+4,1,DVK.1",
     "name": "Abyss Damnation",
     "notes": [
@@ -4736,6 +4853,7 @@
       "th",
       "sp"
     ],
+    "index": 122,
     "input": "f,n,d,DF+4,1,DVK.1,B",
     "name": "Spinning Demon to Left Hook > Thunder God Fist",
     "notes": [
@@ -4776,6 +4894,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 123,
     "input": "DVK.SS.2",
     "name": "Devil Twister",
     "notes": [
@@ -4819,6 +4938,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 124,
     "input": "DVK.OTG.db+1+2",
     "name": "Grand Inferno",
     "notes": [
@@ -4859,6 +4979,7 @@
       "m",
       "t"
     ],
+    "index": 125,
     "input": "R.df+1+2",
     "name": "Demonic Catastrophe",
     "notes": [
@@ -4904,6 +5025,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 126,
     "input": "OTG.d+3+4",
     "name": "Oni Stomp",
     "notes": [],
@@ -4939,6 +5061,7 @@
     "hitLevels": [
       "sp"
     ],
+    "index": 127,
     "input": "1+2+3+4",
     "name": "Ki Charge",
     "notes": [
@@ -4979,6 +5102,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 128,
     "input": "(backtowall).b,b,ub",
     "name": "Wall Jumping Attack",
     "notes": [
@@ -5019,6 +5143,7 @@
     "hitLevels": [
       "th(h)"
     ],
+    "index": 129,
     "input": "1+3",
     "name": "Double High Sweep",
     "notes": [
@@ -5062,6 +5187,7 @@
     "hitLevels": [
       "th(h)"
     ],
+    "index": 130,
     "input": "2+4",
     "name": "Lightning Crash",
     "notes": [
@@ -5104,6 +5230,7 @@
     "hitLevels": [
       "th(h)"
     ],
+    "index": 131,
     "input": "Leftthrow",
     "name": "Steel Pedal Drop",
     "notes": [
@@ -5146,6 +5273,7 @@
     "hitLevels": [
       "th(h)"
     ],
+    "index": 132,
     "input": "Rightthrow",
     "name": "Skull Smash",
     "notes": [],
@@ -5184,6 +5312,7 @@
     "hitLevels": [
       "th(h)"
     ],
+    "index": 133,
     "input": "Backthrow",
     "name": "Reverse Neck Throw",
     "notes": [
@@ -5225,6 +5354,7 @@
     "hitLevels": [
       "th(h)"
     ],
+    "index": 134,
     "input": "uf+1+2",
     "name": "Stonehead",
     "notes": [
@@ -5269,6 +5399,7 @@
     "hitLevels": [
       "th(h)"
     ],
+    "index": 135,
     "input": "FC.db+1+2",
     "name": "Gates of Hell",
     "notes": [],

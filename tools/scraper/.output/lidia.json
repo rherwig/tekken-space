@@ -28,6 +28,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 0,
     "input": "2+3",
     "name": "Heat Burst",
     "notes": [
@@ -76,6 +77,7 @@
       "m",
       "h"
     ],
+    "index": 1,
     "input": "H.2+3",
     "name": "Efflorescent Blizzard",
     "notes": [
@@ -121,6 +123,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 2,
     "input": "H.1+2",
     "name": "Heian Shodan Seikenzuki > Heaven and Earth",
     "notes": [
@@ -170,6 +173,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 3,
     "input": "H.1+2*",
     "name": "Heian Shodan Seikenzuki (Slight Hold) > Heaven and Earth",
     "notes": [
@@ -217,6 +221,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 4,
     "input": "H.1+2**",
     "name": "Heian Shodan Seikenzuki: Digress > Heaven and Earth",
     "notes": [
@@ -260,6 +265,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 5,
     "input": "H.f,F+2",
     "name": "Lightning Seikenzuki",
     "notes": [
@@ -305,6 +311,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 6,
     "input": "H.f,f,F+1",
     "name": "Swift High Seikenzuki > Heaven and Earth",
     "notes": [
@@ -352,6 +359,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 7,
     "input": "H.WLF.1",
     "name": "Bassai-zuki > Heaven and Earth",
     "notes": [
@@ -396,6 +404,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 8,
     "input": "H.WLF.1*",
     "name": "Bassai-zuki (Hold) > Heaven and Earth",
     "notes": [
@@ -449,6 +458,7 @@
       "m",
       "m"
     ],
+    "index": 9,
     "input": "f+1+2,3,1+2",
     "name": "Political Storm",
     "notes": [
@@ -493,6 +503,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 10,
     "input": "b+1",
     "name": "Stalwart Governance",
     "notes": [
@@ -536,6 +547,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 11,
     "input": "FC.df+2",
     "name": "Flash Elbow",
     "notes": [],
@@ -578,6 +590,7 @@
       "m",
       "t"
     ],
+    "index": 12,
     "input": "HRS.2",
     "name": "Unanimous Consent",
     "notes": [
@@ -625,6 +638,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 13,
     "input": "CAT.3",
     "name": "High Left Reverse Hook Kick",
     "notes": [],
@@ -664,6 +678,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 14,
     "input": "1",
     "name": "Jab",
     "notes": [],
@@ -701,6 +716,7 @@
       "h",
       "h"
     ],
+    "index": 15,
     "input": "1,2",
     "name": "Flurry",
     "notes": [],
@@ -740,6 +756,7 @@
       "h",
       "m"
     ],
+    "index": 16,
     "input": "1,2,2",
     "name": "Flurry > Mid Chaser",
     "notes": [
@@ -788,6 +805,7 @@
       "h",
       "h"
     ],
+    "index": 17,
     "input": "1,2,3",
     "name": "Flurry > Gale Kick",
     "notes": [
@@ -833,6 +851,7 @@
       "h",
       "l"
     ],
+    "index": 18,
     "input": "1,2,4",
     "name": "Flurry > Low Right Kick",
     "notes": [
@@ -875,6 +894,7 @@
       "h",
       "h"
     ],
+    "index": 19,
     "input": "1,4",
     "name": "High Jab > High Right Kick",
     "notes": [
@@ -913,6 +933,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 20,
     "input": "2",
     "name": "",
     "notes": [],
@@ -952,6 +973,7 @@
       "h",
       "h"
     ],
+    "index": 21,
     "input": "2,2",
     "name": "Double Twisting Chop",
     "notes": [
@@ -996,6 +1018,7 @@
       "h",
       "m"
     ],
+    "index": 22,
     "input": "2,4",
     "name": "High Right Reverse Jab > Mid Right Front Kick",
     "notes": [],
@@ -1031,6 +1054,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 23,
     "input": "3",
     "name": "",
     "notes": [],
@@ -1070,6 +1094,7 @@
       "h",
       "h"
     ],
+    "index": 24,
     "input": "3,2",
     "name": "Gankaku",
     "notes": [
@@ -1112,6 +1137,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 25,
     "input": "4",
     "name": "",
     "notes": [],
@@ -1152,6 +1178,7 @@
       "h",
       "m"
     ],
+    "index": 26,
     "input": "4,3",
     "name": "High Right Roundhouse Kick > Jumping Back Spin Kick",
     "notes": [
@@ -1193,6 +1220,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 27,
     "input": "1+2",
     "name": "Heian Shodan Seikenzuki",
     "notes": [
@@ -1238,6 +1266,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 28,
     "input": "1+2*",
     "name": "Heian Shodan Seikenzuki (Slight Hold)",
     "notes": [
@@ -1281,6 +1310,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 29,
     "input": "1+2**",
     "name": "Heian Shodan Seikenzuki: Digress",
     "notes": [
@@ -1324,6 +1354,7 @@
       "m",
       "m"
     ],
+    "index": 30,
     "input": "3+4",
     "name": "Floret Maelstrom",
     "notes": [
@@ -1363,6 +1394,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 31,
     "input": "f+2",
     "name": "",
     "notes": [],
@@ -1405,6 +1437,7 @@
       "h",
       "h"
     ],
+    "index": 32,
     "input": "f+2,4",
     "name": "Horned Lark",
     "notes": [
@@ -1445,6 +1478,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 33,
     "input": "f+3",
     "name": "",
     "notes": [],
@@ -1483,6 +1517,7 @@
       "m",
       "h"
     ],
+    "index": 34,
     "input": "f+3,4",
     "name": "Jumping Front Kick > Helm Splitter",
     "notes": [
@@ -1526,6 +1561,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 35,
     "input": "f+4",
     "name": "",
     "notes": [],
@@ -1564,6 +1600,7 @@
       "m",
       "m"
     ],
+    "index": 36,
     "input": "f+4,3",
     "name": "",
     "notes": [],
@@ -1606,6 +1643,7 @@
       "m",
       "m"
     ],
+    "index": 37,
     "input": "f+4,3,1",
     "name": "Kusanku Double Kick > Uraken-uchi",
     "notes": [
@@ -1657,6 +1695,7 @@
       "m",
       "m"
     ],
+    "index": 38,
     "input": "f+4,3,4",
     "name": "Kusanku Triple Kick",
     "notes": [
@@ -1699,6 +1738,7 @@
       "h",
       "m"
     ],
+    "index": 39,
     "input": "f+1+2",
     "name": "",
     "notes": [],
@@ -1738,6 +1778,7 @@
       "m",
       "m"
     ],
+    "index": 40,
     "input": "f+1+2,3",
     "name": "",
     "notes": [
@@ -1773,6 +1814,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 42,
     "input": "f+3+4",
     "name": "Horse Stance",
     "notes": [],
@@ -1808,6 +1850,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 43,
     "input": "df+1",
     "name": "",
     "notes": [],
@@ -1846,6 +1889,7 @@
       "m",
       "h"
     ],
+    "index": 44,
     "input": "df+1,2",
     "name": "Mid Left Hook Thrust > Reverse Chop",
     "notes": [],
@@ -1888,6 +1932,7 @@
       "m",
       "m"
     ],
+    "index": 45,
     "input": "df+1,3",
     "name": "Mid Left Hook Thrust > Mid Left Sidekick",
     "notes": [
@@ -1929,6 +1974,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 46,
     "input": "df+2",
     "name": "Coiled Elbow Slam",
     "notes": [
@@ -1970,6 +2016,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 47,
     "input": "df+3",
     "name": "",
     "notes": [],
@@ -2012,6 +2059,7 @@
       "m",
       "m"
     ],
+    "index": 48,
     "input": "df+3,4",
     "name": "Mid Left Knee > Mid Right Sidekick",
     "notes": [
@@ -2051,6 +2099,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 49,
     "input": "df+4",
     "name": "",
     "notes": [],
@@ -2090,6 +2139,7 @@
       "m",
       "h"
     ],
+    "index": 50,
     "input": "df+4,2",
     "name": "Crescent Kick > High Elbow Strike",
     "notes": [
@@ -2134,6 +2184,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 51,
     "input": "df+4~3",
     "name": "Rapture",
     "notes": [
@@ -2180,6 +2231,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 52,
     "input": "df+4~4",
     "name": "Triangle Kick",
     "notes": [],
@@ -2220,6 +2272,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 53,
     "input": "df+3+4",
     "name": "Tourbillion",
     "notes": [],
@@ -2265,6 +2318,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 54,
     "input": "d+1",
     "name": "Chop",
     "notes": [],
@@ -2302,6 +2356,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 55,
     "input": "d+2",
     "name": "Lame Duck",
     "notes": [],
@@ -2337,6 +2392,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 56,
     "input": "d+3",
     "name": "",
     "notes": [],
@@ -2374,6 +2430,7 @@
       "l",
       "h"
     ],
+    "index": 57,
     "input": "d+3,1",
     "name": "Kansetsu-geri",
     "notes": [
@@ -2419,6 +2476,7 @@
       "h",
       "h"
     ],
+    "index": 58,
     "input": "d+3,1,2",
     "name": "Majority Rules",
     "notes": [
@@ -2460,6 +2518,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 59,
     "input": "d+4",
     "name": "",
     "notes": [],
@@ -2495,6 +2554,7 @@
     "hitLevels": [
       "sl"
     ],
+    "index": 60,
     "input": "db+1",
     "name": "Down Jab",
     "notes": [],
@@ -2531,6 +2591,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 61,
     "input": "db+2",
     "name": "Valley Breeze",
     "notes": [],
@@ -2567,6 +2628,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 62,
     "input": "db+3",
     "name": "Adjourning Sweep",
     "notes": [
@@ -2612,6 +2674,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 63,
     "input": "CH.db+3",
     "name": "Red Tape",
     "notes": [
@@ -2650,6 +2713,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 64,
     "input": "db+4",
     "name": "Shin Splinter",
     "notes": [],
@@ -2685,6 +2749,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 65,
     "input": "db+3+4",
     "name": "For the People",
     "notes": [
@@ -2728,6 +2793,7 @@
       "m",
       "h"
     ],
+    "index": 66,
     "input": "db+3+4,P.1",
     "name": "For the Nation",
     "notes": [
@@ -2768,6 +2834,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 68,
     "input": "b+2",
     "name": "Ruling Party",
     "notes": [],
@@ -2807,6 +2874,7 @@
       "h",
       "m"
     ],
+    "index": 69,
     "input": "b+2,3",
     "name": "Crushing Left Knee",
     "notes": [
@@ -2848,6 +2916,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 70,
     "input": "b+3",
     "name": "",
     "notes": [],
@@ -2887,6 +2956,7 @@
       "m",
       "m"
     ],
+    "index": 71,
     "input": "b+3,1",
     "name": "Birds of Prey",
     "notes": [],
@@ -2926,6 +2996,7 @@
       "m",
       "h"
     ],
+    "index": 72,
     "input": "b+3,4",
     "name": "",
     "notes": [],
@@ -2968,6 +3039,7 @@
       "h",
       "m"
     ],
+    "index": 73,
     "input": "b+3,4,1+2",
     "name": "Birds and Beasts",
     "notes": [
@@ -3010,6 +3082,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 74,
     "input": "b+4",
     "name": "Back Spin Kick",
     "notes": [
@@ -3052,6 +3125,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 75,
     "input": "b+1+2",
     "name": "Iron Lady",
     "notes": [
@@ -3087,6 +3161,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 76,
     "input": "b+3+4",
     "name": "Cat Stance",
     "notes": [],
@@ -3125,6 +3200,7 @@
     "hitLevels": [
       "m!"
     ],
+    "index": 77,
     "input": "b+1+4",
     "name": "Gekisai Ura-uchi",
     "notes": [],
@@ -3162,6 +3238,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 78,
     "input": "uf+1",
     "name": "Gyre",
     "notes": [
@@ -3207,6 +3284,7 @@
       "m",
       "h"
     ],
+    "index": 79,
     "input": "uf+1,P",
     "name": "Vortex",
     "notes": [
@@ -3250,6 +3328,7 @@
     "hitLevels": [
       "M"
     ],
+    "index": 80,
     "input": "uf+3",
     "name": "Willow Branch",
     "notes": [],
@@ -3294,6 +3373,7 @@
       "m",
       "h"
     ],
+    "index": 81,
     "input": "uf+4",
     "name": "Cleaving Spirit",
     "notes": [
@@ -3340,6 +3420,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 82,
     "input": "uf,n,4",
     "name": "Delayed Rising Toe Kick",
     "notes": [],
@@ -3377,6 +3458,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 83,
     "input": "f,F+2",
     "name": "Lightning Seikenzuki",
     "notes": [
@@ -3419,6 +3501,7 @@
     "hitLevels": [
       "M"
     ],
+    "index": 84,
     "input": "f,F+3",
     "name": "Flying Forward Kick",
     "notes": [],
@@ -3456,6 +3539,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 85,
     "input": "f,F+4",
     "name": "",
     "notes": [],
@@ -3497,6 +3581,7 @@
       "m",
       "m"
     ],
+    "index": 86,
     "input": "f,F+4,3",
     "name": "Hazy Moon Double Kick",
     "notes": [
@@ -3540,6 +3625,7 @@
       "m",
       "th"
     ],
+    "index": 87,
     "input": "(airborne).f,F+4,3",
     "name": "Celestial Comet Punch",
     "notes": [
@@ -3584,6 +3670,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 88,
     "input": "f,F+1+2",
     "name": "White Whale",
     "notes": [
@@ -3627,6 +3714,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 89,
     "input": "f,f,F+1",
     "name": "Swift High Seikenzuki",
     "notes": [
@@ -3671,6 +3759,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 90,
     "input": "f,f,F+3",
     "name": "Flying Blade",
     "notes": [
@@ -3710,6 +3799,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 91,
     "input": "qcf+2",
     "name": "",
     "notes": [],
@@ -3747,6 +3837,7 @@
       "m",
       "m"
     ],
+    "index": 92,
     "input": "qcf+2,2",
     "name": "",
     "notes": [],
@@ -3790,6 +3881,7 @@
       "m",
       "m"
     ],
+    "index": 93,
     "input": "qcf+2,2,1+2",
     "name": "Blossom Fury",
     "notes": [
@@ -3831,6 +3923,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 94,
     "input": "qcf+4",
     "name": "Helm Splitter",
     "notes": [
@@ -3871,6 +3964,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 95,
     "input": "qcf+1+2",
     "name": "",
     "notes": [],
@@ -3913,6 +4007,7 @@
       "m",
       "m"
     ],
+    "index": 96,
     "input": "qcf+1+2,2",
     "name": "Red Poppy",
     "notes": [
@@ -3956,6 +4051,7 @@
     "hitLevels": [
       "sl"
     ],
+    "index": 97,
     "input": "FC.d+1",
     "name": "",
     "notes": [
@@ -3994,6 +4090,7 @@
     "hitLevels": [
       "sl"
     ],
+    "index": 98,
     "input": "FC.d+2",
     "name": "",
     "notes": [],
@@ -4029,6 +4126,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 99,
     "input": "FC.d+3",
     "name": "",
     "notes": [],
@@ -4064,6 +4162,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 100,
     "input": "FC.d+4",
     "name": "",
     "notes": [],
@@ -4101,6 +4200,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 102,
     "input": "FC.df+3",
     "name": "Odd-tooth Snake",
     "notes": [
@@ -4139,6 +4239,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 103,
     "input": "ws1",
     "name": "",
     "notes": [],
@@ -4177,6 +4278,7 @@
       "m",
       "h"
     ],
+    "index": 104,
     "input": "ws1,2",
     "name": "White-tailed Eagle",
     "notes": [
@@ -4221,6 +4323,7 @@
       "m",
       "m"
     ],
+    "index": 105,
     "input": "ws1,4",
     "name": "Wild Eagle",
     "notes": [
@@ -4265,6 +4368,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 106,
     "input": "ws2",
     "name": "Upward Thrust",
     "notes": [],
@@ -4309,6 +4413,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 107,
     "input": "ws3",
     "name": "Bridging the Gap",
     "notes": [],
@@ -4348,6 +4453,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 108,
     "input": "ws4",
     "name": "",
     "notes": [],
@@ -4385,6 +4491,7 @@
       "m",
       "h"
     ],
+    "index": 109,
     "input": "ws4,2",
     "name": "Caustic Retort",
     "notes": [
@@ -4425,6 +4532,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 111,
     "input": "HRS.1",
     "name": "Hachi-wari",
     "notes": [],
@@ -4467,6 +4575,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 113,
     "input": "HRS.3",
     "name": "Kumo-geri",
     "notes": [],
@@ -4510,6 +4619,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 114,
     "input": "HRS.4",
     "name": "Muramasa",
     "notes": [
@@ -4556,6 +4666,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 115,
     "input": "HRS.1+2",
     "name": "Low Chop",
     "notes": [],
@@ -4587,6 +4698,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 116,
     "input": "HRS.F",
     "name": "Horse Stance > Stalking Wolf Stance",
     "notes": [],
@@ -4618,6 +4730,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 117,
     "input": "HRS.b",
     "name": "Horse Stance > Cancel",
     "notes": [
@@ -4652,6 +4765,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 118,
     "input": "H.HRS.U",
     "name": "Horse Stance > Heaven and Earth",
     "notes": [
@@ -4686,6 +4800,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 119,
     "input": "HRS.b,B",
     "name": "Horse Stance > Vacuity",
     "notes": [],
@@ -4727,6 +4842,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 121,
     "input": "CAT.1",
     "name": "Mid Left Thrust",
     "notes": [],
@@ -4765,6 +4881,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 122,
     "input": "CAT.2",
     "name": "",
     "notes": [],
@@ -4809,6 +4926,7 @@
       "h",
       "m"
     ],
+    "index": 123,
     "input": "CAT.2,2",
     "name": "Rising Carp",
     "notes": [
@@ -4852,6 +4970,7 @@
       "h",
       "m"
     ],
+    "index": 124,
     "input": "CAT.2,3",
     "name": "",
     "notes": [],
@@ -4894,6 +5013,7 @@
       "m",
       "m"
     ],
+    "index": 125,
     "input": "CAT.2,3,1",
     "name": "Enlightenment",
     "notes": [
@@ -4941,6 +5061,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 127,
     "input": "CAT.4",
     "name": "",
     "notes": [
@@ -4985,6 +5106,7 @@
       "L",
       "M"
     ],
+    "index": 128,
     "input": "CAT.4,3+4",
     "name": "Crouching Tiger, Rising Dragon",
     "notes": [
@@ -5027,6 +5149,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 129,
     "input": "CAT.1+2",
     "name": "Gojushiho",
     "notes": [
@@ -5062,6 +5185,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 130,
     "input": "CAT.F",
     "name": "Cat Stance > Stalking Wolf Stance",
     "notes": [],
@@ -5093,6 +5217,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 131,
     "input": "CAT.b",
     "name": "Cat Stance > Cancel",
     "notes": [
@@ -5127,6 +5252,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 132,
     "input": "H.CAT.U",
     "name": "Cat Stance > Heaven and Earth",
     "notes": [
@@ -5161,6 +5287,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 133,
     "input": "CAT.b,B",
     "name": "Cat Stance > Vacuity",
     "notes": [],
@@ -5200,6 +5327,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 134,
     "input": "WLF.1",
     "name": "Bassai-zuki",
     "notes": [
@@ -5243,6 +5371,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 135,
     "input": "WLF.1*",
     "name": "",
     "notes": [
@@ -5289,6 +5418,7 @@
     "hitLevels": [
       "M"
     ],
+    "index": 136,
     "input": "WLF.2",
     "name": "Jion Upward Thrust",
     "notes": [
@@ -5328,6 +5458,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 137,
     "input": "WLF.3",
     "name": "",
     "notes": [],
@@ -5368,6 +5499,7 @@
       "m",
       "m"
     ],
+    "index": 138,
     "input": "WLF.3,1",
     "name": "Mid Left Kick > Nimble Thrust",
     "notes": [
@@ -5412,6 +5544,7 @@
       "L",
       "M"
     ],
+    "index": 139,
     "input": "WLF.4",
     "name": "Serpent Incision",
     "notes": [
@@ -5447,6 +5580,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 140,
     "input": "WLF.b",
     "name": "Stalking Wolf Stance > Cancel",
     "notes": [
@@ -5481,6 +5615,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 141,
     "input": "H.WLF.U",
     "name": "Stalking Wolf Stance > Heaven and Earth",
     "notes": [
@@ -5515,6 +5650,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 142,
     "input": "WLF.b,B",
     "name": "Stalking Wolf Stance > Vacuity",
     "notes": [],
@@ -5554,6 +5690,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 144,
     "input": "HAE.1",
     "name": "Heaven's Gavel: Injustice Banish",
     "notes": [
@@ -5600,6 +5737,7 @@
       "m",
       "m"
     ],
+    "index": 145,
     "input": "HAE.2",
     "name": "Heaven's Sword: Wreath Puncture",
     "notes": [
@@ -5644,6 +5782,7 @@
     "hitLevels": [
       "h!"
     ],
+    "index": 146,
     "input": "HAE.1+2",
     "name": "Heaven's Cannon: Crushing Defamation",
     "notes": [
@@ -5679,6 +5818,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 147,
     "input": "P.HAE",
     "name": "Heaven and Earth",
     "notes": [
@@ -5720,6 +5860,7 @@
       "m",
       "t"
     ],
+    "index": 148,
     "input": "R.df+1+2",
     "name": "Scarlet Valor: Martial Devotion",
     "notes": [
@@ -5761,6 +5902,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 149,
     "input": "1+3+4",
     "name": "Bow",
     "notes": [],
@@ -5792,6 +5934,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 150,
     "input": "1+2+3+4",
     "name": "Ki Charge",
     "notes": [
@@ -5836,6 +5979,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 151,
     "input": "SS.2",
     "name": "Elbow Slam",
     "notes": [],
@@ -5877,6 +6021,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 152,
     "input": "SS.4",
     "name": "Evasive High Right Back Kick",
     "notes": [],
@@ -5910,6 +6055,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 153,
     "input": "b+1+3",
     "name": "",
     "notes": [],
@@ -5952,6 +6098,7 @@
       "h",
       "h"
     ],
+    "index": 154,
     "input": "P.b+1+3",
     "name": "Law of the Land",
     "notes": [],
@@ -5990,6 +6137,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 155,
     "input": "OTG.d+1+2",
     "name": "Veto",
     "notes": [
@@ -6031,6 +6179,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 156,
     "input": "1+3",
     "name": "Moonlit Frost",
     "notes": [
@@ -6074,6 +6223,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 157,
     "input": "2+4",
     "name": "Parched Valley",
     "notes": [
@@ -6116,6 +6266,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 158,
     "input": "Leftthrow",
     "name": "Moonlit Frost",
     "notes": [
@@ -6156,6 +6307,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 159,
     "input": "Rightthrow",
     "name": "Parched Valley",
     "notes": [
@@ -6199,6 +6351,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 160,
     "input": "Backthrow",
     "name": "Smear Campaign",
     "notes": [
@@ -6241,6 +6394,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 161,
     "input": "uf+1+2",
     "name": "Trifecta",
     "notes": [
@@ -6284,6 +6438,7 @@
       "h",
       "h"
     ],
+    "index": 162,
     "input": "2,1",
     "name": "",
     "notes": [],
@@ -6323,6 +6478,7 @@
       "h",
       "h"
     ],
+    "index": 163,
     "input": "2,1,4",
     "name": "",
     "notes": [],
@@ -6365,6 +6521,7 @@
       "h",
       "l"
     ],
+    "index": 164,
     "input": "2,1,4,4",
     "name": "",
     "notes": [],
@@ -6409,6 +6566,7 @@
       "l",
       "m"
     ],
+    "index": 165,
     "input": "2,1,4,4,1",
     "name": "",
     "notes": [],
@@ -6454,6 +6612,7 @@
       "m",
       "h"
     ],
+    "index": 166,
     "input": "2,1,4,4,1,2",
     "name": "",
     "notes": [],
@@ -6502,6 +6661,7 @@
       "h",
       "h"
     ],
+    "index": 167,
     "input": "2,1,4,4,1,2,1",
     "name": "",
     "notes": [],
@@ -6551,6 +6711,7 @@
       "h",
       "m"
     ],
+    "index": 168,
     "input": "2,1,4,4,1,2,1,3",
     "name": "",
     "notes": [],
@@ -6602,6 +6763,7 @@
       "m",
       "m"
     ],
+    "index": 169,
     "input": "2,1,4,4,1,2,1,3,2",
     "name": "",
     "notes": [],
@@ -6658,6 +6820,7 @@
       "m",
       "m"
     ],
+    "index": 170,
     "input": "2,1,4,4,1,2,1,3,2,1",
     "name": "10 Hit Combo",
     "notes": [],

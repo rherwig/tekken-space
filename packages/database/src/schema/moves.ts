@@ -45,6 +45,7 @@ export const moves = pgTable('moves', {
         .array()
         .default(sql`ARRAY[]::text[]`),
     id: cuid('id').primaryKey(),
+    index: integer('index').default(0),
     isCombo: boolean('is_combo').notNull().default(false),
     moveListId: cuidReference('move_list_id', moveLists.id),
     name: text('name'),

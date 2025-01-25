@@ -114,6 +114,7 @@ CREATE TABLE IF NOT EXISTS "moves" (
 	"frames_on_startup_upper" text,
 	"hit_levels" text[] DEFAULT ARRAY[]::text[],
 	"id" varchar(128) PRIMARY KEY NOT NULL,
+	"index" integer DEFAULT 0,
 	"is_combo" boolean DEFAULT false NOT NULL,
 	"move_list_id" varchar(128),
 	"name" text,

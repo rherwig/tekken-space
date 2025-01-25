@@ -21,7 +21,7 @@ export async function findByCharacterId(characterId: string) {
         .where(
             and(eq(moves.characterId, characterId), eq(moves.isCombo, false)),
         )
-        .orderBy(moves.createdAt)
+        .orderBy(moves.index)
 }
 
 export async function create(data: CreateMove) {

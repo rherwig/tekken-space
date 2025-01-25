@@ -29,6 +29,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 0,
     "input": "2+3",
     "name": "Heat Burst",
     "notes": [
@@ -77,6 +78,7 @@
       "h",
       "m"
     ],
+    "index": 1,
     "input": "H.2+3",
     "name": "Hellfire Trespass Slayer",
     "notes": [
@@ -129,6 +131,7 @@
       "h",
       "m"
     ],
+    "index": 2,
     "input": "H.2+3,4",
     "name": "Hellfire Darkside Slayer",
     "notes": [
@@ -180,6 +183,7 @@
       "m",
       "h"
     ],
+    "index": 3,
     "input": "1+2",
     "name": "Median Line Destruction",
     "notes": [],
@@ -221,6 +225,7 @@
       "m",
       "m"
     ],
+    "index": 4,
     "input": "f+3,1",
     "name": "Tanden Nidan-uchi",
     "notes": [
@@ -265,6 +270,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 5,
     "input": "df+4",
     "name": "Right Spinning Axe Kick",
     "notes": [],
@@ -308,6 +314,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 6,
     "input": "f,F+2",
     "name": "Demon's Paw",
     "notes": [
@@ -354,6 +361,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 7,
     "input": "ZEN.2",
     "name": "Fiendish Claw",
     "notes": [
@@ -402,6 +410,7 @@
     "hitLevels": [
       "M"
     ],
+    "index": 8,
     "input": "H.db+1+2",
     "name": "Awakened Power Stance",
     "notes": [
@@ -452,6 +461,7 @@
       "M",
       "m"
     ],
+    "index": 9,
     "input": "H.db+1+2,1",
     "name": "Awakened Thunder God Fist",
     "notes": [
@@ -497,6 +507,7 @@
       "M",
       "sm"
     ],
+    "index": 10,
     "input": "H.db+1+2,2",
     "name": "Awakened Wind God Fist",
     "notes": [
@@ -541,6 +552,7 @@
       "M",
       "M"
     ],
+    "index": 11,
     "input": "H.db+1+2,3",
     "name": "Awakened Demon's Hoof",
     "notes": [
@@ -585,6 +597,7 @@
       "M",
       "L"
     ],
+    "index": 12,
     "input": "H.db+1+2,DF+3",
     "name": "Awakened Demon's Tail",
     "notes": [
@@ -626,6 +639,7 @@
       "M",
       "L"
     ],
+    "index": 13,
     "input": "H.db+1+2,4",
     "name": "",
     "notes": [
@@ -671,6 +685,7 @@
       "L",
       "m"
     ],
+    "index": 14,
     "input": "H.db+1+2,4,4",
     "name": "Awakened Spinning Demon",
     "notes": [],
@@ -708,6 +723,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 15,
     "input": "1",
     "name": "Jab",
     "notes": [],
@@ -745,6 +761,7 @@
       "h",
       "h"
     ],
+    "index": 16,
     "input": "1,2",
     "name": "Left Right Combo",
     "notes": [],
@@ -788,6 +805,7 @@
       "h",
       "m"
     ],
+    "index": 17,
     "input": "1,2,1",
     "name": "Left Right > Black Wing Rondo",
     "notes": [
@@ -837,6 +855,7 @@
       "h",
       "m"
     ],
+    "index": 18,
     "input": "1,2,3",
     "name": "Left Right > Axe Kick",
     "notes": [
@@ -886,6 +905,7 @@
       "h",
       "h"
     ],
+    "index": 19,
     "input": "1,2,4",
     "name": "Left Right > Spinning Hook Kick",
     "notes": [
@@ -930,6 +950,7 @@
       "h",
       "L"
     ],
+    "index": 20,
     "input": "1,3",
     "name": "Left Jab > Single Low",
     "notes": [
@@ -974,6 +995,7 @@
       "L",
       "l"
     ],
+    "index": 21,
     "input": "1,3,4",
     "name": "Left Jab > Double Low",
     "notes": [
@@ -1012,6 +1034,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 22,
     "input": "2",
     "name": "Right Jab",
     "notes": [],
@@ -1050,6 +1073,7 @@
       "h",
       "m"
     ],
+    "index": 23,
     "input": "2,1",
     "name": "Double Thrust",
     "notes": [
@@ -1095,6 +1119,7 @@
       "m",
       "m"
     ],
+    "index": 24,
     "input": "2,1,4",
     "name": "Double Thrust > Roundhouse",
     "notes": [
@@ -1140,6 +1165,7 @@
       "m",
       "l"
     ],
+    "index": 25,
     "input": "2,1,4~4",
     "name": "Double Thrust > Low Trick Kick",
     "notes": [],
@@ -1178,6 +1204,7 @@
       "h",
       "h"
     ],
+    "index": 26,
     "input": "2,4",
     "name": "Switchblade",
     "notes": [
@@ -1218,6 +1245,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 27,
     "input": "3",
     "name": "",
     "notes": [],
@@ -1255,6 +1283,7 @@
       "h",
       "h"
     ],
+    "index": 28,
     "input": "3,1",
     "name": "",
     "notes": [
@@ -1299,6 +1328,7 @@
       "h",
       "l"
     ],
+    "index": 29,
     "input": "3,1,4",
     "name": "Kishin Rekko",
     "notes": [
@@ -1343,6 +1373,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 30,
     "input": "4",
     "name": "High Right Roundhouse",
     "notes": [],
@@ -1387,6 +1418,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 31,
     "input": "4~3",
     "name": "Spinning Flare Kick",
     "notes": [],
@@ -1424,6 +1456,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 33,
     "input": "f+3",
     "name": "Left Sidekick",
     "notes": [],
@@ -1461,6 +1494,7 @@
       "m",
       "h"
     ],
+    "index": 35,
     "input": "f+3,3",
     "name": "Left Sidekick > Stinger",
     "notes": [
@@ -1501,6 +1535,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 36,
     "input": "f+4",
     "name": "Front Thrust Kick",
     "notes": [
@@ -1545,6 +1580,7 @@
       "h",
       "h"
     ],
+    "index": 37,
     "input": "f+1+2",
     "name": "Double Chamber Punch",
     "notes": [
@@ -1586,6 +1622,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 38,
     "input": "df+1",
     "name": "Mid Left Punch",
     "notes": [],
@@ -1629,6 +1666,7 @@
       "m",
       "h"
     ],
+    "index": 39,
     "input": "df+1,4",
     "name": "Mid Left Punch > High Roundhouse Kick",
     "notes": [
@@ -1675,6 +1713,7 @@
       "m",
       "m"
     ],
+    "index": 40,
     "input": "df+1,4~4",
     "name": "Mid Left Punch > Mid Sidekick",
     "notes": [],
@@ -1713,6 +1752,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 41,
     "input": "df+2",
     "name": "Fiendish Rend",
     "notes": [
@@ -1753,6 +1793,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 42,
     "input": "df+3",
     "name": "Left Roundhouse",
     "notes": [],
@@ -1793,6 +1834,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 43,
     "input": "df+3~3",
     "name": "Brazilian Kick",
     "notes": [
@@ -1836,6 +1878,7 @@
       "m",
       "t"
     ],
+    "index": 45,
     "input": "d+1",
     "name": "Corpse Thrust > Black Wing Flash",
     "notes": [
@@ -1881,6 +1924,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 46,
     "input": "d+2",
     "name": "Scourge",
     "notes": [
@@ -1919,6 +1963,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 47,
     "input": "d+3",
     "name": "",
     "notes": [],
@@ -1957,6 +2002,7 @@
       "l",
       "h"
     ],
+    "index": 48,
     "input": "d+3,4",
     "name": "",
     "notes": [],
@@ -2000,6 +2046,7 @@
       "h",
       "m"
     ],
+    "index": 49,
     "input": "d+3,4,3",
     "name": "Kazama Style Three-Quarter Kick",
     "notes": [
@@ -2046,6 +2093,7 @@
       "l",
       "m"
     ],
+    "index": 50,
     "input": "d+3,4~4",
     "name": "Knee Popper > Mid Sidekick",
     "notes": [],
@@ -2084,6 +2132,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 51,
     "input": "d+4",
     "name": "Right Sweep",
     "notes": [],
@@ -2125,6 +2174,7 @@
       "m",
       "m"
     ],
+    "index": 52,
     "input": "d+3+4",
     "name": "Double Lift Kick",
     "notes": [],
@@ -2160,6 +2210,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 53,
     "input": "db+2",
     "name": "",
     "notes": [],
@@ -2199,6 +2250,7 @@
       "m",
       "h"
     ],
+    "index": 54,
     "input": "db+2,2",
     "name": "",
     "notes": [],
@@ -2241,6 +2293,7 @@
       "h",
       "m"
     ],
+    "index": 55,
     "input": "db+2,2,3",
     "name": "Savage Sword",
     "notes": [
@@ -2283,6 +2336,7 @@
       "m",
       "M"
     ],
+    "index": 56,
     "input": "db+2,3",
     "name": "Punch > Cascade Kick",
     "notes": [],
@@ -2324,6 +2378,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 57,
     "input": "db+3",
     "name": "Left Spinning Back Kick",
     "notes": [],
@@ -2362,6 +2417,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 58,
     "input": "db+4",
     "name": "Right Low Roundhouse",
     "notes": [],
@@ -2403,6 +2459,7 @@
     "hitLevels": [
       "M"
     ],
+    "index": 59,
     "input": "db+1+2",
     "name": "Power Stance",
     "notes": [
@@ -2445,6 +2502,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 60,
     "input": "b+1",
     "name": "",
     "notes": [],
@@ -2486,6 +2544,7 @@
       "h",
       "h"
     ],
+    "index": 61,
     "input": "b+1,2",
     "name": "Shun Maten",
     "notes": [
@@ -2526,6 +2585,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 62,
     "input": "b+2",
     "name": "",
     "notes": [],
@@ -2564,6 +2624,7 @@
       "m",
       "m"
     ],
+    "index": 63,
     "input": "b+2,1",
     "name": "Shun Masatsu",
     "notes": [
@@ -2602,6 +2663,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 64,
     "input": "b+3",
     "name": "Left Knee",
     "notes": [
@@ -2646,6 +2708,7 @@
       "m",
       "m"
     ],
+    "index": 65,
     "input": "b+3,2",
     "name": "Left Knee > Right Thrust",
     "notes": [
@@ -2688,6 +2751,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 66,
     "input": "b+4",
     "name": "Spinning Sidekick",
     "notes": [],
@@ -2726,6 +2790,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 67,
     "input": "b+1+2",
     "name": "Suigetsu Strike",
     "notes": [],
@@ -2757,6 +2822,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 68,
     "input": "b+3+4",
     "name": "\nZanshin\nCrouching Demon Stance (CDS)\nMental Alertness (2)\n",
     "notes": [
@@ -2805,6 +2871,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 69,
     "input": "ub+4",
     "name": "",
     "notes": [],
@@ -2846,6 +2913,7 @@
     "hitLevels": [
       "m!"
     ],
+    "index": 70,
     "input": "ub+1+2",
     "name": "\nAvenger\nKonshin Seikenzuki\n",
     "notes": [
@@ -2891,6 +2959,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 71,
     "input": "uf+2",
     "name": "Evading Middle Strike",
     "notes": [
@@ -2932,6 +3001,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 72,
     "input": "uf+3",
     "name": "Left Spinning Jump Kick",
     "notes": [],
@@ -2970,6 +3040,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 73,
     "input": "uf+4",
     "name": "Front Jump Kick",
     "notes": [],
@@ -3008,6 +3079,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 74,
     "input": "uf,n,4",
     "name": "Delayed Rising Toe Kick",
     "notes": [],
@@ -3046,6 +3118,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 76,
     "input": "f,F+3",
     "name": "Left Axe Kick",
     "notes": [
@@ -3087,6 +3160,7 @@
       "m",
       "h"
     ],
+    "index": 77,
     "input": "f,F+3,1",
     "name": "Left Axe Kick > Left Jab",
     "notes": [
@@ -3128,6 +3202,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 78,
     "input": "f,F+4",
     "name": "Battery Sidekick",
     "notes": [],
@@ -3166,6 +3241,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 79,
     "input": "b,f+2",
     "name": "",
     "notes": [],
@@ -3203,6 +3279,7 @@
       "m",
       "h"
     ],
+    "index": 80,
     "input": "b,f+2,1",
     "name": "",
     "notes": [
@@ -3252,6 +3329,7 @@
       "h",
       "m"
     ],
+    "index": 81,
     "input": "b,f+2,1,2",
     "name": "Evil Intent",
     "notes": [
@@ -3301,6 +3379,7 @@
       "h",
       "M"
     ],
+    "index": 82,
     "input": "b,f+2,1,df+2",
     "name": "Geyser",
     "notes": [
@@ -3346,6 +3425,7 @@
       "m",
       "m"
     ],
+    "index": 83,
     "input": "b,f+2,3",
     "name": "Keito",
     "notes": [
@@ -3390,6 +3470,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 84,
     "input": "f,f,F+3",
     "name": "Leaping Side Kick",
     "notes": [
@@ -3432,6 +3513,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 85,
     "input": "FC.df+4",
     "name": "Right Sweep (2)",
     "notes": [],
@@ -3468,6 +3550,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 86,
     "input": "ws1",
     "name": "",
     "notes": [],
@@ -3508,6 +3591,7 @@
       "m",
       "m"
     ],
+    "index": 87,
     "input": "ws1,2",
     "name": "Twin Lancer",
     "notes": [
@@ -3552,6 +3636,7 @@
       "m",
       "h"
     ],
+    "index": 88,
     "input": "ws1,3",
     "name": "",
     "notes": [
@@ -3594,6 +3679,7 @@
       "h",
       "m"
     ],
+    "index": 89,
     "input": "ws1,3,2",
     "name": "",
     "notes": [],
@@ -3635,6 +3721,7 @@
       "m",
       "m"
     ],
+    "index": 90,
     "input": "ws1,3,2,1",
     "name": "",
     "notes": [],
@@ -3679,6 +3766,7 @@
       "m",
       "l"
     ],
+    "index": 91,
     "input": "ws1,3,2,1,4",
     "name": "",
     "notes": [],
@@ -3725,6 +3813,7 @@
       "l",
       "M"
     ],
+    "index": 92,
     "input": "ws1,3,2,1,4,2",
     "name": "Kazama Style 6 Hit Combo Redux",
     "notes": [
@@ -3769,6 +3858,7 @@
       "m",
       "m"
     ],
+    "index": 93,
     "input": "ws1,3~3",
     "name": "Solar Plexus Strike > Brazilian Kick",
     "notes": [
@@ -3813,6 +3903,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 94,
     "input": "ws2",
     "name": "Crouching Uppercut",
     "notes": [],
@@ -3853,6 +3944,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 95,
     "input": "ws3",
     "name": "Bamboo Splitter",
     "notes": [],
@@ -3892,6 +3984,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 96,
     "input": "ws4",
     "name": "",
     "notes": [],
@@ -3930,6 +4023,7 @@
       "m",
       "h"
     ],
+    "index": 97,
     "input": "ws4,4",
     "name": "Double Cross Kicks",
     "notes": [
@@ -3963,6 +4057,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 98,
     "input": "f,n,d,df",
     "name": "\nCrouch Dash\nBreaking Step\n",
     "notes": [
@@ -3999,6 +4094,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 99,
     "input": "f,n,d,df,UF",
     "name": "",
     "notes": [
@@ -4042,6 +4138,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 100,
     "input": "CD.df+1",
     "name": "Thrusting Uppercut",
     "notes": [
@@ -4085,6 +4182,7 @@
     "hitLevels": [
       "M"
     ],
+    "index": 101,
     "input": "CD.df#1",
     "name": "Electric Thrusting Uppercut",
     "notes": [
@@ -4130,6 +4228,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 102,
     "input": "CD.df+2",
     "name": "Wind Hook Fist",
     "notes": [
@@ -4176,6 +4275,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 103,
     "input": "CD.df#2",
     "name": "Electric Wind Hook Fist",
     "notes": [
@@ -4222,6 +4322,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 104,
     "input": "CD.DF+4",
     "name": "",
     "notes": [],
@@ -4262,6 +4363,7 @@
       "l",
       "M"
     ],
+    "index": 105,
     "input": "CD.DF+4,2",
     "name": "Depraved Savagery",
     "notes": [
@@ -4299,6 +4401,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 106,
     "input": "f+3+4",
     "name": "Zenshin",
     "notes": [
@@ -4339,6 +4442,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 108,
     "input": "ZEN.1",
     "name": "",
     "notes": [],
@@ -4380,6 +4484,7 @@
       "m",
       "m"
     ],
+    "index": 109,
     "input": "ZEN.1,2",
     "name": "Brimstone Bite",
     "notes": [
@@ -4429,6 +4534,7 @@
       "h",
       "t"
     ],
+    "index": 110,
     "input": "ZEN.1,3",
     "name": "Kazama Style Leg Strike Flurry",
     "notes": [
@@ -4474,6 +4580,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 112,
     "input": "ZEN.3",
     "name": "Halberd Heel",
     "notes": [
@@ -4520,6 +4627,7 @@
     "hitLevels": [
       "M"
     ],
+    "index": 113,
     "input": "ZEN.4",
     "name": "Corpse Crusher",
     "notes": [
@@ -4561,6 +4669,7 @@
       "l",
       "t"
     ],
+    "index": 114,
     "input": "ZEN.1+2",
     "name": "Low Chop > Karmic Epicenter",
     "notes": [
@@ -4609,6 +4718,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 115,
     "input": "ZEN.3+4",
     "name": "Black Wing Bolt",
     "notes": [
@@ -4654,6 +4764,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 116,
     "input": "ZEN.u+1",
     "name": "Black Wing Rondo",
     "notes": [
@@ -4696,6 +4807,7 @@
       "m",
       "t"
     ],
+    "index": 117,
     "input": "R.df+1+2",
     "name": "Polar Demon Gouge",
     "notes": [
@@ -4737,6 +4849,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 118,
     "input": "1+3+4",
     "name": "\nState of Zanshin\nMental Alertness\n",
     "notes": [],
@@ -4768,6 +4881,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 119,
     "input": "1+2+3+4",
     "name": "\nKi Charge\nSupercharger\n",
     "notes": [
@@ -4802,6 +4916,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 120,
     "input": "b+1+3",
     "name": "Parry",
     "notes": [
@@ -4843,6 +4958,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 121,
     "input": "OTG.d+1+2",
     "name": "Black Out",
     "notes": [],
@@ -4883,6 +4999,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 122,
     "input": "1+3",
     "name": "Double Face Kick",
     "notes": [
@@ -4926,6 +5043,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 123,
     "input": "2+4",
     "name": "Over the Shoulder Reverse",
     "notes": [
@@ -4966,6 +5084,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 124,
     "input": "Leftthrow",
     "name": "Shoulder Flip",
     "notes": [],
@@ -5003,6 +5122,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 125,
     "input": "Rightthrow",
     "name": "Over the Limit",
     "notes": [
@@ -5043,6 +5163,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 126,
     "input": "Backthrow",
     "name": "Pivoting Hip Throw",
     "notes": [
@@ -5083,6 +5204,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 127,
     "input": "df+2+3",
     "name": "Shun Ren Dan",
     "notes": [
@@ -5122,6 +5244,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 128,
     "input": "uf+1+2",
     "name": "Tidal Wave",
     "notes": [
@@ -5161,6 +5284,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 129,
     "input": "qcb+1+3",
     "name": "Complicated Wire",
     "notes": [

@@ -30,6 +30,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 0,
     "input": "2+3",
     "name": "Heat Burst",
     "notes": [],
@@ -75,6 +76,7 @@
       "m",
       "h"
     ],
+    "index": 1,
     "input": "H.2+3",
     "name": "Ultimate Feng Huo Lun Kick",
     "notes": [
@@ -124,6 +126,7 @@
       "m",
       "m"
     ],
+    "index": 2,
     "input": "H.KNK.2+3",
     "name": "Ultimate Huo Jian Qiang Fist",
     "notes": [],
@@ -169,6 +172,7 @@
       "m",
       "h"
     ],
+    "index": 3,
     "input": "db+2,4",
     "name": "Bei Zhan Juan Long Jiao",
     "notes": [
@@ -214,6 +218,7 @@
       "m",
       "m"
     ],
+    "index": 4,
     "input": "b+2,1+2",
     "name": "Er Lang Dan Shan",
     "notes": [
@@ -260,6 +265,7 @@
       "m",
       "m"
     ],
+    "index": 5,
     "input": "ws4,1+2",
     "name": "Rising Bei Zhe Kao",
     "notes": [
@@ -303,6 +309,7 @@
       "h",
       "m"
     ],
+    "index": 6,
     "input": "KNK.1,2",
     "name": "Bai She Tui Chuang",
     "notes": [
@@ -347,6 +354,7 @@
     "hitLevels": [
       "M"
     ],
+    "index": 7,
     "input": "BOK.1+2",
     "name": "Lao Pao Ba",
     "notes": [
@@ -389,6 +397,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 8,
     "input": "1",
     "name": "Jab",
     "notes": [],
@@ -426,6 +435,7 @@
       "h",
       "h"
     ],
+    "index": 9,
     "input": "1,2",
     "name": "He Zi Shou",
     "notes": [
@@ -470,6 +480,7 @@
       "h",
       "h"
     ],
+    "index": 10,
     "input": "1,2,1",
     "name": "",
     "notes": [],
@@ -514,6 +525,7 @@
       "h",
       "m"
     ],
+    "index": 11,
     "input": "1,2,1,1",
     "name": "Liang Yi Zhou",
     "notes": [
@@ -564,6 +576,7 @@
       "h",
       "h"
     ],
+    "index": 12,
     "input": "1,2,1,4",
     "name": "Wai Bai Tui",
     "notes": [
@@ -609,6 +622,7 @@
       "h",
       "L"
     ],
+    "index": 13,
     "input": "1,2,4",
     "name": "Ye Chui",
     "notes": [],
@@ -646,6 +660,7 @@
       "h",
       "h"
     ],
+    "index": 14,
     "input": "1,4",
     "name": "Lian Tan Jin Ji Du Li",
     "notes": [
@@ -683,6 +698,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 15,
     "input": "2",
     "name": "Right Jab",
     "notes": [],
@@ -722,6 +738,7 @@
       "h",
       "h"
     ],
+    "index": 16,
     "input": "2,1",
     "name": "Xiang Long Shi Chong Tian Zhang",
     "notes": [
@@ -762,6 +779,7 @@
       "h",
       "m"
     ],
+    "index": 17,
     "input": "2,2",
     "name": "Xiang Long Shi Ling Zhou",
     "notes": [],
@@ -797,6 +815,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 18,
     "input": "3",
     "name": "",
     "notes": [],
@@ -834,6 +853,7 @@
       "h",
       "h"
     ],
+    "index": 19,
     "input": "3,2",
     "name": "",
     "notes": [
@@ -881,6 +901,7 @@
       "h",
       "m"
     ],
+    "index": 20,
     "input": "3,2,3",
     "name": "Wu Dang Xuan Feng Jiao",
     "notes": [
@@ -930,6 +951,7 @@
       "h",
       "m"
     ],
+    "index": 21,
     "input": "3,2,4",
     "name": "Wu Dang Jin Ji Du Li",
     "notes": [
@@ -969,6 +991,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 22,
     "input": "4",
     "name": "",
     "notes": [],
@@ -1007,6 +1030,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 23,
     "input": "1+2",
     "name": "Dual Thunder Fists",
     "notes": [
@@ -1048,6 +1072,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 24,
     "input": "f+2",
     "name": "",
     "notes": [],
@@ -1089,6 +1114,7 @@
       "h",
       "m"
     ],
+    "index": 25,
     "input": "f+2,2",
     "name": "Heng Da Er Lang Dan Shan",
     "notes": [],
@@ -1128,6 +1154,7 @@
       "h",
       "h"
     ],
+    "index": 26,
     "input": "f+2,4",
     "name": "Heng Da Bai Tui",
     "notes": [
@@ -1170,6 +1197,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 27,
     "input": "f+3",
     "name": "Bai Tui",
     "notes": [
@@ -1211,6 +1239,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 28,
     "input": "f+4",
     "name": "Jin Ji Du Li",
     "notes": [
@@ -1256,6 +1285,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 29,
     "input": "f+1+2",
     "name": "Bei Zhe Kao",
     "notes": [],
@@ -1298,6 +1328,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 30,
     "input": "f+3+4",
     "name": "Yellow Crane",
     "notes": [
@@ -1343,6 +1374,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 31,
     "input": "f+2+3",
     "name": "Xiang Chui",
     "notes": [],
@@ -1382,6 +1414,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 32,
     "input": "df+1",
     "name": "Quick Upper",
     "notes": [],
@@ -1424,6 +1457,7 @@
       "m",
       "h"
     ],
+    "index": 33,
     "input": "df+1,2",
     "name": "Shuang Huan Da",
     "notes": [
@@ -1470,6 +1504,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 34,
     "input": "df+2",
     "name": "Sheng Pao",
     "notes": [],
@@ -1513,6 +1548,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 35,
     "input": "df+3",
     "name": "Chuan Pao",
     "notes": [],
@@ -1551,6 +1587,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 36,
     "input": "df+4",
     "name": "",
     "notes": [],
@@ -1590,6 +1627,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 37,
     "input": "df+2+3",
     "name": "Gui Xi",
     "notes": [],
@@ -1627,6 +1665,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 38,
     "input": "d+1",
     "name": "Fu Hu",
     "notes": [
@@ -1672,6 +1711,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 39,
     "input": "d+2",
     "name": "Pi Zhong",
     "notes": [],
@@ -1709,6 +1749,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 40,
     "input": "d+3",
     "name": "Crouch Spin Kick",
     "notes": [],
@@ -1746,6 +1787,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 41,
     "input": "d+4",
     "name": "Sao Tang Ti",
     "notes": [],
@@ -1789,6 +1831,7 @@
       "L",
       "h"
     ],
+    "index": 42,
     "input": "d+4,2",
     "name": "Sao Tang Ti > Shang Bu Zhuang Zhang",
     "notes": [
@@ -1827,6 +1870,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 43,
     "input": "d+3+4",
     "name": "Crouch Shin Kick",
     "notes": [],
@@ -1862,6 +1906,7 @@
     "hitLevels": [
       "s"
     ],
+    "index": 44,
     "input": "db+1",
     "name": "Crouch Jab",
     "notes": [],
@@ -1899,6 +1944,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 45,
     "input": "db+2",
     "name": "",
     "notes": [],
@@ -1939,6 +1985,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 47,
     "input": "db+3",
     "name": "Lie Huo Fan Jiao",
     "notes": [],
@@ -1978,6 +2025,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 48,
     "input": "db+4",
     "name": "",
     "notes": [
@@ -2023,6 +2071,7 @@
       "L",
       "m"
     ],
+    "index": 49,
     "input": "db+4,1",
     "name": "Qian Sao Lei Wang Quan",
     "notes": [
@@ -2065,6 +2114,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 50,
     "input": "db+1+2",
     "name": "",
     "notes": [
@@ -2109,6 +2159,7 @@
       "m",
       "m"
     ],
+    "index": 51,
     "input": "db+1+2,1",
     "name": "Ba Wang Zhe Jiang",
     "notes": [
@@ -2150,6 +2201,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 52,
     "input": "b+1",
     "name": "",
     "notes": [],
@@ -2189,6 +2241,7 @@
       "m",
       "m"
     ],
+    "index": 53,
     "input": "b+1,4",
     "name": "Ding Zhou Jin Ji Du Li",
     "notes": [
@@ -2230,6 +2283,7 @@
       "m",
       "m"
     ],
+    "index": 54,
     "input": "b+1,1+2",
     "name": "Ding Zhou Meng Po Kao",
     "notes": [
@@ -2268,6 +2322,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 55,
     "input": "b+2",
     "name": "",
     "notes": [],
@@ -2307,6 +2362,7 @@
       "m",
       "h"
     ],
+    "index": 56,
     "input": "b+2,1",
     "name": "Wu Hu Chu Dong",
     "notes": [],
@@ -2344,6 +2400,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 58,
     "input": "b+3",
     "name": "",
     "notes": [],
@@ -2381,6 +2438,7 @@
       "m",
       "m"
     ],
+    "index": 59,
     "input": "b+3,1",
     "name": "Ying Mian Tui",
     "notes": [
@@ -2422,6 +2480,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 60,
     "input": "b+4",
     "name": "",
     "notes": [],
@@ -2464,6 +2523,7 @@
       "m",
       "m"
     ],
+    "index": 61,
     "input": "b+4,1",
     "name": "Dragon's Impact",
     "notes": [
@@ -2510,6 +2570,7 @@
       "m",
       "m"
     ],
+    "index": 62,
     "input": "b+4,1~4",
     "name": "Dragon's Impact > Jin Ji Du Li",
     "notes": [
@@ -2550,6 +2611,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 63,
     "input": "b+1+2",
     "name": "",
     "notes": [],
@@ -2589,6 +2651,7 @@
       "m",
       "m"
     ],
+    "index": 64,
     "input": "b+1+2,1+2",
     "name": "",
     "notes": [],
@@ -2633,6 +2696,7 @@
       "m",
       "m"
     ],
+    "index": 65,
     "input": "b+1+2,1+2,d,df,f+2",
     "name": "Jin Gang Hua Shan Tuo Tian Zhang",
     "notes": [
@@ -2676,6 +2740,7 @@
       "h",
       "l"
     ],
+    "index": 66,
     "input": "b+1+4",
     "name": "Cuo Zhang",
     "notes": [],
@@ -2707,6 +2772,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 67,
     "input": "b+1+3",
     "name": "Shi Zi Xiao Zhang Kou",
     "notes": [
@@ -2748,6 +2814,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 68,
     "input": "b+1+3,P.2",
     "name": "Shang Bu Zhuang Quan",
     "notes": [
@@ -2784,6 +2851,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 69,
     "input": "b+2+4",
     "name": "Shi Zi Zhou",
     "notes": [
@@ -2831,6 +2899,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 70,
     "input": "b+2+3",
     "name": "Ye Kua",
     "notes": [
@@ -2865,6 +2934,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 71,
     "input": "ub+1",
     "name": "Bao Zhou",
     "notes": [
@@ -2906,6 +2976,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 72,
     "input": "ub+1,P.4",
     "name": "Bao Zhou Ji Tui",
     "notes": [
@@ -2952,6 +3023,7 @@
     "hitLevels": [
       "M"
     ],
+    "index": 73,
     "input": "ub+3",
     "name": "Sky Vibration",
     "notes": [],
@@ -2995,6 +3067,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 74,
     "input": "ub+4",
     "name": "Yue Bu San Jing Ti",
     "notes": [
@@ -3038,6 +3111,7 @@
     "hitLevels": [
       "m!"
     ],
+    "index": 75,
     "input": "ub+1+2",
     "name": "Xiao Jia Er Lu Liang Yi Zhou",
     "notes": [],
@@ -3078,6 +3152,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 76,
     "input": "u+1",
     "name": "Xiang Quan",
     "notes": [
@@ -3120,6 +3195,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 77,
     "input": "uf+1",
     "name": "",
     "notes": [],
@@ -3162,6 +3238,7 @@
       "h",
       "m"
     ],
+    "index": 78,
     "input": "uf+1,1",
     "name": "Li Xiang Quan",
     "notes": [
@@ -3211,6 +3288,7 @@
       "h",
       "m"
     ],
+    "index": 79,
     "input": "uf+1,2",
     "name": "Chuan Chong Quan",
     "notes": [
@@ -3256,6 +3334,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 80,
     "input": "uf+2",
     "name": "",
     "notes": [
@@ -3299,6 +3378,7 @@
       "m",
       "m"
     ],
+    "index": 81,
     "input": "uf+2,1",
     "name": "Yue Bu Si Quan",
     "notes": [
@@ -3342,6 +3422,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 82,
     "input": "uf+3",
     "name": "Yi Qi Jiao",
     "notes": [
@@ -3387,6 +3468,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 83,
     "input": "uf+4",
     "name": "Yue Bu San Jing Ti",
     "notes": [
@@ -3430,6 +3512,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 84,
     "input": "uf,n,4",
     "name": "Delayed Rising Toe Kick",
     "notes": [],
@@ -3469,6 +3552,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 85,
     "input": "f,F+2",
     "name": "Shang Bu Zhuang Quan",
     "notes": [
@@ -3515,6 +3599,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 86,
     "input": "f,F+3",
     "name": "Tiao Shan Fu Ren",
     "notes": [
@@ -3555,6 +3640,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 87,
     "input": "f,F+4",
     "name": "",
     "notes": [],
@@ -3593,6 +3679,7 @@
       "m",
       "h"
     ],
+    "index": 88,
     "input": "f,F+4,3",
     "name": "",
     "notes": [
@@ -3641,6 +3728,7 @@
       "h",
       "L"
     ],
+    "index": 89,
     "input": "f,F+4,3,4",
     "name": "",
     "notes": [],
@@ -3681,6 +3769,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 90,
     "input": "f,f,F+3",
     "name": "Tiao Shan Jiang Jiao",
     "notes": [
@@ -3720,6 +3809,7 @@
     "hitLevels": [
       "sl"
     ],
+    "index": 91,
     "input": "hFC.1",
     "name": "Crouch Jab",
     "notes": [
@@ -3757,6 +3847,7 @@
     "hitLevels": [
       "sl"
     ],
+    "index": 92,
     "input": "hFC.2",
     "name": "Crouch Straight",
     "notes": [],
@@ -3792,6 +3883,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 93,
     "input": "hFC.3",
     "name": "Crouch Spin Kick",
     "notes": [],
@@ -3827,6 +3919,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 94,
     "input": "hFC.4",
     "name": "Crouch Shin Kick",
     "notes": [],
@@ -3866,6 +3959,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 95,
     "input": "FC.df+3",
     "name": "Hou Sao Xuan",
     "notes": [],
@@ -3903,6 +3997,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 96,
     "input": "ws1",
     "name": "",
     "notes": [],
@@ -3942,6 +4037,7 @@
       "m",
       "L"
     ],
+    "index": 97,
     "input": "ws1,4",
     "name": "",
     "notes": [],
@@ -3987,6 +4083,7 @@
       "L",
       "m"
     ],
+    "index": 98,
     "input": "ws1,4,1",
     "name": "Huo Da Ding Zhou",
     "notes": [
@@ -4031,6 +4128,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 99,
     "input": "ws2",
     "name": "Shang Bu Gua Shan",
     "notes": [],
@@ -4068,6 +4166,7 @@
     "hitLevels": [
       "M"
     ],
+    "index": 100,
     "input": "ws3",
     "name": "",
     "notes": [],
@@ -4105,6 +4204,7 @@
       "M",
       "m"
     ],
+    "index": 101,
     "input": "ws3,1",
     "name": "",
     "notes": [
@@ -4155,6 +4255,7 @@
       "m",
       "h"
     ],
+    "index": 102,
     "input": "ws3,1,2",
     "name": "Liang Yi Er Tui Ya Zhou",
     "notes": [
@@ -4195,6 +4296,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 103,
     "input": "ws4",
     "name": "",
     "notes": [],
@@ -4234,6 +4336,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 105,
     "input": "ws1+2",
     "name": "Le Kua Kao",
     "notes": [
@@ -4268,6 +4371,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 106,
     "input": "1+2+3+4",
     "name": "Ki Charge",
     "notes": [],
@@ -4314,6 +4418,7 @@
       "h",
       "M"
     ],
+    "index": 107,
     "input": "f+2,4,LTG.3",
     "name": "Jue Zhao Heng Da Bai Tui",
     "notes": [
@@ -4365,6 +4470,7 @@
       "m",
       "m"
     ],
+    "index": 108,
     "input": "db+4,1,LTG.1+2",
     "name": "Jue Zhao Qian Sao Lei Wang Quan",
     "notes": [
@@ -4412,6 +4518,7 @@
       "m",
       "m"
     ],
+    "index": 109,
     "input": "b+3,1,LTG.2",
     "name": "Jue Zhao Ying Mian Tui",
     "notes": [
@@ -4448,6 +4555,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 111,
     "input": "b+3+4",
     "name": "Tui Bu Jin Ji Du Li",
     "notes": [],
@@ -4483,6 +4591,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 112,
     "input": "KNK.1",
     "name": "",
     "notes": [
@@ -4525,6 +4634,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 114,
     "input": "KNK.2",
     "name": "Heng Quan",
     "notes": [],
@@ -4565,6 +4675,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 115,
     "input": "KNK.3",
     "name": "Yi Qi Jiao",
     "notes": [],
@@ -4604,6 +4715,7 @@
       "m",
       "m"
     ],
+    "index": 116,
     "input": "KNK.3,4",
     "name": "Er Qi Jiao",
     "notes": [],
@@ -4645,6 +4757,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 117,
     "input": "KNK.4",
     "name": "Cuo Ti Fu Ren",
     "notes": [
@@ -4687,6 +4800,7 @@
     "hitLevels": [
       "M"
     ],
+    "index": 118,
     "input": "KNK.1+2",
     "name": "Upper Rising Fist",
     "notes": [
@@ -4731,6 +4845,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 119,
     "input": "KNK.3+4",
     "name": "Tree Feller",
     "notes": [],
@@ -4762,6 +4877,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 120,
     "input": "KNK.DF",
     "name": "Jin Bu",
     "notes": [],
@@ -4793,6 +4909,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 121,
     "input": "d+1+2",
     "name": "Fo Bu",
     "notes": [],
@@ -4824,6 +4941,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 122,
     "input": "BOK.n",
     "name": "Fo Bu (Elapsed)",
     "notes": [
@@ -4862,6 +4980,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 123,
     "input": "BOK.1",
     "name": "",
     "notes": [],
@@ -4902,6 +5021,7 @@
       "m",
       "m"
     ],
+    "index": 124,
     "input": "BOK.1,2",
     "name": "Ya Sui Ying Quan",
     "notes": [
@@ -4946,6 +5066,7 @@
     "hitLevels": [
       "M"
     ],
+    "index": 125,
     "input": "BOK.2",
     "name": "Fan Lan Chui",
     "notes": [],
@@ -4983,6 +5104,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 126,
     "input": "BOK.3",
     "name": "Startled Crane",
     "notes": [
@@ -5025,6 +5147,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 127,
     "input": "BOK.4",
     "name": "Jin Ji Du Li",
     "notes": [
@@ -5058,6 +5181,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 129,
     "input": "d,df,f",
     "name": "Jin Bu",
     "notes": [],
@@ -5089,6 +5213,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 130,
     "input": "d,DF",
     "name": "Jin Bu (Crouching state ver.)",
     "notes": [],
@@ -5126,6 +5251,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 131,
     "input": "CD.1",
     "name": "Lei Zhang",
     "notes": [],
@@ -5161,6 +5287,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 132,
     "input": "CD.2",
     "name": "",
     "notes": [
@@ -5204,6 +5331,7 @@
       "m",
       "m"
     ],
+    "index": 133,
     "input": "CD.2,1",
     "name": "Lightning Spear",
     "notes": [
@@ -5250,6 +5378,7 @@
       "m",
       "h"
     ],
+    "index": 134,
     "input": "CD.2,4",
     "name": "Lightning Skypiercer",
     "notes": [
@@ -5295,6 +5424,7 @@
       "m",
       "m"
     ],
+    "index": 135,
     "input": "CD.3+4",
     "name": "Swallow Step",
     "notes": [],
@@ -5336,6 +5466,7 @@
       "m",
       "t"
     ],
+    "index": 136,
     "input": "R.df+1+2",
     "name": "Transcendent Blow",
     "notes": [
@@ -5383,6 +5514,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 137,
     "input": "OTG.d+3+4",
     "name": "Zhen Jiao",
     "notes": [
@@ -5427,6 +5559,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 138,
     "input": "SS.1+2",
     "name": "Da Kai",
     "notes": [],
@@ -5470,6 +5603,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 139,
     "input": "BT.1+2",
     "name": "Tui Bu Dan Yi",
     "notes": [],
@@ -5510,6 +5644,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 140,
     "input": "1+3",
     "name": "Bao Hu Gui Shan",
     "notes": [],
@@ -5548,6 +5683,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 141,
     "input": "2+4",
     "name": "Dan Yang Da",
     "notes": [
@@ -5590,6 +5726,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 142,
     "input": "Leftthrow",
     "name": "Chou Bie Zi",
     "notes": [
@@ -5632,6 +5769,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 143,
     "input": "Rightthrow",
     "name": "Da Zhe Jiang",
     "notes": [
@@ -5673,6 +5811,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 144,
     "input": "Backthrow",
     "name": "Yang Di Tou",
     "notes": [
@@ -5713,6 +5852,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 145,
     "input": "uf+1+2",
     "name": "Shuang Pai Shou",
     "notes": [

@@ -28,6 +28,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 0,
     "input": "2+3",
     "name": "Heat Burst",
     "notes": [],
@@ -65,6 +66,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 1,
     "input": "H.2+3",
     "name": "Twin Dragon Thunderclap",
     "notes": [
@@ -120,6 +122,7 @@
       "h",
       "m"
     ],
+    "index": 2,
     "input": "1+2,1+2,1",
     "name": "Chain Punch: Stem",
     "notes": [
@@ -168,6 +171,7 @@
       "m",
       "h"
     ],
+    "index": 3,
     "input": "f+4,4",
     "name": "Lao Weng Xuan Feng Jiao",
     "notes": [
@@ -212,6 +216,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 4,
     "input": "d+1+2",
     "name": "Chanhui Zhang",
     "notes": [],
@@ -254,6 +259,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 5,
     "input": "db+1+2",
     "name": "Tan Sau Shui Yue Tu",
     "notes": [
@@ -308,6 +314,7 @@
       "h",
       "m"
     ],
+    "index": 6,
     "input": "HRM.1+2,1",
     "name": "Chain Punch: Root",
     "notes": [
@@ -351,6 +358,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 7,
     "input": "1",
     "name": "",
     "notes": [],
@@ -391,6 +399,7 @@
       "h",
       "m"
     ],
+    "index": 8,
     "input": "1,1",
     "name": "",
     "notes": [],
@@ -433,6 +442,7 @@
       "m",
       "h"
     ],
+    "index": 9,
     "input": "1,1,1+2",
     "name": "",
     "notes": [
@@ -484,6 +494,7 @@
       "h",
       "m"
     ],
+    "index": 10,
     "input": "1,1,1+2,1",
     "name": "Chain Punch: Sheath",
     "notes": [],
@@ -521,6 +532,7 @@
       "h",
       "h"
     ],
+    "index": 11,
     "input": "1,2",
     "name": "Front Palm",
     "notes": [],
@@ -563,6 +575,7 @@
       "h",
       "h"
     ],
+    "index": 12,
     "input": "1,2,1",
     "name": "Front Palm Pulsing Fist",
     "notes": [
@@ -614,6 +627,7 @@
       "h",
       "h"
     ],
+    "index": 13,
     "input": "1,2,3",
     "name": "Front Palm Xuan Feng Jiao",
     "notes": [
@@ -657,6 +671,7 @@
       "h",
       "m"
     ],
+    "index": 14,
     "input": "1,2,4",
     "name": "Front Palm Snap Kick",
     "notes": [
@@ -695,6 +710,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 15,
     "input": "2",
     "name": "",
     "notes": [],
@@ -735,6 +751,7 @@
       "h",
       "m"
     ],
+    "index": 16,
     "input": "2,1",
     "name": "",
     "notes": [],
@@ -779,6 +796,7 @@
       "m",
       "h"
     ],
+    "index": 17,
     "input": "2,1,2",
     "name": "",
     "notes": [
@@ -837,6 +855,7 @@
       "h",
       "m"
     ],
+    "index": 18,
     "input": "2,1,2,1",
     "name": "Claws of Fury",
     "notes": [
@@ -883,6 +902,7 @@
       "h",
       "h"
     ],
+    "index": 19,
     "input": "2,2",
     "name": "Needle Elbow",
     "notes": [
@@ -922,6 +942,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 20,
     "input": "3",
     "name": "",
     "notes": [],
@@ -961,6 +982,7 @@
       "m",
       "l"
     ],
+    "index": 21,
     "input": "3,3",
     "name": "Hissing Snake",
     "notes": [
@@ -999,6 +1021,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 22,
     "input": "4",
     "name": "",
     "notes": [],
@@ -1038,6 +1061,7 @@
       "h",
       "m"
     ],
+    "index": 23,
     "input": "4,4",
     "name": "Falling Bamboo",
     "notes": [],
@@ -1075,6 +1099,7 @@
       "h",
       "h"
     ],
+    "index": 24,
     "input": "1+2",
     "name": "",
     "notes": [
@@ -1118,6 +1143,7 @@
       "h",
       "h"
     ],
+    "index": 25,
     "input": "1+2,1+2",
     "name": "",
     "notes": [
@@ -1154,6 +1180,7 @@
     "hitLevels": [
       "sp"
     ],
+    "index": 27,
     "input": "3+4",
     "name": "Hermit",
     "notes": [
@@ -1194,6 +1221,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 28,
     "input": "f+2",
     "name": "",
     "notes": [],
@@ -1232,6 +1260,7 @@
       "h",
       "m"
     ],
+    "index": 29,
     "input": "f+2,3",
     "name": "",
     "notes": [],
@@ -1273,6 +1302,7 @@
       "m",
       "m"
     ],
+    "index": 30,
     "input": "f+2,3,4",
     "name": "Lone Dragon Storm",
     "notes": [
@@ -1315,6 +1345,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 31,
     "input": "f+3",
     "name": "",
     "notes": [],
@@ -1353,6 +1384,7 @@
       "m",
       "h"
     ],
+    "index": 32,
     "input": "f+3,1+2",
     "name": "",
     "notes": [
@@ -1400,6 +1432,7 @@
       "h",
       "m"
     ],
+    "index": 33,
     "input": "f+3,1+2,4",
     "name": "Strike of the Five Precepts",
     "notes": [
@@ -1441,6 +1474,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 34,
     "input": "f+4",
     "name": "",
     "notes": [],
@@ -1480,6 +1514,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 36,
     "input": "f+1+2",
     "name": "Dragon Elbow Crash",
     "notes": [],
@@ -1519,6 +1554,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 37,
     "input": "df+1",
     "name": "",
     "notes": [],
@@ -1556,6 +1592,7 @@
       "m",
       "m"
     ],
+    "index": 38,
     "input": "df+1,4",
     "name": "Chopping Snap Kick",
     "notes": [
@@ -1596,6 +1633,7 @@
       "m",
       "h"
     ],
+    "index": 39,
     "input": "df+1,1+2",
     "name": "",
     "notes": [
@@ -1640,6 +1678,7 @@
       "m",
       "h"
     ],
+    "index": 40,
     "input": "df+1,1+2,2",
     "name": "Admonishment Whirl",
     "notes": [
@@ -1679,6 +1718,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 41,
     "input": "df+2",
     "name": "",
     "notes": [],
@@ -1718,6 +1758,7 @@
       "m",
       "hm"
     ],
+    "index": 42,
     "input": "df+2,1+2",
     "name": "Rising Dragons",
     "notes": [],
@@ -1753,6 +1794,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 43,
     "input": "df+3",
     "name": "",
     "notes": [],
@@ -1791,6 +1833,7 @@
       "m",
       "h"
     ],
+    "index": 44,
     "input": "df+3,1",
     "name": "",
     "notes": [],
@@ -1832,6 +1875,7 @@
       "h",
       "m"
     ],
+    "index": 45,
     "input": "df+3,1,1+2",
     "name": "Poison Strike",
     "notes": [
@@ -1872,6 +1916,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 46,
     "input": "df+4",
     "name": "",
     "notes": [],
@@ -1913,6 +1958,7 @@
       "m",
       "m"
     ],
+    "index": 47,
     "input": "df+4,3",
     "name": "Snap Kick Knee",
     "notes": [
@@ -1959,6 +2005,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 48,
     "input": "df+3+4",
     "name": "Jawbreaker Bow Kick",
     "notes": [
@@ -1998,6 +2045,7 @@
     "hitLevels": [
       "sl"
     ],
+    "index": 49,
     "input": "d+1",
     "name": "",
     "notes": [],
@@ -2038,6 +2086,7 @@
       "sl",
       "m"
     ],
+    "index": 50,
     "input": "d+1,2",
     "name": "",
     "notes": [],
@@ -2077,6 +2126,7 @@
       "m",
       "m"
     ],
+    "index": 51,
     "input": "d+1,2,4",
     "name": "Ru Huan Snap Kick",
     "notes": [
@@ -2118,6 +2168,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 52,
     "input": "d+2",
     "name": "",
     "notes": [],
@@ -2161,6 +2212,7 @@
       "l",
       "l"
     ],
+    "index": 53,
     "input": "d+2,4",
     "name": "Falling Fist Sweep",
     "notes": [],
@@ -2196,6 +2248,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 54,
     "input": "d+3",
     "name": "",
     "notes": [],
@@ -2236,6 +2289,7 @@
       "l",
       "h"
     ],
+    "index": 55,
     "input": "d+3,2",
     "name": "Twin Snake Strike",
     "notes": [
@@ -2277,6 +2331,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 56,
     "input": "d+4",
     "name": "",
     "notes": [],
@@ -2317,6 +2372,7 @@
       "l",
       "m"
     ],
+    "index": 57,
     "input": "d+4,4",
     "name": "Razor Kick",
     "notes": [
@@ -2358,6 +2414,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 59,
     "input": "db+1",
     "name": "",
     "notes": [],
@@ -2400,6 +2457,7 @@
       "m",
       "m"
     ],
+    "index": 60,
     "input": "db+1,2",
     "name": "Shadow Ram Punch",
     "notes": [
@@ -2447,6 +2505,7 @@
       "m",
       "h"
     ],
+    "index": 61,
     "input": "db+1,3",
     "name": "Shadow Raccoon Swing",
     "notes": [],
@@ -2491,6 +2550,7 @@
       "m",
       "m"
     ],
+    "index": 62,
     "input": "db+1,1+2",
     "name": "Shadow Double Fist Punch",
     "notes": [
@@ -2535,6 +2595,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 63,
     "input": "db+3",
     "name": "Amputation Kick",
     "notes": [],
@@ -2574,6 +2635,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 64,
     "input": "db+4",
     "name": "Fan Sweep",
     "notes": [],
@@ -2609,6 +2671,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 66,
     "input": "b+1",
     "name": "Hermit's Fist",
     "notes": [],
@@ -2648,6 +2711,7 @@
       "h",
       "th"
     ],
+    "index": 67,
     "input": "CHb+1",
     "name": "Knee Snap",
     "notes": [],
@@ -2681,6 +2745,7 @@
     "hitLevels": [
       "sp"
     ],
+    "index": 68,
     "input": "b+2",
     "name": "Twin Dragon Gate",
     "notes": [
@@ -2722,6 +2787,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 69,
     "input": "P.b+2,1",
     "name": "Chain Punch: Branch",
     "notes": [
@@ -2760,6 +2826,7 @@
     "hitLevels": [
       "sp"
     ],
+    "index": 70,
     "input": "P:b+2",
     "name": "Superior Twin Dragon Gate",
     "notes": [
@@ -2800,6 +2867,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 71,
     "input": "P:b+2,1",
     "name": "Superior Chain Punch: Branch",
     "notes": [
@@ -2841,6 +2909,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 72,
     "input": "b+3",
     "name": "Beheading Back Kick",
     "notes": [
@@ -2884,6 +2953,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 73,
     "input": "b+4",
     "name": "Zhuan Shen Jiao",
     "notes": [],
@@ -2921,6 +2991,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 74,
     "input": "b+1+2",
     "name": "Outcast Arrow",
     "notes": [],
@@ -2961,6 +3032,7 @@
       "m",
       "th"
     ],
+    "index": 75,
     "input": "b+3+4",
     "name": "Earth Sunder Chain",
     "notes": [
@@ -3003,6 +3075,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 76,
     "input": "ub+2",
     "name": "Enter the Dragon",
     "notes": [],
@@ -3039,6 +3112,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 77,
     "input": "uf+1",
     "name": "Pulsing Fist",
     "notes": [
@@ -3081,6 +3155,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 78,
     "input": "uf+2",
     "name": "Zhuan Shen Long Fang Quan",
     "notes": [
@@ -3125,6 +3200,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 79,
     "input": "uf+3",
     "name": "Floating Kick",
     "notes": [
@@ -3168,6 +3244,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 80,
     "input": "uf+4",
     "name": "Floating Axe Drop",
     "notes": [],
@@ -3208,6 +3285,7 @@
       "m",
       "m"
     ],
+    "index": 81,
     "input": "uf+3+4",
     "name": "",
     "notes": [],
@@ -3253,6 +3331,7 @@
       "m",
       "m"
     ],
+    "index": 82,
     "input": "uf+3+4,1+2",
     "name": "Biting Dragons",
     "notes": [
@@ -3296,6 +3375,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 83,
     "input": "uf,n,4",
     "name": "Delayed Rising Toe Kick",
     "notes": [],
@@ -3334,6 +3414,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 84,
     "input": "f,F+2",
     "name": "",
     "notes": [],
@@ -3374,6 +3455,7 @@
       "m",
       "m"
     ],
+    "index": 85,
     "input": "f,F+2,2",
     "name": "Cleansing Arrow",
     "notes": [],
@@ -3416,6 +3498,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 86,
     "input": "f,F+3",
     "name": "Viper Bow Kick",
     "notes": [
@@ -3460,6 +3543,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 87,
     "input": "f,F+4",
     "name": "",
     "notes": [],
@@ -3505,6 +3589,7 @@
       "m",
       "m"
     ],
+    "index": 88,
     "input": "f,F+4,2",
     "name": "Sacrum Severance",
     "notes": [
@@ -3549,6 +3634,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 89,
     "input": "d,df,f+2",
     "name": "Chakra Elbow",
     "notes": [],
@@ -3586,6 +3672,7 @@
     "hitLevels": [
       "ub(m)"
     ],
+    "index": 90,
     "input": "d,df,f+3+4,F",
     "name": "Piercing Charge",
     "notes": [
@@ -3630,6 +3717,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 91,
     "input": "f,f,F+3",
     "name": "Dragon's Heel",
     "notes": [
@@ -3673,6 +3761,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 92,
     "input": "FC.df+4",
     "name": "",
     "notes": [],
@@ -3715,6 +3804,7 @@
       "l",
       "m"
     ],
+    "index": 93,
     "input": "FC.df+4,1",
     "name": "Reverse Cross Kick",
     "notes": [],
@@ -3751,6 +3841,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 94,
     "input": "ws1",
     "name": "",
     "notes": [],
@@ -3790,6 +3881,7 @@
       "m",
       "m"
     ],
+    "index": 95,
     "input": "ws1,4",
     "name": "Elbow Slash Snap Kick",
     "notes": [
@@ -3831,6 +3923,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 96,
     "input": "ws2",
     "name": "Arrow Shower",
     "notes": [],
@@ -3867,6 +3960,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 97,
     "input": "ws4",
     "name": "Toe Smash",
     "notes": [],
@@ -3905,6 +3999,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 99,
     "input": "HRM.1",
     "name": "Tan Zhang",
     "notes": [
@@ -3946,6 +4041,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 100,
     "input": "HRM.2",
     "name": "",
     "notes": [],
@@ -3988,6 +4084,7 @@
       "h",
       "h"
     ],
+    "index": 101,
     "input": "HRM.2,3",
     "name": "Double Jawbreaker",
     "notes": [
@@ -4029,6 +4126,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 102,
     "input": "HRM.3",
     "name": "",
     "notes": [],
@@ -4069,6 +4167,7 @@
       "l",
       "m"
     ],
+    "index": 103,
     "input": "HRM.3,4",
     "name": "Stampeding Dragon",
     "notes": [],
@@ -4107,6 +4206,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 104,
     "input": "HRM.4",
     "name": "",
     "notes": [],
@@ -4149,6 +4249,7 @@
       "m",
       "m"
     ],
+    "index": 105,
     "input": "HRM.4,1+2",
     "name": "Cautious Dragon",
     "notes": [],
@@ -4193,6 +4294,7 @@
       "h",
       "h"
     ],
+    "index": 106,
     "input": "HRM.1+2",
     "name": "",
     "notes": [],
@@ -4231,6 +4333,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 108,
     "input": "HRM.f+1",
     "name": "Villain Slayer",
     "notes": [],
@@ -4271,6 +4374,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 109,
     "input": "HRM.f+4",
     "name": "Duan Tou Xuan Feng Jiao",
     "notes": [],
@@ -4311,6 +4415,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 110,
     "input": "HRM.b+1",
     "name": "Prayer Fist",
     "notes": [],
@@ -4347,6 +4452,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 111,
     "input": "HRM.b+3",
     "name": "",
     "notes": [],
@@ -4388,6 +4494,7 @@
       "l",
       "m"
     ],
+    "index": 112,
     "input": "HRM.b+3,1+2",
     "name": "Twin Dragon Acceptance",
     "notes": [
@@ -4433,6 +4540,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 113,
     "input": "HRM.b+4",
     "name": "Razor Sweep",
     "notes": [],
@@ -4468,6 +4576,7 @@
     "hitLevels": [
       "sp"
     ],
+    "index": 114,
     "input": "HRM.SS",
     "name": "Nimble Shift",
     "notes": [],
@@ -4505,6 +4614,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 115,
     "input": "HRM.SS.1+2",
     "name": "Chain Punch: Seed",
     "notes": [
@@ -4547,6 +4657,7 @@
       "m",
       "t"
     ],
+    "index": 116,
     "input": "R.df+1+2",
     "name": "Dark Dragon Commandment",
     "notes": [
@@ -4593,6 +4704,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 117,
     "input": "1+4",
     "name": "Go Sugar",
     "notes": [],
@@ -4626,6 +4738,7 @@
     "hitLevels": [
       "sp"
     ],
+    "index": 118,
     "input": "1+3+4",
     "name": "Taunt",
     "notes": [
@@ -4662,6 +4775,7 @@
     "hitLevels": [
       "sp"
     ],
+    "index": 119,
     "input": "1+2+3+4",
     "name": "Ki Charge",
     "notes": [],
@@ -4698,6 +4812,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 120,
     "input": "SS.4",
     "name": "Lone Dragon Slice",
     "notes": [
@@ -4737,6 +4852,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 121,
     "input": "SS.1+2",
     "name": "Chain Punch: Seed",
     "notes": [
@@ -4779,6 +4895,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 122,
     "input": "f+2+3",
     "name": "Master's Lesson",
     "notes": [
@@ -4824,6 +4941,7 @@
     "hitLevels": [
       "lm"
     ],
+    "index": 123,
     "input": "db+2+3",
     "name": "Master's Sermon",
     "notes": [
@@ -4864,6 +4982,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 124,
     "input": "OTG.db+2",
     "name": "",
     "notes": [],
@@ -4898,6 +5017,7 @@
       "l",
       "l"
     ],
+    "index": 125,
     "input": "OTG.db+2,1+2",
     "name": "Tremor Punch",
     "notes": [],
@@ -4934,6 +5054,7 @@
     "hitLevels": [
       "th(h)"
     ],
+    "index": 126,
     "input": "1+3",
     "name": "Devastating Chain Punch",
     "notes": [
@@ -4975,6 +5096,7 @@
     "hitLevels": [
       "th(h)"
     ],
+    "index": 127,
     "input": "2+4",
     "name": "Corkscrew Strike",
     "notes": [
@@ -5015,6 +5137,7 @@
     "hitLevels": [
       "th(h)"
     ],
+    "index": 128,
     "input": "Leftthrow",
     "name": "Devastating Chain Punch",
     "notes": [
@@ -5056,6 +5179,7 @@
     "hitLevels": [
       "th(h)"
     ],
+    "index": 129,
     "input": "Rightthrow",
     "name": "Corkscrew Strike",
     "notes": [
@@ -5096,6 +5220,7 @@
     "hitLevels": [
       "th(h)"
     ],
+    "index": 130,
     "input": "Backthrow",
     "name": "Lone Dragon's Rage",
     "notes": [
@@ -5137,6 +5262,7 @@
     "hitLevels": [
       "th(h)"
     ],
+    "index": 131,
     "input": "uf+1+2",
     "name": "Lian Jin Xuan Feng Jiao",
     "notes": [

@@ -29,6 +29,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 0,
     "input": "2+3",
     "name": "Heat Burst",
     "notes": [
@@ -80,6 +81,7 @@
       "m",
       "t"
     ],
+    "index": 1,
     "input": "H.2+3",
     "name": "Notorious Monster",
     "notes": [
@@ -128,6 +130,7 @@
       "h",
       "h"
     ],
+    "index": 2,
     "input": "1,2,4",
     "name": "One Two Neck Breaker",
     "notes": [
@@ -173,6 +176,7 @@
       "m",
       "h"
     ],
+    "index": 3,
     "input": "db+1+2",
     "name": "Crash Impact",
     "notes": [
@@ -217,6 +221,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 4,
     "input": "f,F+2",
     "name": "Mach Breaker",
     "notes": [
@@ -262,6 +267,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 5,
     "input": "SLS.1+2",
     "name": "Requiem",
     "notes": [
@@ -312,6 +318,7 @@
       "M",
       "h"
     ],
+    "index": 6,
     "input": "SS.2,1",
     "name": "Snake Fang",
     "notes": [
@@ -356,6 +363,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 7,
     "input": "1",
     "name": "Jab",
     "notes": [],
@@ -393,6 +401,7 @@
       "h",
       "h"
     ],
+    "index": 8,
     "input": "1,2",
     "name": "Left Right Combo",
     "notes": [],
@@ -434,6 +443,7 @@
       "h",
       "m"
     ],
+    "index": 9,
     "input": "1,2,1",
     "name": "One Two Body Blow",
     "notes": [],
@@ -475,6 +485,7 @@
       "h",
       "L"
     ],
+    "index": 10,
     "input": "1,2,3",
     "name": "One Two Low Kick",
     "notes": [
@@ -515,6 +526,7 @@
       "h",
       "h"
     ],
+    "index": 12,
     "input": "1,4",
     "name": "",
     "notes": [],
@@ -556,6 +568,7 @@
       "h",
       "h"
     ],
+    "index": 13,
     "input": "1,4,2",
     "name": "",
     "notes": [
@@ -606,6 +619,7 @@
       "h",
       "h"
     ],
+    "index": 14,
     "input": "1,4,2,1",
     "name": "",
     "notes": [
@@ -657,6 +671,7 @@
       "h",
       "h"
     ],
+    "index": 15,
     "input": "1,4,2,1,2",
     "name": "Lair's Dance",
     "notes": [
@@ -707,6 +722,7 @@
       "h",
       "m"
     ],
+    "index": 16,
     "input": "1,4,2,1,4",
     "name": "Cremation",
     "notes": [
@@ -757,6 +773,7 @@
       "h",
       "m"
     ],
+    "index": 17,
     "input": "1,4,2,4",
     "name": "Whipping Fury",
     "notes": [],
@@ -799,6 +816,7 @@
       "h",
       "m"
     ],
+    "index": 18,
     "input": "1,4,3",
     "name": "Jab > Double Spin Kick",
     "notes": [],
@@ -842,6 +860,7 @@
       "m",
       "h"
     ],
+    "index": 19,
     "input": "1,4,3,3",
     "name": "Running Blind",
     "notes": [],
@@ -877,6 +896,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 20,
     "input": "2",
     "name": "",
     "notes": [],
@@ -917,6 +937,7 @@
       "h",
       "m"
     ],
+    "index": 21,
     "input": "2,3",
     "name": "PK Combination",
     "notes": [
@@ -956,6 +977,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 22,
     "input": "3",
     "name": "Mid Kick",
     "notes": [],
@@ -993,6 +1015,7 @@
       "m",
       "m"
     ],
+    "index": 23,
     "input": "3,2",
     "name": "",
     "notes": [],
@@ -1032,6 +1055,7 @@
       "m",
       "m"
     ],
+    "index": 24,
     "input": "3,2,1",
     "name": "",
     "notes": [
@@ -1079,6 +1103,7 @@
       "m",
       "m"
     ],
+    "index": 25,
     "input": "3,2,1,2",
     "name": "Mid Kick > Rush",
     "notes": [
@@ -1124,6 +1149,7 @@
       "m",
       "L"
     ],
+    "index": 26,
     "input": "3,2,1,4",
     "name": "Gatling Combination",
     "notes": [],
@@ -1161,6 +1187,7 @@
       "m",
       "h"
     ],
+    "index": 27,
     "input": "3,3",
     "name": "",
     "notes": [],
@@ -1204,6 +1231,7 @@
       "h",
       "h"
     ],
+    "index": 28,
     "input": "3,3,2",
     "name": "Anaconda Bite",
     "notes": [
@@ -1250,6 +1278,7 @@
       "h",
       "m"
     ],
+    "index": 29,
     "input": "3,3,4",
     "name": "Anaconda Rage",
     "notes": [
@@ -1289,6 +1318,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 30,
     "input": "4",
     "name": "",
     "notes": [],
@@ -1327,6 +1357,7 @@
       "h",
       "m"
     ],
+    "index": 31,
     "input": "4,3",
     "name": "",
     "notes": [],
@@ -1370,6 +1401,7 @@
       "m",
       "m"
     ],
+    "index": 32,
     "input": "4,3,4",
     "name": "Double Spin Tomahawk",
     "notes": [
@@ -1417,6 +1449,7 @@
       "m",
       "m"
     ],
+    "index": 33,
     "input": "4,3,4*",
     "name": "Double Spin Tomahawk (Hold)",
     "notes": [
@@ -1464,6 +1497,7 @@
       "m",
       "h"
     ],
+    "index": 34,
     "input": "4,3,f+4",
     "name": "Triple Spin Kick",
     "notes": [],
@@ -1500,6 +1534,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 35,
     "input": "1+2",
     "name": "",
     "notes": [],
@@ -1540,6 +1575,7 @@
       "m",
       "h"
     ],
+    "index": 36,
     "input": "1+2,1",
     "name": "Snake Bite",
     "notes": [
@@ -1584,6 +1620,7 @@
       "m",
       "m"
     ],
+    "index": 37,
     "input": "1+2,2",
     "name": "Snake Pit",
     "notes": [
@@ -1623,6 +1660,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 38,
     "input": "3+4",
     "name": "Middle Side Kick",
     "notes": [],
@@ -1658,6 +1696,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 39,
     "input": "f+2",
     "name": "",
     "notes": [],
@@ -1695,6 +1734,7 @@
       "m",
       "m"
     ],
+    "index": 40,
     "input": "f+2,1",
     "name": "",
     "notes": [],
@@ -1737,6 +1777,7 @@
       "m",
       "m"
     ],
+    "index": 41,
     "input": "f+2,1,4",
     "name": "Right Left > Spin Kick > Snake Eyes",
     "notes": [
@@ -1782,6 +1823,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 42,
     "input": "f+3",
     "name": "Knee Strike",
     "notes": [],
@@ -1819,6 +1861,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 43,
     "input": "f+4",
     "name": "",
     "notes": [],
@@ -1862,6 +1905,7 @@
       "m",
       "m"
     ],
+    "index": 44,
     "input": "f+4,1",
     "name": "Boa Crusher",
     "notes": [
@@ -1906,6 +1950,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 45,
     "input": "f+1+2",
     "name": "Sidestep Elbow",
     "notes": [
@@ -1947,6 +1992,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 46,
     "input": "DF+1",
     "name": "",
     "notes": [
@@ -1986,6 +2032,7 @@
       "m",
       "m"
     ],
+    "index": 47,
     "input": "DF+1,1",
     "name": "",
     "notes": [
@@ -2028,6 +2075,7 @@
       "m",
       "m"
     ],
+    "index": 48,
     "input": "DF+1,1,1",
     "name": "",
     "notes": [],
@@ -2069,6 +2117,7 @@
       "m",
       "m"
     ],
+    "index": 49,
     "input": "DF+1,1,1,1",
     "name": "Vulcan Cannon",
     "notes": [],
@@ -2109,6 +2158,7 @@
       "m",
       "m"
     ],
+    "index": 50,
     "input": "DF+1,2",
     "name": "Double Body Blow",
     "notes": [
@@ -2151,6 +2201,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 51,
     "input": "df+2",
     "name": "",
     "notes": [],
@@ -2190,6 +2241,7 @@
       "m",
       "h"
     ],
+    "index": 52,
     "input": "df+2,1",
     "name": "Blackout Combo",
     "notes": [
@@ -2232,6 +2284,7 @@
       "m",
       "m"
     ],
+    "index": 53,
     "input": "df+2,3",
     "name": "Blackout Trap",
     "notes": [],
@@ -2271,6 +2324,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 54,
     "input": "df+3",
     "name": "Snake Edge",
     "notes": [],
@@ -2312,6 +2366,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 55,
     "input": "df+4",
     "name": "Wolf's Tail",
     "notes": [
@@ -2354,6 +2409,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 56,
     "input": "d+2",
     "name": "",
     "notes": [],
@@ -2400,6 +2456,7 @@
       "m",
       "m"
     ],
+    "index": 57,
     "input": "d+2,3",
     "name": "Python Crush",
     "notes": [
@@ -2441,6 +2498,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 58,
     "input": "d+3",
     "name": "",
     "notes": [],
@@ -2481,6 +2539,7 @@
       "l",
       "h"
     ],
+    "index": 59,
     "input": "d+3,2",
     "name": "Quick Low Screw Punch > Snake Eyes",
     "notes": [
@@ -2521,6 +2580,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 60,
     "input": "d+4",
     "name": "Low Kick",
     "notes": [],
@@ -2558,6 +2618,7 @@
       "m",
       "m"
     ],
+    "index": 61,
     "input": "d+1+2",
     "name": "",
     "notes": [
@@ -2606,6 +2667,7 @@
       "m",
       "l"
     ],
+    "index": 62,
     "input": "d+1+2,3",
     "name": "Hammer Driver Hatchet",
     "notes": [],
@@ -2643,6 +2705,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 63,
     "input": "d+1+2~2",
     "name": "Snake Bomb",
     "notes": [
@@ -2682,6 +2745,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 64,
     "input": "d+3+4",
     "name": "",
     "notes": [],
@@ -2722,6 +2786,7 @@
       "l",
       "m"
     ],
+    "index": 65,
     "input": "d+3+4,2",
     "name": "Side Low Knuckle Whip",
     "notes": [
@@ -2763,6 +2828,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 66,
     "input": "db+2",
     "name": "Stomach Blow",
     "notes": [],
@@ -2799,6 +2865,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 67,
     "input": "db+3",
     "name": "Sweeper kick",
     "notes": [],
@@ -2840,6 +2907,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 69,
     "input": "b+1",
     "name": "Chopping Elbow",
     "notes": [],
@@ -2880,6 +2948,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 70,
     "input": "b+2",
     "name": "",
     "notes": [
@@ -2920,6 +2989,7 @@
       "h",
       "h"
     ],
+    "index": 71,
     "input": "b+2,1",
     "name": "",
     "notes": [
@@ -2967,6 +3037,7 @@
       "h",
       "h"
     ],
+    "index": 72,
     "input": "b+2,1,2",
     "name": "Hands of Doom",
     "notes": [],
@@ -3009,6 +3080,7 @@
       "h",
       "m"
     ],
+    "index": 73,
     "input": "b+2,4",
     "name": "Wolf Call",
     "notes": [],
@@ -3053,6 +3125,7 @@
       "h",
       "m"
     ],
+    "index": 74,
     "input": "b+2,1,4",
     "name": "Kickass Combo",
     "notes": [
@@ -3092,6 +3165,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 75,
     "input": "b+3",
     "name": "",
     "notes": [],
@@ -3129,6 +3203,7 @@
       "m",
       "h"
     ],
+    "index": 76,
     "input": "b+3,2",
     "name": "",
     "notes": [],
@@ -3168,6 +3243,7 @@
       "h",
       "m"
     ],
+    "index": 77,
     "input": "b+3,2,1",
     "name": "",
     "notes": [
@@ -3215,6 +3291,7 @@
       "m",
       "m"
     ],
+    "index": 78,
     "input": "b+3,2,1,2",
     "name": "Front Kick > Rush",
     "notes": [
@@ -3260,6 +3337,7 @@
       "m",
       "L"
     ],
+    "index": 79,
     "input": "b+3,2,1,4",
     "name": "Run for Cover",
     "notes": [
@@ -3303,6 +3381,7 @@
       "m",
       "m"
     ],
+    "index": 80,
     "input": "b+3,1+2",
     "name": "Front Kick > Double Hammer",
     "notes": [
@@ -3344,6 +3423,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 81,
     "input": "b+4",
     "name": "Knee Break",
     "notes": [],
@@ -3377,6 +3457,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 82,
     "input": "b+1+3",
     "name": "Parry",
     "notes": [
@@ -3420,6 +3501,7 @@
       "",
       "h"
     ],
+    "index": 83,
     "input": "b+1+3,P.2",
     "name": "Parry > Mach Breaker > Snake Eyes",
     "notes": [
@@ -3464,6 +3546,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 84,
     "input": "b+1+4",
     "name": "Gravity Blow",
     "notes": [],
@@ -3503,6 +3586,7 @@
     "hitLevels": [
       "m!"
     ],
+    "index": 85,
     "input": "b+1+4*",
     "name": "Meteor Smash",
     "notes": [],
@@ -3542,6 +3626,7 @@
       "m",
       "m"
     ],
+    "index": 86,
     "input": "ub+1+2",
     "name": "",
     "notes": [
@@ -3583,6 +3668,7 @@
       "m",
       "m"
     ],
+    "index": 87,
     "input": "ub+1+2,1",
     "name": "",
     "notes": [
@@ -3627,6 +3713,7 @@
       "m",
       "m"
     ],
+    "index": 88,
     "input": "ub+1+2,1,2",
     "name": "",
     "notes": [
@@ -3673,6 +3760,7 @@
       "m",
       "m"
     ],
+    "index": 89,
     "input": "ub+1+2,1,2,1",
     "name": "",
     "notes": [
@@ -3721,6 +3809,7 @@
       "m",
       "m"
     ],
+    "index": 90,
     "input": "ub+1+2,1,2,1,2",
     "name": "",
     "notes": [
@@ -3771,6 +3860,7 @@
       "m",
       "m"
     ],
+    "index": 91,
     "input": "ub+1+2,1,2,1,2,1",
     "name": "",
     "notes": [
@@ -3823,6 +3913,7 @@
       "m",
       "m"
     ],
+    "index": 92,
     "input": "ub+1+2,1,2,1,2,1,2",
     "name": "",
     "notes": [
@@ -3877,6 +3968,7 @@
       "m",
       "m"
     ],
+    "index": 93,
     "input": "ub+1+2,1,2,1,2,1,2,1",
     "name": "",
     "notes": [
@@ -3933,6 +4025,7 @@
       "m",
       "m"
     ],
+    "index": 94,
     "input": "ub+1+2,1,2,1,2,1,2,1,2",
     "name": "",
     "notes": [
@@ -3991,6 +4084,7 @@
       "m",
       "m"
     ],
+    "index": 95,
     "input": "ub+1+2,1,2,1,2,1,2,1,2,1",
     "name": "",
     "notes": [
@@ -4054,6 +4148,7 @@
       "m",
       "m"
     ],
+    "index": 96,
     "input": "ub+1+2,1,2,1,2,1,2,1,2,1,4",
     "name": "Gatling Rush",
     "notes": [
@@ -4094,6 +4189,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 97,
     "input": "uf+2",
     "name": "",
     "notes": [],
@@ -4131,6 +4227,7 @@
       "m",
       "m"
     ],
+    "index": 98,
     "input": "uf+2,2",
     "name": "",
     "notes": [
@@ -4175,6 +4272,7 @@
       "m",
       "m"
     ],
+    "index": 99,
     "input": "uf+2,2,2",
     "name": "",
     "notes": [],
@@ -4220,6 +4318,7 @@
       "m",
       "m"
     ],
+    "index": 100,
     "input": "uf+2,2,2,3",
     "name": "Bloody War",
     "notes": [
@@ -4260,6 +4359,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 101,
     "input": "uf+3",
     "name": "Rolling Driver",
     "notes": [],
@@ -4298,6 +4398,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 102,
     "input": "uf+4",
     "name": "Orbital Heel Kick",
     "notes": [],
@@ -4338,6 +4439,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 103,
     "input": "uf+3+4",
     "name": "Bullet Knee > Snake Eyes",
     "notes": [
@@ -4382,6 +4484,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 104,
     "input": "uf,n,4",
     "name": "Delayed Rising Toe Kick",
     "notes": [],
@@ -4424,6 +4527,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 106,
     "input": "f,F+3",
     "name": "Slash Kick > Snake Eyes",
     "notes": [
@@ -4469,6 +4573,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 107,
     "input": "f,F+3*",
     "name": "",
     "notes": [
@@ -4517,6 +4622,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 108,
     "input": "f,F+4",
     "name": "Mach Kick",
     "notes": [
@@ -4562,6 +4668,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 109,
     "input": "f,n,b+2",
     "name": "Jet Uppercut",
     "notes": [
@@ -4605,6 +4712,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 110,
     "input": "b,df+4",
     "name": "Wedge Driver",
     "notes": [
@@ -4648,6 +4756,7 @@
     "hitLevels": [
       "M"
     ],
+    "index": 111,
     "input": "b,B+4",
     "name": "Flying Knee Kick",
     "notes": [],
@@ -4690,6 +4799,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 112,
     "input": "f,f,F+3",
     "name": "Snake Slash",
     "notes": [
@@ -4729,6 +4839,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 113,
     "input": "FC.df+2",
     "name": "",
     "notes": [],
@@ -4772,6 +4883,7 @@
       "m",
       "h"
     ],
+    "index": 114,
     "input": "FC.df+2,1",
     "name": "Snake Rampage",
     "notes": [
@@ -4816,6 +4928,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 115,
     "input": "FC.df+4",
     "name": "Northern Cross",
     "notes": [],
@@ -4857,6 +4970,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 116,
     "input": "ws1",
     "name": "Left Upper",
     "notes": [],
@@ -4896,6 +5010,7 @@
       "m",
       "t"
     ],
+    "index": 117,
     "input": "ws2",
     "name": "Fisherman's Slam",
     "notes": [
@@ -4938,6 +5053,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 118,
     "input": "ws3",
     "name": "High Knee Kick",
     "notes": [],
@@ -4979,6 +5095,7 @@
       "m",
       "m"
     ],
+    "index": 119,
     "input": "ws3,4",
     "name": "Double High Knee Kick",
     "notes": [
@@ -5020,6 +5137,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 120,
     "input": "ws4",
     "name": "Toe Smash",
     "notes": [],
@@ -5056,6 +5174,7 @@
     "hitLevels": [
       "m!"
     ],
+    "index": 121,
     "input": "1+3+4",
     "name": "Taunt",
     "notes": [
@@ -5101,6 +5220,7 @@
       "m",
       "m"
     ],
+    "index": 122,
     "input": "3+4,SNE.2",
     "name": "Neo Soul Eraser",
     "notes": [
@@ -5154,6 +5274,7 @@
       "m",
       "m"
     ],
+    "index": 123,
     "input": "3+4,SNE.2*",
     "name": "Neo Soul Eraser Exceed",
     "notes": [
@@ -5204,6 +5325,7 @@
       "m",
       "m"
     ],
+    "index": 124,
     "input": "f+2,1,SNE.2",
     "name": "",
     "notes": [
@@ -5255,6 +5377,7 @@
       "m",
       "m"
     ],
+    "index": 125,
     "input": "f+2,1,SNE.2,3",
     "name": "",
     "notes": [
@@ -5307,6 +5430,7 @@
       "m",
       "m"
     ],
+    "index": 126,
     "input": "f+2,1,SNE.2,3,2",
     "name": "Neo Incinerator",
     "notes": [
@@ -5356,6 +5480,7 @@
       "m",
       "m"
     ],
+    "index": 127,
     "input": "uf+2,2,2,SNE.2",
     "name": "",
     "notes": [
@@ -5405,6 +5530,7 @@
       "m",
       "m"
     ],
+    "index": 128,
     "input": "uf+2,2,2,SNE.2,2",
     "name": "",
     "notes": [
@@ -5456,6 +5582,7 @@
       "m",
       "m"
     ],
+    "index": 129,
     "input": "uf+2,2,2,SNE.2,2,3",
     "name": "Neo Bloody War",
     "notes": [
@@ -5499,6 +5626,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 130,
     "input": "SNE.f,F+1+2",
     "name": "Neo Mach Breaker",
     "notes": [
@@ -5551,6 +5679,7 @@
       "h",
       "m"
     ],
+    "index": 131,
     "input": "SNE.f,F+1+2,P",
     "name": "Immortal Payback",
     "notes": [
@@ -5589,6 +5718,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 132,
     "input": "qcf",
     "name": "Slither Step (SLS)",
     "notes": [
@@ -5630,6 +5760,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 133,
     "input": "SLS.2",
     "name": "",
     "notes": [
@@ -5674,6 +5805,7 @@
       "h",
       "m"
     ],
+    "index": 134,
     "input": "SLS.2,1",
     "name": "Cross Bazooka",
     "notes": [
@@ -5716,6 +5848,7 @@
       "h",
       "m"
     ],
+    "index": 135,
     "input": "SLS.2,2",
     "name": "Cross Grenade",
     "notes": [
@@ -5764,6 +5897,7 @@
       "h",
       "m"
     ],
+    "index": 136,
     "input": "SLS.2,4",
     "name": "Cross Bullet > Snake Eyes",
     "notes": [
@@ -5807,6 +5941,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 137,
     "input": "SLS.4",
     "name": "",
     "notes": [
@@ -5849,6 +5984,7 @@
       "m",
       "h"
     ],
+    "index": 138,
     "input": "SLS.4,1",
     "name": "",
     "notes": [
@@ -5896,6 +6032,7 @@
       "h",
       "h"
     ],
+    "index": 139,
     "input": "SLS.4,1,2",
     "name": "Snake Spin Mach Breaker",
     "notes": [
@@ -5942,6 +6079,7 @@
       "h",
       "M"
     ],
+    "index": 140,
     "input": "SLS.4,1,4",
     "name": "Snake Spin Kickass",
     "notes": [
@@ -5979,6 +6117,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 142,
     "input": "qcb",
     "name": "Sway (SWA)",
     "notes": [
@@ -6023,6 +6162,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 143,
     "input": "SWA.1",
     "name": "Cannonball Straight",
     "notes": [
@@ -6064,6 +6204,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 144,
     "input": "SWA.2",
     "name": "Smash",
     "notes": [],
@@ -6104,6 +6245,7 @@
       "m",
       "h"
     ],
+    "index": 145,
     "input": "SWA.2,4",
     "name": "Smash and Mach Kick",
     "notes": [
@@ -6147,6 +6289,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 146,
     "input": "SWA.3",
     "name": "Hatchet Kick",
     "notes": [],
@@ -6186,6 +6329,7 @@
     "hitLevels": [
       "M"
     ],
+    "index": 147,
     "input": "SWA.4",
     "name": "\nSoccer Kick\nKickoff\n",
     "notes": [],
@@ -6224,6 +6368,7 @@
       "m",
       "t"
     ],
+    "index": 148,
     "input": "R.df+1+2",
     "name": "Total Vandalization",
     "notes": [
@@ -6265,6 +6410,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 149,
     "input": "1+2+3+4",
     "name": "Ki Charge",
     "notes": [
@@ -6306,6 +6452,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 150,
     "input": "SS.1",
     "name": "Hellraiser",
     "notes": [],
@@ -6342,6 +6489,7 @@
     "hitLevels": [
       "M"
     ],
+    "index": 151,
     "input": "SS.2",
     "name": "",
     "notes": [],
@@ -6381,6 +6529,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 153,
     "input": "(Backtowall).b,b,UB",
     "name": "Wall Jump Attack",
     "notes": [],
@@ -6421,6 +6570,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 154,
     "input": "1+3",
     "name": "Gravity Brain Buster",
     "notes": [
@@ -6463,6 +6613,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 155,
     "input": "2+4",
     "name": "Guillotine",
     "notes": [
@@ -6505,6 +6656,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 156,
     "input": "Leftthrow",
     "name": "Gravity Throw",
     "notes": [
@@ -6547,6 +6699,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 157,
     "input": "Rightthrow",
     "name": "Knee Blast",
     "notes": [
@@ -6586,6 +6739,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 158,
     "input": "Backthrow",
     "name": "Neck throw",
     "notes": [],
@@ -6623,6 +6777,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 159,
     "input": "uf+1+2",
     "name": "Anaconda Assassin",
     "notes": [
@@ -6664,6 +6819,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 160,
     "input": "FC.db+1+2",
     "name": "Chains of Misery",
     "notes": [
@@ -6703,6 +6859,7 @@
       "m",
       "m"
     ],
+    "index": 162,
     "input": "b+3,4",
     "name": "2nd Hit",
     "notes": [],
@@ -6742,6 +6899,7 @@
       "m",
       "m"
     ],
+    "index": 163,
     "input": "b+3,4,1",
     "name": "3rd Hit",
     "notes": [],
@@ -6783,6 +6941,7 @@
       "m",
       "m"
     ],
+    "index": 164,
     "input": "b+3,4,1,2",
     "name": "4th Hit",
     "notes": [],
@@ -6826,6 +6985,7 @@
       "m",
       "h"
     ],
+    "index": 165,
     "input": "b+3,4,1,2,1",
     "name": "5th Hit",
     "notes": [],
@@ -6871,6 +7031,7 @@
       "h",
       "h"
     ],
+    "index": 166,
     "input": "b+3,4,1,2,1,4",
     "name": "6th Hit",
     "notes": [],
@@ -6918,6 +7079,7 @@
       "h",
       "h"
     ],
+    "index": 167,
     "input": "b+3,4,1,2,1,4,2",
     "name": "7th Hit",
     "notes": [],
@@ -6967,6 +7129,7 @@
       "h",
       "h"
     ],
+    "index": 168,
     "input": "b+3,4,1,2,1,4,2,1",
     "name": "8th Hit",
     "notes": [],
@@ -7018,6 +7181,7 @@
       "h",
       "m"
     ],
+    "index": 169,
     "input": "b+3,4,1,2,1,4,2,1,4",
     "name": "9th Hit",
     "notes": [],
@@ -7071,6 +7235,7 @@
       "m",
       "h"
     ],
+    "index": 170,
     "input": "b+3,4,1,2,1,4,2,1,4,2",
     "name": "10 Hit Combo",
     "notes": [],

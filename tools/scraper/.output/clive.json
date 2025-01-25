@@ -29,6 +29,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 0,
     "input": "2+3",
     "name": "Heat Burst",
     "notes": [
@@ -79,6 +80,7 @@
       "m",
       "m"
     ],
+    "index": 1,
     "input": "H.2+3",
     "name": "Infernal Flames of Rebirth",
     "notes": [
@@ -124,6 +126,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 2,
     "input": "PHX.H.2+3",
     "name": "Dancing Steel",
     "notes": [
@@ -175,6 +178,7 @@
       "m",
       "m"
     ],
+    "index": 3,
     "input": "f+2,2,H.1",
     "name": "Lethal Ignition",
     "notes": [
@@ -223,6 +227,7 @@
       "m",
       "m"
     ],
+    "index": 4,
     "input": "f+2,2,H.1*",
     "name": "Lethal Ignition (Hold)",
     "notes": [
@@ -269,6 +274,7 @@
       "m",
       "m"
     ],
+    "index": 5,
     "input": "df+1,H.1",
     "name": "",
     "notes": [
@@ -320,6 +326,7 @@
       "m",
       "m"
     ],
+    "index": 6,
     "input": "df+1,H.1,1",
     "name": "Crimson Rush",
     "notes": [
@@ -369,6 +376,7 @@
       "h",
       "h"
     ],
+    "index": 7,
     "input": "df+1,H.1,2",
     "name": "",
     "notes": [
@@ -421,6 +429,7 @@
       "m",
       "m"
     ],
+    "index": 8,
     "input": "df+1,H.1,2,1",
     "name": "Crimson Eruption",
     "notes": [
@@ -467,6 +476,7 @@
       "m",
       "m"
     ],
+    "index": 9,
     "input": "H.u+1+2",
     "name": "",
     "notes": [
@@ -515,6 +525,7 @@
       "m",
       "m"
     ],
+    "index": 10,
     "input": "H.u+1+2,1",
     "name": "Blazing Rush",
     "notes": [
@@ -562,6 +573,7 @@
       "h",
       "h"
     ],
+    "index": 11,
     "input": "H.u+1+2,2",
     "name": "",
     "notes": [
@@ -613,6 +625,7 @@
       "m",
       "m"
     ],
+    "index": 12,
     "input": "H.u+1+2,2,1",
     "name": "Blazing Eruption",
     "notes": [
@@ -660,6 +673,7 @@
       "m",
       "m"
     ],
+    "index": 13,
     "input": "PHX.2,H.1+2",
     "name": "Twin Flames",
     "notes": [
@@ -700,6 +714,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 14,
     "input": "1+2",
     "name": "Flame Bash",
     "notes": [
@@ -749,6 +764,7 @@
       "m",
       "M"
     ],
+    "index": 15,
     "input": "f+2,2,2",
     "name": "Burning Chain",
     "notes": [
@@ -800,6 +816,7 @@
       "m",
       "m"
     ],
+    "index": 16,
     "input": "f+1+2",
     "name": "Prominence",
     "notes": [
@@ -848,6 +865,7 @@
       "M",
       "m"
     ],
+    "index": 17,
     "input": "SS.2,1",
     "name": "Slash Burst",
     "notes": [
@@ -899,6 +917,7 @@
       "m",
       "m"
     ],
+    "index": 18,
     "input": "PHX.1+2",
     "name": "Scarlet Cyclone",
     "notes": [
@@ -943,6 +962,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 19,
     "input": "1",
     "name": "Jab",
     "notes": [],
@@ -981,6 +1001,7 @@
       "h",
       "h"
     ],
+    "index": 20,
     "input": "1,1",
     "name": "Double Blow",
     "notes": [
@@ -1026,6 +1047,7 @@
       "h",
       "M"
     ],
+    "index": 21,
     "input": "1,2",
     "name": "Finishing Steel",
     "notes": [
@@ -1075,6 +1097,7 @@
       "h",
       "h"
     ],
+    "index": 22,
     "input": "1,f+2",
     "name": "Rapid Assault",
     "notes": [
@@ -1119,6 +1142,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 23,
     "input": "2",
     "name": "",
     "notes": [],
@@ -1162,6 +1186,7 @@
       "h",
       "h"
     ],
+    "index": 24,
     "input": "2,1",
     "name": "Magic Burst",
     "notes": [
@@ -1206,6 +1231,7 @@
       "h",
       "m"
     ],
+    "index": 25,
     "input": "2,2",
     "name": "",
     "notes": [
@@ -1257,6 +1283,7 @@
       "m",
       "m"
     ],
+    "index": 26,
     "input": "2,2,1",
     "name": "Assault Burst",
     "notes": [
@@ -1309,6 +1336,7 @@
       "M",
       "m"
     ],
+    "index": 27,
     "input": "2,2,2",
     "name": "Gleipnir-Cutter",
     "notes": [
@@ -1364,6 +1392,7 @@
       "m",
       "M"
     ],
+    "index": 28,
     "input": "2,2,1+2",
     "name": "Gungnir Dance",
     "notes": [
@@ -1410,6 +1439,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 29,
     "input": "3",
     "name": "",
     "notes": [],
@@ -1454,6 +1484,7 @@
       "m",
       "m"
     ],
+    "index": 30,
     "input": "3,2",
     "name": "Fine Hound",
     "notes": [
@@ -1510,6 +1541,7 @@
       "m",
       "M"
     ],
+    "index": 31,
     "input": "3,3",
     "name": "Bright Wing",
     "notes": [
@@ -1550,6 +1582,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 32,
     "input": "4",
     "name": "",
     "notes": [],
@@ -1588,6 +1621,7 @@
       "m",
       "M"
     ],
+    "index": 33,
     "input": "4,2",
     "name": "Mercenary Cut",
     "notes": [
@@ -1630,6 +1664,7 @@
       "m",
       "h"
     ],
+    "index": 34,
     "input": "4,4",
     "name": "Roundabout",
     "notes": [
@@ -1665,6 +1700,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 36,
     "input": "3+4",
     "name": "Wings of Light",
     "notes": [
@@ -1704,6 +1740,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 37,
     "input": "f+2",
     "name": "",
     "notes": [],
@@ -1746,6 +1783,7 @@
       "m",
       "h"
     ],
+    "index": 38,
     "input": "f+2,1",
     "name": "Firewheel",
     "notes": [
@@ -1788,6 +1826,7 @@
       "m",
       "m"
     ],
+    "index": 39,
     "input": "f+2,2",
     "name": "",
     "notes": [
@@ -1838,6 +1877,7 @@
       "m",
       "M"
     ],
+    "index": 40,
     "input": "f+2,2,1+2",
     "name": "Sanngetall",
     "notes": [
@@ -1887,6 +1927,7 @@
     "hitLevels": [
       "M"
     ],
+    "index": 42,
     "input": "f+3",
     "name": "Knight's Gambit",
     "notes": [
@@ -1923,6 +1964,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 43,
     "input": "f+4",
     "name": "Phoenix Shift",
     "notes": [],
@@ -1959,6 +2001,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 45,
     "input": "df+1",
     "name": "Mid Check",
     "notes": [],
@@ -1996,6 +2039,7 @@
       "m",
       "h"
     ],
+    "index": 46,
     "input": "df+1,2",
     "name": "",
     "notes": [
@@ -2045,6 +2089,7 @@
       "h",
       "m"
     ],
+    "index": 47,
     "input": "df+1,2,1",
     "name": "Outlaw Burst",
     "notes": [
@@ -2089,6 +2134,7 @@
       "m",
       "m"
     ],
+    "index": 48,
     "input": "df+1,4",
     "name": "",
     "notes": [
@@ -2140,6 +2186,7 @@
       "m",
       "M"
     ],
+    "index": 49,
     "input": "df+1,4,3",
     "name": "Outlaw Wing",
     "notes": [
@@ -2186,6 +2233,7 @@
       "m",
       "m"
     ],
+    "index": 50,
     "input": "df+2",
     "name": "Wyrm Killer",
     "notes": [
@@ -2233,6 +2281,7 @@
       "m",
       "m"
     ],
+    "index": 51,
     "input": "df+2,2",
     "name": "",
     "notes": [
@@ -2285,6 +2334,7 @@
       "m",
       "M"
     ],
+    "index": 52,
     "input": "df+2,2,2",
     "name": "Aerial Combination",
     "notes": [
@@ -2329,6 +2379,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 53,
     "input": "df+3",
     "name": "",
     "notes": [],
@@ -2373,6 +2424,7 @@
       "M",
       "M"
     ],
+    "index": 54,
     "input": "df+3,1",
     "name": "Hydro Blast",
     "notes": [
@@ -2412,6 +2464,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 55,
     "input": "df+4",
     "name": "Door Knocker",
     "notes": [],
@@ -2448,6 +2501,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 56,
     "input": "d+1",
     "name": "Scorching Sweep",
     "notes": [],
@@ -2483,6 +2537,7 @@
     "hitLevels": [
       "sl"
     ],
+    "index": 57,
     "input": "d+2",
     "name": "Crouch Straight",
     "notes": [],
@@ -2518,6 +2573,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 58,
     "input": "d+3",
     "name": "Crouch Spin Kick",
     "notes": [],
@@ -2553,6 +2609,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 59,
     "input": "d+4",
     "name": "Crouch Shin Kick",
     "notes": [],
@@ -2595,6 +2652,7 @@
     "hitLevels": [
       "M"
     ],
+    "index": 60,
     "input": "d+1+2",
     "name": "Pile Driver",
     "notes": [
@@ -2640,6 +2698,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 61,
     "input": "db+1",
     "name": "",
     "notes": [],
@@ -2684,6 +2743,7 @@
       "m",
       "m"
     ],
+    "index": 62,
     "input": "db+1,1",
     "name": "Tidal Surge",
     "notes": [
@@ -2727,6 +2787,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 63,
     "input": "db+2",
     "name": "",
     "notes": [],
@@ -2769,6 +2830,7 @@
       "m",
       "M"
     ],
+    "index": 64,
     "input": "db+2,1",
     "name": "Ice Spikes",
     "notes": [
@@ -2814,6 +2876,7 @@
       "m",
       "M"
     ],
+    "index": 65,
     "input": "db+2,1*",
     "name": "Ice Spikes (Hold)",
     "notes": [
@@ -2860,6 +2923,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 66,
     "input": "db+4",
     "name": "Cold Cyclone",
     "notes": [],
@@ -2902,6 +2966,7 @@
       "M",
       "m"
     ],
+    "index": 67,
     "input": "db+1+2",
     "name": "",
     "notes": [
@@ -2949,6 +3014,7 @@
       "m",
       "M"
     ],
+    "index": 68,
     "input": "db+1+2,1",
     "name": "Gouge",
     "notes": [
@@ -2998,6 +3064,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 69,
     "input": "b+1",
     "name": "Blue Bolt",
     "notes": [],
@@ -3038,6 +3105,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 70,
     "input": "b+2",
     "name": "Executioner",
     "notes": [
@@ -3076,6 +3144,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 71,
     "input": "b+3",
     "name": "Precision Dodge",
     "notes": [
@@ -3118,6 +3187,7 @@
     "hitLevels": [
       "M"
     ],
+    "index": 72,
     "input": "b+4",
     "name": "Mercenary Kick",
     "notes": [
@@ -3161,6 +3231,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 73,
     "input": "b+1+2",
     "name": "\nWindup\nWindup Counter\n",
     "notes": [
@@ -3201,6 +3272,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 74,
     "input": "uf",
     "name": "Updraft",
     "notes": [],
@@ -3240,6 +3312,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 75,
     "input": "GAR.1",
     "name": "Griffin Hunter",
     "notes": [
@@ -3285,6 +3358,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 76,
     "input": "GAR.2",
     "name": "",
     "notes": [
@@ -3334,6 +3408,7 @@
       "m",
       "M"
     ],
+    "index": 77,
     "input": "GAR.2,2",
     "name": "Burning Rain",
     "notes": [
@@ -3376,6 +3451,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 78,
     "input": "GAR.3",
     "name": "Lift Kick",
     "notes": [
@@ -3417,6 +3493,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 79,
     "input": "GAR.4",
     "name": "Sky Kick",
     "notes": [
@@ -3464,6 +3541,7 @@
     "hitLevels": [
       "M"
     ],
+    "index": 80,
     "input": "f,F+2",
     "name": "Soul Cleave",
     "notes": [
@@ -3509,6 +3587,7 @@
     "hitLevels": [
       "m!"
     ],
+    "index": 81,
     "input": "b,B+1+4",
     "name": "Pulverize",
     "notes": [
@@ -3550,6 +3629,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 82,
     "input": "f,f,F+2",
     "name": "Lunge",
     "notes": [
@@ -3595,6 +3675,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 83,
     "input": "FC.df+2",
     "name": "Swift Edge",
     "notes": [],
@@ -3633,6 +3714,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 84,
     "input": "ws1",
     "name": "",
     "notes": [
@@ -3677,6 +3759,7 @@
       "m",
       "m"
     ],
+    "index": 85,
     "input": "ws1,2",
     "name": "Wild Steel",
     "notes": [
@@ -3725,6 +3808,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 86,
     "input": "ws2",
     "name": "Echo Breaker",
     "notes": [],
@@ -3767,6 +3851,7 @@
       "m",
       "m"
     ],
+    "index": 87,
     "input": "ws3",
     "name": "Fame Wolf",
     "notes": [
@@ -3809,6 +3894,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 88,
     "input": "ws4",
     "name": "Sabaton Smash",
     "notes": [
@@ -3852,6 +3938,7 @@
       "m",
       "t"
     ],
+    "index": 91,
     "input": "PHX.1",
     "name": "Heatwave",
     "notes": [
@@ -3897,6 +3984,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 92,
     "input": "PHX.2",
     "name": "Shift Strike",
     "notes": [
@@ -3944,6 +4032,7 @@
       "m",
       "M"
     ],
+    "index": 93,
     "input": "PHX.2,1",
     "name": "Rising Flame",
     "notes": [
@@ -3994,6 +4083,7 @@
       "m",
       "t"
     ],
+    "index": 94,
     "input": "PHX.2,2",
     "name": "Steel Slash",
     "notes": [
@@ -4042,6 +4132,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 95,
     "input": "PHX.3",
     "name": "",
     "notes": [
@@ -4087,6 +4178,7 @@
       "m",
       "m"
     ],
+    "index": 96,
     "input": "PHX.3,2",
     "name": "Vanagandr",
     "notes": [
@@ -4136,6 +4228,7 @@
       "m",
       "M"
     ],
+    "index": 97,
     "input": "PHX.3,1+2",
     "name": "Dark Surge",
     "notes": [
@@ -4180,6 +4273,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 98,
     "input": "PHX.4",
     "name": "Firestarter",
     "notes": [],
@@ -4219,6 +4313,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 100,
     "input": "PHX.3+4",
     "name": "Bolt Boot",
     "notes": [
@@ -4266,6 +4361,7 @@
       "",
       "M"
     ],
+    "index": 102,
     "input": "3+4,P",
     "name": "Radiant Counter",
     "notes": [],
@@ -4306,6 +4402,7 @@
     "hitLevels": [
       "sm"
     ],
+    "index": 103,
     "input": "WOL.1",
     "name": "Dia",
     "notes": [
@@ -4352,6 +4449,7 @@
       "sm",
       "t"
     ],
+    "index": 104,
     "input": "WOL.2",
     "name": "\nImpulse\nFollow Up Flare\n",
     "notes": [
@@ -4397,6 +4495,7 @@
     "hitLevels": [
       "M"
     ],
+    "index": 105,
     "input": "WOL.3",
     "name": "Radiant Backflip",
     "notes": [],
@@ -4430,6 +4529,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 106,
     "input": "WOL.4",
     "name": "Phoenix Shift",
     "notes": [],
@@ -4467,6 +4567,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 107,
     "input": "1+4",
     "name": "\nArm of Darkness (ZAN1)\nZantetsuken (ZAN2-4)\nUltimate Zantetsuken (ZAN5)\n",
     "notes": [
@@ -4519,6 +4620,7 @@
       "m",
       "t"
     ],
+    "index": 108,
     "input": "R.df+1+2",
     "name": "Hellfire",
     "notes": [
@@ -4560,6 +4662,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 109,
     "input": "1+2+3+4",
     "name": "\nKi Charge\nSupercharger\n",
     "notes": [
@@ -4599,6 +4702,7 @@
     "hitLevels": [
       "M"
     ],
+    "index": 110,
     "input": "SS.2",
     "name": "",
     "notes": [
@@ -4641,6 +4745,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 112,
     "input": "SS.1+2",
     "name": "Stone Smite",
     "notes": [
@@ -4679,6 +4784,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 114,
     "input": "b+3,P",
     "name": "",
     "notes": [],
@@ -4717,6 +4823,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 115,
     "input": "b+3,P,2",
     "name": "Precision Counter",
     "notes": [],
@@ -4760,6 +4867,7 @@
       "m",
       "t"
     ],
+    "index": 116,
     "input": "b+3,P,1+2",
     "name": "Dash of Steel",
     "notes": [
@@ -4806,6 +4914,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 117,
     "input": "1+3",
     "name": "Fangs of Ruin",
     "notes": [
@@ -4850,6 +4959,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 118,
     "input": "2+4",
     "name": "Punisher",
     "notes": [
@@ -4895,6 +5005,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 119,
     "input": "LeftThrow",
     "name": "Fangs of Ruin",
     "notes": [
@@ -4936,6 +5047,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 120,
     "input": "RightThrow",
     "name": "Punisher",
     "notes": [
@@ -4977,6 +5089,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 121,
     "input": "BackThrow",
     "name": "Judgment Throw",
     "notes": [
@@ -5018,6 +5131,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 122,
     "input": "uf+1+2",
     "name": "Gigaflare",
     "notes": [

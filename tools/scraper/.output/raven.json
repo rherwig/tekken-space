@@ -28,6 +28,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 0,
     "input": "2+3",
     "name": "Heat Burst",
     "notes": [
@@ -74,6 +75,7 @@
       "m",
       "t"
     ],
+    "index": 1,
     "input": "H.2+3",
     "name": "Pandemonium",
     "notes": [
@@ -122,6 +124,7 @@
       "sm",
       "sm"
     ],
+    "index": 2,
     "input": "df+1,H.4",
     "name": "Body Blow > Phantom Mace",
     "notes": [
@@ -175,6 +178,7 @@
       "sm",
       "sm"
     ],
+    "index": 3,
     "input": "db+2,1,H.1",
     "name": "Assassin's Sting > Phantom Javelin",
     "notes": [
@@ -227,6 +231,7 @@
       "sm",
       "sm"
     ],
+    "index": 4,
     "input": "b+2,4,H.2",
     "name": "Missing Worm > Phantom Halberd",
     "notes": [
@@ -275,6 +280,7 @@
       "m",
       "sm"
     ],
+    "index": 5,
     "input": "f,f,F+3,H.4",
     "name": "Typhon Fang Phantom",
     "notes": [
@@ -324,6 +330,7 @@
       "sm",
       "sm"
     ],
+    "index": 6,
     "input": "ws3,H.2",
     "name": "Trident Kick > Phantom Halberd",
     "notes": [
@@ -374,6 +381,7 @@
       "sm",
       "sm"
     ],
+    "index": 7,
     "input": "qcf+1,H.2",
     "name": "Fatal Elbow > Phantom Halberd",
     "notes": [
@@ -424,6 +432,7 @@
       "sm",
       "sm"
     ],
+    "index": 8,
     "input": "SZN.1,H.4",
     "name": "Swift Blade > Phantom Mace",
     "notes": [
@@ -475,6 +484,7 @@
       "sm",
       "sm"
     ],
+    "index": 9,
     "input": "SZN.3,H.2",
     "name": "Radius Flail > Phantom Halberd",
     "notes": [
@@ -525,6 +535,7 @@
       "sm",
       "sm"
     ],
+    "index": 10,
     "input": "BT.2,2,H.1",
     "name": "Blinding Knife ＞ Phantom Javelin",
     "notes": [
@@ -577,6 +588,7 @@
       "sm",
       "sm"
     ],
+    "index": 11,
     "input": "BT.f+2,4,H.2",
     "name": "Cold Worm > Phantom Halberd",
     "notes": [
@@ -620,6 +632,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 12,
     "input": "1+2",
     "name": "Crusader",
     "notes": [],
@@ -664,6 +677,7 @@
       "h",
       "m"
     ],
+    "index": 13,
     "input": "f+1+2",
     "name": "Minos Typhoon",
     "notes": [
@@ -708,6 +722,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 14,
     "input": "ws3+4",
     "name": "Spinning Middle Kick",
     "notes": [
@@ -757,6 +772,7 @@
       "m",
       "sm"
     ],
+    "index": 15,
     "input": "SZN.2",
     "name": "Dual Thanatos",
     "notes": [
@@ -804,6 +820,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 16,
     "input": "BT.4",
     "name": "Chronos Lathe",
     "notes": [],
@@ -843,6 +860,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 17,
     "input": "1",
     "name": "Jab",
     "notes": [],
@@ -880,6 +898,7 @@
       "h",
       "h"
     ],
+    "index": 18,
     "input": "1,2",
     "name": "Left Right Combo",
     "notes": [
@@ -927,6 +946,7 @@
       "h",
       "m"
     ],
+    "index": 19,
     "input": "1,2,4",
     "name": "Left Right Combo > Black Hole",
     "notes": [
@@ -967,6 +987,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 20,
     "input": "2",
     "name": "Right Jab",
     "notes": [],
@@ -1004,6 +1025,7 @@
       "h",
       "l"
     ],
+    "index": 21,
     "input": "2,3",
     "name": "PDK Combo",
     "notes": [],
@@ -1044,6 +1066,7 @@
       "h",
       "h"
     ],
+    "index": 22,
     "input": "2,4",
     "name": "PK Combo",
     "notes": [
@@ -1088,6 +1111,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 23,
     "input": "3",
     "name": "",
     "notes": [],
@@ -1128,6 +1152,7 @@
       "m",
       "h"
     ],
+    "index": 24,
     "input": "3,3",
     "name": "",
     "notes": [
@@ -1176,6 +1201,7 @@
       "h",
       "h"
     ],
+    "index": 25,
     "input": "3,3,4",
     "name": "Valkyrie Lance Combo",
     "notes": [
@@ -1219,6 +1245,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 26,
     "input": "4",
     "name": "High Kick",
     "notes": [],
@@ -1259,6 +1286,7 @@
       "h",
       "h"
     ],
+    "index": 27,
     "input": "4,1",
     "name": "Brocken Connect",
     "notes": [
@@ -1302,6 +1330,7 @@
       "m",
       "M"
     ],
+    "index": 28,
     "input": "3~4",
     "name": "Chariot",
     "notes": [],
@@ -1342,6 +1371,7 @@
       "m",
       "M"
     ],
+    "index": 29,
     "input": "3~4,F",
     "name": "Chariot to Blind Roll",
     "notes": [],
@@ -1384,6 +1414,7 @@
       "m",
       "m"
     ],
+    "index": 30,
     "input": "4~3",
     "name": "Hydra Bite",
     "notes": [],
@@ -1426,6 +1457,7 @@
       "m",
       "l"
     ],
+    "index": 31,
     "input": "4~3,1",
     "name": "Hydra Bite Low",
     "notes": [],
@@ -1469,6 +1501,7 @@
       "m",
       "h"
     ],
+    "index": 32,
     "input": "4~3,3",
     "name": "Hydra Bite High",
     "notes": [
@@ -1516,6 +1549,7 @@
       "m",
       "m"
     ],
+    "index": 33,
     "input": "4~3,4",
     "name": "Hydra Bite Mid",
     "notes": [
@@ -1558,6 +1592,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 35,
     "input": "f+2",
     "name": "",
     "notes": [],
@@ -1601,6 +1636,7 @@
       "m",
       "M"
     ],
+    "index": 36,
     "input": "f+2,3",
     "name": "Tartaros",
     "notes": [
@@ -1642,6 +1678,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 37,
     "input": "f+3",
     "name": "",
     "notes": [
@@ -1689,6 +1726,7 @@
       "m",
       "m"
     ],
+    "index": 38,
     "input": "f+3,2",
     "name": "Circling Winds",
     "notes": [
@@ -1732,6 +1770,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 39,
     "input": "f+4",
     "name": "Lance Kick",
     "notes": [],
@@ -1773,6 +1812,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 41,
     "input": "df+1",
     "name": "Body Blow",
     "notes": [],
@@ -1815,6 +1855,7 @@
       "m",
       "sm"
     ],
+    "index": 42,
     "input": "df+1,4",
     "name": "Body Blow > Phantom Mace",
     "notes": [
@@ -1861,6 +1902,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 43,
     "input": "df+2",
     "name": "Uppercut",
     "notes": [
@@ -1905,6 +1947,7 @@
       "m",
       "h"
     ],
+    "index": 44,
     "input": "df+2,3",
     "name": "Meat Hook",
     "notes": [],
@@ -1949,6 +1992,7 @@
       "m",
       "m"
     ],
+    "index": 45,
     "input": "df+2,4",
     "name": "Bolt Stunner",
     "notes": [],
@@ -1993,6 +2037,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 46,
     "input": "df+3",
     "name": "Shadow Snap Kick",
     "notes": [],
@@ -2031,6 +2076,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 47,
     "input": "df+4",
     "name": "",
     "notes": [],
@@ -2072,6 +2118,7 @@
       "m",
       "M"
     ],
+    "index": 48,
     "input": "df+4,4",
     "name": "Pendulum Kick",
     "notes": [
@@ -2121,6 +2168,7 @@
       "M",
       "M"
     ],
+    "index": 49,
     "input": "df+4,4,3",
     "name": "Pendulum Shadow",
     "notes": [],
@@ -2156,6 +2204,7 @@
     "hitLevels": [
       "sl"
     ],
+    "index": 50,
     "input": "d+1",
     "name": "Crouch Jab",
     "notes": [
@@ -2193,6 +2242,7 @@
     "hitLevels": [
       "sl"
     ],
+    "index": 51,
     "input": "d+2",
     "name": "Crouch Straight",
     "notes": [],
@@ -2228,6 +2278,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 52,
     "input": "d+3",
     "name": "Stinging Low",
     "notes": [],
@@ -2265,6 +2316,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 53,
     "input": "d+4",
     "name": "Basilisk Fang",
     "notes": [],
@@ -2303,6 +2355,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 54,
     "input": "db+2",
     "name": "Assassin's Sting",
     "notes": [],
@@ -2343,6 +2396,7 @@
       "m",
       "h"
     ],
+    "index": 55,
     "input": "db+2,1",
     "name": "Assassin's Sting Combo",
     "notes": [
@@ -2390,6 +2444,7 @@
       "h",
       "sm"
     ],
+    "index": 56,
     "input": "db+2,1,1",
     "name": "Assassin's Sting > Phantom Javelin",
     "notes": [
@@ -2435,6 +2490,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 57,
     "input": "db+3",
     "name": "Killer Bee",
     "notes": [],
@@ -2478,6 +2534,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 58,
     "input": "db+4",
     "name": "Shinobi Cyclone",
     "notes": [],
@@ -2522,6 +2579,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 59,
     "input": "b+1",
     "name": "Elbow Strike",
     "notes": [
@@ -2566,6 +2624,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 60,
     "input": "b+2",
     "name": "",
     "notes": [],
@@ -2603,6 +2662,7 @@
       "h",
       "m"
     ],
+    "index": 61,
     "input": "b+2,2",
     "name": "",
     "notes": [
@@ -2655,6 +2715,7 @@
       "m",
       "M"
     ],
+    "index": 62,
     "input": "b+2,2,3",
     "name": "Unicorn's Tail",
     "notes": [
@@ -2703,6 +2764,7 @@
       "m",
       "L"
     ],
+    "index": 63,
     "input": "b+2,2,1+2",
     "name": "Deadly Talon",
     "notes": [
@@ -2745,6 +2807,7 @@
       "h",
       "h"
     ],
+    "index": 64,
     "input": "b+2,4",
     "name": "Missing Worm",
     "notes": [
@@ -2792,6 +2855,7 @@
       "h",
       "sm"
     ],
+    "index": 65,
     "input": "b+2,4,2",
     "name": "Missing Worm > Phantom Halberd",
     "notes": [
@@ -2836,6 +2900,7 @@
     "hitLevels": [
       "M"
     ],
+    "index": 66,
     "input": "b+3",
     "name": "Hades Heel",
     "notes": [
@@ -2878,6 +2943,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 67,
     "input": "b+4",
     "name": "",
     "notes": [],
@@ -2923,6 +2989,7 @@
       "m",
       "m"
     ],
+    "index": 68,
     "input": "b+4,4",
     "name": "Skull Smasher",
     "notes": [
@@ -2975,6 +3042,7 @@
       "m",
       "M"
     ],
+    "index": 69,
     "input": "b+4,B+4",
     "name": "Skull Smasher Feint",
     "notes": [],
@@ -3016,6 +3084,7 @@
       "M",
       "L"
     ],
+    "index": 70,
     "input": "b+4,B+4~3",
     "name": "Skull Smasher Feint Low",
     "notes": [],
@@ -3061,6 +3130,7 @@
       "L",
       "m"
     ],
+    "index": 71,
     "input": "b+4,B+4~3,3+4",
     "name": "Skull Spin",
     "notes": [
@@ -3104,6 +3174,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 72,
     "input": "b+1+2",
     "name": "Alternating Smash",
     "notes": [
@@ -3144,6 +3215,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 73,
     "input": "ub+1",
     "name": "",
     "notes": [],
@@ -3187,6 +3259,7 @@
       "m",
       "m"
     ],
+    "index": 74,
     "input": "ub+1,2",
     "name": "Gate Keeper",
     "notes": [
@@ -3228,6 +3301,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 75,
     "input": "u+3",
     "name": "Deathbringer",
     "notes": [
@@ -3272,6 +3346,7 @@
       "h",
       "L"
     ],
+    "index": 76,
     "input": "u+3,3",
     "name": "Deathbringer Low",
     "notes": [
@@ -3318,6 +3393,7 @@
       "L",
       "M"
     ],
+    "index": 77,
     "input": "u+3,3,3",
     "name": "Deathbringer Low > Shadow",
     "notes": [],
@@ -3358,6 +3434,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 78,
     "input": "u+4",
     "name": "",
     "notes": [
@@ -3400,6 +3477,7 @@
     "hitLevels": [
       "M"
     ],
+    "index": 79,
     "input": "uf+3",
     "name": "Shadow Scythe",
     "notes": [],
@@ -3442,6 +3520,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 80,
     "input": "uf+4",
     "name": "",
     "notes": [],
@@ -3488,6 +3567,7 @@
       "m",
       "m"
     ],
+    "index": 81,
     "input": "uf+4,4",
     "name": "Stormbringer",
     "notes": [
@@ -3532,6 +3612,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 82,
     "input": "uf+3+4",
     "name": "",
     "notes": [],
@@ -3574,6 +3655,7 @@
       "m",
       "L"
     ],
+    "index": 83,
     "input": "uf+3+4,4",
     "name": "",
     "notes": [],
@@ -3615,6 +3697,7 @@
       "L",
       "m"
     ],
+    "index": 84,
     "input": "uf+3+4,4,2",
     "name": "Chakram",
     "notes": [],
@@ -3656,6 +3739,7 @@
       "m",
       "m"
     ],
+    "index": 85,
     "input": "uf+3+4,3+4",
     "name": "Spinning Chakram",
     "notes": [],
@@ -3696,6 +3780,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 86,
     "input": "uf,n,4",
     "name": "Delayed Rising Toe Kick",
     "notes": [],
@@ -3736,6 +3821,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 87,
     "input": "f,F+2",
     "name": "Shadow Spear",
     "notes": [],
@@ -3778,6 +3864,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 88,
     "input": "f,F+3",
     "name": "Sudden Strike",
     "notes": [],
@@ -3820,6 +3907,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 89,
     "input": "f,F+4",
     "name": "Iron Maul",
     "notes": [],
@@ -3861,6 +3949,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 90,
     "input": "f,f,F+3",
     "name": "Typhon Fang",
     "notes": [],
@@ -3901,6 +3990,7 @@
       "m",
       "h"
     ],
+    "index": 91,
     "input": "b,B+2",
     "name": "War Hound",
     "notes": [
@@ -3949,6 +4039,7 @@
       "h",
       "t"
     ],
+    "index": 92,
     "input": "b,B+2,P",
     "name": "Blind Ghost",
     "notes": [],
@@ -3984,6 +4075,7 @@
     "hitLevels": [
       "sl"
     ],
+    "index": 93,
     "input": "FC.1",
     "name": "Crouch Jab",
     "notes": [],
@@ -4019,6 +4111,7 @@
     "hitLevels": [
       "sl"
     ],
+    "index": 94,
     "input": "FC.2",
     "name": "Crouch Straight",
     "notes": [],
@@ -4054,6 +4147,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 95,
     "input": "FC.3",
     "name": "Crouch Spin Kick",
     "notes": [],
@@ -4089,6 +4183,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 96,
     "input": "FC.4",
     "name": "Crouch Chin Kick",
     "notes": [],
@@ -4129,6 +4224,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 97,
     "input": "FC.df+3",
     "name": "Aqua Spider",
     "notes": [],
@@ -4170,6 +4266,7 @@
       "L",
       "sm"
     ],
+    "index": 98,
     "input": "FC.df+3+4",
     "name": "Tornado Destruction",
     "notes": [
@@ -4207,6 +4304,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 99,
     "input": "FC.df,d,DF",
     "name": "Crouch Step",
     "notes": [],
@@ -4238,6 +4336,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 100,
     "input": "FC.df,d,DF,f",
     "name": "Crouch Step to Shadow Sprint",
     "notes": [],
@@ -4278,6 +4377,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 101,
     "input": "ws1",
     "name": "Rising Uppercut",
     "notes": [],
@@ -4319,6 +4419,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 102,
     "input": "ws2",
     "name": "Jackknife Elbow",
     "notes": [],
@@ -4360,6 +4461,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 103,
     "input": "ws3",
     "name": "Trident Kick",
     "notes": [],
@@ -4402,6 +4504,7 @@
       "m",
       "sm"
     ],
+    "index": 104,
     "input": "ws3,2",
     "name": "Trident Kick > Phantom Halberd",
     "notes": [
@@ -4445,6 +4548,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 105,
     "input": "ws4",
     "name": "Shadow Snap Kick",
     "notes": [],
@@ -4476,6 +4580,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 107,
     "input": "qcf",
     "name": "Shadow Sprint",
     "notes": [],
@@ -4513,6 +4618,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 108,
     "input": "qcf+1",
     "name": "Fatal Elbow",
     "notes": [
@@ -4559,6 +4665,7 @@
       "m",
       "sm"
     ],
+    "index": 109,
     "input": "qcf+1,2",
     "name": "Fatal Elbow > Phantom Halberd",
     "notes": [
@@ -4603,6 +4710,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 110,
     "input": "qcf+2",
     "name": "Buzzsaw",
     "notes": [],
@@ -4643,6 +4751,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 111,
     "input": "qcf+2~1",
     "name": "Laevateinn",
     "notes": [
@@ -4689,6 +4798,7 @@
       "h",
       "t"
     ],
+    "index": 112,
     "input": "qcf+3",
     "name": "Poison Needle > Nightmare",
     "notes": [
@@ -4734,6 +4844,7 @@
     "hitLevels": [
       "M"
     ],
+    "index": 113,
     "input": "qcf+4",
     "name": "Black Hole",
     "notes": [],
@@ -4776,6 +4887,7 @@
       "m",
       "m"
     ],
+    "index": 114,
     "input": "qcf+1+2",
     "name": "Hellhound",
     "notes": [
@@ -4824,6 +4936,7 @@
       "m",
       "t"
     ],
+    "index": 115,
     "input": "qcf+1+2,P",
     "name": "Blind Ghost",
     "notes": [],
@@ -4855,6 +4968,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 116,
     "input": "3+4",
     "name": "Soulzone",
     "notes": [],
@@ -4893,6 +5007,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 117,
     "input": "SZN.1",
     "name": "Swift Blade",
     "notes": [],
@@ -4935,6 +5050,7 @@
       "h",
       "sm"
     ],
+    "index": 118,
     "input": "SZN.1,4",
     "name": "Swift Blade > Phantom Mace",
     "notes": [
@@ -4979,6 +5095,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 120,
     "input": "SZN.3",
     "name": "Radius Flail",
     "notes": [],
@@ -5021,6 +5138,7 @@
       "m",
       "sm"
     ],
+    "index": 121,
     "input": "SZN.3,2",
     "name": "Radius Flail > Phantom Halberd",
     "notes": [
@@ -5067,6 +5185,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 122,
     "input": "SZN.4",
     "name": "Cocytus Glide",
     "notes": [],
@@ -5106,6 +5225,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 123,
     "input": "SZN.1+2",
     "name": "Oceanus Fissure",
     "notes": [
@@ -5142,6 +5262,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 124,
     "input": "SZN.U",
     "name": "Blind Fall",
     "notes": [],
@@ -5173,6 +5294,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 125,
     "input": "SZN.D",
     "name": "Blind Fall to Crouching State",
     "notes": [],
@@ -5204,6 +5326,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 126,
     "input": "SZN.B",
     "name": "Blind Labyrinth",
     "notes": [],
@@ -5235,6 +5358,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 127,
     "input": "b+3+4",
     "name": "Labyrinth",
     "notes": [],
@@ -5266,6 +5390,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 128,
     "input": "BT.b+3+4",
     "name": "Labyrinth to Front",
     "notes": [],
@@ -5303,6 +5428,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 129,
     "input": "BT.1",
     "name": "Blind Axe",
     "notes": [],
@@ -5348,6 +5474,7 @@
       "h",
       "h"
     ],
+    "index": 130,
     "input": "BT.1,4",
     "name": "Blind Lance",
     "notes": [
@@ -5387,6 +5514,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 131,
     "input": "BT.2",
     "name": "Backfist",
     "notes": [],
@@ -5424,6 +5552,7 @@
       "h",
       "h"
     ],
+    "index": 132,
     "input": "BT.2,1",
     "name": "Backfist > Straight",
     "notes": [
@@ -5468,6 +5597,7 @@
       "h",
       "m"
     ],
+    "index": 133,
     "input": "BT.2,2",
     "name": "Blinding Knife",
     "notes": [
@@ -5515,6 +5645,7 @@
       "m",
       "sm"
     ],
+    "index": 134,
     "input": "BT.2,2,1",
     "name": "Blinding Knife > Phantom Javelin",
     "notes": [
@@ -5555,6 +5686,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 135,
     "input": "BT.3",
     "name": "",
     "notes": [],
@@ -5599,6 +5731,7 @@
       "h",
       "m"
     ],
+    "index": 136,
     "input": "BT.3,4",
     "name": "",
     "notes": [
@@ -5647,6 +5780,7 @@
       "m",
       "M"
     ],
+    "index": 137,
     "input": "BT.3,4,3",
     "name": "Crescent Mirage",
     "notes": [],
@@ -5690,6 +5824,7 @@
       "m",
       "M"
     ],
+    "index": 138,
     "input": "BT.3,4,4",
     "name": "Fafnir",
     "notes": [
@@ -5733,6 +5868,7 @@
       "m",
       "M"
     ],
+    "index": 139,
     "input": "BT.3,4,4,F",
     "name": "Fafnir to Blind Roll",
     "notes": [],
@@ -5772,6 +5908,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 141,
     "input": "BT.1+2",
     "name": "Crusader",
     "notes": [
@@ -5819,6 +5956,7 @@
       "m",
       "m"
     ],
+    "index": 142,
     "input": "BT.3+4",
     "name": "Spiral Cannon",
     "notes": [],
@@ -5854,6 +5992,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 143,
     "input": "BT.f+1",
     "name": "Soul Steal",
     "notes": [
@@ -5897,6 +6036,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 144,
     "input": "BT.f+2",
     "name": "",
     "notes": [],
@@ -5940,6 +6080,7 @@
       "m",
       "M"
     ],
+    "index": 145,
     "input": "BT.f+2,3",
     "name": "Cold Massacre",
     "notes": [
@@ -5985,6 +6126,7 @@
       "m",
       "h"
     ],
+    "index": 146,
     "input": "BT.f+2,4",
     "name": "Cold Worm",
     "notes": [
@@ -6032,6 +6174,7 @@
       "h",
       "sm"
     ],
+    "index": 147,
     "input": "BT.f+2,4,2",
     "name": "Cold Worm > Phantom Halberd",
     "notes": [
@@ -6077,6 +6220,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 148,
     "input": "BT.f+3",
     "name": "Demon Knee",
     "notes": [
@@ -6116,6 +6260,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 149,
     "input": "BT.f+4",
     "name": "Kama Kick",
     "notes": [],
@@ -6156,6 +6301,7 @@
       "L",
       "h"
     ],
+    "index": 150,
     "input": "BT.f+4,1",
     "name": "Trick Bang",
     "notes": [
@@ -6200,6 +6346,7 @@
     "hitLevels": [
       "M"
     ],
+    "index": 151,
     "input": "BT.f+3+4",
     "name": "Reverse Chakram",
     "notes": [],
@@ -6237,6 +6384,7 @@
     "hitLevels": [
       "M"
     ],
+    "index": 152,
     "input": "BT.f+3+4,F",
     "name": "Reverse Chakram to Blind Roll",
     "notes": [],
@@ -6272,6 +6420,7 @@
     "hitLevels": [
       "sl"
     ],
+    "index": 153,
     "input": "BT.d+1",
     "name": "Crouch Spin Knuckle",
     "notes": [],
@@ -6310,6 +6459,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 154,
     "input": "BT.d+3",
     "name": "Shinobi Cyclone",
     "notes": [
@@ -6350,6 +6500,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 155,
     "input": "BT.d+4",
     "name": "Crouch Spin Kick",
     "notes": [],
@@ -6388,6 +6539,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 156,
     "input": "BT.b+2",
     "name": "",
     "notes": [],
@@ -6432,6 +6584,7 @@
       "m",
       "m"
     ],
+    "index": 157,
     "input": "BT.b+2,3",
     "name": "Abyss Cannon",
     "notes": [
@@ -6475,6 +6628,7 @@
       "m",
       "h"
     ],
+    "index": 158,
     "input": "BT.b+2,4",
     "name": "Abyss Spear",
     "notes": [],
@@ -6514,6 +6668,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 159,
     "input": "BT.b+3",
     "name": "Cannon Tail",
     "notes": [
@@ -6558,6 +6713,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 160,
     "input": "BT.f,F+3",
     "name": "Gremlin Smasher",
     "notes": [],
@@ -6597,6 +6753,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 161,
     "input": "BT.f,F+3+4",
     "name": "Vermillion",
     "notes": [],
@@ -6628,6 +6785,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 162,
     "input": "BT.f,f,f",
     "name": "Blind Roll",
     "notes": [],
@@ -6659,6 +6817,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 163,
     "input": "BT.f+1+2",
     "name": "Sixth Sense",
     "notes": [],
@@ -6696,6 +6855,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 164,
     "input": "BT.f+1+2,P",
     "name": "",
     "notes": [],
@@ -6734,6 +6894,7 @@
       "m",
       "t"
     ],
+    "index": 165,
     "input": "R.df+1+2",
     "name": "Wild Hunt X-ecutor",
     "notes": [
@@ -6775,6 +6936,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 166,
     "input": "1+2+3+4",
     "name": "Ki Charge",
     "notes": [
@@ -6819,6 +6981,7 @@
       "",
       "m!"
     ],
+    "index": 167,
     "input": "1+2+3+4,b,f,1+2",
     "name": "Dead End",
     "notes": [],
@@ -6861,6 +7024,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 168,
     "input": "(Backtowall).b,b,UB",
     "name": "Wall Jump Attack",
     "notes": [],
@@ -6894,6 +7058,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 169,
     "input": "UB,b",
     "name": "Back Handspring",
     "notes": [],
@@ -6938,6 +7103,7 @@
       "M!",
       "M!"
     ],
+    "index": 170,
     "input": "UB,b,3+4",
     "name": "Pandora Spin",
     "notes": [],
@@ -6971,6 +7137,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 171,
     "input": "b+1+3",
     "name": "Utsusemi Escape",
     "notes": [
@@ -7005,6 +7172,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 172,
     "input": "b+1+3,P",
     "name": "Utsusemi Escape",
     "notes": [
@@ -7047,6 +7215,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 173,
     "input": "1+3",
     "name": "Grave Digger",
     "notes": [],
@@ -7085,6 +7254,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 174,
     "input": "2+4",
     "name": "Salamander",
     "notes": [
@@ -7125,6 +7295,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 175,
     "input": "Leftthrow",
     "name": "Neck Ringer",
     "notes": [
@@ -7167,6 +7338,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 176,
     "input": "Rightthrow",
     "name": "Swift Assassin",
     "notes": [
@@ -7208,6 +7380,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 177,
     "input": "Backthrow",
     "name": "Dark Matter",
     "notes": [
@@ -7249,6 +7422,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 178,
     "input": "df+1+4",
     "name": "Orbiting Moon",
     "notes": [
@@ -7291,6 +7465,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 179,
     "input": "uf+1+2",
     "name": "Undertaker",
     "notes": [

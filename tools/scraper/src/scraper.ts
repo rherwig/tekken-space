@@ -14,7 +14,7 @@ import { loadRemoteFile, writeOutput } from './functions/files'
 import { dedupeMoves } from './functions/lists'
 import { createDocument } from './functions/dom'
 
-const scrapeMove = ($root: Element): ScrapedMove => {
+const scrapeMove = ($root: Element, index: number): ScrapedMove => {
     const { notes, specials } = scrapeNotes($root)
 
     return {
@@ -24,6 +24,7 @@ const scrapeMove = ($root: Element): ScrapedMove => {
         framesOnHit: scrapeFrameData($root, selectors.FRAMES_HIT),
         framesOnStartup: scrapeFrameData($root, selectors.FRAMES_STARTUP),
         hitLevels: scrapeHitLevels($root),
+        index,
         input: scrapeNotation($root),
         name: scrapeName($root),
         notes,
@@ -37,7 +38,9 @@ export const scrape = async (characterMeta: CharacterScrapingMeta) => {
     const document = createDocument(markup)
 
     const $moves = document.querySelectorAll(selectors.MOVE)
-    const moves = Array.from($moves).map(scrapeMove)
+    const moves = Array.from($moves).map(($move, index) =>
+        scrapeMove($move, index),
+    )
     const uniqueMoves = dedupeMoves(moves)
 
     writeOutput(characterMeta.id, uniqueMoves)

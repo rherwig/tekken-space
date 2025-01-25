@@ -29,6 +29,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 0,
     "input": "2+3",
     "name": "Heat Burst",
     "notes": [
@@ -77,6 +78,7 @@
       "m",
       "t"
     ],
+    "index": 1,
     "input": "H.2+3",
     "name": "Triple Ascension Kicks",
     "notes": [
@@ -127,6 +129,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 2,
     "input": "f+1+2",
     "name": "Exorcisor",
     "notes": [
@@ -174,6 +177,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 3,
     "input": "d+2",
     "name": "Heaven's Hammer",
     "notes": [
@@ -221,6 +225,7 @@
       "m",
       "h"
     ],
+    "index": 4,
     "input": "db+1,2",
     "name": "Swallow Vortex",
     "notes": [
@@ -267,6 +272,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 5,
     "input": "SS.2",
     "name": "Mist Palm Thrust",
     "notes": [
@@ -310,6 +316,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 6,
     "input": "DST.2",
     "name": "Compulsory Reform",
     "notes": [
@@ -355,6 +362,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 7,
     "input": "1",
     "name": "Jab",
     "notes": [],
@@ -392,6 +400,7 @@
       "h",
       "m"
     ],
+    "index": 8,
     "input": "1,1",
     "name": "Whiplash",
     "notes": [
@@ -438,6 +447,7 @@
       "m",
       "m"
     ],
+    "index": 9,
     "input": "1,1,3",
     "name": "",
     "notes": [
@@ -479,6 +489,7 @@
       "h",
       "m"
     ],
+    "index": 10,
     "input": "1,2",
     "name": "Jab Uppercut",
     "notes": [
@@ -525,6 +536,7 @@
       "m",
       "m"
     ],
+    "index": 11,
     "input": "1,2,3",
     "name": "Jab Uppercut > Spinning Heel Drop",
     "notes": [
@@ -575,6 +587,7 @@
       "m",
       "m"
     ],
+    "index": 12,
     "input": "1,2,3*",
     "name": "Jab Uppercut > Spinning Heel Drop (Hold)",
     "notes": [
@@ -623,6 +636,7 @@
       "m",
       "m"
     ],
+    "index": 13,
     "input": "1,2,4",
     "name": "Jab Uppercut > Front Kick",
     "notes": [
@@ -663,6 +677,7 @@
       "h",
       "l"
     ],
+    "index": 14,
     "input": "1,3",
     "name": "Jab Low Kick",
     "notes": [
@@ -701,6 +716,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 15,
     "input": "2",
     "name": "",
     "notes": [],
@@ -739,6 +755,7 @@
       "h",
       "h"
     ],
+    "index": 16,
     "input": "2,1",
     "name": "",
     "notes": [
@@ -786,6 +803,7 @@
       "h",
       "m"
     ],
+    "index": 17,
     "input": "2,1,2",
     "name": "Basho Cutter",
     "notes": [
@@ -836,6 +854,7 @@
       "h",
       "m"
     ],
+    "index": 18,
     "input": "2,1,d+1+2",
     "name": "Basho Oroshi",
     "notes": [
@@ -883,6 +902,7 @@
       "h",
       "m"
     ],
+    "index": 19,
     "input": "2,3",
     "name": "Mizu Basho",
     "notes": [
@@ -923,6 +943,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 20,
     "input": "3",
     "name": "",
     "notes": [],
@@ -964,6 +985,7 @@
       "m",
       "m"
     ],
+    "index": 21,
     "input": "3,1",
     "name": "Hyakujitsuko",
     "notes": [
@@ -1006,6 +1028,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 22,
     "input": "4",
     "name": "High Kick",
     "notes": [],
@@ -1043,6 +1066,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 23,
     "input": "1+2",
     "name": "Inner Strength",
     "notes": [],
@@ -1083,6 +1107,7 @@
       "m",
       "M"
     ],
+    "index": 24,
     "input": "3+4",
     "name": "Ryuuntsui",
     "notes": [
@@ -1125,6 +1150,7 @@
       "sl",
       "h"
     ],
+    "index": 25,
     "input": "1+4",
     "name": "",
     "notes": [
@@ -1166,6 +1192,7 @@
       "h",
       "h"
     ],
+    "index": 26,
     "input": "1+4,2",
     "name": "",
     "notes": [
@@ -1212,6 +1239,7 @@
       "h",
       "m"
     ],
+    "index": 27,
     "input": "1+4,2,4",
     "name": "White Heron Dance",
     "notes": [
@@ -1259,6 +1287,7 @@
       "h",
       "L"
     ],
+    "index": 28,
     "input": "1+4,2,d+4",
     "name": "White Heron Lower Dance",
     "notes": [
@@ -1304,6 +1333,7 @@
       "h",
       "m"
     ],
+    "index": 29,
     "input": "1+4,3",
     "name": "White Heron Spinning Heel Drop",
     "notes": [
@@ -1347,6 +1377,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 30,
     "input": "f+1",
     "name": "Whiplash (WHP)",
     "notes": [],
@@ -1387,6 +1418,7 @@
       "m",
       "m"
     ],
+    "index": 31,
     "input": "f+1,3",
     "name": "Whiplash > Toe Kick",
     "notes": [
@@ -1430,6 +1462,7 @@
       "m",
       "L"
     ],
+    "index": 32,
     "input": "f+1,4",
     "name": "Whiplash Sacred Blade",
     "notes": [
@@ -1476,6 +1509,7 @@
     "hitLevels": [
       "M"
     ],
+    "index": 33,
     "input": "f+2",
     "name": "Demon Slayer",
     "notes": [
@@ -1520,6 +1554,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 34,
     "input": "f+3",
     "name": "Spinning Heel Drop (One Spin)",
     "notes": [
@@ -1565,6 +1600,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 35,
     "input": "f+3*",
     "name": "Spinning Heel Drop (Two Spins)",
     "notes": [
@@ -1612,6 +1648,7 @@
     "hitLevels": [
       "m!"
     ],
+    "index": 36,
     "input": "f+3**",
     "name": "Spinning Heel Drop (Three Spins)",
     "notes": [
@@ -1654,6 +1691,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 37,
     "input": "f+4",
     "name": "Back Spin Kick",
     "notes": [
@@ -1697,6 +1735,7 @@
     "hitLevels": [
       "M"
     ],
+    "index": 39,
     "input": "f+3+4",
     "name": "Spinning Heel Chop > Naniwa Gusto",
     "notes": [
@@ -1741,6 +1780,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 40,
     "input": "f+2+3",
     "name": "Wheel Kick",
     "notes": [
@@ -1782,6 +1822,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 41,
     "input": "df+1",
     "name": "",
     "notes": [],
@@ -1823,6 +1864,7 @@
       "h",
       "t"
     ],
+    "index": 42,
     "input": "df+1,2",
     "name": "Falling Tower",
     "notes": [
@@ -1875,6 +1917,7 @@
       "m",
       "m"
     ],
+    "index": 43,
     "input": "df+1,4",
     "name": "Kyara Boku",
     "notes": [
@@ -1919,6 +1962,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 44,
     "input": "df+2",
     "name": "Rising Palm",
     "notes": [],
@@ -1957,6 +2001,7 @@
     "hitLevels": [
       "M"
     ],
+    "index": 45,
     "input": "df+3",
     "name": "Kagamino",
     "notes": [],
@@ -1994,6 +2039,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 46,
     "input": "df+4",
     "name": "Front Kick",
     "notes": [],
@@ -2033,6 +2079,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 47,
     "input": "df+3+4",
     "name": "Sacred Blade",
     "notes": [
@@ -2075,6 +2122,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 49,
     "input": "d+1+2",
     "name": "Sashiro",
     "notes": [],
@@ -2118,6 +2166,7 @@
       "l",
       "h"
     ],
+    "index": 50,
     "input": "d+3+4",
     "name": "Double Lift Kicks",
     "notes": [
@@ -2156,6 +2205,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 51,
     "input": "db+1",
     "name": "Swallow Slice",
     "notes": [],
@@ -2197,6 +2247,7 @@
       "m",
       "m"
     ],
+    "index": 53,
     "input": "db+1,4",
     "name": "Swallow Torrent",
     "notes": [
@@ -2240,6 +2291,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 54,
     "input": "db+2",
     "name": "Funeral Palm",
     "notes": [],
@@ -2281,6 +2333,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 55,
     "input": "db+3",
     "name": "Enchanted Circle",
     "notes": [],
@@ -2317,6 +2370,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 56,
     "input": "db+4",
     "name": "",
     "notes": [],
@@ -2357,6 +2411,7 @@
       "L",
       "L"
     ],
+    "index": 57,
     "input": "db+4,4",
     "name": "",
     "notes": [],
@@ -2399,6 +2454,7 @@
       "L",
       "L"
     ],
+    "index": 58,
     "input": "db+4,4,4",
     "name": "Leg Cutter",
     "notes": [],
@@ -2439,6 +2495,7 @@
       "L",
       "h"
     ],
+    "index": 59,
     "input": "db+4,3",
     "name": "Kariashi Shiranui",
     "notes": [],
@@ -2478,6 +2535,7 @@
       "sl",
       "h"
     ],
+    "index": 60,
     "input": "db+4,1+4",
     "name": "Kariashi Hakuro",
     "notes": [
@@ -2524,6 +2582,7 @@
       "m",
       "m"
     ],
+    "index": 61,
     "input": "db+1+2",
     "name": "Raging Storm",
     "notes": [
@@ -2567,6 +2626,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 62,
     "input": "b+1",
     "name": "Violet",
     "notes": [
@@ -2609,6 +2669,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 63,
     "input": "b+2",
     "name": "Swallow Mallet",
     "notes": [],
@@ -2646,6 +2707,7 @@
       "m",
       "m"
     ],
+    "index": 64,
     "input": "b+2,1",
     "name": "Swallow Mallet Lunging Mist Thrust",
     "notes": [
@@ -2687,6 +2749,7 @@
       "m",
       "L"
     ],
+    "index": 65,
     "input": "b+2,4",
     "name": "Swallow Mallet Leg Cutter",
     "notes": [
@@ -2727,6 +2790,7 @@
       "m",
       "h"
     ],
+    "index": 66,
     "input": "b+2,1+2",
     "name": "",
     "notes": [
@@ -2777,6 +2841,7 @@
       "h",
       "m"
     ],
+    "index": 67,
     "input": "b+2,1+2,4",
     "name": "Swallow Mallet Combo",
     "notes": [
@@ -2821,6 +2886,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 68,
     "input": "b+3",
     "name": "Dragon Wheel Kick",
     "notes": [],
@@ -2862,6 +2928,7 @@
       "m",
       "M"
     ],
+    "index": 69,
     "input": "b+3,2",
     "name": "Dragon Wheel Kick Demon Slayer",
     "notes": [
@@ -2904,6 +2971,7 @@
       "m",
       "L"
     ],
+    "index": 70,
     "input": "b+3,4",
     "name": "Dragon Wheel Leg Cutter",
     "notes": [
@@ -2945,6 +3013,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 71,
     "input": "b+4",
     "name": "",
     "notes": [],
@@ -2987,6 +3056,7 @@
       "m",
       "m"
     ],
+    "index": 72,
     "input": "b+4,2",
     "name": "",
     "notes": [
@@ -3035,6 +3105,7 @@
       "m",
       "M"
     ],
+    "index": 73,
     "input": "b+4,2,3",
     "name": "Tsuyababuki",
     "notes": [
@@ -3074,6 +3145,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 74,
     "input": "b+1+3",
     "name": "Attack Reversal",
     "notes": [
@@ -3110,6 +3182,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 75,
     "input": "b+1+3*",
     "name": "Attack Reversal (Hold)",
     "notes": [
@@ -3151,6 +3224,7 @@
       "h",
       "L"
     ],
+    "index": 76,
     "input": "b+1+4",
     "name": "",
     "notes": [],
@@ -3193,6 +3267,7 @@
       "L",
       "L"
     ],
+    "index": 77,
     "input": "b+1+4,3",
     "name": "Reverse Narcissus",
     "notes": [],
@@ -3235,6 +3310,7 @@
       "L",
       "m"
     ],
+    "index": 78,
     "input": "b+1+4,4",
     "name": "Narcissus",
     "notes": [
@@ -3274,6 +3350,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 79,
     "input": "b+2+3",
     "name": "Azalea",
     "notes": [
@@ -3316,6 +3393,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 80,
     "input": "u+1+2",
     "name": "Sumiyoshi Plunge",
     "notes": [
@@ -3360,6 +3438,7 @@
     "hitLevels": [
       "M"
     ],
+    "index": 81,
     "input": "NWG.u+1+2",
     "name": "Sumiyoshi Festival Plunge",
     "notes": [
@@ -3405,6 +3484,7 @@
       "h",
       "t"
     ],
+    "index": 82,
     "input": "uf+2",
     "name": "Rangetsu",
     "notes": [
@@ -3450,6 +3530,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 83,
     "input": "uf+3",
     "name": "Iwato",
     "notes": [],
@@ -3489,6 +3570,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 84,
     "input": "uf+4",
     "name": "Night Sky",
     "notes": [],
@@ -3526,6 +3608,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 85,
     "input": "f,F+1",
     "name": "Burning Lantern",
     "notes": [
@@ -3567,6 +3650,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 86,
     "input": "f,F+2",
     "name": "",
     "notes": [],
@@ -3610,6 +3694,7 @@
       "m",
       "h"
     ],
+    "index": 87,
     "input": "f,F+2,1",
     "name": "Hiboko no Kagami",
     "notes": [
@@ -3658,6 +3743,7 @@
       "m",
       "M"
     ],
+    "index": 88,
     "input": "f,F+2,3",
     "name": "Yata Kagami",
     "notes": [
@@ -3705,6 +3791,7 @@
       "m",
       "m"
     ],
+    "index": 89,
     "input": "f,F+2,1+2",
     "name": "Higata no Kagami",
     "notes": [
@@ -3753,6 +3840,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 90,
     "input": "f,F+3",
     "name": "Matoi Hiragi",
     "notes": [],
@@ -3795,6 +3883,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 91,
     "input": "f,F+4",
     "name": "Leaping Spin Kick",
     "notes": [],
@@ -3840,6 +3929,7 @@
     "hitLevels": [
       "M"
     ],
+    "index": 92,
     "input": "f,F+1+2",
     "name": "Tenjin Upward Strike",
     "notes": [
@@ -3884,6 +3974,7 @@
     "hitLevels": [
       "M"
     ],
+    "index": 93,
     "input": "NWG.f,F+1+2",
     "name": "Tenjin Festival Upward Strike",
     "notes": [
@@ -3934,6 +4025,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 94,
     "input": "f,f,F+3",
     "name": "Ame-no-Uzume",
     "notes": [
@@ -3980,6 +4072,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 95,
     "input": "f,f,F+1+2",
     "name": "Aizen Swing",
     "notes": [
@@ -4027,6 +4120,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 96,
     "input": "NWG.f,f,F+1+2",
     "name": "Aizen Festival Swing",
     "notes": [
@@ -4071,6 +4165,7 @@
     "hitLevels": [
       "sl"
     ],
+    "index": 97,
     "input": "hFC.1",
     "name": "Crouch Jab",
     "notes": [
@@ -4108,6 +4203,7 @@
     "hitLevels": [
       "sl"
     ],
+    "index": 98,
     "input": "hFC.2",
     "name": "Crouch Straight",
     "notes": [],
@@ -4143,6 +4239,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 99,
     "input": "hFC.3",
     "name": "Crouch Spin Kick",
     "notes": [],
@@ -4178,6 +4275,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 100,
     "input": "hFC.4",
     "name": "Crouch Shin Kick",
     "notes": [],
@@ -4218,6 +4316,7 @@
       "m",
       "m"
     ],
+    "index": 101,
     "input": "FC.3+4",
     "name": "",
     "notes": [],
@@ -4264,6 +4363,7 @@
       "m",
       "m"
     ],
+    "index": 102,
     "input": "FC.3+4,3",
     "name": "Twin Cloud Kicks",
     "notes": [
@@ -4306,6 +4406,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 103,
     "input": "FC.df+2",
     "name": "Grace",
     "notes": [
@@ -4346,6 +4447,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 104,
     "input": "FC.df+3",
     "name": "Minazuki",
     "notes": [],
@@ -4384,6 +4486,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 105,
     "input": "ws1",
     "name": "",
     "notes": [],
@@ -4424,6 +4527,7 @@
       "m",
       "h"
     ],
+    "index": 106,
     "input": "ws1,4",
     "name": "Shikeitai",
     "notes": [
@@ -4465,6 +4569,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 107,
     "input": "ws2",
     "name": "",
     "notes": [],
@@ -4505,6 +4610,7 @@
       "m",
       "t"
     ],
+    "index": 108,
     "input": "ws2,1+2",
     "name": "Kohaku",
     "notes": [
@@ -4547,6 +4653,7 @@
       "m",
       "h"
     ],
+    "index": 109,
     "input": "ws2,1",
     "name": "",
     "notes": [
@@ -4589,6 +4696,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 110,
     "input": "ws3",
     "name": "Moon Scent",
     "notes": [],
@@ -4627,6 +4735,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 111,
     "input": "ws4",
     "name": "Toe Smash",
     "notes": [],
@@ -4664,6 +4773,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 112,
     "input": "ws1+2",
     "name": "Sudare Nagashi",
     "notes": [
@@ -4707,6 +4817,7 @@
       "m",
       "t"
     ],
+    "index": 113,
     "input": "R.df+1+2",
     "name": "Naniwa Peacemaker Knuckle",
     "notes": [
@@ -4755,6 +4866,7 @@
       "m",
       "t"
     ],
+    "index": 114,
     "input": "R.df+1+2**",
     "name": "Naniwa Peacemaker Knuckle (Hold)",
     "notes": [
@@ -4807,6 +4919,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 116,
     "input": "SS.4",
     "name": "Camellia",
     "notes": [],
@@ -4838,6 +4951,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 117,
     "input": "1+2+3+4",
     "name": "Ki Charge",
     "notes": [
@@ -4884,6 +4998,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 118,
     "input": "(Backtowall).b,b,UB",
     "name": "Wall Jump Attack",
     "notes": [],
@@ -4922,6 +5037,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 119,
     "input": "1+3",
     "name": "Aiki Nage",
     "notes": [
@@ -4965,6 +5081,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 120,
     "input": "2+4",
     "name": "Katanuki",
     "notes": [
@@ -5008,6 +5125,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 121,
     "input": "Leftthrow",
     "name": "Cloud Taste",
     "notes": [
@@ -5048,6 +5166,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 122,
     "input": "Rightthrow",
     "name": "Wind Wheel",
     "notes": [
@@ -5089,6 +5208,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 123,
     "input": "Backthrow",
     "name": "Twisted Limbs",
     "notes": [
@@ -5129,6 +5249,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 124,
     "input": "f+1+3",
     "name": "Destabilizer (DST)",
     "notes": [],
@@ -5166,6 +5287,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 126,
     "input": "DST.4",
     "name": "Inescapable Tirade",
     "notes": [
@@ -5206,6 +5328,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 127,
     "input": "df+2+3",
     "name": "White Mountain",
     "notes": [
@@ -5249,6 +5372,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 128,
     "input": "uf+1+2",
     "name": "Cherry Blossom",
     "notes": [
@@ -5292,6 +5416,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 129,
     "input": "FC.db+1+2",
     "name": "Falling Rain",
     "notes": [
@@ -5336,6 +5461,7 @@
       "m",
       "t"
     ],
+    "index": 130,
     "input": "1+2+3+4,1+2",
     "name": "Naniwa Ultimate Tackle (Tackle)",
     "notes": [
@@ -5381,6 +5507,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 131,
     "input": "Tackle.2,1,2,1",
     "name": "Eternal Punishment",
     "notes": [
@@ -5428,6 +5555,7 @@
       "h",
       "m"
     ],
+    "index": 134,
     "input": "ws2,1,1",
     "name": "3rd Hit",
     "notes": [],
@@ -5469,6 +5597,7 @@
       "m",
       "h"
     ],
+    "index": 135,
     "input": "ws2,1,1,1",
     "name": "4th Hit",
     "notes": [],
@@ -5512,6 +5641,7 @@
       "h",
       "m"
     ],
+    "index": 136,
     "input": "ws2,1,1,1,2",
     "name": "5th Hit",
     "notes": [],
@@ -5557,6 +5687,7 @@
       "m",
       "sm"
     ],
+    "index": 137,
     "input": "ws2,1,1,1,2,1",
     "name": "6th Hit",
     "notes": [],
@@ -5604,6 +5735,7 @@
       "sm",
       "m"
     ],
+    "index": 138,
     "input": "ws2,1,1,1,2,1,4",
     "name": "7th Hit",
     "notes": [],
@@ -5653,6 +5785,7 @@
       "m",
       "l"
     ],
+    "index": 139,
     "input": "ws2,1,1,1,2,1,4,3",
     "name": "8th Hit",
     "notes": [],
@@ -5706,6 +5839,7 @@
       "m",
       "m"
     ],
+    "index": 140,
     "input": "ws2,1,1,1,2,1,4,3,3+4",
     "name": "10 Hit Combo 1",
     "notes": [],
@@ -5753,6 +5887,7 @@
       "sll",
       "h"
     ],
+    "index": 146,
     "input": "ws2,1,1,1,2,1+4",
     "name": "6th & 7th Hit (2)",
     "notes": [],
@@ -5802,6 +5937,7 @@
       "h",
       "h"
     ],
+    "index": 147,
     "input": "ws2,1,1,1,2,1+4,1",
     "name": "8th Hit (2)",
     "notes": [],
@@ -5855,6 +5991,7 @@
       "l",
       "m"
     ],
+    "index": 148,
     "input": "ws2,1,1,1,2,1+4,1,3+4",
     "name": "10 Hit Combo 2",
     "notes": [],
@@ -5900,6 +6037,7 @@
       "",
       "m"
     ],
+    "index": 152,
     "input": "ws2,1,1,3",
     "name": "10 Hit Combo 3",
     "notes": [],

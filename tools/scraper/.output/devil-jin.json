@@ -29,6 +29,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 0,
     "input": "2+3",
     "name": "Heat Burst",
     "notes": [
@@ -78,6 +79,7 @@
       "h",
       "t"
     ],
+    "index": 1,
     "input": "H.2+3",
     "name": "Vindictive Helix",
     "notes": [
@@ -125,6 +127,7 @@
       "h!",
       "t"
     ],
+    "index": 2,
     "input": "H.MCR.2+3",
     "name": "Inner Purgatory",
     "notes": [
@@ -170,6 +173,7 @@
       "M",
       "SM"
     ],
+    "index": 3,
     "input": "4~3,H.1+2",
     "name": "Wheel of Pain > Annihilation Beam",
     "notes": [
@@ -218,6 +222,7 @@
       "m",
       "t"
     ],
+    "index": 4,
     "input": "uf+3+4,H.1+2",
     "name": "Hisou > Annihilation Beam",
     "notes": [
@@ -269,6 +274,7 @@
       "M",
       "SM"
     ],
+    "index": 5,
     "input": "b,f+2,1,4,H.1+2",
     "name": "Laser Crush > Annihilation Beam",
     "notes": [
@@ -317,6 +323,7 @@
       "m",
       "SM"
     ],
+    "index": 6,
     "input": "f,n,d,df+1+2,H.1+2",
     "name": "Spiral of Madness > Annihilation Beam",
     "notes": [
@@ -364,6 +371,7 @@
       "h",
       "m"
     ],
+    "index": 7,
     "input": "b+2,3",
     "name": "Rakshasa's Fury",
     "notes": [
@@ -410,6 +418,7 @@
     "hitLevels": [
       "M"
     ],
+    "index": 8,
     "input": "b+3",
     "name": "Wicked Jambu Spear",
     "notes": [
@@ -451,6 +460,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 9,
     "input": "uf+4",
     "name": "Wraith Kick",
     "notes": [
@@ -496,6 +506,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 10,
     "input": "f,F+2",
     "name": "Demon's Paw",
     "notes": [
@@ -546,6 +557,7 @@
       "m",
       "M"
     ],
+    "index": 11,
     "input": "MCR.2,2",
     "name": "Dark Arachnid Twister",
     "notes": [
@@ -589,6 +601,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 12,
     "input": "1",
     "name": "Jab",
     "notes": [],
@@ -626,6 +639,7 @@
       "h",
       "h"
     ],
+    "index": 13,
     "input": "1,1",
     "name": "Double Jab",
     "notes": [
@@ -671,6 +685,7 @@
       "h",
       "m"
     ],
+    "index": 14,
     "input": "1,1,2",
     "name": "Flash Claw Combo",
     "notes": [
@@ -712,6 +727,7 @@
       "h",
       "h"
     ],
+    "index": 15,
     "input": "1,2",
     "name": "One Two Strike",
     "notes": [
@@ -753,6 +769,7 @@
       "h",
       "h"
     ],
+    "index": 16,
     "input": "1,2,2",
     "name": "Back Fist Combo",
     "notes": [
@@ -799,6 +816,7 @@
       "h",
       "m"
     ],
+    "index": 17,
     "input": "1,2,3",
     "name": "",
     "notes": [
@@ -851,6 +869,7 @@
       "m",
       "m"
     ],
+    "index": 18,
     "input": "1,2,3,4",
     "name": "Shoot the Works",
     "notes": [
@@ -894,6 +913,7 @@
       "h",
       "m"
     ],
+    "index": 19,
     "input": "1,2,4",
     "name": "One Two Knee",
     "notes": [
@@ -933,6 +953,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 20,
     "input": "2",
     "name": "",
     "notes": [],
@@ -970,6 +991,7 @@
       "h",
       "h"
     ],
+    "index": 21,
     "input": "2,2",
     "name": "Demon Backhand Spin",
     "notes": [
@@ -1008,6 +1030,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 22,
     "input": "3",
     "name": "",
     "notes": [],
@@ -1046,6 +1069,7 @@
       "m",
       "h"
     ],
+    "index": 23,
     "input": "3,1",
     "name": "",
     "notes": [],
@@ -1089,6 +1113,7 @@
       "h",
       "M"
     ],
+    "index": 24,
     "input": "3,1,2",
     "name": "Hell Cyclone",
     "notes": [
@@ -1140,6 +1165,7 @@
       "h",
       "m"
     ],
+    "index": 25,
     "input": "3,1,4",
     "name": "Hell Spiral",
     "notes": [
@@ -1183,6 +1209,7 @@
       "m",
       "h"
     ],
+    "index": 26,
     "input": "3,1,f,F",
     "name": "Demon March",
     "notes": [],
@@ -1221,6 +1248,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 27,
     "input": "4",
     "name": "Last Rites",
     "notes": [
@@ -1266,6 +1294,7 @@
     "hitLevels": [
       "M"
     ],
+    "index": 28,
     "input": "4~3",
     "name": "Wheel of Pain",
     "notes": [],
@@ -1306,6 +1335,7 @@
       "m",
       "m"
     ],
+    "index": 29,
     "input": "1+2",
     "name": "Tsujikaze",
     "notes": [
@@ -1349,6 +1379,7 @@
       "SL",
       "h"
     ],
+    "index": 30,
     "input": "1+4",
     "name": "",
     "notes": [],
@@ -1392,6 +1423,7 @@
       "h",
       "m"
     ],
+    "index": 31,
     "input": "1+4,2",
     "name": "Three Ring Alaya",
     "notes": [
@@ -1428,6 +1460,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 32,
     "input": "3+4",
     "name": "Fly (FLY)",
     "notes": [],
@@ -1464,6 +1497,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 33,
     "input": "f+2",
     "name": "893P",
     "notes": [],
@@ -1506,6 +1540,7 @@
       "m",
       "m"
     ],
+    "index": 34,
     "input": "f+2,4",
     "name": "893P > Knee Kick",
     "notes": [
@@ -1542,6 +1577,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 35,
     "input": "f+3",
     "name": "Mourning Crow (MCR)",
     "notes": [
@@ -1580,6 +1616,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 36,
     "input": "f+4",
     "name": "",
     "notes": [],
@@ -1621,6 +1658,7 @@
       "m",
       "m"
     ],
+    "index": 37,
     "input": "f+4,3",
     "name": "Twisted Samsara",
     "notes": [
@@ -1662,6 +1700,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 38,
     "input": "df+1",
     "name": "",
     "notes": [],
@@ -1702,6 +1741,7 @@
       "m",
       "h"
     ],
+    "index": 39,
     "input": "df+1,2",
     "name": "Dark Twin Lancer",
     "notes": [
@@ -1742,6 +1782,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 40,
     "input": "df+2",
     "name": "Bloody Glaive",
     "notes": [
@@ -1782,6 +1823,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 41,
     "input": "df+3",
     "name": "",
     "notes": [],
@@ -1819,6 +1861,7 @@
       "m",
       "m"
     ],
+    "index": 42,
     "input": "df+3,2",
     "name": "",
     "notes": [],
@@ -1861,6 +1904,7 @@
       "m",
       "m"
     ],
+    "index": 43,
     "input": "df+3,2,4",
     "name": "Rengoku",
     "notes": [
@@ -1904,6 +1948,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 44,
     "input": "df+4",
     "name": "",
     "notes": [],
@@ -1944,6 +1989,7 @@
       "m",
       "m"
     ],
+    "index": 45,
     "input": "df+4,4",
     "name": "Tsunami Kick",
     "notes": [
@@ -1988,6 +2034,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 46,
     "input": "d+1",
     "name": "Corpse Thrust",
     "notes": [
@@ -2030,6 +2077,7 @@
     "hitLevels": [
       "sl"
     ],
+    "index": 47,
     "input": "d+2",
     "name": "Crouch Straight",
     "notes": [],
@@ -2068,6 +2116,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 48,
     "input": "d+3",
     "name": "Broken Plate",
     "notes": [],
@@ -2103,6 +2152,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 49,
     "input": "d+4",
     "name": "Crouch Shin Kick",
     "notes": [],
@@ -2143,6 +2193,7 @@
       "m",
       "m"
     ],
+    "index": 50,
     "input": "d+3+4",
     "name": "Double Lift Kicks",
     "notes": [],
@@ -2178,6 +2229,7 @@
     "hitLevels": [
       "sl"
     ],
+    "index": 51,
     "input": "db+1",
     "name": "Crouch Jab",
     "notes": [
@@ -2220,6 +2272,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 52,
     "input": "db+2",
     "name": "Malicious Mace",
     "notes": [
@@ -2258,6 +2311,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 53,
     "input": "db+3",
     "name": "Crouch Spin Kick",
     "notes": [],
@@ -2294,6 +2348,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 54,
     "input": "db+1+2",
     "name": "Demon's Spear",
     "notes": [
@@ -2339,6 +2394,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 55,
     "input": "db+1+2*",
     "name": "Demon's Spear (Slight Hold)",
     "notes": [
@@ -2384,6 +2440,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 56,
     "input": "db+1+2**",
     "name": "Demon's Lance (Max Hold)",
     "notes": [
@@ -2426,6 +2483,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 57,
     "input": "b+1",
     "name": "",
     "notes": [],
@@ -2466,6 +2524,7 @@
       "h",
       "m"
     ],
+    "index": 58,
     "input": "b+1,2",
     "name": "Brimstone Strike",
     "notes": [
@@ -2509,6 +2568,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 59,
     "input": "b+2",
     "name": "",
     "notes": [],
@@ -2549,6 +2609,7 @@
       "h",
       "m"
     ],
+    "index": 60,
     "input": "b+2,1",
     "name": "Rakshasa's Rampage",
     "notes": [
@@ -2593,6 +2654,7 @@
     "hitLevels": [
       "M"
     ],
+    "index": 63,
     "input": "b+4",
     "name": "Demon Steel Pedal",
     "notes": [],
@@ -2635,6 +2697,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 64,
     "input": "b+1+2",
     "name": "Aratama Strike",
     "notes": [
@@ -2680,6 +2743,7 @@
     "hitLevels": [
       "m!"
     ],
+    "index": 65,
     "input": "b+1+4",
     "name": "Lightning Screw Uppercut",
     "notes": [],
@@ -2722,6 +2786,7 @@
     "hitLevels": [
       "h!"
     ],
+    "index": 66,
     "input": "ub+1+2",
     "name": "Hellfire Blast",
     "notes": [
@@ -2768,6 +2833,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 67,
     "input": "u+4",
     "name": "Samsara",
     "notes": [
@@ -2807,6 +2873,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 68,
     "input": "u+1+2",
     "name": "Hellfire Cannon",
     "notes": [],
@@ -2845,6 +2912,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 69,
     "input": "uf+1",
     "name": "Infernal Shackle",
     "notes": [
@@ -2892,6 +2960,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 70,
     "input": "uf+2",
     "name": "Decapitating Sword",
     "notes": [
@@ -2938,6 +3007,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 71,
     "input": "uf+3",
     "name": "Reaper's Scythe",
     "notes": [],
@@ -2981,6 +3051,7 @@
       "m",
       "m"
     ],
+    "index": 73,
     "input": "uf+3+4",
     "name": "Hisou",
     "notes": [],
@@ -3023,6 +3094,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 75,
     "input": "f,F+4",
     "name": "Demon's Shaft",
     "notes": [
@@ -3066,6 +3138,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 76,
     "input": "uf+1+2",
     "name": "Stonehead",
     "notes": [
@@ -3108,6 +3181,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 77,
     "input": "b,f+2",
     "name": "",
     "notes": [
@@ -3150,6 +3224,7 @@
       "m",
       "m"
     ],
+    "index": 78,
     "input": "b,f+2,1",
     "name": "",
     "notes": [
@@ -3202,6 +3277,7 @@
       "m",
       "m"
     ],
+    "index": 79,
     "input": "b,f+2,1,2",
     "name": "Laser Cannon",
     "notes": [
@@ -3253,6 +3329,7 @@
       "m",
       "m"
     ],
+    "index": 80,
     "input": "b,f+2,1,df+2",
     "name": "Laser Scraper",
     "notes": [
@@ -3305,6 +3382,7 @@
       "m",
       "M"
     ],
+    "index": 81,
     "input": "b,f+2,1,4",
     "name": "Laser Crush",
     "notes": [],
@@ -3345,6 +3423,7 @@
       "m",
       "h"
     ],
+    "index": 82,
     "input": "b,f+2,3",
     "name": "Laser Slice",
     "notes": [],
@@ -3388,6 +3467,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 83,
     "input": "b,f+1+2",
     "name": "",
     "notes": [
@@ -3440,6 +3520,7 @@
       "m",
       "M"
     ],
+    "index": 84,
     "input": "b,f+1+2,2",
     "name": "Gates of Hades",
     "notes": [
@@ -3482,6 +3563,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 85,
     "input": "f,f,F+3",
     "name": "Leaping Side Kick",
     "notes": [
@@ -3523,6 +3605,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 86,
     "input": "ws1",
     "name": "Solo Piston",
     "notes": [],
@@ -3561,6 +3644,7 @@
       "m",
       "h"
     ],
+    "index": 87,
     "input": "ws1,1",
     "name": "Infernal Shackle",
     "notes": [
@@ -3607,6 +3691,7 @@
       "m",
       "m"
     ],
+    "index": 88,
     "input": "ws1,2",
     "name": "Bloody Glaive",
     "notes": [
@@ -3652,6 +3737,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 89,
     "input": "ws2",
     "name": "Alaya",
     "notes": [
@@ -3692,6 +3778,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 90,
     "input": "ws3",
     "name": "Organ Wrecker",
     "notes": [
@@ -3733,6 +3820,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 91,
     "input": "ws4",
     "name": "",
     "notes": [],
@@ -3773,6 +3861,7 @@
       "m",
       "M"
     ],
+    "index": 92,
     "input": "ws4,4",
     "name": "Wretched Heel",
     "notes": [
@@ -3808,6 +3897,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 94,
     "input": "f,n,d,df",
     "name": "Wind God Step",
     "notes": [
@@ -3845,6 +3935,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 95,
     "input": "f,n,d,df,UF",
     "name": "Demon Hop",
     "notes": [
@@ -3887,6 +3978,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 96,
     "input": "f,n,d,df+1",
     "name": "Thunder God Fist",
     "notes": [],
@@ -3926,6 +4018,7 @@
       "m",
       "t"
     ],
+    "index": 97,
     "input": "f,n,d,df+1,UF",
     "name": "Heaven's Door",
     "notes": [
@@ -3971,6 +4064,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 98,
     "input": "f,n,d,df+2",
     "name": "Wind God Fist",
     "notes": [
@@ -4016,6 +4110,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 99,
     "input": "f,n,d,df#2",
     "name": "Electric Wind God Fist",
     "notes": [
@@ -4063,6 +4158,7 @@
     "hitLevels": [
       "M"
     ],
+    "index": 100,
     "input": "f,n,d,df+3",
     "name": "Demon's Hoof",
     "notes": [
@@ -4106,6 +4202,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 101,
     "input": "f,n,d,DF+3",
     "name": "Demon's Tail",
     "notes": [],
@@ -4145,6 +4242,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 102,
     "input": "f,n,d,DF+4",
     "name": "",
     "notes": [
@@ -4190,6 +4288,7 @@
       "L",
       "m"
     ],
+    "index": 103,
     "input": "f,n,d,DF+4,4",
     "name": "Spinning Demon Scythe",
     "notes": [
@@ -4235,6 +4334,7 @@
       "L",
       "SM"
     ],
+    "index": 104,
     "input": "f,n,d,DF+4,1+2",
     "name": "Spinning Demon Hellfire Beam",
     "notes": [
@@ -4281,6 +4381,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 105,
     "input": "f,n,d,df+1+2",
     "name": "Spiral of Madness",
     "notes": [
@@ -4327,6 +4428,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 107,
     "input": "FLY.1",
     "name": "Near Death",
     "notes": [],
@@ -4369,6 +4471,7 @@
       "h!",
       "t"
     ],
+    "index": 108,
     "input": "FLY.2",
     "name": "Infernal Annihilation",
     "notes": [
@@ -4414,6 +4517,7 @@
     "hitLevels": [
       "M"
     ],
+    "index": 109,
     "input": "FLY.3",
     "name": "Amara",
     "notes": [],
@@ -4455,6 +4559,7 @@
     "hitLevels": [
       "M"
     ],
+    "index": 110,
     "input": "FLY.4",
     "name": "",
     "notes": [],
@@ -4496,6 +4601,7 @@
       "M",
       "m"
     ],
+    "index": 111,
     "input": "FLY.4,2",
     "name": "",
     "notes": [],
@@ -4539,6 +4645,7 @@
       "m!",
       "M!"
     ],
+    "index": 112,
     "input": "FLY.4,2,1+2",
     "name": "Devil Starstorm",
     "notes": [],
@@ -4576,6 +4683,7 @@
     "hitLevels": [
       "M!"
     ],
+    "index": 113,
     "input": "FLY.1+2",
     "name": "Infernal Destruction",
     "notes": [],
@@ -4617,6 +4725,7 @@
     "hitLevels": [
       "M!"
     ],
+    "index": 114,
     "input": "FLY.f+1+2",
     "name": "Cross Infernal Destruction",
     "notes": [
@@ -4658,6 +4767,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 116,
     "input": "MCR.1",
     "name": "Tiger Thrush",
     "notes": [
@@ -4700,6 +4810,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 117,
     "input": "MCR.2",
     "name": "",
     "notes": [],
@@ -4743,6 +4854,7 @@
     "hitLevels": [
       "SM"
     ],
+    "index": 119,
     "input": "MCR.3",
     "name": "Venomous Torment",
     "notes": [
@@ -4788,6 +4900,7 @@
     "hitLevels": [
       "M"
     ],
+    "index": 120,
     "input": "MCR.4",
     "name": "",
     "notes": [],
@@ -4829,6 +4942,7 @@
       "M",
       "m"
     ],
+    "index": 121,
     "input": "MCR.4,2",
     "name": "",
     "notes": [],
@@ -4872,6 +4986,7 @@
       "m!",
       "M!"
     ],
+    "index": 122,
     "input": "MCR.4,2,1+2",
     "name": "Devil Starstorm",
     "notes": [],
@@ -4912,6 +5027,7 @@
       "m",
       "t"
     ],
+    "index": 123,
     "input": "R.df+1+2",
     "name": "Devil Dimension: Tainted Chains",
     "notes": [
@@ -4961,6 +5077,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 124,
     "input": "SS.2",
     "name": "Devil Twister",
     "notes": [],
@@ -5002,6 +5119,7 @@
       "m!",
       "M!"
     ],
+    "index": 125,
     "input": "SS.2,U",
     "name": "Hell's Gate",
     "notes": [
@@ -5043,6 +5161,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 126,
     "input": "b+1+3",
     "name": "Imperial Wrath",
     "notes": [
@@ -5082,6 +5201,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 127,
     "input": "FUFT.u+3+4",
     "name": "Yomigaeri",
     "notes": [],
@@ -5123,6 +5243,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 128,
     "input": "OTG.d+1+2",
     "name": "Hellfire Incinerator",
     "notes": [
@@ -5159,6 +5280,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 129,
     "input": "1+2+3+4",
     "name": "Ki Charge",
     "notes": [
@@ -5200,6 +5322,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 130,
     "input": "(backtowall).b,b,ub",
     "name": "Wall Jump Attack",
     "notes": [],
@@ -5238,6 +5361,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 131,
     "input": "1+3",
     "name": "Double High Sweep",
     "notes": [
@@ -5281,6 +5405,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 132,
     "input": "2+4",
     "name": "Judgment",
     "notes": [
@@ -5325,6 +5450,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 133,
     "input": "LeftThrow",
     "name": "Shoulder Flip",
     "notes": [
@@ -5365,6 +5491,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 134,
     "input": "RightThrow",
     "name": "Over the Limit",
     "notes": [
@@ -5406,6 +5533,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 135,
     "input": "BackThrow",
     "name": "Pivoting Hip Throw",
     "notes": [
@@ -5446,6 +5574,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 136,
     "input": "df+2+3",
     "name": "White Mountain",
     "notes": [
@@ -5488,6 +5617,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 138,
     "input": "qcb+1+3",
     "name": "Complicated Wire",
     "notes": [
@@ -5529,6 +5659,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 139,
     "input": "f,hcf+1+2",
     "name": "Obliteration",
     "notes": [

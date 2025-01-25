@@ -28,6 +28,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 0,
     "input": "2+3",
     "name": "Heat Burst",
     "notes": [
@@ -76,6 +77,7 @@
       "m",
       "t"
     ],
+    "index": 1,
     "input": "H.2+3",
     "name": "Demolition Ball",
     "notes": [
@@ -124,6 +126,7 @@
       "h",
       "t"
     ],
+    "index": 2,
     "input": "f+2",
     "name": "Phoenix Hook, Tiger Claw",
     "notes": [
@@ -168,6 +171,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 3,
     "input": "SWA.2",
     "name": "Rubber Band Attack",
     "notes": [
@@ -210,6 +214,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 4,
     "input": "f+4",
     "name": "Stone Lion",
     "notes": [],
@@ -252,6 +257,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 5,
     "input": "uf+2",
     "name": "Moonfall",
     "notes": [
@@ -297,6 +303,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 6,
     "input": "CS.2",
     "name": "Phoenix Smasher",
     "notes": [
@@ -345,6 +352,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 7,
     "input": "H.CS.2",
     "name": "Phoenix Smasher",
     "notes": [
@@ -394,6 +402,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 8,
     "input": "H.1+2",
     "name": "Half-Step Phoenix Smasher",
     "notes": [
@@ -451,6 +460,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 9,
     "input": "H.1+2*",
     "name": "Half-Step Phoenix Smasher (Hold)",
     "notes": [
@@ -509,6 +519,7 @@
     "hitLevels": [
       "m!"
     ],
+    "index": 10,
     "input": "H.1+2**",
     "name": "Burning Fist",
     "notes": [
@@ -558,6 +569,7 @@
       "t",
       "m"
     ],
+    "index": 11,
     "input": "df+1+3,H.qcf+2",
     "name": "Phoenix Smasher",
     "notes": [
@@ -605,6 +617,7 @@
       "t",
       "m"
     ],
+    "index": 12,
     "input": "df+1+3:H.qcf+2",
     "name": "Phoenix Smasher (Perfect Input)",
     "notes": [
@@ -652,6 +665,7 @@
       "M",
       "m"
     ],
+    "index": 13,
     "input": "d+1,H.2",
     "name": "Phoenix Smasher",
     "notes": [
@@ -702,6 +716,7 @@
       "M",
       "m"
     ],
+    "index": 14,
     "input": "d+1,H.2*",
     "name": "Phoenix Smasher (Hold)",
     "notes": [
@@ -751,6 +766,7 @@
       "m",
       "m"
     ],
+    "index": 15,
     "input": "b+2,H.1*",
     "name": "Crushing Wind (Hold)",
     "notes": [
@@ -800,6 +816,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 16,
     "input": "H.f+1+2*",
     "name": "Hammer of the Gods (Hold)",
     "notes": [
@@ -842,6 +859,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 17,
     "input": "1",
     "name": "Left Jab",
     "notes": [],
@@ -879,6 +897,7 @@
       "h",
       "h"
     ],
+    "index": 18,
     "input": "1,2",
     "name": "Left Right Combo",
     "notes": [
@@ -924,6 +943,7 @@
       "h",
       "m"
     ],
+    "index": 19,
     "input": "1,2,3",
     "name": "",
     "notes": [
@@ -967,6 +987,7 @@
       "h",
       "L"
     ],
+    "index": 20,
     "input": "1,4",
     "name": "Reverse PDK Combo",
     "notes": [
@@ -1004,6 +1025,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 21,
     "input": "2",
     "name": "Right Jab",
     "notes": [],
@@ -1047,6 +1069,7 @@
       "h",
       "h"
     ],
+    "index": 22,
     "input": "2,3",
     "name": "PK Combo",
     "notes": [
@@ -1090,6 +1113,7 @@
       "h",
       "L"
     ],
+    "index": 23,
     "input": "2,d+3",
     "name": "PDK Combo",
     "notes": [
@@ -1128,6 +1152,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 24,
     "input": "3",
     "name": "Left Kick",
     "notes": [],
@@ -1167,6 +1192,7 @@
       "m",
       "h"
     ],
+    "index": 25,
     "input": "3,2",
     "name": "Piston Fire",
     "notes": [
@@ -1213,6 +1239,7 @@
       "m",
       "h"
     ],
+    "index": 26,
     "input": "3,2~b",
     "name": "",
     "notes": [
@@ -1254,6 +1281,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 27,
     "input": "4",
     "name": "Right Kick",
     "notes": [],
@@ -1294,6 +1322,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 28,
     "input": "1+2",
     "name": "Half-Step Phoenix Smasher",
     "notes": [
@@ -1352,6 +1381,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 29,
     "input": "1+2*",
     "name": "Half-Step Phoenix Smasher (Hold)",
     "notes": [
@@ -1411,6 +1441,7 @@
     "hitLevels": [
       "m!"
     ],
+    "index": 30,
     "input": "1+2**",
     "name": "Burning Fist",
     "notes": [
@@ -1455,6 +1486,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 32,
     "input": "f+3",
     "name": "",
     "notes": [],
@@ -1497,6 +1529,7 @@
       "h",
       "m"
     ],
+    "index": 33,
     "input": "f+3,1",
     "name": "Lion's Tempest",
     "notes": [
@@ -1545,6 +1578,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 35,
     "input": "f+1+2",
     "name": "Hammer of the Gods",
     "notes": [
@@ -1595,6 +1629,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 36,
     "input": "f+1+2*",
     "name": "Hammer of the Gods (Hold)",
     "notes": [
@@ -1641,6 +1676,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 37,
     "input": "f+1+4",
     "name": "Shoulder Tackle",
     "notes": [
@@ -1680,6 +1716,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 38,
     "input": "df+1",
     "name": "",
     "notes": [
@@ -1717,6 +1754,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 39,
     "input": "df+1~b",
     "name": "",
     "notes": [
@@ -1759,6 +1797,7 @@
       "m",
       "h"
     ],
+    "index": 40,
     "input": "df+1,1",
     "name": "",
     "notes": [
@@ -1806,6 +1845,7 @@
       "h",
       "m"
     ],
+    "index": 41,
     "input": "df+1,1,2",
     "name": "Lion's Roar",
     "notes": [
@@ -1849,6 +1889,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 42,
     "input": "df+2",
     "name": "Kurenai",
     "notes": [
@@ -1886,6 +1927,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 43,
     "input": "df+3",
     "name": "",
     "notes": [],
@@ -1926,6 +1968,7 @@
       "m",
       "m"
     ],
+    "index": 44,
     "input": "df+3,4",
     "name": "Phoenix Wings",
     "notes": [
@@ -1966,6 +2009,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 45,
     "input": "df+4",
     "name": "Tiger Claw",
     "notes": [],
@@ -2006,6 +2050,7 @@
     "hitLevels": [
       "M"
     ],
+    "index": 46,
     "input": "d+1",
     "name": "Hammer Punch",
     "notes": [
@@ -2050,6 +2095,7 @@
       "M",
       "m"
     ],
+    "index": 47,
     "input": "d+1,2",
     "name": "Phoenix Smasher",
     "notes": [
@@ -2099,6 +2145,7 @@
     "hitLevels": [
       "M"
     ],
+    "index": 48,
     "input": "d+1,2*",
     "name": "Phoenix Smasher (Hold)",
     "notes": [
@@ -2149,6 +2196,7 @@
       "M",
       "L"
     ],
+    "index": 49,
     "input": "d+1,4",
     "name": "",
     "notes": [
@@ -2198,6 +2246,7 @@
       "L",
       "m"
     ],
+    "index": 50,
     "input": "d+1,4,2",
     "name": "Hang Over",
     "notes": [
@@ -2238,6 +2287,7 @@
     "hitLevels": [
       "sl"
     ],
+    "index": 51,
     "input": "d+2",
     "name": "",
     "notes": [
@@ -2282,6 +2332,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 52,
     "input": "d+4",
     "name": "",
     "notes": [
@@ -2323,6 +2374,7 @@
       "L",
       "m"
     ],
+    "index": 53,
     "input": "d+4,2",
     "name": "Bone Breaker",
     "notes": [
@@ -2374,6 +2426,7 @@
       "m",
       "m"
     ],
+    "index": 54,
     "input": "d+4,2,1+2",
     "name": "Demolition Man",
     "notes": [
@@ -2429,6 +2482,7 @@
       "m",
       "m"
     ],
+    "index": 55,
     "input": "d+4,2:1+2",
     "name": "Demolition Man (Perfect Input)",
     "notes": [
@@ -2478,6 +2532,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 56,
     "input": "d+1+2",
     "name": "Shoulder Smash",
     "notes": [],
@@ -2515,6 +2570,7 @@
     "hitLevels": [
       "sl"
     ],
+    "index": 57,
     "input": "db+1",
     "name": "Dickjab",
     "notes": [
@@ -2559,6 +2615,7 @@
     "hitLevels": [
       "M"
     ],
+    "index": 58,
     "input": "db+2",
     "name": "Shoot the Moon",
     "notes": [],
@@ -2600,6 +2657,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 59,
     "input": "db+3",
     "name": "",
     "notes": [],
@@ -2637,6 +2695,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 60,
     "input": "db+4",
     "name": "",
     "notes": [],
@@ -2676,6 +2735,7 @@
     "hitLevels": [
       "M"
     ],
+    "index": 61,
     "input": "db+1+2",
     "name": "Chain Breaker",
     "notes": [
@@ -2714,6 +2774,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 62,
     "input": "b+1",
     "name": "",
     "notes": [],
@@ -2755,6 +2816,7 @@
       "h",
       "M"
     ],
+    "index": 63,
     "input": "b+1,2",
     "name": "Double Wing",
     "notes": [
@@ -2797,6 +2859,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 64,
     "input": "b+1+3_2+4",
     "name": "Attack Reversal",
     "notes": [
@@ -2838,6 +2901,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 65,
     "input": "b+2",
     "name": "",
     "notes": [],
@@ -2879,6 +2943,7 @@
       "m",
       "m"
     ],
+    "index": 66,
     "input": "b+2,1",
     "name": "Crushing Wind",
     "notes": [
@@ -2928,6 +2993,7 @@
       "m",
       "m"
     ],
+    "index": 67,
     "input": "b+2,1*",
     "name": "Crushing Wind (Hold)",
     "notes": [
@@ -2975,6 +3041,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 68,
     "input": "b+3",
     "name": "Lights Out",
     "notes": [],
@@ -3015,6 +3082,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 69,
     "input": "b+4",
     "name": "Leg Sweep",
     "notes": [],
@@ -3053,6 +3121,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 70,
     "input": "b+1+2",
     "name": "Hassou Strike",
     "notes": [
@@ -3094,6 +3163,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 71,
     "input": "ub+2",
     "name": "Wrecking Ball",
     "notes": [
@@ -3137,6 +3207,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 73,
     "input": "uf+3",
     "name": "",
     "notes": [],
@@ -3178,6 +3249,7 @@
       "m",
       "m"
     ],
+    "index": 74,
     "input": "uf+3,4",
     "name": "Shredder",
     "notes": [
@@ -3219,6 +3291,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 75,
     "input": "uf+4",
     "name": "Rising Toe Kick",
     "notes": [],
@@ -3258,6 +3331,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 76,
     "input": "uf,n,4",
     "name": "Delayed Rising Toe Kick",
     "notes": [
@@ -3297,6 +3371,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 77,
     "input": "f,F+2",
     "name": "",
     "notes": [
@@ -3340,6 +3415,7 @@
       "m",
       "m"
     ],
+    "index": 78,
     "input": "f,F+2,1",
     "name": "Juggernaut",
     "notes": [
@@ -3386,6 +3462,7 @@
       "m",
       "h"
     ],
+    "index": 79,
     "input": "f,F+2:1",
     "name": "Phoenix Bone Breaker",
     "notes": [
@@ -3434,6 +3511,7 @@
       "m",
       "L"
     ],
+    "index": 80,
     "input": "f,F+2,2",
     "name": "Bulldozer",
     "notes": [
@@ -3476,6 +3554,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 81,
     "input": "f,F+3",
     "name": "",
     "notes": [],
@@ -3517,6 +3596,7 @@
       "m",
       "m"
     ],
+    "index": 82,
     "input": "f,F+3,4",
     "name": "",
     "notes": [
@@ -3562,6 +3642,7 @@
       "m",
       "h"
     ],
+    "index": 83,
     "input": "f,F+3,4,4",
     "name": "Double Hop Kick High",
     "notes": [],
@@ -3607,6 +3688,7 @@
       "m",
       "m"
     ],
+    "index": 84,
     "input": "f,F+3,4,f+4",
     "name": "Triple Kick Combo",
     "notes": [],
@@ -3651,6 +3733,7 @@
       "m",
       "L"
     ],
+    "index": 85,
     "input": "f,F+3,4,d+4",
     "name": "Double Hop Kick Low",
     "notes": [],
@@ -3689,6 +3772,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 86,
     "input": "f,F+4",
     "name": "Neutron Bomb",
     "notes": [
@@ -3733,6 +3817,7 @@
       "m",
       "t"
     ],
+    "index": 87,
     "input": "f,f,F+2",
     "name": "Turbulent Hammer",
     "notes": [
@@ -3777,6 +3862,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 88,
     "input": "b,n,f+1",
     "name": "Burning Spear",
     "notes": [
@@ -3820,6 +3906,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 89,
     "input": "ws1",
     "name": "",
     "notes": [],
@@ -3857,6 +3944,7 @@
       "m",
       "m"
     ],
+    "index": 90,
     "input": "ws1,2",
     "name": "Enfolding Dragon",
     "notes": [
@@ -3901,6 +3989,7 @@
       "m",
       "m"
     ],
+    "index": 91,
     "input": "ws1,2~b",
     "name": "",
     "notes": [
@@ -3944,6 +4033,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 92,
     "input": "ws2",
     "name": "Thunder Palm",
     "notes": [],
@@ -3980,6 +4070,7 @@
     "hitLevels": [
       "M"
     ],
+    "index": 93,
     "input": "ws3",
     "name": "",
     "notes": [],
@@ -4023,6 +4114,7 @@
       "M",
       "h"
     ],
+    "index": 94,
     "input": "ws3,2",
     "name": "Shioh",
     "notes": [
@@ -4065,6 +4157,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 95,
     "input": "ws4",
     "name": "Toe Smash",
     "notes": [],
@@ -4096,6 +4189,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 96,
     "input": "FC.D",
     "name": "Somersault Kick Warm-Up Moves",
     "notes": [],
@@ -4137,6 +4231,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 97,
     "input": "FC.D,U+4",
     "name": "Incomplete Somersault",
     "notes": [
@@ -4177,6 +4272,7 @@
       "m",
       "t"
     ],
+    "index": 98,
     "input": "R.df+1+2",
     "name": "Big Bang Phoenix Smasher",
     "notes": [
@@ -4220,6 +4316,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 99,
     "input": "1+2+3+4",
     "name": "Ki Charge",
     "notes": [],
@@ -4260,6 +4357,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 100,
     "input": "OTG.d+2",
     "name": "Down Strike",
     "notes": [
@@ -4302,6 +4400,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 101,
     "input": "SS.1",
     "name": "Turn Thruster",
     "notes": [
@@ -4346,6 +4445,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 102,
     "input": "SS.3",
     "name": "Pump In Pedal",
     "notes": [
@@ -4379,6 +4479,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 103,
     "input": "d,df",
     "name": "Crouch Dash",
     "notes": [
@@ -4417,6 +4518,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 104,
     "input": "d,df,f",
     "name": "Cormorant Step",
     "notes": [
@@ -4467,6 +4569,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 105,
     "input": "CS.1",
     "name": "Thruster",
     "notes": [
@@ -4509,6 +4612,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 107,
     "input": "CS.3",
     "name": "Gengetsu",
     "notes": [
@@ -4554,6 +4658,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 108,
     "input": "CS.1+2",
     "name": "Gunba",
     "notes": [
@@ -4598,6 +4703,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 109,
     "input": "CS.3+4",
     "name": "Mountain Raze",
     "notes": [
@@ -4634,6 +4740,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 110,
     "input": "CD.df",
     "name": "Deep Dive",
     "notes": [
@@ -4677,6 +4784,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 111,
     "input": "DPD.df+2",
     "name": "",
     "notes": [
@@ -4724,6 +4832,7 @@
       "m",
       "h"
     ],
+    "index": 112,
     "input": "DPD.df+2,1",
     "name": "Quick Petal Strike",
     "notes": [
@@ -4778,6 +4887,7 @@
       "m",
       "M"
     ],
+    "index": 113,
     "input": "DPD.df+2,3",
     "name": "Quick Lightning Breaker",
     "notes": [
@@ -4823,6 +4933,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 114,
     "input": "DPD.df+4",
     "name": "Bigetsu",
     "notes": [
@@ -4870,6 +4981,7 @@
       "m",
       "M"
     ],
+    "index": 115,
     "input": "DPD.df+3+4",
     "name": "Incomplete Somersault",
     "notes": [
@@ -4907,6 +5019,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 116,
     "input": "d,db,b",
     "name": "Sway",
     "notes": [
@@ -4960,6 +5073,7 @@
     "hitLevels": [
       "M"
     ],
+    "index": 117,
     "input": "SWA.1",
     "name": "God Hammer Punch",
     "notes": [
@@ -5004,6 +5118,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 119,
     "input": "SWA.3",
     "name": "Rapid Fire",
     "notes": [],
@@ -5042,6 +5157,7 @@
       "L",
       "m"
     ],
+    "index": 120,
     "input": "SWA.3,2",
     "name": "",
     "notes": [
@@ -5087,6 +5203,7 @@
       "m",
       "h"
     ],
+    "index": 121,
     "input": "SWA.3,2,1",
     "name": "Petal Strike",
     "notes": [
@@ -5138,6 +5255,7 @@
       "m",
       "M"
     ],
+    "index": 122,
     "input": "SWA.3,2,3",
     "name": "Lightning Breaker",
     "notes": [
@@ -5185,6 +5303,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 123,
     "input": "SWA.4",
     "name": "Kawaragoma",
     "notes": [
@@ -5228,6 +5347,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 124,
     "input": "SWA.1+2",
     "name": "Unseen Gust",
     "notes": [
@@ -5270,6 +5390,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 125,
     "input": "1+3",
     "name": "Over The Shoulder",
     "notes": [
@@ -5313,6 +5434,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 126,
     "input": "2+4",
     "name": "Shoulder Pop",
     "notes": [
@@ -5356,6 +5478,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 127,
     "input": "2+4~b",
     "name": "Chest Crusher",
     "notes": [
@@ -5398,6 +5521,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 128,
     "input": "LeftThrow",
     "name": "Dragon Screw",
     "notes": [
@@ -5438,6 +5562,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 129,
     "input": "RightThrow",
     "name": "Fall Away",
     "notes": [
@@ -5479,6 +5604,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 130,
     "input": "BackThrow.1+3",
     "name": "Reverse Neck Throw",
     "notes": [
@@ -5519,6 +5645,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 131,
     "input": "BackThrow.2+4",
     "name": "Piggyback Throw",
     "notes": [
@@ -5559,6 +5686,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 132,
     "input": "df+1+3",
     "name": "Kongo Blast",
     "notes": [
@@ -5602,6 +5730,7 @@
       "t",
       "m"
     ],
+    "index": 133,
     "input": "df+1+3,qcf+2",
     "name": "Kongo Blast > Phoenix Smasher",
     "notes": [
@@ -5650,6 +5779,7 @@
       "t",
       "m"
     ],
+    "index": 134,
     "input": "df+1+3:qcf+2",
     "name": "Phoenix Smasher (Perfect Input)",
     "notes": [
@@ -5694,6 +5824,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 135,
     "input": "b+1+4",
     "name": "Foot Launch",
     "notes": [
@@ -5734,6 +5865,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 136,
     "input": "uf+1+2",
     "name": "Twist and Shout",
     "notes": [
@@ -5775,6 +5907,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 137,
     "input": "f,F+1+2",
     "name": "Push Away",
     "notes": [
@@ -5818,6 +5951,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 138,
     "input": "FC.1+2",
     "name": "Ultimate Tackle",
     "notes": [
@@ -5858,6 +5992,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 139,
     "input": "FC.1+2,2,1,2,1",
     "name": "Ultimate Punch",
     "notes": [
@@ -5898,6 +6033,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 140,
     "input": "FC.1+2,1+2,1+2",
     "name": "Arm Breaker",
     "notes": [
@@ -5937,6 +6073,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 141,
     "input": "FC.1+2,2,d+1,1,1+2",
     "name": "Ultimate Punishment",
     "notes": [

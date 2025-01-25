@@ -29,6 +29,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 0,
     "input": "2+3",
     "name": "Heat Burst",
     "notes": [
@@ -77,6 +78,7 @@
       "m",
       "m"
     ],
+    "index": 1,
     "input": "H.2+3",
     "name": "Yinglong Mountain Crusher",
     "notes": [
@@ -122,6 +124,7 @@
     "hitLevels": [
       "ub(m)"
     ],
+    "index": 2,
     "input": "H.3+4",
     "name": "Jiaolong Sea Splitter",
     "notes": [
@@ -163,6 +166,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 3,
     "input": "f+1+2",
     "name": "Tiger's Claw",
     "notes": [],
@@ -206,6 +210,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 4,
     "input": "b+1+2",
     "name": "Iron Fortress",
     "notes": [],
@@ -249,6 +254,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 5,
     "input": "f,F+2",
     "name": "Exploding Dagger",
     "notes": [],
@@ -288,6 +294,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 6,
     "input": "KNP.2",
     "name": "Fei He Zhang",
     "notes": [],
@@ -328,6 +335,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 7,
     "input": "BT.2",
     "name": "Slashing Tiger",
     "notes": [
@@ -372,6 +380,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 8,
     "input": "H.b+1",
     "name": "Essence of Iron Palm",
     "notes": [
@@ -414,6 +423,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 9,
     "input": "H.f,F+1+2*",
     "name": "Essence of Nian Zhang Mie Ba",
     "notes": [
@@ -454,6 +464,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 10,
     "input": "1",
     "name": "Left Jab",
     "notes": [],
@@ -494,6 +505,7 @@
       "h",
       "m"
     ],
+    "index": 11,
     "input": "1,1",
     "name": "Jab Spear Fist",
     "notes": [
@@ -533,6 +545,7 @@
       "h",
       "h"
     ],
+    "index": 12,
     "input": "1,2",
     "name": "Shun Lian Quan",
     "notes": [
@@ -575,6 +588,7 @@
       "h",
       "h"
     ],
+    "index": 13,
     "input": "1,2,2",
     "name": "Firestorm",
     "notes": [
@@ -617,6 +631,7 @@
       "h",
       "h"
     ],
+    "index": 14,
     "input": "1,3",
     "name": "Jab Roundhouse Combo",
     "notes": [
@@ -654,6 +669,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 15,
     "input": "2",
     "name": "Right Jab",
     "notes": [],
@@ -691,6 +707,7 @@
       "h",
       "m"
     ],
+    "index": 16,
     "input": "2,4",
     "name": "",
     "notes": [
@@ -735,6 +752,7 @@
       "m",
       "m"
     ],
+    "index": 17,
     "input": "2,4,1",
     "name": "San Lian Heng",
     "notes": [
@@ -776,6 +794,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 18,
     "input": "3",
     "name": "",
     "notes": [],
@@ -813,6 +832,7 @@
       "m",
       "h"
     ],
+    "index": 19,
     "input": "3,3",
     "name": "",
     "notes": [
@@ -861,6 +881,7 @@
       "h",
       "l"
     ],
+    "index": 20,
     "input": "3,3,4",
     "name": "Peacock Sweep",
     "notes": [
@@ -906,6 +927,7 @@
       "m",
       "m"
     ],
+    "index": 21,
     "input": "3,1+2",
     "name": "Peacock Strike",
     "notes": [
@@ -950,6 +972,7 @@
       "m",
       "m"
     ],
+    "index": 22,
     "input": "3,1+2*",
     "name": "Peacock Strike (Hold)",
     "notes": [
@@ -994,6 +1017,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 23,
     "input": "3~4",
     "name": "",
     "notes": [
@@ -1037,6 +1061,7 @@
       "m",
       "l"
     ],
+    "index": 24,
     "input": "3~4,3",
     "name": "Leaping Whirlwind Combo",
     "notes": [
@@ -1076,6 +1101,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 26,
     "input": "4",
     "name": "",
     "notes": [],
@@ -1118,6 +1144,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 27,
     "input": "4~3",
     "name": "Headspring",
     "notes": [],
@@ -1154,6 +1181,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 28,
     "input": "1+2",
     "name": "Iron Shield",
     "notes": [
@@ -1193,6 +1221,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 29,
     "input": "f+2",
     "name": "",
     "notes": [],
@@ -1230,6 +1259,7 @@
       "m",
       "m"
     ],
+    "index": 30,
     "input": "f+2,1",
     "name": "",
     "notes": [
@@ -1276,6 +1306,7 @@
       "m",
       "m"
     ],
+    "index": 31,
     "input": "f+2,1,2",
     "name": "Boar's Tusk",
     "notes": [
@@ -1317,6 +1348,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 32,
     "input": "f+3",
     "name": "",
     "notes": [],
@@ -1359,6 +1391,7 @@
       "m",
       "h"
     ],
+    "index": 33,
     "input": "f+3,2",
     "name": "Piercing Dragon",
     "notes": [
@@ -1404,6 +1437,7 @@
       "m",
       "m"
     ],
+    "index": 34,
     "input": "f+3,4",
     "name": "Climbing Dragon",
     "notes": [
@@ -1446,6 +1480,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 35,
     "input": "f+4",
     "name": "",
     "notes": [
@@ -1489,6 +1524,7 @@
       "h",
       "m"
     ],
+    "index": 36,
     "input": "f+4,2",
     "name": "Tornado Open Palm",
     "notes": [
@@ -1534,6 +1570,7 @@
       "h",
       "m"
     ],
+    "index": 37,
     "input": "f+4,3",
     "name": "Tornado Stomp",
     "notes": [
@@ -1578,6 +1615,7 @@
       "h",
       "l"
     ],
+    "index": 38,
     "input": "f+4,4",
     "name": "Tornado Sweep",
     "notes": [
@@ -1617,6 +1655,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 40,
     "input": "df+1",
     "name": "Stunning Palm",
     "notes": [],
@@ -1653,6 +1692,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 41,
     "input": "df+2",
     "name": "",
     "notes": [],
@@ -1694,6 +1734,7 @@
       "m",
       "m"
     ],
+    "index": 42,
     "input": "df+2,2",
     "name": "God Palm",
     "notes": [],
@@ -1735,6 +1776,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 43,
     "input": "df+3",
     "name": "Lift Kick",
     "notes": [],
@@ -1772,6 +1814,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 44,
     "input": "df+4",
     "name": "",
     "notes": [],
@@ -1810,6 +1853,7 @@
       "m",
       "m"
     ],
+    "index": 45,
     "input": "df+4,2",
     "name": "",
     "notes": [
@@ -1856,6 +1900,7 @@
       "m",
       "m"
     ],
+    "index": 46,
     "input": "df+4,2,1+2",
     "name": "Pau Lau Stinger",
     "notes": [
@@ -1902,6 +1947,7 @@
       "m",
       "h"
     ],
+    "index": 47,
     "input": "df+4,3",
     "name": "Twin Dragon",
     "notes": [
@@ -1945,6 +1991,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 48,
     "input": "df+3+4",
     "name": "Ruinous Halberd",
     "notes": [],
@@ -1983,6 +2030,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 49,
     "input": "d+2",
     "name": "Heavy Hammer",
     "notes": [],
@@ -2019,6 +2067,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 50,
     "input": "d+4",
     "name": "",
     "notes": [],
@@ -2059,6 +2108,7 @@
       "l",
       "m"
     ],
+    "index": 51,
     "input": "d+4,1+2",
     "name": "Parting Heavens",
     "notes": [
@@ -2101,6 +2151,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 52,
     "input": "d+1+2",
     "name": "",
     "notes": [],
@@ -2142,6 +2193,7 @@
       "m",
       "m"
     ],
+    "index": 53,
     "input": "d+1+2,1",
     "name": "Mad Windmill",
     "notes": [
@@ -2182,6 +2234,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 54,
     "input": "db+1",
     "name": "",
     "notes": [
@@ -2223,6 +2276,7 @@
       "m",
       "m"
     ],
+    "index": 55,
     "input": "db+1,2",
     "name": "Spear of Lu Bu",
     "notes": [
@@ -2267,6 +2321,7 @@
       "m",
       "m"
     ],
+    "index": 56,
     "input": "db+1,2,4",
     "name": "",
     "notes": [
@@ -2315,6 +2370,7 @@
       "m",
       "mm"
     ],
+    "index": 57,
     "input": "db+1,2,4,3+4",
     "name": "Rampaging Lion",
     "notes": [
@@ -2360,6 +2416,7 @@
       "m",
       "h"
     ],
+    "index": 58,
     "input": "db+1,4",
     "name": "Spinning Neck Strike",
     "notes": [
@@ -2401,6 +2458,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 59,
     "input": "db+2",
     "name": "",
     "notes": [],
@@ -2441,6 +2499,7 @@
       "l",
       "l"
     ],
+    "index": 60,
     "input": "db+2,2",
     "name": "",
     "notes": [
@@ -2486,6 +2545,7 @@
       "l",
       "m"
     ],
+    "index": 61,
     "input": "db+2,2,2",
     "name": "Hellwinds",
     "notes": [
@@ -2525,6 +2585,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 62,
     "input": "db+3",
     "name": "Piercing Arrow",
     "notes": [
@@ -2566,6 +2627,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 63,
     "input": "db+4",
     "name": "Mighty Sweep Kick",
     "notes": [],
@@ -2605,6 +2667,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 64,
     "input": "db+1+2",
     "name": "",
     "notes": [],
@@ -2643,6 +2706,7 @@
       "m",
       "l"
     ],
+    "index": 65,
     "input": "db+1+2,2",
     "name": "Dragon Slayer",
     "notes": [
@@ -2685,6 +2749,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 66,
     "input": "b+1",
     "name": "Iron Palm",
     "notes": [],
@@ -2722,6 +2787,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 67,
     "input": "b+2",
     "name": "",
     "notes": [],
@@ -2762,6 +2828,7 @@
       "m",
       "l"
     ],
+    "index": 68,
     "input": "b+2,3",
     "name": "",
     "notes": [
@@ -2808,6 +2875,7 @@
       "l",
       "m"
     ],
+    "index": 69,
     "input": "b+2,3,4",
     "name": "",
     "notes": [
@@ -2852,6 +2920,7 @@
       "m",
       "m"
     ],
+    "index": 70,
     "input": "b+2,3,4,2",
     "name": "Hungry Tiger",
     "notes": [
@@ -2896,6 +2965,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 71,
     "input": "b+3",
     "name": "Chin Breaker",
     "notes": [],
@@ -2932,6 +3002,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 72,
     "input": "b+4",
     "name": "Fish Hook",
     "notes": [],
@@ -2969,6 +3040,7 @@
       "m",
       "h"
     ],
+    "index": 74,
     "input": "ub+2",
     "name": "Throat Gouge",
     "notes": [],
@@ -3008,6 +3080,7 @@
     "hitLevels": [
       "!"
     ],
+    "index": 75,
     "input": "ub+1+2",
     "name": "Death Palm",
     "notes": [],
@@ -3044,6 +3117,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 76,
     "input": "u+2",
     "name": "Leaping Hammer Fist",
     "notes": [],
@@ -3080,6 +3154,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 77,
     "input": "uf+1",
     "name": "Eagle Claw",
     "notes": [
@@ -3118,6 +3193,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 78,
     "input": "uf+2",
     "name": "Evading Palm Strike",
     "notes": [],
@@ -3156,6 +3232,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 79,
     "input": "uf+3",
     "name": "Side Swipe",
     "notes": [
@@ -3197,6 +3274,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 80,
     "input": "uf+4",
     "name": "Soaring Eagle",
     "notes": [
@@ -3241,6 +3319,7 @@
       "h",
       "h"
     ],
+    "index": 81,
     "input": "uf+3+4",
     "name": "",
     "notes": [],
@@ -3286,6 +3365,7 @@
       "h",
       "h"
     ],
+    "index": 82,
     "input": "uf+3+4,3",
     "name": "Assassin's Bow",
     "notes": [
@@ -3331,6 +3411,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 83,
     "input": "uf,n,4",
     "name": "Delayed Rising Toe Kick",
     "notes": [],
@@ -3371,6 +3452,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 85,
     "input": "f,F+3",
     "name": "Tremor Stomp",
     "notes": [
@@ -3413,6 +3495,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 86,
     "input": "f,F+4",
     "name": "",
     "notes": [],
@@ -3454,6 +3537,7 @@
       "m",
       "m"
     ],
+    "index": 87,
     "input": "f,F+4,3",
     "name": "Spreading Wings",
     "notes": [
@@ -3494,6 +3578,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 88,
     "input": "f,F+1+2",
     "name": "Nian Zhang Mie Ba",
     "notes": [
@@ -3536,6 +3621,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 89,
     "input": "f,F+1+2*",
     "name": "Nian Zhang Mie Ba (charged)",
     "notes": [
@@ -3582,6 +3668,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 90,
     "input": "b,f+1",
     "name": "Falcon's Beak",
     "notes": [],
@@ -3624,6 +3711,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 91,
     "input": "f,f,F+3",
     "name": "Severing Sword",
     "notes": [
@@ -3666,6 +3754,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 92,
     "input": "FC.df+1",
     "name": "Silent Arrow",
     "notes": [],
@@ -3703,6 +3792,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 93,
     "input": "FC.df+2",
     "name": "Monkey Strike",
     "notes": [],
@@ -3743,6 +3833,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 94,
     "input": "FC.df+4",
     "name": "",
     "notes": [
@@ -3784,6 +3875,7 @@
       "l",
       "h"
     ],
+    "index": 95,
     "input": "FC.df+4,1",
     "name": "Xuan Jiao Xiao Yan Shou",
     "notes": [
@@ -3821,6 +3913,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 96,
     "input": "ws1",
     "name": "",
     "notes": [],
@@ -3858,6 +3951,7 @@
       "m",
       "m"
     ],
+    "index": 97,
     "input": "ws1,2",
     "name": "",
     "notes": [
@@ -3906,6 +4000,7 @@
       "m",
       "m"
     ],
+    "index": 98,
     "input": "ws1,2,1",
     "name": "Dancing Dragon",
     "notes": [
@@ -3953,6 +4048,7 @@
       "m",
       "h"
     ],
+    "index": 99,
     "input": "ws1,3",
     "name": "Dancing Scorpion Sting",
     "notes": [
@@ -3997,6 +4093,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 100,
     "input": "ws2",
     "name": "Adamantine Uppercut",
     "notes": [],
@@ -4039,6 +4136,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 101,
     "input": "ws3",
     "name": "Bow Kick",
     "notes": [],
@@ -4077,6 +4175,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 102,
     "input": "ws4",
     "name": "Rising Heel Kick",
     "notes": [],
@@ -4113,6 +4212,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 103,
     "input": "ws1+2",
     "name": "Push Hands",
     "notes": [],
@@ -4152,6 +4252,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 104,
     "input": "SS.2",
     "name": "Hidden Intentions",
     "notes": [
@@ -4198,6 +4299,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 105,
     "input": "SS.4",
     "name": "Swift Sweep Kick",
     "notes": [
@@ -4240,6 +4342,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 106,
     "input": "SS.1+2",
     "name": "Enlightened Circle",
     "notes": [
@@ -4275,6 +4378,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 107,
     "input": "b+3~4",
     "name": "Zhuan Shen Huan Wu",
     "notes": [
@@ -4313,6 +4417,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 108,
     "input": "BT.1",
     "name": "Backfist",
     "notes": [],
@@ -4353,6 +4458,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 110,
     "input": "BT.3",
     "name": "Tremor Stomp",
     "notes": [
@@ -4395,6 +4501,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 111,
     "input": "BT.1+2",
     "name": "Hustle Elbow",
     "notes": [],
@@ -4437,6 +4544,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 112,
     "input": "BT.d+1",
     "name": "Reverse Fractured Diamond",
     "notes": [],
@@ -4478,6 +4586,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 113,
     "input": "BT.d+3",
     "name": "Reverse Mighty Sweep Kick",
     "notes": [
@@ -4511,6 +4620,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 114,
     "input": "qcf",
     "name": "Lingering Shadow",
     "notes": [
@@ -4551,6 +4661,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 115,
     "input": "qcf+1",
     "name": "Landslide",
     "notes": [],
@@ -4592,6 +4703,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 116,
     "input": "qcf+2",
     "name": "Mountain Crusher",
     "notes": [],
@@ -4632,6 +4744,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 117,
     "input": "qcf+1+2",
     "name": "Yan Wang's Wrath",
     "notes": [],
@@ -4665,6 +4778,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 118,
     "input": "qcf+3+4",
     "name": "",
     "notes": [],
@@ -4696,6 +4810,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 119,
     "input": "f+3+4",
     "name": "Shifting Clouds",
     "notes": [
@@ -4740,6 +4855,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 120,
     "input": "STC.1",
     "name": "Bao Dan Po",
     "notes": [
@@ -4780,6 +4896,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 121,
     "input": "STC.2",
     "name": "Driller Hook Backhand",
     "notes": [
@@ -4822,6 +4939,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 122,
     "input": "STC.3",
     "name": "Spiraling Tiger Kick",
     "notes": [
@@ -4862,6 +4980,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 123,
     "input": "STC.4",
     "name": "Jin Bu Zhen",
     "notes": [],
@@ -4901,6 +5020,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 124,
     "input": "STC.1+2",
     "name": "Pummeling Fists",
     "notes": [],
@@ -4938,6 +5058,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 125,
     "input": "STC.F+3+4",
     "name": "Falcon Beak's Snare",
     "notes": [
@@ -4971,6 +5092,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 126,
     "input": "b+3+4",
     "name": "Deceptive Step",
     "notes": [
@@ -5015,6 +5137,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 127,
     "input": "KNP.1",
     "name": "Fractured Diamond",
     "notes": [],
@@ -5054,6 +5177,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 129,
     "input": "KNP.3",
     "name": "Rising Swallow Kick",
     "notes": [],
@@ -5093,6 +5217,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 130,
     "input": "KNP.4",
     "name": "",
     "notes": [],
@@ -5133,6 +5258,7 @@
       "l",
       "h"
     ],
+    "index": 131,
     "input": "KNP.4,1+2",
     "name": "Xuan Tui Strike",
     "notes": [
@@ -5175,6 +5301,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 132,
     "input": "KNP.3+4",
     "name": "",
     "notes": [],
@@ -5217,6 +5344,7 @@
       "m",
       "m"
     ],
+    "index": 133,
     "input": "KNP.3+4,3+4",
     "name": "Leaping Lion",
     "notes": [
@@ -5259,6 +5387,7 @@
       "m",
       "t"
     ],
+    "index": 134,
     "input": "R.df+1+2",
     "name": "Enlighted Yellow Dragon Palm",
     "notes": [
@@ -5300,6 +5429,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 135,
     "input": "1+3+4",
     "name": "Taunt",
     "notes": [],
@@ -5331,6 +5461,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 136,
     "input": "1+2+3+4",
     "name": "Ki Charge",
     "notes": [],
@@ -5371,6 +5502,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 137,
     "input": "FUFT.b+3+4",
     "name": "Spring Up",
     "notes": [],
@@ -5410,6 +5542,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 138,
     "input": "OTG.d+3+4",
     "name": "Thunder Stomp",
     "notes": [],
@@ -5448,6 +5581,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 139,
     "input": "B,B,U/B",
     "name": "Evading Wall",
     "notes": [
@@ -5486,6 +5620,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 140,
     "input": "1+3",
     "name": "Neck Twister",
     "notes": [
@@ -5524,6 +5659,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 141,
     "input": "2+4",
     "name": "Serpent Slayer",
     "notes": [
@@ -5561,6 +5697,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 142,
     "input": "LeftThrow",
     "name": "Jaws of Death",
     "notes": [
@@ -5598,6 +5735,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 143,
     "input": "RightThrow",
     "name": "Wandering Soul",
     "notes": [
@@ -5635,6 +5773,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 144,
     "input": "BackThrow",
     "name": "Violent Storm",
     "notes": [
@@ -5672,6 +5811,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 145,
     "input": "uf+1+2",
     "name": "Kunlun Avalanche",
     "notes": [
@@ -5711,6 +5851,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 146,
     "input": "BT.1+4_2+3",
     "name": "Pao Lau Impaler",
     "notes": [
@@ -5746,6 +5887,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 147,
     "input": "b1+3_2+4",
     "name": "Attack Reversal",
     "notes": [

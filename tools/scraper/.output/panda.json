@@ -28,6 +28,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 0,
     "input": "2+3",
     "name": "Heat Burst",
     "notes": [],
@@ -68,6 +69,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 1,
     "input": "H.2+3",
     "name": "Panda Super Attack",
     "notes": [
@@ -116,6 +118,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 2,
     "input": "H.uf+3+4",
     "name": "Panda Shooting Star",
     "notes": [
@@ -158,6 +161,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 3,
     "input": "1+2",
     "name": "Demon Bear Breath",
     "notes": [],
@@ -199,6 +203,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 4,
     "input": "b+1",
     "name": "Bear Slash",
     "notes": [
@@ -243,6 +248,7 @@
     "hitLevels": [
       "hh"
     ],
+    "index": 5,
     "input": "b+1+2",
     "name": "Bear X",
     "notes": [
@@ -290,6 +296,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 6,
     "input": "f,f,F+1+2",
     "name": "Rabid Bear",
     "notes": [
@@ -332,6 +339,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 7,
     "input": "HBS.d+1+2",
     "name": "Frolicking Bear",
     "notes": [
@@ -371,6 +379,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 8,
     "input": "1",
     "name": "",
     "notes": [],
@@ -411,6 +420,7 @@
       "h",
       "m"
     ],
+    "index": 9,
     "input": "1,1",
     "name": "",
     "notes": [
@@ -456,6 +466,7 @@
       "m",
       "m"
     ],
+    "index": 10,
     "input": "1,1,1",
     "name": "G-Clef Cannon",
     "notes": [
@@ -500,6 +511,7 @@
       "h",
       "h"
     ],
+    "index": 11,
     "input": "1,2",
     "name": "Angry Lumberjack",
     "notes": [
@@ -540,6 +552,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 12,
     "input": "2",
     "name": "",
     "notes": [],
@@ -577,6 +590,7 @@
       "h",
       "m"
     ],
+    "index": 13,
     "input": "2,1",
     "name": "",
     "notes": [],
@@ -620,6 +634,7 @@
       "m",
       "m"
     ],
+    "index": 14,
     "input": "2,1,2",
     "name": "Bear Combo Middle",
     "notes": [],
@@ -659,6 +674,7 @@
       "m",
       "l"
     ],
+    "index": 15,
     "input": "2,1,3",
     "name": "Bear Combo Low",
     "notes": [],
@@ -692,6 +708,7 @@
     "hitLevels": [
       "sp"
     ],
+    "index": 17,
     "input": "3+4",
     "name": "Hunting",
     "notes": [
@@ -730,6 +747,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 18,
     "input": "f+2",
     "name": "",
     "notes": [],
@@ -770,6 +788,7 @@
       "h",
       "h"
     ],
+    "index": 19,
     "input": "f+2,1",
     "name": "Wild Lumberjack",
     "notes": [
@@ -811,6 +830,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 20,
     "input": "f+1+2",
     "name": "",
     "notes": [],
@@ -852,6 +872,7 @@
       "m",
       "m"
     ],
+    "index": 21,
     "input": "f+1+2,1+2",
     "name": "Bear Claw Cross",
     "notes": [
@@ -894,6 +915,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 22,
     "input": "f+3+4",
     "name": "Shape-Up Kick",
     "notes": [],
@@ -934,6 +956,7 @@
       "l",
       "m"
     ],
+    "index": 23,
     "input": "f+3+4,1+2",
     "name": "Shape-Up Hip",
     "notes": [],
@@ -970,6 +993,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 24,
     "input": "df+1",
     "name": "",
     "notes": [],
@@ -1008,6 +1032,7 @@
       "m",
       "m"
     ],
+    "index": 25,
     "input": "df+1,2",
     "name": "",
     "notes": [
@@ -1052,6 +1077,7 @@
       "m",
       "m"
     ],
+    "index": 26,
     "input": "df+1,2,1+2",
     "name": "Grizzly Rampage",
     "notes": [
@@ -1095,6 +1121,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 27,
     "input": "df+2",
     "name": "",
     "notes": [],
@@ -1136,6 +1163,7 @@
       "m",
       "m"
     ],
+    "index": 28,
     "input": "df+2,1",
     "name": "Kuma Musou",
     "notes": [
@@ -1173,6 +1201,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 29,
     "input": "df+3",
     "name": "",
     "notes": [],
@@ -1213,6 +1242,7 @@
       "m",
       "h"
     ],
+    "index": 30,
     "input": "df+3,2",
     "name": "Honey Trap",
     "notes": [
@@ -1253,6 +1283,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 31,
     "input": "df+4",
     "name": "",
     "notes": [],
@@ -1292,6 +1323,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 32,
     "input": "d+1+2",
     "name": "Hip Smash",
     "notes": [],
@@ -1327,6 +1359,7 @@
     "hitLevels": [
       "sp"
     ],
+    "index": 33,
     "input": "d+3+4",
     "name": "Bear Sit",
     "notes": [
@@ -1367,6 +1400,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 34,
     "input": "db+1",
     "name": "",
     "notes": [],
@@ -1406,6 +1440,7 @@
       "h",
       "m"
     ],
+    "index": 35,
     "input": "db+1,2",
     "name": "Double Wild Slap",
     "notes": [
@@ -1453,6 +1488,7 @@
       "h",
       "m"
     ],
+    "index": 36,
     "input": "db+1,2*",
     "name": "Double Wild Slap",
     "notes": [
@@ -1498,6 +1534,7 @@
       "h",
       "m"
     ],
+    "index": 37,
     "input": "db+1,2**",
     "name": "Fresh Wild Slap",
     "notes": [
@@ -1540,6 +1577,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 38,
     "input": "db+2",
     "name": "Bear Lariat",
     "notes": [
@@ -1577,6 +1615,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 39,
     "input": "db+3",
     "name": "Bear Pump in Pedal",
     "notes": [],
@@ -1616,6 +1655,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 40,
     "input": "db+4",
     "name": "Spinning Kuma",
     "notes": [],
@@ -1656,6 +1696,7 @@
     "hitLevels": [
       "mm"
     ],
+    "index": 41,
     "input": "db+1+2",
     "name": "",
     "notes": [],
@@ -1696,6 +1737,7 @@
       "mm",
       "mm"
     ],
+    "index": 42,
     "input": "db+1+2,1+2",
     "name": "",
     "notes": [
@@ -1743,6 +1785,7 @@
       "mm",
       "m"
     ],
+    "index": 43,
     "input": "db+1+2,1+2,2",
     "name": "Drum Roll",
     "notes": [],
@@ -1781,6 +1824,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 44,
     "input": "db+2+3",
     "name": "Salmon Hunter",
     "notes": [
@@ -1823,6 +1867,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 45,
     "input": "db+2+3*",
     "name": "Salmon Hunter",
     "notes": [
@@ -1865,6 +1910,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 46,
     "input": "db+2+3**",
     "name": "Fresh Salmon Hunter",
     "notes": [
@@ -1904,6 +1950,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 48,
     "input": "b+2",
     "name": "",
     "notes": [],
@@ -1941,6 +1988,7 @@
       "m",
       "h"
     ],
+    "index": 49,
     "input": "b+2,1",
     "name": "",
     "notes": [
@@ -1987,6 +2035,7 @@
       "h",
       "m"
     ],
+    "index": 50,
     "input": "b+2,1,1+2",
     "name": "Howling Bear",
     "notes": [
@@ -2028,6 +2077,7 @@
       "m",
       "m"
     ],
+    "index": 51,
     "input": "b+2,2",
     "name": "",
     "notes": [],
@@ -2071,6 +2121,7 @@
       "m",
       "m"
     ],
+    "index": 52,
     "input": "b+2,2,1",
     "name": "Salmon Massacre",
     "notes": [
@@ -2114,6 +2165,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 54,
     "input": "b+3+4",
     "name": "High Jinks",
     "notes": [
@@ -2156,6 +2208,7 @@
     "hitLevels": [
       "ub(m)"
     ],
+    "index": 55,
     "input": "b+1+4",
     "name": "Deadly Claw",
     "notes": [
@@ -2199,6 +2252,7 @@
     "hitLevels": [
       "sm"
     ],
+    "index": 56,
     "input": "b+1+4,f,f",
     "name": "Rolling Bear",
     "notes": [
@@ -2241,6 +2295,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 57,
     "input": "ub+1+2",
     "name": "Bear Skip",
     "notes": [
@@ -2279,6 +2334,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 58,
     "input": "u+1+2",
     "name": "Big Bear Attack",
     "notes": [
@@ -2321,6 +2377,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 59,
     "input": "u+3+4",
     "name": "Pancake Press",
     "notes": [
@@ -2361,6 +2418,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 60,
     "input": "uf+1",
     "name": "Hornet Sweep",
     "notes": [
@@ -2405,6 +2463,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 61,
     "input": "uf+2",
     "name": "Ultra Kuma",
     "notes": [
@@ -2450,6 +2509,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 62,
     "input": "uf+3",
     "name": "",
     "notes": [],
@@ -2491,6 +2551,7 @@
       "m",
       "m"
     ],
+    "index": 63,
     "input": "uf+3,4",
     "name": "",
     "notes": [],
@@ -2533,6 +2594,7 @@
       "m",
       "m"
     ],
+    "index": 64,
     "input": "uf+3,4,1+2",
     "name": "Bear Double Hop Kick Combo",
     "notes": [
@@ -2577,6 +2639,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 65,
     "input": "uf+4",
     "name": "",
     "notes": [],
@@ -2620,6 +2683,7 @@
       "m",
       "m"
     ],
+    "index": 66,
     "input": "uf+4,3",
     "name": "Kuma Hell Axle",
     "notes": [
@@ -2664,6 +2728,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 67,
     "input": "f,F+2",
     "name": "Demon Uppercut",
     "notes": [],
@@ -2702,6 +2767,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 68,
     "input": "f,F+1+2",
     "name": "Falling Bear",
     "notes": [
@@ -2748,6 +2814,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 69,
     "input": "b,f+2",
     "name": "Anger Hook",
     "notes": [
@@ -2789,6 +2856,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 70,
     "input": "d,df,f+2",
     "name": "",
     "notes": [],
@@ -2829,6 +2897,7 @@
       "m",
       "m"
     ],
+    "index": 71,
     "input": "d,df,f+2,1",
     "name": "Grizzly Claws",
     "notes": [],
@@ -2871,6 +2940,7 @@
       "m",
       "l"
     ],
+    "index": 72,
     "input": "d,df,f+2,2",
     "name": "Grizzly Claw Smash",
     "notes": [
@@ -2912,6 +2982,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 73,
     "input": "f,f,F+3",
     "name": "Leaping Side Kick",
     "notes": [
@@ -2952,6 +3023,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 75,
     "input": "FC.1",
     "name": "Watch Your Feet",
     "notes": [],
@@ -2988,6 +3060,7 @@
     "hitLevels": [
       "sp"
     ],
+    "index": 76,
     "input": "FC.1+2",
     "name": "Bear Roll",
     "notes": [
@@ -3027,6 +3100,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 77,
     "input": "ws1",
     "name": "",
     "notes": [],
@@ -3065,6 +3139,7 @@
       "m",
       "m"
     ],
+    "index": 78,
     "input": "ws1,2",
     "name": "Killing Claws",
     "notes": [
@@ -3114,6 +3189,7 @@
       "m",
       "m"
     ],
+    "index": 79,
     "input": "ws1,2*",
     "name": "Killing Claws",
     "notes": [
@@ -3160,6 +3236,7 @@
       "m",
       "m"
     ],
+    "index": 80,
     "input": "ws1,2**",
     "name": "Fresh Killing Claws",
     "notes": [
@@ -3207,6 +3284,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 81,
     "input": "ws2",
     "name": "Mad Angler",
     "notes": [],
@@ -3244,6 +3322,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 82,
     "input": "ws3",
     "name": "Spinning Bear Kick",
     "notes": [],
@@ -3283,6 +3362,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 83,
     "input": "ws4",
     "name": "Paw Smash",
     "notes": [],
@@ -3319,6 +3399,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 85,
     "input": "HBS.1",
     "name": "",
     "notes": [],
@@ -3359,6 +3440,7 @@
       "m",
       "m"
     ],
+    "index": 86,
     "input": "HBS.1,2",
     "name": "Honeycomb Spike",
     "notes": [
@@ -3403,6 +3485,7 @@
       "m",
       "m"
     ],
+    "index": 87,
     "input": "HBS.1,2*",
     "name": "Honeycomb Spike",
     "notes": [
@@ -3446,6 +3529,7 @@
       "m",
       "m"
     ],
+    "index": 88,
     "input": "HBS.1,2**",
     "name": "Fresh Honeycomb Spike",
     "notes": [
@@ -3488,6 +3572,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 89,
     "input": "HBS.2",
     "name": "Bear Claw",
     "notes": [
@@ -3528,6 +3613,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 90,
     "input": "HBS.1+2",
     "name": "Bear Fling",
     "notes": [],
@@ -3569,6 +3655,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 91,
     "input": "HBS.3+4",
     "name": "Bear Tackle",
     "notes": [],
@@ -3602,6 +3689,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 92,
     "input": "HBS.f+3+4",
     "name": "Hunting Hip Smash",
     "notes": [
@@ -3644,6 +3732,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 93,
     "input": "HBS.df+2",
     "name": "Big Tree",
     "notes": [],
@@ -3686,6 +3775,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 95,
     "input": "HBS.b+1+2",
     "name": "",
     "notes": [
@@ -3731,6 +3821,7 @@
       "l",
       "l"
     ],
+    "index": 96,
     "input": "HBS.b+1+2,1+2",
     "name": "Break'n",
     "notes": [
@@ -3768,6 +3859,7 @@
     "hitLevels": [
       "sp"
     ],
+    "index": 97,
     "input": "HBS.3",
     "name": "Hunting to Roll Over",
     "notes": [
@@ -3804,6 +3896,7 @@
     "hitLevels": [
       "sp"
     ],
+    "index": 98,
     "input": "HBS.d+3+4",
     "name": "Hunting to Play Dead",
     "notes": [
@@ -3842,6 +3935,7 @@
     "hitLevels": [
       "sp"
     ],
+    "index": 99,
     "input": "HBS.f,f",
     "name": "Bear Roll",
     "notes": [
@@ -3878,6 +3972,7 @@
     "hitLevels": [
       "sp"
     ],
+    "index": 100,
     "input": "HBS.b,b",
     "name": "Backward Roll",
     "notes": [
@@ -3917,6 +4012,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 102,
     "input": "SIT.1",
     "name": "",
     "notes": [],
@@ -3955,6 +4051,7 @@
       "l",
       "l"
     ],
+    "index": 103,
     "input": "SIT.1,1",
     "name": "Double Trout Sweep",
     "notes": [],
@@ -3994,6 +4091,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 104,
     "input": "SIT.2",
     "name": "Trout Smash",
     "notes": [],
@@ -4033,6 +4131,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 105,
     "input": "SIT.3+4",
     "name": "Rebound",
     "notes": [
@@ -4071,6 +4170,7 @@
     "hitLevels": [
       "sp"
     ],
+    "index": 106,
     "input": "SIT.f",
     "name": "Bear Roll",
     "notes": [
@@ -4115,6 +4215,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 107,
     "input": "ROL.1",
     "name": "Bear Shove",
     "notes": [
@@ -4159,6 +4260,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 108,
     "input": "ROL.2",
     "name": "Bear Backhand",
     "notes": [],
@@ -4197,6 +4299,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 109,
     "input": "ROL.3",
     "name": "Bear Slide",
     "notes": [],
@@ -4235,6 +4338,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 110,
     "input": "ROL.4",
     "name": "Bear Rolling Kick",
     "notes": [],
@@ -4273,6 +4377,7 @@
     "hitLevels": [
       "sm"
     ],
+    "index": 111,
     "input": "ROL.1+2",
     "name": "Giant Roll",
     "notes": [
@@ -4314,6 +4419,7 @@
       "m",
       "t"
     ],
+    "index": 112,
     "input": "R.df+1+2",
     "name": "Close Call! Panda Storming Flower",
     "notes": [
@@ -4357,6 +4463,7 @@
     "hitLevels": [
       "sp"
     ],
+    "index": 113,
     "input": "1+3+4",
     "name": "You're Welcome",
     "notes": [],
@@ -4388,6 +4495,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 114,
     "input": "1+2+3+4",
     "name": "Ki Charge",
     "notes": [],
@@ -4428,6 +4536,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 115,
     "input": "SS.1+2",
     "name": "Salmon Swipe",
     "notes": [],
@@ -4467,6 +4576,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 116,
     "input": "FUFA.1+2",
     "name": "Bear Backstroke",
     "notes": [
@@ -4508,6 +4618,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 117,
     "input": "FUFT.d+1+2",
     "name": "Get Up Punch",
     "notes": [
@@ -4546,6 +4657,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 118,
     "input": "FDFA.1+2",
     "name": "Bear Butterfly",
     "notes": [
@@ -4586,6 +4698,7 @@
       "l",
       "ub(l)"
     ],
+    "index": 119,
     "input": "OTG.d+1+4",
     "name": "Dance With Me",
     "notes": [
@@ -4625,6 +4738,7 @@
     "hitLevels": [
       "th(h)"
     ],
+    "index": 120,
     "input": "1+3",
     "name": "Bear's Bite",
     "notes": [
@@ -4664,6 +4778,7 @@
     "hitLevels": [
       "th(h)"
     ],
+    "index": 121,
     "input": "2+4",
     "name": "Bear Hug",
     "notes": [
@@ -4704,6 +4819,7 @@
     "hitLevels": [
       "th(h)"
     ],
+    "index": 122,
     "input": "Leftthrow",
     "name": "Bear Slam",
     "notes": [
@@ -4745,6 +4861,7 @@
     "hitLevels": [
       "th(h)"
     ],
+    "index": 123,
     "input": "Rightthrow",
     "name": "Choke Slam",
     "notes": [
@@ -4784,6 +4901,7 @@
     "hitLevels": [
       "th(h)"
     ],
+    "index": 124,
     "input": "Backthrow",
     "name": "Swing Swung",
     "notes": [
@@ -4826,6 +4944,7 @@
     "hitLevels": [
       "th(h)"
     ],
+    "index": 125,
     "input": "uf+1+2",
     "name": "Headbutt",
     "notes": [
@@ -4866,6 +4985,7 @@
     "hitLevels": [
       "th(h)"
     ],
+    "index": 126,
     "input": "f,df,d,db,b,f+1+2",
     "name": "Rock'n Roll Circus",
     "notes": [
@@ -4906,6 +5026,7 @@
     "hitLevels": [
       "th(h)"
     ],
+    "index": 127,
     "input": "HBS.f+1+2",
     "name": "Bear Toss",
     "notes": [

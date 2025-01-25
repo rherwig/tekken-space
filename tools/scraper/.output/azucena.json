@@ -29,6 +29,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 0,
     "input": "2+3",
     "name": "Heat Burst",
     "notes": [
@@ -79,6 +80,7 @@
       "m",
       "t"
     ],
+    "index": 1,
     "input": "H.2+3",
     "name": "Azucena Speciality",
     "notes": [
@@ -130,6 +132,7 @@
     "hitLevels": [
       "h!"
     ],
+    "index": 2,
     "input": "H.2+3+4",
     "name": "Coffee Break",
     "notes": [],
@@ -161,6 +164,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 3,
     "input": "H.f+3+4",
     "name": "Libertador Revolución",
     "notes": [
@@ -198,6 +202,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 4,
     "input": "H.b+1,1,2,F",
     "name": "Double Blend Tempestad > Nuevo Libertador",
     "notes": [
@@ -236,6 +241,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 5,
     "input": "H.b+2,F",
     "name": "Mil Nudillo > Nuevo Libertador",
     "notes": [
@@ -280,6 +286,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 6,
     "input": "H.LIB.P(High)",
     "name": "Puño de Fuego Evitacion",
     "notes": [
@@ -323,6 +330,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 7,
     "input": "H.LIB.P(Low)",
     "name": "One Drip Cielo Evitacion",
     "notes": [
@@ -362,6 +370,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 8,
     "input": "H.LIB.1,2,F",
     "name": "Blend Tempestad > Nuevo Libertador",
     "notes": [
@@ -406,6 +415,7 @@
     "hitLevels": [
       "M"
     ],
+    "index": 9,
     "input": "H.LIB.d+3+4",
     "name": "One Drip Cielo",
     "notes": [
@@ -449,6 +459,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 10,
     "input": "LIB.2",
     "name": "Golpe Cappuccino",
     "notes": [
@@ -497,6 +508,7 @@
       "m",
       "h"
     ],
+    "index": 11,
     "input": "f+4,4",
     "name": "Tifón Patear",
     "notes": [
@@ -543,6 +555,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 12,
     "input": "f+1+2",
     "name": "Aero Press Pegar",
     "notes": [
@@ -588,6 +601,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 13,
     "input": "b+3",
     "name": "Tacón Plunger",
     "notes": [
@@ -632,6 +646,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 14,
     "input": "d+1+3",
     "name": "Smell the Coffee",
     "notes": [
@@ -673,6 +688,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 15,
     "input": "1",
     "name": "Jab",
     "notes": [],
@@ -713,6 +729,7 @@
       "h",
       "m"
     ],
+    "index": 16,
     "input": "1,1",
     "name": "High Mountain Combo",
     "notes": [
@@ -754,6 +771,7 @@
       "h",
       "h"
     ],
+    "index": 17,
     "input": "1,2",
     "name": "High Roast Combo",
     "notes": [
@@ -794,6 +812,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 18,
     "input": "2",
     "name": "Right Jab",
     "notes": [],
@@ -832,6 +851,7 @@
       "h",
       "m"
     ],
+    "index": 19,
     "input": "2,1",
     "name": "",
     "notes": [
@@ -878,6 +898,7 @@
       "m",
       "h"
     ],
+    "index": 20,
     "input": "2,1,2",
     "name": "Andes Mountain Uppercut Combo",
     "notes": [
@@ -919,6 +940,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 21,
     "input": "3",
     "name": "Left Kick",
     "notes": [],
@@ -960,6 +982,7 @@
       "m",
       "m"
     ],
+    "index": 22,
     "input": "3,2",
     "name": "Groovy Strike",
     "notes": [
@@ -998,6 +1021,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 23,
     "input": "3,2~F",
     "name": "",
     "notes": [],
@@ -1039,6 +1063,7 @@
       "m",
       "h"
     ],
+    "index": 24,
     "input": "3,3",
     "name": "Groovy Punalada",
     "notes": [
@@ -1079,6 +1104,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 25,
     "input": "4",
     "name": "Right Kick",
     "notes": [],
@@ -1118,6 +1144,7 @@
       "h",
       "h"
     ],
+    "index": 26,
     "input": "4,1",
     "name": "Guapuño",
     "notes": [],
@@ -1160,6 +1187,7 @@
       "h",
       "M"
     ],
+    "index": 27,
     "input": "4,3",
     "name": "Delfin Patadas",
     "notes": [
@@ -1205,6 +1233,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 28,
     "input": "1+2",
     "name": "Boomerang Scythe",
     "notes": [],
@@ -1243,6 +1272,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 29,
     "input": "f+2",
     "name": "",
     "notes": [],
@@ -1281,6 +1311,7 @@
       "h",
       "m"
     ],
+    "index": 30,
     "input": "f+2,1",
     "name": "",
     "notes": [
@@ -1327,6 +1358,7 @@
       "m",
       "m"
     ],
+    "index": 31,
     "input": "f+2,1,4",
     "name": "Danza Del Cóndor",
     "notes": [
@@ -1366,6 +1398,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 32,
     "input": "f+3",
     "name": "",
     "notes": [],
@@ -1406,6 +1439,7 @@
       "m",
       "h"
     ],
+    "index": 33,
     "input": "f+3,2",
     "name": "Sumatra Back Knuckle",
     "notes": [
@@ -1446,6 +1480,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 34,
     "input": "f+4",
     "name": "",
     "notes": [],
@@ -1488,6 +1523,7 @@
       "m",
       "h"
     ],
+    "index": 36,
     "input": "f+4,4~2",
     "name": "Tifón Trueno",
     "notes": [],
@@ -1533,6 +1569,7 @@
       "m",
       "m"
     ],
+    "index": 37,
     "input": "f+4,4~3",
     "name": "Tifón Cañón",
     "notes": [],
@@ -1571,6 +1608,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 39,
     "input": "df+1",
     "name": "Mid Check",
     "notes": [],
@@ -1609,6 +1647,7 @@
       "m",
       "h"
     ],
+    "index": 40,
     "input": "df+1,4",
     "name": "",
     "notes": [
@@ -1657,6 +1696,7 @@
       "h",
       "h"
     ],
+    "index": 41,
     "input": "df+1,4,1",
     "name": "Grande Combo",
     "notes": [
@@ -1705,6 +1745,7 @@
       "h",
       "M"
     ],
+    "index": 42,
     "input": "df+1,4,1~2",
     "name": "Full Body Grande Combo",
     "notes": [],
@@ -1746,6 +1787,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 43,
     "input": "df+2",
     "name": "Mount Rainier",
     "notes": [],
@@ -1784,6 +1826,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 44,
     "input": "df+3",
     "name": "Rodilla Shot",
     "notes": [],
@@ -1822,6 +1865,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 45,
     "input": "df+4",
     "name": "",
     "notes": [],
@@ -1863,6 +1907,7 @@
       "m",
       "h"
     ],
+    "index": 46,
     "input": "df+4,1",
     "name": "Blue Mountain Combo",
     "notes": [
@@ -1909,6 +1954,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 47,
     "input": "d+1",
     "name": "Hand Drip Hammer",
     "notes": [],
@@ -1948,6 +1994,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 48,
     "input": "d+2",
     "name": "",
     "notes": [],
@@ -1988,6 +2035,7 @@
       "m",
       "h"
     ],
+    "index": 49,
     "input": "d+2,3",
     "name": "La Niña Kick Combo",
     "notes": [
@@ -2028,6 +2076,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 50,
     "input": "d+3",
     "name": "",
     "notes": [],
@@ -2065,6 +2114,7 @@
       "L",
       "m"
     ],
+    "index": 51,
     "input": "d+3,3",
     "name": "",
     "notes": [
@@ -2111,6 +2161,7 @@
       "m",
       "m"
     ],
+    "index": 52,
     "input": "d+3,3,4",
     "name": "Passionate Kick Combo",
     "notes": [
@@ -2152,6 +2203,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 53,
     "input": "d+4",
     "name": "",
     "notes": [],
@@ -2190,6 +2242,7 @@
       "L",
       "h"
     ],
+    "index": 54,
     "input": "d+4,1",
     "name": "Roast Knuckle Combo",
     "notes": [
@@ -2237,6 +2290,7 @@
       "L",
       "m"
     ],
+    "index": 55,
     "input": "d+4,1~2",
     "name": "Full City Roast Knuckle Combo",
     "notes": [],
@@ -2274,6 +2328,7 @@
     "hitLevels": [
       "sl"
     ],
+    "index": 56,
     "input": "db+1",
     "name": "Crouch Jab",
     "notes": [],
@@ -2309,6 +2364,7 @@
     "hitLevels": [
       "sl"
     ],
+    "index": 57,
     "input": "db+2",
     "name": "Crouch Straight",
     "notes": [],
@@ -2345,6 +2401,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 58,
     "input": "db+3",
     "name": "",
     "notes": [],
@@ -2386,6 +2443,7 @@
       "L",
       "h"
     ],
+    "index": 59,
     "input": "db+3,4",
     "name": "Borrasca Kick Combo",
     "notes": [
@@ -2428,6 +2486,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 60,
     "input": "db+4",
     "name": "Bitter Low Kick",
     "notes": [],
@@ -2467,6 +2526,7 @@
     "hitLevels": [
       "M"
     ],
+    "index": 61,
     "input": "db+1+2",
     "name": "Kilimanjaro Uppercut",
     "notes": [],
@@ -2507,6 +2567,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 62,
     "input": "db+3+4",
     "name": "El Cóndor Pasa",
     "notes": [
@@ -2547,6 +2608,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 63,
     "input": "b+1",
     "name": "",
     "notes": [],
@@ -2584,6 +2646,7 @@
       "h",
       "h"
     ],
+    "index": 64,
     "input": "b+1,1",
     "name": "",
     "notes": [
@@ -2630,6 +2693,7 @@
       "h",
       "h"
     ],
+    "index": 65,
     "input": "b+1,1,2",
     "name": "Double Blend Tempestad",
     "notes": [
@@ -2676,6 +2740,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 66,
     "input": "b+2",
     "name": "Mil Nudillo",
     "notes": [
@@ -2717,6 +2782,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 68,
     "input": "b+4",
     "name": "",
     "notes": [],
@@ -2757,6 +2823,7 @@
       "m",
       "m"
     ],
+    "index": 69,
     "input": "b+4,3",
     "name": "",
     "notes": [
@@ -2801,6 +2868,7 @@
       "m",
       "m"
     ],
+    "index": 70,
     "input": "b+4,3,4",
     "name": "",
     "notes": [
@@ -2850,6 +2918,7 @@
       "m",
       "h"
     ],
+    "index": 71,
     "input": "b+4,3,4,3",
     "name": "Seattle Skipper",
     "notes": [
@@ -2893,6 +2962,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 72,
     "input": "uf+1",
     "name": "Eye Opener",
     "notes": [
@@ -2937,6 +3007,7 @@
       "h",
       "t"
     ],
+    "index": 73,
     "input": "uf+1,P",
     "name": "Close Encounter",
     "notes": [],
@@ -2978,6 +3049,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 74,
     "input": "uf+2",
     "name": "Rhythmic Hook",
     "notes": [],
@@ -3020,6 +3092,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 75,
     "input": "uf+3",
     "name": "",
     "notes": [],
@@ -3063,6 +3136,7 @@
       "h",
       "m"
     ],
+    "index": 76,
     "input": "uf+3,4",
     "name": "Daylight Disk",
     "notes": [
@@ -3106,6 +3180,7 @@
     "hitLevels": [
       "M"
     ],
+    "index": 77,
     "input": "uf+4",
     "name": "Tacones Drip",
     "notes": [],
@@ -3148,6 +3223,7 @@
     "hitLevels": [
       "M"
     ],
+    "index": 78,
     "input": "f,F+3",
     "name": "Luna Llena",
     "notes": [],
@@ -3191,6 +3267,7 @@
     "hitLevels": [
       "M"
     ],
+    "index": 79,
     "input": "f,F+4",
     "name": "Demitasse Molino",
     "notes": [
@@ -3236,6 +3313,7 @@
       "m",
       "M"
     ],
+    "index": 80,
     "input": "f,F+3+4",
     "name": "Ortiz Molino",
     "notes": [
@@ -3278,6 +3356,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 81,
     "input": "f,f,F+3",
     "name": "",
     "notes": [],
@@ -3321,6 +3400,7 @@
       "m",
       "h"
     ],
+    "index": 82,
     "input": "f,f,F+3,2",
     "name": "Espresso Agresión",
     "notes": [
@@ -3363,6 +3443,7 @@
     "hitLevels": [
       "sl"
     ],
+    "index": 83,
     "input": "FC.d+1",
     "name": "Crouch Jab",
     "notes": [],
@@ -3398,6 +3479,7 @@
     "hitLevels": [
       "sl"
     ],
+    "index": 84,
     "input": "FC.d+2",
     "name": "Crouch Straight",
     "notes": [],
@@ -3433,6 +3515,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 85,
     "input": "FC.d+3",
     "name": "Crouch Spin Kick",
     "notes": [],
@@ -3468,6 +3551,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 86,
     "input": "FC.d+4",
     "name": "Crouch Shin Kick",
     "notes": [],
@@ -3508,6 +3592,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 87,
     "input": "FC.df+3",
     "name": "Cosecha Látigo",
     "notes": [],
@@ -3547,6 +3632,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 88,
     "input": "ws1",
     "name": "Gold Mountain Fist",
     "notes": [],
@@ -3586,6 +3672,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 89,
     "input": "ws2",
     "name": "Rainbow Mountain Swing",
     "notes": [],
@@ -3624,6 +3711,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 90,
     "input": "ws3",
     "name": "Viento Fuerte",
     "notes": [
@@ -3665,6 +3753,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 91,
     "input": "ws4",
     "name": "",
     "notes": [],
@@ -3703,6 +3792,7 @@
       "m",
       "h"
     ],
+    "index": 92,
     "input": "ws4,1",
     "name": "",
     "notes": [],
@@ -3748,6 +3838,7 @@
       "h",
       "m"
     ],
+    "index": 93,
     "input": "ws4,1,3",
     "name": "Combo de Cantuta",
     "notes": [
@@ -3785,6 +3876,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 94,
     "input": "f+3+4",
     "name": "Libertador",
     "notes": [
@@ -3819,6 +3911,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 95,
     "input": "f+3+4*",
     "name": "Shuffle Jamboree",
     "notes": [
@@ -3855,6 +3948,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 96,
     "input": "LIB.P(High)",
     "name": "Crema Petalo",
     "notes": [],
@@ -3893,6 +3987,7 @@
       "m",
       "m"
     ],
+    "index": 97,
     "input": "LIB.P(Low)",
     "name": "Flush Valve Gracia",
     "notes": [],
@@ -3928,6 +4023,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 98,
     "input": "LIB.1",
     "name": "",
     "notes": [],
@@ -3969,6 +4065,7 @@
       "h",
       "h"
     ],
+    "index": 99,
     "input": "LIB.1,2",
     "name": "Blend Tempestad",
     "notes": [
@@ -4012,6 +4109,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 101,
     "input": "LIB.3",
     "name": "Acerbic Low Kick",
     "notes": [],
@@ -4052,6 +4150,7 @@
       "L",
       "m"
     ],
+    "index": 102,
     "input": "LIB.3,1",
     "name": "Blend Reganar",
     "notes": [
@@ -4096,6 +4195,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 103,
     "input": "LIB.4",
     "name": "",
     "notes": [],
@@ -4134,6 +4234,7 @@
       "m",
       "h"
     ],
+    "index": 104,
     "input": "LIB.4,1",
     "name": "",
     "notes": [
@@ -4180,6 +4281,7 @@
       "h",
       "m"
     ],
+    "index": 105,
     "input": "LIB.4,1,2",
     "name": "Blend Asaltar",
     "notes": [
@@ -4226,6 +4328,7 @@
       "m",
       "M"
     ],
+    "index": 106,
     "input": "LIB.4,2",
     "name": "Blend Martillo",
     "notes": [
@@ -4270,6 +4373,7 @@
     "hitLevels": [
       "M"
     ],
+    "index": 107,
     "input": "LIB.1+2",
     "name": "Rana Barista",
     "notes": [
@@ -4312,6 +4416,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 108,
     "input": "LIB.3+4",
     "name": "El Niño High Kick",
     "notes": [
@@ -4354,6 +4459,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 109,
     "input": "LIB.d+4",
     "name": "",
     "notes": [],
@@ -4395,6 +4501,7 @@
       "L",
       "h"
     ],
+    "index": 110,
     "input": "LIB.d+4,4",
     "name": "Blend Cortar",
     "notes": [
@@ -4430,6 +4537,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 111,
     "input": "LIB.f,f",
     "name": "Libertador (Varios)",
     "notes": [],
@@ -4461,6 +4569,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 112,
     "input": "LIB.b,b",
     "name": "Caer Back Funnel",
     "notes": [
@@ -4495,6 +4604,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 113,
     "input": "LIB.F",
     "name": "Azucena Admission",
     "notes": [
@@ -4529,6 +4639,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 114,
     "input": "LIB.U_D",
     "name": "Milagros Show",
     "notes": [
@@ -4563,6 +4674,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 115,
     "input": "LIB.B",
     "name": "Salida Castillo",
     "notes": [],
@@ -4594,6 +4706,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 116,
     "input": "b+3+4",
     "name": "Hopping Turn",
     "notes": [],
@@ -4625,6 +4738,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 117,
     "input": "b+3+4*",
     "name": "Shuffle Carnival",
     "notes": [],
@@ -4661,6 +4775,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 118,
     "input": "BT.1",
     "name": "",
     "notes": [],
@@ -4702,6 +4817,7 @@
       "h",
       "h"
     ],
+    "index": 119,
     "input": "BT.1,2",
     "name": "Mocha Attaque Matari",
     "notes": [
@@ -4750,6 +4866,7 @@
       "h",
       "m"
     ],
+    "index": 120,
     "input": "BT.1,4",
     "name": "Mocha Attaque Sidamo",
     "notes": [
@@ -4791,6 +4908,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 121,
     "input": "BT.2",
     "name": "",
     "notes": [],
@@ -4830,6 +4948,7 @@
       "m",
       "t"
     ],
+    "index": 122,
     "input": "BT.2:2",
     "name": "Qhapaq Ñan",
     "notes": [],
@@ -4868,6 +4987,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 123,
     "input": "BT.3",
     "name": "Calf Reaper",
     "notes": [
@@ -4909,6 +5029,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 124,
     "input": "BT.4",
     "name": "",
     "notes": [],
@@ -4950,6 +5071,7 @@
       "m",
       "m"
     ],
+    "index": 125,
     "input": "BT.4,3",
     "name": "Upbeat Patadas",
     "notes": [
@@ -4995,6 +5117,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 126,
     "input": "BT.1+2",
     "name": "Golpe Affogato",
     "notes": [],
@@ -5037,6 +5160,7 @@
     "hitLevels": [
       "M"
     ],
+    "index": 127,
     "input": "BT.3+4",
     "name": "Foo Fighter",
     "notes": [],
@@ -5070,6 +5194,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 128,
     "input": "BT.f+3+4",
     "name": "Libertador (Regreso)",
     "notes": [],
@@ -5101,6 +5226,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 129,
     "input": "BT.b+3",
     "name": "Shuffle Walk",
     "notes": [],
@@ -5132,6 +5258,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 130,
     "input": "BT.b+1+2",
     "name": "Runaway",
     "notes": [],
@@ -5163,6 +5290,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 131,
     "input": "BT.b+3+4",
     "name": "Hide Turn",
     "notes": [],
@@ -5201,6 +5329,7 @@
       "m",
       "t"
     ],
+    "index": 132,
     "input": "R.df+1+2",
     "name": "Alegría del Café",
     "notes": [
@@ -5242,6 +5371,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 133,
     "input": "1+3+4",
     "name": "Taunt",
     "notes": [],
@@ -5273,6 +5403,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 134,
     "input": "1+3+4*",
     "name": "Shuffle Recital",
     "notes": [
@@ -5311,6 +5442,7 @@
     "hitLevels": [
       "h!"
     ],
+    "index": 135,
     "input": "2+3+4",
     "name": "Coffee Break",
     "notes": [],
@@ -5342,6 +5474,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 136,
     "input": "1+2+3+4",
     "name": "Ki Charge",
     "notes": [
@@ -5382,6 +5515,7 @@
     "hitLevels": [
       "m!"
     ],
+    "index": 137,
     "input": "1+2+3+4,3+4",
     "name": "Black Ivory Talon",
     "notes": [],
@@ -5413,6 +5547,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 138,
     "input": "UB,b",
     "name": "Volterador",
     "notes": [],
@@ -5453,6 +5588,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 139,
     "input": "(Backtowall).b,b,UB",
     "name": "Wall Jump Attack",
     "notes": [],
@@ -5493,6 +5629,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 140,
     "input": "1+3",
     "name": "Amaru Head Squeeze",
     "notes": [
@@ -5533,6 +5670,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 141,
     "input": "2+4",
     "name": "El Dorado Neck Snap",
     "notes": [
@@ -5573,6 +5711,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 142,
     "input": "Leftthrow",
     "name": "Urubamba Neck Lock",
     "notes": [
@@ -5612,6 +5751,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 143,
     "input": "Rightthrow",
     "name": "Giratorio Sleeper Throw",
     "notes": [
@@ -5651,6 +5791,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 144,
     "input": "Backthrow",
     "name": "Caffeine Abduction",
     "notes": [
@@ -5691,6 +5832,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 145,
     "input": "uf+1+2",
     "name": "Inti Raymi Necklace",
     "notes": [
@@ -5732,6 +5874,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 146,
     "input": "d+1+2",
     "name": "UFO Roll",
     "notes": [
@@ -5773,6 +5916,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 147,
     "input": "FC.1+2",
     "name": "Ultimate Tackle",
     "notes": [
@@ -5819,6 +5963,7 @@
       "",
       "t"
     ],
+    "index": 148,
     "input": "Tackle.2,1,2,1",
     "name": "Ultimate Punch",
     "notes": [
@@ -5866,6 +6011,7 @@
       "",
       "t"
     ],
+    "index": 149,
     "input": "Tackle.1+2",
     "name": "Arm Breaker",
     "notes": [

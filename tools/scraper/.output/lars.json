@@ -28,6 +28,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 0,
     "input": "2+3",
     "name": "Heat Burst",
     "notes": [],
@@ -68,6 +69,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 1,
     "input": "H.2+3",
     "name": "Thunderbird Descent",
     "notes": [
@@ -110,6 +112,7 @@
     "hitLevels": [
       "sm"
     ],
+    "index": 2,
     "input": "H.f+3+4",
     "name": "Rebellion",
     "notes": [
@@ -153,6 +156,7 @@
       "l",
       "th"
     ],
+    "index": 3,
     "input": "H.LEN.1",
     "name": "Blue Jet",
     "notes": [
@@ -195,6 +199,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 4,
     "input": "H.LEN.2",
     "name": "Rising Force (Heat)",
     "notes": [
@@ -241,6 +246,7 @@
       "m",
       "m"
     ],
+    "index": 5,
     "input": "1,1,1",
     "name": "Delta Slicer",
     "notes": [
@@ -288,6 +294,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 6,
     "input": "3+4",
     "name": "Electric Jolt",
     "notes": [],
@@ -333,6 +340,7 @@
       "h",
       "h"
     ],
+    "index": 7,
     "input": "DEN.1,2",
     "name": "Double Barrel",
     "notes": [],
@@ -373,6 +381,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 8,
     "input": "DEN.3",
     "name": "Bow Shock",
     "notes": [
@@ -419,6 +428,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 9,
     "input": "SEN.1",
     "name": "Lightning Thrust",
     "notes": [],
@@ -458,6 +468,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 10,
     "input": "1",
     "name": "",
     "notes": [],
@@ -496,6 +507,7 @@
       "h",
       "m"
     ],
+    "index": 11,
     "input": "1,1",
     "name": "",
     "notes": [
@@ -535,6 +547,7 @@
       "h",
       "h"
     ],
+    "index": 13,
     "input": "1,2",
     "name": "Left Right Combo",
     "notes": [
@@ -574,6 +587,7 @@
       "h",
       "l"
     ],
+    "index": 14,
     "input": "1,4",
     "name": "Legionnaire's Spin",
     "notes": [
@@ -612,6 +626,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 15,
     "input": "2",
     "name": "",
     "notes": [],
@@ -650,6 +665,7 @@
       "h",
       "m"
     ],
+    "index": 16,
     "input": "2,1",
     "name": "Ring Current",
     "notes": [
@@ -688,6 +704,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 17,
     "input": "3",
     "name": "Kick Start",
     "notes": [
@@ -725,6 +742,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 18,
     "input": "3~D",
     "name": "",
     "notes": [],
@@ -762,6 +780,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 19,
     "input": "4",
     "name": "Spinning Cutter",
     "notes": [],
@@ -799,6 +818,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 20,
     "input": "1+2",
     "name": "X-Ray",
     "notes": [],
@@ -834,6 +854,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 22,
     "input": "f+1",
     "name": "",
     "notes": [],
@@ -871,6 +892,7 @@
       "h",
       "m"
     ],
+    "index": 23,
     "input": "f+1,2",
     "name": "Flash Claw",
     "notes": [
@@ -912,6 +934,7 @@
       "h",
       "m"
     ],
+    "index": 24,
     "input": "f+1,2~B",
     "name": "",
     "notes": [],
@@ -956,6 +979,7 @@
       "m",
       "m"
     ],
+    "index": 25,
     "input": "f+1,2,3",
     "name": "Flash Bang",
     "notes": [
@@ -1006,6 +1030,7 @@
       "m",
       "m"
     ],
+    "index": 26,
     "input": "f+1,2,3~B",
     "name": "",
     "notes": [],
@@ -1041,6 +1066,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 27,
     "input": "f+2",
     "name": "",
     "notes": [],
@@ -1078,6 +1104,7 @@
       "h",
       "h"
     ],
+    "index": 28,
     "input": "f+2,1",
     "name": "Charge Factor",
     "notes": [
@@ -1120,6 +1147,7 @@
       "h",
       "h"
     ],
+    "index": 29,
     "input": "f+2,1~B",
     "name": "",
     "notes": [],
@@ -1159,6 +1187,7 @@
       "h",
       "h"
     ],
+    "index": 30,
     "input": "f+2,4",
     "name": "Death Mask",
     "notes": [],
@@ -1194,6 +1223,7 @@
     "hitLevels": [
       "sp"
     ],
+    "index": 31,
     "input": "f+3",
     "name": "Dynamic Entry",
     "notes": [
@@ -1231,6 +1261,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 32,
     "input": "f+4",
     "name": "",
     "notes": [],
@@ -1271,6 +1302,7 @@
       "m",
       "m"
     ],
+    "index": 33,
     "input": "f+4,1",
     "name": "",
     "notes": [],
@@ -1310,6 +1342,7 @@
       "m",
       "m"
     ],
+    "index": 34,
     "input": "f+4,1,2",
     "name": "",
     "notes": [],
@@ -1353,6 +1386,7 @@
       "m",
       "m"
     ],
+    "index": 35,
     "input": "f+4,1,2,1",
     "name": "Volcanic Lightning",
     "notes": [],
@@ -1391,6 +1425,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 36,
     "input": "f+1+2",
     "name": "Ark Blast",
     "notes": [],
@@ -1428,6 +1463,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 37,
     "input": "f+1+4",
     "name": "Power Slug",
     "notes": [
@@ -1467,6 +1503,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 38,
     "input": "df+1",
     "name": "",
     "notes": [],
@@ -1503,6 +1540,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 39,
     "input": "df+2",
     "name": "Flash Bullet",
     "notes": [
@@ -1544,6 +1582,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 40,
     "input": "df+2~B",
     "name": "",
     "notes": [],
@@ -1579,6 +1618,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 41,
     "input": "df+3",
     "name": "",
     "notes": [
@@ -1616,6 +1656,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 42,
     "input": "df+3~D",
     "name": "",
     "notes": [],
@@ -1655,6 +1696,7 @@
       "m",
       "m"
     ],
+    "index": 43,
     "input": "df+3,3",
     "name": "Outpost Blitz",
     "notes": [],
@@ -1691,6 +1733,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 44,
     "input": "df+4",
     "name": "",
     "notes": [],
@@ -1733,6 +1776,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 45,
     "input": "d+2",
     "name": "Tactical Sword",
     "notes": [
@@ -1772,6 +1816,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 46,
     "input": "d+3",
     "name": "",
     "notes": [],
@@ -1810,6 +1855,7 @@
       "l",
       "hh"
     ],
+    "index": 47,
     "input": "d+3,1",
     "name": "Tesla Gravity",
     "notes": [
@@ -1850,6 +1896,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 48,
     "input": "d+1+2",
     "name": "Earth Battery",
     "notes": [],
@@ -1885,6 +1932,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 49,
     "input": "db+1",
     "name": "",
     "notes": [],
@@ -1922,6 +1970,7 @@
       "l",
       "h"
     ],
+    "index": 50,
     "input": "db+1,3",
     "name": "Arc Combination",
     "notes": [
@@ -1960,6 +2009,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 51,
     "input": "db+2",
     "name": "",
     "notes": [
@@ -1997,6 +2047,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 52,
     "input": "db+2~F",
     "name": "",
     "notes": [],
@@ -2035,6 +2086,7 @@
       "m",
       "m"
     ],
+    "index": 53,
     "input": "db+2,1",
     "name": "Double Tap",
     "notes": [],
@@ -2072,6 +2124,7 @@
       "m",
       "m"
     ],
+    "index": 54,
     "input": "db+2,3",
     "name": "HE Combination",
     "notes": [
@@ -2116,6 +2169,7 @@
       "m",
       "m"
     ],
+    "index": 55,
     "input": "db+2,3*",
     "name": "HE Combination (Hold)",
     "notes": [
@@ -2162,6 +2216,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 56,
     "input": "db+4",
     "name": "Shadow Cutter",
     "notes": [],
@@ -2197,6 +2252,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 57,
     "input": "db+1+2",
     "name": "Inductance",
     "notes": [
@@ -2235,6 +2291,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 58,
     "input": "db+1+2~D",
     "name": "",
     "notes": [],
@@ -2271,6 +2328,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 59,
     "input": "b+1",
     "name": "Chevron Slash",
     "notes": [],
@@ -2308,6 +2366,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 60,
     "input": "b+2",
     "name": "",
     "notes": [],
@@ -2347,6 +2406,7 @@
       "m",
       "m"
     ],
+    "index": 61,
     "input": "b+2,1",
     "name": "Gilbert Smash",
     "notes": [
@@ -2391,6 +2451,7 @@
       "m",
       "h"
     ],
+    "index": 62,
     "input": "b+2,3",
     "name": "Gilbert Cannon",
     "notes": [],
@@ -2429,6 +2490,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 63,
     "input": "b+3",
     "name": "",
     "notes": [
@@ -2466,6 +2528,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 64,
     "input": "b+3~F",
     "name": "",
     "notes": [],
@@ -2505,6 +2568,7 @@
       "m",
       "h"
     ],
+    "index": 65,
     "input": "b+3,4",
     "name": "Impulse Plus",
     "notes": [],
@@ -2542,6 +2606,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 66,
     "input": "b+4",
     "name": "Magnetic Knee",
     "notes": [],
@@ -2581,6 +2646,7 @@
       "m",
       "th"
     ],
+    "index": 67,
     "input": "CHb+4",
     "name": "Magnetic Knee Blast",
     "notes": [],
@@ -2621,6 +2687,7 @@
       "m",
       "m"
     ],
+    "index": 68,
     "input": "b+1+2",
     "name": "Wind Liger",
     "notes": [
@@ -2664,6 +2731,7 @@
     "hitLevels": [
       "ub(m)"
     ],
+    "index": 69,
     "input": "b+2+3",
     "name": "Zeus",
     "notes": [],
@@ -2703,6 +2771,7 @@
     "hitLevels": [
       "mm"
     ],
+    "index": 70,
     "input": "uf+3",
     "name": "Lightning Screw",
     "notes": [],
@@ -2741,6 +2810,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 71,
     "input": "uf+4",
     "name": "Storm Axle",
     "notes": [],
@@ -2774,6 +2844,7 @@
     "hitLevels": [
       "sp"
     ],
+    "index": 72,
     "input": "uf+3+4",
     "name": "Avalanche Flip",
     "notes": [],
@@ -2813,6 +2884,7 @@
       "m",
       "th"
     ],
+    "index": 73,
     "input": "uf+3+4,4",
     "name": "Avalanche Flip Break Down",
     "notes": [],
@@ -2850,6 +2922,7 @@
       "sp",
       "th(h)"
     ],
+    "index": 74,
     "input": "uf+3+4,1+2",
     "name": "Avalanche Drop",
     "notes": [
@@ -2891,6 +2964,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 75,
     "input": "uf,n,4",
     "name": "Delayed Rising Toe Kick",
     "notes": [],
@@ -2929,6 +3003,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 76,
     "input": "f,F+2",
     "name": "Surge Blast",
     "notes": [
@@ -2970,6 +3045,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 77,
     "input": "f,F+2~F",
     "name": "",
     "notes": [
@@ -3008,6 +3084,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 78,
     "input": "f,F+4",
     "name": "",
     "notes": [],
@@ -3045,6 +3122,7 @@
       "l",
       "h"
     ],
+    "index": 79,
     "input": "f,F+4,2",
     "name": "Cross Transistor",
     "notes": [],
@@ -3082,6 +3160,7 @@
       "l",
       "m"
     ],
+    "index": 80,
     "input": "f,F+4,3",
     "name": "Double Pulse",
     "notes": [],
@@ -3122,6 +3201,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 81,
     "input": "f,F+1+2",
     "name": "Elbow Corona",
     "notes": [
@@ -3166,6 +3246,7 @@
       "l",
       "l"
     ],
+    "index": 82,
     "input": "f,F+3+4",
     "name": "Double Action",
     "notes": [],
@@ -3201,6 +3282,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 83,
     "input": "f,n,b+2",
     "name": "",
     "notes": [],
@@ -3241,6 +3323,7 @@
       "m",
       "m"
     ],
+    "index": 84,
     "input": "f,n,b+2,1",
     "name": "Blue Bolt",
     "notes": [],
@@ -3278,6 +3361,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 85,
     "input": "f,f,F+3",
     "name": "Red Sprite",
     "notes": [
@@ -3317,6 +3401,7 @@
     "hitLevels": [
       "ll"
     ],
+    "index": 86,
     "input": "FC.1+2",
     "name": "Double Smack",
     "notes": [],
@@ -3355,6 +3440,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 87,
     "input": "FC.df+2",
     "name": "Power Spike",
     "notes": [],
@@ -3393,6 +3479,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 88,
     "input": "ws1",
     "name": "Streamer",
     "notes": [
@@ -3434,6 +3521,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 89,
     "input": "ws1~F",
     "name": "",
     "notes": [
@@ -3473,6 +3561,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 90,
     "input": "ws2",
     "name": "",
     "notes": [
@@ -3511,6 +3600,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 91,
     "input": "ws2~D",
     "name": "",
     "notes": [
@@ -3548,6 +3638,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 92,
     "input": "ws2~F",
     "name": "",
     "notes": [],
@@ -3590,6 +3681,7 @@
       "m",
       "m"
     ],
+    "index": 93,
     "input": "ws2,1",
     "name": "Multiplied Force",
     "notes": [
@@ -3629,6 +3721,7 @@
       "m",
       "h"
     ],
+    "index": 94,
     "input": "ws2,3",
     "name": "Glass Breaker",
     "notes": [
@@ -3669,6 +3762,7 @@
       "m",
       "h"
     ],
+    "index": 95,
     "input": "ws2,3~D",
     "name": "",
     "notes": [],
@@ -3705,6 +3799,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 96,
     "input": "ws3",
     "name": "Tower Cannon",
     "notes": [
@@ -3743,6 +3838,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 97,
     "input": "ws3~D",
     "name": "",
     "notes": [],
@@ -3779,6 +3875,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 98,
     "input": "ws4",
     "name": "Shell Smash",
     "notes": [],
@@ -3815,6 +3912,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 100,
     "input": "DEN.1",
     "name": "",
     "notes": [
@@ -3854,6 +3952,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 101,
     "input": "DEN.1~F",
     "name": "",
     "notes": [],
@@ -3892,6 +3991,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 103,
     "input": "DEN.2",
     "name": "Rimfire",
     "notes": [
@@ -3929,6 +4029,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 104,
     "input": "DEN.2~UF",
     "name": "",
     "notes": [
@@ -3967,6 +4068,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 106,
     "input": "DEN.4",
     "name": "Legionnaire's Shot",
     "notes": [
@@ -4008,6 +4110,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 107,
     "input": "DEN.1+2",
     "name": "Into the Storm",
     "notes": [],
@@ -4047,6 +4150,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 108,
     "input": "DEN.3+4",
     "name": "Stack Up",
     "notes": [
@@ -4084,6 +4188,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 109,
     "input": "DEN.3+4~F",
     "name": "",
     "notes": [],
@@ -4119,6 +4224,7 @@
     "hitLevels": [
       "th(h)"
     ],
+    "index": 110,
     "input": "DEN.2+3",
     "name": "SHB",
     "notes": [
@@ -4157,6 +4263,7 @@
     "hitLevels": [
       "th(h)"
     ],
+    "index": 111,
     "input": "(airborne).DEN.2+3",
     "name": "Rejection",
     "notes": [
@@ -4193,6 +4300,7 @@
     "hitLevels": [
       "sp"
     ],
+    "index": 112,
     "input": "DEN.B",
     "name": "Dynamic Entry",
     "notes": [
@@ -4229,6 +4337,7 @@
     "hitLevels": [
       "sp"
     ],
+    "index": 113,
     "input": "DEN.n,F",
     "name": "Silent Entry",
     "notes": [
@@ -4272,6 +4381,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 116,
     "input": "SEN.2",
     "name": "Turbine Hook",
     "notes": [],
@@ -4313,6 +4423,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 117,
     "input": "SEN.3",
     "name": "Rising Storm",
     "notes": [],
@@ -4350,6 +4461,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 118,
     "input": "SEN.4",
     "name": "Electric Volley",
     "notes": [],
@@ -4392,6 +4504,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 119,
     "input": "SEN.1+2",
     "name": "Entangling Ejector",
     "notes": [],
@@ -4436,6 +4549,7 @@
     "hitLevels": [
       "mm"
     ],
+    "index": 120,
     "input": "SEN.3+4",
     "name": "Lightning Axle",
     "notes": [
@@ -4473,6 +4587,7 @@
     "hitLevels": [
       "sp"
     ],
+    "index": 121,
     "input": "SEN.B",
     "name": "Dynamic Entry",
     "notes": [
@@ -4508,6 +4623,7 @@
     "hitLevels": [
       "sp"
     ],
+    "index": 122,
     "input": "SEN.D",
     "name": "Limited Entry",
     "notes": [
@@ -4546,6 +4662,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 123,
     "input": "LEN.1",
     "name": "Blasting Smack",
     "notes": [],
@@ -4583,6 +4700,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 125,
     "input": "LEN.2",
     "name": "Rising Force",
     "notes": [
@@ -4626,6 +4744,7 @@
       "m",
       "t"
     ],
+    "index": 127,
     "input": "R.df+1+2",
     "name": "Zeus Unlimited",
     "notes": [
@@ -4669,6 +4788,7 @@
     "hitLevels": [
       "sp"
     ],
+    "index": 128,
     "input": "1+2+3+4",
     "name": "Ki Charge",
     "notes": [],
@@ -4707,6 +4827,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 129,
     "input": "SS.2",
     "name": "Shockwave",
     "notes": [
@@ -4749,6 +4870,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 130,
     "input": "(Backtowall).b,b,UB",
     "name": "Wall Jump Divekick",
     "notes": [
@@ -4792,6 +4914,7 @@
     "hitLevels": [
       "th(h)"
     ],
+    "index": 131,
     "input": "1+3",
     "name": "Hostile Takedown",
     "notes": [
@@ -4833,6 +4956,7 @@
     "hitLevels": [
       "th(h)"
     ],
+    "index": 132,
     "input": "2+4",
     "name": "Raging Thunder",
     "notes": [
@@ -4873,6 +4997,7 @@
     "hitLevels": [
       "th(h)"
     ],
+    "index": 133,
     "input": "Leftthrow",
     "name": "Tactical Knee",
     "notes": [
@@ -4912,6 +5037,7 @@
     "hitLevels": [
       "th(h)"
     ],
+    "index": 134,
     "input": "Rightthrow",
     "name": "Lethal Force",
     "notes": [
@@ -4951,6 +5077,7 @@
     "hitLevels": [
       "th(h)"
     ],
+    "index": 135,
     "input": "Backthrow",
     "name": "Swift Silence",
     "notes": [
@@ -4990,6 +5117,7 @@
     "hitLevels": [
       "th(h)"
     ],
+    "index": 136,
     "input": "uf+1+2",
     "name": "Apocalypse",
     "notes": [
@@ -5028,6 +5156,7 @@
     "hitLevels": [
       "th(h)"
     ],
+    "index": 137,
     "input": "f,f,F+2+4",
     "name": "SHB",
     "notes": [
@@ -5066,6 +5195,7 @@
     "hitLevels": [
       "th(h)"
     ],
+    "index": 138,
     "input": "(airborne).f,f,F+2+4",
     "name": "Rejection",
     "notes": [

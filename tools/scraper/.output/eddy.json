@@ -29,6 +29,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 0,
     "input": "2+3",
     "name": "Heat Burst",
     "notes": [
@@ -73,6 +74,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 1,
     "input": "H.2+3",
     "name": "Caveirinha Zangada",
     "notes": [
@@ -117,6 +119,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 2,
     "input": "H.3+4",
     "name": "Guerreiro Explosivo",
     "notes": [
@@ -161,6 +164,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 3,
     "input": "H.qcf+4",
     "name": "Rabo de Arraia Liberado",
     "notes": [
@@ -206,6 +210,7 @@
       "m",
       "m"
     ],
+    "index": 4,
     "input": "4,4",
     "name": "Lufada",
     "notes": [
@@ -252,6 +257,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 5,
     "input": "f+3+4",
     "name": "Xangô",
     "notes": [
@@ -297,6 +303,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 6,
     "input": "b+3+4",
     "name": "Lunging Brush Fire",
     "notes": [
@@ -344,6 +351,7 @@
       "m",
       "m"
     ],
+    "index": 7,
     "input": "RLX.4,3",
     "name": "Chibata Ardente",
     "notes": [
@@ -386,6 +394,7 @@
     "hitLevels": [
       "th(m)"
     ],
+    "index": 8,
     "input": "d+1+3",
     "name": "Vingativa Zanga",
     "notes": [
@@ -425,6 +434,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 9,
     "input": "1",
     "name": "Jab",
     "notes": [],
@@ -462,6 +472,7 @@
       "h",
       "h"
     ],
+    "index": 10,
     "input": "1,2",
     "name": "One Two Galopantes",
     "notes": [
@@ -502,6 +513,7 @@
       "h",
       "h"
     ],
+    "index": 11,
     "input": "1,2,4",
     "name": "",
     "notes": [],
@@ -546,6 +558,7 @@
       "h",
       "L"
     ],
+    "index": 12,
     "input": "1,2,4~3",
     "name": "One Two Galopantes > Chute Baixo",
     "notes": [],
@@ -590,6 +603,7 @@
       "h",
       "h"
     ],
+    "index": 13,
     "input": "1,2,4~4",
     "name": "One Two Galopantes > Chute Alto",
     "notes": [
@@ -635,6 +649,7 @@
       "h",
       "m"
     ],
+    "index": 14,
     "input": "1,3",
     "name": "Céu Gafanhoto",
     "notes": [
@@ -674,6 +689,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 15,
     "input": "2",
     "name": "",
     "notes": [],
@@ -712,6 +728,7 @@
       "h",
       "h"
     ],
+    "index": 16,
     "input": "2,1",
     "name": "",
     "notes": [],
@@ -758,6 +775,7 @@
       "h",
       "m"
     ],
+    "index": 17,
     "input": "2,1,4",
     "name": "Combo Furacão",
     "notes": [
@@ -803,6 +821,7 @@
       "h",
       "m"
     ],
+    "index": 18,
     "input": "2,3",
     "name": "Batida de Compasso",
     "notes": [],
@@ -839,6 +858,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 19,
     "input": "3",
     "name": "",
     "notes": [],
@@ -879,6 +899,7 @@
       "m",
       "m"
     ],
+    "index": 20,
     "input": "3,3",
     "name": "Sincelo",
     "notes": [],
@@ -915,6 +936,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 21,
     "input": "4",
     "name": "",
     "notes": [],
@@ -956,6 +978,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 23,
     "input": "1+2",
     "name": "Faisão",
     "notes": [],
@@ -994,6 +1017,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 24,
     "input": "f+2",
     "name": "",
     "notes": [],
@@ -1037,6 +1061,7 @@
       "m",
       "l"
     ],
+    "index": 25,
     "input": "f+2,4",
     "name": "Ventania",
     "notes": [],
@@ -1073,6 +1098,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 26,
     "input": "f+3",
     "name": "",
     "notes": [],
@@ -1119,6 +1145,7 @@
       "h",
       "m"
     ],
+    "index": 27,
     "input": "f+3,4",
     "name": "Combo do Funâmbolo",
     "notes": [
@@ -1163,6 +1190,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 28,
     "input": "f+4",
     "name": "",
     "notes": [],
@@ -1205,6 +1233,7 @@
       "m",
       "m"
     ],
+    "index": 29,
     "input": "f+4,3",
     "name": "",
     "notes": [
@@ -1254,6 +1283,7 @@
       "M",
       "M"
     ],
+    "index": 30,
     "input": "f+4,3,3+4",
     "name": "Aú do Sol",
     "notes": [
@@ -1302,6 +1332,7 @@
       "L",
       "L"
     ],
+    "index": 31,
     "input": "f+4,3+4",
     "name": "Aú da Lua",
     "notes": [
@@ -1336,6 +1367,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 32,
     "input": "f+1+2",
     "name": "Bananeira",
     "notes": [],
@@ -1371,6 +1403,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 34,
     "input": "df+1",
     "name": "",
     "notes": [],
@@ -1412,6 +1445,7 @@
       "m",
       "h"
     ],
+    "index": 35,
     "input": "df+1,3",
     "name": "Gêiser",
     "notes": [
@@ -1458,6 +1492,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 36,
     "input": "df+2",
     "name": "Elbow Uppercut",
     "notes": [
@@ -1504,6 +1539,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 37,
     "input": "df+3",
     "name": "Mirage",
     "notes": [],
@@ -1543,6 +1579,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 38,
     "input": "df+4",
     "name": "Kneecap Crusher",
     "notes": [],
@@ -1584,6 +1621,7 @@
       "m",
       "M"
     ],
+    "index": 39,
     "input": "df+3+4",
     "name": "Aú Reversão",
     "notes": [
@@ -1624,6 +1662,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 40,
     "input": "d+2",
     "name": "",
     "notes": [],
@@ -1666,6 +1705,7 @@
       "m",
       "m"
     ],
+    "index": 41,
     "input": "d+2,3",
     "name": "Palmares Giro",
     "notes": [
@@ -1709,6 +1749,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 42,
     "input": "d+3",
     "name": "Sismo",
     "notes": [],
@@ -1747,6 +1788,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 43,
     "input": "d+4",
     "name": "",
     "notes": [],
@@ -1789,6 +1831,7 @@
       "L",
       "m"
     ],
+    "index": 44,
     "input": "d+4,3",
     "name": "Aú de Bico",
     "notes": [],
@@ -1820,6 +1863,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 45,
     "input": "d+3+4",
     "name": "Negativa",
     "notes": [],
@@ -1858,6 +1902,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 46,
     "input": "db+2",
     "name": "",
     "notes": [],
@@ -1897,6 +1942,7 @@
       "L",
       "m"
     ],
+    "index": 47,
     "input": "db+2,3",
     "name": "Twister Mirage",
     "notes": [
@@ -1943,6 +1989,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 48,
     "input": "db+3",
     "name": "Rasteira Forte",
     "notes": [],
@@ -1979,6 +2026,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 49,
     "input": "db+4",
     "name": "",
     "notes": [],
@@ -2020,6 +2068,7 @@
       "m",
       "h"
     ],
+    "index": 50,
     "input": "db+4,4",
     "name": "Rabo de Arraia",
     "notes": [
@@ -2063,6 +2112,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 51,
     "input": "db+1+2",
     "name": "Double Arm Stinger",
     "notes": [],
@@ -2101,6 +2151,7 @@
       "m",
       "m"
     ],
+    "index": 52,
     "input": "db+3+4",
     "name": "",
     "notes": [],
@@ -2141,6 +2192,7 @@
       "m",
       "m"
     ],
+    "index": 53,
     "input": "db+3+4,4",
     "name": "",
     "notes": [],
@@ -2186,6 +2238,7 @@
       "m",
       "m"
     ],
+    "index": 54,
     "input": "db+3+4,4,3",
     "name": "Meia-Lua de Compasso",
     "notes": [],
@@ -2222,6 +2275,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 55,
     "input": "b+1",
     "name": "",
     "notes": [],
@@ -2262,6 +2316,7 @@
       "m",
       "m"
     ],
+    "index": 56,
     "input": "b+1,4",
     "name": "",
     "notes": [
@@ -2307,6 +2362,7 @@
       "m",
       "m"
     ],
+    "index": 57,
     "input": "b+1,4,3",
     "name": "",
     "notes": [
@@ -2356,6 +2412,7 @@
       "m",
       "m"
     ],
+    "index": 58,
     "input": "b+1,4,3,3+4",
     "name": "Gato > Aú do Sol",
     "notes": [],
@@ -2399,6 +2456,7 @@
       "m",
       "L"
     ],
+    "index": 59,
     "input": "b+1,4,3+4",
     "name": "Gato > Aú da Lua",
     "notes": [
@@ -2438,6 +2496,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 60,
     "input": "b+2",
     "name": "",
     "notes": [],
@@ -2476,6 +2535,7 @@
       "m",
       "m"
     ],
+    "index": 61,
     "input": "b+2,3",
     "name": "",
     "notes": [],
@@ -2519,6 +2579,7 @@
       "m",
       "m"
     ],
+    "index": 62,
     "input": "b+2,3,3",
     "name": "Godeme > Combo Martelo",
     "notes": [
@@ -2564,6 +2625,7 @@
       "m",
       "h"
     ],
+    "index": 63,
     "input": "b+2,4",
     "name": "Godeme > Calcanheira",
     "notes": [],
@@ -2600,6 +2662,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 64,
     "input": "b+3",
     "name": "",
     "notes": [],
@@ -2641,6 +2704,7 @@
       "m",
       "m"
     ],
+    "index": 65,
     "input": "b+3,3",
     "name": "Knee Thruster > Relâmpago",
     "notes": [
@@ -2680,6 +2744,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 66,
     "input": "b+4",
     "name": "",
     "notes": [],
@@ -2722,6 +2787,7 @@
       "m",
       "m"
     ],
+    "index": 67,
     "input": "b+4,4",
     "name": "",
     "notes": [
@@ -2773,6 +2839,7 @@
       "m",
       "m"
     ],
+    "index": 68,
     "input": "b+4,4,3",
     "name": "Leg Whip Mars Attack Flip",
     "notes": [
@@ -2807,6 +2874,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 69,
     "input": "b+1+2",
     "name": "Back Bananeira",
     "notes": [],
@@ -2847,6 +2915,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 71,
     "input": "ub+3",
     "name": "Perna da Lua",
     "notes": [],
@@ -2883,6 +2952,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 72,
     "input": "ub+4",
     "name": "Satellite Moon",
     "notes": [],
@@ -2922,6 +2992,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 73,
     "input": "u+3",
     "name": "Acrobacia",
     "notes": [
@@ -2959,6 +3030,7 @@
     "hitLevels": [
       "sp"
     ],
+    "index": 74,
     "input": "u+4",
     "name": "Back Summy",
     "notes": [],
@@ -2997,6 +3069,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 75,
     "input": "u+4~3",
     "name": "Back Summy > Chute Baixo",
     "notes": [
@@ -3040,6 +3113,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 76,
     "input": "u+4~4",
     "name": "Back Summy > Chute Alto",
     "notes": [],
@@ -3080,6 +3154,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 77,
     "input": "u+1+2",
     "name": "Vassoura",
     "notes": [],
@@ -3119,6 +3194,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 78,
     "input": "uf+2",
     "name": "Asfixiante",
     "notes": [],
@@ -3163,6 +3239,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 79,
     "input": "uf+3",
     "name": "",
     "notes": [],
@@ -3204,6 +3281,7 @@
       "m",
       "m"
     ],
+    "index": 80,
     "input": "uf+3,3",
     "name": "Jumping Jacks Mirage",
     "notes": [],
@@ -3249,6 +3327,7 @@
       "m",
       "L"
     ],
+    "index": 81,
     "input": "uf+3,4",
     "name": "Armada Pulada > Baixo",
     "notes": [],
@@ -3285,6 +3364,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 82,
     "input": "uf+4",
     "name": "Chapa Giratória",
     "notes": [
@@ -3331,6 +3411,7 @@
       "m",
       "h"
     ],
+    "index": 83,
     "input": "uf+3+4",
     "name": "Meia-Lua Pulando",
     "notes": [],
@@ -3372,6 +3453,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 84,
     "input": "uf,n,4",
     "name": "Delayed Rising Toe Kick",
     "notes": [],
@@ -3414,6 +3496,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 85,
     "input": "f,F+3",
     "name": "Terremoto",
     "notes": [
@@ -3456,6 +3539,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 86,
     "input": "f,F+4",
     "name": "Folha Ataque",
     "notes": [
@@ -3502,6 +3586,7 @@
       "m",
       "m"
     ],
+    "index": 87,
     "input": "f,F+3+4",
     "name": "Roda Gigante",
     "notes": [
@@ -3547,6 +3632,7 @@
     "hitLevels": [
       "m!"
     ],
+    "index": 88,
     "input": "b,B+2+3",
     "name": "Fruit Picker",
     "notes": [
@@ -3589,6 +3675,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 89,
     "input": "f,f,F+3",
     "name": "Trovão",
     "notes": [
@@ -3627,6 +3714,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 90,
     "input": "FC.4",
     "name": "",
     "notes": [
@@ -3669,6 +3757,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 91,
     "input": "FC.df+3",
     "name": "Gafanhoto",
     "notes": [
@@ -3712,6 +3801,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 92,
     "input": "FC.df+4",
     "name": "Tornada",
     "notes": [],
@@ -3748,6 +3838,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 93,
     "input": "ws1",
     "name": "",
     "notes": [],
@@ -3789,6 +3880,7 @@
       "h",
       "m"
     ],
+    "index": 94,
     "input": "ws1,3",
     "name": "Fuzilação",
     "notes": [
@@ -3830,6 +3922,7 @@
       "h",
       "h"
     ],
+    "index": 95,
     "input": "ws1,4",
     "name": "Chapeu de Couro",
     "notes": [
@@ -3870,6 +3963,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 96,
     "input": "ws2",
     "name": "Machado",
     "notes": [],
@@ -3909,6 +4003,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 97,
     "input": "ws3",
     "name": "Martelo",
     "notes": [],
@@ -3947,6 +4042,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 98,
     "input": "ws4",
     "name": "",
     "notes": [],
@@ -3985,6 +4081,7 @@
       "m",
       "h"
     ],
+    "index": 99,
     "input": "ws4,4",
     "name": "",
     "notes": [],
@@ -4029,6 +4126,7 @@
       "m",
       "m"
     ],
+    "index": 100,
     "input": "ws4,4,4",
     "name": "",
     "notes": [],
@@ -4077,6 +4175,7 @@
       "m",
       "m"
     ],
+    "index": 101,
     "input": "ws4,4,4,3",
     "name": "Tempestade",
     "notes": [
@@ -4120,6 +4219,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 102,
     "input": "ws3+4",
     "name": "Front Stinger",
     "notes": [],
@@ -4156,6 +4256,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 103,
     "input": "SS.3",
     "name": "Hot Plate Special",
     "notes": [
@@ -4201,6 +4302,7 @@
       "L",
       "L"
     ],
+    "index": 104,
     "input": "SS.4",
     "name": "Troca Baixa",
     "notes": [],
@@ -4242,6 +4344,7 @@
       "h",
       "h"
     ],
+    "index": 105,
     "input": "SS.3+4",
     "name": "Faísca",
     "notes": [],
@@ -4282,6 +4385,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 107,
     "input": "HSP.1",
     "name": "Godeme Trovoada",
     "notes": [
@@ -4321,6 +4425,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 108,
     "input": "HSP.2",
     "name": "",
     "notes": [],
@@ -4360,6 +4465,7 @@
       "m",
       "m"
     ],
+    "index": 109,
     "input": "HSP.2,3",
     "name": "Combo Escorão",
     "notes": [
@@ -4402,6 +4508,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 110,
     "input": "HSP.3",
     "name": "",
     "notes": [],
@@ -4440,6 +4547,7 @@
       "m",
       "h"
     ],
+    "index": 111,
     "input": "HSP.3,3",
     "name": "",
     "notes": [],
@@ -4480,6 +4588,7 @@
       "h",
       "h"
     ],
+    "index": 112,
     "input": "HSP.3,3,3",
     "name": "Enxurrada",
     "notes": [
@@ -4523,6 +4632,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 113,
     "input": "HSP.4",
     "name": "",
     "notes": [],
@@ -4564,6 +4674,7 @@
       "m",
       "m"
     ],
+    "index": 114,
     "input": "HSP.4,2",
     "name": "Lança de Braço",
     "notes": [
@@ -4611,6 +4722,7 @@
       "m",
       "m"
     ],
+    "index": 115,
     "input": "HSP.4,2~3",
     "name": "Salto Yotori",
     "notes": [],
@@ -4649,6 +4761,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 116,
     "input": "HSP.1+2",
     "name": "Cabeçada Direta",
     "notes": [
@@ -4690,6 +4803,7 @@
     "hitLevels": [
       "th(h)"
     ],
+    "index": 117,
     "input": "HSP.1+3",
     "name": "Batucada",
     "notes": [
@@ -4733,6 +4847,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 118,
     "input": "HSP.b+3",
     "name": "Chapa Esquivando",
     "notes": [],
@@ -4766,6 +4881,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 119,
     "input": "HSP.n,f",
     "name": "Bananeira > Move Forward",
     "notes": [],
@@ -4797,6 +4913,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 120,
     "input": "HSP.n,d",
     "name": "Bananeira > Negativa",
     "notes": [],
@@ -4834,6 +4951,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 122,
     "input": "RLX.1",
     "name": "",
     "notes": [],
@@ -4878,6 +4996,7 @@
       "L",
       "m"
     ],
+    "index": 123,
     "input": "RLX.1,3",
     "name": "Terra Gafanhoto",
     "notes": [
@@ -4917,6 +5036,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 124,
     "input": "RLX.2",
     "name": "",
     "notes": [],
@@ -4955,6 +5075,7 @@
       "m",
       "h"
     ],
+    "index": 125,
     "input": "RLX.2,4",
     "name": "",
     "notes": [
@@ -5001,6 +5122,7 @@
       "h",
       "m"
     ],
+    "index": 126,
     "input": "RLX.2,4,4",
     "name": "Maré Cheia",
     "notes": [],
@@ -5043,6 +5165,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 127,
     "input": "RLX.3",
     "name": "",
     "notes": [],
@@ -5082,6 +5205,7 @@
       "L",
       "h"
     ],
+    "index": 128,
     "input": "RLX.3,3",
     "name": "Iemanjá",
     "notes": [
@@ -5122,6 +5246,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 129,
     "input": "RLX.4",
     "name": "",
     "notes": [],
@@ -5161,6 +5286,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 131,
     "input": "RLX.1+2",
     "name": "Cabeçada Fixa",
     "notes": [
@@ -5204,6 +5330,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 132,
     "input": "RLX.3+4",
     "name": "Troca e Ataque",
     "notes": [],
@@ -5242,6 +5369,7 @@
     "hitLevels": [
       "th(h)"
     ],
+    "index": 133,
     "input": "RLX.uf+1+2",
     "name": "Rodeo Spin",
     "notes": [
@@ -5276,6 +5404,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 134,
     "input": "RLX.n,f",
     "name": "Negativa > Move Forward",
     "notes": [],
@@ -5307,6 +5436,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 135,
     "input": "RLX.n,d",
     "name": "Negativa > Bananeira",
     "notes": [],
@@ -5349,6 +5479,7 @@
       "m",
       "m"
     ],
+    "index": 136,
     "input": "MD1.HSP.3+4",
     "name": "Yansan Mandinga",
     "notes": [],
@@ -5392,6 +5523,7 @@
       "m",
       "m"
     ],
+    "index": 137,
     "input": "MD2.HSP.3+4",
     "name": "Yansan Mandinga",
     "notes": [],
@@ -5432,6 +5564,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 138,
     "input": "MD1.HSP.b+4",
     "name": "Ogum Mandinga",
     "notes": [
@@ -5473,6 +5606,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 139,
     "input": "MD2.HSP.b+4",
     "name": "Ogum Mandinga",
     "notes": [
@@ -5516,6 +5650,7 @@
       "m",
       "t"
     ],
+    "index": 143,
     "input": "R.df+1+2",
     "name": "Enchente de Axé",
     "notes": [
@@ -5557,6 +5692,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 144,
     "input": "b,ub",
     "name": "Flic Flac",
     "notes": [],
@@ -5588,6 +5724,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 145,
     "input": "1+2+3+4",
     "name": "Ki Charge",
     "notes": [],
@@ -5629,6 +5766,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 146,
     "input": "FUFT.b+3+4",
     "name": "Whirling Spring Kick",
     "notes": [],
@@ -5665,6 +5803,7 @@
     "hitLevels": [
       "th(h)"
     ],
+    "index": 147,
     "input": "1+3",
     "name": "Rio Deal",
     "notes": [
@@ -5705,6 +5844,7 @@
     "hitLevels": [
       "th(h)"
     ],
+    "index": 148,
     "input": "2+4",
     "name": "Rio Special",
     "notes": [
@@ -5746,6 +5886,7 @@
     "hitLevels": [
       "th(h)"
     ],
+    "index": 149,
     "input": "Leftthrow",
     "name": "Missile Launcher",
     "notes": [],
@@ -5782,6 +5923,7 @@
     "hitLevels": [
       "th(h)"
     ],
+    "index": 150,
     "input": "Rightthrow",
     "name": "Shadow Dancer",
     "notes": [],
@@ -5818,6 +5960,7 @@
     "hitLevels": [
       "th(h)"
     ],
+    "index": 151,
     "input": "Backthrow",
     "name": "Back Rodeo Spin",
     "notes": [],
@@ -5855,6 +5998,7 @@
     "hitLevels": [
       "th(h)"
     ],
+    "index": 152,
     "input": "uf+1+2",
     "name": "Cabra Macaco Throw",
     "notes": [],
@@ -5891,6 +6035,7 @@
     "hitLevels": [
       "th(m)"
     ],
+    "index": 156,
     "input": "d+2+4",
     "name": "Vingativa Funeral",
     "notes": [],

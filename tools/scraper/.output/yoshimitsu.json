@@ -29,6 +29,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 0,
     "input": "2+3",
     "name": "Heat Burst",
     "notes": [
@@ -78,6 +79,7 @@
       "m",
       "m"
     ],
+    "index": 1,
     "input": "H.2+3",
     "name": "Divine Sword Kagekiyo",
     "notes": [
@@ -129,6 +131,7 @@
       "m",
       "h"
     ],
+    "index": 2,
     "input": "3,1",
     "name": "Enma's Flame",
     "notes": [
@@ -178,6 +181,7 @@
     "hitLevels": [
       "M"
     ],
+    "index": 3,
     "input": "f+1+2",
     "name": "Kuzuryu",
     "notes": [
@@ -226,6 +230,7 @@
       "m",
       "h"
     ],
+    "index": 4,
     "input": "b+2,2",
     "name": "Oma Kugiuchi",
     "notes": [
@@ -273,6 +278,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 5,
     "input": "KIN.f+2",
     "name": "Ganto",
     "notes": [],
@@ -318,6 +324,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 6,
     "input": "DGF.4",
     "name": "Dragonfly Twister",
     "notes": [],
@@ -360,6 +367,7 @@
     "hitLevels": [
       "M"
     ],
+    "index": 7,
     "input": "H.DGF.1",
     "name": "Dragonfly Blade (Heat)",
     "notes": [
@@ -409,6 +417,7 @@
       "h",
       "h"
     ],
+    "index": 8,
     "input": "H.DGF.f+1+2",
     "name": "Red Spider Lily (Heat)",
     "notes": [
@@ -457,6 +466,7 @@
       "h",
       "m"
     ],
+    "index": 9,
     "input": "1,NSS.1",
     "name": "",
     "notes": [
@@ -507,6 +517,7 @@
       "m",
       "h"
     ],
+    "index": 10,
     "input": "3,NSS.1",
     "name": "",
     "notes": [
@@ -563,6 +574,7 @@
       "m",
       "M"
     ],
+    "index": 11,
     "input": "3,2,NSS.1+2",
     "name": "Enma's Soul Blade",
     "notes": [
@@ -609,6 +621,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 12,
     "input": "NSS.1+4",
     "name": "Soul Stealer",
     "notes": [
@@ -654,6 +667,7 @@
     "hitLevels": [
       "M"
     ],
+    "index": 13,
     "input": "NSS.f+1+2",
     "name": "Nine-Headed Dragon",
     "notes": [
@@ -705,6 +719,7 @@
       "m",
       "M"
     ],
+    "index": 14,
     "input": "df+3,NSS.1",
     "name": "Wood Chopper",
     "notes": [
@@ -753,6 +768,7 @@
     "hitLevels": [
       "M"
     ],
+    "index": 15,
     "input": "NSS.d+1",
     "name": "Quick Chop",
     "notes": [
@@ -801,6 +817,7 @@
     "hitLevels": [
       "M"
     ],
+    "index": 16,
     "input": "NSS.ub+1+2",
     "name": "Soul Blade Yoshimitsu",
     "notes": [
@@ -855,6 +872,7 @@
       "m",
       "M"
     ],
+    "index": 17,
     "input": "uf+3+4,1,4,NSS.1",
     "name": "",
     "notes": [
@@ -906,6 +924,7 @@
       "m",
       "m"
     ],
+    "index": 18,
     "input": "KIN.1,NSS.1",
     "name": "",
     "notes": [
@@ -956,6 +975,7 @@
       "m",
       "M"
     ],
+    "index": 19,
     "input": "KIN.2,NSS.1+2",
     "name": "",
     "notes": [
@@ -1006,6 +1026,7 @@
       "m",
       "M"
     ],
+    "index": 20,
     "input": "KIN.2,1+2*",
     "name": "Tenshu Kuzushi (Hold)",
     "notes": [
@@ -1051,6 +1072,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 21,
     "input": "NSS.KIN.1+4",
     "name": "",
     "notes": [
@@ -1101,6 +1123,7 @@
       "M",
       "M"
     ],
+    "index": 22,
     "input": "NSS.KIN.f+1",
     "name": "",
     "notes": [
@@ -1156,6 +1179,7 @@
       "M",
       "M"
     ],
+    "index": 23,
     "input": "NSS.KIN.f+1*",
     "name": "",
     "notes": [
@@ -1197,6 +1221,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 24,
     "input": "1",
     "name": "Jab",
     "notes": [],
@@ -1238,6 +1263,7 @@
       "h",
       "m"
     ],
+    "index": 25,
     "input": "1,1",
     "name": "Naguri Kabuto Wari",
     "notes": [
@@ -1284,6 +1310,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 26,
     "input": "2",
     "name": "Right Cross",
     "notes": [],
@@ -1324,6 +1351,7 @@
       "h",
       "m"
     ],
+    "index": 27,
     "input": "2,1",
     "name": "Seiken Douharai",
     "notes": [
@@ -1373,6 +1401,7 @@
       "h",
       "h"
     ],
+    "index": 28,
     "input": "2,2",
     "name": "Mushibami",
     "notes": [
@@ -1421,6 +1450,7 @@
       "h",
       "h"
     ],
+    "index": 29,
     "input": "2,3",
     "name": "PK Combo",
     "notes": [
@@ -1463,6 +1493,7 @@
       "h",
       "L"
     ],
+    "index": 30,
     "input": "2,d+3",
     "name": "PDK Combo",
     "notes": [
@@ -1501,6 +1532,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 31,
     "input": "3",
     "name": "Enma",
     "notes": [],
@@ -1538,6 +1570,7 @@
       "m",
       "m"
     ],
+    "index": 33,
     "input": "3,2",
     "name": "",
     "notes": [],
@@ -1583,6 +1616,7 @@
       "m",
       "M"
     ],
+    "index": 34,
     "input": "3,2,1+2",
     "name": "Enma's Cleansing Sword",
     "notes": [
@@ -1631,6 +1665,7 @@
       "m",
       "m"
     ],
+    "index": 35,
     "input": "3~4",
     "name": "Tobi Ushiwaka",
     "notes": [
@@ -1672,6 +1707,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 36,
     "input": "4~3",
     "name": "Kangaroo Kick",
     "notes": [],
@@ -1713,6 +1749,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 37,
     "input": "4",
     "name": "Magic 4",
     "notes": [],
@@ -1751,6 +1788,7 @@
       "h",
       "h"
     ],
+    "index": 38,
     "input": "4,4",
     "name": "",
     "notes": [
@@ -1793,6 +1831,7 @@
       "h",
       "m"
     ],
+    "index": 39,
     "input": "4,4,2",
     "name": "",
     "notes": [],
@@ -1835,6 +1874,7 @@
       "m",
       "h"
     ],
+    "index": 40,
     "input": "4,4,2,2",
     "name": "Wheel of Arrows",
     "notes": [
@@ -1881,6 +1921,7 @@
       "h",
       "m!"
     ],
+    "index": 41,
     "input": "4,4,2,2,1",
     "name": "Wheel of Arrows > Sword Stab",
     "notes": [
@@ -1932,6 +1973,7 @@
       "m!",
       "m!"
     ],
+    "index": 42,
     "input": "4,4,2,2,1~1",
     "name": "Wheel of Arrows > Sword Poke Windmill",
     "notes": [
@@ -1982,6 +2024,7 @@
       "h",
       "h"
     ],
+    "index": 43,
     "input": "4,4,4",
     "name": "Triple Roundhouse Combo",
     "notes": [
@@ -2024,6 +2067,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 44,
     "input": "1+4",
     "name": "Soul Stealer",
     "notes": [
@@ -2073,6 +2117,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 45,
     "input": "1+2+3",
     "name": "Spirit Shield",
     "notes": [
@@ -2117,6 +2162,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 46,
     "input": "f+2",
     "name": "Manji Backfist",
     "notes": [],
@@ -2160,6 +2206,7 @@
       "h",
       "M"
     ],
+    "index": 47,
     "input": "f+2,1",
     "name": "Manji Backfist Shredder",
     "notes": [
@@ -2204,6 +2251,7 @@
       "h",
       "m"
     ],
+    "index": 48,
     "input": "f+2,db+2",
     "name": "Backfist > Stone Fist",
     "notes": [],
@@ -2243,6 +2291,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 49,
     "input": "f+3",
     "name": "Oni Kick",
     "notes": [],
@@ -2287,6 +2336,7 @@
       "h",
       "m"
     ],
+    "index": 50,
     "input": "f+3,4",
     "name": "Zig Zag",
     "notes": [
@@ -2330,6 +2380,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 51,
     "input": "f+4",
     "name": "Toita Daoshi",
     "notes": [
@@ -2381,6 +2432,7 @@
       "M",
       "M"
     ],
+    "index": 53,
     "input": "f+3+4",
     "name": "Kamikaze",
     "notes": [
@@ -2427,6 +2479,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 54,
     "input": "df+1",
     "name": "Tsuka Atemi",
     "notes": [],
@@ -2469,6 +2522,7 @@
       "m",
       "h"
     ],
+    "index": 55,
     "input": "df+1,2",
     "name": "Tsuka Atemi to Back Knuckle",
     "notes": [
@@ -2516,6 +2570,7 @@
       "h",
       "M"
     ],
+    "index": 56,
     "input": "df+1,2,1",
     "name": "Tsuka Atemi Shredder",
     "notes": [
@@ -2562,6 +2617,7 @@
       "h",
       "m"
     ],
+    "index": 57,
     "input": "df+1,2,db+2",
     "name": "Tsuka Atemi > Slap U Crazy",
     "notes": [
@@ -2601,6 +2657,7 @@
       "m",
       "m"
     ],
+    "index": 58,
     "input": "df+1,4",
     "name": "Autumn Leaves",
     "notes": [
@@ -2643,6 +2700,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 59,
     "input": "df+2",
     "name": "Basic Uppercut",
     "notes": [
@@ -2682,6 +2740,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 60,
     "input": "df+3",
     "name": "",
     "notes": [],
@@ -2724,6 +2783,7 @@
       "m",
       "M"
     ],
+    "index": 61,
     "input": "df+3,1",
     "name": "Wood Cutter",
     "notes": [
@@ -2769,6 +2829,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 62,
     "input": "df+4",
     "name": "Side Kick",
     "notes": [],
@@ -2808,6 +2869,7 @@
     "hitLevels": [
       "M"
     ],
+    "index": 63,
     "input": "df+1+4",
     "name": "Gehosen (Simple Input)",
     "notes": [
@@ -2856,6 +2918,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 64,
     "input": "df+2+3",
     "name": "Flashing Steel (Simple Input)",
     "notes": [
@@ -2902,6 +2965,7 @@
     "hitLevels": [
       "M"
     ],
+    "index": 65,
     "input": "d+1",
     "name": "Quick Slash",
     "notes": [
@@ -2948,6 +3012,7 @@
     "hitLevels": [
       "M!"
     ],
+    "index": 66,
     "input": "d+1*(1),n",
     "name": "Death Slash (1)",
     "notes": [
@@ -2994,6 +3059,7 @@
     "hitLevels": [
       "M!"
     ],
+    "index": 67,
     "input": "d+1*(2),n",
     "name": "Death Slash (2)",
     "notes": [
@@ -3040,6 +3106,7 @@
     "hitLevels": [
       "M!"
     ],
+    "index": 68,
     "input": "d+1*(3),n",
     "name": "Death Slash (3)",
     "notes": [
@@ -3086,6 +3153,7 @@
     "hitLevels": [
       "M!"
     ],
+    "index": 69,
     "input": "d+1*(4),n",
     "name": "Death Slash (4)",
     "notes": [
@@ -3132,6 +3200,7 @@
     "hitLevels": [
       "M!"
     ],
+    "index": 70,
     "input": "d+1*(5),n",
     "name": "Death Slash (5)",
     "notes": [
@@ -3178,6 +3247,7 @@
     "hitLevels": [
       "M!"
     ],
+    "index": 71,
     "input": "d+1*(6),n",
     "name": "Death Slash (6)",
     "notes": [
@@ -3220,6 +3290,7 @@
     "hitLevels": [
       "M"
     ],
+    "index": 72,
     "input": "d+2",
     "name": "",
     "notes": [],
@@ -3263,6 +3334,7 @@
       "M",
       "h"
     ],
+    "index": 73,
     "input": "d+2,1",
     "name": "Heshikirigari",
     "notes": [
@@ -3315,6 +3387,7 @@
       "M",
       "m"
     ],
+    "index": 74,
     "input": "d+2,2",
     "name": "Heshikirimutou",
     "notes": [
@@ -3365,6 +3438,7 @@
       "m",
       "h"
     ],
+    "index": 75,
     "input": "d+2,2,1",
     "name": "Heshikiribarai",
     "notes": [
@@ -3416,6 +3490,7 @@
       "m",
       "M"
     ],
+    "index": 76,
     "input": "d+2,2,2",
     "name": "Heshikiriseibatsu",
     "notes": [
@@ -3466,6 +3541,7 @@
       "m",
       "m"
     ],
+    "index": 77,
     "input": "d+2,2,d+1",
     "name": "Heshikirinagi",
     "notes": [
@@ -3511,6 +3587,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 78,
     "input": "d+3",
     "name": "Low Sweep",
     "notes": [],
@@ -3546,6 +3623,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 79,
     "input": "d+4",
     "name": "Toe Check",
     "notes": [],
@@ -3584,6 +3662,7 @@
     "hitLevels": [
       "m!"
     ],
+    "index": 80,
     "input": "d+1+4",
     "name": "Harakiri",
     "notes": [
@@ -3629,6 +3708,7 @@
       "m!",
       "m!"
     ],
+    "index": 81,
     "input": "d+1+4,B+1",
     "name": "",
     "notes": [
@@ -3675,6 +3755,7 @@
       "m!",
       "m!"
     ],
+    "index": 82,
     "input": "d+1+4,B+1,1",
     "name": "",
     "notes": [
@@ -3723,6 +3804,7 @@
       "m!",
       "m!"
     ],
+    "index": 83,
     "input": "d+1+4,B+1,1,1",
     "name": "",
     "notes": [
@@ -3773,6 +3855,7 @@
       "m!",
       "m!"
     ],
+    "index": 84,
     "input": "d+1+4,B+1,1,1,1",
     "name": "",
     "notes": [
@@ -3825,6 +3908,7 @@
       "m!",
       "m!"
     ],
+    "index": 85,
     "input": "d+1+4,B+1,1,1,1,1",
     "name": "Harakiri > Manji Blood Dance",
     "notes": [
@@ -3869,6 +3953,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 86,
     "input": "db+1",
     "name": "",
     "notes": [],
@@ -3912,6 +3997,7 @@
     "hitLevels": [
       "Lm"
     ],
+    "index": 87,
     "input": "db+1,2",
     "name": "Nebular Burst",
     "notes": [
@@ -3952,6 +4038,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 88,
     "input": "db+2",
     "name": "",
     "notes": [],
@@ -3992,6 +4079,7 @@
       "m",
       "m"
     ],
+    "index": 89,
     "input": "db+2,2",
     "name": "",
     "notes": [],
@@ -4034,6 +4122,7 @@
       "m",
       "m"
     ],
+    "index": 90,
     "input": "db+2,2,2",
     "name": "",
     "notes": [],
@@ -4078,6 +4167,7 @@
       "m",
       "m"
     ],
+    "index": 91,
     "input": "db+2,2,2,2",
     "name": "",
     "notes": [],
@@ -4124,6 +4214,7 @@
       "m",
       "m"
     ],
+    "index": 92,
     "input": "db+2,2,2,2,2",
     "name": "",
     "notes": [
@@ -4173,6 +4264,7 @@
       "m",
       "m"
     ],
+    "index": 93,
     "input": "db+2,2,2,2,2,2",
     "name": "Stone Fists",
     "notes": [],
@@ -4209,6 +4301,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 94,
     "input": "db+3",
     "name": "",
     "notes": [],
@@ -4247,6 +4340,7 @@
       "l",
       "l"
     ],
+    "index": 95,
     "input": "db+3,3",
     "name": "",
     "notes": [
@@ -4292,6 +4386,7 @@
       "l",
       "l"
     ],
+    "index": 96,
     "input": "db+3,3,3",
     "name": "",
     "notes": [
@@ -4337,6 +4432,7 @@
       "l",
       "l"
     ],
+    "index": 97,
     "input": "db+3,3,3,3",
     "name": "",
     "notes": [
@@ -4384,6 +4480,7 @@
       "l",
       "l"
     ],
+    "index": 98,
     "input": "db+3,3,3,3,3",
     "name": "",
     "notes": [
@@ -4433,6 +4530,7 @@
       "l",
       "l"
     ],
+    "index": 99,
     "input": "db+3,3,3,3,3,3",
     "name": "Manji Spin Low Kicks",
     "notes": [
@@ -4484,6 +4582,7 @@
       "l",
       "m"
     ],
+    "index": 100,
     "input": "db+3,3,3,3,3,4",
     "name": "Manji Spin Low Kicks Front Kick",
     "notes": [
@@ -4526,6 +4625,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 101,
     "input": "db+4",
     "name": "Nozuchi Fumi",
     "notes": [],
@@ -4557,6 +4657,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 102,
     "input": "DB+1+2",
     "name": "Bad Stomach (BDS)",
     "notes": [
@@ -4598,6 +4699,7 @@
     "hitLevels": [
       "h!"
     ],
+    "index": 103,
     "input": "BDS.1",
     "name": "Poison Breath",
     "notes": [],
@@ -4636,6 +4738,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 104,
     "input": "BDS.3",
     "name": "Backflip Kick",
     "notes": [],
@@ -4671,6 +4774,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 105,
     "input": "B+1",
     "name": "",
     "notes": [],
@@ -4709,6 +4813,7 @@
       "h",
       "h"
     ],
+    "index": 106,
     "input": "B+1,1",
     "name": "",
     "notes": [],
@@ -4749,6 +4854,7 @@
       "h",
       "h"
     ],
+    "index": 107,
     "input": "B+1,1,1",
     "name": "",
     "notes": [],
@@ -4791,6 +4897,7 @@
       "h",
       "h"
     ],
+    "index": 108,
     "input": "B+1,1,1,1",
     "name": "",
     "notes": [],
@@ -4835,6 +4942,7 @@
       "h",
       "h"
     ],
+    "index": 109,
     "input": "B+1,1,1,1,1",
     "name": "",
     "notes": [],
@@ -4881,6 +4989,7 @@
       "h",
       "h"
     ],
+    "index": 110,
     "input": "B+1,1,1,1,1,1",
     "name": "Slap U Silly",
     "notes": [],
@@ -4921,6 +5030,7 @@
       "h",
       "l"
     ],
+    "index": 111,
     "input": "B+1,1,DB+3",
     "name": "",
     "notes": [
@@ -4967,6 +5077,7 @@
       "l",
       "l"
     ],
+    "index": 112,
     "input": "B+1,1,DB+3,3",
     "name": "",
     "notes": [
@@ -5008,6 +5119,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 113,
     "input": "b+2",
     "name": "",
     "notes": [],
@@ -5049,6 +5161,7 @@
       "m",
       "M"
     ],
+    "index": 114,
     "input": "b+2,1",
     "name": "Oma Gehosen",
     "notes": [
@@ -5088,6 +5201,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 116,
     "input": "b+3",
     "name": "",
     "notes": [
@@ -5121,6 +5235,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 117,
     "input": "b+3,3",
     "name": "",
     "notes": [
@@ -5155,6 +5270,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 118,
     "input": "b+3,3,3",
     "name": "",
     "notes": [
@@ -5189,6 +5305,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 119,
     "input": "b+3,3,3,3",
     "name": "",
     "notes": [
@@ -5223,6 +5340,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 120,
     "input": "b+3,3,3,3,3",
     "name": "",
     "notes": [
@@ -5257,6 +5375,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 121,
     "input": "b+3,3,3,3,3,3",
     "name": "Spinning Evade",
     "notes": [
@@ -5301,6 +5420,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 122,
     "input": "ub+1",
     "name": "",
     "notes": [],
@@ -5343,6 +5463,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 123,
     "input": "ub+4",
     "name": "Avoiding the Puddle",
     "notes": [],
@@ -5387,6 +5508,7 @@
     "hitLevels": [
       "M"
     ],
+    "index": 124,
     "input": "ub+1+2",
     "name": "Cleansing Sword Yoshimitsu",
     "notes": [
@@ -5429,6 +5551,7 @@
     "hitLevels": [
       "m!"
     ],
+    "index": 125,
     "input": "ub+1+3",
     "name": "Sword Stab",
     "notes": [
@@ -5473,6 +5596,7 @@
     "hitLevels": [
       "m!h!"
     ],
+    "index": 126,
     "input": "ub+1+3,1+2",
     "name": "Face Splitter",
     "notes": [
@@ -5519,6 +5643,7 @@
       "m!",
       "m!"
     ],
+    "index": 127,
     "input": "ub+1+3,n+1",
     "name": "Sword Poke Windmill",
     "notes": [
@@ -5564,6 +5689,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 128,
     "input": "u+1",
     "name": "",
     "notes": [],
@@ -5611,6 +5737,7 @@
       "M",
       "M"
     ],
+    "index": 129,
     "input": "u+3+4",
     "name": "Guillotine Crow Kick",
     "notes": [
@@ -5658,6 +5785,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 130,
     "input": "uf+1",
     "name": "Helmet Strike",
     "notes": [],
@@ -5701,6 +5829,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 131,
     "input": "uf+2",
     "name": "Kurama Itto",
     "notes": [
@@ -5743,6 +5872,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 132,
     "input": "uf+3",
     "name": "Rising Knee",
     "notes": [
@@ -5786,6 +5916,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 133,
     "input": "uf+4",
     "name": "Avoiding the Puddle",
     "notes": [],
@@ -5829,6 +5960,7 @@
     "hitLevels": [
       "M"
     ],
+    "index": 134,
     "input": "uf+3+4",
     "name": "Poison Wind",
     "notes": [
@@ -5875,6 +6007,7 @@
       "M",
       "h"
     ],
+    "index": 135,
     "input": "uf+3+4,1",
     "name": "Poison Wind Bronze Fist",
     "notes": [
@@ -5924,6 +6057,7 @@
       "h",
       "m"
     ],
+    "index": 136,
     "input": "uf+3+4,1,4",
     "name": "Poison Wind Silver Fist",
     "notes": [],
@@ -5970,6 +6104,7 @@
       "m",
       "M"
     ],
+    "index": 137,
     "input": "uf+3+4,1,4,1",
     "name": "Poison Wind Gold Strike",
     "notes": [
@@ -6024,6 +6159,7 @@
       "h",
       "M"
     ],
+    "index": 138,
     "input": "uf+3+4,1,3+4",
     "name": "Poison Wind Steel Smash",
     "notes": [
@@ -6074,6 +6210,7 @@
       "M",
       "M"
     ],
+    "index": 139,
     "input": "uf+3+4,3",
     "name": "Poison Wind Eclipse Kick",
     "notes": [
@@ -6120,6 +6257,7 @@
       "M",
       "m"
     ],
+    "index": 140,
     "input": "uf+3+4,3+4",
     "name": "Poison Wind > Kangaroo Kick",
     "notes": [
@@ -6162,6 +6300,7 @@
     "hitLevels": [
       "M!"
     ],
+    "index": 141,
     "input": "uf+1+3",
     "name": "Death Copter",
     "notes": [
@@ -6207,6 +6346,7 @@
     "hitLevels": [
       "M"
     ],
+    "index": 142,
     "input": "uf+1+3,d",
     "name": "Death Copter Slice (1)",
     "notes": [
@@ -6251,6 +6391,7 @@
     "hitLevels": [
       "M"
     ],
+    "index": 143,
     "input": "uf+1+3>d",
     "name": "Death Copter Slice (2)",
     "notes": [
@@ -6295,6 +6436,7 @@
     "hitLevels": [
       "M!"
     ],
+    "index": 144,
     "input": "uf+1+3,b",
     "name": "Death Copter Trick",
     "notes": [
@@ -6337,6 +6479,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 145,
     "input": "f,F+2",
     "name": "Sword Smash",
     "notes": [
@@ -6381,6 +6524,7 @@
       "m",
       "t"
     ],
+    "index": 146,
     "input": "f,F+2:2",
     "name": "Yomi Kakenuke",
     "notes": [
@@ -6421,6 +6565,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 147,
     "input": "f,F+3",
     "name": "Iwatsubute",
     "notes": [
@@ -6463,6 +6608,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 148,
     "input": "f,F+4",
     "name": "Fubuki",
     "notes": [
@@ -6507,6 +6653,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 149,
     "input": "f,F+1+2",
     "name": "Solar Kick",
     "notes": [
@@ -6550,6 +6697,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 150,
     "input": "f,F+3+4",
     "name": "Reverse Cartwheel",
     "notes": [
@@ -6596,6 +6744,7 @@
       "m",
       "m"
     ],
+    "index": 151,
     "input": "f,F+3+4,1+2",
     "name": "",
     "notes": [
@@ -6644,6 +6793,7 @@
       "m",
       "m"
     ],
+    "index": 152,
     "input": "f,F+3+4,1+2,3+4",
     "name": "Solar Kick Shark Attack",
     "notes": [
@@ -6687,6 +6837,7 @@
     "hitLevels": [
       "m!"
     ],
+    "index": 153,
     "input": "f,F+1+4",
     "name": "Suicide",
     "notes": [
@@ -6730,6 +6881,7 @@
     "hitLevels": [
       "m!"
     ],
+    "index": 154,
     "input": "f,F+1+4,n",
     "name": "Confusion",
     "notes": [],
@@ -6770,6 +6922,7 @@
       "m!",
       "m!"
     ],
+    "index": 155,
     "input": "f,F+1+4,F",
     "name": "Double Suicide",
     "notes": [
@@ -6813,6 +6966,7 @@
     "hitLevels": [
       "m!"
     ],
+    "index": 156,
     "input": "b,B+1+4",
     "name": "Thunder Blade",
     "notes": [
@@ -6856,6 +7010,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 157,
     "input": "b,B+1+4,B",
     "name": "Thunder Blade Feint to Soul Stealer",
     "notes": [
@@ -6900,6 +7055,7 @@
     "hitLevels": [
       "M"
     ],
+    "index": 158,
     "input": "f,n,d,df+1",
     "name": "Gehosen",
     "notes": [
@@ -6949,6 +7105,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 159,
     "input": "f,n,d,df+2",
     "name": "Flashing Steel",
     "notes": [
@@ -6998,6 +7155,7 @@
       "h",
       "M"
     ],
+    "index": 160,
     "input": "qcf+1",
     "name": "Moonsault Slayer",
     "notes": [
@@ -7047,6 +7205,7 @@
     "hitLevels": [
       "M"
     ],
+    "index": 161,
     "input": "f,f,F+3",
     "name": "Manji Kick",
     "notes": [
@@ -7087,6 +7246,7 @@
     "hitLevels": [
       "sl"
     ],
+    "index": 162,
     "input": "FC.d+1",
     "name": "",
     "notes": [
@@ -7125,6 +7285,7 @@
     "hitLevels": [
       "sl"
     ],
+    "index": 163,
     "input": "FC.d+2",
     "name": "",
     "notes": [],
@@ -7160,6 +7321,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 164,
     "input": "FC.d+3",
     "name": "",
     "notes": [],
@@ -7195,6 +7357,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 165,
     "input": "FC.d+4",
     "name": "",
     "notes": [],
@@ -7235,6 +7398,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 166,
     "input": "FC.df+4",
     "name": "Knee Cap",
     "notes": [
@@ -7276,6 +7440,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 167,
     "input": "FC.db+3",
     "name": "",
     "notes": [],
@@ -7314,6 +7479,7 @@
     "hitLevels": [
       "l!"
     ],
+    "index": 168,
     "input": "FC.DF+1",
     "name": "\nSword Sweep\nSamurai Cutter\n",
     "notes": [],
@@ -7352,6 +7518,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 169,
     "input": "ws1",
     "name": "",
     "notes": [],
@@ -7389,6 +7556,7 @@
       "m",
       "h"
     ],
+    "index": 170,
     "input": "ws1,1",
     "name": "",
     "notes": [
@@ -7436,6 +7604,7 @@
       "h",
       "h"
     ],
+    "index": 171,
     "input": "ws1,1,1",
     "name": "",
     "notes": [
@@ -7487,6 +7656,7 @@
       "h",
       "m"
     ],
+    "index": 172,
     "input": "ws1,1,1,1",
     "name": "Door Knocker",
     "notes": [
@@ -7534,6 +7704,7 @@
       "m",
       "h"
     ],
+    "index": 173,
     "input": "ws1,2",
     "name": "Door Knocker to Back Knuckle",
     "notes": [
@@ -7584,6 +7755,7 @@
       "h",
       "M"
     ],
+    "index": 174,
     "input": "ws1,2,1",
     "name": "Door Knocker Shredder",
     "notes": [
@@ -7628,6 +7800,7 @@
       "m",
       "hm"
     ],
+    "index": 175,
     "input": "ws1,2,db+2",
     "name": "Door Knocker > Back Knuckle Slap U Crazy",
     "notes": [],
@@ -7664,6 +7837,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 176,
     "input": "ws2",
     "name": "Exorcism Fist",
     "notes": [],
@@ -7707,6 +7881,7 @@
       "m",
       "m"
     ],
+    "index": 177,
     "input": "ws2,1",
     "name": "Scowling Moon God",
     "notes": [
@@ -7748,6 +7923,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 178,
     "input": "ws3",
     "name": "",
     "notes": [],
@@ -7789,6 +7965,7 @@
       "m",
       "m"
     ],
+    "index": 179,
     "input": "ws3,2",
     "name": "Kimon Matagi",
     "notes": [
@@ -7830,6 +8007,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 180,
     "input": "ws4",
     "name": "Toe Smash",
     "notes": [
@@ -7864,6 +8042,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 181,
     "input": "1+2",
     "name": "Kincho",
     "notes": [
@@ -7911,6 +8090,7 @@
       "M",
       "M"
     ],
+    "index": 182,
     "input": "1+2,P",
     "name": "Guillotine Crow Trap",
     "notes": [],
@@ -7942,6 +8122,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 183,
     "input": "KIN.f",
     "name": "Kincho Forward Dash",
     "notes": [],
@@ -7977,6 +8158,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 184,
     "input": "KIN.1",
     "name": "",
     "notes": [
@@ -8024,6 +8206,7 @@
       "m",
       "m"
     ],
+    "index": 185,
     "input": "KIN.1,1",
     "name": "Doushi Kiri",
     "notes": [
@@ -8070,6 +8253,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 186,
     "input": "KIN.2",
     "name": "",
     "notes": [],
@@ -8113,6 +8297,7 @@
       "m",
       "M"
     ],
+    "index": 187,
     "input": "KIN.2,1+2",
     "name": "Tenshu Kuzushi",
     "notes": [
@@ -8163,6 +8348,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 189,
     "input": "KIN.3",
     "name": "Shibakari",
     "notes": [],
@@ -8204,6 +8390,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 190,
     "input": "KIN.4",
     "name": "Whirlwind",
     "notes": [
@@ -8254,6 +8441,7 @@
       "m",
       "m"
     ],
+    "index": 191,
     "input": "KIN.1+2",
     "name": "Ashura Blade",
     "notes": [
@@ -8298,6 +8486,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 192,
     "input": "KIN.1+4",
     "name": "Kincho Soul Stealer",
     "notes": [
@@ -8342,6 +8531,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 193,
     "input": "KIN.d+1",
     "name": "Ishigaki Kuzushi",
     "notes": [
@@ -8386,6 +8576,7 @@
       "M",
       "M"
     ],
+    "index": 194,
     "input": "KIN.f+1",
     "name": "Submission Chakram",
     "notes": [
@@ -8441,6 +8632,7 @@
       "M",
       "M"
     ],
+    "index": 195,
     "input": "KIN.f+1*",
     "name": "Submission Chakram (Hold)",
     "notes": [
@@ -8483,6 +8675,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 197,
     "input": "KIN.b+2",
     "name": "",
     "notes": [],
@@ -8526,6 +8719,7 @@
       "m",
       "M"
     ],
+    "index": 198,
     "input": "KIN.b+2,1",
     "name": "Ikaruga",
     "notes": [
@@ -8568,6 +8762,7 @@
     "hitLevels": [
       "m!"
     ],
+    "index": 199,
     "input": "KIN.b+1+2",
     "name": "Mumyo Juji Ken",
     "notes": [
@@ -8605,6 +8800,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 200,
     "input": "KIN.u+1+2",
     "name": "Kincho Manji Dragonfly",
     "notes": [],
@@ -8636,6 +8832,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 201,
     "input": "3+4",
     "name": "Meditation",
     "notes": [],
@@ -8667,6 +8864,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 202,
     "input": "MED.3+4",
     "name": "Meditation to Backturn",
     "notes": [],
@@ -8698,6 +8896,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 203,
     "input": "MED.n",
     "name": "",
     "notes": [
@@ -8736,6 +8935,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 204,
     "input": "MED.f",
     "name": "",
     "notes": [
@@ -8771,6 +8971,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 205,
     "input": "MED.d",
     "name": "",
     "notes": [],
@@ -8812,6 +9013,7 @@
       "m",
       "M"
     ],
+    "index": 206,
     "input": "MED.3",
     "name": "Back Handspring",
     "notes": [
@@ -8855,6 +9057,7 @@
     "hitLevels": [
       "m!"
     ],
+    "index": 207,
     "input": "MED.1+2",
     "name": "Meditation Healing",
     "notes": [],
@@ -8893,6 +9096,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 208,
     "input": "MED.1+4",
     "name": "Meditation Backturned Flash",
     "notes": [
@@ -8930,6 +9134,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 209,
     "input": "d+1+2",
     "name": "Flea",
     "notes": [
@@ -8970,6 +9175,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 210,
     "input": "FLE.n",
     "name": "Flea Idle",
     "notes": [
@@ -9008,6 +9214,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 211,
     "input": "FLE.db",
     "name": "Flea Cancel",
     "notes": [],
@@ -9039,6 +9246,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 212,
     "input": "FLE.1",
     "name": "Flea Roll",
     "notes": [],
@@ -9078,6 +9286,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 213,
     "input": "FLE.2",
     "name": "Flea > Sliding Headbutt",
     "notes": [
@@ -9112,6 +9321,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 214,
     "input": "FLE.3",
     "name": "Flea Dance",
     "notes": [
@@ -9153,6 +9363,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 215,
     "input": "FLE.1+2",
     "name": "Skull Splitter",
     "notes": [],
@@ -9195,6 +9406,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 216,
     "input": "FLE.3+4",
     "name": "Flea > Kangaroo Kick",
     "notes": [],
@@ -9241,6 +9453,7 @@
       "M",
       "M"
     ],
+    "index": 217,
     "input": "FLE.f,f",
     "name": "Running Flea",
     "notes": [
@@ -9276,6 +9489,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 218,
     "input": "FLE.d",
     "name": "Flea Digger",
     "notes": [
@@ -9322,6 +9536,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 220,
     "input": "FLE.f+2",
     "name": "Flea to Dragonfly Slash",
     "notes": [],
@@ -9357,6 +9572,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 221,
     "input": "FLE.d+3+4",
     "name": "Flea > Indian Stance",
     "notes": [],
@@ -9388,6 +9604,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 222,
     "input": "FLE.u+1+2",
     "name": "Flea > Manji Dragonfly",
     "notes": [],
@@ -9428,6 +9645,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 223,
     "input": "FLE.u+3+4",
     "name": "Flea > Dragonfly Feint",
     "notes": [
@@ -9471,6 +9689,7 @@
     "hitLevels": [
       "m!"
     ],
+    "index": 224,
     "input": "FLE.uf",
     "name": "Jumping Flea",
     "notes": [],
@@ -9504,6 +9723,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 225,
     "input": "FLE.f",
     "name": "Flea Step (WFL)",
     "notes": [
@@ -9545,6 +9765,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 226,
     "input": "WFL.3",
     "name": "Sakanobori",
     "notes": [
@@ -9592,6 +9813,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 227,
     "input": "WFL.4",
     "name": "Tsurubebi",
     "notes": [],
@@ -9623,6 +9845,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 228,
     "input": "d+3+4",
     "name": "Indian Stance",
     "notes": [
@@ -9656,6 +9879,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 229,
     "input": "IND.n",
     "name": "Indian Stance Healing",
     "notes": [
@@ -9691,6 +9915,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 230,
     "input": "IND.u",
     "name": "Indian Stance Cancel",
     "notes": [
@@ -9724,6 +9949,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 231,
     "input": "IND.f",
     "name": "Indian Stance Vaccum Dance",
     "notes": [
@@ -9769,6 +9995,7 @@
     "hitLevels": [
       "M!"
     ],
+    "index": 232,
     "input": "IND.1",
     "name": "Indian Stance Storm",
     "notes": [
@@ -9812,6 +10039,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 233,
     "input": "IND.2",
     "name": "Indian Stance Stone Fists",
     "notes": [
@@ -9856,6 +10084,7 @@
       "",
       "m"
     ],
+    "index": 234,
     "input": "IND.3",
     "name": "",
     "notes": [
@@ -9903,6 +10132,7 @@
       "m",
       "m"
     ],
+    "index": 235,
     "input": "IND.3,3+4",
     "name": "Indian Stance Cannon",
     "notes": [
@@ -9948,6 +10178,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 236,
     "input": "IND.4",
     "name": "Indian Stance Knee Cap",
     "notes": [
@@ -9983,6 +10214,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 237,
     "input": "IND.1+2",
     "name": "Indian Stance Flea",
     "notes": [],
@@ -10021,6 +10253,7 @@
       "m",
       "m"
     ],
+    "index": 238,
     "input": "IND.3+4",
     "name": "Indian Tobi Ushiwaka",
     "notes": [
@@ -10056,6 +10289,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 239,
     "input": "IND.D+3+4*",
     "name": "Indian Levitation",
     "notes": [
@@ -10092,6 +10326,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 240,
     "input": "IND.u+1+2",
     "name": "Indian Stance Manji Dragonfly",
     "notes": [],
@@ -10123,6 +10358,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 241,
     "input": "b+1+2",
     "name": "\nNo Sword Stance\nMutou no Kiwami\n",
     "notes": [],
@@ -10154,6 +10390,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 242,
     "input": "NSS.b+1+2",
     "name": "Battou Kakugo",
     "notes": [],
@@ -10195,6 +10432,7 @@
       "h",
       "h"
     ],
+    "index": 244,
     "input": "2,NSS.1",
     "name": "Karakuri Uzumaki",
     "notes": [
@@ -10245,6 +10483,7 @@
       "h",
       "m"
     ],
+    "index": 247,
     "input": "4,4,2,2,NSS.1",
     "name": "",
     "notes": [],
@@ -10294,6 +10533,7 @@
       "m",
       "h!"
     ],
+    "index": 248,
     "input": "4,4,2,2,NSS.1~1",
     "name": "",
     "notes": [
@@ -10338,6 +10578,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 250,
     "input": "NSS.1+2+3",
     "name": "Spirit Spinner",
     "notes": [],
@@ -10381,6 +10622,7 @@
       "h",
       "m"
     ],
+    "index": 251,
     "input": "f+2,NSS.1",
     "name": "Manji Backfist Swipe",
     "notes": [
@@ -10425,6 +10667,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 253,
     "input": "NSS.f+3+4",
     "name": "Bull Rush",
     "notes": [
@@ -10477,6 +10720,7 @@
       "h",
       "M"
     ],
+    "index": 254,
     "input": "df+1,2,NSS.1",
     "name": "Tsuka Atemi Swipe",
     "notes": [
@@ -10520,6 +10764,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 256,
     "input": "NSS.df+1+4",
     "name": "Moonlight (Simple Input)",
     "notes": [
@@ -10566,6 +10811,7 @@
       "M",
       "h"
     ],
+    "index": 258,
     "input": "d+2,NSS.1",
     "name": "Heshikirigari",
     "notes": [
@@ -10615,6 +10861,7 @@
       "m",
       "h"
     ],
+    "index": 259,
     "input": "d+2,2,NSS.1",
     "name": "",
     "notes": [
@@ -10664,6 +10911,7 @@
       "m",
       "m"
     ],
+    "index": 260,
     "input": "d+2,2,NSS.d+1",
     "name": "",
     "notes": [
@@ -10700,6 +10948,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 261,
     "input": "NSS.d+1+2",
     "name": "No Sword Stance > Indian Stance",
     "notes": [],
@@ -10731,6 +10980,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 262,
     "input": "NSS.d+1+4",
     "name": "Unfinished Business",
     "notes": [],
@@ -10766,6 +11016,7 @@
     "hitLevels": [
       "sl"
     ],
+    "index": 263,
     "input": "NSS.db+1",
     "name": "Manji Shagapan",
     "notes": [
@@ -10809,6 +11060,7 @@
       "m",
       "m"
     ],
+    "index": 264,
     "input": "b+2,NSS.1",
     "name": "",
     "notes": [
@@ -10851,6 +11103,7 @@
       "m",
       "h"
     ],
+    "index": 265,
     "input": "b+2,NSS.2",
     "name": "",
     "notes": [
@@ -10899,6 +11152,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 266,
     "input": "NSS.ub+1",
     "name": "",
     "notes": [],
@@ -10937,6 +11191,7 @@
     "hitLevels": [
       "m!"
     ],
+    "index": 268,
     "input": "NSS.ub+1+3",
     "name": "Spinning Finger Stab",
     "notes": [
@@ -10978,6 +11233,7 @@
     "hitLevels": [
       "m!h"
     ],
+    "index": 269,
     "input": "NSS.ub+1+3,1+2",
     "name": "Face Slapper",
     "notes": [],
@@ -11021,6 +11277,7 @@
       "m!",
       "h!"
     ],
+    "index": 270,
     "input": "NSS.ub+1+3,n+1",
     "name": "Index Poke Windmill",
     "notes": [
@@ -11063,6 +11320,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 271,
     "input": "NSS.u+1",
     "name": "",
     "notes": [],
@@ -11103,6 +11361,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 272,
     "input": "NSS.u+1+2",
     "name": "Ishiusu Tsubushi",
     "notes": [
@@ -11148,6 +11407,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 273,
     "input": "NSS.uf+1",
     "name": "",
     "notes": [],
@@ -11181,6 +11441,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 274,
     "input": "NSS.uf+1+3",
     "name": "Safe Heron Jump",
     "notes": [],
@@ -11223,6 +11484,7 @@
     "hitLevels": [
       "m!"
     ],
+    "index": 276,
     "input": "NSS.b,B+1+4",
     "name": "Thunder Palm Strike",
     "notes": [],
@@ -11261,6 +11523,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 277,
     "input": "NSS.b,B+1+4,B",
     "name": "Thunder Palm Strike Feint to Soul Stealer",
     "notes": [
@@ -11306,6 +11569,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 278,
     "input": "NSS.f,n,d,df+1",
     "name": "Moonlight",
     "notes": [
@@ -11352,6 +11616,7 @@
     "hitLevels": [
       "M"
     ],
+    "index": 279,
     "input": "NSS.qcf+1",
     "name": "Moonsault",
     "notes": [
@@ -11395,6 +11660,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 280,
     "input": "NSS.FC.DF+1",
     "name": "",
     "notes": [],
@@ -11433,6 +11699,7 @@
       "l",
       "L"
     ],
+    "index": 281,
     "input": "NSS.FC.DF+1,2",
     "name": "Agonbaku",
     "notes": [
@@ -11477,6 +11744,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 282,
     "input": "NSS.FC.df+3",
     "name": "Spinning Cleave",
     "notes": [],
@@ -11514,6 +11782,7 @@
       "m",
       "h"
     ],
+    "index": 283,
     "input": "ws2,NSS.1",
     "name": "",
     "notes": [
@@ -11559,6 +11828,7 @@
       "h",
       "m"
     ],
+    "index": 284,
     "input": "ws2,NSS.1,2",
     "name": "Scowling Aratama",
     "notes": [
@@ -11607,6 +11877,7 @@
       "h",
       "h"
     ],
+    "index": 285,
     "input": "ws2,NSS.1,3",
     "name": "Scowling Spirit",
     "notes": [
@@ -11652,6 +11923,7 @@
       "m",
       "M"
     ],
+    "index": 288,
     "input": "KIN.2,NSS.1+2*",
     "name": "",
     "notes": [
@@ -11701,6 +11973,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 292,
     "input": "NSS.KIN.d+1",
     "name": "",
     "notes": [],
@@ -11741,6 +12014,7 @@
     "hitLevels": [
       "M"
     ],
+    "index": 293,
     "input": "NSS.IND.1",
     "name": "",
     "notes": [
@@ -11783,6 +12057,7 @@
     "hitLevels": [
       "l"
     ],
+    "index": 294,
     "input": "NSS.BT.d+1",
     "name": "",
     "notes": [],
@@ -11814,6 +12089,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 295,
     "input": "u+1+2",
     "name": "Manji Dragonfly",
     "notes": [
@@ -11849,6 +12125,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 296,
     "input": "DGF.f",
     "name": "Dragonfly Forward",
     "notes": [],
@@ -11891,6 +12168,7 @@
     "hitLevels": [
       "M"
     ],
+    "index": 297,
     "input": "DGF.1",
     "name": "Dragonfly Blade",
     "notes": [
@@ -11936,6 +12214,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 298,
     "input": "DGF.2",
     "name": "Dragonfly Fist",
     "notes": [],
@@ -11977,6 +12256,7 @@
       "h",
       "M"
     ],
+    "index": 299,
     "input": "DGF.2,4",
     "name": "Ubume",
     "notes": [
@@ -12022,6 +12302,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 300,
     "input": "DGF.3",
     "name": "Dragonfly Sweep",
     "notes": [],
@@ -12053,6 +12334,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 302,
     "input": "DGF.1+2",
     "name": "Manji Dragonfly > Flea",
     "notes": [],
@@ -12091,6 +12373,7 @@
       "h!",
       "t"
     ],
+    "index": 303,
     "input": "DGF.3+4",
     "name": "Spirited Away",
     "notes": [
@@ -12138,6 +12421,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 304,
     "input": "DGF.f+2",
     "name": "Dragonfly Slash",
     "notes": [],
@@ -12185,6 +12469,7 @@
       "h",
       "h"
     ],
+    "index": 305,
     "input": "DGF.f+1+2",
     "name": "Red Spider Lily",
     "notes": [
@@ -12224,6 +12509,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 306,
     "input": "DGF.d+3+4",
     "name": "Manji Dragonfly > Indian Stance",
     "notes": [],
@@ -12259,6 +12545,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 307,
     "input": "BT.1",
     "name": "",
     "notes": [],
@@ -12300,6 +12587,7 @@
       "h",
       "m"
     ],
+    "index": 308,
     "input": "BT.1,2",
     "name": "Aratama",
     "notes": [
@@ -12346,6 +12634,7 @@
       "h",
       "h"
     ],
+    "index": 309,
     "input": "BT.1,3",
     "name": "Magatama",
     "notes": [
@@ -12390,6 +12679,7 @@
     "hitLevels": [
       "h"
     ],
+    "index": 310,
     "input": "BT.2",
     "name": "Manji Backfist 2",
     "notes": [
@@ -12432,6 +12722,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 311,
     "input": "BT.3",
     "name": "Perilous Spirit",
     "notes": [],
@@ -12472,6 +12763,7 @@
     "hitLevels": [
       "L"
     ],
+    "index": 312,
     "input": "BT.d+1",
     "name": "Shisetsu Genman",
     "notes": [],
@@ -12512,6 +12804,7 @@
       "m",
       "t"
     ],
+    "index": 313,
     "input": "R.df+1+2",
     "name": "Trailokya Pilgrimage",
     "notes": [
@@ -12553,6 +12846,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 314,
     "input": "1+2+3+4",
     "name": "\nKi Charge\nSupercharger\n",
     "notes": [
@@ -12595,6 +12889,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 315,
     "input": "SS.1",
     "name": "Inner Palm",
     "notes": [],
@@ -12634,6 +12929,7 @@
     "hitLevels": [
       "m"
     ],
+    "index": 316,
     "input": "SS.2",
     "name": "Shrine",
     "notes": [
@@ -12669,6 +12965,7 @@
       "properties": []
     },
     "hitLevels": [],
+    "index": 317,
     "input": "FUFT.d+3+4",
     "name": "Indian Stance Healing",
     "notes": [],
@@ -12707,6 +13004,7 @@
     "hitLevels": [
       "M"
     ],
+    "index": 318,
     "input": "OTG.u+1",
     "name": "Kaishaku",
     "notes": [
@@ -12752,6 +13050,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 319,
     "input": "1+3",
     "name": "Oni Killer",
     "notes": [
@@ -12792,6 +13091,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 320,
     "input": "2+4",
     "name": "Sword Face Smash",
     "notes": [
@@ -12835,6 +13135,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 321,
     "input": "LeftThrow",
     "name": "Wheels of Hell",
     "notes": [
@@ -12875,6 +13176,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 322,
     "input": "RightThrow",
     "name": "Neck Breaker",
     "notes": [],
@@ -12912,6 +13214,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 323,
     "input": "BackThrow",
     "name": "Tornado Drop",
     "notes": [
@@ -12951,6 +13254,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 324,
     "input": "uf+1+2",
     "name": "Rainbow Drop",
     "notes": [
@@ -12992,6 +13296,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 325,
     "input": "qcf+2",
     "name": "Soul Siphon",
     "notes": [
@@ -13035,6 +13340,7 @@
     "hitLevels": [
       "t"
     ],
+    "index": 326,
     "input": "qcb,f+2",
     "name": "Soul Possession",
     "notes": [
