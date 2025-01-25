@@ -13,7 +13,7 @@ import {
 
 interface Props {
     title: string
-    caption: string
+    caption: React.ReactNode
     children: React.ReactNode
     formId: string
     isOpen?: boolean
@@ -46,7 +46,7 @@ export function TsFormDialog({
     return (
         <Dialog open={isOpen} onOpenChange={onOpenChange}>
             <DialogTrigger asChild>
-                <Button>{caption}</Button>
+                <div>{caption}</div>
             </DialogTrigger>
             <DialogContent className="sm:max-w-[425px]">
                 <DialogHeader>

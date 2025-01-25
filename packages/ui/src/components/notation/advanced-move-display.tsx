@@ -1,6 +1,6 @@
 import { TsSimpleMoveDisplay } from './simple-move-display'
 import { TsChip } from '../chip/chip'
-import { Crosshair, Shield, Slash, Sword, Syringe, Timer } from 'lucide-react'
+import { Crosshair, Shield, Sword, Syringe, Timer } from 'lucide-react'
 import { cn } from '../../utils'
 
 interface Props {
@@ -11,6 +11,7 @@ interface Props {
     framesOnHit?: string | null
     framesOnCounterHit?: string | null
     framesOnStartup?: string | null
+    children?: React.ReactNode
 }
 
 function FramesItem({
@@ -154,7 +155,10 @@ export function TsAdvancedMoveDisplay(props: Props) {
 
     return (
         <div className="bg-black p-4">
-            <div className="mb-2 font-bold">{headline}</div>
+            <div className="mb-2 flex justify-between">
+                <div className="font-bold">{headline}</div>
+                {props.children}
+            </div>
             <TsSimpleMoveDisplay notation={props.notation} />
 
             <div className="mt-4">
