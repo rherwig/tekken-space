@@ -8,12 +8,13 @@ import {
     NotationThemeProvider,
     ThemeProvider,
 } from '@tekken-space/ui/providers'
-import { Toaster } from '@tekken-space/ui/base'
+import { SidebarProvider, SidebarTrigger, Toaster } from '@tekken-space/ui/base'
 import {
     type Preferences,
     PreferencesProvider,
 } from '@/components/providers/preferences-provider'
 import { bodyClassNames } from '@/assets'
+import { TheSidebar } from '@/components/layout/navigation/the-sidebar'
 
 export const metadata: Metadata = {
     description:
@@ -109,10 +110,14 @@ export default async function RootLayout({
                 <PreferencesProvider preferences={preferences}>
                     <ThemeProvider theme={preferences.theme}>
                         <NotationThemeProvider theme={notationTheme}>
-                            <main className="h-full">
-                                <TheHeader />
-                                {children}
-                            </main>
+                            <SidebarProvider className="h-full w-full">
+                                <TheSidebar />
+                                {/*<TheHeader />*/}
+                                <main className="h-full w-screen">
+                                    <SidebarTrigger />
+                                    {children}
+                                </main>
+                            </SidebarProvider>
 
                             <Toaster />
                         </NotationThemeProvider>

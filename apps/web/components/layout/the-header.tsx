@@ -2,6 +2,8 @@ import { TheNavigation } from '@/components/layout/navigation/the-navigation'
 import { TheColorModeSwitch } from '@/components/layout/color-mode-switch/the-color-mode-switch'
 import { FeatureNames, FeatureToggle } from '@/components/utils/feature-toggle'
 import { ControllerLayoutSwitch } from '@/components/layout/controller-layout-switch/controller-layout-switch'
+import { SidebarProvider, SidebarTrigger } from '@tekken-space/ui/base'
+import { TheSidebar } from '@/components/layout/navigation/the-sidebar'
 
 export default async function TheHeader() {
     return (
