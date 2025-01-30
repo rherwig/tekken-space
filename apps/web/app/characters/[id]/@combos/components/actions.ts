@@ -2,7 +2,7 @@
 
 import { revalidatePath } from 'next/cache'
 import { type FormState } from '@tekken-space/ui/components'
-import { movesService } from '@tekken-space/database/services'
+// import { movesService } from '@tekken-space/database/services'
 import { Move } from '@tekken-space/database'
 import { upsertMoveSchema } from '@tekken-space/types'
 
@@ -19,12 +19,12 @@ export async function onSubmitAction(
     }
 
     try {
-        const move = await movesService.upsert(parsed.data)
+        // const move = await movesService.upsert(parsed.data)
 
         revalidatePath('/characters')
 
         return {
-            data: move,
+            // data: move,
             success: true,
         }
     } catch {

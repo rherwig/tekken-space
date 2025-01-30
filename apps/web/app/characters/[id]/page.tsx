@@ -149,9 +149,11 @@ function CharacterHeader({
 export default async function CharacterPage({
     params,
 }: {
-    params: { id: string }
+    params: Promise<{ id: string }>
 }) {
-    const character = await charactersService.findOne(params.id)
+    const { id } = await params
+
+    const character = await charactersService.findOne(id)
     if (!character) {
         return redirect('/characters')
     }

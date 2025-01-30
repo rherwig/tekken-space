@@ -1,5 +1,4 @@
 import { and, eq } from 'drizzle-orm'
-import { UpsertMoveSchema } from '@tekken-space/types'
 
 import { db } from '../connection'
 import { CreateMove, Move, moves } from '../schema'
@@ -14,14 +13,16 @@ export async function findOne(id: string) {
     return result
 }
 
-export async function findByCharacterId(characterId: string) {
-    return db
+export async function findByCharacterId(characterId: string): Promise<Move[]> {
+    const result = await db
         .select()
         .from(moves)
         .where(
             and(eq(moves.characterId, characterId), eq(moves.isCombo, false)),
         )
         .orderBy(moves.index)
+
+    return result as Move[]
 }
 
 export async function create(data: CreateMove) {
@@ -34,7 +35,7 @@ export async function createMany(data: CreateMove[]) {
     return db.insert(moves).values(data).returning()
 }
 
-export async function update(data: UpsertMoveSchema) {
+export async function update(data: Move) {
     const [result] = await db
         .update(moves)
         .set(data)
@@ -44,7 +45,7 @@ export async function update(data: UpsertMoveSchema) {
     return result
 }
 
-export async function upsert(data: UpsertMoveSchema) {
+export async function upsert(data: Move) {
     const existing = await findOne(data.id)
 
     return !existing ? create(data) : update(data)
