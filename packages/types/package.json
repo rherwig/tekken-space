@@ -11,10 +11,10 @@
     "devDependencies": {
         "@tekken-space/configuration-eslint": "workspace:*",
         "@tekken-space/configuration-typescript": "workspace:*",
-        "eslint": "9.10.0",
-        "typescript": "5.6.2"
+        "eslint": "9.19.0",
+        "typescript": "5.7.3"
     },
     "dependencies": {
-        "zod": "3.23.8"
+        "zod": "3.24.1"
     }
 }

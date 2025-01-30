@@ -4,29 +4,29 @@
     "private": true,
     "type": "module",
     "scripts": {
-        "dev": "next dev",
+        "dev": "next dev --turbopack",
         "build": "next build",
         "start": "next start",
         "lint": "eslint ./**/*.{ts,tsx}"
     },
     "dependencies": {
-        "@hookform/resolvers": "3.9.0",
+        "@hookform/resolvers": "3.10.0",
         "@tekken-space/database": "workspace:*",
         "@tekken-space/parser": "workspace:*",
         "@tekken-space/ui": "workspace:*",
-        "axios": "1.7.7",
-        "framer-motion": "11.5.4",
+        "axios": "1.7.9",
+        "framer-motion": "12.0.6",
         "fuse.js": "7.0.0",
         "html2canvas": "1.4.1",
-        "lucide-react": "0.441.0",
-        "next": "14.2.11",
-        "next-auth": "5.0.0-beta.21",
-        "react": "18.3.1",
-        "react-dom": "18.3.1",
-        "react-hook-form": "7.53.0",
+        "lucide-react": "0.474.0",
+        "next": "15.1.6",
+        "next-auth": "5.0.0-beta.25",
+        "react": "19.0.0",
+        "react-dom": "19.0.0",
+        "react-hook-form": "7.54.2",
         "react-hotkeys-hook": "4.5.1",
         "sharp": "0.33.5",
-        "zod": "3.23.8"
+        "zod": "3.24.1"
     },
     "devDependencies": {
         "@tekken-space/configuration-eslint": "workspace:*",
@@ -34,14 +34,14 @@
         "@tekken-space/configuration-typescript": "workspace:*",
         "@tekken-space/types": "workspace:*",
         "@types/node": "20.14.10",
-        "@types/react": "18.3.3",
-        "@types/react-dom": "18.3.0",
+        "@types/react": "19.0.8",
+        "@types/react-dom": "19.0.3",
         "autoprefixer": "10.4.20",
         "clsx": "2.1.1",
-        "eslint": "9.10.0",
-        "postcss": "8.4.45",
-        "sass": "1.78.0",
+        "eslint": "9.19.0",
+        "postcss": "8.5.1",
+        "sass": "1.83.4",
         "tailwindcss": "3.4.10",
-        "typescript": "5.6.2"
+        "typescript": "5.7.3"
     }
 }

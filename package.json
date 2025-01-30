@@ -14,16 +14,16 @@
         "lint": "turbo lint",
         "postinstall": "manypkg check"
     },
-    "dependencies": {
-        "@dotenvx/dotenvx": "1.14.0",
-        "@manypkg/cli": "0.21.4",
-        "@tekken-space/configuration-prettier": "workspace:*",
-        "prettier": "3.3.3",
-        "turbo": "2.1.2",
-        "typescript": "5.6.2"
-    },
-    "packageManager": "pnpm@9.10.0",
+    "packageManager": "pnpm@9.15.4",
     "engines": {
         "node": ">=20"
+    },
+    "devDependencies": {
+        "@dotenvx/dotenvx": "1.34.0",
+        "@manypkg/cli": "0.23.0",
+        "@tekken-space/configuration-prettier": "workspace:*",
+        "prettier": "3.4.2",
+        "turbo": "2.3.4",
+        "typescript": "5.7.3"
     }
 }

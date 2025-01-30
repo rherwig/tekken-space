@@ -19,12 +19,12 @@
         "@tekken-space/configuration-typescript": "workspace:*",
         "@tekken-space/types": "workspace:*",
         "@types/node": "20.14.10",
-        "eslint": "9.10.0",
+        "eslint": "9.19.0",
         "tsx": "4.16.2",
-        "typescript": "5.6.2"
+        "typescript": "5.7.3"
     },
     "dependencies": {
         "@tekken-space/database": "workspace:*",
-        "dotenv": "16.4.5"
+        "dotenv": "16.4.7"
     }
 }
