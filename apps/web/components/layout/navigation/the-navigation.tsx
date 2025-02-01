@@ -11,9 +11,9 @@ import {
     navigationMenuTriggerStyle,
 } from '@tekken-space/ui/base'
 
-export function TheNavigation() {
+export function TheNavigation({ className }: { className?: string }) {
     return (
-        <NavigationMenu>
+        <NavigationMenu className={className}>
             <NavigationMenuList>
                 <NavigationMenuItem>
                     <Link href="/characters" legacyBehavior passHref>

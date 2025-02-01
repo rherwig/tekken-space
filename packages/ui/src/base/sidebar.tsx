@@ -2,7 +2,7 @@
 
 import * as React from 'react'
 import { Slot } from '@radix-ui/react-slot'
-import { ViewVerticalIcon } from '@radix-ui/react-icons'
+import { ViewVerticalIcon, HamburgerMenuIcon } from '@radix-ui/react-icons'
 import { VariantProps, cva } from 'class-variance-authority'
 import { cn } from '#utils'
 import { Button } from '#base/button'
@@ -17,6 +17,8 @@ import {
     TooltipTrigger,
 } from '#base/tooltip'
 import { useIsMobile } from '../hooks/use-mobile'
+import { VisuallyHidden } from '@radix-ui/react-visually-hidden'
+import { SheetDescription, SheetHeader, SheetTitle } from './sheet'
 
 const SIDEBAR_COOKIE_NAME = 'sidebar:state'
 const SIDEBAR_COOKIE_MAX_AGE = 60 * 60 * 24 * 7
@@ -58,7 +60,7 @@ const SidebarProvider = React.forwardRef<
         {
             children,
             className,
-            defaultOpen = true,
+            defaultOpen = false,
             onOpenChange: setOpenProp,
             open: openProp,
             style,
@@ -178,6 +180,7 @@ const Sidebar = React.forwardRef<
             className,
             collapsible = 'offcanvas',
             side = 'left',
+            title = 'Sidebar',
             variant = 'sidebar',
             ...props
         },
@@ -218,6 +221,13 @@ const Sidebar = React.forwardRef<
                         }
                         side={side}
                     >
+                        <VisuallyHidden>
+                            <SheetHeader>
+                                <SheetTitle>{title}</SheetTitle>
+                                <SheetDescription>{title}</SheetDescription>
+                            </SheetHeader>
+                        </VisuallyHidden>
+
                         <div className="flex h-full w-full flex-col">
                             {children}
                         </div>
@@ -283,16 +293,16 @@ const SidebarTrigger = React.forwardRef<
         <Button
             ref={ref}
             data-sidebar="trigger"
-            variant="ghost"
+            variant="outline"
             size="icon"
-            className={cn('h-7 w-7', className)}
+            className={cn('size-9', className)}
             onClick={(event) => {
                 onClick?.(event)
                 toggleSidebar()
             }}
             {...props}
         >
-            <ViewVerticalIcon />
+            <HamburgerMenuIcon className="h-[1.2rem] w-[1.2rem]" />
             <span className="sr-only">Toggle Sidebar</span>
         </Button>
     )

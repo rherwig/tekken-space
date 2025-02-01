@@ -2,7 +2,7 @@ import { TheNavigation } from '@/components/layout/navigation/the-navigation'
 import { TheColorModeSwitch } from '@/components/layout/color-mode-switch/the-color-mode-switch'
 import { FeatureNames, FeatureToggle } from '@/components/utils/feature-toggle'
 import { ControllerLayoutSwitch } from '@/components/layout/controller-layout-switch/controller-layout-switch'
-import { SidebarProvider, SidebarTrigger } from '@tekken-space/ui/base'
+import { SidebarTrigger } from '@tekken-space/ui/base'
 import { TheSidebar } from '@/components/layout/navigation/the-sidebar'
 
 export default async function TheHeader() {
@@ -15,7 +15,9 @@ export default async function TheHeader() {
                         <span className="text-green-500">Space</span>
                     </a>
 
-                    <TheNavigation />
+                    <TheNavigation className="hidden lg:block" />
+
+                    <TheSidebar />
                 </div>
 
                 <div className="flex gap-2">
@@ -24,6 +26,8 @@ export default async function TheHeader() {
                     <FeatureToggle name={FeatureNames.ColorMode}>
                         <TheColorModeSwitch />
                     </FeatureToggle>
+
+                    <SidebarTrigger className="flex lg:hidden" />
 
                     {/*{user === null ? (*/}
                     {/*    <TheSignInButton />*/}

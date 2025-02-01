@@ -8,7 +8,7 @@ export default function CharactersGrid({
     characters: Character[]
 }) {
     return (
-        <div className="grid grid-cols-8 gap-2">
+        <div className="grid grid-cols-3 gap-2 sm:grid-cols-4 lg:grid-cols-8">
             {characters.map((character) => (
                 <Link
                     href={`/characters/${character.id}`}
@@ -18,11 +18,11 @@ export default function CharactersGrid({
                     {character.imageUrl && (
                         <Image
                             priority={true}
-                            src={character.imageUrl}
-                            className="object-fit h-full w-full"
+                            src={`/images/characters/8/${character.id}.webp`}
+                            className="size-full object-cover object-top p-2"
                             alt={`Image of ${character.name}`}
-                            width={256}
-                            height={256}
+                            width={192}
+                            height={192}
                         />
                     )}
 

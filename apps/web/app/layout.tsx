@@ -110,11 +110,10 @@ export default async function RootLayout({
                 <PreferencesProvider preferences={preferences}>
                     <ThemeProvider theme={preferences.theme}>
                         <NotationThemeProvider theme={notationTheme}>
-                            <SidebarProvider className="h-full w-full">
-                                <TheSidebar />
-                                {/*<TheHeader />*/}
+                            <SidebarProvider className="block h-full w-full">
+                                <TheHeader />
+
                                 <main className="h-full w-screen">
-                                    <SidebarTrigger />
                                     {children}
                                 </main>
                             </SidebarProvider>

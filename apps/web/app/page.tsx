@@ -40,7 +40,7 @@ export default function Home() {
 
                 <p className="mb-2">displayed like this:</p>
 
-                <div className="overflow-x-auto text-xs lg:text-base">
+                <div className="overflow-x-auto overflow-y-hidden text-xs lg:text-base">
                     <TsSimpleMoveDisplay notation="d/f+2;b+1,2 T!;d+4:2:1+2" />
                 </div>
 

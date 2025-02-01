@@ -57,12 +57,12 @@ function CharacterHeader({
     character: Character
 }) {
     return (
-        <div className="flex gap-8">
+        <div className="flex flex-col gap-8 lg:flex-row">
             {character.imageUrl && (
                 <Image
-                    className="size-[256px] rounded-md"
+                    className="size-[256px] rounded-md object-cover object-top"
                     priority={true}
-                    src={character.imageUrl}
+                    src={`/images/characters/8/${character.id}.webp`}
                     alt={`Picture of ${character.name}`}
                     width={256}
                     height={256}
