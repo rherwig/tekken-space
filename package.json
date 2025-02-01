@@ -1,6 +1,7 @@
 {
     "name": "@tekken-space/source",
     "private": true,
+    "description": "Web-Application for visualizing Tekken 8 moves and combos.",
     "type": "module",
     "scripts": {
         "build": "turbo build",
@@ -25,5 +26,7 @@
         "prettier": "3.4.2",
         "turbo": "2.3.4",
         "typescript": "5.7.3"
-    }
+    },
+    "author": "Rico Herwig <rico@hrwg.de>",
+    "license": "MIT"
 }
