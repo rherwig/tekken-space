@@ -217,6 +217,9 @@ export const STANCE_KEYWORDS: TekkenKeywordsList = {
     SLS: {
         value: 'Slither Step',
     },
+    SNE: {
+        value: 'Snake Eyes',
+    },
     SNK: {
         value: 'Stealth Step',
     },
