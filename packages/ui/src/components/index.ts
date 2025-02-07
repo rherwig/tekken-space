@@ -4,6 +4,8 @@ export { TsDialog } from './dialog/dialog'
 export { TsCombobox } from './combo-box/combo-box'
 export { TsFormDialog, type FormState } from './dialog/form-dialog'
 export { TsHeadline } from './headline/headline'
+export { TsParagraph } from './paragraph/paragraph'
+export { TsLink } from './link/link'
 
 export { TsNotationInput } from './notation/notation-input'
 export { TsSimpleMoveDisplay } from './notation/simple-move-display'

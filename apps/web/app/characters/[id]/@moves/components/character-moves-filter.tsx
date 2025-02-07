@@ -48,6 +48,7 @@ export function CharacterMovesFilters({ onQuickFilter, onSearch }: Props) {
                 placeholder="Search notation, e.g. df2"
                 value={searchTerm}
                 onInput={handleInput}
+                autoFocus={true}
             />
 
             <TsCombobox

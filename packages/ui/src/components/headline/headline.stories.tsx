@@ -8,7 +8,7 @@ const meta: Meta<ComponentProps<typeof TsHeadline>> = {
     render: ({ ...args }) => {
         return <TsHeadline {...args}>Headline</TsHeadline>
     },
-    title: 'Components/Headline',
+    title: 'Typography/Headline',
 }
 
 export default meta
