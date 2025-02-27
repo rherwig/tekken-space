@@ -266,7 +266,7 @@ const TOKENS: InstructionToken[] = [
         type: InstructionTypes.ATTACK,
     },
     {
-        expression: /^([:~<])/gi,
+        expression: /^([:~<#])/gi,
         type: InstructionTypes.COMBINATOR,
     },
     {

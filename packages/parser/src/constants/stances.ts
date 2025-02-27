@@ -172,6 +172,9 @@ export const STANCE_KEYWORDS: TekkenKeywordsList = {
     PDP: {
         value: 'Bad Stomach',
     },
+    PHX: {
+        value: 'Phoenix Shift',
+    },
     PKB: {
         value: 'Peakaboo',
     },
