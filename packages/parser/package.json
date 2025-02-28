@@ -8,6 +8,9 @@
     "scripts": {
         "lint": "eslint ."
     },
+    "dependencies": {
+        "eslint": "9.19.0"
+    },
     "devDependencies": {
         "@tekken-space/configuration-eslint": "workspace:*",
         "@tekken-space/configuration-typescript": "workspace:*"

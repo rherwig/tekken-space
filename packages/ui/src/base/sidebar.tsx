@@ -2,7 +2,7 @@
 
 import * as React from 'react'
 import { Slot } from '@radix-ui/react-slot'
-import { ViewVerticalIcon, HamburgerMenuIcon } from '@radix-ui/react-icons'
+import { HamburgerMenuIcon } from '@radix-ui/react-icons'
 import { VariantProps, cva } from 'class-variance-authority'
 import { cn } from '#utils'
 import { Button } from '#base/button'

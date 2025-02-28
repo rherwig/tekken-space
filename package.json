@@ -13,6 +13,7 @@
         "dev": "dotenvx run -- turbo dev",
         "format": "prettier --write \"**/*.{js,json,ts,tsx,md}\"",
         "lint": "turbo lint",
+        "lint:fix": "turbo lint:fix",
         "postinstall": "manypkg check"
     },
     "packageManager": "pnpm@10.5.2",

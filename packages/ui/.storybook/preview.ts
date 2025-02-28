@@ -14,8 +14,8 @@ const preview: Preview = {
 }
 
 export default {
-    preview,
     initialGlobals: {
         themes: ['light', 'dark'],
     },
+    preview,
 }

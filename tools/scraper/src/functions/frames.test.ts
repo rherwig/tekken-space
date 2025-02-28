@@ -5,9 +5,25 @@ import type { ScrapedFrameData } from '@tekken-space/types'
 import * as frames from './frames'
 
 const sampleData: Record<string, ScrapedFrameData> = {
+    '-10': {
+        _raw: '',
+        lower: '-10',
+        properties: [],
+    },
+    '-7~+9': {
+        _raw: '',
+        lower: '-7',
+        properties: [],
+        upper: '+9',
+    },
     '+10': {
         _raw: '',
         lower: '+10',
+        properties: [],
+    },
+    '10': {
+        _raw: '',
+        lower: '10',
         properties: [],
     },
     '+14g': {
@@ -20,22 +36,6 @@ const sampleData: Record<string, ScrapedFrameData> = {
         lower: '+29',
         properties: ['a'],
         tech: '+20',
-    },
-    '-7~+9': {
-        _raw: '',
-        lower: '-7',
-        properties: [],
-        upper: '+9',
-    },
-    '-10': {
-        _raw: '',
-        lower: '-10',
-        properties: [],
-    },
-    '10': {
-        _raw: '',
-        lower: '10',
-        properties: [],
     },
     i10: {
         _raw: '',

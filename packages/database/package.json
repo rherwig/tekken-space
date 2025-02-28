@@ -11,7 +11,8 @@
     "scripts": {
         "db:generate": "drizzle-kit generate",
         "db:migrate": "tsx ./src/commands/migrate.ts",
-        "lint": "eslint ."
+        "lint": "eslint .",
+        "lint:fix": "eslint . --fix"
     },
     "devDependencies": {
         "@tekken-space/configuration-eslint": "workspace:*",

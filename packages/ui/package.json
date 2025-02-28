@@ -24,7 +24,8 @@
     },
     "scripts": {
         "dev": "storybook dev -p 3333 --no-open",
-        "lint": "eslint ."
+        "lint": "eslint .",
+        "lint:fix": "eslint . --fix"
     },
     "devDependencies": {
         "@storybook/addon-essentials": "8.5.2",
