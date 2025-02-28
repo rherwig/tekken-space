@@ -8,7 +8,7 @@ import perfectionist from 'eslint-plugin-perfectionist'
 export default ts.config(
     ...ts.configs.recommended,
     {
-        ignores: ['**/node_modules/**', 'dist/', 'public/'],
+        ignores: ['**/node_modules/**', 'dist/', 'public/', '**/.next/**'],
         languageOptions: {
             globals: {
                 JSX: true,

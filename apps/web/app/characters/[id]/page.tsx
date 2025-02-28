@@ -3,21 +3,7 @@ import { TsChip, TsHeadline } from '@tekken-space/ui/components'
 import { redirect } from 'next/navigation'
 import Image from 'next/image'
 import { Character, CharacterMeta } from '@tekken-space/database'
-import {
-    CheckCircleIcon,
-    CircleCheck,
-    CircleMinus,
-    CirclePlus,
-} from 'lucide-react'
-
-function CharacterMetaSection({ children }: { children: React.ReactNode }) {
-    return (
-        <div className="flex flex-col items-start gap-1 whitespace-nowrap">
-            <div>Archetype</div>
-            {children}
-        </div>
-    )
-}
+import { CircleMinus, CirclePlus } from 'lucide-react'
 
 function CharacterMetaListItem({
     children,

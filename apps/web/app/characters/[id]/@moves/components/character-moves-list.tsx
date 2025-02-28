@@ -3,13 +3,7 @@
 import { type Move } from '@tekken-space/database'
 import { CharacterMove } from './character-move'
 
-export function CharacterMovesList({
-    characterId,
-    moves,
-}: {
-    moves: Move[]
-    characterId: string
-}) {
+export function CharacterMovesList({ moves }: { moves: Move[] }) {
     return (
         <div className="mt-4 flex flex-col gap-4">
             {moves.map((move) => (
