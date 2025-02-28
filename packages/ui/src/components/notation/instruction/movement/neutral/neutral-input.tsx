@@ -6,8 +6,8 @@ export default function NeutralInput() {
         <Image
             className="block"
             src={neutralImage.src}
-            width={52}
-            height={52}
+            width={48}
+            height={48}
             alt="Neutral"
         />
     )
