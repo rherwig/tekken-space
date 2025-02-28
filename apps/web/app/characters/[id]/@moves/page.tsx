@@ -18,10 +18,5 @@ export default async function CharacterPage({
 
     const moves = await movesService.findByCharacterId(character.id)
 
-    return (
-        <SearchableCharacterMovesList
-            characterId={character.id}
-            moves={moves}
-        />
-    )
+    return <SearchableCharacterMovesList moves={moves} />
 }

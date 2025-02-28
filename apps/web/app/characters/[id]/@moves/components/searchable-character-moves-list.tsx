@@ -8,13 +8,7 @@ import { useInfiniteScroll } from '@/hooks/use-infinite-scroll'
 import { CharacterMovesList } from './character-moves-list'
 import { CharacterMovesFilters, QuickFilters } from './character-moves-filter'
 
-export function SearchableCharacterMovesList({
-    characterId,
-    moves,
-}: {
-    moves: Move[]
-    characterId: string
-}) {
+export function SearchableCharacterMovesList({ moves }: { moves: Move[] }) {
     const SEARCH_MIN_LENGTH = 1
 
     const [searchTerm, setSearchTerm] = useState<string>('')
@@ -63,10 +57,7 @@ export function SearchableCharacterMovesList({
                 onSearch={setSearchTerm}
                 onQuickFilter={setQuickFilter}
             />
-            <CharacterMovesList
-                characterId={characterId}
-                moves={visibleMoves}
-            />
+            <CharacterMovesList moves={visibleMoves} />
         </div>
     )
 }
