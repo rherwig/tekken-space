@@ -3,7 +3,6 @@ import {
     TsParagraph,
     TsSimpleMoveDisplay,
 } from '@tekken-space/ui/components'
-import Link from 'next/link'
 import { TheWelcomeHeroUnit } from '@/app/components/the-welcome-hero-unit'
 
 export default function Home() {

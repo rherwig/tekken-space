@@ -6,15 +6,16 @@ import TheHeader from '@/components/layout/the-header'
 import {
     type NotationTheme,
     NotationThemeProvider,
+    NotationThemes,
     ThemeProvider,
 } from '@tekken-space/ui/providers'
-import { SidebarProvider, SidebarTrigger, Toaster } from '@tekken-space/ui/base'
+import { Toaster } from '@tekken-space/ui/base'
 import {
     type Preferences,
     PreferencesProvider,
 } from '@/components/providers/preferences-provider'
 import { bodyClassNames } from '@/assets'
-import { TheSidebar } from '@/components/layout/navigation/the-sidebar'
+import { TheMobileNavigation } from '@/components/layout/navigation/the-mobile-navigation'
 
 export const metadata: Metadata = {
     description:
@@ -102,7 +103,9 @@ export default async function RootLayout({
         theme: 'dark',
     }
 
-    const notationTheme: NotationTheme = {}
+    const notationTheme: NotationTheme = {
+        id: NotationThemes.ARCADE,
+    }
 
     return (
         <html lang="en" suppressHydrationWarning>
@@ -110,13 +113,15 @@ export default async function RootLayout({
                 <PreferencesProvider preferences={preferences}>
                     <ThemeProvider theme={preferences.theme}>
                         <NotationThemeProvider theme={notationTheme}>
-                            <SidebarProvider className="block h-full w-full">
-                                <TheHeader />
+                            <div className="grid min-h-screen grid-rows-[1fr,auto] gap-y-4">
+                                <div className="overflow-y-auto">
+                                    <TheHeader />
 
-                                <main className="h-full w-screen">
                                     {children}
-                                </main>
-                            </SidebarProvider>
+                                </div>
+
+                                <TheMobileNavigation />
+                            </div>
 
                             <Toaster />
                         </NotationThemeProvider>
