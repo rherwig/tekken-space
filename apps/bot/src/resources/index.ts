@@ -12,5 +12,3 @@ export const movesList = readdirSync(resourcesPath)
         )
         return { character, moves }
     })
-
-console.log(movesList)

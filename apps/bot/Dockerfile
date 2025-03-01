@@ -22,4 +22,6 @@ COPY --from=prune /app/out/full/ .
 RUN pnpm install
 RUN pnpm turbo run build --filter bot...
 
-CMD ["node", "/app/apps/bot/dist/app.cjs"]
+COPY --from=prune /app/out/full/apps/bot/src/resources/moves/ ./apps/bot/dist/moves/
+
+CMD ["node", "/app/apps/bot/dist/app.js"]
