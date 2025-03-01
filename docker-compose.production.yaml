@@ -2,7 +2,7 @@ name: "tekken-space"
 
 services:
   database:
-    image: postgres
+    image: postgres:17.4
     env_file: ./.env.production
     environment:
       POSTGRES_USER: ${POSTGRES_USER}
