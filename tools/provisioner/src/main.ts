@@ -1,14 +1,30 @@
 import { provisionCharacters } from './characters'
 import { provisionMoves } from './moves'
 import { CHARACTERS_SCRAPING_META } from '@tekken-space/types'
+import { provisionCharactersMeta } from './characters-meta'
+
+const shouldProvision = {
+    characters: false,
+    meta: true,
+    moves: false,
+}
 
 async function provision(
     characterId: string,
     characterName: string,
     path: string,
 ) {
-    await provisionCharacters(characterId, characterName)
-    await provisionMoves(characterId, path)
+    if (shouldProvision.characters) {
+        await provisionCharacters(characterId, characterName)
+    }
+
+    if (shouldProvision.meta) {
+        await provisionCharactersMeta(characterId)
+    }
+
+    if (shouldProvision.moves) {
+        await provisionMoves(characterId, path)
+    }
 }
 
 try {

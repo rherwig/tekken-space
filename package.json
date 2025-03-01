@@ -7,7 +7,7 @@
         "build": "turbo build",
         "db:generate": "dotenvx run -- turbo db:generate",
         "db:migrate": "dotenvx run -- turbo db:migrate",
-        "db:provision": "dotenvx run -- turbo provision",
+        "db:provision": "dotenvx run -- turbo db:provision",
         "deps:check": "manypkg check",
         "deps:fix": "manypkg fix",
         "dev": "dotenvx run -- turbo dev",

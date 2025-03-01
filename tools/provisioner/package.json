@@ -12,7 +12,8 @@
     },
     "scripts": {
         "lint": "eslint .",
-        "provision": "tsx ./src/main.ts"
+        "lint:fix": "eslint . --fix",
+        "db:provision": "tsx ./src/main.ts"
     },
     "devDependencies": {
         "@tekken-space/configuration-eslint": "workspace:*",

@@ -1,7 +1,7 @@
 {
     "extends": ["//"],
     "tasks": {
-        "provision": {
+        "db:provision": {
             "cache": false,
             "env": [
                 "POSTGRES_HOST",

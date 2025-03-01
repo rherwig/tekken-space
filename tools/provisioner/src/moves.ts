@@ -59,6 +59,7 @@ function convertRawMove(
         framesOnStartupRaw: scrapedMove.framesOnStartup._raw,
         framesOnStartupTech: scrapedMove.framesOnStartup.tech,
         framesOnStartupUpper: scrapedMove.framesOnStartup.upper,
+        hitLevels: scrapedMove.hitLevels,
         index: scrapedMove.index,
         isCombo: false,
         name: scrapedMove.name,

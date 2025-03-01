@@ -22,9 +22,6 @@
             ],
             "inputs": ["$TURBO_DEFAULT$", ".env*"]
         },
-        "db:provision": {
-            "cache": false
-        },
         "lint": {},
         "lint:fix": {},
         "dev": {
