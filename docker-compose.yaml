@@ -29,3 +29,11 @@ services:
       - "8888:80"
     depends_on:
       - web
+
+  bot:
+    build:
+      context: .
+      dockerfile: ./apps/bot/Dockerfile
+    env_file: ./apps/bot/.env
+    volumes:
+      - /apps/bot/.env:/app/.env

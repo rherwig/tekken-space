@@ -25,7 +25,7 @@
         "@manypkg/cli": "0.23.0",
         "@tekken-space/configuration-prettier": "workspace:*",
         "prettier": "3.4.2",
-        "turbo": "2.3.4",
+        "turbo": "2.4.4",
         "typescript": "5.7.3"
     },
     "author": "Rico Herwig <rico@hrwg.de>",

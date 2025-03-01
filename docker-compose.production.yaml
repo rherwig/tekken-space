@@ -29,3 +29,8 @@ services:
       - /var/tekken/proxy:/data
     depends_on:
       - web
+
+  bot:
+    image: ghcr.io/rherwig/tekken-space-bot:latest
+    volumes:
+      - /var/tekken/frontend/.env:/app/.env

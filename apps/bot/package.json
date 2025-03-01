@@ -1,0 +1,30 @@
+{
+    "name": "bot",
+    "version": "1.0.0",
+    "description": "TekkenSpace Discord Bot",
+    "main": "src/app.ts",
+    "type": "module",
+    "scripts": {
+        "build": "tsup",
+        "dev": "tsx --watch src/app.ts",
+        "lint": "eslint .",
+        "lint:fix": "eslint . --fix",
+        "register": "tsx scripts/register-commands.ts"
+    },
+    "dependencies": {
+        "discord.js": "14.18.0",
+        "dotenv": "16.4.7",
+        "express": "4.21.2"
+    },
+    "devDependencies": {
+        "@tekken-space/configuration-eslint": "workspace:*",
+        "@tekken-space/configuration-typescript": "workspace:*",
+        "@tekken-space/types": "workspace:*",
+        "@types/express": "4.17.21",
+        "@types/node": "20.14.10",
+        "eslint": "9.19.0",
+        "tsup": "8.4.0",
+        "tsx": "4.16.2",
+        "typescript": "5.7.3"
+    }
+}
