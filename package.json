@@ -14,7 +14,8 @@
         "format": "prettier --write \"**/*.{js,json,ts,tsx,md}\"",
         "lint": "turbo lint",
         "lint:fix": "turbo lint:fix",
-        "postinstall": "manypkg check"
+        "postinstall": "manypkg check",
+        "prepare": "husky"
     },
     "packageManager": "pnpm@10.5.2",
     "engines": {
@@ -24,6 +25,8 @@
         "@dotenvx/dotenvx": "1.34.0",
         "@manypkg/cli": "0.23.0",
         "@tekken-space/configuration-prettier": "workspace:*",
+        "husky": "9.1.7",
+        "lint-staged": "15.4.3",
         "prettier": "3.4.2",
         "turbo": "2.4.4",
         "typescript": "5.7.3"
