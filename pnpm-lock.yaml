@@ -447,6 +447,9 @@ importers:
       '@tekken-space/configuration-typescript':
         specifier: workspace:*
         version: link:../../configurations/typescript
+      '@tekken-space/types':
+        specifier: workspace:*
+        version: link:../types
       '@types/node':
         specifier: 20.14.10
         version: 20.14.10

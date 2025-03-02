@@ -45,7 +45,7 @@ export function CharacterMovesFilters({ onQuickFilter, onSearch }: Props) {
     return (
         <div className="flex gap-2">
             <Input
-                placeholder="Search notation, e.g. df2"
+                placeholder="Search notation or name, e.g. df+2"
                 value={searchTerm}
                 onInput={handleInput}
                 autoFocus={true}

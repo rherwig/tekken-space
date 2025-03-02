@@ -1,4 +1,6 @@
 export { TsChip } from './chip/chip'
+export { TsDifficultyChip } from './difficulty-chip/difficulty-chip'
+export { TsArchetypeChip } from './archetype-chip/archetype-chip'
 export { TsColorModeSwitch } from './color-mode-switch/color-mode-switch'
 export { TsDialog } from './dialog/dialog'
 export { TsCombobox } from './combo-box/combo-box'

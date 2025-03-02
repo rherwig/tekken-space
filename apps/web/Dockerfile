@@ -1,10 +1,10 @@
-FROM node:20-alpine AS node
+FROM node:22-alpine AS node
 
 # Base Image
 FROM node as base
 RUN apk update
 RUN apk add --no-cache libc6-compat
-RUN npm i -g pnpm@9.5.0 turbo@2.0.6
+RUN npm i -g pnpm@10.5.2 turbo@2.4.4
 
 # Create pruned web application
 FROM base as prune
