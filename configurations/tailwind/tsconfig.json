@@ -1,4 +1,0 @@
-{
-    "extends": "@tekken-space/configuration-typescript/nextjs.json",
-    "include": ["tailwind.config.ts"]
-}

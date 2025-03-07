@@ -1,17 +1,94 @@
-import { Meta, ColorItem, ColorPalette } from "@storybook/blocks";
+import { Meta, ColorItem, ColorPalette, Title } from "@storybook/blocks";
 
-<Meta title="General/Colors"/>
+<Meta title="General/Colors" />
 
-# Colors
-
-<div className="bg-hrwg"></div>
+<Title>Colors</Title>
 
 <ColorPalette>
     <ColorItem
         title="Primary"
-        subtitle="hrwg"
+        subtitle="Dark Blue / White"
         colors={{
-            primary: 'var(--hrwg)',
+            background: 'var(--color-primary)',
+            foreground: 'var(--color-primary-foreground)',
+        }}
+    />
+
+    <ColorItem
+        title="Secondary"
+        subtitle=""
+        colors={{
+            background: 'var(--color-secondary)',
+            foreground: 'var(--color-secondary-foreground)',
+        }}
+    />
+
+    <ColorItem
+        title="Accent"
+        subtitle=""
+        colors={{
+            background: 'var(--color-accent)',
+            foreground: 'var(--color-accent-foreground)',
+        }}
+    />
+
+    <ColorItem
+        title="Destructive"
+        subtitle=""
+        colors={{
+            background: 'var(--color-destructive)',
+            foreground: 'var(--color-destructive-foreground)',
+        }}
+    />
+
+    <ColorItem
+        title="Muted"
+        subtitle=""
+        colors={{
+            background: 'var(--color-muted)',
+            foreground: 'var(--color-muted-foreground)',
+        }}
+    />
+
+    <ColorItem
+        title="Card"
+        subtitle=""
+        colors={{
+            background: 'var(--color-card)',
+            foreground: 'var(--color-card-foreground)',
+        }}
+    />
+
+    <ColorItem
+        title="Popover"
+        subtitle=""
+        colors={{
+            background: 'var(--color-popover)',
+            foreground: 'var(--color-popover-foreground)',
+        }}
+    />
+
+    <ColorItem
+        title="Border"
+        subtitle=""
+        colors={{
+            background: 'var(--color-border)',
+        }}
+    />
+
+    <ColorItem
+        title="Input"
+        subtitle=""
+        colors={{
+            background: 'var(--color-input)',
+        }}
+    />
+
+    <ColorItem
+        title="Ring"
+        subtitle=""
+        colors={{
+            background: 'var(--color-ring)',
         }}
     />
 </ColorPalette>

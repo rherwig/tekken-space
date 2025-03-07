@@ -113,7 +113,7 @@ export default async function RootLayout({
                 <PreferencesProvider preferences={preferences}>
                     <ThemeProvider theme={preferences.theme}>
                         <NotationThemeProvider theme={notationTheme}>
-                            <div className="grid min-h-screen grid-rows-[1fr,auto] gap-y-4">
+                            <div className="grid min-h-screen grid-rows-[1fr_auto] gap-y-4">
                                 <div className="overflow-y-auto">
                                     <TheHeader />
 
