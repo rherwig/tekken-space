@@ -92,6 +92,7 @@ const buttonVariants = cva(
             },
             layout: {
                 [NotationThemes.ARCADE]: [],
+                [NotationThemes.GAMEPAD]: [],
             },
         },
     },
@@ -104,7 +105,7 @@ export default function AttackInstruction({
 }) {
     const [theme] = useNotationTheme()
 
-    const buttons = [1, 2, 3, 4]
+    const buttons = [1, 2, 3, 4] as const
 
     return (
         <div className={cn(rootVariants())}>

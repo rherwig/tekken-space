@@ -133,9 +133,6 @@ importers:
       '@tekken-space/configuration-eslint':
         specifier: workspace:*
         version: link:../../configurations/eslint
-      '@tekken-space/configuration-tailwind':
-        specifier: workspace:*
-        version: link:../../configurations/tailwind
       '@tekken-space/configuration-typescript':
         specifier: workspace:*
         version: link:../../configurations/typescript
@@ -216,34 +213,6 @@ importers:
       prettier:
         specifier: 3.4.2
         version: 3.4.2
-
-  configurations/tailwind:
-    dependencies:
-      tailwind-scrollbar:
-        specifier: 4.0.1
-        version: 4.0.1(react@19.0.0)(tailwindcss@4.0.9)
-      tailwindcss-animate:
-        specifier: 1.0.7
-        version: 1.0.7(tailwindcss@4.0.9)
-    devDependencies:
-      '@tekken-space/configuration-eslint':
-        specifier: workspace:*
-        version: link:../eslint
-      '@tekken-space/configuration-typescript':
-        specifier: workspace:*
-        version: link:../typescript
-      '@types/node':
-        specifier: 20.14.10
-        version: 20.14.10
-      eslint:
-        specifier: 9.19.0
-        version: 9.19.0(jiti@2.4.2)
-      tailwindcss:
-        specifier: 4.0.9
-        version: 4.0.9
-      typescript:
-        specifier: 5.7.3
-        version: 5.7.3
 
   configurations/typescript:
     dependencies:
@@ -453,9 +422,6 @@ importers:
       '@tekken-space/configuration-eslint':
         specifier: workspace:*
         version: link:../../configurations/eslint
-      '@tekken-space/configuration-tailwind':
-        specifier: workspace:*
-        version: link:../../configurations/tailwind
       '@tekken-space/configuration-typescript':
         specifier: workspace:*
         version: link:../../configurations/typescript
@@ -6414,11 +6380,6 @@ packages:
     engines: {node: '>=12.13.0'}
     peerDependencies:
       tailwindcss: 4.x
-
-  tailwindcss-animate@1.0.7:
-    resolution: {integrity: sha512-bl6mpH3T7I3UFxuvDEXLxy/VuFxBk5bbzplh7tXI68mwMokNYd1t9qPBHlnyTwfa4JGC4zP516I1hYYtQ/vspA==}
-    peerDependencies:
-      tailwindcss: '>=3.0.0 || insiders'
 
   tailwindcss@4.0.9:
     resolution: {integrity: sha512-12laZu+fv1ONDRoNR9ipTOpUD7RN9essRVkX36sjxuRUInpN7hIiHN4lBd/SIFjbISvnXzp8h/hXzmU8SQQYhw==}
@@ -12810,10 +12771,6 @@ snapshots:
       tailwindcss: 4.0.9
     transitivePeerDependencies:
       - react
-
-  tailwindcss-animate@1.0.7(tailwindcss@4.0.9):
-    dependencies:
-      tailwindcss: 4.0.9
 
   tailwindcss@4.0.9: {}
 
