@@ -38,8 +38,8 @@ type ButtonVariants = VariantProps<typeof buttonVariants>
 
 export interface ButtonProps
     extends React.ButtonHTMLAttributes<HTMLButtonElement> {
-    size: ButtonVariants['size']
-    variant: ButtonVariants['variant']
+    size?: ButtonVariants['size']
+    variant?: ButtonVariants['variant']
     asChild?: boolean
 }
 

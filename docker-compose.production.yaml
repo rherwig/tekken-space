@@ -32,6 +32,7 @@ services:
       - /var/tekken/proxy:/data
     depends_on:
       - web
+      - storybook
 
   bot:
     image: ghcr.io/rherwig/tekken-space-bot:latest
