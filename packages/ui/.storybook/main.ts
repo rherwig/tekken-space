@@ -12,9 +12,11 @@ function getAbsolutePath(value: string): string {
 
 const config: StorybookConfig = {
     addons: [
-        getAbsolutePath('@storybook/addon-links'),
+        getAbsolutePath('@storybook/addon-a11y'),
         getAbsolutePath('@storybook/addon-essentials'),
         getAbsolutePath('@storybook/addon-interactions'),
+        getAbsolutePath('@storybook/addon-links'),
+        getAbsolutePath('@storybook/addon-themes'),
     ],
     framework: '@storybook/nextjs',
     stories: ['../src/**/*.mdx', '../src/**/*.stories.@(js|jsx|mjs|ts|tsx)'],

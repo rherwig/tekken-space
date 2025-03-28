@@ -20,6 +20,9 @@ services:
     volumes:
       - /var/tekken/frontend/.env:/app/apps/web/.env
 
+  storybook:
+    image: ghcr.io/rherwig/tekken-space-storybook:latest
+
   proxy:
     image: ghcr.io/rherwig/tekken-space-proxy:latest
     ports:

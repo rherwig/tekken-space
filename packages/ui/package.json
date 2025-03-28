@@ -30,14 +30,17 @@
     },
     "scripts": {
         "dev": "storybook dev -p 3333 --no-open",
+        "build": "storybook build",
         "lint": "eslint .",
         "lint:fix": "eslint . --fix"
     },
     "devDependencies": {
+        "@storybook/addon-a11y": "8.6.4",
         "@storybook/addon-essentials": "8.6.4",
         "@storybook/addon-interactions": "8.6.4",
         "@storybook/addon-links": "8.6.4",
         "@storybook/addon-onboarding": "8.6.4",
+        "@storybook/addon-themes": "8.6.11",
         "@storybook/blocks": "8.6.4",
         "@storybook/nextjs": "8.6.4",
         "@storybook/react": "8.6.4",

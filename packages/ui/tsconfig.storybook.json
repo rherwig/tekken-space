@@ -1,0 +1,17 @@
+{
+    "extends": "@tekken-space/configuration-typescript/nextjs.json",
+    "compilerOptions": {
+        "composite": true,
+        "baseUrl": ".",
+        "outDir": "dist"
+    },
+    "include": [
+        ".storybook/**/*.ts",
+        ".storybook/**/*.tsx",
+        ".storybook/**/*.mdx",
+        "src/**/*.d.ts",
+        "src/**/*.ts",
+        "src/**/*.tsx",
+        "src/**/*.mdx"
+    ]
+}
