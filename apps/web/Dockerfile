@@ -1,20 +1,20 @@
 FROM node:22-alpine AS node
 
 # Base Image
-FROM node as base
+FROM node AS base
 RUN apk update
 RUN apk add --no-cache libc6-compat
 RUN npm i -g pnpm@10.5.2 turbo@2.4.4
 
 # Create pruned web application
-FROM base as prune
+FROM base AS prune
 WORKDIR /app
 
 COPY . .
 RUN turbo prune web --docker
 
 # Install dependencies and build the application
-FROM base as builder
+FROM base AS builder
 WORKDIR /app
 
 COPY --from=prune /app/out/full/.gitignore .
@@ -24,7 +24,7 @@ RUN pnpm rebuild sharp
 RUN pnpm turbo run build --filter web...
 
 # Serve the application
-FROM base as runner
+FROM base AS runner
 WORKDIR /app
 
 RUN addgroup --system --gid 1001 nodejs
