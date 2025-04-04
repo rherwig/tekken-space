@@ -1,7 +1,10 @@
-import { CharacterScrapingMeta, ScrapedMove } from '@tekken-space/types'
+import {
+    CharacterScrapingMeta,
+    ScrapedMove,
+    WavuMove,
+} from '@tekken-space/types'
 import { loadLinkedFile, writeOutput } from '../functions/files'
 import { HARMONIZED_FILES_PATH } from '../constants'
-import { WavuMove } from '../types'
 import { harmonizeFrameData } from '../functions/frames'
 import {
     harmonizeDamage,

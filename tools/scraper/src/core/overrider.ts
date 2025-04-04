@@ -1,10 +1,9 @@
-import { CharacterScrapingMeta } from '@tekken-space/types'
+import { CharacterScrapingMeta, WavuMove } from '@tekken-space/types'
 import {
     loadOriginalFile,
     loadOverridesFile,
     writeOutput,
 } from '../functions/files'
-import { WavuMove } from '../types'
 import { OVERRIDDEN_FILES_PATH } from '../constants'
 
 function applyOverrides(original: WavuMove[], overrides: Partial<WavuMove>[]) {

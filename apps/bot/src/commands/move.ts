@@ -1,6 +1,22 @@
 import { ChatInputCommandInteraction, SlashCommandBuilder } from 'discord.js'
 import { Command } from '@/types'
 import { movesList } from '@/resources'
+import { WavuMove } from '@tekken-space/types'
+
+const NOTATION_SANITIZATION_REGEX = /(?<=[ufdb])\+/g
+
+function isMatchingMove(query: string, move: WavuMove) {
+    const notation = move.input.toString().toLowerCase()
+
+    if (
+        notation.startsWith(query) ||
+        notation.replace(NOTATION_SANITIZATION_REGEX, '').startsWith(query)
+    ) {
+        return true
+    }
+
+    return !!move.name?.toLowerCase()?.startsWith(query)
+}
 
 function findMove(character: string, move: string) {
     const characterMoves = movesList.find(
@@ -11,7 +27,9 @@ function findMove(character: string, move: string) {
         return
     }
 
-    return characterMoves.moves.find((item) => item.input.startsWith(move))
+    return characterMoves.moves.find((item: WavuMove) =>
+        isMatchingMove(move, item),
+    )
 }
 
 export default {
@@ -40,8 +58,21 @@ export default {
             return
         }
 
-        await interaction.reply(
-            `**${moveInfo.name}**\nStartup: ${moveInfo.startup}\nOn Block: ${moveInfo.onBlock}\nOn Hit: ${moveInfo.onHit}\nOn Counter Hit: ${moveInfo.onCH}\n`,
-        )
+        const moveName = moveInfo.name ? ` (${moveInfo.name})` : ''
+        const moveHeader = `**${moveInfo.input}${moveName}**`
+        const moveStartup = `Startup: ${moveInfo.startup ?? '?'}`
+        const moveOnBlock = `On Block: ${moveInfo.onBlock ?? '?'}`
+        const moveOnHit = `On Hit: ${moveInfo.onHit ?? '?'}`
+        const moveOnCH = `On Counter Hit: ${moveInfo.onCH ?? '?'}`
+
+        const moveOutput = [
+            moveHeader,
+            moveStartup,
+            moveOnBlock,
+            moveOnHit,
+            moveOnCH,
+        ].join('\n')
+
+        await interaction.reply(moveOutput)
     },
 } satisfies Command

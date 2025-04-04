@@ -1,6 +1,5 @@
-import { CharacterScrapingMeta } from '@tekken-space/types'
+import { CharacterScrapingMeta, WavuMove } from '@tekken-space/types'
 import { loadOverriddenFile, writeOutput } from '../functions/files'
-import { WavuMove } from '../types'
 import { LINKED_FILES_PATH } from '../constants'
 
 function linkParentProperty<T = string>(
