@@ -1,5474 +1,1990 @@
 [
   {
+    "id": "Feng-1",
+    "parent": null,
     "name": "Left Jab",
-    "input": "1",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      5
-    ],
-    "framesOnBlock": {
-      "_raw": "1",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "8",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": 1,
+    "startup": "i10",
+    "hitLevels": "h",
+    "damage": 5,
+    "onBlock": 1,
+    "onHit": 8,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 18,
+    "id": "Feng-1,1",
+    "parent": "Feng-1",
     "name": "Jab Spear Fist",
     "input": "1,1",
-    "hitLevels": [
-      "h",
-      "m"
-    ],
-    "damage": [
-      5,
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-11",
-      "lower": "-11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "2",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+61a",
-      "lower": "+61",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,m",
+    "damage": "5,21",
+    "onBlock": -11,
+    "onHit": 2,
+    "onCounterHit": "+61a",
+    "states": null,
+    "index": 18
   },
   {
-    "index": 27,
+    "id": "Feng-1+2",
+    "parent": null,
     "name": "Iron Shield",
     "input": "1+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-13 / +20wc",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "8",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i21~22",
-      "lower": "i21",
-      "properties": [],
-      "upper": "22"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i21~22",
+    "hitLevels": "m",
+    "damage": 20,
+    "onBlock": "-13 / +20wc",
+    "onHit": 8,
+    "onCounterHit": null,
+    "states": "ps5~9",
+    "index": 27
   },
   {
-    "index": 19,
+    "id": "Feng-1,2",
+    "parent": "Feng-1",
     "name": "Shun Lian Quan",
     "input": "1,2",
-    "hitLevels": [
-      "h",
-      "h"
-    ],
-    "damage": [
-      5,
-      9
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "8",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,h",
+    "damage": "5,9",
+    "onBlock": -3,
+    "onHit": 8,
+    "onCounterHit": null,
+    "states": null,
+    "index": 19
   },
   {
-    "index": 20,
+    "id": "Feng-1,2,2",
+    "parent": "Feng-1,2",
     "name": "Firestorm",
     "input": "1,2,2",
-    "hitLevels": [
-      "h",
-      "h",
-      "h"
-    ],
-    "damage": [
-      5,
-      9,
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "3",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,h,h",
+    "damage": "5,9,12",
+    "onBlock": -13,
+    "onHit": 3,
+    "onCounterHit": null,
+    "states": null,
+    "index": 20
   },
   {
-    "index": 76,
+    "id": "Feng-1+2+3+4",
+    "parent": null,
     "name": "Ki Charge",
     "input": "1+2+3+4",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": 76
   },
   {
-    "index": 112,
+    "id": "Feng-1+3",
+    "parent": null,
     "name": "Neck Twister",
     "input": "1+3",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      35
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-4",
-      "lower": "-4",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12~14",
-      "lower": "i12",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12~14",
+    "hitLevels": "t",
+    "damage": 35,
+    "onBlock": -6,
+    "onHit": -4,
+    "onCounterHit": null,
+    "states": null,
+    "index": 112
   },
   {
-    "index": 21,
+    "id": "Feng-1,3",
+    "parent": "Feng-1",
     "name": "Jab Roundhouse Combo",
     "input": "1,3",
-    "hitLevels": [
-      "h",
-      "h"
-    ],
-    "damage": [
-      5,
-      19
-    ],
-    "framesOnBlock": {
-      "_raw": "-5",
-      "lower": "-5",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+8~+9",
-      "lower": "+8",
-      "properties": [],
-      "upper": "+9"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,h",
+    "damage": "5,19",
+    "onBlock": -5,
+    "onHit": "+8~+9",
+    "onCounterHit": null,
+    "states": null,
+    "index": 21
   },
   {
-    "index": 75,
+    "id": "Feng-1+3+4",
+    "parent": null,
     "name": "Taunt",
     "input": "1+3+4",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": 75
   },
   {
+    "id": "Feng-2",
+    "parent": null,
     "name": "Right Jab",
-    "input": "2",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      8
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "5",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": 2,
+    "startup": "i10",
+    "hitLevels": "h",
+    "damage": 8,
+    "onBlock": -3,
+    "onHit": 5,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Feng-2+3",
+    "parent": null,
     "name": "Heat Burst",
     "input": "2+3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      12,
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "1",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+2c",
-      "lower": "+2",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "m",
+    "damage": "[12;12]",
+    "onBlock": 1,
+    "onHit": "+2c",
+    "onCounterHit": null,
+    "states": "pc7~16",
+    "index": null
   },
   {
-    "index": 113,
+    "id": "Feng-2+4",
+    "parent": null,
     "name": "Serpent Slayer",
     "input": "2+4",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      35
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12~14",
-      "lower": "i12",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12~14",
+    "hitLevels": "t",
+    "damage": 35,
+    "onBlock": -3,
+    "onHit": 0,
+    "onCounterHit": null,
+    "states": null,
+    "index": 113
   },
   {
+    "id": "Feng-2,4",
+    "parent": "Feng-2",
+    "name": null,
     "input": "2,4",
-    "hitLevels": [
-      "h",
-      "m"
-    ],
-    "damage": [
-      8,
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-1",
-      "lower": "-1",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,m",
+    "damage": "8,15",
+    "onBlock": -12,
+    "onHit": -1,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 22,
+    "id": "Feng-2,4,1",
+    "parent": "Feng-2,4",
     "name": "San Lian Heng",
     "input": "2,4,1",
-    "hitLevels": [
-      "h",
-      "m",
-      "m"
-    ],
-    "damage": [
-      8,
-      15,
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+24d (+14)",
-      "lower": "+24",
-      "properties": [
-        "d"
-      ],
-      "tech": "+14"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,m,m",
+    "damage": "8,15,25",
+    "onBlock": -12,
+    "onHit": "+24d (+14)",
+    "onCounterHit": null,
+    "states": "js12~19",
+    "index": 22
   },
   {
-    "input": "3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "-11",
-      "lower": "-11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "id": "Feng-3",
+    "parent": null,
+    "name": null,
+    "input": 3,
+    "startup": "i16",
+    "hitLevels": "m",
+    "damage": 15,
+    "onBlock": -11,
+    "onHit": 0,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 24,
+    "id": "Feng-3,1+2",
+    "parent": "Feng-3",
     "name": "Peacock Strike",
     "input": "3,1+2",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      15,
-      30
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+22d (+17)",
-      "lower": "+22",
-      "properties": [
-        "d"
-      ],
-      "tech": "+17"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "m,m",
+    "damage": "15,30",
+    "onBlock": -12,
+    "onHit": "+22d (+17)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 24
   },
   {
+    "id": "Feng-3,1+2*",
+    "parent": "Feng-3",
     "name": "Peacock Strike (Hold)",
     "input": "3,1+2*",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      15,
-      35
-    ],
-    "framesOnBlock": {
-      "_raw": "7",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+23d (+13d)",
-      "lower": "+23",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "m,m",
+    "damage": "15,35",
+    "onBlock": 7,
+    "onHit": "+23d (+13d)",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Feng-3,3",
+    "parent": "Feng-3",
+    "name": null,
     "input": "3,3",
-    "hitLevels": [
-      "m",
-      "h"
-    ],
-    "damage": [
-      15,
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "2",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "m,h",
+    "damage": "15,10",
+    "onBlock": -9,
+    "onHit": 2,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 23,
+    "id": "Feng-3,3,4",
+    "parent": "Feng-3,3",
     "name": "Peacock Sweep",
     "input": "3,3,4",
-    "hitLevels": [
-      "m",
-      "h",
-      "l"
-    ],
-    "damage": [
-      15,
-      10,
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+7c",
-      "lower": "+7",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "+17d",
-      "lower": "+17",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "m,h,l",
+    "damage": "15,10,23",
+    "onBlock": -12,
+    "onHit": "+7c",
+    "onCounterHit": "+17d",
+    "states": null,
+    "index": 23
   },
   {
+    "id": "Feng-3~4",
+    "parent": null,
+    "name": null,
     "input": "3~4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      27
-    ],
-    "framesOnBlock": {
-      "_raw": "-5",
-      "lower": "-5",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+19d",
-      "lower": "+19",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i34~36",
-      "lower": "i34",
-      "properties": [],
-      "upper": "36"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i34~36",
+    "hitLevels": "m",
+    "damage": 27,
+    "onBlock": -5,
+    "onHit": "+19d",
+    "onCounterHit": null,
+    "states": "js20~",
+    "index": null
   },
   {
-    "index": 25,
+    "id": "Feng-3~4,3",
+    "parent": "Feng-3~4",
     "name": "Leaping Whirlwind Combo",
     "input": "3~4,3",
-    "hitLevels": [
-      "m",
-      "l"
-    ],
-    "damage": [
-      27,
-      11
-    ],
-    "framesOnBlock": {
-      "_raw": "-26",
-      "lower": "-26",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+19d (+12)",
-      "lower": "+19",
-      "properties": [
-        "d"
-      ],
-      "tech": "+12"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i34~36",
-      "lower": "i34",
-      "properties": [],
-      "upper": "36"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i34~36",
+    "hitLevels": "m,l",
+    "damage": "27,11",
+    "onBlock": -26,
+    "onHit": "+19d (+12)",
+    "onCounterHit": null,
+    "states": "cs6~",
+    "index": 25
   },
   {
-    "input": "4",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      17
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "2",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+27g",
-      "lower": "+27",
-      "properties": [
-        "g"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i11",
-      "lower": "i11",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "id": "Feng-4",
+    "parent": null,
+    "name": null,
+    "input": 4,
+    "startup": "i11",
+    "hitLevels": "h",
+    "damage": 17,
+    "onBlock": -9,
+    "onHit": 2,
+    "onCounterHit": "+27g",
+    "states": null,
+    "index": null
   },
   {
-    "index": 26,
+    "id": "Feng-4~3",
+    "parent": null,
     "name": "Headspring",
     "input": "4~3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-7",
-      "lower": "-7",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+1c",
-      "lower": "+1",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "+16a~+22a",
-      "lower": "+16",
-      "properties": [
-        "a",
-        "a"
-      ],
-      "upper": "+22"
-    },
-    "framesOnStartup": {
-      "_raw": "i28~i34",
-      "lower": "i28",
-      "properties": [],
-      "upper": "i34"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i28~i34",
+    "hitLevels": "m",
+    "damage": 25,
+    "onBlock": -7,
+    "onHit": "+1c",
+    "onCounterHit": "+16a~+22a",
+    "states": "js15~",
+    "index": 26
   },
   {
-    "index": 52,
+    "id": "Feng-b+1",
+    "parent": null,
     "name": "Iron Palm",
     "input": "b+1",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      17
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "1",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+36d (+28)",
-      "lower": "+36",
-      "properties": [
-        "d"
-      ],
-      "tech": "+28"
-    },
-    "framesOnStartup": {
-      "_raw": "i10~11",
-      "lower": "i10",
-      "properties": [],
-      "upper": "11"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10~11",
+    "hitLevels": "h",
+    "damage": 17,
+    "onBlock": -12,
+    "onHit": 1,
+    "onCounterHit": "+36d (+28)",
+    "states": null,
+    "index": 52
   },
   {
-    "index": 57,
+    "id": "Feng-b+1+2",
+    "parent": null,
     "name": "Iron Fortress",
     "input": "b+1+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      31
-    ],
-    "framesOnBlock": {
-      "_raw": "-19",
-      "lower": "-19",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+18a (+13)",
-      "lower": "+18",
-      "properties": [
-        "a"
-      ],
-      "tech": "+13"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13~14",
-      "lower": "i13",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13~14",
+    "hitLevels": "m",
+    "damage": 31,
+    "onBlock": -19,
+    "onHit": "+18a (+13)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 57
   },
   {
+    "id": "Feng-b+1+3_2+4",
+    "parent": null,
     "name": "Attack Reversal",
     "input": "b1+3_2+4",
-    "hitLevels": [],
-    "damage": [
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": 25,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": "ps",
+    "index": null
   },
   {
+    "id": "Feng-b+2",
+    "parent": null,
+    "name": null,
     "input": "b+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      13
-    ],
-    "framesOnBlock": {
-      "_raw": "-11",
-      "lower": "-11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0c",
-      "lower": "+0",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17",
-      "lower": "i17",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17",
+    "hitLevels": "m",
+    "damage": 13,
+    "onBlock": -11,
+    "onHit": "+0c",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Feng-b+2,3",
+    "parent": "Feng-b+2",
+    "name": null,
     "input": "b+2,3",
-    "hitLevels": [
-      "m",
-      "l"
-    ],
-    "damage": [
-      13,
-      6
-    ],
-    "framesOnBlock": {
-      "_raw": "-11",
-      "lower": "-11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17",
-      "lower": "i17",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17",
+    "hitLevels": "m,l",
+    "damage": "13,6",
+    "onBlock": -11,
+    "onHit": 0,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Feng-b+2,3,4",
+    "parent": "Feng-b+2,3",
+    "name": null,
     "input": "b+2,3,4",
-    "hitLevels": [
-      "m",
-      "l",
-      "m"
-    ],
-    "damage": [
-      13,
-      6,
-      13
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+19a (+12)",
-      "lower": "+19",
-      "properties": [
-        "a"
-      ],
-      "tech": "+12"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17",
-      "lower": "i17",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17",
+    "hitLevels": "m,l,m",
+    "damage": "13,6,13",
+    "onBlock": -12,
+    "onHit": "+19a (+12)",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 53,
+    "id": "Feng-b+2,3,4,2",
+    "parent": "Feng-b+2,3,4",
     "name": "Hungry Tiger",
     "input": "b+2,3,4,2",
-    "hitLevels": [
-      "m",
-      "l",
-      "m",
-      "m"
-    ],
-    "damage": [
-      13,
-      6,
-      13,
-      22
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "4",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17",
-      "lower": "i17",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17",
+    "hitLevels": "m,l,m,m",
+    "damage": "13,6,13,22",
+    "onBlock": -6,
+    "onHit": 4,
+    "onCounterHit": null,
+    "states": null,
+    "index": 53
   },
   {
-    "index": 54,
+    "id": "Feng-b+3",
+    "parent": null,
     "name": "Chin Breaker",
     "input": "b+3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "6",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+10d",
-      "lower": "+10",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "+38a",
-      "lower": "+38",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i22~23",
-      "lower": "i22",
-      "properties": [],
-      "upper": "23"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i22~23",
+    "hitLevels": "m",
+    "damage": 21,
+    "onBlock": 6,
+    "onHit": "+10d",
+    "onCounterHit": "+38a",
+    "states": null,
+    "index": 54
   },
   {
-    "index": 55,
+    "id": "Feng-b+3~4",
+    "parent": null,
     "name": "Zhuan Shen Huan Wu",
     "input": "b+3~4",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": 55
   },
   {
-    "index": 56,
+    "id": "Feng-b+4",
+    "parent": null,
     "name": "Fish Hook",
     "input": "b+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-10",
-      "lower": "-10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "4",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12~13",
-      "lower": "i12",
-      "properties": [],
-      "upper": "13"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12~13",
+    "hitLevels": "m",
+    "damage": 10,
+    "onBlock": -10,
+    "onHit": 4,
+    "onCounterHit": null,
+    "states": null,
+    "index": 56
   },
   {
-    "index": 116,
+    "id": "Feng-Back Throw",
+    "parent": null,
     "name": "Violent Storm",
-    "input": "BackThrow",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      50
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-4",
-      "lower": "-4",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": "Back Throw",
+    "startup": null,
+    "hitLevels": "t",
+    "damage": 50,
+    "onBlock": null,
+    "onHit": -4,
+    "onCounterHit": null,
+    "states": null,
+    "index": 116
   },
   {
+    "id": "Feng-B,B,U/B",
+    "parent": null,
     "name": "Evading Wall",
     "input": "B,B,U/B",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "+4c",
-      "lower": "+4",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnHit": {
-      "_raw": "22",
-      "lower": "22",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "22",
-      "lower": "22",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i39~41",
-      "lower": "i39",
-      "properties": [],
-      "upper": "41"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i39~41",
+    "hitLevels": "m",
+    "damage": 21,
+    "onBlock": "+4c",
+    "onHit": 22,
+    "onCounterHit": 22,
+    "states": "js5",
+    "index": null
   },
   {
-    "index": 72,
+    "id": "Feng-b,f+1",
+    "parent": null,
     "name": "Falcon&#039;s Beak",
     "input": "b,f+1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-15",
-      "lower": "-15",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+10d (+1)",
-      "lower": "+10",
-      "properties": [
-        "d"
-      ],
-      "tech": "+1"
-    },
-    "framesOnCounter": {
-      "_raw": "+44a",
-      "lower": "+44",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i25~26",
-      "lower": "i25",
-      "properties": [],
-      "upper": "26"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i25~26",
+    "hitLevels": "m",
+    "damage": 25,
+    "onBlock": -15,
+    "onHit": "+10d (+1)",
+    "onCounterHit": "+44a",
+    "states": null,
+    "index": 72
   },
   {
-    "index": 90,
+    "id": "Feng-BT.1",
+    "parent": null,
     "name": "Backfist",
     "input": "BT.1",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "14",
-      "lower": "14",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "h",
+    "damage": 12,
+    "onBlock": -3,
+    "onHit": 14,
+    "onCounterHit": null,
+    "states": null,
+    "index": 90
   },
   {
-    "index": 93,
+    "id": "Feng-BT.1+2",
+    "parent": null,
     "name": "Hustle Elbow",
     "input": "BT.1+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "8",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+41d (+33)",
-      "lower": "+41",
-      "properties": [
-        "d"
-      ],
-      "tech": "+33"
-    },
-    "framesOnStartup": {
-      "_raw": "i16~17",
-      "lower": "i16",
-      "properties": [],
-      "upper": "17"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16~17",
+    "hitLevels": "m",
+    "damage": 20,
+    "onBlock": -3,
+    "onHit": 8,
+    "onCounterHit": "+41d (+33)",
+    "states": null,
+    "index": 93
   },
   {
-    "index": 118,
+    "id": "Feng-BT.1+4_2+3",
+    "parent": null,
     "name": "Pao Lau Impaler",
     "input": "BT.1+4_2+3",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      45
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-4",
-      "lower": "-4",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": "t",
+    "damage": 45,
+    "onBlock": -6,
+    "onHit": -4,
+    "onCounterHit": null,
+    "states": null,
+    "index": 118
   },
   {
-    "index": 91,
+    "id": "Feng-BT.2",
+    "parent": null,
     "name": "Slashing Tiger",
     "input": "BT.2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      27
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "17",
-      "lower": "17",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i19~21",
-      "lower": "i19",
-      "properties": [],
-      "upper": "21"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i19~21",
+    "hitLevels": "m",
+    "damage": 27,
+    "onBlock": -13,
+    "onHit": 17,
+    "onCounterHit": null,
+    "states": "pc8~",
+    "index": 91
   },
   {
+    "id": "Feng-BT.3",
+    "parent": null,
     "name": "Tremor Stomp",
     "input": "BT.3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      33
-    ],
-    "framesOnBlock": {
-      "_raw": "+8c",
-      "lower": "+8",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnHit": {
-      "_raw": "+8c",
-      "lower": "+8",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i32~33",
-      "lower": "i32",
-      "properties": [],
-      "upper": "33"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i32~33",
+    "hitLevels": "m",
+    "damage": 33,
+    "onBlock": "+8c",
+    "onHit": "+8c",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 94,
+    "id": "Feng-BT.d+1",
+    "parent": null,
     "name": "Reverse Fractured Diamond",
     "input": "BT.d+1",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-13c",
-      "lower": "-13",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnHit": {
-      "_raw": "4",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+16d",
-      "lower": "+16",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i20~21",
-      "lower": "i20",
-      "properties": [],
-      "upper": "21"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20~21",
+    "hitLevels": "l",
+    "damage": 20,
+    "onBlock": "-13c",
+    "onHit": 4,
+    "onCounterHit": "+16d",
+    "states": "cs15~",
+    "index": 94
   },
   {
-    "index": 95,
+    "id": "Feng-BT.d+3",
+    "parent": null,
     "name": "Reverse Mighty Sweep Kick",
     "input": "BT.d+3",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-26c",
-      "lower": "-26",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnHit": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+70a (+54)",
-      "lower": "+70",
-      "properties": [
-        "a"
-      ],
-      "tech": "+54"
-    },
-    "framesOnStartup": {
-      "_raw": "i18~20",
-      "lower": "i18",
-      "properties": [],
-      "upper": "20"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18~20",
+    "hitLevels": "l",
+    "damage": 20,
+    "onBlock": "-26c",
+    "onHit": -3,
+    "onCounterHit": "+70a (+54)",
+    "states": "cs6~",
+    "index": 95
   },
   {
+    "id": "Feng-d+1+2",
+    "parent": null,
+    "name": null,
     "input": "d+1+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+8c",
-      "lower": "+8",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20~21",
-      "lower": "i20",
-      "properties": [],
-      "upper": "21"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20~21",
+    "hitLevels": "m",
+    "damage": 15,
+    "onBlock": -9,
+    "onHit": "+8c",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 44,
+    "id": "Feng-d+1+2,1",
+    "parent": "Feng-d+1+2",
     "name": "Mad Windmill",
     "input": "d+1+2,1",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      15,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+18a (+11)",
-      "lower": "+18",
-      "properties": [
-        "a"
-      ],
-      "tech": "+11"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20~21",
-      "lower": "i20",
-      "properties": [],
-      "upper": "21"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20~21",
+    "hitLevels": "m,m",
+    "damage": "15,20",
+    "onBlock": -12,
+    "onHit": "+18a (+11)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 44
   },
   {
-    "index": 42,
+    "id": "Feng-d+2",
+    "parent": null,
     "name": "Heavy Hammer",
     "input": "d+2",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      16
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-1",
-      "lower": "-1",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20~21",
-      "lower": "i20",
-      "properties": [],
-      "upper": "21"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20~21",
+    "hitLevels": "l",
+    "damage": 16,
+    "onBlock": -12,
+    "onHit": -1,
+    "onCounterHit": null,
+    "states": "cs6~20",
+    "index": 42
   },
   {
+    "id": "Feng-d+4",
+    "parent": null,
+    "name": null,
     "input": "d+4",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      7
-    ],
-    "framesOnBlock": {
-      "_raw": "-11",
-      "lower": "-11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14~15",
-      "lower": "i14",
-      "properties": [],
-      "upper": "15"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14~15",
+    "hitLevels": "l",
+    "damage": 7,
+    "onBlock": -11,
+    "onHit": 0,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 43,
+    "id": "Feng-d+4,1+2",
+    "parent": "Feng-d+4",
     "name": "Parting Heavens",
     "input": "d+4,1+2",
-    "hitLevels": [
-      "l",
-      "m"
-    ],
-    "damage": [
-      7,
-      22
-    ],
-    "framesOnBlock": {
-      "_raw": "-10",
-      "lower": "-10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+11d (+2)",
-      "lower": "+11",
-      "properties": [
-        "d"
-      ],
-      "tech": "+2"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14~15",
-      "lower": "i14",
-      "properties": [],
-      "upper": "15"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14~15",
+    "hitLevels": "l,m",
+    "damage": "7,22",
+    "onBlock": -10,
+    "onHit": "+11d (+2)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 43
   },
   {
+    "id": "Feng-db+1",
+    "parent": null,
+    "name": null,
     "input": "db+1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "4",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "m",
+    "damage": 15,
+    "onBlock": -12,
+    "onHit": 4,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Feng-db+1+2",
+    "parent": null,
+    "name": null,
     "input": "db+1+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      13
-    ],
-    "framesOnBlock": {
-      "_raw": "-4",
-      "lower": "-4",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "4",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i21~22",
-      "lower": "i21",
-      "properties": [],
-      "upper": "22"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i21~22",
+    "hitLevels": "m",
+    "damage": 13,
+    "onBlock": -4,
+    "onHit": 4,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Feng-db+1,2",
+    "parent": "Feng-db+1",
     "name": "Spear of Lu Bu",
     "input": "db+1,2",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      15,
-      18
-    ],
-    "framesOnBlock": {
-      "_raw": "-11",
-      "lower": "-11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "3",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "m,m",
+    "damage": "15,18",
+    "onBlock": -11,
+    "onHit": 3,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 51,
+    "id": "Feng-db+1+2,2",
+    "parent": "Feng-db+1+2",
     "name": "Dragon Slayer",
     "input": "db+1+2,2",
-    "hitLevels": [
-      "m",
-      "l"
-    ],
-    "damage": [
-      13,
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-1",
-      "lower": "-1",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i21~22",
-      "lower": "i21",
-      "properties": [],
-      "upper": "22"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i21~22",
+    "hitLevels": "m,l",
+    "damage": "13,10",
+    "onBlock": -12,
+    "onHit": -1,
+    "onCounterHit": null,
+    "states": "cs8",
+    "index": 51
   },
   {
+    "id": "Feng-db+1,2,4",
+    "parent": "Feng-db+1,2",
+    "name": null,
     "input": "db+1,2,4",
-    "hitLevels": [
-      "m",
-      "m",
-      "m"
-    ],
-    "damage": [
-      15,
-      18,
-      30
-    ],
-    "framesOnBlock": {
-      "_raw": "-7",
-      "lower": "-7",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-3d",
-      "lower": "-3",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "m,m,m",
+    "damage": "15,18,30",
+    "onBlock": -7,
+    "onHit": "-3d",
+    "onCounterHit": null,
+    "states": "js",
+    "index": null
   },
   {
-    "index": 45,
+    "id": "Feng-db+1,2,4,3+4",
+    "parent": "Feng-db+1,2,4",
     "name": "Rampaging Lion",
     "input": "db+1,2,4,3+4",
-    "hitLevels": [
-      "m",
-      "m",
-      "mm"
-    ],
-    "damage": [
-      15,
-      18,
-      3020
-    ],
-    "framesOnBlock": {
-      "_raw": "-3~0",
-      "lower": "-3",
-      "properties": [],
-      "upper": ""
-    },
-    "framesOnHit": {
-      "_raw": "+31a (+21)",
-      "lower": "+31",
-      "properties": [
-        "a"
-      ],
-      "tech": "+21"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "m,m,mm",
+    "damage": "15,18,3020",
+    "onBlock": "-3~0",
+    "onHit": "+31a (+21)",
+    "onCounterHit": null,
+    "states": "js",
+    "index": 45
   },
   {
-    "index": 46,
+    "id": "Feng-db+1,4",
+    "parent": "Feng-db+1",
     "name": "Spinning Neck Strike",
     "input": "db+1,4",
-    "hitLevels": [
-      "m",
-      "h"
-    ],
-    "damage": [
-      15,
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+24a (+15)",
-      "lower": "+24",
-      "properties": [
-        "a"
-      ],
-      "tech": "+15"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "m,h",
+    "damage": "15,23",
+    "onBlock": -2,
+    "onHit": "+24a (+15)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 46
   },
   {
+    "id": "Feng-db+2",
+    "parent": null,
+    "name": null,
     "input": "db+2",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-11",
-      "lower": "-11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20~21",
-      "lower": "i20",
-      "properties": [],
-      "upper": "21"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20~21",
+    "hitLevels": "l",
+    "damage": 10,
+    "onBlock": -11,
+    "onHit": 0,
+    "onCounterHit": null,
+    "states": "cs6",
+    "index": null
   },
   {
+    "id": "Feng-db+2,2",
+    "parent": "Feng-db+2",
+    "name": null,
     "input": "db+2,2",
-    "hitLevels": [
-      "l",
-      "l"
-    ],
-    "damage": [
-      10,
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-17",
-      "lower": "-17",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+20a",
-      "lower": "+20",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20~21",
-      "lower": "i20",
-      "properties": [],
-      "upper": "21"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20~21",
+    "hitLevels": "l,l",
+    "damage": "10,10",
+    "onBlock": -17,
+    "onHit": "+20a",
+    "onCounterHit": null,
+    "states": "cs",
+    "index": null
   },
   {
-    "index": 47,
+    "id": "Feng-db+2,2,2",
+    "parent": "Feng-db+2,2",
     "name": "Hellwinds",
     "input": "db+2,2,2",
-    "hitLevels": [
-      "l",
-      "l",
-      "m"
-    ],
-    "damage": [
-      10,
-      10,
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-8",
-      "lower": "-8",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+13d",
-      "lower": "+13",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20~21",
-      "lower": "i20",
-      "properties": [],
-      "upper": "21"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20~21",
+    "hitLevels": "l,l,m",
+    "damage": "10,10,25",
+    "onBlock": -8,
+    "onHit": "+13d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 47
   },
   {
-    "index": 48,
+    "id": "Feng-db+3",
+    "parent": null,
     "name": "Piercing Arrow",
     "input": "db+3",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      14
-    ],
-    "framesOnBlock": {
-      "_raw": "-15",
-      "lower": "-15",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "4",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17",
-      "lower": "i17",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17",
+    "hitLevels": "l",
+    "damage": 14,
+    "onBlock": -15,
+    "onHit": 4,
+    "onCounterHit": null,
+    "states": "cs6~17",
+    "index": 48
   },
   {
-    "index": 50,
+    "id": "Feng-db+4",
+    "parent": null,
     "name": "Mighty Sweep Kick",
     "input": "db+4",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "-26",
-      "lower": "-26",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+76a (+60)",
-      "lower": "+76",
-      "properties": [
-        "a"
-      ],
-      "tech": "+60"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i31 (30~32)",
-      "lower": "i31",
-      "properties": [],
-      "upper": "32"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i31 (30~32)",
+    "hitLevels": "l",
+    "damage": 23,
+    "onBlock": -26,
+    "onHit": "+76a (+60)",
+    "onCounterHit": null,
+    "states": "cs6~31",
+    "index": 50
   },
   {
-    "index": 36,
+    "id": "Feng-df+1",
+    "parent": null,
     "name": "Stunning Palm",
     "input": "df+1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      11
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "6",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+36g",
-      "lower": "+36",
-      "properties": [
-        "g"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i14",
-      "lower": "i14",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14",
+    "hitLevels": "m",
+    "damage": 11,
+    "onBlock": 0,
+    "onHit": 6,
+    "onCounterHit": "+36g",
+    "states": null,
+    "index": 36
   },
   {
+    "id": "Feng-df+2",
+    "parent": null,
+    "name": null,
     "input": "df+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "-8",
-      "lower": "-8",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20~21",
-      "lower": "i20",
-      "properties": [],
-      "upper": "21"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20~21",
+    "hitLevels": "m",
+    "damage": 15,
+    "onBlock": -8,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 37,
+    "id": "Feng-df+2,2",
+    "parent": "Feng-df+2",
     "name": "God Palm",
     "input": "df+2,2",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      15,
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+14a (+4)",
-      "lower": "+14",
-      "properties": [
-        "a"
-      ],
-      "tech": "+4"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20~21",
-      "lower": "i20",
-      "properties": [],
-      "upper": "21"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20~21",
+    "hitLevels": "m,m",
+    "damage": "15,21",
+    "onBlock": -6,
+    "onHit": "+14a (+4)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 37
   },
   {
-    "index": 38,
+    "id": "Feng-df+3",
+    "parent": null,
     "name": "Lift Kick",
     "input": "df+3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-7",
-      "lower": "-7",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+78a (+62)",
-      "lower": "+78",
-      "properties": [
-        "a"
-      ],
-      "tech": "+62"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18~19",
-      "lower": "i18",
-      "properties": [],
-      "upper": "19"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18~19",
+    "hitLevels": "m",
+    "damage": 21,
+    "onBlock": -7,
+    "onHit": "+78a (+62)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 38
   },
   {
-    "index": 41,
+    "id": "Feng-df+3+4",
+    "parent": null,
     "name": "Ruinous Halberd",
     "input": "df+3+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "-7",
-      "lower": "-7",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+22d",
-      "lower": "+22",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i23~27",
-      "lower": "i23",
-      "properties": [],
-      "upper": "27"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i23~27",
+    "hitLevels": "m",
+    "damage": 23,
+    "onBlock": -7,
+    "onHit": "+22d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 41
   },
   {
+    "id": "Feng-df+4",
+    "parent": null,
+    "name": null,
     "input": "df+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      13
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "5",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m",
+    "damage": 13,
+    "onBlock": -6,
+    "onHit": 5,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Feng-df+4,2",
+    "parent": "Feng-df+4",
+    "name": null,
     "input": "df+4,2",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      13,
-      13
-    ],
-    "framesOnBlock": {
-      "_raw": "-11",
-      "lower": "-11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "1",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m,m",
+    "damage": "13,13",
+    "onBlock": -11,
+    "onHit": 1,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 39,
+    "id": "Feng-df+4,2,1+2",
+    "parent": "Feng-df+4,2",
     "name": "Pau Lau Stinger",
     "input": "df+4,2,1+2",
-    "hitLevels": [
-      "m",
-      "m",
-      "m"
-    ],
-    "damage": [
-      13,
-      13,
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-19",
-      "lower": "-19",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+31a (+16)",
-      "lower": "+31",
-      "properties": [
-        "a"
-      ],
-      "tech": "+16"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m,m,m",
+    "damage": "13,13,21",
+    "onBlock": -19,
+    "onHit": "+31a (+16)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 39
   },
   {
-    "index": 40,
+    "id": "Feng-df+4,3",
+    "parent": "Feng-df+4",
     "name": "Twin Dragon",
     "input": "df+4,3",
-    "hitLevels": [
-      "m",
-      "h"
-    ],
-    "damage": [
-      13,
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "-4",
-      "lower": "-4",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+15g",
-      "lower": "+15",
-      "properties": [
-        "g"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "+27d",
-      "lower": "+27",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m,h",
+    "damage": "13,23",
+    "onBlock": -4,
+    "onHit": "+15g",
+    "onCounterHit": "+27d",
+    "states": null,
+    "index": 40
   },
   {
-    "index": 34,
+    "id": "Feng-f+1+2",
+    "parent": null,
     "name": "Tiger&#039;s Claw",
     "input": "f+1+2",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+19d",
-      "lower": "+19",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i19~20",
-      "lower": "i19",
-      "properties": [],
-      "upper": "20"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i19~20",
+    "hitLevels": "h",
+    "damage": 25,
+    "onBlock": -9,
+    "onHit": "+19d",
+    "onCounterHit": null,
+    "states": "pc7",
+    "index": 34
   },
   {
+    "id": "Feng-f+2",
+    "parent": null,
+    "name": null,
     "input": "f+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-8",
-      "lower": "-8",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "3",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "10",
-      "lower": "10",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m",
+    "damage": 10,
+    "onBlock": -8,
+    "onHit": 3,
+    "onCounterHit": 10,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Feng-f+2,1",
+    "parent": "Feng-f+2",
+    "name": null,
     "input": "f+2,1",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      10,
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-8",
-      "lower": "-8",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "3",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m,m",
+    "damage": "10,10",
+    "onBlock": -8,
+    "onHit": 3,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 28,
+    "id": "Feng-f+2,1,2",
+    "parent": "Feng-f+2,1",
     "name": "Boar&#039;s Tusk",
     "input": "f+2,1,2",
-    "hitLevels": [
-      "m",
-      "m",
-      "m"
-    ],
-    "damage": [
-      10,
-      10,
-      28
-    ],
-    "framesOnBlock": {
-      "_raw": "-19",
-      "lower": "-19",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+19d (+14)",
-      "lower": "+19",
-      "properties": [
-        "d"
-      ],
-      "tech": "+14"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m,m,m",
+    "damage": "10,10,28",
+    "onBlock": -19,
+    "onHit": "+19d (+14)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 28
   },
   {
+    "id": "Feng-f+3",
+    "parent": null,
+    "name": null,
     "input": "f+3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      null,
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "7",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i21",
-      "lower": "i21",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i21",
+    "hitLevels": "m",
+    "damage": ",10",
+    "onBlock": -3,
+    "onHit": 7,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 29,
+    "id": "Feng-f+3,2",
+    "parent": "Feng-f+3",
     "name": "Piercing Dragon",
     "input": "f+3,2",
-    "hitLevels": [
-      "m",
-      "h"
-    ],
-    "damage": [
-      null,
-      10,
-      17
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "8",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+43d (+35)",
-      "lower": "+43",
-      "properties": [
-        "d"
-      ],
-      "tech": "+35"
-    },
-    "framesOnStartup": {
-      "_raw": "i21",
-      "lower": "i21",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i21",
+    "hitLevels": "m,h",
+    "damage": ",10,17",
+    "onBlock": -3,
+    "onHit": 8,
+    "onCounterHit": "+43d (+35)",
+    "states": null,
+    "index": 29
   },
   {
+    "id": "Feng-f+3+4",
+    "parent": null,
     "name": "Shifting Clouds",
     "input": "f+3+4",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": "ps3",
+    "index": null
   },
   {
-    "index": 30,
+    "id": "Feng-f+3,4",
+    "parent": "Feng-f+3",
     "name": "Climbing Dragon",
     "input": "f+3,4",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      null,
-      10,
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "-16",
-      "lower": "-16",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+33a (+23)",
-      "lower": "+33",
-      "properties": [
-        "a"
-      ],
-      "tech": "+23"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i21",
-      "lower": "i21",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i21",
+    "hitLevels": "m,m",
+    "damage": ",10,15",
+    "onBlock": -16,
+    "onHit": "+33a (+23)",
+    "onCounterHit": null,
+    "states": "js21",
+    "index": 30
   },
   {
+    "id": "Feng-f+4",
+    "parent": null,
+    "name": null,
     "input": "f+4",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      19
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+52a",
-      "lower": "+52",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18~19",
-      "lower": "i18",
-      "properties": [],
-      "upper": "19"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18~19",
+    "hitLevels": "h",
+    "damage": 19,
+    "onBlock": -9,
+    "onHit": "+52a",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 31,
+    "id": "Feng-f+4,2",
+    "parent": "Feng-f+4",
     "name": "Tornado Open Palm",
     "input": "f+4,2",
-    "hitLevels": [
-      "h",
-      "m"
-    ],
-    "damage": [
-      19,
-      16
-    ],
-    "framesOnBlock": {
-      "_raw": "-14",
-      "lower": "-14",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+70a (+54)",
-      "lower": "+70",
-      "properties": [
-        "a"
-      ],
-      "tech": "+54"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18~19",
-      "lower": "i18",
-      "properties": [],
-      "upper": "19"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18~19",
+    "hitLevels": "h,m",
+    "damage": "19,16",
+    "onBlock": -14,
+    "onHit": "+70a (+54)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 31
   },
   {
-    "index": 32,
+    "id": "Feng-f+4,3",
+    "parent": "Feng-f+4",
     "name": "Tornado Stomp",
     "input": "f+4,3",
-    "hitLevels": [
-      "h",
-      "m"
-    ],
-    "damage": [
-      19,
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-10",
-      "lower": "-10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+26d (-9)",
-      "lower": "+26",
-      "properties": [
-        "d"
-      ],
-      "tech": "-9"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18~19",
-      "lower": "i18",
-      "properties": [],
-      "upper": "19"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18~19",
+    "hitLevels": "h,m",
+    "damage": "19,21",
+    "onBlock": -10,
+    "onHit": "+26d (-9)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 32
   },
   {
-    "index": 33,
+    "id": "Feng-f+4,4",
+    "parent": "Feng-f+4",
     "name": "Tornado Sweep",
     "input": "f+4,4",
-    "hitLevels": [
-      "h",
-      "l"
-    ],
-    "damage": [
-      19,
-      11
-    ],
-    "framesOnBlock": {
-      "_raw": "-31",
-      "lower": "-31",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+27d",
-      "lower": "+27",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18~19",
-      "lower": "i18",
-      "properties": [],
-      "upper": "19"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18~19",
+    "hitLevels": "h,l",
+    "damage": "19,11",
+    "onBlock": -31,
+    "onHit": "+27d",
+    "onCounterHit": null,
+    "states": "cs10",
+    "index": 33
   },
   {
-    "index": 83,
+    "id": "Feng-FC.df+1",
+    "parent": null,
     "name": "Silent Arrow",
     "input": "FC.df+1",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      19
-    ],
-    "framesOnBlock": {
-      "_raw": "-13c",
-      "lower": "-13",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnHit": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "13",
-      "lower": "13",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i21~22",
-      "lower": "i21",
-      "properties": [],
-      "upper": "22"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i21~22",
+    "hitLevels": "l",
+    "damage": 19,
+    "onBlock": "-13c",
+    "onHit": -2,
+    "onCounterHit": 13,
+    "states": null,
+    "index": 83
   },
   {
-    "index": 84,
+    "id": "Feng-FC.df+2",
+    "parent": null,
     "name": "Monkey Strike",
     "input": "FC.df+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-14",
-      "lower": "-14",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+55a",
-      "lower": "+55",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18",
-      "lower": "i18",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18",
+    "hitLevels": "m",
+    "damage": 21,
+    "onBlock": -14,
+    "onHit": "+55a",
+    "onCounterHit": null,
+    "states": null,
+    "index": 84
   },
   {
+    "id": "Feng-FC.df+4",
+    "parent": null,
+    "name": null,
     "input": "FC.df+4",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      13
-    ],
-    "framesOnBlock": {
-      "_raw": "-8c",
-      "lower": "-8",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnHit": {
-      "_raw": "+3b",
-      "lower": "+3",
-      "properties": [
-        "b"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i19~20",
-      "lower": "i19",
-      "properties": [],
-      "upper": "20"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i19~20",
+    "hitLevels": "l",
+    "damage": 13,
+    "onBlock": "-8c",
+    "onHit": "+3b",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 85,
+    "id": "Feng-FC.df+4,1",
+    "parent": "Feng-FC.df+4",
     "name": "Xuan Jiao Xiao Yan Shou",
     "input": "FC.df+4,1",
-    "hitLevels": [
-      "l",
-      "h"
-    ],
-    "damage": [
-      13,
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "6",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i19~20",
-      "lower": "i19",
-      "properties": [],
-      "upper": "20"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i19~20",
+    "hitLevels": "l,h",
+    "damage": "13,10",
+    "onBlock": -2,
+    "onHit": 6,
+    "onCounterHit": null,
+    "states": null,
+    "index": 85
   },
   {
-    "index": 71,
+    "id": "Feng-f,F+1+2",
+    "parent": null,
     "name": "Nian Zhang Mie Ba",
     "input": "f,F+1+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+16a",
-      "lower": "+16",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i24~25",
-      "lower": "i24",
-      "properties": [],
-      "upper": "25"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i24~25",
+    "hitLevels": "m",
+    "damage": 25,
+    "onBlock": -9,
+    "onHit": "+16a",
+    "onCounterHit": null,
+    "states": null,
+    "index": 71
   },
   {
+    "id": "Feng-f,F+1+2*",
+    "parent": null,
     "name": "Nian Zhang Mie Ba (charged)",
     "input": "f,F+1+2*",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      30
-    ],
-    "framesOnBlock": {
-      "_raw": "6",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+22a (+12)",
-      "lower": "+22",
-      "properties": [
-        "a"
-      ],
-      "tech": "+12"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i39",
-      "lower": "i39",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i39",
+    "hitLevels": "m",
+    "damage": 30,
+    "onBlock": 6,
+    "onHit": "+22a (+12)",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 68,
+    "id": "Feng-f,F+2",
+    "parent": null,
     "name": "Exploding Dagger",
     "input": "f,F+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+16a (+7)",
-      "lower": "+16",
-      "properties": [
-        "a"
-      ],
-      "tech": "+7"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18~19",
-      "lower": "i18",
-      "properties": [],
-      "upper": "19"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18~19",
+    "hitLevels": "m",
+    "damage": 25,
+    "onBlock": -9,
+    "onHit": "+16a (+7)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 68
   },
   {
+    "id": "Feng-f,F+3",
+    "parent": null,
     "name": "Tremor Stomp",
     "input": "f,F+3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      33
-    ],
-    "framesOnBlock": {
-      "_raw": "+8c",
-      "lower": "+8",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnHit": {
-      "_raw": "+8c",
-      "lower": "+8",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i32~33",
-      "lower": "i32",
-      "properties": [],
-      "upper": "33"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i32~33",
+    "hitLevels": "m",
+    "damage": 33,
+    "onBlock": "+8c",
+    "onHit": "+8c",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Feng-f,F+4",
+    "parent": null,
+    "name": null,
     "input": "f,F+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "-15",
-      "lower": "-15",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+30a (+20)",
-      "lower": "+30",
-      "properties": [
-        "a"
-      ],
-      "tech": "+20"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i19~20",
-      "lower": "i19",
-      "properties": [],
-      "upper": "20"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i19~20",
+    "hitLevels": "m",
+    "damage": 15,
+    "onBlock": -15,
+    "onHit": "+30a (+20)",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 70,
+    "id": "Feng-f,F+4,3",
+    "parent": "Feng-f,F+4",
     "name": "Spreading Wings",
     "input": "f,F+4,3",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      15,
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-14",
-      "lower": "-14",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+32a (+25)",
-      "lower": "+32",
-      "properties": [
-        "a"
-      ],
-      "tech": "+25"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i19~20",
-      "lower": "i19",
-      "properties": [],
-      "upper": "20"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i19~20",
+    "hitLevels": "m,m",
+    "damage": "15,21",
+    "onBlock": -14,
+    "onHit": "+32a (+25)",
+    "onCounterHit": null,
+    "states": "js20",
+    "index": 70
   },
   {
-    "index": 73,
+    "id": "Feng-f,f,F+3",
+    "parent": null,
     "name": "Severing Sword",
     "input": "f,f,F+3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      30
-    ],
-    "framesOnBlock": {
-      "_raw": "+6~+11g",
-      "lower": "+6",
-      "properties": [
-        "g"
-      ],
-      "upper": "+11"
-    },
-    "framesOnHit": {
-      "_raw": "+13d (+3)",
-      "lower": "+13",
-      "properties": [
-        "d"
-      ],
-      "tech": "+3"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20~25",
-      "lower": "i20",
-      "properties": [],
-      "upper": "25"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20~25",
+    "hitLevels": "m",
+    "damage": 30,
+    "onBlock": "+6~+11g",
+    "onHit": "+13d (+3)",
+    "onCounterHit": null,
+    "states": "js5",
+    "index": 73
   },
   {
-    "index": 89,
+    "id": "Feng-FUFT.b+3+4",
+    "parent": null,
     "name": "Spring Up",
     "input": "FUFT.b+3+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-3~0",
-      "lower": "-3",
-      "properties": [],
-      "upper": ""
-    },
-    "framesOnHit": {
-      "_raw": "+28d (+18)",
-      "lower": "+28",
-      "properties": [
-        "d"
-      ],
-      "tech": "+18"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i30~33",
-      "lower": "i30",
-      "properties": [],
-      "upper": "33"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i30~33",
+    "hitLevels": "m",
+    "damage": 20,
+    "onBlock": "-3~0",
+    "onHit": "+28d (+18)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 89
   },
   {
+    "id": "Feng-H.2+3",
+    "parent": null,
     "name": "Yinglong Mountain Crusher",
     "input": "H.2+3",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      22,
-      26
-    ],
-    "framesOnBlock": {
-      "_raw": "+12, +24 on STC at Wall, +19 at Wall",
-      "lower": "+12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+30d (-6)",
-      "lower": "+30",
-      "properties": [
-        "d"
-      ],
-      "tech": "-6"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i21,24",
-      "lower": "i21",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i21,24",
+    "hitLevels": "m,m",
+    "damage": "22,26",
+    "onBlock": "+12, +24 on STC at Wall, +19 at Wall",
+    "onHit": "+30d (-6)",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Feng-H.3+4",
+    "parent": null,
     "name": "Jiaolong Sea Splitter",
     "input": "H.3+4",
-    "hitLevels": [
-      "ub(m)"
-    ],
-    "damage": [
-      30
-    ],
-    "framesOnBlock": {
-      "_raw": "+12c g",
-      "lower": "+12",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnHit": {
-      "_raw": "+19d",
-      "lower": "+19",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i30~31",
-      "lower": "i30",
-      "properties": [],
-      "upper": "31"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i30~31",
+    "hitLevels": "ub(m)",
+    "damage": 30,
+    "onBlock": "+12c g",
+    "onHit": "+19d",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Feng-H.b+1",
+    "parent": null,
     "name": "Essence of Iron Palm",
     "input": "H.b+1",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-8",
-      "lower": "-8",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+36d (+28)",
-      "lower": "+36",
-      "properties": [
-        "d"
-      ],
-      "tech": "+28"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10~11",
-      "lower": "i10",
-      "properties": [],
-      "upper": "11"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10~11",
+    "hitLevels": "h",
+    "damage": 20,
+    "onBlock": -8,
+    "onHit": "+36d (+28)",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Feng-H.f,F+1+2*",
+    "parent": null,
     "name": "Essence of Nian Zhang Mie Ba",
     "input": "H.f,F+1+2*",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      30
-    ],
-    "framesOnBlock": {
-      "_raw": "11",
-      "lower": "11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+22a (+12)",
-      "lower": "+22",
-      "properties": [
-        "a"
-      ],
-      "tech": "+12"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i39",
-      "lower": "i39",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i39",
+    "hitLevels": "m",
+    "damage": 30,
+    "onBlock": 11,
+    "onHit": "+22a (+12)",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Feng-KNP",
+    "parent": null,
     "name": "Deceptive Step",
     "input": "b+3+4",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 107,
+    "id": "Feng-KNP.1",
+    "parent": null,
     "name": "Fractured Diamond",
     "input": "KNP.1",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-13c",
-      "lower": "-13",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnHit": {
-      "_raw": "4",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+16d",
-      "lower": "+16",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i20~21",
-      "lower": "i20",
-      "properties": [],
-      "upper": "21"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20~21",
+    "hitLevels": "l",
+    "damage": 20,
+    "onBlock": "-13c",
+    "onHit": 4,
+    "onCounterHit": "+16d",
+    "states": "cs15",
+    "index": 107
   },
   {
-    "index": 108,
+    "id": "Feng-KNP.2",
+    "parent": null,
     "name": "Fei He Zhang",
     "input": "KNP.2",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "17",
-      "lower": "17",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14",
-      "lower": "i14",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14",
+    "hitLevels": "h",
+    "damage": 20,
+    "onBlock": -9,
+    "onHit": 17,
+    "onCounterHit": null,
+    "states": null,
+    "index": 108
   },
   {
-    "index": 109,
+    "id": "Feng-KNP.3",
+    "parent": null,
     "name": "Rising Swallow Kick",
     "input": "KNP.3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-14",
-      "lower": "-14",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+77a (+55)",
-      "lower": "+77",
-      "properties": [
-        "a"
-      ],
-      "tech": "+55"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i22~23",
-      "lower": "i22",
-      "properties": [],
-      "upper": "23"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i22~23",
+    "hitLevels": "m",
+    "damage": 20,
+    "onBlock": -14,
+    "onHit": "+77a (+55)",
+    "onCounterHit": null,
+    "states": "js15",
+    "index": 109
   },
   {
+    "id": "Feng-KNP.3+4",
+    "parent": null,
+    "name": null,
     "input": "KNP.3+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      30
-    ],
-    "framesOnBlock": {
-      "_raw": "-7",
-      "lower": "-7",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-3d",
-      "lower": "-3",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i31~34",
-      "lower": "i31",
-      "properties": [],
-      "upper": "34"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i31~34",
+    "hitLevels": "m",
+    "damage": 30,
+    "onBlock": -7,
+    "onHit": "-3d",
+    "onCounterHit": null,
+    "states": "js15",
+    "index": null
   },
   {
-    "index": 111,
+    "id": "Feng-KNP.3+4,3+4",
+    "parent": "Feng-KNP.3+4",
     "name": "Leaping Lion",
     "input": "KNP.3+4,3+4",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      30,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-3~0",
-      "lower": "-3",
-      "properties": [],
-      "upper": ""
-    },
-    "framesOnHit": {
-      "_raw": "+31a (+21)",
-      "lower": "+31",
-      "properties": [
-        "a"
-      ],
-      "tech": "+21"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i31~34",
-      "lower": "i31",
-      "properties": [],
-      "upper": "34"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i31~34",
+    "hitLevels": "m,m",
+    "damage": "30,20",
+    "onBlock": "-3~0",
+    "onHit": "+31a (+21)",
+    "onCounterHit": null,
+    "states": "js38",
+    "index": 111
   },
   {
+    "id": "Feng-KNP.4",
+    "parent": null,
+    "name": null,
     "input": "KNP.4",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-31c",
-      "lower": "-31",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnHit": {
-      "_raw": "-4",
-      "lower": "-4",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18",
-      "lower": "i18",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18",
+    "hitLevels": "l",
+    "damage": 10,
+    "onBlock": "-31c",
+    "onHit": -4,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 110,
+    "id": "Feng-KNP.4,1+2",
+    "parent": "Feng-KNP.4",
     "name": "Xuan Tui Strike",
     "input": "KNP.4,1+2",
-    "hitLevels": [
-      "l",
-      "h"
-    ],
-    "damage": [
-      10,
-      24
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+30a (+20)",
-      "lower": "+30",
-      "properties": [
-        "a"
-      ],
-      "tech": "+20"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18",
-      "lower": "i18",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18",
+    "hitLevels": "l,h",
+    "damage": "10,24",
+    "onBlock": -6,
+    "onHit": "+30a (+20)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 110
   },
   {
-    "index": 114,
+    "id": "Feng-Left Throw",
+    "parent": null,
     "name": "Jaws of Death",
-    "input": "LeftThrow",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      40
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": "Left Throw",
+    "startup": null,
+    "hitLevels": "t",
+    "damage": 40,
+    "onBlock": -3,
+    "onHit": -6,
+    "onCounterHit": null,
+    "states": null,
+    "index": 114
   },
   {
+    "id": "Feng-OTG.d+3+4",
+    "parent": null,
     "name": "Thunder Stomp",
     "input": "OTG.d+3+4",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      19
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-2 (-10)",
-      "lower": "-2",
-      "properties": [],
-      "tech": "-10"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i24~25",
-      "lower": "i24",
-      "properties": [],
-      "upper": "25"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i24~25",
+    "hitLevels": "l",
+    "damage": 19,
+    "onBlock": -13,
+    "onHit": "-2 (-10)",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 96,
+    "id": "Feng-qcf",
+    "parent": null,
     "name": "Lingering Shadow",
     "input": "qcf",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": "cs",
+    "index": 96
   },
   {
-    "index": 97,
+    "id": "Feng-qcf1",
+    "parent": null,
     "name": "Landslide",
     "input": "qcf+1",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "-14",
-      "lower": "-14",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "2",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+31a",
-      "lower": "+31",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i22~23",
-      "lower": "i22",
-      "properties": [],
-      "upper": "23"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i22~23",
+    "hitLevels": "l",
+    "damage": 23,
+    "onBlock": -14,
+    "onHit": 2,
+    "onCounterHit": "+31a",
+    "states": "cs6",
+    "index": 97
   },
   {
-    "index": 99,
+    "id": "Feng-qcf1+2",
+    "parent": null,
     "name": "Yan Wang&#039;s Wrath",
     "input": "qcf+1+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "0c",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+7c",
-      "lower": "+7",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "13",
-      "lower": "13",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16~17",
-      "lower": "i16",
-      "properties": [],
-      "upper": "17"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16~17",
+    "hitLevels": "m",
+    "damage": 25,
+    "onBlock": "0c",
+    "onHit": "+7c",
+    "onCounterHit": 13,
+    "states": null,
+    "index": 99
   },
   {
-    "index": 98,
+    "id": "Feng-qcf2",
+    "parent": null,
     "name": "Mountain Crusher",
     "input": "qcf+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-14",
-      "lower": "-14",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+35a (+25)",
-      "lower": "+35",
-      "properties": [
-        "a"
-      ],
-      "tech": "+25"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i22~23",
-      "lower": "i22",
-      "properties": [],
-      "upper": "23"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i22~23",
+    "hitLevels": "m",
+    "damage": 25,
+    "onBlock": -14,
+    "onHit": "+35a (+25)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 98
   },
   {
+    "id": "Feng-qcf3+4",
+    "parent": null,
+    "name": null,
     "input": "qcf+3+4",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Feng-R.df+1+2",
+    "parent": null,
     "name": "Enlighted Yellow Dragon Palm",
     "input": "R.df+1+2",
-    "hitLevels": [
-      "m",
-      "t"
-    ],
-    "damage": [
-      55
-    ],
-    "framesOnBlock": {
-      "_raw": "-15",
-      "lower": "-15",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20",
-      "lower": "i20",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20",
+    "hitLevels": "m,t",
+    "damage": "55+",
+    "onBlock": -15,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": "pc8~",
+    "index": null
   },
   {
-    "index": 115,
+    "id": "Feng-Right Throw",
+    "parent": null,
     "name": "Wandering Soul",
-    "input": "RightThrow",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      40
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-4",
-      "lower": "-4",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": "Right Throw",
+    "startup": null,
+    "hitLevels": "t",
+    "damage": 40,
+    "onBlock": -3,
+    "onHit": -4,
+    "onCounterHit": null,
+    "states": null,
+    "index": 115
   },
   {
-    "index": 88,
+    "id": "Feng-SS.1+2",
+    "parent": null,
     "name": "Enlightened Circle",
     "input": "SS.1+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      24
-    ],
-    "framesOnBlock": {
-      "_raw": "+1~+2",
-      "lower": "+1",
-      "properties": [],
-      "upper": "+2"
-    },
-    "framesOnHit": {
-      "_raw": "+21d (+12)",
-      "lower": "+21",
-      "properties": [
-        "d"
-      ],
-      "tech": "+12"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i22~23",
-      "lower": "i22",
-      "properties": [],
-      "upper": "23"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i22~23",
+    "hitLevels": "m",
+    "damage": 24,
+    "onBlock": "+1~+2",
+    "onHit": "+21d (+12)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 88
   },
   {
-    "index": 86,
+    "id": "Feng-SS.2",
+    "parent": null,
     "name": "Hidden Intentions",
     "input": "SS.2",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      18
-    ],
-    "framesOnBlock": {
-      "_raw": "3",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+9b",
-      "lower": "+9",
-      "properties": [
-        "b"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "+31d",
-      "lower": "+31",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "h",
+    "damage": 18,
+    "onBlock": 3,
+    "onHit": "+9b",
+    "onCounterHit": "+31d",
+    "states": null,
+    "index": 86
   },
   {
-    "index": 87,
+    "id": "Feng-SS.4",
+    "parent": null,
     "name": "Swift Sweep Kick",
     "input": "SS.4",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      19
-    ],
-    "framesOnBlock": {
-      "_raw": "-31c",
-      "lower": "-31",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnHit": {
-      "_raw": "+8 (-8)",
-      "lower": "+8",
-      "properties": [],
-      "tech": "-8"
-    },
-    "framesOnCounter": {
-      "_raw": "+72a (+56)",
-      "lower": "+72",
-      "properties": [
-        "a"
-      ],
-      "tech": "+56"
-    },
-    "framesOnStartup": {
-      "_raw": "i21~22",
-      "lower": "i21",
-      "properties": [],
-      "upper": "22"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i21~22",
+    "hitLevels": "l",
+    "damage": 19,
+    "onBlock": "-31c",
+    "onHit": "+8 (-8)",
+    "onCounterHit": "+72a (+56)",
+    "states": "cs10",
+    "index": 87
   },
   {
-    "index": 101,
+    "id": "Feng-STC.1",
+    "parent": null,
     "name": "Bao Dan Po",
     "input": "STC.1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-15",
-      "lower": "-15",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+30a",
-      "lower": "+30",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20~21",
-      "lower": "i20",
-      "properties": [],
-      "upper": "21"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20~21",
+    "hitLevels": "m",
+    "damage": 20,
+    "onBlock": -15,
+    "onHit": "+30a",
+    "onCounterHit": null,
+    "states": "pc",
+    "index": 101
   },
   {
-    "index": 105,
+    "id": "Feng-STC.1+2",
+    "parent": null,
     "name": "Pummeling Fists",
     "input": "STC.1+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-9c",
-      "lower": "-9",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnHit": {
-      "_raw": "+17d",
-      "lower": "+17",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18",
-      "lower": "i18",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18",
+    "hitLevels": "m",
+    "damage": 20,
+    "onBlock": "-9c",
+    "onHit": "+17d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 105
   },
   {
-    "index": 102,
+    "id": "Feng-STC.2",
+    "parent": null,
     "name": "Driller Hook Backhand",
     "input": "STC.2",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      18
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+25g",
-      "lower": "+25",
-      "properties": [
-        "g"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14~15",
-      "lower": "i14",
-      "properties": [],
-      "upper": "15"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14~15",
+    "hitLevels": "h",
+    "damage": 18,
+    "onBlock": -3,
+    "onHit": "+25g",
+    "onCounterHit": null,
+    "states": null,
+    "index": 102
   },
   {
-    "index": 103,
+    "id": "Feng-STC.3",
+    "parent": null,
     "name": "Spiraling Tiger Kick",
     "input": "STC.3",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "+3b",
-      "lower": "+3",
-      "properties": [
-        "b"
-      ]
-    },
-    "framesOnHit": {
-      "_raw": "+23d",
-      "lower": "+23",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i22~23",
-      "lower": "i22",
-      "properties": [],
-      "upper": "23"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i22~23",
+    "hitLevels": "h",
+    "damage": 25,
+    "onBlock": "+3b",
+    "onHit": "+23d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 103
   },
   {
-    "index": 104,
+    "id": "Feng-STC.4",
+    "parent": null,
     "name": "Jin Bu Zhen",
     "input": "STC.4",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "3",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "14",
-      "lower": "14",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20",
-      "lower": "i20",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20",
+    "hitLevels": "l",
+    "damage": 20,
+    "onBlock": -13,
+    "onHit": 3,
+    "onCounterHit": 14,
+    "states": null,
+    "index": 104
   },
   {
+    "id": "Feng-STC.F+3+4",
+    "parent": null,
     "name": "Falcon Beak&#039;s Snare",
     "input": "STC.F+3+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+53a",
-      "lower": "+53",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18",
-      "lower": "i18",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18",
+    "hitLevels": "m",
+    "damage": 21,
+    "onBlock": null,
+    "onHit": "+53a",
+    "onCounterHit": null,
+    "states": "ps",
+    "index": null
   },
   {
-    "index": 61,
+    "id": "Feng-u+2",
+    "parent": null,
     "name": "Leaping Hammer Fist",
     "input": "u+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "2",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "10",
-      "lower": "10",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i38~40",
-      "lower": "i38",
-      "properties": [],
-      "upper": "40"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i38~40",
+    "hitLevels": "m",
+    "damage": 25,
+    "onBlock": 2,
+    "onHit": 10,
+    "onCounterHit": null,
+    "states": "js9",
+    "index": 61
   },
   {
-    "index": 60,
+    "id": "Feng-ub+1+2",
+    "parent": null,
     "name": "Death Palm",
     "input": "ub+1+2",
-    "hitLevels": [
-      "!"
-    ],
-    "damage": [
-      70
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+50g (+19)",
-      "lower": "+50",
-      "properties": [
-        "g"
-      ],
-      "tech": "+19"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i79~82",
-      "lower": "i79",
-      "properties": [],
-      "upper": "82"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i79~82",
+    "hitLevels": "!",
+    "damage": 70,
+    "onBlock": null,
+    "onHit": "+50g (+19)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 60
   },
   {
-    "index": 59,
+    "id": "Feng-ub+2",
+    "parent": null,
     "name": "Throat Gouge",
     "input": "ub+2",
-    "hitLevels": [
-      "m",
-      "h"
-    ],
-    "damage": [
-      8,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-10",
-      "lower": "-10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "10",
-      "lower": "10",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16,15",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16,15",
+    "hitLevels": "m,h",
+    "damage": "8,20",
+    "onBlock": -10,
+    "onHit": 10,
+    "onCounterHit": null,
+    "states": null,
+    "index": 59
   },
   {
-    "index": 62,
+    "id": "Feng-uf+1",
+    "parent": null,
     "name": "Eagle Claw",
     "input": "uf+1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-5",
-      "lower": "-5",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "4",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18~19",
-      "lower": "i18",
-      "properties": [],
-      "upper": "19"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18~19",
+    "hitLevels": "m",
+    "damage": 12,
+    "onBlock": -5,
+    "onHit": 4,
+    "onCounterHit": null,
+    "states": "js6",
+    "index": 62
   },
   {
-    "index": 117,
+    "id": "Feng-uf+1+2",
+    "parent": null,
     "name": "Kunlun Avalanche",
     "input": "uf+1+2",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      40
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": "t",
+    "damage": 40,
+    "onBlock": -6,
+    "onHit": 0,
+    "onCounterHit": null,
+    "states": null,
+    "index": 117
   },
   {
-    "index": 63,
+    "id": "Feng-uf+2",
+    "parent": null,
     "name": "Evading Palm Strike",
     "input": "uf+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      18
-    ],
-    "framesOnBlock": {
-      "_raw": "-10",
-      "lower": "-10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "3",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18",
-      "lower": "i18",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18",
+    "hitLevels": "m",
+    "damage": 18,
+    "onBlock": -10,
+    "onHit": 3,
+    "onCounterHit": null,
+    "states": null,
+    "index": 63
   },
   {
-    "index": 64,
+    "id": "Feng-uf+3",
+    "parent": null,
     "name": "Side Swipe",
     "input": "uf+3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      16
-    ],
-    "framesOnBlock": {
-      "_raw": "-1",
-      "lower": "-1",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+22d",
-      "lower": "+22",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i22~23",
-      "lower": "i22",
-      "properties": [],
-      "upper": "23"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i22~23",
+    "hitLevels": "m",
+    "damage": 16,
+    "onBlock": -1,
+    "onHit": "+22d",
+    "onCounterHit": null,
+    "states": "js9",
+    "index": 64
   },
   {
+    "id": "Feng-uf+3+4",
+    "parent": null,
+    "name": null,
     "input": "uf+3+4",
-    "hitLevels": [
-      "m",
-      "h",
-      "h"
-    ],
-    "damage": [
-      10,
-      10,
-      7
-    ],
-    "framesOnBlock": {
-      "_raw": "-14",
-      "lower": "-14",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+25a (+18)",
-      "lower": "+25",
-      "properties": [
-        "a"
-      ],
-      "tech": "+18"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i24,4,3",
-      "lower": "i24",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i24,4,3",
+    "hitLevels": "m,h,h",
+    "damage": "10,10,7",
+    "onBlock": -14,
+    "onHit": "+25a (+18)",
+    "onCounterHit": null,
+    "states": "cs6~24js25",
+    "index": null
   },
   {
-    "index": 66,
+    "id": "Feng-uf+3+4,3",
+    "parent": "Feng-uf+3+4",
     "name": "Assassin&#039;s Bow",
     "input": "uf+3+4,3",
-    "hitLevels": [
-      "m",
-      "h",
-      "h",
-      "h"
-    ],
-    "damage": [
-      10,
-      10,
-      7,
-      11
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+70a (+54)",
-      "lower": "+70",
-      "properties": [
-        "a"
-      ],
-      "tech": "+54"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i24,4,3",
-      "lower": "i24",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i24,4,3",
+    "hitLevels": "m,h,h,h",
+    "damage": "10,10,7,11",
+    "onBlock": -6,
+    "onHit": "+70a (+54)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 66
   },
   {
-    "index": 65,
+    "id": "Feng-uf+4",
+    "parent": null,
     "name": "Soaring Eagle",
     "input": "uf+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      13
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+33a (+23)",
-      "lower": "+33",
-      "properties": [
-        "a"
-      ],
-      "tech": "+23"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~17",
-      "lower": "i15",
-      "properties": [],
-      "upper": "17"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~17",
+    "hitLevels": "m",
+    "damage": 13,
+    "onBlock": -13,
+    "onHit": "+33a (+23)",
+    "onCounterHit": null,
+    "states": "js9",
+    "index": 65
   },
   {
-    "index": 67,
+    "id": "Feng-uf,n,4",
+    "parent": null,
     "name": "Delayed Rising Toe Kick",
     "input": "uf,n,4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+32a (+22)",
-      "lower": "+32",
-      "properties": [
-        "a"
-      ],
-      "tech": "+22"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i23~25",
-      "lower": "i23",
-      "properties": [],
-      "upper": "25"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i23~25",
+    "hitLevels": "m",
+    "damage": 20,
+    "onBlock": -13,
+    "onHit": "+32a (+22)",
+    "onCounterHit": null,
+    "states": "js9",
+    "index": 67
   },
   {
+    "id": "Feng-ws1",
+    "parent": null,
+    "name": null,
     "input": "ws1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      13
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "3",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13",
-      "lower": "i13",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13",
+    "hitLevels": "m",
+    "damage": 13,
+    "onBlock": -3,
+    "onHit": 3,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 82,
+    "id": "Feng-ws1+2",
+    "parent": null,
     "name": "Push Hands",
     "input": "ws1+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "3",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i23~24",
-      "lower": "i23",
-      "properties": [],
-      "upper": "24"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i23~24",
+    "hitLevels": "m",
+    "damage": 20,
+    "onBlock": -9,
+    "onHit": 3,
+    "onCounterHit": null,
+    "states": "ps5~8",
+    "index": 82
   },
   {
+    "id": "Feng-ws1,2",
+    "parent": "Feng-ws1",
+    "name": null,
     "input": "ws1,2",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      13,
-      16
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-1",
-      "lower": "-1",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13",
-      "lower": "i13",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13",
+    "hitLevels": "m,m",
+    "damage": "13,16",
+    "onBlock": -12,
+    "onHit": -1,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 77,
+    "id": "Feng-ws1,2,1",
+    "parent": "Feng-ws1,2",
     "name": "Dancing Dragon",
     "input": "ws1,2,1",
-    "hitLevels": [
-      "m",
-      "m",
-      "m"
-    ],
-    "damage": [
-      13,
-      16,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-14",
-      "lower": "-14",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+12d (+3)",
-      "lower": "+12",
-      "properties": [
-        "d"
-      ],
-      "tech": "+3"
-    },
-    "framesOnCounter": {
-      "_raw": "+32d (+24)",
-      "lower": "+32",
-      "properties": [
-        "d"
-      ],
-      "tech": "+24"
-    },
-    "framesOnStartup": {
-      "_raw": "i13",
-      "lower": "i13",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13",
+    "hitLevels": "m,m,m",
+    "damage": "13,16,20",
+    "onBlock": -14,
+    "onHit": "+12d (+3)",
+    "onCounterHit": "+32d (+24)",
+    "states": null,
+    "index": 77
   },
   {
-    "index": 78,
+    "id": "Feng-ws1,3",
+    "parent": "Feng-ws1",
     "name": "Dancing Scorpion Sting",
     "input": "ws1,3",
-    "hitLevels": [
-      "m",
-      "h"
-    ],
-    "damage": [
-      13,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+4c",
-      "lower": "+4",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "+20d",
-      "lower": "+20",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i13",
-      "lower": "i13",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13",
+    "hitLevels": "m,h",
+    "damage": "13,20",
+    "onBlock": -6,
+    "onHit": "+4c",
+    "onCounterHit": "+20d",
+    "states": null,
+    "index": 78
   },
   {
-    "index": 79,
+    "id": "Feng-ws2",
+    "parent": null,
     "name": "Adamantine Uppercut",
     "input": "ws2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      17
-    ],
-    "framesOnBlock": {
-      "_raw": "-7",
-      "lower": "-7",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+24d",
-      "lower": "+24",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "+78a (+62)",
-      "lower": "+78",
-      "properties": [
-        "a"
-      ],
-      "tech": "+62"
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "m",
+    "damage": 17,
+    "onBlock": -7,
+    "onHit": "+24d",
+    "onCounterHit": "+78a (+62)",
+    "states": null,
+    "index": 79
   },
   {
-    "index": 80,
+    "id": "Feng-ws3",
+    "parent": null,
     "name": "Bow Kick",
     "input": "ws3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+33a (+23)",
-      "lower": "+33",
-      "properties": [
-        "a"
-      ],
-      "tech": "+23"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "m",
+    "damage": 15,
+    "onBlock": -12,
+    "onHit": "+33a (+23)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 80
   },
   {
-    "index": 81,
+    "id": "Feng-ws4",
+    "parent": null,
     "name": "Rising Heel Kick",
     "input": "ws4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      18
-    ],
-    "framesOnBlock": {
-      "_raw": "-7",
-      "lower": "-7",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "7",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+29g",
-      "lower": "+29",
-      "properties": [
-        "g"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i11~12",
-      "lower": "i11",
-      "properties": [],
-      "upper": "12"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i11~12",
+    "hitLevels": "m",
+    "damage": 18,
+    "onBlock": -7,
+    "onHit": 7,
+    "onCounterHit": "+29g",
+    "states": null,
+    "index": 81
   }
 ]

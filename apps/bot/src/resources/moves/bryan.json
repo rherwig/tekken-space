@@ -1,6611 +1,2312 @@
 [
   {
+    "id": "Bryan-1",
+    "parent": null,
     "name": "Jab",
-    "input": "1",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      5
-    ],
-    "framesOnBlock": {
-      "_raw": "1",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "8",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": 1,
+    "startup": "i10",
+    "hitLevels": "h",
+    "damage": 5,
+    "onBlock": 1,
+    "onHit": 8,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Bryan-1+2",
+    "parent": null,
+    "name": null,
     "input": "1+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "-7",
-      "lower": "-7",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "6",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17~18",
-      "lower": "i17",
-      "properties": [],
-      "upper": "18"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17~18",
+    "hitLevels": "m",
+    "damage": 15,
+    "onBlock": -7,
+    "onHit": 6,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 13,
+    "id": "Bryan-1,2",
+    "parent": "Bryan-1",
     "name": "Left Right Combo",
     "input": "1,2",
-    "hitLevels": [
-      "h",
-      "h"
-    ],
-    "damage": [
-      5,
-      8
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "8",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "9",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,h",
+    "damage": "5,8",
+    "onBlock": -3,
+    "onHit": 8,
+    "onCounterHit": 9,
+    "states": null,
+    "index": 13
   },
   {
-    "index": 29,
+    "id": "Bryan-1+2,1",
+    "parent": "Bryan-1+2",
     "name": "Snake Bite",
     "input": "1+2,1",
-    "hitLevels": [
-      "m",
-      "h"
-    ],
-    "damage": [
-      15,
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "-1",
-      "lower": "-1",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "6",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17~18",
-      "lower": "i17",
-      "properties": [],
-      "upper": "18"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17~18",
+    "hitLevels": "m,h",
+    "damage": "15,15",
+    "onBlock": -1,
+    "onHit": 6,
+    "onCounterHit": null,
+    "states": null,
+    "index": 29
   },
   {
-    "index": 14,
+    "id": "Bryan-1,2,1",
+    "parent": "Bryan-1,2",
     "name": "One Two Body Blow",
     "input": "1,2,1",
-    "hitLevels": [
-      "h",
-      "h",
-      "m"
-    ],
-    "damage": [
-      5,
-      8,
-      18
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "6",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "[[Bryan combos#Staples|+65a]]",
-      "lower": "+65",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,h,m",
+    "damage": "5,8,18",
+    "onBlock": -6,
+    "onHit": 6,
+    "onCounterHit": "[[Bryan combos#Staples|+65a]]",
+    "states": null,
+    "index": 14
   },
   {
-    "index": 30,
+    "id": "Bryan-1+2,2",
+    "parent": "Bryan-1+2",
     "name": "Snake Pit",
     "input": "1+2,2",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      15,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-14",
-      "lower": "-14",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+51d (+20)",
-      "lower": "+51",
-      "properties": [
-        "d"
-      ],
-      "tech": "+20"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17~18",
-      "lower": "i17",
-      "properties": [],
-      "upper": "18"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17~18",
+    "hitLevels": "m,m",
+    "damage": "15,20",
+    "onBlock": -14,
+    "onHit": "+51d (+20)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 30
   },
   {
-    "index": 15,
+    "id": "Bryan-1,2,3",
+    "parent": "Bryan-1,2",
     "name": "One Two Low Kick",
     "input": "1,2,3",
-    "hitLevels": [
-      "h",
-      "h",
-      "L"
-    ],
-    "damage": [
-      5,
-      8,
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "2",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "[[Bryan combos#Mini-combos|+14a]]",
-      "lower": "+14",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,h,L",
+    "damage": "5,8,15",
+    "onBlock": -12,
+    "onHit": 2,
+    "onCounterHit": "[[Bryan combos#Mini-combos|+14a]]",
+    "states": null,
+    "index": 15
   },
   {
-    "index": 76,
+    "id": "Bryan-1+2+3+4",
+    "parent": null,
     "name": "Ki Charge",
     "input": "1+2+3+4",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": 76
   },
   {
-    "index": 16,
+    "id": "Bryan-1,2,4",
+    "parent": "Bryan-1,2",
     "name": "One Two Neck Breaker",
     "input": "1,2,4",
-    "hitLevels": [
-      "h",
-      "h",
-      "h"
-    ],
-    "damage": [
-      5,
-      8,
-      24
-    ],
-    "framesOnBlock": {
-      "_raw": "-5",
-      "lower": "-5",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+20a (+11)",
-      "lower": "+20",
-      "properties": [
-        "a"
-      ],
-      "tech": "+11"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,h,h",
+    "damage": "5,8,24",
+    "onBlock": -5,
+    "onHit": "+20a (+11)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 16
   },
   {
-    "index": 103,
+    "id": "Bryan-1+3",
+    "parent": null,
     "name": "Gravity Brain Buster",
     "input": "1+3",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      35
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-2d",
-      "lower": "-2",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12~14",
-      "lower": "i12",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12~14",
+    "hitLevels": "t",
+    "damage": 35,
+    "onBlock": -3,
+    "onHit": "-2d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 103
   },
   {
+    "id": "Bryan-1+3+4",
+    "parent": null,
     "name": "Taunt",
     "input": "1+3+4",
-    "hitLevels": [
-      "m!"
-    ],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "[[Bryan combos#Staples|+16]]",
-      "lower": "+16",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i28~31",
-      "lower": "i28",
-      "properties": [],
-      "upper": "31"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i28~31",
+    "hitLevels": "m!",
+    "damage": 0,
+    "onBlock": null,
+    "onHit": "[[Bryan combos#Staples|+16]]",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Bryan-1,4",
+    "parent": "Bryan-1",
+    "name": null,
     "input": "1,4",
-    "hitLevels": [
-      "h",
-      "h"
-    ],
-    "damage": [
-      5,
-      14
-    ],
-    "framesOnBlock": {
-      "_raw": "-7",
-      "lower": "-7",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "4",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,h",
+    "damage": "5,14",
+    "onBlock": -7,
+    "onHit": 4,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Bryan-1,4,2",
+    "parent": "Bryan-1,4",
+    "name": null,
     "input": "1,4,2",
-    "hitLevels": [
-      "h",
-      "h",
-      "h"
-    ],
-    "damage": [
-      5,
-      14,
-      18
-    ],
-    "framesOnBlock": {
-      "_raw": "-7",
-      "lower": "-7",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "4",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "[[Bryan combos#Staples|+53a]]",
-      "lower": "+53",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,h,h",
+    "damage": "5,14,18",
+    "onBlock": -7,
+    "onHit": 4,
+    "onCounterHit": "[[Bryan combos#Staples|+53a]]",
+    "states": null,
+    "index": null
   },
   {
+    "id": "Bryan-1,4,2,1",
+    "parent": "Bryan-1,4,2",
+    "name": null,
     "input": "1,4,2,1",
-    "hitLevels": [
-      "h",
-      "h",
-      "h",
-      "h"
-    ],
-    "damage": [
-      5,
-      14,
-      18,
-      16
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "[[Bryan combos#Staples|+55a]]",
-      "lower": "+55",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,h,h,h",
+    "damage": "5,14,18,16",
+    "onBlock": 0,
+    "onHit": "[[Bryan combos#Staples|+55a]]",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 17,
+    "id": "Bryan-1,4,2,1,2",
+    "parent": "Bryan-1,4,2,1",
     "name": "Lair&#039;s Dance",
     "input": "1,4,2,1,2",
-    "hitLevels": [
-      "h",
-      "h",
-      "h",
-      "h",
-      "h"
-    ],
-    "damage": [
-      5,
-      14,
-      18,
-      16,
-      22
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+41d (-17)",
-      "lower": "+41",
-      "properties": [
-        "d"
-      ],
-      "tech": "-17"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,h,h,h,h",
+    "damage": "5,14,18,16,22",
+    "onBlock": -9,
+    "onHit": "+41d (-17)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 17
   },
   {
-    "index": 19,
+    "id": "Bryan-1,4,2,1,4",
+    "parent": "Bryan-1,4,2,1",
     "name": "Cremation",
     "input": "1,4,2,1,4",
-    "hitLevels": [
-      "h",
-      "h",
-      "h",
-      "h",
-      "m"
-    ],
-    "damage": [
-      5,
-      14,
-      18,
-      16,
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-10",
-      "lower": "-10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+37a",
-      "lower": "+37",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,h,h,h,m",
+    "damage": "5,14,18,16,21",
+    "onBlock": -10,
+    "onHit": "+37a",
+    "onCounterHit": null,
+    "states": null,
+    "index": 19
   },
   {
-    "index": 18,
+    "id": "Bryan-1,4,2,4",
+    "parent": "Bryan-1,4,2",
     "name": "Whipping Fury",
     "input": "1,4,2,4",
-    "hitLevels": [
-      "h",
-      "h",
-      "h",
-      "m"
-    ],
-    "damage": [
-      5,
-      14,
-      18,
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-5",
-      "lower": "-5",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+40a (+14)",
-      "lower": "+40",
-      "properties": [
-        "a"
-      ],
-      "tech": "+14"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,h,h,m",
+    "damage": "5,14,18,21",
+    "onBlock": -5,
+    "onHit": "+40a (+14)",
+    "onCounterHit": null,
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* ,js16~31\n* fs32~34&lt;/div&gt;",
+    "index": 18
   },
   {
-    "index": 20,
+    "id": "Bryan-1,4,3",
+    "parent": "Bryan-1,4",
     "name": "Jab &gt; Double Spin Kick",
     "input": "1,4,3",
-    "hitLevels": [
-      "h",
-      "h",
-      "m"
-    ],
-    "damage": [
-      5,
-      14,
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "-10",
-      "lower": "-10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "1",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,h,m",
+    "damage": "5,14,15",
+    "onBlock": -10,
+    "onHit": 1,
+    "onCounterHit": null,
+    "states": null,
+    "index": 20
   },
   {
-    "index": 21,
+    "id": "Bryan-1,4,3,3",
+    "parent": "Bryan-1,4,3",
     "name": "Running Blind",
     "input": "1,4,3,3",
-    "hitLevels": [
-      "h",
-      "h",
-      "m",
-      "h"
-    ],
-    "damage": [
-      5,
-      14,
-      15,
-      18
-    ],
-    "framesOnBlock": {
-      "_raw": "-7",
-      "lower": "-7",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "7",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+14a",
-      "lower": "+14",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,h,m,h",
+    "damage": "5,14,15,18",
+    "onBlock": -7,
+    "onHit": 7,
+    "onCounterHit": "+14a",
+    "states": null,
+    "index": 21
   },
   {
-    "input": "2",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "1",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "7",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "id": "Bryan-2",
+    "parent": null,
+    "name": null,
+    "input": 2,
+    "startup": "i10",
+    "hitLevels": "h",
+    "damage": 10,
+    "onBlock": 1,
+    "onHit": 7,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 22,
+    "id": "Bryan-2,3",
+    "parent": "Bryan-2",
     "name": "PK Combination",
     "input": "2,3",
-    "hitLevels": [
-      "h",
-      "m"
-    ],
-    "damage": [
-      10,
-      14
-    ],
-    "framesOnBlock": {
-      "_raw": "-10",
-      "lower": "-10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "6",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+16a (+7)",
-      "lower": "+16",
-      "properties": [
-        "a"
-      ],
-      "tech": "+7"
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,m",
+    "damage": "10,14",
+    "onBlock": -10,
+    "onHit": 6,
+    "onCounterHit": "+16a (+7)",
+    "states": null,
+    "index": 22
   },
   {
-    "index": 104,
+    "id": "Bryan-2+4",
+    "parent": null,
     "name": "Guillotine",
     "input": "2+4",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      35
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12~14",
-      "lower": "i12",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12~14",
+    "hitLevels": "t",
+    "damage": 35,
+    "onBlock": -6,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 104
   },
   {
+    "id": "Bryan-3",
+    "parent": null,
     "name": "Mid Kick",
-    "input": "3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      14
-    ],
-    "framesOnBlock": {
-      "_raw": "-4",
-      "lower": "-4",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "7",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": 3,
+    "startup": "i16",
+    "hitLevels": "m",
+    "damage": 14,
+    "onBlock": -4,
+    "onHit": 7,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Bryan-3,2",
+    "parent": "Bryan-3",
+    "name": null,
     "input": "3,2",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      14,
-      11
-    ],
-    "framesOnBlock": {
-      "_raw": "-10",
-      "lower": "-10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "1",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "m,m",
+    "damage": "14,11",
+    "onBlock": -10,
+    "onHit": 1,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Bryan-3,2,1",
+    "parent": "Bryan-3,2",
+    "name": null,
     "input": "3,2,1",
-    "hitLevels": [
-      "m",
-      "m",
-      "m"
-    ],
-    "damage": [
-      14,
-      11,
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "2",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "m,m,m",
+    "damage": "14,11,10",
+    "onBlock": -9,
+    "onHit": 2,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 23,
+    "id": "Bryan-3,2,1,2",
+    "parent": "Bryan-3,2,1",
     "name": "Mid Kick &gt; Rush",
     "input": "3,2,1,2",
-    "hitLevels": [
-      "m",
-      "m",
-      "m",
-      "m"
-    ],
-    "damage": [
-      14,
-      11,
-      10,
-      14
-    ],
-    "framesOnBlock": {
-      "_raw": "-10",
-      "lower": "-10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+19a (+10)",
-      "lower": "+19",
-      "properties": [
-        "a"
-      ],
-      "tech": "+10"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "m,m,m,m",
+    "damage": "14,11,10,14",
+    "onBlock": -10,
+    "onHit": "+19a (+10)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 23
   },
   {
-    "index": 24,
+    "id": "Bryan-3,2,1,4",
+    "parent": "Bryan-3,2,1",
     "name": "Gatling Combination",
     "input": "3,2,1,4",
-    "hitLevels": [
-      "m",
-      "m",
-      "m",
-      "L"
-    ],
-    "damage": [
-      14,
-      11,
-      10,
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-11",
-      "lower": "-11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "m,m,m,L",
+    "damage": "14,11,10,12",
+    "onBlock": -11,
+    "onHit": 0,
+    "onCounterHit": null,
+    "states": null,
+    "index": 24
   },
   {
+    "id": "Bryan-3,3",
+    "parent": "Bryan-3",
+    "name": null,
     "input": "3,3",
-    "hitLevels": [
-      "m",
-      "h"
-    ],
-    "damage": [
-      14,
-      13
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "6",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "m,h",
+    "damage": "14,13",
+    "onBlock": -6,
+    "onHit": 6,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 25,
+    "id": "Bryan-3,3,2",
+    "parent": "Bryan-3,3",
     "name": "Anaconda Bite",
     "input": "3,3,2",
-    "hitLevels": [
-      "m",
-      "h",
-      "h"
-    ],
-    "damage": [
-      14,
-      13,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-7",
-      "lower": "-7",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "[[Bryan combos#Staples|+43a (+33)]]",
-      "lower": "+43",
-      "properties": [
-        "a"
-      ],
-      "tech": "+33"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "m,h,h",
+    "damage": "14,13,20",
+    "onBlock": -7,
+    "onHit": "[[Bryan combos#Staples|+43a (+33)]]",
+    "onCounterHit": null,
+    "states": null,
+    "index": 25
   },
   {
-    "index": 26,
+    "id": "Bryan-3,3,4",
+    "parent": "Bryan-3,3",
     "name": "Anaconda Rage",
     "input": "3,3,4",
-    "hitLevels": [
-      "m",
-      "h",
-      "m"
-    ],
-    "damage": [
-      14,
-      13,
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+37d (-21)",
-      "lower": "+37",
-      "properties": [
-        "d"
-      ],
-      "tech": "-21"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "m,h,m",
+    "damage": "14,13,25",
+    "onBlock": -12,
+    "onHit": "+37d (-21)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 26
   },
   {
-    "index": 31,
+    "id": "Bryan-3+4",
+    "parent": null,
     "name": "Middle Side Kick",
     "input": "3+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "8",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "[[Bryan combos#Staples|+59a]]",
-      "lower": "+59",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i18",
-      "lower": "i18",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18",
+    "hitLevels": "m",
+    "damage": 20,
+    "onBlock": -13,
+    "onHit": 8,
+    "onCounterHit": "[[Bryan combos#Staples|+59a]]",
+    "states": null,
+    "index": 31
   },
   {
-    "index": 86,
+    "id": "Bryan-3+4,SNE.2",
+    "parent": "Bryan-3+4",
     "name": "Neo Soul Eraser",
     "input": "3+4,SNE.2",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      20,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-1",
-      "lower": "-1",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+35a (+9)",
-      "lower": "+35",
-      "properties": [
-        "a"
-      ],
-      "tech": "+9"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18",
-      "lower": "i18",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18",
+    "hitLevels": "m,m",
+    "damage": "20,20",
+    "onBlock": -1,
+    "onHit": "+35a (+9)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 86
   },
   {
-    "index": 87,
+    "id": "Bryan-3+4,SNE.2*",
+    "parent": "Bryan-3+4",
     "name": "Neo Soul Eraser Exceed",
     "input": "3+4,SNE.2*",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      20,
-      30
-    ],
-    "framesOnBlock": {
-      "_raw": "+9g~+10g",
-      "lower": "+9",
-      "properties": [
-        "g",
-        "g"
-      ],
-      "upper": "+10"
-    },
-    "framesOnHit": {
-      "_raw": "[[Bryan combos#Staples|+66a (+50)]]",
-      "lower": "+66",
-      "properties": [
-        "a"
-      ],
-      "tech": "+50"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18",
-      "lower": "i18",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18",
+    "hitLevels": "m,m",
+    "damage": "20,30",
+    "onBlock": "+9g~+10g",
+    "onHit": "[[Bryan combos#Staples|+66a (+50)]]",
+    "onCounterHit": null,
+    "states": null,
+    "index": 87
   },
   {
-    "input": "4",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "-7",
-      "lower": "-7",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "6",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "id": "Bryan-4",
+    "parent": null,
+    "name": null,
+    "input": 4,
+    "startup": "i12",
+    "hitLevels": "h",
+    "damage": 15,
+    "onBlock": -7,
+    "onHit": 6,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Bryan-4,3",
+    "parent": "Bryan-4",
+    "name": null,
     "input": "4,3",
-    "hitLevels": [
-      "h",
-      "m"
-    ],
-    "damage": [
-      15,
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-10",
-      "lower": "-10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "2",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "h,m",
+    "damage": "15,12",
+    "onBlock": -10,
+    "onHit": 2,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 27,
+    "id": "Bryan-4,3,4",
+    "parent": "Bryan-4,3",
     "name": "Double Spin Tomahawk",
     "input": "4,3,4",
-    "hitLevels": [
-      "h",
-      "m",
-      "m"
-    ],
-    "damage": [
-      15,
-      12,
-      16
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+14a (+5)",
-      "lower": "+14",
-      "properties": [
-        "a"
-      ],
-      "tech": "+5"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "h,m,m",
+    "damage": "15,12,16",
+    "onBlock": -12,
+    "onHit": "+14a (+5)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 27
   },
   {
+    "id": "Bryan-4,3,4",
+    "parent": "Bryan-4,3",
     "name": "Double Spin Tomahawk (Hold)",
     "input": "4,3,4*",
-    "hitLevels": [
-      "h",
-      "m",
-      "m"
-    ],
-    "damage": [
-      15,
-      12,
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+35a (+9)",
-      "lower": "+35",
-      "properties": [
-        "a"
-      ],
-      "tech": "+9"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "h,m,m",
+    "damage": "15,12,25",
+    "onBlock": -6,
+    "onHit": "+35a (+9)",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 28,
+    "id": "Bryan-4,3,f+4",
+    "parent": "Bryan-4,3",
     "name": "Triple Spin Kick",
     "input": "4,3,f+4",
-    "hitLevels": [
-      "h",
-      "m",
-      "h"
-    ],
-    "damage": [
-      15,
-      12,
-      18
-    ],
-    "framesOnBlock": {
-      "_raw": "-5",
-      "lower": "-5",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "6",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "[[Bryan combos#Staples|+31a (+21)]]",
-      "lower": "+31",
-      "properties": [
-        "a"
-      ],
-      "tech": "+21"
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "h,m,h",
+    "damage": "15,12,18",
+    "onBlock": -5,
+    "onHit": 6,
+    "onCounterHit": "[[Bryan combos#Staples|+31a (+21)]]",
+    "states": null,
+    "index": 28
   },
   {
-    "index": 51,
+    "id": "Bryan-b+1",
+    "parent": null,
     "name": "Chopping Elbow",
     "input": "b+1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "4",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+7c",
-      "lower": "+7",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "[[Bryan combos#Staples|+78a (+58)]]",
-      "lower": "+78",
-      "properties": [
-        "a"
-      ],
-      "tech": "+58"
-    },
-    "framesOnStartup": {
-      "_raw": "i20~21",
-      "lower": "i20",
-      "properties": [],
-      "upper": "21"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20~21",
+    "hitLevels": "m",
+    "damage": 21,
+    "onBlock": 4,
+    "onHit": "+7c",
+    "onCounterHit": "[[Bryan combos#Staples|+78a (+58)]]",
+    "states": null,
+    "index": 51
   },
   {
+    "id": "Bryan-b+1+3",
+    "parent": null,
     "name": "Parry",
     "input": "b+1+3",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "31",
-      "lower": "31",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": 31,
+    "onCounterHit": null,
+    "states": "ps5~12",
+    "index": null
   },
   {
+    "id": "Bryan-b+1+3,P.2",
+    "parent": "Bryan-b+1+3",
     "name": "Parry &gt; Mach Breaker &gt; Snake Eyes",
     "input": "b+1+3,P.2",
-    "hitLevels": [
-      "null",
-      "h"
-    ],
-    "damage": [
-      null,
-      30
-    ],
-    "framesOnBlock": {
-      "_raw": "-10",
-      "lower": "-10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+20d (-38)",
-      "lower": "+20",
-      "properties": [
-        "d"
-      ],
-      "tech": "-38"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": "null,h",
+    "damage": "null,30",
+    "onBlock": -10,
+    "onHit": "+20d (-38)",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 59,
+    "id": "Bryan-b+1+4",
+    "parent": null,
     "name": "Gravity Blow",
     "input": "b+1+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      26
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+7c",
-      "lower": "+7",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i28",
-      "lower": "i28",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i28",
+    "hitLevels": "m",
+    "damage": 26,
+    "onBlock": -9,
+    "onHit": "+7c",
+    "onCounterHit": null,
+    "states": null,
+    "index": 59
   },
   {
-    "index": 60,
+    "id": "Bryan-b+1+4*",
+    "parent": null,
     "name": "Meteor Smash",
     "input": "b+1+4*",
-    "hitLevels": [
-      "m!"
-    ],
-    "damage": [
-      45
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+7a",
-      "lower": "+7",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i53",
-      "lower": "i53",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i53",
+    "hitLevels": "m!",
+    "damage": 45,
+    "onBlock": null,
+    "onHit": "+7a",
+    "onCounterHit": null,
+    "states": null,
+    "index": 60
   },
   {
+    "id": "Bryan-b+2",
+    "parent": null,
+    "name": null,
     "input": "b+2",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      18
-    ],
-    "framesOnBlock": {
-      "_raw": "-7",
-      "lower": "-7",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "4",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "[[Bryan combos#Staples|+53a]]",
-      "lower": "+53",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i17",
-      "lower": "i17",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17",
+    "hitLevels": "h",
+    "damage": 18,
+    "onBlock": -7,
+    "onHit": 4,
+    "onCounterHit": "[[Bryan combos#Staples|+53a]]",
+    "states": null,
+    "index": null
   },
   {
+    "id": "Bryan-b+2,1",
+    "parent": "Bryan-b+2",
+    "name": null,
     "input": "b+2,1",
-    "hitLevels": [
-      "h",
-      "h"
-    ],
-    "damage": [
-      18,
-      16
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "[[Bryan combos#Staples|+55]]",
-      "lower": "+55",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17",
-      "lower": "i17",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17",
+    "hitLevels": "h,h",
+    "damage": "18,16",
+    "onBlock": 0,
+    "onHit": "[[Bryan combos#Staples|+55]]",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 52,
+    "id": "Bryan-b+2,1,2",
+    "parent": "Bryan-b+2,1",
     "name": "Hands of Doom",
     "input": "b+2,1,2",
-    "hitLevels": [
-      "h",
-      "h",
-      "h"
-    ],
-    "damage": [
-      18,
-      16,
-      22
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+41d (-17)",
-      "lower": "+41",
-      "properties": [
-        "d"
-      ],
-      "tech": "-17"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17",
-      "lower": "i17",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17",
+    "hitLevels": "h,h,h",
+    "damage": "18,16,22",
+    "onBlock": -9,
+    "onHit": "+41d (-17)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 52
   },
   {
-    "index": 53,
+    "id": "Bryan-b+2,1,4",
+    "parent": "Bryan-b+2,1",
     "name": "Kickass Combo",
     "input": "b+2,1,4",
-    "hitLevels": [
-      "h",
-      "h",
-      "m"
-    ],
-    "damage": [
-      18,
-      16,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-10",
-      "lower": "-10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+37a",
-      "lower": "+37",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17",
-      "lower": "i17",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17",
+    "hitLevels": "h,h,m",
+    "damage": "18,16,20",
+    "onBlock": -10,
+    "onHit": "+37a",
+    "onCounterHit": null,
+    "states": null,
+    "index": 53
   },
   {
-    "index": 54,
+    "id": "Bryan-b+2,4",
+    "parent": "Bryan-b+2",
     "name": "Wolf Call",
     "input": "b+2,4",
-    "hitLevels": [
-      "h",
-      "m"
-    ],
-    "damage": [
-      18,
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-5",
-      "lower": "-5",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+40a (+14)",
-      "lower": "+40",
-      "properties": [
-        "a"
-      ],
-      "tech": "+14"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17",
-      "lower": "i17",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17",
+    "hitLevels": "h,m",
+    "damage": "18,21",
+    "onBlock": -5,
+    "onHit": "+40a (+14)",
+    "onCounterHit": null,
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* ,js16~31\n* fs32~34&lt;/div&gt;",
+    "index": 54
   },
   {
+    "id": "Bryan-b+3",
+    "parent": null,
     "name": "1st Hit",
     "input": "b+3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": "m",
+    "damage": 12,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Bryan-b+3",
+    "parent": null,
+    "name": null,
     "input": "b+3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-7",
-      "lower": "-7",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "4",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i19",
-      "lower": "i19",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i19",
+    "hitLevels": "m",
+    "damage": 12,
+    "onBlock": -7,
+    "onHit": 4,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 57,
+    "id": "Bryan-b+3,1+2",
+    "parent": "Bryan-b+3",
     "name": "Front Kick &gt; Double Hammer",
     "input": "b+3,1+2",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      12,
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+4c",
-      "lower": "+4",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "[[Bryan combos#Staples|+20d]]",
-      "lower": "+20",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": "m,m",
+    "damage": "12,25",
+    "onBlock": -6,
+    "onHit": "+4c",
+    "onCounterHit": "[[Bryan combos#Staples|+20d]]",
+    "states": null,
+    "index": 57
   },
   {
+    "id": "Bryan-b+3,2",
+    "parent": "Bryan-b+3",
+    "name": null,
     "input": "b+3,2",
-    "hitLevels": [
-      "m",
-      "h"
-    ],
-    "damage": [
-      12,
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-4",
-      "lower": "-4",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "7",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": "m,h",
+    "damage": "12,12",
+    "onBlock": -4,
+    "onHit": 7,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Bryan-b+3,2,1",
+    "parent": "Bryan-b+3,2",
+    "name": null,
     "input": "b+3,2,1",
-    "hitLevels": [
-      "m",
-      "h",
-      "m"
-    ],
-    "damage": [
-      12,
-      12,
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "2",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": "m,h,m",
+    "damage": "12,12,10",
+    "onBlock": -9,
+    "onHit": 2,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 55,
+    "id": "Bryan-b+3,2,1,2",
+    "parent": "Bryan-b+3,2,1",
     "name": "Front Kick &gt; Rush",
     "input": "b+3,2,1,2",
-    "hitLevels": [
-      "m",
-      "h",
-      "m",
-      "m"
-    ],
-    "damage": [
-      12,
-      12,
-      10,
-      14
-    ],
-    "framesOnBlock": {
-      "_raw": "-10",
-      "lower": "-10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+19a (+10)",
-      "lower": "+19",
-      "properties": [
-        "a"
-      ],
-      "tech": "+10"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": "m,h,m,m",
+    "damage": "12,12,10,14",
+    "onBlock": -10,
+    "onHit": "+19a (+10)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 55
   },
   {
-    "index": 56,
+    "id": "Bryan-b+3,2,1,4",
+    "parent": "Bryan-b+3,2,1",
     "name": "Run for Cover",
     "input": "b+3,2,1,4",
-    "hitLevels": [
-      "m",
-      "h",
-      "m",
-      "L"
-    ],
-    "damage": [
-      12,
-      12,
-      10,
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-11",
-      "lower": "-11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": "m,h,m,L",
+    "damage": "12,12,10,12",
+    "onBlock": -11,
+    "onHit": 0,
+    "onCounterHit": null,
+    "states": null,
+    "index": 56
   },
   {
+    "id": "Bryan-b+3,4",
+    "parent": "Bryan-b+3",
     "name": "2nd Hit",
     "input": "b+3,4",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      12,
-      18
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": "m,m",
+    "damage": "12,18",
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Bryan-b+3,4,1",
+    "parent": "Bryan-b+3,4",
     "name": "3rd Hit",
     "input": "b+3,4,1",
-    "hitLevels": [
-      "m",
-      "m",
-      "m"
-    ],
-    "damage": [
-      12,
-      18,
-      5
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": "m,m,m",
+    "damage": "12,18,5",
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Bryan-b+3,4,1,2",
+    "parent": "Bryan-b+3,4,1",
     "name": "4th Hit",
     "input": "b+3,4,1,2",
-    "hitLevels": [
-      "m",
-      "m",
-      "m",
-      "m"
-    ],
-    "damage": [
-      12,
-      18,
-      5,
-      7
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": "m,m,m,m",
+    "damage": "12,18,5,7",
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Bryan-b+3,4,1,2,1",
+    "parent": "Bryan-b+3,4,1,2",
     "name": "5th Hit",
     "input": "b+3,4,1,2,1",
-    "hitLevels": [
-      "m",
-      "m",
-      "m",
-      "m",
-      "h"
-    ],
-    "damage": [
-      12,
-      18,
-      5,
-      7,
-      3
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": "m,m,m,m,h",
+    "damage": "12,18,5,7,3",
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Bryan-b+3,4,1,2,1,4",
+    "parent": "Bryan-b+3,4,1,2,1",
     "name": "6th Hit",
     "input": "b+3,4,1,2,1,4",
-    "hitLevels": [
-      "m",
-      "m",
-      "m",
-      "m",
-      "h",
-      "h"
-    ],
-    "damage": [
-      12,
-      18,
-      5,
-      7,
-      3,
-      8
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": "m,m,m,m,h,h",
+    "damage": "12,18,5,7,3,8",
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Bryan-b+3,4,1,2,1,4,2",
+    "parent": "Bryan-b+3,4,1,2,1,4",
     "name": "7th Hit",
     "input": "b+3,4,1,2,1,4,2",
-    "hitLevels": [
-      "m",
-      "m",
-      "m",
-      "m",
-      "h",
-      "h",
-      "h"
-    ],
-    "damage": [
-      12,
-      18,
-      5,
-      7,
-      3,
-      8,
-      5
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": "m,m,m,m,h,h,h",
+    "damage": "12,18,5,7,3,8,5",
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Bryan-b+3,4,1,2,1,4,2,1",
+    "parent": "Bryan-b+3,4,1,2,1,4,2",
     "name": "8th Hit",
     "input": "b+3,4,1,2,1,4,2,1",
-    "hitLevels": [
-      "m",
-      "m",
-      "m",
-      "m",
-      "h",
-      "h",
-      "h",
-      "h"
-    ],
-    "damage": [
-      12,
-      18,
-      5,
-      7,
-      3,
-      8,
-      5,
-      5
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": "m,m,m,m,h,h,h,h",
+    "damage": "12,18,5,7,3,8,5,5",
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Bryan-b+3,4,1,2,1,4,2,1,4",
+    "parent": "Bryan-b+3,4,1,2,1,4,2,1",
     "name": "9th Hit",
     "input": "b+3,4,1,2,1,4,2,1,4",
-    "hitLevels": [
-      "m",
-      "m",
-      "m",
-      "m",
-      "h",
-      "h",
-      "h",
-      "h",
-      "m"
-    ],
-    "damage": [
-      12,
-      18,
-      5,
-      7,
-      3,
-      8,
-      5,
-      5,
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": "m,m,m,m,h,h,h,h,m",
+    "damage": "12,18,5,7,3,8,5,5,10",
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 74,
+    "id": "Bryan-b+3,4,1,2,1,4,2,1,4,2",
+    "parent": "Bryan-b+3,4,1,2,1,4,2,1,4",
     "name": "10 Hit Combo",
     "input": "b+3,4,1,2,1,4,2,1,4,2",
-    "hitLevels": [
-      "m",
-      "m",
-      "m",
-      "m",
-      "h",
-      "h",
-      "h",
-      "h",
-      "m",
-      "h"
-    ],
-    "damage": [
-      12,
-      18,
-      5,
-      7,
-      3,
-      8,
-      5,
-      5,
-      10,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": "m,m,m,m,h,h,h,h,m,h",
+    "damage": "12,18,5,7,3,8,5,5,10,20",
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": 74
   },
   {
-    "index": 58,
+    "id": "Bryan-b+4",
+    "parent": null,
     "name": "Knee Break",
     "input": "b+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      18
-    ],
-    "framesOnBlock": {
-      "_raw": "-10",
-      "lower": "-10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "[[Bryan combos#Mini-combos|+15]]",
-      "lower": "+15",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "m",
+    "damage": 18,
+    "onBlock": -10,
+    "onHit": "[[Bryan combos#Mini-combos|+15]]",
+    "onCounterHit": null,
+    "states": null,
+    "index": 58
   },
   {
+    "id": "Bryan-Back throw",
+    "parent": null,
     "name": "Neck throw",
-    "input": "Backthrow",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      60
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-1d",
-      "lower": "-1",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": "Back throw",
+    "startup": null,
+    "hitLevels": "t",
+    "damage": 60,
+    "onBlock": null,
+    "onHit": "-1d",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Bryan-(Back to wall).b,b,UB",
+    "parent": null,
     "name": "[[Wall Jump Attack]]",
-    "input": "(Backtowall).b,b,UB",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-1",
-      "lower": "-1",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+45d (-13)",
-      "lower": "+45",
-      "properties": [
-        "d"
-      ],
-      "tech": "-13"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i29~30",
-      "lower": "i29",
-      "properties": [],
-      "upper": "30"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": "(Back to wall).b,b,UB",
+    "startup": "i29~30",
+    "hitLevels": "m",
+    "damage": 25,
+    "onBlock": -1,
+    "onHit": "+45d (-13)",
+    "onCounterHit": null,
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* fs5~13\n* js14~33\n* fs34~36&lt;/div&gt;",
+    "index": null
   },
   {
-    "index": 72,
+    "id": "Bryan-b,B+4",
+    "parent": null,
     "name": "Flying Knee Kick",
     "input": "b,B+4",
-    "hitLevels": [
-      "M"
-    ],
-    "damage": [
-      24
-    ],
-    "framesOnBlock": {
-      "_raw": "-19~-7",
-      "lower": "-19",
-      "properties": [],
-      "upper": "-7"
-    },
-    "framesOnHit": {
-      "_raw": "-7a~+5a",
-      "lower": "-7",
-      "properties": [
-        "a",
-        "a"
-      ],
-      "upper": "+5"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i21~33",
-      "lower": "i21",
-      "properties": [],
-      "upper": "33"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i21~33",
+    "hitLevels": "M",
+    "damage": 24,
+    "onBlock": "-19~-7",
+    "onHit": "-7a~+5a",
+    "onCounterHit": null,
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* js18~32\n* fs33~&lt;/div&gt;",
+    "index": 72
   },
   {
-    "index": 71,
+    "id": "Bryan-b,df+4",
+    "parent": null,
     "name": "Wedge Driver",
     "input": "b,df+4",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+14g",
-      "lower": "+14",
-      "properties": [
-        "g"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "+29a",
-      "lower": "+29",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i29",
-      "lower": "i29",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i29",
+    "hitLevels": "l",
+    "damage": 25,
+    "onBlock": -13,
+    "onHit": "+14g",
+    "onCounterHit": "+29a",
+    "states": null,
+    "index": 71
   },
   {
+    "id": "Bryan-d+1+2",
+    "parent": null,
+    "name": null,
     "input": "d+1+2",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      10,
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "-10",
-      "lower": "-10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "3",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17",
-      "lower": "i17",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17",
+    "hitLevels": "m,m",
+    "damage": "10,15",
+    "onBlock": -10,
+    "onHit": 3,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 46,
+    "id": "Bryan-d+1+2~2",
+    "parent": null,
     "name": "Snake Bomb",
     "input": "d+1+2~2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      24
-    ],
-    "framesOnBlock": {
-      "_raw": "7",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "[[Bryan combos#Staples|+53a]]",
-      "lower": "+53",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i30",
-      "lower": "i30",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i30",
+    "hitLevels": "m",
+    "damage": 24,
+    "onBlock": 7,
+    "onHit": "[[Bryan combos#Staples|+53a]]",
+    "onCounterHit": null,
+    "states": null,
+    "index": 46
   },
   {
-    "index": 45,
+    "id": "Bryan-d+1+2,3",
+    "parent": "Bryan-d+1+2",
     "name": "Hammer Driver Hatchet",
     "input": "d+1+2,3",
-    "hitLevels": [
-      "m",
-      "m",
-      "l"
-    ],
-    "damage": [
-      10,
-      15,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "5",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "[[Bryan combos#Mini-combos|+25a]]",
-      "lower": "+25",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i17",
-      "lower": "i17",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17",
+    "hitLevels": "m,m,l",
+    "damage": "10,15,20",
+    "onBlock": -13,
+    "onHit": 5,
+    "onCounterHit": "[[Bryan combos#Mini-combos|+25a]]",
+    "states": null,
+    "index": 45
   },
   {
+    "id": "Bryan-d+2",
+    "parent": null,
+    "name": null,
     "input": "d+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      17
-    ],
-    "framesOnBlock": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+8c",
-      "lower": "+8",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14~15",
-      "lower": "i14",
-      "properties": [],
-      "upper": "15"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14~15",
+    "hitLevels": "m",
+    "damage": 17,
+    "onBlock": -2,
+    "onHit": "+8c",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 42,
+    "id": "Bryan-d+2,3",
+    "parent": "Bryan-d+2",
     "name": "Python Crush",
     "input": "d+2,3",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      17,
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-10",
-      "lower": "-10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+16a (-1)",
-      "lower": "+16",
-      "properties": [
-        "a"
-      ],
-      "tech": "-1"
-    },
-    "framesOnCounter": {
-      "_raw": "[[Bryan combos#Staples|+32a (+18)]]",
-      "lower": "+32",
-      "properties": [
-        "a"
-      ],
-      "tech": "+18"
-    },
-    "framesOnStartup": {
-      "_raw": "i14~15",
-      "lower": "i14",
-      "properties": [],
-      "upper": "15"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14~15",
+    "hitLevels": "m,m",
+    "damage": "17,21",
+    "onBlock": -10,
+    "onHit": "+16a (-1)",
+    "onCounterHit": "[[Bryan combos#Staples|+32a (+18)]]",
+    "states": null,
+    "index": 42
   },
   {
+    "id": "Bryan-d+3",
+    "parent": null,
+    "name": null,
     "input": "d+3",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-11",
-      "lower": "-11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "l",
+    "damage": 10,
+    "onBlock": -11,
+    "onHit": 0,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 43,
+    "id": "Bryan-d+3,2",
+    "parent": "Bryan-d+3",
     "name": "Quick Low Screw Punch &gt; Snake Eyes",
     "input": "d+3,2",
-    "hitLevels": [
-      "l",
-      "h"
-    ],
-    "damage": [
-      10,
-      22
-    ],
-    "framesOnBlock": {
-      "_raw": "-7",
-      "lower": "-7",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+35a (+9)",
-      "lower": "+35",
-      "properties": [
-        "a"
-      ],
-      "tech": "+9"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "l,h",
+    "damage": "10,22",
+    "onBlock": -7,
+    "onHit": "+35a (+9)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 43
   },
   {
+    "id": "Bryan-d+3+4",
+    "parent": null,
+    "name": null,
     "input": "d+3+4",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      16
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-1",
-      "lower": "-1",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "4",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i19",
-      "lower": "i19",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i19",
+    "hitLevels": "l",
+    "damage": 16,
+    "onBlock": -12,
+    "onHit": -1,
+    "onCounterHit": 4,
+    "states": null,
+    "index": null
   },
   {
-    "index": 47,
+    "id": "Bryan-d+3+4,2",
+    "parent": "Bryan-d+3+4",
     "name": "Side Low Knuckle Whip",
     "input": "d+3+4,2",
-    "hitLevels": [
-      "l",
-      "m"
-    ],
-    "damage": [
-      16,
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+14a (-3)",
-      "lower": "+14",
-      "properties": [
-        "a"
-      ],
-      "tech": "-3"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i19",
-      "lower": "i19",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i19",
+    "hitLevels": "l,m",
+    "damage": "16,25",
+    "onBlock": -12,
+    "onHit": "+14a (-3)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 47
   },
   {
-    "index": 44,
+    "id": "Bryan-d+4",
+    "parent": null,
     "name": "Low Kick",
     "input": "d+4",
-    "hitLevels": [
-      "L"
-    ],
-    "damage": [
-      13
-    ],
-    "framesOnBlock": {
-      "_raw": "-11",
-      "lower": "-11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "L",
+    "damage": 13,
+    "onBlock": -11,
+    "onHit": 0,
+    "onCounterHit": null,
+    "states": null,
+    "index": 44
   },
   {
-    "index": 50,
+    "id": "Bryan-db+1+2",
+    "parent": null,
     "name": "Crash Impact",
     "input": "db+1+2",
-    "hitLevels": [
-      "m",
-      "h"
-    ],
-    "damage": [
-      8,
-      16
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "4",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15 i12",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15 i12",
+    "hitLevels": "m,h",
+    "damage": "8,16",
+    "onBlock": -9,
+    "onHit": 4,
+    "onCounterHit": null,
+    "states": null,
+    "index": 50
   },
   {
-    "index": 48,
+    "id": "Bryan-db+2",
+    "parent": null,
     "name": "Stomach Blow",
     "input": "db+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      13
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "8",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~17",
-      "lower": "i15",
-      "properties": [],
-      "upper": "17"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~17",
+    "hitLevels": "m",
+    "damage": 13,
+    "onBlock": -6,
+    "onHit": 8,
+    "onCounterHit": null,
+    "states": null,
+    "index": 48
   },
   {
-    "index": 49,
+    "id": "Bryan-db+3",
+    "parent": null,
     "name": "Sweeper kick",
     "input": "db+3",
-    "hitLevels": [
-      "L"
-    ],
-    "damage": [
-      11
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-1",
-      "lower": "-1",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "4",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16~17",
-      "lower": "i16",
-      "properties": [],
-      "upper": "17"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16~17",
+    "hitLevels": "L",
+    "damage": 11,
+    "onBlock": -12,
+    "onHit": -1,
+    "onCounterHit": 4,
+    "states": "cs6~",
+    "index": 49
   },
   {
+    "id": "Bryan-DF+1",
+    "parent": null,
+    "name": null,
     "input": "DF+1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      8
-    ],
-    "framesOnBlock": {
-      "_raw": "-5",
-      "lower": "-5",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "1",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m",
+    "damage": 8,
+    "onBlock": -5,
+    "onHit": 1,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Bryan-DF+1,1",
+    "parent": "Bryan-DF+1",
+    "name": null,
     "input": "DF+1,1",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      8,
-      2
-    ],
-    "framesOnBlock": {
-      "_raw": "-10",
-      "lower": "-10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-4",
-      "lower": "-4",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m,m",
+    "damage": "8,2",
+    "onBlock": -10,
+    "onHit": -4,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Bryan-DF+1,1,1",
+    "parent": "Bryan-DF+1,1",
+    "name": null,
     "input": "DF+1,1,1",
-    "hitLevels": [
-      "m",
-      "m",
-      "m"
-    ],
-    "damage": [
-      8,
-      2,
-      2
-    ],
-    "framesOnBlock": {
-      "_raw": "-10",
-      "lower": "-10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-4",
-      "lower": "-4",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m,m,m",
+    "damage": "8,2,2",
+    "onBlock": -10,
+    "onHit": -4,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 37,
+    "id": "Bryan-DF+1,1,1,1",
+    "parent": "Bryan-DF+1,1,1",
     "name": "Vulcan Cannon",
     "input": "DF+1,1,1,1",
-    "hitLevels": [
-      "m",
-      "m",
-      "m",
-      "m"
-    ],
-    "damage": [
-      8,
-      2,
-      2,
-      2
-    ],
-    "framesOnBlock": {
-      "_raw": "-10",
-      "lower": "-10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-4",
-      "lower": "-4",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m,m,m,m",
+    "damage": "8,2,2,2",
+    "onBlock": -10,
+    "onHit": -4,
+    "onCounterHit": null,
+    "states": null,
+    "index": 37
   },
   {
-    "index": 36,
+    "id": "Bryan-df+1,2",
+    "parent": "Bryan-DF+1",
     "name": "Double Body Blow",
     "input": "DF+1,2",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      8,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-15",
-      "lower": "-15",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "1",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+14a (+5)",
-      "lower": "+14",
-      "properties": [
-        "a"
-      ],
-      "tech": "+5"
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m,m",
+    "damage": "8,20",
+    "onBlock": -15,
+    "onHit": 1,
+    "onCounterHit": "+14a (+5)",
+    "states": null,
+    "index": 36
   },
   {
+    "id": "Bryan-df+2",
+    "parent": null,
+    "name": null,
     "input": "df+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "5",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13",
-      "lower": "i13",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13",
+    "hitLevels": "m",
+    "damage": 12,
+    "onBlock": -6,
+    "onHit": 5,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 38,
+    "id": "Bryan-df+2,1",
+    "parent": "Bryan-df+2",
     "name": "Blackout Combo",
     "input": "df+2,1",
-    "hitLevels": [
-      "m",
-      "h"
-    ],
-    "damage": [
-      12,
-      11
-    ],
-    "framesOnBlock": {
-      "_raw": "-4",
-      "lower": "-4",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "5",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13",
-      "lower": "i13",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13",
+    "hitLevels": "m,h",
+    "damage": "12,11",
+    "onBlock": -4,
+    "onHit": 5,
+    "onCounterHit": null,
+    "states": null,
+    "index": 38
   },
   {
-    "index": 39,
+    "id": "Bryan-df+2,3",
+    "parent": "Bryan-df+2",
     "name": "Blackout Trap",
     "input": "df+2,3",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      12,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "8",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "[[Bryan combos#Staples|+59a]]",
-      "lower": "+59",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i13",
-      "lower": "i13",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13",
+    "hitLevels": "m,m",
+    "damage": "12,20",
+    "onBlock": -13,
+    "onHit": 8,
+    "onCounterHit": "[[Bryan combos#Staples|+59a]]",
+    "states": null,
+    "index": 39
   },
   {
-    "index": 40,
+    "id": "Bryan-df+3",
+    "parent": null,
     "name": "Snake Edge",
     "input": "df+3",
-    "hitLevels": [
-      "L"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-26",
-      "lower": "-26",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "[[Bryan combos#Staples|+70a (+54)]]",
-      "lower": "+70",
-      "properties": [
-        "a"
-      ],
-      "tech": "+54"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i29~30",
-      "lower": "i29",
-      "properties": [],
-      "upper": "30"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i29~30",
+    "hitLevels": "L",
+    "damage": 20,
+    "onBlock": -26,
+    "onHit": "[[Bryan combos#Staples|+70a (+54)]]",
+    "onCounterHit": null,
+    "states": "cs6~",
+    "index": 40
   },
   {
-    "index": 41,
+    "id": "Bryan-df+4",
+    "parent": null,
     "name": "Wolf&#039;s Tail",
     "input": "df+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "-6~-4",
-      "lower": "-6",
-      "properties": [],
-      "upper": "-4"
-    },
-    "framesOnHit": {
-      "_raw": "[[Bryan combos#Mini-combos|+19a]]",
-      "lower": "+19",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i22~24",
-      "lower": "i22",
-      "properties": [],
-      "upper": "24"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i22~24",
+    "hitLevels": "m",
+    "damage": 23,
+    "onBlock": "-6~-4",
+    "onHit": "[[Bryan combos#Mini-combos|+19a]]",
+    "onCounterHit": null,
+    "states": null,
+    "index": 41
   },
   {
-    "index": 35,
+    "id": "Bryan-f+1+2",
+    "parent": null,
     "name": "Sidestep Elbow",
     "input": "f+1+2",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      22
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+44d (-14)",
-      "lower": "+44",
-      "properties": [
-        "d"
-      ],
-      "tech": "-14"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20~21",
-      "lower": "i20",
-      "properties": [],
-      "upper": "21"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20~21",
+    "hitLevels": "h",
+    "damage": 22,
+    "onBlock": -9,
+    "onHit": "+44d (-14)",
+    "onCounterHit": null,
+    "states": "pc7~19",
+    "index": 35
   },
   {
+    "id": "Bryan-f+2",
+    "parent": null,
+    "name": null,
     "input": "f+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-10",
-      "lower": "-10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "1",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m",
+    "damage": 10,
+    "onBlock": -10,
+    "onHit": 1,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Bryan-f+2,1",
+    "parent": "Bryan-f+2",
+    "name": null,
     "input": "f+2,1",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      10,
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-10",
-      "lower": "-10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "1",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m,m",
+    "damage": "10,12",
+    "onBlock": -10,
+    "onHit": 1,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 32,
+    "id": "Bryan-f+2,1,4",
+    "parent": "Bryan-f+2,1",
     "name": "Right Left &gt; Spin Kick &gt; Snake Eyes",
     "input": "f+2,1,4",
-    "hitLevels": [
-      "m",
-      "m",
-      "m"
-    ],
-    "damage": [
-      10,
-      12,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+3a",
-      "lower": "+3",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m,m,m",
+    "damage": "10,12,20",
+    "onBlock": -13,
+    "onHit": "+3a",
+    "onCounterHit": null,
+    "states": null,
+    "index": 32
   },
   {
+    "id": "Bryan-f+2,1,SNE.2",
+    "parent": "Bryan-f+2,1",
+    "name": null,
     "input": "f+2,1,SNE.2",
-    "hitLevels": [
-      "m",
-      "m",
-      "m"
-    ],
-    "damage": [
-      10,
-      12,
-      5
-    ],
-    "framesOnBlock": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+9c",
-      "lower": "+9",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m,m,m",
+    "damage": "10,12,5",
+    "onBlock": -2,
+    "onHit": "+9c",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Bryan-f+2,1,SNE.2,3",
+    "parent": "Bryan-f+2,1,SNE.2",
+    "name": null,
     "input": "f+2,1,SNE.2,3",
-    "hitLevels": [
-      "m",
-      "m",
-      "m",
-      "m"
-    ],
-    "damage": [
-      10,
-      12,
-      5,
-      7
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+18a (+11)",
-      "lower": "+18",
-      "properties": [
-        "a"
-      ],
-      "tech": "+11"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m,m,m,m",
+    "damage": "10,12,5,7",
+    "onBlock": -3,
+    "onHit": "+18a (+11)",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 88,
+    "id": "Bryan-f+2,1,SNE.2,3,2",
+    "parent": "Bryan-f+2,1,SNE.2,3",
     "name": "Neo Incinerator",
     "input": "f+2,1,SNE.2,3,2",
-    "hitLevels": [
-      "m",
-      "m",
-      "m",
-      "m",
-      "m"
-    ],
-    "damage": [
-      10,
-      12,
-      5,
-      7,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-10",
-      "lower": "-10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+25a (-1)",
-      "lower": "+25",
-      "properties": [
-        "a"
-      ],
-      "tech": "-1"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m,m,m,m,m",
+    "damage": "10,12,5,7,20",
+    "onBlock": -10,
+    "onHit": "+25a (-1)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 88
   },
   {
-    "index": 33,
+    "id": "Bryan-f+3",
+    "parent": null,
     "name": "Knee Strike",
     "input": "f+3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      18
-    ],
-    "framesOnBlock": {
-      "_raw": "+0~+2",
-      "lower": "+0",
-      "properties": [],
-      "upper": "+2"
-    },
-    "framesOnHit": {
-      "_raw": "+4~+6",
-      "lower": "+4",
-      "properties": [],
-      "upper": "+6"
-    },
-    "framesOnCounter": {
-      "_raw": "[[Bryan combos#Staples|+50a]]",
-      "lower": "+50",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i16~18",
-      "lower": "i16",
-      "properties": [],
-      "upper": "18"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16~18",
+    "hitLevels": "m",
+    "damage": 18,
+    "onBlock": "+0~+2",
+    "onHit": "+4~+6",
+    "onCounterHit": "[[Bryan combos#Staples|+50a]]",
+    "states": null,
+    "index": 33
   },
   {
+    "id": "Bryan-f+4",
+    "parent": null,
+    "name": null,
     "input": "f+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18",
-      "lower": "i18",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18",
+    "hitLevels": "m",
+    "damage": 10,
+    "onBlock": -9,
+    "onHit": 0,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 34,
+    "id": "Bryan-f+4,1",
+    "parent": "Bryan-f+4",
     "name": "Boa Crusher",
     "input": "f+4,1",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      10,
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-13c",
-      "lower": "-13",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnHit": {
-      "_raw": "[[Bryan combos#Staples|+40a (+32)]]",
-      "lower": "+40",
-      "properties": [
-        "a"
-      ],
-      "tech": "+32"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18",
-      "lower": "i18",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18",
+    "hitLevels": "m,m",
+    "damage": "10,10",
+    "onBlock": "-13c",
+    "onHit": "[[Bryan combos#Staples|+40a (+32)]]",
+    "onCounterHit": null,
+    "states": null,
+    "index": 34
   },
   {
-    "index": 109,
+    "id": "Bryan-FC.db+1+2",
+    "parent": null,
     "name": "Chains of Misery",
     "input": "FC.db+1+2",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      45
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+1d",
-      "lower": "+1",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i11",
-      "lower": "i11",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i11",
+    "hitLevels": "t",
+    "damage": 45,
+    "onBlock": -6,
+    "onHit": "+1d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 109
   },
   {
+    "id": "Bryan-FC.df+2",
+    "parent": null,
+    "name": null,
     "input": "FC.df+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "4",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13",
-      "lower": "i13",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13",
+    "hitLevels": "m",
+    "damage": 12,
+    "onBlock": -9,
+    "onHit": 4,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 82,
+    "id": "Bryan-FC.df+2,1",
+    "parent": "Bryan-FC.df+2",
     "name": "Snake Rampage",
     "input": "FC.df+2,1",
-    "hitLevels": [
-      "m",
-      "h"
-    ],
-    "damage": [
-      12,
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-8",
-      "lower": "-8",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+34a (+8)",
-      "lower": "+34",
-      "properties": [
-        "a"
-      ],
-      "tech": "+8"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13",
-      "lower": "i13",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13",
+    "hitLevels": "m,h",
+    "damage": "12,25",
+    "onBlock": -8,
+    "onHit": "+34a (+8)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 82
   },
   {
-    "index": 83,
+    "id": "Bryan-FC.df+4",
+    "parent": null,
     "name": "Northern Cross",
     "input": "FC.df+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-10",
-      "lower": "-10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "[[Bryan combos#Wall|+13g]]",
-      "lower": "+13",
-      "properties": [
-        "g"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "m",
+    "damage": 21,
+    "onBlock": -10,
+    "onHit": "[[Bryan combos#Wall|+13g]]",
+    "onCounterHit": null,
+    "states": "cs1~14",
+    "index": 83
   },
   {
-    "index": 67,
+    "id": "Bryan-f,F+2",
+    "parent": null,
     "name": "Mach Breaker",
     "input": "f,F+2",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      29
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+41d (-17)",
-      "lower": "+41",
-      "properties": [
-        "d"
-      ],
-      "tech": "-17"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13",
-      "lower": "i13",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13",
+    "hitLevels": "h",
+    "damage": 29,
+    "onBlock": -9,
+    "onHit": "+41d (-17)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 67
   },
   {
-    "index": 68,
+    "id": "Bryan-f,F+3",
+    "parent": null,
     "name": "Slash Kick &gt; Snake Eyes",
     "input": "f,F+3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+28a (-8)",
-      "lower": "+28",
-      "properties": [
-        "a"
-      ],
-      "tech": "-8"
-    },
-    "framesOnCounter": {
-      "_raw": "+39a (-8)",
-      "lower": "+39",
-      "properties": [
-        "a"
-      ],
-      "tech": "-8"
-    },
-    "framesOnStartup": {
-      "_raw": "i24~25",
-      "lower": "i24",
-      "properties": [],
-      "upper": "25"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i24~25",
+    "hitLevels": "m",
+    "damage": 25,
+    "onBlock": -13,
+    "onHit": "+28a (-8)",
+    "onCounterHit": "+39a (-8)",
+    "states": null,
+    "index": 68
   },
   {
+    "id": "Bryan-f,F+3*",
+    "parent": null,
+    "name": null,
     "input": "f,F+3*",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      33
-    ],
-    "framesOnBlock": {
-      "_raw": "+8 +14w",
-      "lower": "+8",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+71a",
-      "lower": "+71",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i34~35",
-      "lower": "i34",
-      "properties": [],
-      "upper": "35"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i34~35",
+    "hitLevels": "m",
+    "damage": 33,
+    "onBlock": "+8 +14w",
+    "onHit": "+71a",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 69,
+    "id": "Bryan-f,F+4",
+    "parent": null,
     "name": "Mach Kick",
     "input": "f,F+4",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      32
-    ],
-    "framesOnBlock": {
-      "_raw": "-9c~-6c",
-      "lower": "-9",
-      "properties": [
-        "c",
-        "c"
-      ],
-      "upper": "-6"
-    },
-    "framesOnHit": {
-      "_raw": "[[Bryan combos#Mini-combos|+15a]]",
-      "lower": "+15",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16~19",
-      "lower": "i16",
-      "properties": [],
-      "upper": "19"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16~19",
+    "hitLevels": "h",
+    "damage": 32,
+    "onBlock": "-9c~-6c",
+    "onHit": "[[Bryan combos#Mini-combos|+15a]]",
+    "onCounterHit": null,
+    "states": null,
+    "index": 69
   },
   {
-    "index": 73,
+    "id": "Bryan-f,f,F+3",
+    "parent": null,
     "name": "Snake Slash",
     "input": "f,f,F+3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      30
-    ],
-    "framesOnBlock": {
-      "_raw": "+6~+9",
-      "lower": "+6",
-      "properties": [],
-      "upper": "+9"
-    },
-    "framesOnHit": {
-      "_raw": "+13a (+3)",
-      "lower": "+13",
-      "properties": [
-        "a"
-      ],
-      "tech": "+3"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i22~25",
-      "lower": "i22",
-      "properties": [],
-      "upper": "25"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i22~25",
+    "hitLevels": "m",
+    "damage": 30,
+    "onBlock": "+6~+9",
+    "onHit": "+13a (+3)",
+    "onCounterHit": null,
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* js3~25\n* fs26~28&lt;/div&gt;",
+    "index": 73
   },
   {
-    "index": 70,
+    "id": "Bryan-f,n,b+2",
+    "parent": null,
     "name": "Jet Uppercut",
     "input": "f,n,b+2",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-7",
-      "lower": "-7",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "[[Bryan combos#Staple|+43a (+33)]]",
-      "lower": "+43",
-      "properties": [
-        "a"
-      ],
-      "tech": "+33"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14~15",
-      "lower": "i14",
-      "properties": [],
-      "upper": "15"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14~15",
+    "hitLevels": "h",
+    "damage": 20,
+    "onBlock": -7,
+    "onHit": "[[Bryan combos#Staple|+43a (+33)]]",
+    "onCounterHit": null,
+    "states": null,
+    "index": 70
   },
   {
+    "id": "Bryan-H.2+3",
+    "parent": null,
     "name": "Notorious Monster",
     "input": "H.2+3",
-    "hitLevels": [
-      "m",
-      "m",
-      "t"
-    ],
-    "damage": [
-      20,
-      20,
-      35
-    ],
-    "framesOnBlock": {
-      "_raw": "+15g",
-      "lower": "+15",
-      "properties": [
-        "g"
-      ]
-    },
-    "framesOnHit": {
-      "_raw": "-1d",
-      "lower": "-1",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "m,m,t",
+    "damage": "20,20,35",
+    "onBlock": "+15g",
+    "onHit": "-1d",
+    "onCounterHit": null,
+    "states": "js9~",
+    "index": null
   },
   {
-    "index": 105,
+    "id": "Bryan-Left throw",
+    "parent": null,
     "name": "Gravity Throw",
-    "input": "Leftthrow",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      40
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+1d",
-      "lower": "+1",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": "Left throw",
+    "startup": null,
+    "hitLevels": "t",
+    "damage": 40,
+    "onBlock": -3,
+    "onHit": "+1d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 105
   },
   {
+    "id": "Bryan-qcb",
+    "parent": null,
     "name": "Sway (SWA)",
     "input": "qcb",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": "cs1~10",
+    "index": null
   },
   {
-    "index": 91,
+    "id": "Bryan-qcf",
+    "parent": null,
     "name": "Slither Step (SLS)",
     "input": "qcf",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": "cs1~25",
+    "index": 91
   },
   {
+    "id": "Bryan-R.df+1+2",
+    "parent": null,
     "name": "Total Vandalization",
     "input": "R.df+1+2",
-    "hitLevels": [
-      "m",
-      "t"
-    ],
-    "damage": [
-      55
-    ],
-    "framesOnBlock": {
-      "_raw": "-15",
-      "lower": "-15",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20",
-      "lower": "i20",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20",
+    "hitLevels": "m,t",
+    "damage": "55+",
+    "onBlock": -15,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": "pc8~",
+    "index": null
   },
   {
-    "index": 106,
+    "id": "Bryan-Right throw",
+    "parent": null,
     "name": "Knee Blast",
-    "input": "Rightthrow",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      40
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+6d",
-      "lower": "+6",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": "Right throw",
+    "startup": null,
+    "hitLevels": "t",
+    "damage": 40,
+    "onBlock": -3,
+    "onHit": "+6d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 106
   },
   {
-    "index": 97,
+    "id": "Bryan-SLS.1+2",
+    "parent": null,
     "name": "Requiem",
     "input": "SLS.1+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      28
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+23a (+13)",
-      "lower": "+23",
-      "properties": [
-        "a"
-      ],
-      "tech": "+13"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "m",
+    "damage": 28,
+    "onBlock": -9,
+    "onHit": "+23a (+13)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 97
   },
   {
+    "id": "Bryan-SLS.2",
+    "parent": null,
+    "name": null,
     "input": "SLS.2",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      16
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "2",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "h",
+    "damage": 16,
+    "onBlock": -6,
+    "onHit": 2,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 92,
+    "id": "Bryan-SLS.2,1",
+    "parent": "Bryan-SLS.2",
     "name": "Cross Bazooka",
     "input": "SLS.2,1",
-    "hitLevels": [
-      "h",
-      "m"
-    ],
-    "damage": [
-      16,
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "-11",
-      "lower": "-11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+33a (+18)",
-      "lower": "+33",
-      "properties": [
-        "a"
-      ],
-      "tech": "+18"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "h,m",
+    "damage": "16,23",
+    "onBlock": -11,
+    "onHit": "+33a (+18)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 92
   },
   {
-    "index": 93,
+    "id": "Bryan-SLS.2,2",
+    "parent": "Bryan-SLS.2",
     "name": "Cross Grenade",
     "input": "SLS.2,2",
-    "hitLevels": [
-      "h",
-      "m"
-    ],
-    "damage": [
-      16,
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-7",
-      "lower": "-7",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+14a",
-      "lower": "+14",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "h,m",
+    "damage": "16,25",
+    "onBlock": -7,
+    "onHit": "+14a",
+    "onCounterHit": null,
+    "states": null,
+    "index": 93
   },
   {
-    "index": 94,
+    "id": "Bryan-SLS.2,4",
+    "parent": "Bryan-SLS.2",
     "name": "Cross Bullet &gt; Snake Eyes",
     "input": "SLS.2,4",
-    "hitLevels": [
-      "h",
-      "m"
-    ],
-    "damage": [
-      16,
-      22
-    ],
-    "framesOnBlock": {
-      "_raw": "-10",
-      "lower": "-10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+5a",
-      "lower": "+5",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "h,m",
+    "damage": "16,22",
+    "onBlock": -10,
+    "onHit": "+5a",
+    "onCounterHit": null,
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* js9~26\n* fs27~29&lt;/div&gt;",
+    "index": 94
   },
   {
+    "id": "Bryan-SLS.4",
+    "parent": null,
+    "name": null,
     "input": "SLS.4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      13
-    ],
-    "framesOnBlock": {
-      "_raw": "-5",
-      "lower": "-5",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "1",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "3",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18",
-      "lower": "i18",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18",
+    "hitLevels": "m",
+    "damage": 13,
+    "onBlock": -5,
+    "onHit": 1,
+    "onCounterHit": 3,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Bryan-SLS.4,1",
+    "parent": "Bryan-SLS.4",
+    "name": null,
     "input": "SLS.4,1",
-    "hitLevels": [
-      "m",
-      "h"
-    ],
-    "damage": [
-      13,
-      13
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+55a",
-      "lower": "+55",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18",
-      "lower": "i18",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18",
+    "hitLevels": "m,h",
+    "damage": "13,13",
+    "onBlock": 0,
+    "onHit": "+55a",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 95,
+    "id": "Bryan-SLS.4,1,2",
+    "parent": "Bryan-SLS.4,1",
     "name": "Snake Spin Mach Breaker",
     "input": "SLS.4,1,2",
-    "hitLevels": [
-      "m",
-      "h",
-      "h"
-    ],
-    "damage": [
-      13,
-      13,
-      22
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+41d (-17)",
-      "lower": "+41",
-      "properties": [
-        "d"
-      ],
-      "tech": "-17"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18",
-      "lower": "i18",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18",
+    "hitLevels": "m,h,h",
+    "damage": "13,13,22",
+    "onBlock": -9,
+    "onHit": "+41d (-17)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 95
   },
   {
-    "index": 96,
+    "id": "Bryan-SLS.4,1,4",
+    "parent": "Bryan-SLS.4,1",
     "name": "Snake Spin Kickass",
     "input": "SLS.4,1,4",
-    "hitLevels": [
-      "m",
-      "h",
-      "M"
-    ],
-    "damage": [
-      13,
-      13,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-10",
-      "lower": "-10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+37a",
-      "lower": "+37",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18",
-      "lower": "i18",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18",
+    "hitLevels": "m,h,M",
+    "damage": "13,13,20",
+    "onBlock": -10,
+    "onHit": "+37a",
+    "onCounterHit": null,
+    "states": null,
+    "index": 96
   },
   {
-    "index": 90,
+    "id": "Bryan-SNE.f,F+1+2",
+    "parent": null,
     "name": "Neo Mach Breaker",
     "input": "SNE.f,F+1+2",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      36
-    ],
-    "framesOnBlock": {
-      "_raw": "5",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+33a (+7)",
-      "lower": "+33",
-      "properties": [
-        "a"
-      ],
-      "tech": "+7"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13",
-      "lower": "i13",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13",
+    "hitLevels": "h",
+    "damage": 36,
+    "onBlock": 5,
+    "onHit": "+33a (+7)",
+    "onCounterHit": null,
+    "states": "ps2~10",
+    "index": 90
   },
   {
+    "id": "Bryan-SNE.f,F+1+2,P",
+    "parent": "Bryan-SNE.f,F+1+2",
     "name": "Immortal Payback",
     "input": "SNE.f,F+1+2,P",
-    "hitLevels": [
-      "h",
-      "m"
-    ],
-    "damage": [
-      36,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "+15g +21w",
-      "lower": "+15",
-      "properties": [
-        "g"
-      ]
-    },
-    "framesOnHit": {
-      "_raw": "+43d (-15)",
-      "lower": "+43",
-      "properties": [
-        "d"
-      ],
-      "tech": "-15"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13",
-      "lower": "i13",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13",
+    "hitLevels": "h,m",
+    "damage": "36,20",
+    "onBlock": "+15g +21w",
+    "onHit": "+43d (-15)",
+    "onCounterHit": null,
+    "states": ",pc1~14",
+    "index": null
   },
   {
-    "index": 84,
+    "id": "Bryan-SS.1",
+    "parent": null,
     "name": "Hellraiser",
     "input": "SS.1",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "-5",
-      "lower": "-5",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "8",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "[[Bryan combos#Mini-combos|+15c]]",
-      "lower": "+15",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i17~18",
-      "lower": "i17",
-      "properties": [],
-      "upper": "18"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17~18",
+    "hitLevels": "h",
+    "damage": 23,
+    "onBlock": -5,
+    "onHit": 8,
+    "onCounterHit": "[[Bryan combos#Mini-combos|+15c]]",
+    "states": null,
+    "index": 84
   },
   {
+    "id": "Bryan-SS.2",
+    "parent": null,
+    "name": null,
     "input": "SS.2",
-    "hitLevels": [
-      "M"
-    ],
-    "damage": [
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "1",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17~18",
-      "lower": "i17",
-      "properties": [],
-      "upper": "18"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17~18",
+    "hitLevels": "M",
+    "damage": 15,
+    "onBlock": -9,
+    "onHit": 1,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 85,
+    "id": "Bryan-SS.2,1",
+    "parent": "Bryan-SS.2",
     "name": "Snake Fang",
     "input": "SS.2,1",
-    "hitLevels": [
-      "M",
-      "h"
-    ],
-    "damage": [
-      15,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-5",
-      "lower": "-5",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+43d (-15)",
-      "lower": "+43",
-      "properties": [
-        "d"
-      ],
-      "tech": "-15"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17~18",
-      "lower": "i17",
-      "properties": [],
-      "upper": "18"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17~18",
+    "hitLevels": "M,h",
+    "damage": "15,20",
+    "onBlock": -5,
+    "onHit": "+43d (-15)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 85
   },
   {
-    "index": 99,
+    "id": "Bryan-SWA.1",
+    "parent": null,
     "name": "Cannonball Straight",
     "input": "SWA.1",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      22
-    ],
-    "framesOnBlock": {
-      "_raw": "5",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "[[Bryan combos#Mini-combos|+36a (+28)]]",
-      "lower": "+36",
-      "properties": [
-        "a"
-      ],
-      "tech": "+28"
-    },
-    "framesOnCounter": {
-      "_raw": "[[Bryan combos#Staples|+72a (+56)]]",
-      "lower": "+72",
-      "properties": [
-        "a"
-      ],
-      "tech": "+56"
-    },
-    "framesOnStartup": {
-      "_raw": "i13~14",
-      "lower": "i13",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13~14",
+    "hitLevels": "h",
+    "damage": 22,
+    "onBlock": 5,
+    "onHit": "[[Bryan combos#Mini-combos|+36a (+28)]]",
+    "onCounterHit": "[[Bryan combos#Staples|+72a (+56)]]",
+    "states": null,
+    "index": 99
   },
   {
+    "id": "Bryan-SWA.2",
+    "parent": null,
     "name": "Smash",
     "input": "SWA.2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      16
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "6",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "m",
+    "damage": 16,
+    "onBlock": -9,
+    "onHit": 6,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 100,
+    "id": "Bryan-SWA.2,4",
+    "parent": "Bryan-SWA.2",
     "name": "Smash and Mach Kick",
     "input": "SWA.2,4",
-    "hitLevels": [
-      "m",
-      "h"
-    ],
-    "damage": [
-      16,
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+15a",
-      "lower": "+15",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "m,h",
+    "damage": "16,25",
+    "onBlock": -9,
+    "onHit": "+15a",
+    "onCounterHit": null,
+    "states": null,
+    "index": 100
   },
   {
-    "index": 101,
+    "id": "Bryan-SWA.3",
+    "parent": null,
     "name": "Hatchet Kick",
     "input": "SWA.3",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "5",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "[[Bryan combos#Mini-combos|+26a]]",
-      "lower": "+26",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i19~20",
-      "lower": "i19",
-      "properties": [],
-      "upper": "20"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i19~20",
+    "hitLevels": "l",
+    "damage": 23,
+    "onBlock": -13,
+    "onHit": 5,
+    "onCounterHit": "[[Bryan combos#Mini-combos|+26a]]",
+    "states": null,
+    "index": 101
   },
   {
-    "index": 102,
+    "id": "Bryan-SWA.4",
+    "parent": null,
     "name": "&lt;div class=&quot;dotlist&quot;&gt;\n\n* Soccer Kick\n* Kickoff\n&lt;/div&gt;",
     "input": "SWA.4",
-    "hitLevels": [
-      "M"
-    ],
-    "damage": [
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "[[Bryan combos#Staples|+31a (+21)]]",
-      "lower": "+31",
-      "properties": [
-        "a"
-      ],
-      "tech": "+21"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17~18",
-      "lower": "i17",
-      "properties": [],
-      "upper": "18"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17~18",
+    "hitLevels": "M",
+    "damage": 23,
+    "onBlock": -12,
+    "onHit": "[[Bryan combos#Staples|+31a (+21)]]",
+    "onCounterHit": null,
+    "states": null,
+    "index": 102
   },
   {
+    "id": "Bryan-ub+1+2",
+    "parent": null,
+    "name": null,
     "input": "ub+1+2",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      5,
-      2
-    ],
-    "framesOnBlock": {
-      "_raw": "-16",
-      "lower": "-16",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15 i12",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15 i12",
+    "hitLevels": "m,m",
+    "damage": "5,2",
+    "onBlock": -16,
+    "onHit": -6,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Bryan-ub+1+2,1",
+    "parent": "Bryan-ub+1+2",
+    "name": null,
     "input": "ub+1+2,1",
-    "hitLevels": [
-      "m",
-      "m",
-      "m"
-    ],
-    "damage": [
-      5,
-      2,
-      2
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15 i12",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15 i12",
+    "hitLevels": "m,m,m",
+    "damage": "5,2,2",
+    "onBlock": -13,
+    "onHit": -3,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Bryan-ub+1+2,1,2",
+    "parent": "Bryan-ub+1+2,1",
+    "name": null,
     "input": "ub+1+2,1,2",
-    "hitLevels": [
-      "m",
-      "m",
-      "m",
-      "m"
-    ],
-    "damage": [
-      5,
-      2,
-      2,
-      2
-    ],
-    "framesOnBlock": {
-      "_raw": "-16",
-      "lower": "-16",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15 i12",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15 i12",
+    "hitLevels": "m,m,m,m",
+    "damage": "5,2,2,2",
+    "onBlock": -16,
+    "onHit": -6,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Bryan-ub+1+2,1,2,1",
+    "parent": "Bryan-ub+1+2,1,2",
+    "name": null,
     "input": "ub+1+2,1,2,1",
-    "hitLevels": [
-      "m",
-      "m",
-      "m",
-      "m",
-      "m"
-    ],
-    "damage": [
-      5,
-      2,
-      2,
-      2,
-      2
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15 i12",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15 i12",
+    "hitLevels": "m,m,m,m,m",
+    "damage": "5,2,2,2,2",
+    "onBlock": -13,
+    "onHit": -3,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Bryan-ub+1+2,1,2,1,2",
+    "parent": "Bryan-ub+1+2,1,2,1",
+    "name": null,
     "input": "ub+1+2,1,2,1,2",
-    "hitLevels": [
-      "m",
-      "m",
-      "m",
-      "m",
-      "m",
-      "m"
-    ],
-    "damage": [
-      5,
-      2,
-      2,
-      2,
-      2,
-      2
-    ],
-    "framesOnBlock": {
-      "_raw": "-16",
-      "lower": "-16",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15 i12",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15 i12",
+    "hitLevels": "m,m,m,m,m,m",
+    "damage": "5,2,2,2,2,2",
+    "onBlock": -16,
+    "onHit": -6,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Bryan-ub+1+2,1,2,1,2,1",
+    "parent": "Bryan-ub+1+2,1,2,1,2",
+    "name": null,
     "input": "ub+1+2,1,2,1,2,1",
-    "hitLevels": [
-      "m",
-      "m",
-      "m",
-      "m",
-      "m",
-      "m",
-      "m"
-    ],
-    "damage": [
-      5,
-      2,
-      2,
-      2,
-      2,
-      2,
-      2
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15 i12",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15 i12",
+    "hitLevels": "m,m,m,m,m,m,m",
+    "damage": "5,2,2,2,2,2,2",
+    "onBlock": -13,
+    "onHit": -3,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Bryan-ub+1+2,1,2,1,2,1,2",
+    "parent": "Bryan-ub+1+2,1,2,1,2,1",
+    "name": null,
     "input": "ub+1+2,1,2,1,2,1,2",
-    "hitLevels": [
-      "m",
-      "m",
-      "m",
-      "m",
-      "m",
-      "m",
-      "m",
-      "m"
-    ],
-    "damage": [
-      5,
-      2,
-      2,
-      2,
-      2,
-      2,
-      2,
-      2
-    ],
-    "framesOnBlock": {
-      "_raw": "-16",
-      "lower": "-16",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15 i12",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15 i12",
+    "hitLevels": "m,m,m,m,m,m,m,m",
+    "damage": "5,2,2,2,2,2,2,2",
+    "onBlock": -16,
+    "onHit": -6,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Bryan-ub+1+2,1,2,1,2,1,2,1",
+    "parent": "Bryan-ub+1+2,1,2,1,2,1,2",
+    "name": null,
     "input": "ub+1+2,1,2,1,2,1,2,1",
-    "hitLevels": [
-      "m",
-      "m",
-      "m",
-      "m",
-      "m",
-      "m",
-      "m",
-      "m",
-      "m"
-    ],
-    "damage": [
-      5,
-      2,
-      2,
-      2,
-      2,
-      2,
-      2,
-      2,
-      2
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15 i12",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15 i12",
+    "hitLevels": "m,m,m,m,m,m,m,m,m",
+    "damage": "5,2,2,2,2,2,2,2,2",
+    "onBlock": -13,
+    "onHit": -3,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Bryan-ub+1+2,1,2,1,2,1,2,1,2",
+    "parent": "Bryan-ub+1+2,1,2,1,2,1,2,1",
+    "name": null,
     "input": "ub+1+2,1,2,1,2,1,2,1,2",
-    "hitLevels": [
-      "m",
-      "m",
-      "m",
-      "m",
-      "m",
-      "m",
-      "m",
-      "m",
-      "m",
-      "m"
-    ],
-    "damage": [
-      5,
-      2,
-      2,
-      2,
-      2,
-      2,
-      2,
-      2,
-      2,
-      2
-    ],
-    "framesOnBlock": {
-      "_raw": "-16",
-      "lower": "-16",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15 i12",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15 i12",
+    "hitLevels": "m,m,m,m,m,m,m,m,m,m",
+    "damage": "5,2,2,2,2,2,2,2,2,2",
+    "onBlock": -16,
+    "onHit": -6,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Bryan-ub+1+2,1,2,1,2,1,2,1,2,1",
+    "parent": "Bryan-ub+1+2,1,2,1,2,1,2,1,2",
+    "name": null,
     "input": "ub+1+2,1,2,1,2,1,2,1,2,1",
-    "hitLevels": [
-      "m",
-      "m",
-      "m",
-      "m",
-      "m",
-      "m",
-      "m",
-      "m",
-      "m",
-      "m",
-      "m"
-    ],
-    "damage": [
-      5,
-      2,
-      2,
-      2,
-      2,
-      2,
-      2,
-      2,
-      2,
-      2,
-      2
-    ],
-    "framesOnBlock": {
-      "_raw": "-26",
-      "lower": "-26",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-15",
-      "lower": "-15",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15 i12",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15 i12",
+    "hitLevels": "m,m,m,m,m,m,m,m,m,m,m",
+    "damage": "5,2,2,2,2,2,2,2,2,2,2",
+    "onBlock": -26,
+    "onHit": -15,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 61,
+    "id": "Bryan-ub+1+2,1,2,1,2,1,2,1,2,1,4",
+    "parent": "Bryan-ub+1+2,1,2,1,2,1,2,1,2,1",
     "name": "Gatling Rush",
     "input": "ub+1+2,1,2,1,2,1,2,1,2,1,4",
-    "hitLevels": [
-      "m",
-      "m",
-      "m",
-      "m",
-      "m",
-      "m",
-      "m",
-      "m",
-      "m",
-      "m",
-      "m",
-      "m"
-    ],
-    "damage": [
-      5,
-      2,
-      2,
-      2,
-      2,
-      2,
-      2,
-      2,
-      2,
-      2,
-      2,
-      14
-    ],
-    "framesOnBlock": {
-      "_raw": "-35",
-      "lower": "-35",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-15a (-24)",
-      "lower": "-15",
-      "properties": [
-        "a"
-      ],
-      "tech": "-24"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15 i12",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15 i12",
+    "hitLevels": "m,m,m,m,m,m,m,m,m,m,m,m",
+    "damage": "5,2,2,2,2,2,2,2,2,2,2,14",
+    "onBlock": -35,
+    "onHit": "-15a (-24)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 61
   },
   {
-    "index": 108,
+    "id": "Bryan-uf+1+2",
+    "parent": null,
     "name": "Anaconda Assassin",
     "input": "uf+1+2",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      40
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-5d",
-      "lower": "-5",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "t",
+    "damage": 40,
+    "onBlock": -6,
+    "onHit": "-5d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 108
   },
   {
+    "id": "Bryan-uf+2",
+    "parent": null,
+    "name": null,
     "input": "uf+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      6
-    ],
-    "framesOnBlock": {
-      "_raw": "-10",
-      "lower": "-10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "1",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13",
-      "lower": "i13",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13",
+    "hitLevels": "m",
+    "damage": 6,
+    "onBlock": -10,
+    "onHit": 1,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Bryan-uf+2,2",
+    "parent": "Bryan-uf+2",
+    "name": null,
     "input": "uf+2,2",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      6,
-      4
-    ],
-    "framesOnBlock": {
-      "_raw": "-10",
-      "lower": "-10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "1",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13",
-      "lower": "i13",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13",
+    "hitLevels": "m,m",
+    "damage": "6,4",
+    "onBlock": -10,
+    "onHit": 1,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Bryan-uf+2,2,2",
+    "parent": "Bryan-uf+2,2",
+    "name": null,
     "input": "uf+2,2,2",
-    "hitLevels": [
-      "m",
-      "m",
-      "m"
-    ],
-    "damage": [
-      6,
-      4,
-      4
-    ],
-    "framesOnBlock": {
-      "_raw": "-10",
-      "lower": "-10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+1s",
-      "lower": "+1",
-      "properties": [
-        "s"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13",
-      "lower": "i13",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13",
+    "hitLevels": "m,m,m",
+    "damage": "6,4,4",
+    "onBlock": -10,
+    "onHit": "+1s",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 63,
+    "id": "Bryan-uf+2,2,2,3",
+    "parent": "Bryan-uf+2,2,2",
     "name": "Bloody War",
     "input": "uf+2,2,2,3",
-    "hitLevels": [
-      "m",
-      "m",
-      "m",
-      "m"
-    ],
-    "damage": [
-      6,
-      4,
-      4,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-15",
-      "lower": "-15",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "[[Bryan combos#Wall|+30a (+12)]]",
-      "lower": "+30",
-      "properties": [
-        "a"
-      ],
-      "tech": "+12"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13",
-      "lower": "i13",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13",
+    "hitLevels": "m,m,m,m",
+    "damage": "6,4,4,20",
+    "onBlock": -15,
+    "onHit": "[[Bryan combos#Wall|+30a (+12)]]",
+    "onCounterHit": null,
+    "states": null,
+    "index": 63
   },
   {
+    "id": "Bryan-uf+2,2,2,SNE.2",
+    "parent": "Bryan-uf+2,2,2",
+    "name": null,
     "input": "uf+2,2,2,SNE.2",
-    "hitLevels": [
-      "m",
-      "m",
-      "m",
-      "m"
-    ],
-    "damage": [
-      6,
-      4,
-      4,
-      9
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-1s",
-      "lower": "-1",
-      "properties": [
-        "s"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13",
-      "lower": "i13",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13",
+    "hitLevels": "m,m,m,m",
+    "damage": "6,4,4,9",
+    "onBlock": -12,
+    "onHit": "-1s",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Bryan-uf+2,2,2,SNE.2,2",
+    "parent": "Bryan-uf+2,2,2,SNE.2",
+    "name": null,
     "input": "uf+2,2,2,SNE.2,2",
-    "hitLevels": [
-      "m",
-      "m",
-      "m",
-      "m",
-      "m"
-    ],
-    "damage": [
-      6,
-      4,
-      4,
-      9,
-      9
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-2s",
-      "lower": "-2",
-      "properties": [
-        "s"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13",
-      "lower": "i13",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13",
+    "hitLevels": "m,m,m,m,m",
+    "damage": "6,4,4,9,9",
+    "onBlock": -12,
+    "onHit": "-2s",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 89,
+    "id": "Bryan-uf+2,2,2,SNE.2,2,3",
+    "parent": "Bryan-uf+2,2,2,SNE.2,2",
     "name": "Neo Bloody War",
     "input": "uf+2,2,2,SNE.2,2,3",
-    "hitLevels": [
-      "m",
-      "m",
-      "m",
-      "m",
-      "m",
-      "m"
-    ],
-    "damage": [
-      6,
-      4,
-      4,
-      9,
-      9,
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "-15",
-      "lower": "-15",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+3a",
-      "lower": "+3",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13",
-      "lower": "i13",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13",
+    "hitLevels": "m,m,m,m,m,m",
+    "damage": "6,4,4,9,9,23",
+    "onBlock": -15,
+    "onHit": "+3a",
+    "onCounterHit": null,
+    "states": null,
+    "index": 89
   },
   {
-    "index": 62,
+    "id": "Bryan-uf+3",
+    "parent": null,
     "name": "Rolling Driver",
     "input": "uf+3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "[[Bryan combos#Mini-combos|+15]]",
-      "lower": "+15",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i27~28",
-      "lower": "i27",
-      "properties": [],
-      "upper": "28"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i27~28",
+    "hitLevels": "m",
+    "damage": 15,
+    "onBlock": -2,
+    "onHit": "[[Bryan combos#Mini-combos|+15]]",
+    "onCounterHit": null,
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* js9~28\n* fs29~31&lt;/div&gt;",
+    "index": 62
   },
   {
-    "index": 65,
+    "id": "Bryan-uf+3+4",
+    "parent": null,
     "name": "Bullet Knee &gt; Snake Eyes",
     "input": "uf+3+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      22
-    ],
-    "framesOnBlock": {
-      "_raw": "-7",
-      "lower": "-7",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+8a",
-      "lower": "+8",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16~17",
-      "lower": "i16",
-      "properties": [],
-      "upper": "17"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16~17",
+    "hitLevels": "m",
+    "damage": 22,
+    "onBlock": -7,
+    "onHit": "+8a",
+    "onCounterHit": null,
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* js9~26\n* fs27~29&lt;/div&gt;",
+    "index": 65
   },
   {
-    "index": 64,
+    "id": "Bryan-uf+4",
+    "parent": null,
     "name": "Orbital Heel Kick",
     "input": "uf+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-5",
-      "lower": "-5",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+26a",
-      "lower": "+26",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i24~26",
-      "lower": "i24",
-      "properties": [],
-      "upper": "26"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i24~26",
+    "hitLevels": "m",
+    "damage": 20,
+    "onBlock": -5,
+    "onHit": "+26a",
+    "onCounterHit": null,
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* js9~32\n* fs33~35&lt;/div&gt;",
+    "index": 64
   },
   {
-    "index": 66,
+    "id": "Bryan-uf,n,4",
+    "parent": null,
     "name": "Delayed Rising Toe Kick",
     "input": "uf,n,4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "[[Bryan combos#Staples|+32a (+22)]]",
-      "lower": "+32",
-      "properties": [
-        "a"
-      ],
-      "tech": "+22"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i23~25",
-      "lower": "i23",
-      "properties": [],
-      "upper": "25"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i23~25",
+    "hitLevels": "m",
+    "damage": 20,
+    "onBlock": -13,
+    "onHit": "[[Bryan combos#Staples|+32a (+22)]]",
+    "onCounterHit": null,
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* js9~30\n* fs31~33&lt;/div&gt;",
+    "index": 66
   },
   {
-    "index": 77,
+    "id": "Bryan-ws1",
+    "parent": null,
     "name": "Left Upper",
     "input": "ws1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-14",
-      "lower": "-14",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "[[Bryan combos#Staples|+35a (+25)]]",
-      "lower": "+35",
-      "properties": [
-        "a"
-      ],
-      "tech": "+25"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "m",
+    "damage": 20,
+    "onBlock": -14,
+    "onHit": "[[Bryan combos#Staples|+35a (+25)]]",
+    "onCounterHit": null,
+    "states": null,
+    "index": 77
   },
   {
-    "index": 78,
+    "id": "Bryan-ws2",
+    "parent": null,
     "name": "Fisherman&#039;s Slam",
     "input": "ws2",
-    "hitLevels": [
-      "m",
-      "t"
-    ],
-    "damage": [
-      10,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-10",
-      "lower": "-10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "[[Bryan combos#Staples|+50a]]",
-      "lower": "+50",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i19",
-      "lower": "i19",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i19",
+    "hitLevels": "m,t",
+    "damage": "10,20",
+    "onBlock": -10,
+    "onHit": "[[Bryan combos#Staples|+50a]]",
+    "onCounterHit": null,
+    "states": null,
+    "index": 78
   },
   {
-    "index": 79,
+    "id": "Bryan-ws3",
+    "parent": null,
     "name": "High Knee Kick",
     "input": "ws3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      17
-    ],
-    "framesOnBlock": {
-      "_raw": "-10",
-      "lower": "-10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "4",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "[[Bryan combos#Staples|+33a (+27)]]",
-      "lower": "+33",
-      "properties": [
-        "a"
-      ],
-      "tech": "+27"
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "m",
+    "damage": 17,
+    "onBlock": -10,
+    "onHit": 4,
+    "onCounterHit": "[[Bryan combos#Staples|+33a (+27)]]",
+    "states": null,
+    "index": 79
   },
   {
-    "index": 80,
+    "id": "Bryan-ws3,4",
+    "parent": "Bryan-ws3",
     "name": "Double High Knee Kick",
     "input": "ws3,4",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      17,
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-10",
-      "lower": "-10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "4",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+29g",
-      "lower": "+29",
-      "properties": [
-        "g"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "m,m",
+    "damage": "17,21",
+    "onBlock": -10,
+    "onHit": 4,
+    "onCounterHit": "+29g",
+    "states": null,
+    "index": 80
   },
   {
-    "index": 81,
+    "id": "Bryan-ws4",
+    "parent": null,
     "name": "Toe Smash",
     "input": "ws4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      16
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "5",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i11~12",
-      "lower": "i11",
-      "properties": [],
-      "upper": "12"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i11~12",
+    "hitLevels": "m",
+    "damage": 16,
+    "onBlock": -6,
+    "onHit": 5,
+    "onCounterHit": null,
+    "states": null,
+    "index": 81
   }
 ]

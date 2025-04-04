@@ -1,5490 +1,1962 @@
 [
   {
+    "id": "Devil Jin-1",
+    "parent": null,
     "name": "Jab",
-    "input": "1",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      5
-    ],
-    "framesOnBlock": {
-      "_raw": "1",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "8",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": 1,
+    "startup": "i10",
+    "hitLevels": "h",
+    "damage": 5,
+    "onBlock": 1,
+    "onHit": 8,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Devil Jin-1,1",
+    "parent": "Devil Jin-1",
     "name": "Double Jab",
     "input": "1,1",
-    "hitLevels": [
-      "h",
-      "h"
-    ],
-    "damage": [
-      5,
-      6
-    ],
-    "framesOnBlock": {
-      "_raw": "-1",
-      "lower": "-1",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "8",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,h",
+    "damage": "5,6",
+    "onBlock": -1,
+    "onHit": 8,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 19,
+    "id": "Devil Jin-1,1,2",
+    "parent": "Devil Jin-1,1",
     "name": "Flash Claw Combo",
     "input": "1,1,2",
-    "hitLevels": [
-      "h",
-      "h",
-      "m"
-    ],
-    "damage": [
-      5,
-      6,
-      14
-    ],
-    "framesOnBlock": {
-      "_raw": "-17",
-      "lower": "-17",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+18a (+13)",
-      "lower": "+18",
-      "properties": [
-        "a"
-      ],
-      "tech": "+13"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,h,m",
+    "damage": "5,6,14",
+    "onBlock": -17,
+    "onHit": "+18a (+13)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 19
   },
   {
-    "index": 30,
+    "id": "Devil Jin-1+2",
+    "parent": null,
     "name": "Tsujikaze",
     "input": "1+2",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      12,
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "7",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17 i25~26",
-      "lower": "i17",
-      "properties": [],
-      "upper": "26"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17 i25~26",
+    "hitLevels": "m,m",
+    "damage": "12,25",
+    "onBlock": -12,
+    "onHit": 7,
+    "onCounterHit": null,
+    "states": null,
+    "index": 30
   },
   {
-    "index": 20,
+    "id": "Devil Jin-1,2",
+    "parent": "Devil Jin-1",
     "name": "One Two Strike",
     "input": "1,2",
-    "hitLevels": [
-      "h",
-      "h"
-    ],
-    "damage": [
-      5,
-      8
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "8",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,h",
+    "damage": "5,8",
+    "onBlock": -3,
+    "onHit": 8,
+    "onCounterHit": null,
+    "states": null,
+    "index": 20
   },
   {
-    "index": 21,
+    "id": "Devil Jin-1,2,2",
+    "parent": "Devil Jin-1,2",
     "name": "Back Fist Combo",
     "input": "1,2,2",
-    "hitLevels": [
-      "h",
-      "h",
-      "h"
-    ],
-    "damage": [
-      5,
-      8,
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "4",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,h,h",
+    "damage": "5,8,12",
+    "onBlock": -12,
+    "onHit": 4,
+    "onCounterHit": null,
+    "states": null,
+    "index": 21
   },
   {
+    "id": "Devil Jin-1,2,3",
+    "parent": "Devil Jin-1,2",
+    "name": null,
     "input": "1,2,3",
-    "hitLevels": [
-      "h",
-      "h",
-      "m"
-    ],
-    "damage": [
-      5,
-      8,
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "4",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "[[Devil Jin combos#Staples|+24a]]",
-      "lower": "+24",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,h,m",
+    "damage": "5,8,25",
+    "onBlock": 4,
+    "onHit": "[[Devil Jin combos#Staples|+24a]]",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 70,
+    "id": "Devil Jin-1+2+3+4",
+    "parent": null,
     "name": "Ki Charge",
     "input": "1+2+3+4",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* js6~47 \n* fs48~50&lt;/div&gt;",
+    "index": 70
   },
   {
-    "index": 22,
+    "id": "Devil Jin-1,2,3,4",
+    "parent": "Devil Jin-1,2,3",
     "name": "Shoot the Works",
     "input": "1,2,3,4",
-    "hitLevels": [
-      "h",
-      "h",
-      "m",
-      "m"
-    ],
-    "damage": [
-      5,
-      8,
-      25,
-      30
-    ],
-    "framesOnBlock": {
-      "_raw": "+0~+2",
-      "lower": "+0",
-      "properties": [],
-      "upper": "+2"
-    },
-    "framesOnHit": {
-      "_raw": "+11c~+13c",
-      "lower": "+11",
-      "properties": [
-        "c",
-        "c"
-      ],
-      "upper": "+13"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,h,m,m",
+    "damage": "5,8,25,30",
+    "onBlock": "+0~+2",
+    "onHit": "+11c~+13c",
+    "onCounterHit": null,
+    "states": null,
+    "index": 22
   },
   {
-    "index": 23,
+    "id": "Devil Jin-1,2,4",
+    "parent": "Devil Jin-1,2",
     "name": "One Two Knee",
     "input": "1,2,4",
-    "hitLevels": [
-      "h",
-      "h",
-      "m"
-    ],
-    "damage": [
-      5,
-      8,
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-10",
-      "lower": "-10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "4",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,h,m",
+    "damage": "5,8,10",
+    "onBlock": -10,
+    "onHit": 4,
+    "onCounterHit": null,
+    "states": null,
+    "index": 23
   },
   {
-    "index": 101,
+    "id": "Devil Jin-1+3",
+    "parent": null,
     "name": "Double High Sweep",
     "input": "1+3",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      35
-    ],
-    "framesOnBlock": {
-      "_raw": "+0 BT",
-      "lower": "+0",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+2d",
-      "lower": "+2",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12~14",
-      "lower": "i12",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12~14",
+    "hitLevels": "t",
+    "damage": 35,
+    "onBlock": "+0 BT",
+    "onHit": "+2d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 101
   },
   {
+    "id": "Devil Jin-1+4",
+    "parent": null,
+    "name": null,
     "input": "1+4",
-    "hitLevels": [
-      "SL",
-      "h"
-    ],
-    "damage": [
-      5,
-      5
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "4",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16~17,i14",
-      "lower": "i16",
-      "properties": [],
-      "upper": "17"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16~17,i14",
+    "hitLevels": "SL,h",
+    "damage": "5,5",
+    "onBlock": -3,
+    "onHit": 4,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 32,
+    "id": "Devil Jin-1+4,2",
+    "parent": "Devil Jin-1+4",
     "name": "Three Ring Alaya",
     "input": "1+4,2",
-    "hitLevels": [
-      "SL",
-      "h",
-      "m"
-    ],
-    "damage": [
-      5,
-      5,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+72a (+56)",
-      "lower": "+72",
-      "properties": [
-        "a"
-      ],
-      "tech": "+56"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16~17,i14",
-      "lower": "i16",
-      "properties": [],
-      "upper": "17"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16~17,i14",
+    "hitLevels": "SL,h,m",
+    "damage": "5,5,20",
+    "onBlock": -12,
+    "onHit": "+72a (+56)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 32
   },
   {
-    "input": "2",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      9
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "9",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "id": "Devil Jin-2",
+    "parent": null,
+    "name": null,
+    "input": 2,
+    "startup": "i10",
+    "hitLevels": "h",
+    "damage": 9,
+    "onBlock": 0,
+    "onHit": 9,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 24,
+    "id": "Devil Jin-2,2",
+    "parent": "Devil Jin-2",
     "name": "Demon Backhand Spin",
     "input": "2,2",
-    "hitLevels": [
-      "h",
-      "h"
-    ],
-    "damage": [
-      9,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,h",
+    "damage": "9,20",
+    "onBlock": -13,
+    "onHit": -2,
+    "onCounterHit": null,
+    "states": null,
+    "index": 24
   },
   {
+    "id": "Devil Jin-2+3",
+    "parent": null,
     "name": "Heat Burst",
     "input": "2+3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      12,
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "1",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+2c",
-      "lower": "+2",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "m",
+    "damage": "[12;12]",
+    "onBlock": 1,
+    "onHit": "+2c",
+    "onCounterHit": null,
+    "states": "pc7~16",
+    "index": null
   },
   {
-    "index": 102,
+    "id": "Devil Jin-2+4",
+    "parent": null,
     "name": "Judgment",
     "input": "2+4",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      35
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12~14",
-      "lower": "i12",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12~14",
+    "hitLevels": "t",
+    "damage": 35,
+    "onBlock": -3,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 102
   },
   {
-    "input": "3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      16
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17~19",
-      "lower": "i17",
-      "properties": [],
-      "upper": "19"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "id": "Devil Jin-3",
+    "parent": null,
+    "name": null,
+    "input": 3,
+    "startup": "i17~19",
+    "hitLevels": "m",
+    "damage": 16,
+    "onBlock": -12,
+    "onHit": -6,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Devil Jin-3,1",
+    "parent": "Devil Jin-3",
+    "name": null,
     "input": "3,1",
-    "hitLevels": [
-      "m",
-      "h"
-    ],
-    "damage": [
-      16,
-      11
-    ],
-    "framesOnBlock": {
-      "_raw": "2",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "8",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17~19",
-      "lower": "i17",
-      "properties": [],
-      "upper": "19"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17~19",
+    "hitLevels": "m,h",
+    "damage": "16,11",
+    "onBlock": 2,
+    "onHit": 8,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 25,
+    "id": "Devil Jin-3,1,2",
+    "parent": "Devil Jin-3,1",
     "name": "Hell Cyclone",
     "input": "3,1,2",
-    "hitLevels": [
-      "m",
-      "h",
-      "M"
-    ],
-    "damage": [
-      16,
-      11,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-11",
-      "lower": "-11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+72a (+56)",
-      "lower": "+72",
-      "properties": [
-        "a"
-      ],
-      "tech": "+56"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17~19",
-      "lower": "i17",
-      "properties": [],
-      "upper": "19"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17~19",
+    "hitLevels": "m,h,M",
+    "damage": "16,11,20",
+    "onBlock": -11,
+    "onHit": "+72a (+56)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 25
   },
   {
-    "index": 26,
+    "id": "Devil Jin-3,1,4",
+    "parent": "Devil Jin-3,1",
     "name": "Hell Spiral",
     "input": "3,1,4",
-    "hitLevels": [
-      "m",
-      "h",
-      "m"
-    ],
-    "damage": [
-      16,
-      11,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+15a (+6)",
-      "lower": "+15",
-      "properties": [
-        "a"
-      ],
-      "tech": "+6"
-    },
-    "framesOnCounter": {
-      "_raw": "[[Devil Jin combos#Staples|+59a]]",
-      "lower": "+59",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i17~19",
-      "lower": "i17",
-      "properties": [],
-      "upper": "19"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17~19",
+    "hitLevels": "m,h,m",
+    "damage": "16,11,20",
+    "onBlock": -9,
+    "onHit": "+15a (+6)",
+    "onCounterHit": "[[Devil Jin combos#Staples|+59a]]",
+    "states": null,
+    "index": 26
   },
   {
-    "index": 27,
+    "id": "Devil Jin-3,1,f,F",
+    "parent": "Devil Jin-3,1",
     "name": "Demon March",
     "input": "3,1,f,F",
-    "hitLevels": [
-      "m",
-      "hnull"
-    ],
-    "damage": [
-      16,
-      11
-    ],
-    "framesOnBlock": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "4",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17~19",
-      "lower": "i17",
-      "properties": [],
-      "upper": "19"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17~19",
+    "hitLevels": "m,hnull",
+    "damage": "16,11null",
+    "onBlock": -2,
+    "onHit": 4,
+    "onCounterHit": null,
+    "states": null,
+    "index": 27
   },
   {
+    "id": "Devil Jin-3+4",
+    "parent": null,
     "name": "Fly (FLY)",
     "input": "3+4",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* js20~58\n* fs59~61&lt;/div&gt;",
+    "index": null
   },
   {
-    "index": 28,
+    "id": "Devil Jin-4",
+    "parent": null,
     "name": "Last Rites",
-    "input": "4",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      24
-    ],
-    "framesOnBlock": {
-      "_raw": "-5",
-      "lower": "-5",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+10g",
-      "lower": "+10",
-      "properties": [
-        "g"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17~18",
-      "lower": "i17",
-      "properties": [],
-      "upper": "18"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": 4,
+    "startup": "i17~18",
+    "hitLevels": "h",
+    "damage": 24,
+    "onBlock": -5,
+    "onHit": "+10g",
+    "onCounterHit": null,
+    "states": null,
+    "index": 28
   },
   {
-    "index": 29,
+    "id": "Devil Jin-4~3",
+    "parent": null,
     "name": "Wheel of Pain",
     "input": "4~3",
-    "hitLevels": [
-      "M"
-    ],
-    "damage": [
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-7c",
-      "lower": "-7",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnHit": {
-      "_raw": "+14a",
-      "lower": "+14",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i29-32",
-      "lower": "i29",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i29-32",
+    "hitLevels": "M",
+    "damage": 21,
+    "onBlock": "-7c",
+    "onHit": "+14a",
+    "onCounterHit": null,
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* js14~23\n* fs24~26&lt;/div&gt;",
+    "index": 29
   },
   {
+    "id": "Devil Jin-4~3,1+2",
+    "parent": "Devil Jin-4~3",
     "name": "Wheel of Pain &gt; Annihilation Beam",
     "input": "4~3,H.1+2",
-    "hitLevels": [
-      "M",
-      "SM"
-    ],
-    "damage": [
-      21,
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "2",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+30a (-20)",
-      "lower": "+30",
-      "properties": [
-        "a"
-      ],
-      "tech": "-20"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i29-32",
-      "lower": "i29",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i29-32",
+    "hitLevels": "M,SM",
+    "damage": "21,15",
+    "onBlock": 2,
+    "onHit": "+30a (-20)",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Devil Jin-b+1",
+    "parent": null,
+    "name": null,
     "input": "b+1",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "5",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "h",
+    "damage": 10,
+    "onBlock": -6,
+    "onHit": 5,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 51,
+    "id": "Devil Jin-b+1+2",
+    "parent": null,
     "name": "Aratama Strike",
     "input": "b+1+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "+3c",
-      "lower": "+3",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnHit": {
-      "_raw": "+7c",
-      "lower": "+7",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "[[Devil Jin combos#Minicombos|+24d]]",
-      "lower": "+24",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i20~21",
-      "lower": "i20",
-      "properties": [],
-      "upper": "21"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20~21",
+    "hitLevels": "m",
+    "damage": 21,
+    "onBlock": "+3c",
+    "onHit": "+7c",
+    "onCounterHit": "[[Devil Jin combos#Minicombos|+24d]]",
+    "states": null,
+    "index": 51
   },
   {
-    "index": 46,
+    "id": "Devil Jin-b+1,2",
+    "parent": "Devil Jin-b+1",
     "name": "Brimstone Strike",
     "input": "b+1,2",
-    "hitLevels": [
-      "h",
-      "m"
-    ],
-    "damage": [
-      10,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-14",
-      "lower": "-14",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+23a (+13)",
-      "lower": "+23",
-      "properties": [
-        "a"
-      ],
-      "tech": "+13"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "h,m",
+    "damage": "10,20",
+    "onBlock": -14,
+    "onHit": "+23a (+13)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 46
   },
   {
+    "id": "Devil Jin-b+1+3",
+    "parent": null,
     "name": "Imperial Wrath",
     "input": "b+1+3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      30
-    ],
-    "framesOnBlock": {
-      "_raw": "-8",
-      "lower": "-8",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+16a (+6)",
-      "lower": "+16",
-      "properties": [
-        "a"
-      ],
-      "tech": "+6"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m",
+    "damage": 30,
+    "onBlock": -8,
+    "onHit": "+16a (+6)",
+    "onCounterHit": null,
+    "states": "pc4~14",
+    "index": null
   },
   {
-    "index": 52,
+    "id": "Devil Jin-b+1+4",
+    "parent": null,
     "name": "Lightning Screw Uppercut",
     "input": "b+1+4",
-    "hitLevels": [
-      "m!"
-    ],
-    "damage": [
-      60
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+20a (+10)",
-      "lower": "+20",
-      "properties": [
-        "a"
-      ],
-      "tech": "+10"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i63~64",
-      "lower": "i63",
-      "properties": [],
-      "upper": "64"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i63~64",
+    "hitLevels": "m!",
+    "damage": 60,
+    "onBlock": null,
+    "onHit": "+20a (+10)",
+    "onCounterHit": null,
+    "states": "fs64~85",
+    "index": 52
   },
   {
+    "id": "Devil Jin-b+2",
+    "parent": null,
+    "name": null,
     "input": "b+2",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      11
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14~16",
-      "lower": "i14",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14~16",
+    "hitLevels": "h",
+    "damage": 11,
+    "onBlock": -13,
+    "onHit": -2,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 47,
+    "id": "Devil Jin-b+2,1",
+    "parent": "Devil Jin-b+2",
     "name": "Rakshasa&#039;s Rampage",
     "input": "b+2,1",
-    "hitLevels": [
-      "h",
-      "m"
-    ],
-    "damage": [
-      11,
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-16",
-      "lower": "-16",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+29a (+19)",
-      "lower": "+29",
-      "properties": [
-        "a"
-      ],
-      "tech": "+19"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14~16",
-      "lower": "i14",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14~16",
+    "hitLevels": "h,m",
+    "damage": "11,21",
+    "onBlock": -16,
+    "onHit": "+29a (+19)",
+    "onCounterHit": null,
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* ,js30~51\n* ,fs52~54&lt;/div&gt;",
+    "index": 47
   },
   {
-    "index": 48,
+    "id": "Devil Jin-b+2,3",
+    "parent": "Devil Jin-b+2",
     "name": "Rakshasa&#039;s Fury",
     "input": "b+2,3",
-    "hitLevels": [
-      "h",
-      "m"
-    ],
-    "damage": [
-      11,
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "-14",
-      "lower": "-14",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+8a (-1)",
-      "lower": "+8",
-      "properties": [
-        "a"
-      ],
-      "tech": "-1"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14~16",
-      "lower": "i14",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14~16",
+    "hitLevels": "h,m",
+    "damage": "11,23",
+    "onBlock": -14,
+    "onHit": "+8a (-1)",
+    "onCounterHit": null,
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* ,js25~47\n* ,fs48~50&lt;/div&gt;",
+    "index": 48
   },
   {
-    "index": 49,
+    "id": "Devil Jin-b+3",
+    "parent": null,
     "name": "Wicked Jambu Spear",
     "input": "b+3",
-    "hitLevels": [
-      "M"
-    ],
-    "damage": [
-      24
-    ],
-    "framesOnBlock": {
-      "_raw": "-15~-18",
-      "lower": "-15",
-      "properties": [],
-      "upper": "-18"
-    },
-    "framesOnHit": {
-      "_raw": "+10~+13",
-      "lower": "+10",
-      "properties": [],
-      "upper": "+13"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i29~32",
-      "lower": "i29",
-      "properties": [],
-      "upper": "32"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i29~32",
+    "hitLevels": "M",
+    "damage": 24,
+    "onBlock": "-15~-18",
+    "onHit": "+10~+13",
+    "onCounterHit": null,
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* js8~33\n* fs34~36&lt;/div&gt;",
+    "index": 49
   },
   {
-    "index": 50,
+    "id": "Devil Jin-b+4",
+    "parent": null,
     "name": "Demon Steel Pedal",
     "input": "b+4",
-    "hitLevels": [
-      "M"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-8",
-      "lower": "-8",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "6",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "[[Devil Jin combos#Staples|+30a (+24)]]",
-      "lower": "+30",
-      "properties": [
-        "a"
-      ],
-      "tech": "+24"
-    },
-    "framesOnStartup": {
-      "_raw": "i17~18",
-      "lower": "i17",
-      "properties": [],
-      "upper": "18"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17~18",
+    "hitLevels": "M",
+    "damage": 20,
+    "onBlock": -8,
+    "onHit": 6,
+    "onCounterHit": "[[Devil Jin combos#Staples|+30a (+24)]]",
+    "states": null,
+    "index": 50
   },
   {
-    "index": 105,
+    "id": "Devil Jin-Back Throw",
+    "parent": null,
     "name": "Pivoting Hip Throw",
-    "input": "BackThrow",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      50
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+1d",
-      "lower": "+1",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": "Back Throw",
+    "startup": null,
+    "hitLevels": "t",
+    "damage": 50,
+    "onBlock": null,
+    "onHit": "+1d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 105
   },
   {
+    "id": "Devil Jin-(back to wall).b,b,ub",
+    "parent": null,
     "name": "[[Wall_jump_attack|Wall Jump Attack]]",
-    "input": "(backtowall).b,b,ub",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "+0c",
-      "lower": "+0",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnHit": {
-      "_raw": "8",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i36~38",
-      "lower": "i36",
-      "properties": [],
-      "upper": "38"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": "(back to wall).b,b,ub",
+    "startup": "i36~38",
+    "hitLevels": "m",
+    "damage": 21,
+    "onBlock": "+0c",
+    "onHit": 8,
+    "onCounterHit": null,
+    "states": "js14~45",
+    "index": null
   },
   {
+    "id": "Devil Jin-b,f+1+2",
+    "parent": null,
+    "name": null,
     "input": "b,f+1+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      6,
-      6,
-      6,
-      6,
-      6,
-      6
-    ],
-    "framesOnBlock": {
-      "_raw": "-17",
-      "lower": "-17",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+31a (-2)",
-      "lower": "+31",
-      "properties": [
-        "a"
-      ],
-      "tech": "-2"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i25 i6 i6 i6 i6 i6",
-      "lower": "i25",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i25 i6 i6 i6 i6 i6",
+    "hitLevels": "m",
+    "damage": "6,6,6,6,6,6",
+    "onBlock": -17,
+    "onHit": "+31a (-2)",
+    "onCounterHit": null,
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* js24~80\n* fs81~83&lt;/div&gt;",
+    "index": null
   },
   {
-    "index": 67,
+    "id": "Devil Jin-b,f+1+2,2",
+    "parent": "Devil Jin-b,f+1+2",
     "name": "Gates of Hades",
     "input": "b,f+1+2,2",
-    "hitLevels": [
-      "m",
-      "M"
-    ],
-    "damage": [
-      6,
-      6,
-      6,
-      6,
-      6,
-      6,
-      30
-    ],
-    "framesOnBlock": {
-      "_raw": "-31",
-      "lower": "-31",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-14a (-23)",
-      "lower": "-14",
-      "properties": [
-        "a"
-      ],
-      "tech": "-23"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i25 i6 i6 i6 i6 i6",
-      "lower": "i25",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i25 i6 i6 i6 i6 i6",
+    "hitLevels": "m,M",
+    "damage": "6,6,6,6,6,6,30",
+    "onBlock": -31,
+    "onHit": "-14a (-23)",
+    "onCounterHit": null,
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* ,js28~69\n* ,fs70~72&lt;/div&gt;",
+    "index": 67
   },
   {
+    "id": "Devil Jin-b,f+2",
+    "parent": null,
+    "name": null,
     "input": "b,f+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-1",
-      "lower": "-1",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~17",
-      "lower": "i15",
-      "properties": [],
-      "upper": "17"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~17",
+    "hitLevels": "m",
+    "damage": 12,
+    "onBlock": -9,
+    "onHit": -1,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Devil Jin-b,f+2,1",
+    "parent": "Devil Jin-b,f+2",
+    "name": null,
     "input": "b,f+2,1",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      12,
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-10",
-      "lower": "-10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "1",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~17",
-      "lower": "i15",
-      "properties": [],
-      "upper": "17"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~17",
+    "hitLevels": "m,m",
+    "damage": "12,12",
+    "onBlock": -10,
+    "onHit": 1,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 63,
+    "id": "Devil Jin-b,f+2,1,2",
+    "parent": "Devil Jin-b,f+2,1",
     "name": "Laser Cannon",
     "input": "b,f+2,1,2",
-    "hitLevels": [
-      "m",
-      "m",
-      "m"
-    ],
-    "damage": [
-      12,
-      12,
-      24
-    ],
-    "framesOnBlock": {
-      "_raw": "-8",
-      "lower": "-8",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+15a (+6)",
-      "lower": "+15",
-      "properties": [
-        "a"
-      ],
-      "tech": "+6"
-    },
-    "framesOnCounter": {
-      "_raw": "+45a (+0)",
-      "lower": "+45",
-      "properties": [
-        "a"
-      ],
-      "tech": "+0"
-    },
-    "framesOnStartup": {
-      "_raw": "i15~17",
-      "lower": "i15",
-      "properties": [],
-      "upper": "17"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~17",
+    "hitLevels": "m,m,m",
+    "damage": "12,12,24",
+    "onBlock": -8,
+    "onHit": "+15a (+6)",
+    "onCounterHit": "+45a (+0)",
+    "states": null,
+    "index": 63
   },
   {
-    "index": 65,
+    "id": "Devil Jin-b,f+2,1,4",
+    "parent": "Devil Jin-b,f+2,1",
     "name": "Laser Crush",
     "input": "b,f+2,1,4",
-    "hitLevels": [
-      "m",
-      "m",
-      "M"
-    ],
-    "damage": [
-      12,
-      12,
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-8c",
-      "lower": "-8",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnHit": {
-      "_raw": "+14a",
-      "lower": "+14",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~17",
-      "lower": "i15",
-      "properties": [],
-      "upper": "17"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~17",
+    "hitLevels": "m,m,M",
+    "damage": "12,12,21",
+    "onBlock": "-8c",
+    "onHit": "+14a",
+    "onCounterHit": null,
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* ,js12~20\n* ,fs21~23&lt;/div&gt;",
+    "index": 65
   },
   {
+    "id": "Devil Jin-b,f+2,1,4,1+2",
+    "parent": "Devil Jin-b,f+2,1,4",
     "name": "Laser Crush &gt; Annihilation Beam",
     "input": "b,f+2,1,4,H.1+2",
-    "hitLevels": [
-      "m",
-      "m",
-      "M",
-      "SM"
-    ],
-    "damage": [
-      12,
-      12,
-      21,
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "2",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "[[Devil Jin combos#Heat|+59a(+43)]]",
-      "lower": "+59",
-      "properties": [
-        "a"
-      ],
-      "tech": "+43"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~17",
-      "lower": "i15",
-      "properties": [],
-      "upper": "17"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~17",
+    "hitLevels": "m,m,M,SM",
+    "damage": "12,12,21,15",
+    "onBlock": 2,
+    "onHit": "[[Devil Jin combos#Heat|+59a(+43)]]",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 64,
+    "id": "Devil Jin-b,f+2,1,df+2",
+    "parent": "Devil Jin-b,f+2,1",
     "name": "Laser Scraper",
     "input": "b,f+2,1,df+2",
-    "hitLevels": [
-      "m",
-      "m",
-      "m"
-    ],
-    "damage": [
-      12,
-      12,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+25a (+8)",
-      "lower": "+25",
-      "properties": [
-        "a"
-      ],
-      "tech": "+8"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~17",
-      "lower": "i15",
-      "properties": [],
-      "upper": "17"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~17",
+    "hitLevels": "m,m,m",
+    "damage": "12,12,20",
+    "onBlock": -13,
+    "onHit": "+25a (+8)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 64
   },
   {
-    "index": 66,
+    "id": "Devil Jin-b,f+2,3",
+    "parent": "Devil Jin-b,f+2",
     "name": "Laser Slice",
     "input": "b,f+2,3",
-    "hitLevels": [
-      "m",
-      "h"
-    ],
-    "damage": [
-      12,
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-5",
-      "lower": "-5",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+16g",
-      "lower": "+16",
-      "properties": [
-        "g"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~17",
-      "lower": "i15",
-      "properties": [],
-      "upper": "17"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~17",
+    "hitLevels": "m,h",
+    "damage": "12,21",
+    "onBlock": -5,
+    "onHit": "+16g",
+    "onCounterHit": null,
+    "states": null,
+    "index": 66
   },
   {
-    "index": 40,
+    "id": "Devil Jin-d+1",
+    "parent": null,
     "name": "Corpse Thrust",
     "input": "d+1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-14",
-      "lower": "-14",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+20a (+10)",
-      "lower": "+20",
-      "properties": [
-        "a"
-      ],
-      "tech": "+10"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18~19",
-      "lower": "i18",
-      "properties": [],
-      "upper": "19"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18~19",
+    "hitLevels": "m",
+    "damage": 25,
+    "onBlock": -14,
+    "onHit": "+20a (+10)",
+    "onCounterHit": null,
+    "states": "pc7~17",
+    "index": 40
   },
   {
+    "id": "Devil Jin-d+2",
+    "parent": null,
     "name": "Crouch Straight",
     "input": "d+2",
-    "hitLevels": [
-      "sl"
-    ],
-    "damage": [
-      8
-    ],
-    "framesOnBlock": {
-      "_raw": "-4",
-      "lower": "-4",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "7",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i11",
-      "lower": "i11",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i11",
+    "hitLevels": "sl",
+    "damage": 8,
+    "onBlock": -4,
+    "onHit": 7,
+    "onCounterHit": null,
+    "states": "cs4~",
+    "index": null
   },
   {
-    "index": 41,
+    "id": "Devil Jin-d+3",
+    "parent": null,
     "name": "Broken Plate",
     "input": "d+3",
-    "hitLevels": [
-      "L"
-    ],
-    "damage": [
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-1",
-      "lower": "-1",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+7c",
-      "lower": "+7",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i18~19",
-      "lower": "i18",
-      "properties": [],
-      "upper": "19"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18~19",
+    "hitLevels": "L",
+    "damage": 12,
+    "onBlock": -12,
+    "onHit": -1,
+    "onCounterHit": "+7c",
+    "states": null,
+    "index": 41
   },
   {
-    "index": 42,
+    "id": "Devil Jin-d+3+4",
+    "parent": null,
     "name": "Double Lift Kicks",
     "input": "d+3+4",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      5,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-15",
-      "lower": "-15",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+30a (+20)",
-      "lower": "+30",
-      "properties": [
-        "a"
-      ],
-      "tech": "+20"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15-16 i15-16",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15-16 i15-16",
+    "hitLevels": "m,m",
+    "damage": "5,20",
+    "onBlock": -15,
+    "onHit": "+30a (+20)",
+    "onCounterHit": null,
+    "states": "js16~30",
+    "index": 42
   },
   {
+    "id": "Devil Jin-d+4",
+    "parent": null,
     "name": "Crouch Shin Kick",
     "input": "d+4",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      6
-    ],
-    "framesOnBlock": {
-      "_raw": "-15",
-      "lower": "-15",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-4",
-      "lower": "-4",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "l",
+    "damage": 6,
+    "onBlock": -15,
+    "onHit": -4,
+    "onCounterHit": null,
+    "states": "cs4~",
+    "index": null
   },
   {
+    "id": "Devil Jin-db+1",
+    "parent": null,
     "name": "Crouch Jab",
     "input": "db+1",
-    "hitLevels": [
-      "sl"
-    ],
-    "damage": [
-      5
-    ],
-    "framesOnBlock": {
-      "_raw": "-5",
-      "lower": "-5",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "6",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "sl",
+    "damage": 5,
+    "onBlock": -5,
+    "onHit": 6,
+    "onCounterHit": null,
+    "states": "cs4~",
+    "index": null
   },
   {
-    "index": 44,
+    "id": "Devil Jin-db+1+2",
+    "parent": null,
     "name": "Demon&#039;s Spear",
     "input": "db+1+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "4",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i23~38",
-      "lower": "i23",
-      "properties": [],
-      "upper": "38"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i23~38",
+    "hitLevels": "m",
+    "damage": 15,
+    "onBlock": -9,
+    "onHit": 4,
+    "onCounterHit": null,
+    "states": null,
+    "index": 44
   },
   {
+    "id": "Devil Jin-db+1+2*",
+    "parent": null,
     "name": "Demon&#039;s Spear (Slight Hold)",
     "input": "db+1+2*",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "+17g +24w",
-      "lower": "+17",
-      "properties": [
-        "g"
-      ]
-    },
-    "framesOnHit": {
-      "_raw": "7",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+37d (+29)",
-      "lower": "+37",
-      "properties": [
-        "d"
-      ],
-      "tech": "+29"
-    },
-    "framesOnStartup": {
-      "_raw": "i39~60",
-      "lower": "i39",
-      "properties": [],
-      "upper": "60"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i39~60",
+    "hitLevels": "m",
+    "damage": 25,
+    "onBlock": "+17g +24w",
+    "onHit": 7,
+    "onCounterHit": "+37d (+29)",
+    "states": null,
+    "index": null
   },
   {
-    "index": 45,
+    "id": "Devil Jin-db+1+2**",
+    "parent": null,
     "name": "Demon&#039;s Lance (Max Hold)",
     "input": "db+1+2**",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      42
-    ],
-    "framesOnBlock": {
-      "_raw": "[[Devil Jin combos#Mini-combos|+10]]",
-      "lower": "+10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+37d",
-      "lower": "+37",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i61~63",
-      "lower": "i61",
-      "properties": [],
-      "upper": "63"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i61~63",
+    "hitLevels": "m",
+    "damage": 42,
+    "onBlock": "[[Devil Jin combos#Mini-combos|+10]]",
+    "onHit": "+37d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 45
   },
   {
-    "index": 53,
+    "id": "Devil Jin-db+1+4",
+    "parent": null,
     "name": "Hellfire Blast",
     "input": "db+1+4",
-    "hitLevels": [
-      "h!"
-    ],
-    "damage": [
-      40
-    ],
-    "framesOnBlock": {
-      "_raw": "+4d (-54)",
-      "lower": "+4",
-      "properties": [
-        "d"
-      ],
-      "tech": "-54"
-    },
-    "framesOnHit": {
-      "_raw": "+4d (-54)",
-      "lower": "+4",
-      "properties": [
-        "d"
-      ],
-      "tech": "-54"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i32~63",
-      "lower": "i32",
-      "properties": [],
-      "upper": "63"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i32~63",
+    "hitLevels": "h!",
+    "damage": 40,
+    "onBlock": "+4d (-54)",
+    "onHit": "+4d (-54)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 53
   },
   {
-    "index": 43,
+    "id": "Devil Jin-db+2",
+    "parent": null,
     "name": "Malicious Mace",
     "input": "db+2",
-    "hitLevels": [
-      "L"
-    ],
-    "damage": [
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+3c",
-      "lower": "+3",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "[[Devil Jin combos#Mini-combos|+26a]]",
-      "lower": "+26",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i21~22",
-      "lower": "i21",
-      "properties": [],
-      "upper": "22"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i21~22",
+    "hitLevels": "L",
+    "damage": 15,
+    "onBlock": -13,
+    "onHit": "+3c",
+    "onCounterHit": "[[Devil Jin combos#Mini-combos|+26a]]",
+    "states": "cs6~",
+    "index": 43
   },
   {
+    "id": "Devil Jin-db+3",
+    "parent": null,
     "name": "Crouch Spin Kick",
     "input": "db+3",
-    "hitLevels": [
-      "L"
-    ],
-    "damage": [
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-17",
-      "lower": "-17",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "L",
+    "damage": 10,
+    "onBlock": -17,
+    "onHit": -6,
+    "onCounterHit": null,
+    "states": "cs4~",
+    "index": null
   },
   {
+    "id": "Devil Jin-df+1",
+    "parent": null,
+    "name": null,
     "input": "df+1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      11
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "5",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "9",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13",
-      "lower": "i13",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13",
+    "hitLevels": "m",
+    "damage": 11,
+    "onBlock": -6,
+    "onHit": 5,
+    "onCounterHit": 9,
+    "states": null,
+    "index": null
   },
   {
-    "index": 36,
+    "id": "Devil Jin-df+1,2",
+    "parent": "Devil Jin-df+1",
     "name": "Dark Twin Lancer",
     "input": "df+1,2",
-    "hitLevels": [
-      "m",
-      "h"
-    ],
-    "damage": [
-      11,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+20a",
-      "lower": "+20",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13",
-      "lower": "i13",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13",
+    "hitLevels": "m,h",
+    "damage": "11,20",
+    "onBlock": -9,
+    "onHit": "+20a",
+    "onCounterHit": null,
+    "states": null,
+    "index": 36
   },
   {
+    "id": "Devil Jin-df+1,4",
+    "parent": "Devil Jin-df+1",
     "name": "Dark Twin Apparition",
     "input": "df+1,4",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      11,
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+16g",
-      "lower": "+16",
-      "properties": [
-        "g"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "+31d (+23d)",
-      "lower": "+31",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i13",
-      "lower": "i13",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13",
+    "hitLevels": "m,m",
+    "damage": "11,23",
+    "onBlock": -13,
+    "onHit": "+16g",
+    "onCounterHit": "+31d (+23d)",
+    "states": null,
+    "index": null
   },
   {
-    "index": 37,
+    "id": "Devil Jin-df+2",
+    "parent": null,
     "name": "Bloody Glaive",
     "input": "df+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      17
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "6",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "9",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m",
+    "damage": 17,
+    "onBlock": -9,
+    "onHit": 6,
+    "onCounterHit": 9,
+    "states": null,
+    "index": 37
   },
   {
-    "index": 106,
+    "id": "Devil Jin-df+2+3",
+    "parent": null,
     "name": "White Mountain",
     "input": "df+2+3",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      40
-    ],
-    "framesOnBlock": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-6d",
-      "lower": "-6",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "t",
+    "damage": 40,
+    "onBlock": -2,
+    "onHit": "-6d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 106
   },
   {
+    "id": "Devil Jin-df+3",
+    "parent": null,
+    "name": null,
     "input": "df+3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "2",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16~17",
-      "lower": "i16",
-      "properties": [],
-      "upper": "17"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16~17",
+    "hitLevels": "m",
+    "damage": 12,
+    "onBlock": -9,
+    "onHit": 2,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Devil Jin-df+3,2",
+    "parent": "Devil Jin-df+3",
+    "name": null,
     "input": "df+3,2",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      12,
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-7",
-      "lower": "-7",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16~17",
-      "lower": "i16",
-      "properties": [],
-      "upper": "17"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16~17",
+    "hitLevels": "m,m",
+    "damage": "12,10",
+    "onBlock": -13,
+    "onHit": -7,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 38,
+    "id": "Devil Jin-df+3,2,4",
+    "parent": "Devil Jin-df+3,2",
     "name": "Rengoku",
     "input": "df+3,2,4",
-    "hitLevels": [
-      "m",
-      "m",
-      "m"
-    ],
-    "damage": [
-      12,
-      10,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-22",
-      "lower": "-22",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+18a (+8)",
-      "lower": "+18",
-      "properties": [
-        "a"
-      ],
-      "tech": "+8"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16~17",
-      "lower": "i16",
-      "properties": [],
-      "upper": "17"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16~17",
+    "hitLevels": "m,m,m",
+    "damage": "12,10,20",
+    "onBlock": -22,
+    "onHit": "+18a (+8)",
+    "onCounterHit": null,
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* ,js27~50\n* ,fs51~53&lt;/div&gt;",
+    "index": 38
   },
   {
+    "id": "Devil Jin-df+4",
+    "parent": null,
+    "name": null,
     "input": "df+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "2",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13~14",
-      "lower": "i13",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13~14",
+    "hitLevels": "m",
+    "damage": 10,
+    "onBlock": -9,
+    "onHit": 2,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 39,
+    "id": "Devil Jin-df+4,4",
+    "parent": "Devil Jin-df+4",
     "name": "Tsunami Kick",
     "input": "df+4,4",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      10,
-      16
-    ],
-    "framesOnBlock": {
-      "_raw": "-15",
-      "lower": "-15",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-4c",
-      "lower": "-4",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13~14",
-      "lower": "i13",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13~14",
+    "hitLevels": "m,m",
+    "damage": "10,16",
+    "onBlock": -15,
+    "onHit": "-4c",
+    "onCounterHit": null,
+    "states": null,
+    "index": 39
   },
   {
+    "id": "Devil Jin-f+2",
+    "parent": null,
     "name": "893P",
     "input": "f+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      14
-    ],
-    "framesOnBlock": {
-      "_raw": "-8",
-      "lower": "-8",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "3",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17~18",
-      "lower": "i17",
-      "properties": [],
-      "upper": "18"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17~18",
+    "hitLevels": "m",
+    "damage": 14,
+    "onBlock": -8,
+    "onHit": 3,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 33,
+    "id": "Devil Jin-f+2,4",
+    "parent": "Devil Jin-f+2",
     "name": "893P &gt; Knee Kick",
     "input": "f+2,4",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      14,
-      17
-    ],
-    "framesOnBlock": {
-      "_raw": "-11",
-      "lower": "-11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+29a (+23)",
-      "lower": "+29",
-      "properties": [
-        "a"
-      ],
-      "tech": "+23"
-    },
-    "framesOnStartup": {
-      "_raw": "i17~18",
-      "lower": "i17",
-      "properties": [],
-      "upper": "18"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17~18",
+    "hitLevels": "m,m",
+    "damage": "14,17",
+    "onBlock": -11,
+    "onHit": 0,
+    "onCounterHit": "+29a (+23)",
+    "states": null,
+    "index": 33
   },
   {
+    "id": "Devil Jin-f+3",
+    "parent": null,
     "name": "Mourning Crow (MCR)",
     "input": "f+3",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* js18~32\n* fs33~35&lt;/div&gt;",
+    "index": null
   },
   {
+    "id": "Devil Jin-f+4",
+    "parent": null,
+    "name": null,
     "input": "f+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-1",
-      "lower": "-1",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "m",
+    "damage": 10,
+    "onBlock": -12,
+    "onHit": -1,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 35,
+    "id": "Devil Jin-f+4,3",
+    "parent": "Devil Jin-f+4",
     "name": "Twisted Samsara",
     "input": "f+4,3",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      10,
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "-22",
-      "lower": "-22",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+18a (+8)",
-      "lower": "+18",
-      "properties": [
-        "a"
-      ],
-      "tech": "+8"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "m,m",
+    "damage": "10,15",
+    "onBlock": -22,
+    "onHit": "+18a (+8)",
+    "onCounterHit": null,
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* ,js27~51\n* ,fs52~54&lt;/div&gt;",
+    "index": 35
   },
   {
-    "index": 61,
+    "id": "Devil Jin-f,F+2",
+    "parent": null,
     "name": "Demon&#039;s Paw",
     "input": "f,F+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      24
-    ],
-    "framesOnBlock": {
-      "_raw": "-8",
-      "lower": "-8",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+15a (+6)",
-      "lower": "+15",
-      "properties": [
-        "a"
-      ],
-      "tech": "+6"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "m",
+    "damage": 24,
+    "onBlock": -8,
+    "onHit": "+15a (+6)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 61
   },
   {
-    "index": 62,
+    "id": "Devil Jin-f,F+4",
+    "parent": null,
     "name": "Demon&#039;s Shaft",
     "input": "f,F+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      22
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+16g",
-      "lower": "+16",
-      "properties": [
-        "g"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "[[Devil Jin combos#Staples|+55a]]",
-      "lower": "+55",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i20~21",
-      "lower": "i20",
-      "properties": [],
-      "upper": "21"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20~21",
+    "hitLevels": "m",
+    "damage": 22,
+    "onBlock": -6,
+    "onHit": "+16g",
+    "onCounterHit": "[[Devil Jin combos#Staples|+55a]]",
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* js10~30\n* fs31~33&lt;/div&gt;",
+    "index": 62
   },
   {
-    "index": 68,
+    "id": "Devil Jin-f,f,F+3",
+    "parent": null,
     "name": "Leaping Side Kick",
     "input": "f,f,F+3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      30
-    ],
-    "framesOnBlock": {
-      "_raw": "6",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+13a (+3)",
-      "lower": "+13",
-      "properties": [
-        "a"
-      ],
-      "tech": "+3"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i22~25",
-      "lower": "i22",
-      "properties": [],
-      "upper": "25"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i22~25",
+    "hitLevels": "m",
+    "damage": 30,
+    "onBlock": 6,
+    "onHit": "+13a (+3)",
+    "onCounterHit": null,
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* js3~25 \n* fs26~28&lt;/div&gt;",
+    "index": 68
   },
   {
-    "index": 109,
+    "id": "Devil Jin-f,hcf+1+2",
+    "parent": null,
     "name": "Obliteration",
     "input": "f,hcf+1+2",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      45
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "t",
+    "damage": 45,
+    "onBlock": -6,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 109
   },
   {
-    "index": 90,
+    "id": "Devil Jin-FLY.1",
+    "parent": null,
     "name": "Near Death",
     "input": "FLY.1",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+67a (+47)",
-      "lower": "+67",
-      "properties": [
-        "a"
-      ],
-      "tech": "+47"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18~19",
-      "lower": "i18",
-      "properties": [],
-      "upper": "19"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18~19",
+    "hitLevels": "h",
+    "damage": 20,
+    "onBlock": -3,
+    "onHit": "+67a (+47)",
+    "onCounterHit": null,
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* js1~12\n* fs13~15&lt;/div&gt;",
+    "index": 90
   },
   {
-    "index": 94,
+    "id": "Devil Jin-FLY.1+2",
+    "parent": null,
     "name": "Infernal Destruction",
     "input": "FLY.1+2",
-    "hitLevels": [
-      "M!"
-    ],
-    "damage": [
-      30
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-46(-104)",
-      "lower": "-46",
-      "properties": [],
-      "tech": "-104"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i50~100",
-      "lower": "i50",
-      "properties": [],
-      "upper": "100"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i50~100",
+    "hitLevels": "M!",
+    "damage": 30,
+    "onBlock": null,
+    "onHit": "-46(-104)",
+    "onCounterHit": null,
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* js1~111\n* fs112~114&lt;/div&gt;",
+    "index": 94
   },
   {
-    "index": 91,
+    "id": "Devil Jin-FLY.2",
+    "parent": null,
     "name": "Infernal Annihilation",
     "input": "FLY.2",
-    "hitLevels": [
-      "h!",
-      "t"
-    ],
-    "damage": [
-      20,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i36",
-      "lower": "i36",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i36",
+    "hitLevels": "h!,t",
+    "damage": "20,20",
+    "onBlock": null,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* js1~60\n* fs61~63&lt;/div&gt;",
+    "index": 91
   },
   {
-    "index": 92,
+    "id": "Devil Jin-FLY.3",
+    "parent": null,
     "name": "Amara",
     "input": "FLY.3",
-    "hitLevels": [
-      "M"
-    ],
-    "damage": [
-      30
-    ],
-    "framesOnBlock": {
-      "_raw": "-15~-8",
-      "lower": "-15",
-      "properties": [],
-      "upper": "-8"
-    },
-    "framesOnHit": {
-      "_raw": "+35d (-24)",
-      "lower": "+35",
-      "properties": [
-        "d"
-      ],
-      "tech": "-24"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~22",
-      "lower": "i15",
-      "properties": [],
-      "upper": "22"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~22",
+    "hitLevels": "M",
+    "damage": 30,
+    "onBlock": "-15~-8",
+    "onHit": "+35d (-24)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 92
   },
   {
+    "id": "Devil Jin-FLY.4",
+    "parent": null,
+    "name": null,
     "input": "FLY.4",
-    "hitLevels": [
-      "M"
-    ],
-    "damage": [
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-29",
-      "lower": "-29",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-20s",
-      "lower": "-20",
-      "properties": [
-        "s"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20~21",
-      "lower": "i20",
-      "properties": [],
-      "upper": "21"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20~21",
+    "hitLevels": "M",
+    "damage": 10,
+    "onBlock": -29,
+    "onHit": "-20s",
+    "onCounterHit": null,
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* js1~50\n* fs51~53&lt;/div&gt;",
+    "index": null
   },
   {
+    "id": "Devil Jin-FLY.4,1",
+    "parent": "Devil Jin-FLY.4",
     "name": "Forsaken Soul",
     "input": "FLY.4,1",
-    "hitLevels": [
-      "M",
-      "h"
-    ],
-    "damage": [
-      10,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "1",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+71a (+51)",
-      "lower": "+71",
-      "properties": [
-        "a"
-      ],
-      "tech": "+51"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20~21",
-      "lower": "i20",
-      "properties": [],
-      "upper": "21"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20~21",
+    "hitLevels": "M,h",
+    "damage": "10,20",
+    "onBlock": 1,
+    "onHit": "+71a (+51)",
+    "onCounterHit": null,
+    "states": "js1~",
+    "index": null
   },
   {
+    "id": "Devil Jin-FLY.4,2",
+    "parent": "Devil Jin-FLY.4",
+    "name": null,
     "input": "FLY.4,2",
-    "hitLevels": [
-      "M",
-      "m"
-    ],
-    "damage": [
-      10,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-27",
-      "lower": "-27",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+52a (+7)",
-      "lower": "+52",
-      "properties": [
-        "a"
-      ],
-      "tech": "+7"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20~21",
-      "lower": "i20",
-      "properties": [],
-      "upper": "21"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20~21",
+    "hitLevels": "M,m",
+    "damage": "10,20",
+    "onBlock": -27,
+    "onHit": "+52a (+7)",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Devil Jin-FLY.4,2,1",
+    "parent": "Devil Jin-FLY.4,2",
+    "name": null,
     "input": "FLY.4,2,1",
-    "hitLevels": [
-      "M",
-      "m",
-      "m"
-    ],
-    "damage": [
-      10,
-      20,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-16",
-      "lower": "-16",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+29a(+19a)",
-      "lower": "+29",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20~21",
-      "lower": "i20",
-      "properties": [],
-      "upper": "21"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20~21",
+    "hitLevels": "M,m,m",
+    "damage": "10,20,20",
+    "onBlock": -16,
+    "onHit": "+29a(+19a)",
+    "onCounterHit": null,
+    "states": "js22~",
+    "index": null
   },
   {
+    "id": "Devil Jin-FLY.4,2,1+2",
+    "parent": "Devil Jin-FLY.4,2",
     "name": "Devil Starstorm",
     "input": "FLY.4,2,1+2",
-    "hitLevels": [
-      "M",
-      "m",
-      "m!",
-      "M!"
-    ],
-    "damage": [
-      10,
-      20,
-      14,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-6a",
-      "lower": "-6",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20~21",
-      "lower": "i20",
-      "properties": [],
-      "upper": "21"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20~21",
+    "hitLevels": "M,m,m!,M!",
+    "damage": "10,20,14, 20",
+    "onBlock": null,
+    "onHit": "-6a",
+    "onCounterHit": null,
+    "states": "js1~",
+    "index": null
   },
   {
+    "id": "Devil Jin-FLY.4,2,1,UF",
+    "parent": "Devil Jin-FLY.4,2,1",
     "name": "Cursed Starstorm",
     "input": "FLY.4,2,1,UF",
-    "hitLevels": [
-      "M",
-      "m",
-      "m",
-      "t"
-    ],
-    "damage": [
-      10,
-      20,
-      20,
-      1410
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-4d",
-      "lower": "-4",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20~21",
-      "lower": "i20",
-      "properties": [],
-      "upper": "21"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20~21",
+    "hitLevels": "M,m,m,t",
+    "damage": "10,20,20,14 (10)",
+    "onBlock": null,
+    "onHit": "-4d",
+    "onCounterHit": null,
+    "states": "js1~",
+    "index": null
   },
   {
-    "index": 95,
+    "id": "Devil Jin-FLY.f+1+2",
+    "parent": null,
     "name": "Cross Infernal Destruction",
     "input": "FLY.f+1+2",
-    "hitLevels": [
-      "M!"
-    ],
-    "damage": [
-      30
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-39a (-97)",
-      "lower": "-39",
-      "properties": [
-        "a"
-      ],
-      "tech": "-97"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i32~75",
-      "lower": "i32",
-      "properties": [],
-      "upper": "75"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i32~75",
+    "hitLevels": "M!",
+    "damage": 30,
+    "onBlock": null,
+    "onHit": "-39a (-97)",
+    "onCounterHit": null,
+    "states": ",js1~",
+    "index": 95
   },
   {
-    "index": 79,
+    "id": "Devil Jin-f,n,d,df",
+    "parent": null,
     "name": "Wind God Step",
     "input": "f,n,d,df",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": 79
   },
   {
-    "index": 83,
+    "id": "Devil Jin-f,n,d,df${justFrame}2",
+    "parent": null,
     "name": "Electric Wind God Fist",
     "input": "f,n,d,df#2",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "5",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+39a (+29)",
-      "lower": "+39",
-      "properties": [
-        "a"
-      ],
-      "tech": "+29"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i11~12 (i14~)",
-      "lower": "i11",
-      "properties": [],
-      "upper": "12"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i11~12 (i14~)",
+    "hitLevels": "h",
+    "damage": 23,
+    "onBlock": 5,
+    "onHit": "+39a (+29)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 83
   },
   {
-    "index": 80,
+    "id": "Devil Jin-f,n,d,df+1",
+    "parent": null,
     "name": "Thunder God Fist",
     "input": "f,n,d,df+1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      30
-    ],
-    "framesOnBlock": {
-      "_raw": "-16",
-      "lower": "-16",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+29a (+19)",
-      "lower": "+29",
-      "properties": [
-        "a"
-      ],
-      "tech": "+19"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i22~24",
-      "lower": "i22",
-      "properties": [],
-      "upper": "24"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i22~24",
+    "hitLevels": "m",
+    "damage": 30,
+    "onBlock": -16,
+    "onHit": "+29a (+19)",
+    "onCounterHit": null,
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* js22~43\n* fs44~46&lt;/div&gt;",
+    "index": 80
   },
   {
-    "index": 88,
+    "id": "Devil Jin-f,n,d,df+1+2",
+    "parent": null,
     "name": "Spiral of Madness",
     "input": "f,n,d,df+1+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-5",
-      "lower": "-5",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+32d (+24d)",
-      "lower": "+32",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i26~27",
-      "lower": "i26",
-      "properties": [],
-      "upper": "27"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i26~27",
+    "hitLevels": "m",
+    "damage": 25,
+    "onBlock": -5,
+    "onHit": "+32d (+24d)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 88
   },
   {
+    "id": "Devil Jin-f,n,d,df+1+2,1+2",
+    "parent": "Devil Jin-f,n,d,df+1+2",
     "name": "Spiral of Madness &gt; Annihilation Beam",
     "input": "f,n,d,df+1+2,H.1+2",
-    "hitLevels": [
-      "m",
-      "SM"
-    ],
-    "damage": [
-      25,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "2",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "[[Devil Jin combos#Heat|+60a(+44)]]",
-      "lower": "+60",
-      "properties": [
-        "a"
-      ],
-      "tech": "+44"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i26~27",
-      "lower": "i26",
-      "properties": [],
-      "upper": "27"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i26~27",
+    "hitLevels": "m,SM",
+    "damage": "25,20",
+    "onBlock": 2,
+    "onHit": "[[Devil Jin combos#Heat|+60a(+44)]]",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 81,
+    "id": "Devil Jin-f,n,d,df+1,UF",
+    "parent": "Devil Jin-f,n,d,df+1",
     "name": "Heaven&#039;s Door",
     "input": "f,n,d,df+1,UF",
-    "hitLevels": [
-      "m",
-      "t"
-    ],
-    "damage": [
-      30,
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-4d",
-      "lower": "-4",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i22~24",
-      "lower": "i22",
-      "properties": [],
-      "upper": "24"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i22~24",
+    "hitLevels": "m,t",
+    "damage": "30,10",
+    "onBlock": null,
+    "onHit": "-4d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 81
   },
   {
-    "index": 82,
+    "id": "Devil Jin-f,n,d,df+2",
+    "parent": null,
     "name": "Wind God Fist",
     "input": "f,n,d,df+2",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-10",
-      "lower": "-10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+39a (+29)",
-      "lower": "+39",
-      "properties": [
-        "a"
-      ],
-      "tech": "+29"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i11~12 (i15~)",
-      "lower": "i11",
-      "properties": [],
-      "upper": "12"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i11~12 (i15~)",
+    "hitLevels": "h",
+    "damage": 20,
+    "onBlock": -10,
+    "onHit": "+39a (+29)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 82
   },
   {
-    "index": 84,
+    "id": "Devil Jin-f,n,d,df+3",
+    "parent": null,
     "name": "Demon&#039;s Hoof",
     "input": "f,n,d,df+3",
-    "hitLevels": [
-      "M"
-    ],
-    "damage": [
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-8c",
-      "lower": "-8",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnHit": {
-      "_raw": "+16a",
-      "lower": "+16",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i26~28",
-      "lower": "i26",
-      "properties": [],
-      "upper": "28"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i26~28",
+    "hitLevels": "M",
+    "damage": 25,
+    "onBlock": "-8c",
+    "onHit": "+16a",
+    "onCounterHit": null,
+    "states": "js5~28",
+    "index": 84
   },
   {
-    "index": 85,
+    "id": "Devil Jin-f,n,d,DF+3",
+    "parent": null,
     "name": "Demon&#039;s Tail",
     "input": "f,n,d,DF+3",
-    "hitLevels": [
-      "L"
-    ],
-    "damage": [
-      24
-    ],
-    "framesOnBlock": {
-      "_raw": "-23",
-      "lower": "-23",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-2a",
-      "lower": "-2",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i33~34",
-      "lower": "i33",
-      "properties": [],
-      "upper": "34"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i33~34",
+    "hitLevels": "L",
+    "damage": 24,
+    "onBlock": -23,
+    "onHit": "-2a",
+    "onCounterHit": null,
+    "states": "js5~28",
+    "index": 85
   },
   {
+    "id": "Devil Jin-f,n,d,DF+4",
+    "parent": null,
+    "name": null,
     "input": "f,n,d,DF+4",
-    "hitLevels": [
-      "L"
-    ],
-    "damage": [
-      7
-    ],
-    "framesOnBlock": {
-      "_raw": "-23c",
-      "lower": "-23",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnHit": {
-      "_raw": "-5c",
-      "lower": "-5",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "L",
+    "damage": 7,
+    "onBlock": "-23c",
+    "onHit": "-5c",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 87,
+    "id": "Devil Jin-f,n,d,DF+4,1+2",
+    "parent": "Devil Jin-f,n,d,DF+4",
     "name": "Spinning Demon Hellfire Beam",
     "input": "f,n,d,DF+4,1+2",
-    "hitLevels": [
-      "L",
-      "SM"
-    ],
-    "damage": [
-      7,
-      9
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+58a (+42)",
-      "lower": "+58",
-      "properties": [
-        "a"
-      ],
-      "tech": "+42"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "L,SM",
+    "damage": "7,9",
+    "onBlock": null,
+    "onHit": "+58a (+42)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 87
   },
   {
-    "index": 86,
+    "id": "Devil Jin-f,n,d,DF+4,4",
+    "parent": "Devil Jin-f,n,d,DF+4",
     "name": "Spinning Demon Scythe",
     "input": "f,n,d,DF+4,4",
-    "hitLevels": [
-      "L",
-      "m"
-    ],
-    "damage": [
-      7,
-      28
-    ],
-    "framesOnBlock": {
-      "_raw": "-16",
-      "lower": "-16",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+7c",
-      "lower": "+7",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "+14a",
-      "lower": "+14",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "L,m",
+    "damage": "7,28",
+    "onBlock": -16,
+    "onHit": "+7c",
+    "onCounterHit": "+14a",
+    "states": null,
+    "index": 86
   },
   {
+    "id": "Devil Jin-f,n,d,DF+4,H.3",
+    "parent": "Devil Jin-f,n,d,DF+4",
     "name": "Spinning Demon Leviathan",
     "input": "f,n,d,DF+4,H.3",
-    "hitLevels": [
-      "L",
-      "SM"
-    ],
-    "damage": [
-      7,
-      2618
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+72a (+56a)",
-      "lower": "+72",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "L,SM",
+    "damage": "7,26 (18)",
+    "onBlock": null,
+    "onHit": "+72a (+56a)",
+    "onCounterHit": null,
+    "states": "js15~30?",
+    "index": null
   },
   {
+    "id": "Devil Jin-f,n,d,df,UF",
+    "parent": "Devil Jin-f,n,d,df",
     "name": "Demon Hop",
     "input": "f,n,d,df,UF",
-    "hitLevels": [
-      "nullnull"
-    ],
-    "damage": [
-      null
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": "nullnull",
+    "damage": "nullnull",
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* js1~20\n* fs21~23&lt;/div&gt;",
+    "index": null
   },
   {
-    "index": 78,
+    "id": "Devil Jin-FUFT.u+3+4",
+    "parent": null,
     "name": "Yomigaeri",
     "input": "FUFT.u+3+4",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": 78
   },
   {
+    "id": "Devil Jin-H.2+3",
+    "parent": null,
     "name": "Vindictive Helix",
     "input": "H.2+3",
-    "hitLevels": [
-      "m",
-      "h",
-      "t"
-    ],
-    "damage": [
-      20,
-      22,
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "11",
-      "lower": "11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+5d",
-      "lower": "+5",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18",
-      "lower": "i18",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18",
+    "hitLevels": "m,h,t",
+    "damage": "20,22,10",
+    "onBlock": 11,
+    "onHit": "+5d",
+    "onCounterHit": null,
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* js15~52\n* fs53~55&lt;/div&gt;",
+    "index": null
   },
   {
+    "id": "Devil Jin-H.MCR.1+2",
+    "parent": null,
     "name": "Inner Purgatory",
     "input": "H.MCR.1+2",
-    "hitLevels": [
-      "h!",
-      "t"
-    ],
-    "damage": [
-      12,
-      27
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20",
-      "lower": "i20",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20",
+    "hitLevels": "h!,t",
+    "damage": "12,27",
+    "onBlock": null,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": "js1~12",
+    "index": null
   },
   {
-    "index": 103,
+    "id": "Devil Jin-Left Throw",
+    "parent": null,
     "name": "Shoulder Flip",
-    "input": "LeftThrow",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      43
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+1d",
-      "lower": "+1",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": "Left Throw",
+    "startup": null,
+    "hitLevels": "t",
+    "damage": 43,
+    "onBlock": -3,
+    "onHit": "+1d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 103
   },
   {
-    "index": 97,
+    "id": "Devil Jin-MCR.1",
+    "parent": null,
     "name": "Tiger Thrush",
     "input": "MCR.1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "8",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "[[Devil Jin combos#Mini-combos|+20d]]",
-      "lower": "+20",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i22",
-      "lower": "i22",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i22",
+    "hitLevels": "m",
+    "damage": 20,
+    "onBlock": 8,
+    "onHit": "[[Devil Jin combos#Mini-combos|+20d]]",
+    "onCounterHit": null,
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* js1~38\n* fs39~41&lt;/div&gt;",
+    "index": 97
   },
   {
+    "id": "Devil Jin-MCR.1+2",
+    "parent": null,
     "name": "Inner Turmoil",
     "input": "MCR.1+2",
-    "hitLevels": [
-      "h!"
-    ],
-    "damage": [
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "5",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20",
-      "lower": "i20",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20",
+    "hitLevels": "h!",
+    "damage": 12,
+    "onBlock": null,
+    "onHit": 5,
+    "onCounterHit": null,
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* js1~12\n* fs13~15&lt;/div&gt;",
+    "index": null
   },
   {
+    "id": "Devil Jin-MCR.2",
+    "parent": null,
+    "name": null,
     "input": "MCR.2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-1",
-      "lower": "-1",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "m",
+    "damage": 12,
+    "onBlock": -9,
+    "onHit": -1,
+    "onCounterHit": null,
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* js1~37\n* fs38~40&lt;/div&gt;",
+    "index": null
   },
   {
-    "index": 98,
+    "id": "Devil Jin-MCR.2,2",
+    "parent": "Devil Jin-MCR.2",
     "name": "Dark Arachnid Twister",
     "input": "MCR.2,2",
-    "hitLevels": [
-      "m",
-      "M"
-    ],
-    "damage": [
-      12,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-14c",
-      "lower": "-14",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnHit": {
-      "_raw": "+2a",
-      "lower": "+2",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "m,M",
+    "damage": "12,20",
+    "onBlock": "-14c",
+    "onHit": "+2a",
+    "onCounterHit": null,
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* ,js1~17\n* ,fs18~20&lt;/div&gt;",
+    "index": 98
   },
   {
-    "index": 99,
+    "id": "Devil Jin-MCR.3",
+    "parent": null,
     "name": "Venomous Torment",
     "input": "MCR.3",
-    "hitLevels": [
-      "SM"
-    ],
-    "damage": [
-      26
-    ],
-    "framesOnBlock": {
-      "_raw": "-7",
-      "lower": "-7",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+70a (+54)",
-      "lower": "+70",
-      "properties": [
-        "a"
-      ],
-      "tech": "+54"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i23",
-      "lower": "i23",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i23",
+    "hitLevels": "SM",
+    "damage": 26,
+    "onBlock": -7,
+    "onHit": "+70a (+54)",
+    "onCounterHit": null,
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* js1~19\n* fs20~22&lt;/div&gt;",
+    "index": 99
   },
   {
+    "id": "Devil Jin-MCR.4",
+    "parent": null,
+    "name": null,
     "input": "MCR.4",
-    "hitLevels": [
-      "M"
-    ],
-    "damage": [
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-29",
-      "lower": "-29",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-20s",
-      "lower": "-20",
-      "properties": [
-        "s"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20~21",
-      "lower": "i20",
-      "properties": [],
-      "upper": "21"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20~21",
+    "hitLevels": "M",
+    "damage": 10,
+    "onBlock": -29,
+    "onHit": "-20s",
+    "onCounterHit": null,
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* js1~50\n* fs51~53&lt;/div&gt;",
+    "index": null
   },
   {
+    "id": "Devil Jin-MCR.4,1",
+    "parent": "Devil Jin-MCR.4",
     "name": "Forsaken Soul",
     "input": "MCR.4,1",
-    "hitLevels": [
-      "M",
-      "h"
-    ],
-    "damage": [
-      10,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "1",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+71a (+51)",
-      "lower": "+71",
-      "properties": [
-        "a"
-      ],
-      "tech": "+51"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20~21",
-      "lower": "i20",
-      "properties": [],
-      "upper": "21"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20~21",
+    "hitLevels": "M,h",
+    "damage": "10,20",
+    "onBlock": 1,
+    "onHit": "+71a (+51)",
+    "onCounterHit": null,
+    "states": "js1~",
+    "index": null
   },
   {
+    "id": "Devil Jin-MCR.4,2",
+    "parent": "Devil Jin-MCR.4",
+    "name": null,
     "input": "MCR.4,2",
-    "hitLevels": [
-      "M",
-      "m"
-    ],
-    "damage": [
-      10,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-27",
-      "lower": "-27",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+52a (+7)",
-      "lower": "+52",
-      "properties": [
-        "a"
-      ],
-      "tech": "+7"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20~21",
-      "lower": "i20",
-      "properties": [],
-      "upper": "21"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20~21",
+    "hitLevels": "M,m",
+    "damage": "10,20",
+    "onBlock": -27,
+    "onHit": "+52a (+7)",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Devil Jin-MCR.4,2,1",
+    "parent": "Devil Jin-MCR.4,2",
+    "name": null,
     "input": "MCR.4,2,1",
-    "hitLevels": [
-      "M",
-      "m",
-      "m"
-    ],
-    "damage": [
-      10,
-      20,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-16",
-      "lower": "-16",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+29a(+19a)",
-      "lower": "+29",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20~21",
-      "lower": "i20",
-      "properties": [],
-      "upper": "21"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20~21",
+    "hitLevels": "M,m,m",
+    "damage": "10,20,20",
+    "onBlock": -16,
+    "onHit": "+29a(+19a)",
+    "onCounterHit": null,
+    "states": "js22~",
+    "index": null
   },
   {
+    "id": "Devil Jin-MCR.4,2,1+2",
+    "parent": "Devil Jin-MCR.4,2",
     "name": "Devil Starstorm",
     "input": "MCR.4,2,1+2",
-    "hitLevels": [
-      "M",
-      "m",
-      "m!",
-      "M!"
-    ],
-    "damage": [
-      10,
-      20,
-      14,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-6a",
-      "lower": "-6",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20~21",
-      "lower": "i20",
-      "properties": [],
-      "upper": "21"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20~21",
+    "hitLevels": "M,m,m!,M!",
+    "damage": "10,20,14, 20",
+    "onBlock": null,
+    "onHit": "-6a",
+    "onCounterHit": null,
+    "states": "js1~",
+    "index": null
   },
   {
+    "id": "Devil Jin-MCR.4,2,1,UF",
+    "parent": "Devil Jin-MCR.4,2,1",
     "name": "Cursed Starstorm",
     "input": "MCR.4,2,1,UF",
-    "hitLevels": [
-      "M",
-      "m",
-      "m",
-      "t"
-    ],
-    "damage": [
-      10,
-      20,
-      20,
-      1410
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-4d",
-      "lower": "-4",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20~21",
-      "lower": "i20",
-      "properties": [],
-      "upper": "21"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20~21",
+    "hitLevels": "M,m,m,t",
+    "damage": "10,20,20,14 (10)",
+    "onBlock": null,
+    "onHit": "-4d",
+    "onCounterHit": null,
+    "states": "js1~",
+    "index": null
   },
   {
+    "id": "Devil Jin-OTG.d+1+2",
+    "parent": null,
     "name": "Hellfire Incinerator",
     "input": "OTG.d+1+2",
-    "hitLevels": [
-      "L"
-    ],
-    "damage": [
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-16~-8",
-      "lower": "-16",
-      "properties": [],
-      "upper": "-8"
-    },
-    "framesOnHit": {
-      "_raw": "+5a~+13a",
-      "lower": "+5",
-      "properties": [
-        "a",
-        "a"
-      ],
-      "upper": "+13"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i23~31",
-      "lower": "i23",
-      "properties": [],
-      "upper": "31"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i23~31",
+    "hitLevels": "L",
+    "damage": 25,
+    "onBlock": "-16~-8",
+    "onHit": "+5a~+13a",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 108,
+    "id": "Devil Jin-qcb+1+3",
+    "parent": null,
     "name": "Complicated Wire",
     "input": "qcb+1+3",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      40
-    ],
-    "framesOnBlock": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "t",
+    "damage": 40,
+    "onBlock": -2,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 108
   },
   {
+    "id": "Devil Jin-R.df+1+2",
+    "parent": null,
     "name": "Devil Dimension: Tainted Chains",
     "input": "R.df+1+2",
-    "hitLevels": [
-      "m",
-      "t"
-    ],
-    "damage": [
-      1015,
-      35,
-      4260
-    ],
-    "framesOnBlock": {
-      "_raw": "-15",
-      "lower": "-15",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20",
-      "lower": "i20",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20",
+    "hitLevels": "m,t",
+    "damage": "10-15,3-5,42-60",
+    "onBlock": -15,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": "pc8~",
+    "index": null
   },
   {
-    "index": 104,
+    "id": "Devil Jin-Right Throw",
+    "parent": null,
     "name": "Over the Limit",
-    "input": "RightThrow",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      40
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": "Right Throw",
+    "startup": null,
+    "hitLevels": "t",
+    "damage": 40,
+    "onBlock": -3,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 104
   },
   {
-    "index": 76,
+    "id": "Devil Jin-SS.2",
+    "parent": null,
     "name": "Devil Twister",
     "input": "SS.2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-22",
-      "lower": "-22",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "[[Devil Jin combos#Staples|+72a]]",
-      "lower": "+72",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17~18",
-      "lower": "i17",
-      "properties": [],
-      "upper": "18"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17~18",
+    "hitLevels": "m",
+    "damage": 25,
+    "onBlock": -22,
+    "onHit": "[[Devil Jin combos#Staples|+72a]]",
+    "onCounterHit": null,
+    "states": null,
+    "index": 76
   },
   {
-    "index": 77,
+    "id": "Devil Jin-SS.2,U",
+    "parent": null,
     "name": "Hell&#039;s Gate",
     "input": "SS.2,U",
-    "hitLevels": [
-      "",
-      "m!",
-      "M!"
-    ],
-    "damage": [
-      37,
-      27
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-5a",
-      "lower": "-5",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i37~38 i22~60",
-      "lower": "i37",
-      "properties": [],
-      "upper": "38"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i37~38 i22~60",
+    "hitLevels": ",m!,M!",
+    "damage": "37,27",
+    "onBlock": null,
+    "onHit": "-5a",
+    "onCounterHit": null,
+    "states": null,
+    "index": 77
   },
   {
-    "index": 55,
+    "id": "Devil Jin-u+1+2",
+    "parent": null,
     "name": "Hellfire Cannon",
     "input": "u+1+2",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      27
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18-35",
-      "lower": "i18",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18-35",
+    "hitLevels": "h",
+    "damage": 27,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": 55
   },
   {
-    "index": 54,
+    "id": "Devil Jin-u+4",
+    "parent": null,
     "name": "Samsara",
     "input": "u+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      22
-    ],
-    "framesOnBlock": {
-      "_raw": "-25",
-      "lower": "-25",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+15a (+5)",
-      "lower": "+15",
-      "properties": [
-        "a"
-      ],
-      "tech": "+5"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20~21",
-      "lower": "i20",
-      "properties": [],
-      "upper": "21"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20~21",
+    "hitLevels": "m",
+    "damage": 22,
+    "onBlock": -25,
+    "onHit": "+15a (+5)",
+    "onCounterHit": null,
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* js9~44\n* fs45~47&lt;/div&gt;",
+    "index": 54
   },
   {
-    "index": 56,
+    "id": "Devil Jin-uf+1",
+    "parent": null,
     "name": "Infernal Shackle",
     "input": "uf+1",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "+11~+13",
-      "lower": "+11",
-      "properties": [],
-      "upper": "+13"
-    },
-    "framesOnHit": {
-      "_raw": "+16~+18",
-      "lower": "+16",
-      "properties": [],
-      "upper": "+18"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i21~23",
-      "lower": "i21",
-      "properties": [],
-      "upper": "23"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i21~23",
+    "hitLevels": "h",
+    "damage": 10,
+    "onBlock": "+11~+13",
+    "onHit": "+16~+18",
+    "onCounterHit": null,
+    "states": null,
+    "index": 56
   },
   {
-    "index": 107,
+    "id": "Devil Jin-uf+1+2",
+    "parent": null,
     "name": "Stonehead",
     "input": "uf+1+2",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      35
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+25d (+7)",
-      "lower": "+25",
-      "properties": [
-        "d"
-      ],
-      "tech": "+7"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "t",
+    "damage": 35,
+    "onBlock": 0,
+    "onHit": "+25d (+7)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 107
   },
   {
-    "index": 57,
+    "id": "Devil Jin-uf+2",
+    "parent": null,
     "name": "Decapitating Sword",
     "input": "uf+2",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-4",
-      "lower": "-4",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "[[Devil Jin combos#Minicombos|+25a]]",
-      "lower": "+25",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20~23",
-      "lower": "i20",
-      "properties": [],
-      "upper": "23"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20~23",
+    "hitLevels": "h",
+    "damage": 25,
+    "onBlock": -4,
+    "onHit": "[[Devil Jin combos#Minicombos|+25a]]",
+    "onCounterHit": null,
+    "states": null,
+    "index": 57
   },
   {
-    "index": 58,
+    "id": "Devil Jin-uf+3",
+    "parent": null,
     "name": "Reaper&#039;s Scythe",
     "input": "uf+3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "+3c",
-      "lower": "+3",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnHit": {
-      "_raw": "+7c",
-      "lower": "+7",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "[[Devil Jin combos#Staples|+19a]]",
-      "lower": "+19",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i28~29",
-      "lower": "i28",
-      "properties": [],
-      "upper": "29"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i28~29",
+    "hitLevels": "m",
+    "damage": 21,
+    "onBlock": "+3c",
+    "onHit": "+7c",
+    "onCounterHit": "[[Devil Jin combos#Staples|+19a]]",
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* js9~29\n* fs30~32&lt;/div&gt;",
+    "index": 58
   },
   {
+    "id": "Devil Jin-uf+3+4",
+    "parent": null,
     "name": "Hisou",
     "input": "uf+3+4",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      8,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-16",
-      "lower": "-16",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+33a (-25)",
-      "lower": "+33",
-      "properties": [
-        "a"
-      ],
-      "tech": "-25"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16~17 i13~14",
-      "lower": "i16",
-      "properties": [],
-      "upper": "17"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16~17 i13~14",
+    "hitLevels": "m,m",
+    "damage": "8,20",
+    "onBlock": -16,
+    "onHit": "+33a (-25)",
+    "onCounterHit": null,
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* js10~47\n* fs48~50&lt;/div&gt;",
+    "index": null
   },
   {
+    "id": "Devil Jin-uf+3+4,1+2",
+    "parent": "Devil Jin-uf+3+4",
     "name": "Hisou &gt; Annihilation Beam",
     "input": "uf+3+4,H.1+2",
-    "hitLevels": [
-      "m",
-      "m",
-      "t"
-    ],
-    "damage": [
-      8,
-      20,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-15",
-      "lower": "-15",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16~17 i13~14",
-      "lower": "i16",
-      "properties": [],
-      "upper": "17"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16~17 i13~14",
+    "hitLevels": "m,m,t",
+    "damage": "8,20,20",
+    "onBlock": -15,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": "js",
+    "index": null
   },
   {
-    "index": 59,
+    "id": "Devil Jin-uf+4",
+    "parent": null,
     "name": "Wraith Kick",
     "input": "uf+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-8",
-      "lower": "-8",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "11",
-      "lower": "11",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18",
-      "lower": "i18",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18",
+    "hitLevels": "m",
+    "damage": 21,
+    "onBlock": -8,
+    "onHit": 11,
+    "onCounterHit": null,
+    "states": "js8~18",
+    "index": 59
   },
   {
+    "id": "Devil Jin-ws1",
+    "parent": null,
     "name": "Solo Piston",
     "input": "ws1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "5",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "9",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13~14",
-      "lower": "i13",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13~14",
+    "hitLevels": "m",
+    "damage": 12,
+    "onBlock": -6,
+    "onHit": 5,
+    "onCounterHit": 9,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Devil Jin-ws1,1",
+    "parent": "Devil Jin-ws1",
     "name": "Infernal Shackle",
     "input": "ws1,1",
-    "hitLevels": [
-      "m",
-      "h"
-    ],
-    "damage": [
-      12,
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "11",
-      "lower": "11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "16",
-      "lower": "16",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13~14",
-      "lower": "i13",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13~14",
+    "hitLevels": "m,h",
+    "damage": "12,10",
+    "onBlock": 11,
+    "onHit": 16,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Devil Jin-ws1,2",
+    "parent": "Devil Jin-ws1",
     "name": "Bloody Glaive",
     "input": "ws1,2",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      12,
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "-11",
-      "lower": "-11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "6",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "10",
-      "lower": "10",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13~14",
-      "lower": "i13",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13~14",
+    "hitLevels": "m,m",
+    "damage": "12,15",
+    "onBlock": -11,
+    "onHit": 6,
+    "onCounterHit": 10,
+    "states": null,
+    "index": null
   },
   {
-    "index": 73,
+    "id": "Devil Jin-ws2",
+    "parent": null,
     "name": "Alaya",
     "input": "ws2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+72a (+56)",
-      "lower": "+72",
-      "properties": [
-        "a"
-      ],
-      "tech": "+56"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "m",
+    "damage": 20,
+    "onBlock": -12,
+    "onHit": "+72a (+56)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 73
   },
   {
-    "index": 74,
+    "id": "Devil Jin-ws3",
+    "parent": null,
     "name": "Organ Wrecker",
     "input": "ws3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      16
-    ],
-    "framesOnBlock": {
-      "_raw": "-11",
-      "lower": "-11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "9",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "[[Devil Jin combos#Staples|+14]]",
-      "lower": "+14",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14",
-      "lower": "i14",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14",
+    "hitLevels": "m",
+    "damage": 16,
+    "onBlock": -11,
+    "onHit": 9,
+    "onCounterHit": "[[Devil Jin combos#Staples|+14]]",
+    "states": null,
+    "index": 74
   },
   {
+    "id": "Devil Jin-ws4",
+    "parent": null,
+    "name": null,
     "input": "ws4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "8",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i11~12",
-      "lower": "i11",
-      "properties": [],
-      "upper": "12"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i11~12",
+    "hitLevels": "m",
+    "damage": 10,
+    "onBlock": -3,
+    "onHit": 8,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 75,
+    "id": "Devil Jin-ws4,4",
+    "parent": "Devil Jin-ws4",
     "name": "Wretched Heel",
     "input": "ws4,4",
-    "hitLevels": [
-      "m",
-      "M"
-    ],
-    "damage": [
-      10,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-16",
-      "lower": "-16",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+7c",
-      "lower": "+7",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i11~12",
-      "lower": "i11",
-      "properties": [],
-      "upper": "12"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i11~12",
+    "hitLevels": "m,M",
+    "damage": "10,20",
+    "onBlock": -16,
+    "onHit": "+7c",
+    "onCounterHit": null,
+    "states": null,
+    "index": 75
   }
 ]

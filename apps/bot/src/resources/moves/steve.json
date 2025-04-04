@@ -1,6246 +1,2270 @@
 [
   {
+    "id": "Steve-1",
+    "parent": null,
     "name": "Jab",
-    "input": "1",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      5
-    ],
-    "framesOnBlock": {
-      "_raw": "1",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "8",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": 1,
+    "startup": "i10",
+    "hitLevels": "h",
+    "damage": 5,
+    "onBlock": 1,
+    "onHit": 8,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 21,
+    "id": "Steve-1,1",
+    "parent": "Steve-1",
     "name": "Double Jab",
     "input": "1,1",
-    "hitLevels": [
-      "h",
-      "h"
-    ],
-    "damage": [
-      5,
-      7
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "3",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,h",
+    "damage": "5,7",
+    "onBlock": -3,
+    "onHit": 3,
+    "onCounterHit": null,
+    "states": null,
+    "index": 21
   },
   {
-    "index": 23,
+    "id": "Steve-1,1,2",
+    "parent": "Steve-1,1",
     "name": "Lightning Combo",
     "input": "1,1,2",
-    "hitLevels": [
-      "h",
-      "h",
-      "h"
-    ],
-    "damage": [
-      5,
-      7,
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "-7",
-      "lower": "-7",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "4",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,h,h",
+    "damage": "5,7,15",
+    "onBlock": -7,
+    "onHit": 4,
+    "onCounterHit": null,
+    "states": null,
+    "index": 23
   },
   {
-    "index": 24,
+    "id": "Steve-1,1,d+1",
+    "parent": "Steve-1,1",
     "name": "Double Jab &gt; Body Blow",
     "input": "1,1,d+1",
-    "hitLevels": [
-      "h",
-      "h",
-      "m"
-    ],
-    "damage": [
-      5,
-      7,
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "5",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,h,m",
+    "damage": "5,7,15",
+    "onBlock": -6,
+    "onHit": 0,
+    "onCounterHit": 5,
+    "states": null,
+    "index": 24
   },
   {
-    "index": 32,
+    "id": "Steve-1+2",
+    "parent": null,
     "name": "Sonic Fang",
     "input": "1+2",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      7,
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+18a (+11)",
-      "lower": "+18",
-      "properties": [
-        "a"
-      ],
-      "tech": "+11"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14, i9-10",
-      "lower": "i14",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14, i9-10",
+    "hitLevels": "m,m",
+    "damage": "7,21",
+    "onBlock": -12,
+    "onHit": "+18a (+11)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 32
   },
   {
-    "index": 25,
+    "id": "Steve-1,2",
+    "parent": "Steve-1",
     "name": "Left Right",
     "input": "1,2",
-    "hitLevels": [
-      "h",
-      "h"
-    ],
-    "damage": [
-      5,
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "8",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,h",
+    "damage": "5,10",
+    "onBlock": -3,
+    "onHit": 8,
+    "onCounterHit": null,
+    "states": null,
+    "index": 25
   },
   {
+    "id": "Steve-1,2,1",
+    "parent": "Steve-1,2",
+    "name": null,
     "input": "1,2,1",
-    "hitLevels": [
-      "h",
-      "h",
-      "h"
-    ],
-    "damage": [
-      5,
-      10,
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "3",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,h,h",
+    "damage": "5,10,15",
+    "onBlock": -3,
+    "onHit": 3,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 26,
+    "id": "Steve-1,2,1,2",
+    "parent": "Steve-1,2,1",
     "name": "British Edge Combo",
     "input": "1,2,1,2",
-    "hitLevels": [
-      "h",
-      "h",
-      "h",
-      "m"
-    ],
-    "damage": [
-      5,
-      10,
-      15,
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "-10",
-      "lower": "-10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+16a (+7)",
-      "lower": "+16",
-      "properties": [
-        "a"
-      ],
-      "tech": "+7"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,h,h,m",
+    "damage": "5,10,15,15",
+    "onBlock": -10,
+    "onHit": "+16a (+7)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 26
   },
   {
-    "index": 27,
+    "id": "Steve-1,2,1,d+2",
+    "parent": "Steve-1,2,1",
     "name": "British Edge Combo 2",
     "input": "1,2,1,d+2",
-    "hitLevels": [
-      "h",
-      "h",
-      "h",
-      "l"
-    ],
-    "damage": [
-      5,
-      10,
-      15,
-      19
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+1c",
-      "lower": "+1",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "+14d",
-      "lower": "+14",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,h,h,l",
+    "damage": "5,10,15,19",
+    "onBlock": -12,
+    "onHit": "+1c",
+    "onCounterHit": "+14d",
+    "states": "cs10~",
+    "index": 27
   },
   {
-    "index": 74,
+    "id": "Steve-1+2+3+4",
+    "parent": null,
     "name": "Ki Charge",
     "input": "1+2+3+4",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": 74
   },
   {
-    "index": 73,
+    "id": "Steve-1+2+4",
+    "parent": null,
     "name": "Taunt",
     "input": "1+2+4",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": 73
   },
   {
-    "index": 135,
+    "id": "Steve-1+3",
+    "parent": null,
     "name": "Gut Wrencher",
     "input": "1+3",
-    "hitLevels": [
-      "throw"
-    ],
-    "damage": [
-      35
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12~14",
-      "lower": "i12",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12~14",
+    "hitLevels": "throw",
+    "damage": 35,
+    "onBlock": -6,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": 135
   },
   {
-    "index": 22,
+    "id": "Steve-1,d+1",
+    "parent": "Steve-1",
     "name": "Jab &gt; Body Blow",
     "input": "1,d+1",
-    "hitLevels": [
-      "h",
-      "m"
-    ],
-    "damage": [
-      5,
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "5",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,m",
+    "damage": "5,15",
+    "onBlock": -6,
+    "onHit": 0,
+    "onCounterHit": 5,
+    "states": null,
+    "index": 22
   },
   {
-    "input": "2",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-1",
-      "lower": "-1",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "5",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "id": "Steve-2",
+    "parent": null,
+    "name": null,
+    "input": 2,
+    "startup": "i12",
+    "hitLevels": "h",
+    "damage": 12,
+    "onBlock": -1,
+    "onHit": 5,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Steve-2,1",
+    "parent": "Steve-2",
+    "name": null,
     "input": "2,1",
-    "hitLevels": [
-      "h",
-      "h"
-    ],
-    "damage": [
-      12,
-      14
-    ],
-    "framesOnBlock": {
-      "_raw": "-5",
-      "lower": "-5",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "6",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "h,h",
+    "damage": "12,14",
+    "onBlock": -5,
+    "onHit": 6,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 28,
+    "id": "Steve-2,1,2",
+    "parent": "Steve-2,1",
     "name": "Vanguard Rush",
     "input": "2,1,2",
-    "hitLevels": [
-      "h",
-      "h",
-      "m"
-    ],
-    "damage": [
-      12,
-      14,
-      22
-    ],
-    "framesOnBlock": {
-      "_raw": "-11",
-      "lower": "-11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+13a (+4)",
-      "lower": "+13",
-      "properties": [
-        "a"
-      ],
-      "tech": "+4"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "h,h,m",
+    "damage": "12,14,22",
+    "onBlock": -11,
+    "onHit": "+13a (+4)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 28
   },
   {
-    "index": 29,
+    "id": "Steve-2,2",
+    "parent": "Steve-2",
     "name": "Cromwell Combination",
     "input": "2,2",
-    "hitLevels": [
-      "h",
-      "m"
-    ],
-    "damage": [
-      12,
-      17
-    ],
-    "framesOnBlock": {
-      "_raw": "-14",
-      "lower": "-14",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "6",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "h,m",
+    "damage": "12,17",
+    "onBlock": -14,
+    "onHit": 6,
+    "onCounterHit": null,
+    "states": null,
+    "index": 29
   },
   {
+    "id": "Steve-2+3",
+    "parent": null,
     "name": "Heat Burst",
     "input": "2+3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      12,
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "1",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+2c",
-      "lower": "+2",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "m",
+    "damage": "[12;12]",
+    "onBlock": 1,
+    "onHit": "+2c",
+    "onCounterHit": null,
+    "states": "pc7~16",
+    "index": null
   },
   {
-    "index": 136,
+    "id": "Steve-2+4",
+    "parent": null,
     "name": "Brain Pulverizer",
     "input": "2+4",
-    "hitLevels": [
-      "throw"
-    ],
-    "damage": [
-      35
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12~14",
-      "lower": "i12",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12~14",
+    "hitLevels": "throw",
+    "damage": 35,
+    "onBlock": -3,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": 136
   },
   {
+    "id": "Steve-3",
+    "parent": null,
     "name": "Ducking Left",
-    "input": "3",
-    "hitLevels": [
-      "sp"
-    ],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": 3,
+    "startup": null,
+    "hitLevels": "sp",
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Steve-3+4",
+    "parent": null,
     "name": "Quick Spin",
     "input": "3+4",
-    "hitLevels": [
-      "sp"
-    ],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": "sp",
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Steve-4",
+    "parent": null,
     "name": "Ducking Right",
-    "input": "4",
-    "hitLevels": [
-      "sp"
-    ],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": 4,
+    "startup": null,
+    "hitLevels": "sp",
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 70,
+    "id": "Steve-after-2steps+1",
+    "parent": null,
     "name": "Sliding Low Punch",
     "input": "after_2steps+1",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+17d",
-      "lower": "+17",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "l",
+    "damage": 23,
+    "onBlock": -12,
+    "onHit": "+17d",
+    "onCounterHit": null,
+    "states": "cs6~",
+    "index": 70
   },
   {
-    "index": 90,
+    "id": "Steve-ALB.2",
+    "parent": null,
     "name": "Cyclone Punch",
     "input": "ALB.2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      22
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+16a (+7)",
-      "lower": "+16",
-      "properties": [
-        "a"
-      ],
-      "tech": "+7"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i23",
-      "lower": "i23",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i23",
+    "hitLevels": "m",
+    "damage": 22,
+    "onBlock": -3,
+    "onHit": "+16a (+7)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 90
   },
   {
-    "index": 93,
+    "id": "Steve-ALB.d",
+    "parent": null,
     "name": "Cyclone Left (Right)",
     "input": "ALB.d",
-    "hitLevels": [
-      "sp"
-    ],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13",
-      "lower": "i13",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13",
+    "hitLevels": "sp",
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": 93
   },
   {
-    "index": 94,
+    "id": "Steve-ALB.d,1",
+    "parent": "Steve-ALB.d",
     "name": "Double Cyclone Punch",
     "input": "ALB.d,1",
-    "hitLevels": [
-      "sp",
-      "m"
-    ],
-    "damage": [
-      34
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+16a (+7)",
-      "lower": "+16",
-      "properties": [
-        "a"
-      ],
-      "tech": "+7"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13",
-      "lower": "i13",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13",
+    "hitLevels": "sp,m",
+    "damage": "null34",
+    "onBlock": -3,
+    "onHit": "+16a (+7)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 94
   },
   {
-    "index": 91,
+    "id": "Steve-ALB.d+2",
+    "parent": null,
     "name": "Cyclone Knee Clip",
     "input": "ALB.d+2",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      17
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+1c",
-      "lower": "+1",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "+14d",
-      "lower": "+14",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i34",
-      "lower": "i34",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i34",
+    "hitLevels": "l",
+    "damage": 17,
+    "onBlock": -12,
+    "onHit": "+1c",
+    "onCounterHit": "+14d",
+    "states": "cs6~",
+    "index": 91
   },
   {
-    "index": 95,
+    "id": "Steve-ALB.d,d+1",
+    "parent": "Steve-ALB.d",
     "name": "Double Cyclone Knee Punch",
     "input": "ALB.d,d+1",
-    "hitLevels": [
-      "sp",
-      "l"
-    ],
-    "damage": [
-      30
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+14d",
-      "lower": "+14",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13",
-      "lower": "i13",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13",
+    "hitLevels": "sp,l",
+    "damage": "null30",
+    "onBlock": -12,
+    "onHit": "+14d",
+    "onCounterHit": null,
+    "states": "cs6~",
+    "index": 95
   },
   {
-    "index": 51,
+    "id": "Steve-b+1",
+    "parent": null,
     "name": "Quick Hook",
     "input": "b+1",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-14",
-      "lower": "-14",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "2",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "[[Steve_combos#Staples|+61a]]",
-      "lower": "+61",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i13",
-      "lower": "i13",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13",
+    "hitLevels": "h",
+    "damage": 10,
+    "onBlock": -14,
+    "onHit": 2,
+    "onCounterHit": "[[Steve_combos#Staples|+61a]]",
+    "states": null,
+    "index": 51
   },
   {
-    "index": 52,
+    "id": "Steve-b+1,2",
+    "parent": "Steve-b+1",
     "name": "Quick Draw",
     "input": "b+1,2",
-    "hitLevels": [
-      "h",
-      "h"
-    ],
-    "damage": [
-      10,
-      17
-    ],
-    "framesOnBlock": {
-      "_raw": "3",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "8",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13",
-      "lower": "i13",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13",
+    "hitLevels": "h,h",
+    "damage": "10,17",
+    "onBlock": 3,
+    "onHit": 8,
+    "onCounterHit": null,
+    "states": null,
+    "index": 52
   },
   {
+    "id": "Steve-b+1,2~1",
+    "parent": "Steve-b+1",
     "name": "Swindler",
     "input": "b+1,2~1",
-    "hitLevels": [
-      "h",
-      "m"
-    ],
-    "damage": [
-      10,
-      17
-    ],
-    "framesOnBlock": {
-      "_raw": "-8",
-      "lower": "-8",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "4",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+63a",
-      "lower": "+63",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i13",
-      "lower": "i13",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13",
+    "hitLevels": "h,m",
+    "damage": "10,17",
+    "onBlock": -8,
+    "onHit": 4,
+    "onCounterHit": "+63a",
+    "states": null,
+    "index": null
   },
   {
-    "index": 143,
+    "id": "Steve-b+1+3_b+2+4",
+    "parent": null,
     "name": "Parry",
     "input": "b+1+3_b+2+4",
-    "hitLevels": [
-      "sp"
-    ],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": "sp",
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": "ps5?",
+    "index": 143
   },
   {
+    "id": "Steve-b+1,d+2",
+    "parent": "Steve-b+1",
+    "name": null,
     "input": "b+1,d+2",
-    "hitLevels": [
-      "h",
-      "l"
-    ],
-    "damage": [
-      10,
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-11",
-      "lower": "-11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13",
-      "lower": "i13",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13",
+    "hitLevels": "h,l",
+    "damage": "10,10",
+    "onBlock": -11,
+    "onHit": 0,
+    "onCounterHit": null,
+    "states": "cs13~",
+    "index": null
   },
   {
-    "index": 54,
+    "id": "Steve-b+1,d+2,1",
+    "parent": "Steve-b+1,d+2",
     "name": "Frigate Combo",
     "input": "b+1,d+2,1",
-    "hitLevels": [
-      "h",
-      "l",
-      "m"
-    ],
-    "damage": [
-      10,
-      10,
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+35a (+20a)",
-      "lower": "+35",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13",
-      "lower": "i13",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13",
+    "hitLevels": "h,l,m",
+    "damage": "10,10,10",
+    "onBlock": -9,
+    "onHit": "+35a (+20a)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 54
   },
   {
-    "index": 55,
+    "id": "Steve-b+2",
+    "parent": null,
     "name": "Body Bomb",
     "input": "b+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "[[Steve_combos#Mini-combos|+14]]",
-      "lower": "+14",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17",
-      "lower": "i17",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17",
+    "hitLevels": "m",
+    "damage": 20,
+    "onBlock": -13,
+    "onHit": "[[Steve_combos#Mini-combos|+14]]",
+    "onCounterHit": null,
+    "states": null,
+    "index": 55
   },
   {
+    "id": "Steve-b+3+4",
+    "parent": null,
     "name": "Flicker Stance",
     "input": "b+3+4",
-    "hitLevels": [
-      "sp"
-    ],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": "sp",
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Steve-b+3_4",
+    "parent": null,
     "name": "Swaying",
     "input": "b+3_4",
-    "hitLevels": [
-      "sp"
-    ],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": "sp",
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": "cs1~25",
+    "index": null
   },
   {
-    "index": 139,
+    "id": "Steve-Back throw",
+    "parent": null,
     "name": "Schoolyard Bully",
-    "input": "Backthrow",
-    "hitLevels": [
-      "throw"
-    ],
-    "damage": [
-      55
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": "Back throw",
+    "startup": "i12",
+    "hitLevels": "throw",
+    "damage": 55,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": 139
   },
   {
-    "index": 46,
+    "id": "Steve-d+1",
+    "parent": null,
     "name": "Knee Blaster",
     "input": "d+1",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "l",
+    "damage": 12,
+    "onBlock": -13,
+    "onHit": -2,
+    "onCounterHit": null,
+    "states": "cs6~",
+    "index": 46
   },
   {
+    "id": "Steve-d+2",
+    "parent": null,
+    "name": null,
     "input": "d+2",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      11
-    ],
-    "framesOnBlock": {
-      "_raw": "-18",
-      "lower": "-18",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-5",
-      "lower": "-5",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17",
-      "lower": "i17",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17",
+    "hitLevels": "l",
+    "damage": 11,
+    "onBlock": -18,
+    "onHit": -5,
+    "onCounterHit": null,
+    "states": "cs6~",
+    "index": null
   },
   {
+    "id": "Steve-d+2,1",
+    "parent": "Steve-d+2",
+    "name": null,
     "input": "d+2,1",
-    "hitLevels": [
-      "l",
-      "m"
-    ],
-    "damage": [
-      11,
-      8
-    ],
-    "framesOnBlock": {
-      "_raw": "-11",
-      "lower": "-11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-5",
-      "lower": "-5",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17",
-      "lower": "i17",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17",
+    "hitLevels": "l,m",
+    "damage": "11,8",
+    "onBlock": -11,
+    "onHit": -5,
+    "onCounterHit": 0,
+    "states": null,
+    "index": null
   },
   {
-    "index": 47,
+    "id": "Steve-d+2,1,2",
+    "parent": "Steve-d+2,1",
     "name": "Wildman Combo",
     "input": "d+2,1,2",
-    "hitLevels": [
-      "l",
-      "m",
-      "h"
-    ],
-    "damage": [
-      11,
-      8,
-      17
-    ],
-    "framesOnBlock": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+27a (+18)",
-      "lower": "+27",
-      "properties": [
-        "a"
-      ],
-      "tech": "+18"
-    },
-    "framesOnCounter": {
-      "_raw": "+56a",
-      "lower": "+56",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i17",
-      "lower": "i17",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17",
+    "hitLevels": "l,m,h",
+    "damage": "11,8,17",
+    "onBlock": -2,
+    "onHit": "+27a (+18)",
+    "onCounterHit": "+56a",
+    "states": null,
+    "index": 47
   },
   {
+    "id": "Steve-db+1",
+    "parent": null,
     "name": "Crouch Jab",
     "input": "db+1",
-    "hitLevels": [
-      "sl"
-    ],
-    "damage": [
-      5
-    ],
-    "framesOnBlock": {
-      "_raw": "-5",
-      "lower": "-5",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "6",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "sl",
+    "damage": 5,
+    "onBlock": -5,
+    "onHit": 6,
+    "onCounterHit": null,
+    "states": "cs4~",
+    "index": null
   },
   {
-    "index": 50,
+    "id": "Steve-db+1+2",
+    "parent": null,
     "name": "Stun Gun",
     "input": "db+1+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "[[Steve_combos#Mini-combos|+14]]",
-      "lower": "+14",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i28",
-      "lower": "i28",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i28",
+    "hitLevels": "m",
+    "damage": 21,
+    "onBlock": -13,
+    "onHit": "[[Steve_combos#Mini-combos|+14]]",
+    "onCounterHit": null,
+    "states": "pc7~",
+    "index": 50
   },
   {
-    "index": 48,
+    "id": "Steve-db+2",
+    "parent": null,
     "name": "Knee Clipper",
     "input": "db+2",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+1c",
-      "lower": "+1",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "+14d",
-      "lower": "+14",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i26",
-      "lower": "i26",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i26",
+    "hitLevels": "l",
+    "damage": 21,
+    "onBlock": -12,
+    "onHit": "+1c",
+    "onCounterHit": "+14d",
+    "states": "cs6~",
+    "index": 48
   },
   {
+    "id": "Steve-db+3",
+    "parent": null,
+    "name": null,
     "input": "db+3",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "l",
+    "damage": 10,
+    "onBlock": -13,
+    "onHit": 0,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 49,
+    "id": "Steve-db+3,2",
+    "parent": "Steve-db+3",
     "name": "Foot Stomp Right Hook",
     "input": "db+3,2",
-    "hitLevels": [
-      "l",
-      "h"
-    ],
-    "damage": [
-      10,
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "8",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "l,h",
+    "damage": "10,10",
+    "onBlock": -6,
+    "onHit": 8,
+    "onCounterHit": null,
+    "states": null,
+    "index": 49
   },
   {
-    "index": 98,
+    "id": "Steve-DCK.1",
+    "parent": null,
     "name": "Fox Hunt",
     "input": "DCK.1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      17
-    ],
-    "framesOnBlock": {
-      "_raw": "-7",
-      "lower": "-7",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+58a (+27)",
-      "lower": "+58",
-      "properties": [
-        "a"
-      ],
-      "tech": "+27"
-    },
-    "framesOnCounter": {
-      "_raw": "+34a (+24)",
-      "lower": "+34",
-      "properties": [
-        "a"
-      ],
-      "tech": "+24"
-    },
-    "framesOnStartup": {
-      "_raw": "i19",
-      "lower": "i19",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i19",
+    "hitLevels": "m",
+    "damage": 17,
+    "onBlock": -7,
+    "onHit": "+58a (+27)",
+    "onCounterHit": "+34a (+24)",
+    "states": null,
+    "index": 98
   },
   {
+    "id": "Steve-DCK.1+2",
+    "parent": null,
+    "name": null,
     "input": "DCK.1+2",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      3,
-      3
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "2",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16, i7",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16, i7",
+    "hitLevels": "m,m",
+    "damage": "3,3",
+    "onBlock": -9,
+    "onHit": 2,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Steve-DCK.1+2,1+2",
+    "parent": "Steve-DCK.1+2",
+    "name": null,
     "input": "DCK.1+2,1+2",
-    "hitLevels": [
-      "m",
-      "m",
-      "m",
-      "m"
-    ],
-    "damage": [
-      3,
-      3,
-      3,
-      3
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "2",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16, i7",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16, i7",
+    "hitLevels": "m,m,m,m",
+    "damage": "3,3,3,3",
+    "onBlock": -9,
+    "onHit": 2,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Steve-DCK.1+2,1+2,1+2",
+    "parent": "Steve-DCK.1+2,1+2",
+    "name": null,
     "input": "DCK.1+2,1+2,1+2",
-    "hitLevels": [
-      "m",
-      "m",
-      "m",
-      "m",
-      "m",
-      "m"
-    ],
-    "damage": [
-      3,
-      3,
-      3,
-      3,
-      2,
-      2
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "2",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16, i7",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16, i7",
+    "hitLevels": "m,m,m,m,m,m",
+    "damage": "3,3,3,3,2,2",
+    "onBlock": -9,
+    "onHit": 2,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 101,
+    "id": "Steve-DCK.1+2,1+2,1+2,1+2",
+    "parent": "Steve-DCK.1+2,1+2,1+2",
     "name": "Gatling Gun",
     "input": "DCK.1+2,1+2,1+2,1+2",
-    "hitLevels": [
-      "m",
-      "m",
-      "m",
-      "m",
-      "m",
-      "m",
-      "m",
-      "m"
-    ],
-    "damage": [
-      3,
-      3,
-      3,
-      3,
-      2,
-      2,
-      2,
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+32a (+22)",
-      "lower": "+32",
-      "properties": [
-        "a"
-      ],
-      "tech": "+22"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16, i7",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16, i7",
+    "hitLevels": "m,m,m,m,m,m,m,m",
+    "damage": "3,3,3,3,2,2,2,12",
+    "onBlock": -12,
+    "onHit": "+32a (+22)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 101
   },
   {
-    "index": 99,
+    "id": "Steve-DCK.2",
+    "parent": null,
     "name": "Skyscraper",
     "input": "DCK.2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "-14",
-      "lower": "-14",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "[[Steve_combos#Staples|+35a (+25)]]",
-      "lower": "+35",
-      "properties": [
-        "a"
-      ],
-      "tech": "+25"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i19",
-      "lower": "i19",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i19",
+    "hitLevels": "m",
+    "damage": 15,
+    "onBlock": -14,
+    "onHit": "[[Steve_combos#Staples|+35a (+25)]]",
+    "onCounterHit": null,
+    "states": null,
+    "index": 99
   },
   {
-    "index": 100,
+    "id": "Steve-DCK.f+2",
+    "parent": null,
     "name": "Punisher",
     "input": "DCK.f+2",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-7",
-      "lower": "-7",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+9d",
-      "lower": "+9",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "+49a",
-      "lower": "+49",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "h",
+    "damage": 21,
+    "onBlock": -7,
+    "onHit": "+9d",
+    "onCounterHit": "+49a",
+    "states": null,
+    "index": 100
   },
   {
-    "index": 102,
+    "id": "Steve-DCK.f+3_4",
+    "parent": null,
     "name": "Ducking In",
     "input": "DCK.f+3_4",
-    "hitLevels": [
-      "sp"
-    ],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": "sp",
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": 102
   },
   {
-    "index": 40,
+    "id": "Steve-df+1",
+    "parent": null,
     "name": "Left Uppercut",
     "input": "df+1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "5",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13",
-      "lower": "i13",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13",
+    "hitLevels": "m",
+    "damage": 12,
+    "onBlock": -2,
+    "onHit": 5,
+    "onCounterHit": null,
+    "states": null,
+    "index": 40
   },
   {
-    "index": 41,
+    "id": "Steve-df+1,2",
+    "parent": "Steve-df+1",
     "name": "Uppercut Cross Combo",
     "input": "df+1,2",
-    "hitLevels": [
-      "m",
-      "h"
-    ],
-    "damage": [
-      12,
-      13
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "3",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "5",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13",
-      "lower": "i13",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13",
+    "hitLevels": "m,h",
+    "damage": "12,13",
+    "onBlock": -6,
+    "onHit": 3,
+    "onCounterHit": 5,
+    "states": null,
+    "index": 41
   },
   {
-    "index": 42,
+    "id": "Steve-df+1,2~1",
+    "parent": "Steve-df+1",
     "name": "Uppercut Psyche-out Hook",
     "input": "df+1,2~1",
-    "hitLevels": [
-      "m",
-      "h"
-    ],
-    "damage": [
-      12,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "2",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+61a",
-      "lower": "+61",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i13",
-      "lower": "i13",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13",
+    "hitLevels": "m,h",
+    "damage": "12,20",
+    "onBlock": -2,
+    "onHit": 2,
+    "onCounterHit": "+61a",
+    "states": null,
+    "index": 42
   },
   {
-    "index": 43,
+    "id": "Steve-df+1,2~2",
+    "parent": "Steve-df+1",
     "name": "Uppercut Psyche-out Body",
     "input": "df+1,2~2",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      12,
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-10",
-      "lower": "-10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "[[Steve_combos#Mini-combos|+36d (+28)]]",
-      "lower": "+36",
-      "properties": [
-        "d"
-      ],
-      "tech": "+28"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13",
-      "lower": "i13",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13",
+    "hitLevels": "m,m",
+    "damage": "12,12",
+    "onBlock": -10,
+    "onHit": "[[Steve_combos#Mini-combos|+36d (+28)]]",
+    "onCounterHit": null,
+    "states": null,
+    "index": 43
   },
   {
-    "index": 44,
+    "id": "Steve-df+1,2~f+1+2",
+    "parent": "Steve-df+1",
     "name": "Uppercut Psyche-out Left Right Combo",
     "input": "df+1,2~f+1+2",
-    "hitLevels": [
-      "m",
-      "h",
-      "h"
-    ],
-    "damage": [
-      12,
-      8,
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "3",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13",
-      "lower": "i13",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13",
+    "hitLevels": "m,h,h",
+    "damage": "12,8,12",
+    "onBlock": -3,
+    "onHit": 0,
+    "onCounterHit": 3,
+    "states": null,
+    "index": 44
   },
   {
+    "id": "Steve-df+1,2~f+1+2,1",
+    "parent": "Steve-df+1,2~f+1+2",
     "name": "3rd hit",
     "input": "df+1,2~f+1+2,1",
-    "hitLevels": [
-      "m",
-      "h",
-      "h",
-      "m"
-    ],
-    "damage": [
-      12,
-      8,
-      12,
-      7
-    ],
-    "framesOnBlock": {
-      "_raw": "-19",
-      "lower": "-19",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-8",
-      "lower": "-8",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13",
-      "lower": "i13",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13",
+    "hitLevels": "m,h,h,m",
+    "damage": "12,8,12,7",
+    "onBlock": -19,
+    "onHit": -8,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Steve-df+1,2~f+1+2,1,1",
+    "parent": "Steve-df+1,2~f+1+2,1",
     "name": "4th hit",
     "input": "df+1,2~f+1+2,1,1",
-    "hitLevels": [
-      "m",
-      "h",
-      "h",
-      "m",
-      "m"
-    ],
-    "damage": [
-      12,
-      8,
-      12,
-      7,
-      8
-    ],
-    "framesOnBlock": {
-      "_raw": "-25",
-      "lower": "-25",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-17",
-      "lower": "-17",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13",
-      "lower": "i13",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13",
+    "hitLevels": "m,h,h,m,m",
+    "damage": "12,8,12,7,8",
+    "onBlock": -25,
+    "onHit": -17,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Steve-df+1,2~f+1+2,1,1,2",
+    "parent": "Steve-df+1,2~f+1+2,1,1",
     "name": "5th hit",
     "input": "df+1,2~f+1+2,1,1,2",
-    "hitLevels": [
-      "m",
-      "h",
-      "h",
-      "m",
-      "m",
-      "m"
-    ],
-    "damage": [
-      12,
-      8,
-      12,
-      7,
-      8,
-      8
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-8",
-      "lower": "-8",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13",
-      "lower": "i13",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13",
+    "hitLevels": "m,h,h,m,m,m",
+    "damage": "12,8,12,7,8,8",
+    "onBlock": null,
+    "onHit": -8,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Steve-df+1,2~f+1+2,1,1,2,1",
+    "parent": "Steve-df+1,2~f+1+2,1,1,2",
     "name": "6th hit",
     "input": "df+1,2~f+1+2,1,1,2,1",
-    "hitLevels": [
-      "m",
-      "h",
-      "h",
-      "m",
-      "m",
-      "m",
-      "h"
-    ],
-    "damage": [
-      12,
-      8,
-      12,
-      7,
-      8,
-      8,
-      8
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "5",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13",
-      "lower": "i13",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13",
+    "hitLevels": "m,h,h,m,m,m,h",
+    "damage": "12,8,12,7,8,8,8",
+    "onBlock": -9,
+    "onHit": 5,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 45,
+    "id": "Steve-df+2",
+    "parent": null,
     "name": "Crescent Hook",
     "input": "df+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-11",
-      "lower": "-11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "6",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+8c",
-      "lower": "+8",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "m",
+    "damage": 10,
+    "onBlock": -11,
+    "onHit": 6,
+    "onCounterHit": "+8c",
+    "states": null,
+    "index": 45
   },
   {
-    "index": 103,
+    "id": "Steve-EXD.1",
+    "parent": null,
     "name": "Power Fox Hunt",
     "input": "EXD.1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-7",
-      "lower": "-7",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "[[Steve_combos#Mini-combos|+44d (+36)]]",
-      "lower": "+44",
-      "properties": [
-        "d"
-      ],
-      "tech": "+36"
-    },
-    "framesOnCounter": {
-      "_raw": "+41a (+31)",
-      "lower": "+41",
-      "properties": [
-        "a"
-      ],
-      "tech": "+31"
-    },
-    "framesOnStartup": {
-      "_raw": "i19",
-      "lower": "i19",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i19",
+    "hitLevels": "m",
+    "damage": 21,
+    "onBlock": -7,
+    "onHit": "[[Steve_combos#Mini-combos|+44d (+36)]]",
+    "onCounterHit": "+41a (+31)",
+    "states": null,
+    "index": 103
   },
   {
-    "index": 104,
+    "id": "Steve-EXD.2",
+    "parent": null,
     "name": "Power Skyscraper",
     "input": "EXD.2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-14",
-      "lower": "-14",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+61a (+51)",
-      "lower": "+61",
-      "properties": [
-        "a"
-      ],
-      "tech": "+51"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i19",
-      "lower": "i19",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i19",
+    "hitLevels": "m",
+    "damage": 21,
+    "onBlock": -14,
+    "onHit": "+61a (+51)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 104
   },
   {
-    "index": 105,
+    "id": "Steve-EXD.f+2",
+    "parent": null,
     "name": "Power Punisher",
     "input": "EXD.f+2",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      28
-    ],
-    "framesOnBlock": {
-      "_raw": "2",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "[[Steve_combos#Staples|+49a]]",
-      "lower": "+49",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "h",
+    "damage": 28,
+    "onBlock": 2,
+    "onHit": "[[Steve_combos#Staples|+49a]]",
+    "onCounterHit": null,
+    "states": null,
+    "index": 105
   },
   {
+    "id": "Steve-f+1+2",
+    "parent": null,
+    "name": null,
     "input": "f+1+2",
-    "hitLevels": [
-      "m",
-      "h"
-    ],
-    "damage": [
-      10,
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-14",
-      "lower": "-14",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16, i7~9",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16, i7~9",
+    "hitLevels": "m,h",
+    "damage": "10,12",
+    "onBlock": -14,
+    "onHit": -3,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 38,
+    "id": "Steve-f+1+2,2",
+    "parent": "Steve-f+1+2",
     "name": "Shotgun Combination",
     "input": "f+1+2,2",
-    "hitLevels": [
-      "m",
-      "h",
-      "m"
-    ],
-    "damage": [
-      10,
-      12,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+3d",
-      "lower": "+3",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16, i7~9",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16, i7~9",
+    "hitLevels": "m,h,m",
+    "damage": "10,12,20",
+    "onBlock": -13,
+    "onHit": "+3d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 38
   },
   {
+    "id": "Steve-f+2",
+    "parent": null,
+    "name": null,
     "input": "f+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      11
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "5",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i21~22",
-      "lower": "i21",
-      "properties": [],
-      "upper": "22"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i21~22",
+    "hitLevels": "m",
+    "damage": 11,
+    "onBlock": -6,
+    "onHit": 5,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 34,
+    "id": "Steve-f+2,1",
+    "parent": "Steve-f+2",
     "name": "Ducking Body Blow &gt; Left Hook",
     "input": "f+2,1",
-    "hitLevels": [
-      "m",
-      "h"
-    ],
-    "damage": [
-      11,
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-5",
-      "lower": "-5",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "1",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i21~22",
-      "lower": "i21",
-      "properties": [],
-      "upper": "22"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i21~22",
+    "hitLevels": "m,h",
+    "damage": "11,12",
+    "onBlock": -5,
+    "onHit": 1,
+    "onCounterHit": null,
+    "states": null,
+    "index": 34
   },
   {
-    "index": 35,
+    "id": "Steve-f+2,1~2",
+    "parent": "Steve-f+2",
     "name": "Ducking Psyche-out Body",
     "input": "f+2,1~2",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      11,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-10",
-      "lower": "-10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "[[Steve_combos#Mini-combos|+36d (+28)]]",
-      "lower": "+36",
-      "properties": [
-        "d"
-      ],
-      "tech": "+28"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i21~22",
-      "lower": "i21",
-      "properties": [],
-      "upper": "22"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i21~22",
+    "hitLevels": "m,m",
+    "damage": "11,20",
+    "onBlock": -10,
+    "onHit": "[[Steve_combos#Mini-combos|+36d (+28)]]",
+    "onCounterHit": null,
+    "states": null,
+    "index": 35
   },
   {
+    "id": "Steve-f+2,2",
+    "parent": "Steve-f+2",
+    "name": null,
     "input": "f+2,2",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      11,
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+11g",
-      "lower": "+11",
-      "properties": [
-        "g"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i21~22",
-      "lower": "i21",
-      "properties": [],
-      "upper": "22"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i21~22",
+    "hitLevels": "m,m",
+    "damage": "11,15",
+    "onBlock": -6,
+    "onHit": "+11g",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 36,
+    "id": "Steve-f+2,2,1+2",
+    "parent": "Steve-f+2,2",
     "name": "Conqueror Combination",
     "input": "f+2,2,1+2",
-    "hitLevels": [
-      "m",
-      "m",
-      "m",
-      "m",
-      "m"
-    ],
-    "damage": [
-      11,
-      15,
-      5,
-      8,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+5c",
-      "lower": "+5",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i21~22",
-      "lower": "i21",
-      "properties": [],
-      "upper": "22"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i21~22",
+    "hitLevels": "m,m,m,m,m",
+    "damage": "11,15,5,8,20",
+    "onBlock": -12,
+    "onHit": "+5c",
+    "onCounterHit": null,
+    "states": null,
+    "index": 36
   },
   {
+    "id": "Steve-f+3+4",
+    "parent": null,
     "name": "Peekaboo",
     "input": "f+3+4",
-    "hitLevels": [
-      "sp"
-    ],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": "sp",
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Steve-f+3_4",
+    "parent": null,
     "name": "Ducking",
     "input": "f+3_4",
-    "hitLevels": [
-      "sp"
-    ],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": "sp",
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": "cs1~25",
+    "index": null
   },
   {
-    "index": 78,
+    "id": "Steve-FC.df+2",
+    "parent": null,
     "name": "Finishing Blow",
     "input": "FC.df+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-15",
-      "lower": "-15",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "[[Steve_combos#Staples|+34a (+24)]]",
-      "lower": "+34",
-      "properties": [
-        "a"
-      ],
-      "tech": "+24"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "m",
+    "damage": 20,
+    "onBlock": -15,
+    "onHit": "[[Steve_combos#Staples|+34a (+24)]]",
+    "onCounterHit": null,
+    "states": null,
+    "index": 78
   },
   {
-    "index": 66,
+    "id": "Steve-f,F+2",
+    "parent": null,
     "name": "Beat Down",
     "input": "f,F+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      24
-    ],
-    "framesOnBlock": {
-      "_raw": "-13c",
-      "lower": "-13",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnHit": {
-      "_raw": "+12d",
-      "lower": "+12",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14~17",
-      "lower": "i14",
-      "properties": [],
-      "upper": "17"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14~17",
+    "hitLevels": "m",
+    "damage": 24,
+    "onBlock": "-13c",
+    "onHit": "+12d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 66
   },
   {
-    "index": 69,
+    "id": "Steve-f,f,F+2",
+    "parent": null,
     "name": "Eraser",
     "input": "f,f,F+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      30
-    ],
-    "framesOnBlock": {
-      "_raw": "6",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+10d",
-      "lower": "+10",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20~24",
-      "lower": "i20",
-      "properties": [],
-      "upper": "24"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20~24",
+    "hitLevels": "m",
+    "damage": 30,
+    "onBlock": 6,
+    "onHit": "+10d",
+    "onCounterHit": null,
+    "states": "js9~",
+    "index": 69
   },
   {
+    "id": "Steve-FLK.1",
+    "parent": null,
+    "name": null,
     "input": "FLK.1",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      14
-    ],
-    "framesOnBlock": {
-      "_raw": "-4",
-      "lower": "-4",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "7",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "h",
+    "damage": 14,
+    "onBlock": -4,
+    "onHit": 7,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Steve-FLK.1,1",
+    "parent": "Steve-FLK.1",
+    "name": null,
     "input": "FLK.1,1",
-    "hitLevels": [
-      "h",
-      "h"
-    ],
-    "damage": [
-      14,
-      8
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "h,h",
+    "damage": "14,8",
+    "onBlock": -9,
+    "onHit": 0,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Steve-FLK.1,1,1",
+    "parent": "Steve-FLK.1,1",
+    "name": null,
     "input": "FLK.1,1,1",
-    "hitLevels": [
-      "h",
-      "h",
-      "h"
-    ],
-    "damage": [
-      14,
-      8,
-      8
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "h,h,h",
+    "damage": "14,8,8",
+    "onBlock": -9,
+    "onHit": 0,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 125,
+    "id": "Steve-FLK.1,1,1,2",
+    "parent": "Steve-FLK.1,1,1",
     "name": "Spiteful Combination",
     "input": "FLK.1,1,1,2",
-    "hitLevels": [
-      "h",
-      "h",
-      "h",
-      "m"
-    ],
-    "damage": [
-      14,
-      8,
-      8,
-      22
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+17a (+0)",
-      "lower": "+17",
-      "properties": [
-        "a"
-      ],
-      "tech": "+0"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "h,h,h,m",
+    "damage": "14,8,8,22",
+    "onBlock": -12,
+    "onHit": "+17a (+0)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 125
   },
   {
+    "id": "Steve-FLK.1,1,2",
+    "parent": "Steve-FLK.1,1",
+    "name": null,
     "input": "FLK.1,1,2",
-    "hitLevels": [
-      "h",
-      "h",
-      "m"
-    ],
-    "damage": [
-      14,
-      8,
-      22
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+17a (+0)",
-      "lower": "+17",
-      "properties": [
-        "a"
-      ],
-      "tech": "+0"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "h,h,m",
+    "damage": "14,8,22",
+    "onBlock": -12,
+    "onHit": "+17a (+0)",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Steve-FLK.1,1,d+1",
+    "parent": "Steve-FLK.1,1",
+    "name": null,
     "input": "FLK.1,1,d+1",
-    "hitLevels": [
-      "h",
-      "h",
-      "h"
-    ],
-    "damage": [
-      14,
-      8,
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+18g",
-      "lower": "+18",
-      "properties": [
-        "g"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "+42a",
-      "lower": "+42",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "h,h,h",
+    "damage": "14,8,23",
+    "onBlock": 0,
+    "onHit": "+18g",
+    "onCounterHit": "+42a",
+    "states": null,
+    "index": null
   },
   {
+    "id": "Steve-FLK.1,1,f+1",
+    "parent": "Steve-FLK.1,1",
+    "name": null,
     "input": "FLK.1,1,f+1",
-    "hitLevels": [
-      "h",
-      "h",
-      "m"
-    ],
-    "damage": [
-      14,
-      8,
-      17
-    ],
-    "framesOnBlock": {
-      "_raw": "-5",
-      "lower": "-5",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+10d",
-      "lower": "+10",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "h,h,m",
+    "damage": "14,8,17",
+    "onBlock": -5,
+    "onHit": 0,
+    "onCounterHit": "+10d",
+    "states": null,
+    "index": null
   },
   {
-    "index": 129,
+    "id": "Steve-FLK.1+2",
+    "parent": null,
     "name": "Griffin Throw",
     "input": "FLK.1+2",
-    "hitLevels": [
-      "th"
-    ],
-    "damage": [
-      40
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12~14",
-      "lower": "i12",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12~14",
+    "hitLevels": "th",
+    "damage": 40,
+    "onBlock": -6,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 129
   },
   {
+    "id": "Steve-FLK.1,2",
+    "parent": "Steve-FLK.1",
+    "name": null,
     "input": "FLK.1,2",
-    "hitLevels": [
-      "h",
-      "m"
-    ],
-    "damage": [
-      14,
-      22
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+17a (+0)",
-      "lower": "+17",
-      "properties": [
-        "a"
-      ],
-      "tech": "+0"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "h,m",
+    "damage": "14,22",
+    "onBlock": -12,
+    "onHit": "+17a (+0)",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 127,
+    "id": "Steve-FLK.1,d+1",
+    "parent": "Steve-FLK.1",
     "name": "Power Hook Combo",
     "input": "FLK.1,d+1",
-    "hitLevels": [
-      "h",
-      "h"
-    ],
-    "damage": [
-      14,
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+18g",
-      "lower": "+18",
-      "properties": [
-        "g"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "+42a",
-      "lower": "+42",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "h,h",
+    "damage": "14,23",
+    "onBlock": 0,
+    "onHit": "+18g",
+    "onCounterHit": "+42a",
+    "states": null,
+    "index": 127
   },
   {
-    "index": 126,
+    "id": "Steve-FLK.1,f+1",
+    "parent": "Steve-FLK.1",
     "name": "Tempest Combo",
     "input": "FLK.1,f+1",
-    "hitLevels": [
-      "h",
-      "m"
-    ],
-    "damage": [
-      14,
-      17
-    ],
-    "framesOnBlock": {
-      "_raw": "-5",
-      "lower": "-5",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+10d",
-      "lower": "+10",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "h,m",
+    "damage": "14,17",
+    "onBlock": -5,
+    "onHit": 0,
+    "onCounterHit": "+10d",
+    "states": null,
+    "index": 126
   },
   {
-    "index": 128,
+    "id": "Steve-FLK.2",
+    "parent": null,
     "name": "Fly Swatter",
     "input": "FLK.2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-5c",
-      "lower": "-5",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnHit": {
-      "_raw": "[[Steve_combos#Mini-combos|+7d]]",
-      "lower": "+7",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "[[Steve_combos#Staples|+42a]]",
-      "lower": "+42",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i18~19",
-      "lower": "i18",
-      "properties": [],
-      "upper": "19"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18~19",
+    "hitLevels": "m",
+    "damage": 21,
+    "onBlock": "-5c",
+    "onHit": "[[Steve_combos#Mini-combos|+7d]]",
+    "onCounterHit": "[[Steve_combos#Staples|+42a]]",
+    "states": null,
+    "index": 128
   },
   {
-    "index": 130,
+    "id": "Steve-FLK.b+2",
+    "parent": null,
     "name": "British Lancer",
     "input": "FLK.b+2",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "[[Steve_combos#Mini-combos|+35d (+27)]]",
-      "lower": "+35",
-      "properties": [
-        "d"
-      ],
-      "tech": "+27"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14~15",
-      "lower": "i14",
-      "properties": [],
-      "upper": "15"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14~15",
+    "hitLevels": "h",
+    "damage": 21,
+    "onBlock": -9,
+    "onHit": "[[Steve_combos#Mini-combos|+35d (+27)]]",
+    "onCounterHit": null,
+    "states": "pc8~",
+    "index": 130
   },
   {
+    "id": "Steve-H.2+3",
+    "parent": null,
     "name": "Bretwalda",
     "input": "H.2+3",
-    "hitLevels": [
-      "m",
-      "th"
-    ],
-    "damage": [
-      10,
-      4,
-      2,
-      3,
-      3,
-      3,
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "+8 LNH",
-      "lower": "+8",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "m,th",
+    "damage": "10,4,2,3,3,3,25",
+    "onBlock": "+8 LNH",
+    "onHit": 0,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Steve-H.df+3+4",
+    "parent": null,
+    "name": null,
     "input": "H.df+3+4",
-    "hitLevels": [
-      "sp"
-    ],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": "sp",
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": "cs1~",
+    "index": null
   },
   {
+    "id": "Steve-H.EXD.1+3",
+    "parent": null,
     "name": "Two-Faced (TFA)",
     "input": "H.EXD.1+3",
-    "hitLevels": [
-      "h(th)"
-    ],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18",
-      "lower": "i18",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18",
+    "hitLevels": "h (th)",
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 148,
+    "id": "Steve-H.EXDThrow.1",
+    "parent": null,
     "name": "Dominion Rush",
     "input": "TFA.1",
-    "hitLevels": [
-      "th"
-    ],
-    "damage": [
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "14",
-      "lower": "14",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": "th",
+    "damage": 15,
+    "onBlock": 0,
+    "onHit": 14,
+    "onCounterHit": null,
+    "states": null,
+    "index": 148
   },
   {
-    "index": 149,
+    "id": "Steve-H.EXDThrow.2",
+    "parent": null,
     "name": "Debutante Ball",
     "input": "TFA.2",
-    "hitLevels": [
-      "th"
-    ],
-    "damage": [
-      50
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": "th",
+    "damage": 50,
+    "onBlock": 0,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 149
   },
   {
+    "id": "Steve-H.LNH",
+    "parent": null,
     "name": "Two-Faced",
     "input": "H.LNH",
-    "hitLevels": [
-      "sp",
-      "m",
-      "h(th)"
-    ],
-    "damage": [
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": "sp, m, h (th)",
+    "damage": 15,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": "ps25?",
+    "index": null
   },
   {
-    "index": 137,
+    "id": "Steve-Left throw",
+    "parent": null,
     "name": "Choke Slam",
-    "input": "Leftthrow",
-    "hitLevels": [
-      "throw"
-    ],
-    "damage": [
-      40
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": "Left throw",
+    "startup": "i12",
+    "hitLevels": "throw",
+    "damage": 40,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": 137
   },
   {
-    "index": 132,
+    "id": "Steve-LNH.1",
+    "parent": null,
     "name": "Vigilant Blow",
     "input": "LNH.1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-4",
-      "lower": "-4",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+9/HE",
-      "lower": "+9",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14-15",
-      "lower": "i14",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14-15",
+    "hitLevels": "m",
+    "damage": 21,
+    "onBlock": -4,
+    "onHit": "+9/HE",
+    "onCounterHit": null,
+    "states": null,
+    "index": 132
   },
   {
-    "index": 134,
+    "id": "Steve-LNH.1+2",
+    "parent": null,
     "name": "Swingfire Advance",
     "input": "LNH.1+2",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      24
-    ],
-    "framesOnBlock": {
-      "_raw": "[[Steve combos#Mini-combos|+12]]",
-      "lower": "+12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+51a (+31)",
-      "lower": "+51",
-      "properties": [
-        "a"
-      ],
-      "tech": "+31"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18-19",
-      "lower": "i18",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18-19",
+    "hitLevels": "h",
+    "damage": 24,
+    "onBlock": "[[Steve combos#Mini-combos|+12]]",
+    "onHit": "+51a (+31)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 134
   },
   {
-    "index": 133,
+    "id": "Steve-LNH.2",
+    "parent": null,
     "name": "Bloodhound",
     "input": "LNH.2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      22
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "[[Steve_combos#Staples|+61a (+51)]]",
-      "lower": "+61",
-      "properties": [
-        "a"
-      ],
-      "tech": "+51"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16-17",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16-17",
+    "hitLevels": "m",
+    "damage": 22,
+    "onBlock": -13,
+    "onHit": "[[Steve_combos#Staples|+61a (+51)]]",
+    "onCounterHit": null,
+    "states": null,
+    "index": 133
   },
   {
+    "id": "Steve-LWV.1",
+    "parent": null,
+    "name": null,
     "input": "LWV.1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      14
-    ],
-    "framesOnBlock": {
-      "_raw": "-10",
-      "lower": "-10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "1",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m",
+    "damage": 14,
+    "onBlock": -10,
+    "onHit": 1,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 80,
+    "id": "Steve-LWV.1,1",
+    "parent": "Steve-LWV.1",
     "name": "Double Stinger",
     "input": "LWV.1,1",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      14,
-      22
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+28a (+19)",
-      "lower": "+28",
-      "properties": [
-        "a"
-      ],
-      "tech": "+19"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m,m",
+    "damage": "14,22",
+    "onBlock": -13,
+    "onHit": "+28a (+19)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 80
   },
   {
-    "index": 81,
+    "id": "Steve-LWV.1,2",
+    "parent": "Steve-LWV.1",
     "name": "Bee Sting Combo",
     "input": "LWV.1,2",
-    "hitLevels": [
-      "m",
-      "h"
-    ],
-    "damage": [
-      14,
-      14
-    ],
-    "framesOnBlock": {
-      "_raw": "3",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "8",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m,h",
+    "damage": "14,14",
+    "onBlock": 3,
+    "onHit": 8,
+    "onCounterHit": null,
+    "states": null,
+    "index": 81
   },
   {
+    "id": "Steve-LWV.1,2~1",
+    "parent": "Steve-LWV.1",
     "name": "Swindler",
     "input": "LWV.1,2~1",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      14,
-      17
-    ],
-    "framesOnBlock": {
-      "_raw": "-8",
-      "lower": "-8",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "4",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+63a",
-      "lower": "+63",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m,m",
+    "damage": "14,17",
+    "onBlock": -8,
+    "onHit": 4,
+    "onCounterHit": "+63a",
+    "states": null,
+    "index": null
   },
   {
+    "id": "Steve-LWV.1,f+1",
+    "parent": "Steve-LWV.1",
+    "name": null,
     "input": "LWV.1,f+1",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      14,
-      9
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "3",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m,m",
+    "damage": "14,9",
+    "onBlock": -3,
+    "onHit": 3,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 83,
+    "id": "Steve-LWV.1,f+1,1",
+    "parent": "Steve-LWV.1,f+1",
     "name": "Centurion Rush",
     "input": "LWV.1,f+1,1",
-    "hitLevels": [
-      "m",
-      "m",
-      "h"
-    ],
-    "damage": [
-      14,
-      9,
-      8
-    ],
-    "framesOnBlock": {
-      "_raw": "3",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "7",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+68a",
-      "lower": "+68",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m,m,h",
+    "damage": "14,9,8",
+    "onBlock": 3,
+    "onHit": 7,
+    "onCounterHit": "+68a",
+    "states": null,
+    "index": 83
   },
   {
+    "id": "Steve-LWV.2",
+    "parent": null,
+    "name": null,
     "input": "LWV.2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      13
-    ],
-    "framesOnBlock": {
-      "_raw": "-5",
-      "lower": "-5",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "4",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14~16",
-      "lower": "i14",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14~16",
+    "hitLevels": "m",
+    "damage": 13,
+    "onBlock": -5,
+    "onHit": 4,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 84,
+    "id": "Steve-LWV.2,1",
+    "parent": "Steve-LWV.2",
     "name": "Right Shoulder Rush &gt; Billy Club",
     "input": "LWV.2,1",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      13,
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-8",
-      "lower": "-8",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+4c",
-      "lower": "+4",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "+7d",
-      "lower": "+7",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i14~16",
-      "lower": "i14",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14~16",
+    "hitLevels": "m,m",
+    "damage": "13,21",
+    "onBlock": -8,
+    "onHit": "+4c",
+    "onCounterHit": "+7d",
+    "states": null,
+    "index": 84
   },
   {
-    "index": 142,
+    "id": "Steve-OTG.d+1+2",
+    "parent": null,
     "name": "Cheapshot",
     "input": "OTG.d+1+2",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      14
-    ],
-    "framesOnBlock": {
-      "_raw": "-11c",
-      "lower": "-11",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnHit": {
-      "_raw": "2",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "2",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17",
-      "lower": "i17",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17",
+    "hitLevels": "l",
+    "damage": 14,
+    "onBlock": "-11c",
+    "onHit": 2,
+    "onCounterHit": 2,
+    "states": "cs",
+    "index": 142
   },
   {
+    "id": "Steve-PAB.1",
+    "parent": null,
+    "name": null,
     "input": "PAB.1",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "9",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12~13",
-      "lower": "i12",
-      "properties": [],
-      "upper": "13"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12~13",
+    "hitLevels": "h",
+    "damage": 10,
+    "onBlock": -2,
+    "onHit": 9,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 109,
+    "id": "Steve-PAB.1+2",
+    "parent": null,
     "name": "Ten Count",
     "input": "PAB.1+2",
-    "hitLevels": [
-      "th"
-    ],
-    "damage": [
-      45
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i11",
-      "lower": "i11",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i11",
+    "hitLevels": "th",
+    "damage": 45,
+    "onBlock": 0,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 109
   },
   {
+    "id": "Steve-PAB.1,2",
+    "parent": "Steve-PAB.1",
+    "name": null,
     "input": "PAB.1,2",
-    "hitLevels": [
-      "h",
-      "h"
-    ],
-    "damage": [
-      10,
-      14
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "8",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12~13",
-      "lower": "i12",
-      "properties": [],
-      "upper": "13"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12~13",
+    "hitLevels": "h,h",
+    "damage": "10,14",
+    "onBlock": 0,
+    "onHit": 8,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 107,
+    "id": "Steve-PAB.1,2,1",
+    "parent": "Steve-PAB.1,2",
     "name": "Albion Combination",
     "input": "PAB.1,2,1",
-    "hitLevels": [
-      "h",
-      "h",
-      "m"
-    ],
-    "damage": [
-      10,
-      14,
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+8c",
-      "lower": "+8",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "+44a",
-      "lower": "+44",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i12~13",
-      "lower": "i12",
-      "properties": [],
-      "upper": "13"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12~13",
+    "hitLevels": "h,h,m",
+    "damage": "10,14,21",
+    "onBlock": -13,
+    "onHit": "+8c",
+    "onCounterHit": "+44a",
+    "states": null,
+    "index": 107
   },
   {
-    "index": 108,
+    "id": "Steve-PAB.2",
+    "parent": null,
     "name": "Spite Hook",
     "input": "PAB.2",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      19
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "2",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+58a",
-      "lower": "+58",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i14",
-      "lower": "i14",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14",
+    "hitLevels": "h",
+    "damage": 19,
+    "onBlock": -3,
+    "onHit": 2,
+    "onCounterHit": "+58a",
+    "states": "ps7?-13",
+    "index": 108
   },
   {
+    "id": "Steve-PAB.b+1",
+    "parent": null,
+    "name": null,
     "input": "PAB.b+1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "-19",
-      "lower": "-19",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17~18",
-      "lower": "i17",
-      "properties": [],
-      "upper": "18"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17~18",
+    "hitLevels": "m",
+    "damage": 15,
+    "onBlock": -19,
+    "onHit": -6,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Steve-PAB.b+1,1",
+    "parent": "Steve-PAB.b+1",
+    "name": null,
     "input": "PAB.b+1,1",
-    "hitLevels": [
-      "m",
-      "h"
-    ],
-    "damage": [
-      15,
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-7",
-      "lower": "-7",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-1",
-      "lower": "-1",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17~18",
-      "lower": "i17",
-      "properties": [],
-      "upper": "18"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17~18",
+    "hitLevels": "m,h",
+    "damage": "15,10",
+    "onBlock": -7,
+    "onHit": -1,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Steve-PAB.b+1,1,2",
+    "parent": "Steve-PAB.b+1,1",
+    "name": null,
     "input": "PAB.b+1,1,2",
-    "hitLevels": [
-      "m",
-      "h",
-      "m"
-    ],
-    "damage": [
-      15,
-      10,
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-11",
-      "lower": "-11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-5",
-      "lower": "-5",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17~18",
-      "lower": "i17",
-      "properties": [],
-      "upper": "18"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17~18",
+    "hitLevels": "m,h,m",
+    "damage": "15,10,12",
+    "onBlock": -11,
+    "onHit": -5,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 117,
+    "id": "Steve-PAB.b+1,1,2,1",
+    "parent": "Steve-PAB.b+1,1,2",
     "name": "Lancaster Combination",
     "input": "PAB.b+1,1,2,1",
-    "hitLevels": [
-      "m",
-      "h",
-      "m",
-      "m"
-    ],
-    "damage": [
-      15,
-      10,
-      12,
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-10",
-      "lower": "-10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+16a (+7)",
-      "lower": "+16",
-      "properties": [
-        "a"
-      ],
-      "tech": "+7"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17~18",
-      "lower": "i17",
-      "properties": [],
-      "upper": "18"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17~18",
+    "hitLevels": "m,h,m,m",
+    "damage": "15,10,12,21",
+    "onBlock": -10,
+    "onHit": "+16a (+7)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 117
   },
   {
-    "index": 118,
+    "id": "Steve-PAB.b+2",
+    "parent": null,
     "name": "Swaying Hook",
     "input": "PAB.b+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+11a (+2)",
-      "lower": "+11",
-      "properties": [
-        "a"
-      ],
-      "tech": "+2"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i28~29",
-      "lower": "i28",
-      "properties": [],
-      "upper": "29"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i28~29",
+    "hitLevels": "m",
+    "damage": 25,
+    "onBlock": -13,
+    "onHit": "+11a (+2)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 118
   },
   {
-    "index": 115,
+    "id": "Steve-PAB.d+1",
+    "parent": null,
     "name": "Patella Smash",
     "input": "PAB.d+1",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      11
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "2",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "l",
+    "damage": 11,
+    "onBlock": -12,
+    "onHit": 2,
+    "onCounterHit": null,
+    "states": "cs6~",
+    "index": 115
   },
   {
-    "index": 116,
+    "id": "Steve-PAB.d+2",
+    "parent": null,
     "name": "Knuckle Plow",
     "input": "PAB.d+2",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "7",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+32a",
-      "lower": "+32",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i28~29",
-      "lower": "i28",
-      "properties": [],
-      "upper": "29"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i28~29",
+    "hitLevels": "l",
+    "damage": 25,
+    "onBlock": -12,
+    "onHit": 7,
+    "onCounterHit": "+32a",
+    "states": "cs6~",
+    "index": 116
   },
   {
+    "id": "Steve-PAB.df+1",
+    "parent": null,
+    "name": null,
     "input": "PAB.df+1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "2",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "m",
+    "damage": 12,
+    "onBlock": -9,
+    "onHit": 2,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Steve-PAB.df+1,1",
+    "parent": "Steve-PAB.df+1",
+    "name": null,
     "input": "PAB.df+1,1",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      12,
-      14
-    ],
-    "framesOnBlock": {
-      "_raw": "-10",
-      "lower": "-10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "1",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "m,m",
+    "damage": "12,14",
+    "onBlock": -10,
+    "onHit": 1,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Steve-PAB.df+1,1,2",
+    "parent": "Steve-PAB.df+1,1",
+    "name": null,
     "input": "PAB.df+1,1,2",
-    "hitLevels": [
-      "m",
-      "m",
-      "m"
-    ],
-    "damage": [
-      12,
-      14,
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-11",
-      "lower": "-11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "m,m,m",
+    "damage": "12,14,12",
+    "onBlock": -11,
+    "onHit": -3,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 112,
+    "id": "Steve-PAB.df+1,1,2,1",
+    "parent": "Steve-PAB.df+1,1,2",
     "name": "Argos Rush",
     "input": "PAB.df+1,1,2,1",
-    "hitLevels": [
-      "m",
-      "m",
-      "m",
-      "m"
-    ],
-    "damage": [
-      12,
-      14,
-      12,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+17d",
-      "lower": "+17",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "m,m,m,m",
+    "damage": "12,14,12,20",
+    "onBlock": -13,
+    "onHit": "+17d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 112
   },
   {
-    "index": 113,
+    "id": "Steve-PAB.df+1,2",
+    "parent": "Steve-PAB.df+1",
     "name": "Cross Cut",
     "input": "PAB.df+1,2",
-    "hitLevels": [
-      "m",
-      "h"
-    ],
-    "damage": [
-      12,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "10",
-      "lower": "10",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "m,h",
+    "damage": "12,20",
+    "onBlock": -6,
+    "onHit": 10,
+    "onCounterHit": null,
+    "states": null,
+    "index": 113
   },
   {
-    "index": 114,
+    "id": "Steve-PAB.df+2",
+    "parent": null,
     "name": "Cutting Elbow",
     "input": "PAB.df+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      16
-    ],
-    "framesOnBlock": {
-      "_raw": "-10",
-      "lower": "-10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "[[Steve_combos#Staples|+31a (+21)]]",
-      "lower": "+31",
-      "properties": [
-        "a"
-      ],
-      "tech": "+21"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16~17",
-      "lower": "i16",
-      "properties": [],
-      "upper": "17"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16~17",
+    "hitLevels": "m",
+    "damage": 16,
+    "onBlock": -10,
+    "onHit": "[[Steve_combos#Staples|+31a (+21)]]",
+    "onCounterHit": null,
+    "states": null,
+    "index": 114
   },
   {
-    "index": 111,
+    "id": "Steve-PAB.f+1+2",
+    "parent": null,
     "name": "Nimrod Combination",
     "input": "PAB.f+1+2",
-    "hitLevels": [
-      "h",
-      "h"
-    ],
-    "damage": [
-      12,
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "-5",
-      "lower": "-5",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+24a (+15)",
-      "lower": "+24",
-      "properties": [
-        "a"
-      ],
-      "tech": "+15"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12, i15~16",
-      "lower": "i12",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12, i15~16",
+    "hitLevels": "h,h",
+    "damage": "12,23",
+    "onBlock": -5,
+    "onHit": "+24a (+15)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 111
   },
   {
+    "id": "Steve-PAB.f+2",
+    "parent": null,
+    "name": null,
     "input": "PAB.f+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      18
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "[[Steve_combos#Mini-combos|+31a (+16)]]",
-      "lower": "+31",
-      "properties": [
-        "a"
-      ],
-      "tech": "+16"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18~19",
-      "lower": "i18",
-      "properties": [],
-      "upper": "19"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18~19",
+    "hitLevels": "m",
+    "damage": 18,
+    "onBlock": -13,
+    "onHit": "[[Steve_combos#Mini-combos|+31a (+16)]]",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 110,
+    "id": "Steve-PAB.f+2,1",
+    "parent": "Steve-PAB.f+2",
     "name": "Straight Punch Combination",
     "input": "PAB.f+2,1",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      18,
-      24
-    ],
-    "framesOnBlock": {
-      "_raw": "1",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+24a (+14)",
-      "lower": "+24",
-      "properties": [
-        "a"
-      ],
-      "tech": "+14"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18~19",
-      "lower": "i18",
-      "properties": [],
-      "upper": "19"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18~19",
+    "hitLevels": "m,m",
+    "damage": "18,24",
+    "onBlock": 1,
+    "onHit": "+24a (+14)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 110
   },
   {
-    "index": 119,
+    "id": "Steve-PAB.uf+2",
+    "parent": null,
     "name": "Dreadnought Uppercut",
     "input": "PAB.uf+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "-15",
-      "lower": "-15",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "[[Steve_combos#Staples|+34a (+24)]]",
-      "lower": "+34",
-      "properties": [
-        "a"
-      ],
-      "tech": "+24"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17~19",
-      "lower": "i17",
-      "properties": [],
-      "upper": "19"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17~19",
+    "hitLevels": "m",
+    "damage": 23,
+    "onBlock": -15,
+    "onHit": "[[Steve_combos#Staples|+34a (+24)]]",
+    "onCounterHit": null,
+    "states": "js9~",
+    "index": 119
   },
   {
-    "index": 141,
+    "id": "Steve-qcb+2+4",
+    "parent": null,
     "name": "Spinning Elbow Drop",
     "input": "qcb+2+4",
-    "hitLevels": [
-      "throw"
-    ],
-    "damage": [
-      40
-    ],
-    "framesOnBlock": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "throw",
+    "damage": 40,
+    "onBlock": -2,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": 141
   },
   {
-    "index": 67,
+    "id": "Steve-qcf+1",
+    "parent": null,
     "name": "Rocket Launcher",
     "input": "qcf+1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-10",
-      "lower": "-10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+16a (+7)",
-      "lower": "+16",
-      "properties": [
-        "a"
-      ],
-      "tech": "+7"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "m",
+    "damage": 21,
+    "onBlock": -10,
+    "onHit": "+16a (+7)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 67
   },
   {
-    "index": 68,
+    "id": "Steve-qcf+2",
+    "parent": null,
     "name": "Low Cross Blaster",
     "input": "qcf+2",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      18
-    ],
-    "framesOnBlock": {
-      "_raw": "-18",
-      "lower": "-18",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+2c",
-      "lower": "+2",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i19",
-      "lower": "i19",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i19",
+    "hitLevels": "l",
+    "damage": 18,
+    "onBlock": -18,
+    "onHit": "+2c",
+    "onCounterHit": null,
+    "states": "cs10~",
+    "index": 68
   },
   {
+    "id": "Steve-R.df+1+2",
+    "parent": null,
     "name": "Dear Land of Hope",
     "input": "R.df+1+2",
-    "hitLevels": [
-      "m",
-      "t"
-    ],
-    "damage": [
-      55
-    ],
-    "framesOnBlock": {
-      "_raw": "-15",
-      "lower": "-15",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20",
-      "lower": "i20",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20",
+    "hitLevels": "m,t",
+    "damage": "55+",
+    "onBlock": -15,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": "pc8~",
+    "index": null
   },
   {
-    "index": 138,
+    "id": "Steve-Right throw",
+    "parent": null,
     "name": "Throw Down",
-    "input": "Rightthrow",
-    "hitLevels": [
-      "throw"
-    ],
-    "damage": [
-      40
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": "Right throw",
+    "startup": "i12",
+    "hitLevels": "throw",
+    "damage": 40,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": 138
   },
   {
+    "id": "Steve-RWV.1",
+    "parent": null,
+    "name": null,
     "input": "RWV.1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      13
-    ],
-    "framesOnBlock": {
-      "_raw": "-5~-3",
-      "lower": "-5",
-      "properties": [],
-      "upper": "-3"
-    },
-    "framesOnHit": {
-      "_raw": "+4~+6",
-      "lower": "+4",
-      "properties": [],
-      "upper": "+6"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14~16",
-      "lower": "i14",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14~16",
+    "hitLevels": "m",
+    "damage": 13,
+    "onBlock": "-5~-3",
+    "onHit": "+4~+6",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 86,
+    "id": "Steve-RWV.1,2",
+    "parent": "Steve-RWV.1",
     "name": "Hawk Swoop Combo",
     "input": "RWV.1,2",
-    "hitLevels": [
-      "m",
-      "h"
-    ],
-    "damage": [
-      13,
-      17
-    ],
-    "framesOnBlock": {
-      "_raw": "3",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "8",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14~16",
-      "lower": "i14",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14~16",
+    "hitLevels": "m,h",
+    "damage": "13,17",
+    "onBlock": 3,
+    "onHit": 8,
+    "onCounterHit": null,
+    "states": null,
+    "index": 86
   },
   {
+    "id": "Steve-RWV.1,2~1",
+    "parent": "Steve-RWV.1",
     "name": "Swindler",
     "input": "RWV.1,2~1",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      13,
-      17
-    ],
-    "framesOnBlock": {
-      "_raw": "-8",
-      "lower": "-8",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "4",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+63a",
-      "lower": "+63",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i14~16",
-      "lower": "i14",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14~16",
+    "hitLevels": "m,m",
+    "damage": "13,17",
+    "onBlock": -8,
+    "onHit": 4,
+    "onCounterHit": "+63a",
+    "states": null,
+    "index": null
   },
   {
-    "index": 88,
+    "id": "Steve-RWV.2",
+    "parent": null,
     "name": "Gut Drill",
     "input": "RWV.2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      22
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+10a (+1)",
-      "lower": "+10",
-      "properties": [
-        "a"
-      ],
-      "tech": "+1"
-    },
-    "framesOnCounter": {
-      "_raw": "+31a (+5)",
-      "lower": "+31",
-      "properties": [
-        "a"
-      ],
-      "tech": "+5"
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m",
+    "damage": 22,
+    "onBlock": -13,
+    "onHit": "+10a (+1)",
+    "onCounterHit": "+31a (+5)",
+    "states": null,
+    "index": 88
   },
   {
-    "index": 121,
+    "id": "Steve-SWY.1",
+    "parent": null,
     "name": "Billy Club",
     "input": "SWY.1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      26
-    ],
-    "framesOnBlock": {
-      "_raw": "-1c~+0c",
-      "lower": "-1",
-      "properties": [
-        "c",
-        "c"
-      ],
-      "upper": "+0"
-    },
-    "framesOnHit": {
-      "_raw": "[[Steve_combos#Mini-combos|+14c~+15c]]",
-      "lower": "+14",
-      "properties": [
-        "c",
-        "c"
-      ],
-      "upper": "+15"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16~17",
-      "lower": "i16",
-      "properties": [],
-      "upper": "17"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16~17",
+    "hitLevels": "m",
+    "damage": 26,
+    "onBlock": "-1c~+0c",
+    "onHit": "[[Steve_combos#Mini-combos|+14c~+15c]]",
+    "onCounterHit": null,
+    "states": null,
+    "index": 121
   },
   {
-    "index": 123,
+    "id": "Steve-SWY.1+2",
+    "parent": null,
     "name": "Position Change",
     "input": "SWY.1+2",
-    "hitLevels": [
-      "th"
-    ],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+1 / +10~17wc",
-      "lower": "+1",
-      "properties": [
-        "wc"
-      ],
-      "upper": "17"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10~15",
-      "lower": "i10",
-      "properties": [],
-      "upper": "15"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10~15",
+    "hitLevels": "th",
+    "damage": null,
+    "onBlock": -2,
+    "onHit": "+1 / +10~17wc",
+    "onCounterHit": null,
+    "states": null,
+    "index": 123
   },
   {
+    "id": "Steve-SWY.1+2~b_u_d",
+    "parent": null,
+    "name": null,
     "input": "SWY.1+2~b_u_d",
-    "hitLevels": [
-      "th"
-    ],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+1 / +13~23?wc",
-      "lower": "+1",
-      "properties": [],
-      "upper": "23"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10~15",
-      "lower": "i10",
-      "properties": [],
-      "upper": "15"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10~15",
+    "hitLevels": "th",
+    "damage": null,
+    "onBlock": -2,
+    "onHit": "+1 / +13~23?wc",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 122,
+    "id": "Steve-SWY.2",
+    "parent": null,
     "name": "Snake Charmer",
     "input": "SWY.2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      30
-    ],
-    "framesOnBlock": {
-      "_raw": "-18",
-      "lower": "-18",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "[[Steve_combos#Staples|+36a]]",
-      "lower": "+36",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17~18",
-      "lower": "i17",
-      "properties": [],
-      "upper": "18"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17~18",
+    "hitLevels": "m",
+    "damage": 30,
+    "onBlock": -18,
+    "onHit": "[[Steve_combos#Staples|+36a]]",
+    "onCounterHit": null,
+    "states": "cs1~",
+    "index": 122
   },
   {
-    "index": 61,
+    "id": "Steve-ub+1+2",
+    "parent": null,
     "name": "Hellfire",
     "input": "ub+1+2",
-    "hitLevels": [
-      "ub(m)"
-    ],
-    "damage": [
-      70
-    ],
-    "framesOnBlock": {
-      "_raw": "+12a (+1)",
-      "lower": "+12",
-      "properties": [
-        "a"
-      ],
-      "tech": "+1"
-    },
-    "framesOnHit": {
-      "_raw": "+12a (+1)",
-      "lower": "+12",
-      "properties": [
-        "a"
-      ],
-      "tech": "+1"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i66~69",
-      "lower": "i66",
-      "properties": [],
-      "upper": "69"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i66~69",
+    "hitLevels": "ub(m)",
+    "damage": 70,
+    "onBlock": "+12a (+1)",
+    "onHit": "+12a (+1)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 61
   },
   {
-    "index": 58,
+    "id": "Steve-ub+2",
+    "parent": null,
     "name": "Bounty Hunter",
     "input": "ub+2",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      17
-    ],
-    "framesOnBlock": {
-      "_raw": "3",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "[[Steve_combos#Mini-combos|+14]]",
-      "lower": "+14",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17",
-      "lower": "i17",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17",
+    "hitLevels": "h",
+    "damage": 17,
+    "onBlock": 3,
+    "onHit": "[[Steve_combos#Mini-combos|+14]]",
+    "onCounterHit": null,
+    "states": null,
+    "index": 58
   },
   {
+    "id": "Steve-ub+2~1",
+    "parent": null,
     "name": "Swindler",
     "input": "ub+2~1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      17
-    ],
-    "framesOnBlock": {
-      "_raw": "-8",
-      "lower": "-8",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "4",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+63a",
-      "lower": "+63",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i30~31",
-      "lower": "i30",
-      "properties": [],
-      "upper": "31"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i30~31",
+    "hitLevels": "m",
+    "damage": 17,
+    "onBlock": -8,
+    "onHit": 4,
+    "onCounterHit": "+63a",
+    "states": null,
+    "index": null
   },
   {
-    "index": 131,
+    "id": "Steve-ub+3",
+    "parent": null,
     "name": "Lion Heart",
     "input": "ub+3",
-    "hitLevels": [
-      "sp"
-    ],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": "sp",
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": 131
   },
   {
-    "index": 62,
+    "id": "Steve-uf+1",
+    "parent": null,
     "name": "Over the Top",
     "input": "uf+1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      18
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "5",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i19~21",
-      "lower": "i19",
-      "properties": [],
-      "upper": "21"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i19~21",
+    "hitLevels": "m",
+    "damage": 18,
+    "onBlock": -6,
+    "onHit": 5,
+    "onCounterHit": null,
+    "states": "js9~",
+    "index": 62
   },
   {
-    "index": 140,
+    "id": "Steve-uf+1+2",
+    "parent": null,
     "name": "Armlock Throw",
     "input": "uf+1+2",
-    "hitLevels": [
-      "throw"
-    ],
-    "damage": [
-      40
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "throw",
+    "damage": 40,
+    "onBlock": 0,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": 140
   },
   {
-    "index": 63,
+    "id": "Steve-uf+2",
+    "parent": null,
     "name": "Burst Hammer",
     "input": "uf+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-14",
-      "lower": "-14",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "[[Steve_combos#Staples|+52a]]",
-      "lower": "+52",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i22~25",
-      "lower": "i22",
-      "properties": [],
-      "upper": "25"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i22~25",
+    "hitLevels": "m",
+    "damage": 20,
+    "onBlock": -14,
+    "onHit": "[[Steve_combos#Staples|+52a]]",
+    "onCounterHit": null,
+    "states": "js9~",
+    "index": 63
   },
   {
+    "id": "Steve-uf+3",
+    "parent": null,
+    "name": null,
     "input": "uf+3",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "9",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i36~37",
-      "lower": "i36",
-      "properties": [],
-      "upper": "37"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i36~37",
+    "hitLevels": "l",
+    "damage": 20,
+    "onBlock": -12,
+    "onHit": 9,
+    "onCounterHit": null,
+    "states": "js9~",
+    "index": null
   },
   {
-    "index": 64,
+    "id": "Steve-uf+3,2",
+    "parent": "Steve-uf+3",
     "name": "Jump-in Foot Stomp Right Hook",
     "input": "uf+3,2",
-    "hitLevels": [
-      "l",
-      "h"
-    ],
-    "damage": [
-      20,
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "8",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i36~37",
-      "lower": "i36",
-      "properties": [],
-      "upper": "37"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i36~37",
+    "hitLevels": "l,h",
+    "damage": "20,10",
+    "onBlock": -6,
+    "onHit": 8,
+    "onCounterHit": null,
+    "states": null,
+    "index": 64
   },
   {
-    "index": 65,
+    "id": "Steve-uf+4",
+    "parent": null,
     "name": "Jumping Duck Kick",
     "input": "uf+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+22a (+5)",
-      "lower": "+22",
-      "properties": [
-        "a"
-      ],
-      "tech": "+5"
-    },
-    "framesOnCounter": {
-      "_raw": "+36a (+26)",
-      "lower": "+36",
-      "properties": [
-        "a"
-      ],
-      "tech": "+26"
-    },
-    "framesOnStartup": {
-      "_raw": "i23",
-      "lower": "i23",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i23",
+    "hitLevels": "m",
+    "damage": 20,
+    "onBlock": -9,
+    "onHit": "+22a (+5)",
+    "onCounterHit": "+36a (+26)",
+    "states": "js9~",
+    "index": 65
   },
   {
+    "id": "Steve-WS.1",
+    "parent": null,
+    "name": null,
     "input": "WS.1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "3",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "8",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i11~12",
-      "lower": "i11",
-      "properties": [],
-      "upper": "12"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i11~12",
+    "hitLevels": "m",
+    "damage": 12,
+    "onBlock": -3,
+    "onHit": 3,
+    "onCounterHit": 8,
+    "states": null,
+    "index": null
   },
   {
-    "index": 75,
+    "id": "Steve-WS.1,1",
+    "parent": "Steve-WS.1",
     "name": "Eagle Jab",
     "input": "WS.1,1",
-    "hitLevels": [
-      "m",
-      "h"
-    ],
-    "damage": [
-      12,
-      7
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "3",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i11~12",
-      "lower": "i11",
-      "properties": [],
-      "upper": "12"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i11~12",
+    "hitLevels": "m,h",
+    "damage": "12,7",
+    "onBlock": -3,
+    "onHit": 3,
+    "onCounterHit": null,
+    "states": null,
+    "index": 75
   },
   {
-    "index": 76,
+    "id": "Steve-WS.1,2",
+    "parent": "Steve-WS.1",
     "name": "Wildman",
     "input": "WS.1,2",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      12,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+3c",
-      "lower": "+3",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "+23d",
-      "lower": "+23",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i11~12",
-      "lower": "i11",
-      "properties": [],
-      "upper": "12"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i11~12",
+    "hitLevels": "m,m",
+    "damage": "12,20",
+    "onBlock": -13,
+    "onHit": "+3c",
+    "onCounterHit": "+23d",
+    "states": null,
+    "index": 76
   },
   {
+    "id": "Steve-WS.2",
+    "parent": null,
+    "name": null,
     "input": "WS.2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      17
-    ],
-    "framesOnBlock": {
-      "_raw": "-7",
-      "lower": "-7",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "4",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13~15",
-      "lower": "i13",
-      "properties": [],
-      "upper": "15"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13~15",
+    "hitLevels": "m",
+    "damage": 17,
+    "onBlock": -7,
+    "onHit": 4,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 77,
+    "id": "Steve-WS.2,2",
+    "parent": "Steve-WS.2",
     "name": "Nighthawk Combination",
     "input": "WS.2,2",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      17,
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "11",
-      "lower": "11",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13~15",
-      "lower": "i13",
-      "properties": [],
-      "upper": "15"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13~15",
+    "hitLevels": "m,m",
+    "damage": "17,15",
+    "onBlock": -6,
+    "onHit": 11,
+    "onCounterHit": null,
+    "states": null,
+    "index": 77
   }
 ]

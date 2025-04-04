@@ -1,5652 +1,1990 @@
 [
   {
+    "id": "Asuka-1",
+    "parent": null,
     "name": "Jab",
-    "input": "1",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      6
-    ],
-    "framesOnBlock": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "9",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": 1,
+    "startup": "i10",
+    "hitLevels": "h",
+    "damage": 6,
+    "onBlock": -2,
+    "onHit": 9,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 13,
+    "id": "Asuka-1,1",
+    "parent": "Asuka-1",
     "name": "Whiplash",
     "input": "1,1",
-    "hitLevels": [
-      "h",
-      "m"
-    ],
-    "damage": [
-      6,
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "-7",
-      "lower": "-7",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "4",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,m",
+    "damage": "6,15",
+    "onBlock": -7,
+    "onHit": 4,
+    "onCounterHit": null,
+    "states": null,
+    "index": 13
   },
   {
+    "id": "Asuka-1,1,3",
+    "parent": "Asuka-1,1",
+    "name": null,
     "input": "1,1,3",
-    "hitLevels": [
-      "h",
-      "m",
-      "m"
-    ],
-    "damage": [
-      6,
-      15,
-      17
-    ],
-    "framesOnBlock": {
-      "_raw": "-5",
-      "lower": "-5",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "6",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+14c",
-      "lower": "+14",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,m,m",
+    "damage": "6,15,17",
+    "onBlock": -5,
+    "onHit": 6,
+    "onCounterHit": "+14c",
+    "states": null,
+    "index": null
   },
   {
-    "index": 21,
+    "id": "Asuka-1+2",
+    "parent": null,
     "name": "Inner Strength",
     "input": "1+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "[[Asuka_combos#Staples|+27a]]",
-      "lower": "+27",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "m",
+    "damage": 21,
+    "onBlock": -9,
+    "onHit": "[[Asuka_combos#Staples|+27a]]",
+    "onCounterHit": null,
+    "states": null,
+    "index": 21
   },
   {
+    "id": "Asuka-1,2",
+    "parent": "Asuka-1",
     "name": "Jab Uppercut",
     "input": "1,2",
-    "hitLevels": [
-      "h",
-      "m"
-    ],
-    "damage": [
-      6,
-      9
-    ],
-    "framesOnBlock": {
-      "_raw": "-8",
-      "lower": "-8",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "6",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,m",
+    "damage": "6,9",
+    "onBlock": -8,
+    "onHit": 6,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 14,
+    "id": "Asuka-1,2,3",
+    "parent": "Asuka-1,2",
     "name": "Jab Uppercut &gt; Spinning Heel Drop",
     "input": "1,2,3",
-    "hitLevels": [
-      "h",
-      "m",
-      "m"
-    ],
-    "damage": [
-      6,
-      9,
-      24
-    ],
-    "framesOnBlock": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+29a (+20)",
-      "lower": "+29",
-      "properties": [
-        "a"
-      ],
-      "tech": "+20"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,m,m",
+    "damage": "6,9,24",
+    "onBlock": -2,
+    "onHit": "+29a (+20)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 14
   },
   {
+    "id": "Asuka-1,2,3*",
+    "parent": "Asuka-1,2",
     "name": "Jab Uppercut &gt; Spinning Heel Drop (Hold)",
     "input": "1,2,3*",
-    "hitLevels": [
-      "h",
-      "m",
-      "m"
-    ],
-    "damage": [
-      6,
-      9,
-      26
-    ],
-    "framesOnBlock": {
-      "_raw": "6",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+28a (+19)",
-      "lower": "+28",
-      "properties": [
-        "a"
-      ],
-      "tech": "+19"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,m,m",
+    "damage": "6,9,26",
+    "onBlock": 6,
+    "onHit": "+28a (+19)",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 78,
+    "id": "Asuka-1+2+3+4",
+    "parent": null,
     "name": "Ki Charge",
     "input": "1+2+3+4",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": 78
   },
   {
+    "id": "Asuka-1+2+3+4,1+2",
+    "parent": "Asuka-1+2+3+4",
     "name": "Naniwa Ultimate Tackle (Tackle)",
     "input": "1+2+3+4,1+2",
-    "hitLevels": [
-      "null",
-      "m",
-      "t"
-    ],
-    "damage": [
-      null,
-      0,
-      0
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "3",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": "null,m,t",
+    "damage": "null,0,0",
+    "onBlock": -6,
+    "onHit": null,
+    "onCounterHit": 3,
+    "states": null,
+    "index": null
   },
   {
-    "index": 15,
+    "id": "Asuka-1,2,4",
+    "parent": "Asuka-1,2",
     "name": "Jab Uppercut &gt; Front Kick",
     "input": "1,2,4",
-    "hitLevels": [
-      "h",
-      "m",
-      "m"
-    ],
-    "damage": [
-      6,
-      9,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+12s",
-      "lower": "+12",
-      "properties": [
-        "s"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,m,m",
+    "damage": "6,9,20",
+    "onBlock": -12,
+    "onHit": "+12s",
+    "onCounterHit": null,
+    "states": null,
+    "index": 15
   },
   {
-    "index": 97,
+    "id": "Asuka-1+3",
+    "parent": null,
     "name": "Aiki Nage",
     "input": "1+3",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      35
-    ],
-    "framesOnBlock": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12~14",
-      "lower": "i12",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12~14",
+    "hitLevels": "t",
+    "damage": 35,
+    "onBlock": -2,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 97
   },
   {
-    "index": 16,
+    "id": "Asuka-1,3",
+    "parent": "Asuka-1",
     "name": "Jab Low Kick",
     "input": "1,3",
-    "hitLevels": [
-      "h",
-      "l"
-    ],
-    "damage": [
-      6,
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-11",
-      "lower": "-11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,l",
+    "damage": "6,10",
+    "onBlock": -11,
+    "onHit": 0,
+    "onCounterHit": null,
+    "states": null,
+    "index": 16
   },
   {
+    "id": "Asuka-1+4",
+    "parent": null,
+    "name": null,
     "input": "1+4",
-    "hitLevels": [
-      "sl",
-      "h"
-    ],
-    "damage": [
-      5,
-      8
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "4",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14 i17",
-      "lower": "i14",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14 i17",
+    "hitLevels": "sl,h",
+    "damage": "5,8",
+    "onBlock": -3,
+    "onHit": -3,
+    "onCounterHit": 4,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Asuka-1+4,2",
+    "parent": "Asuka-1+4",
+    "name": null,
     "input": "1+4,2",
-    "hitLevels": [
-      "sl",
-      "h",
-      "h"
-    ],
-    "damage": [
-      5,
-      8,
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "9",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14 i17",
-      "lower": "i14",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14 i17",
+    "hitLevels": "sl,h,h",
+    "damage": "5,8,10",
+    "onBlock": -2,
+    "onHit": 9,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 23,
+    "id": "Asuka-1+4,2,4",
+    "parent": "Asuka-1+4,2",
     "name": "White Heron Dance",
     "input": "1+4,2,4",
-    "hitLevels": [
-      "sl",
-      "h",
-      "h",
-      "m"
-    ],
-    "damage": [
-      5,
-      8,
-      10,
-      26
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "4",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+17a (+8)",
-      "lower": "+17",
-      "properties": [
-        "a"
-      ],
-      "tech": "+8"
-    },
-    "framesOnStartup": {
-      "_raw": "i14 i17",
-      "lower": "i14",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14 i17",
+    "hitLevels": "sl,h,h,m",
+    "damage": "5,8,10,26",
+    "onBlock": -9,
+    "onHit": 4,
+    "onCounterHit": "+17a (+8)",
+    "states": null,
+    "index": 23
   },
   {
-    "index": 24,
+    "id": "Asuka-1+4,2,d+4",
+    "parent": "Asuka-1+4,2",
     "name": "White Heron Lower Dance",
     "input": "1+4,2,d+4",
-    "hitLevels": [
-      "sl",
-      "h",
-      "h",
-      "L"
-    ],
-    "damage": [
-      5,
-      8,
-      10,
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "-23",
-      "lower": "-23",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+27d",
-      "lower": "+27",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14 i17",
-      "lower": "i14",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14 i17",
+    "hitLevels": "sl,h,h,L",
+    "damage": "5,8,10,15",
+    "onBlock": -23,
+    "onHit": "+27d",
+    "onCounterHit": null,
+    "states": ",cs10~38",
+    "index": 24
   },
   {
-    "index": 25,
+    "id": "Asuka-1+4,3",
+    "parent": "Asuka-1+4",
     "name": "White Heron Spinning Heel Drop",
     "input": "1+4,3",
-    "hitLevels": [
-      "sl",
-      "h",
-      "m"
-    ],
-    "damage": [
-      5,
-      8,
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+29a (+20)",
-      "lower": "+29",
-      "properties": [
-        "a"
-      ],
-      "tech": "+20"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14 i17",
-      "lower": "i14",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14 i17",
+    "hitLevels": "sl,h,m",
+    "damage": "5,8,25",
+    "onBlock": -2,
+    "onHit": "+29a (+20)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 25
   },
   {
-    "input": "2",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      9
-    ],
-    "framesOnBlock": {
-      "_raw": "-7",
-      "lower": "-7",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "2",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "id": "Asuka-2",
+    "parent": null,
+    "name": null,
+    "input": 2,
+    "startup": "i12",
+    "hitLevels": "h",
+    "damage": 9,
+    "onBlock": -7,
+    "onHit": 2,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Asuka-2,1",
+    "parent": "Asuka-2",
+    "name": null,
     "input": "2,1",
-    "hitLevels": [
-      "h",
-      "h"
-    ],
-    "damage": [
-      9,
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "6",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "h,h",
+    "damage": "9,10",
+    "onBlock": -6,
+    "onHit": 6,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 17,
+    "id": "Asuka-2,1,2",
+    "parent": "Asuka-2,1",
     "name": "Basho Cutter",
     "input": "2,1,2",
-    "hitLevels": [
-      "h",
-      "h",
-      "m"
-    ],
-    "damage": [
-      9,
-      10,
-      16
-    ],
-    "framesOnBlock": {
-      "_raw": "-10",
-      "lower": "-10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+16a (-1)",
-      "lower": "+16",
-      "properties": [
-        "a"
-      ],
-      "tech": "-1"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "h,h,m",
+    "damage": "9,10,16",
+    "onBlock": -10,
+    "onHit": "+16a (-1)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 17
   },
   {
-    "index": 18,
+    "id": "Asuka-2,1,d+1+2",
+    "parent": "Asuka-2,1",
     "name": "Basho Oroshi",
     "input": "2,1,d+1+2",
-    "hitLevels": [
-      "h",
-      "h",
-      "m"
-    ],
-    "damage": [
-      9,
-      10,
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+3c",
-      "lower": "+3",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "[[Asuka_combos#Staples|+38a]]",
-      "lower": "+38",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "h,h,m",
+    "damage": "9,10,23",
+    "onBlock": -9,
+    "onHit": "+3c",
+    "onCounterHit": "[[Asuka_combos#Staples|+38a]]",
+    "states": null,
+    "index": 18
   },
   {
+    "id": "Asuka-2+3",
+    "parent": null,
     "name": "Heat Burst",
     "input": "2+3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      12,
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "1",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+2c",
-      "lower": "+2",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "m",
+    "damage": "[12;12]",
+    "onBlock": 1,
+    "onHit": "+2c",
+    "onCounterHit": null,
+    "states": "pc7~16",
+    "index": null
   },
   {
-    "index": 19,
+    "id": "Asuka-2,3",
+    "parent": "Asuka-2",
     "name": "Mizu Basho",
     "input": "2,3",
-    "hitLevels": [
-      "h",
-      "m"
-    ],
-    "damage": [
-      9,
-      16
-    ],
-    "framesOnBlock": {
-      "_raw": "-17",
-      "lower": "-17",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+14g",
-      "lower": "+14",
-      "properties": [
-        "g"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "h,m",
+    "damage": "9,16",
+    "onBlock": -17,
+    "onHit": "+14g",
+    "onCounterHit": null,
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* ,js18~41\n* fs42~44&lt;/div&gt;",
+    "index": 19
   },
   {
-    "index": 98,
+    "id": "Asuka-2+4",
+    "parent": null,
     "name": "Katanuki",
     "input": "2+4",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      35
-    ],
-    "framesOnBlock": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12~14",
-      "lower": "i12",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12~14",
+    "hitLevels": "t",
+    "damage": 35,
+    "onBlock": -2,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 98
   },
   {
-    "input": "3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      17
-    ],
-    "framesOnBlock": {
-      "_raw": "-7",
-      "lower": "-7",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "9",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14",
-      "lower": "i14",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "id": "Asuka-3",
+    "parent": null,
+    "name": null,
+    "input": 3,
+    "startup": "i14",
+    "hitLevels": "m",
+    "damage": 17,
+    "onBlock": -7,
+    "onHit": 9,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 20,
+    "id": "Asuka-3,1",
+    "parent": "Asuka-3",
     "name": "Hyakujitsuko",
     "input": "3,1",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      17,
-      17
-    ],
-    "framesOnBlock": {
-      "_raw": "-11",
-      "lower": "-11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "8",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "[[Asuka_combos#Minicombos|+35a (+27)]]",
-      "lower": "+35",
-      "properties": [
-        "a"
-      ],
-      "tech": "+27"
-    },
-    "framesOnStartup": {
-      "_raw": "i14",
-      "lower": "i14",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14",
+    "hitLevels": "m,m",
+    "damage": "17,17",
+    "onBlock": -11,
+    "onHit": 8,
+    "onCounterHit": "[[Asuka_combos#Minicombos|+35a (+27)]]",
+    "states": null,
+    "index": 20
   },
   {
-    "index": 22,
+    "id": "Asuka-3+4",
+    "parent": null,
     "name": "Ryuuntsui",
     "input": "3+4",
-    "hitLevels": [
-      "m",
-      "M"
-    ],
-    "damage": [
-      10,
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+25a",
-      "lower": "+25",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i23~24 i6~8",
-      "lower": "i23",
-      "properties": [],
-      "upper": "24"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i23~24 i6~8",
+    "hitLevels": "m,M",
+    "damage": "10,21",
+    "onBlock": -6,
+    "onHit": "+25a",
+    "onCounterHit": null,
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* js5~33\n* fs34~36&lt;/div&gt;",
+    "index": 22
   },
   {
+    "id": "Asuka-4",
+    "parent": null,
     "name": "High Kick",
-    "input": "4",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      18
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "7",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "[[Asuka_combos#Staples|+32a]]",
-      "lower": "+32",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i11",
-      "lower": "i11",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": 4,
+    "startup": "i11",
+    "hitLevels": "h",
+    "damage": 18,
+    "onBlock": -9,
+    "onHit": 7,
+    "onCounterHit": "[[Asuka_combos#Staples|+32a]]",
+    "states": null,
+    "index": null
   },
   {
-    "index": 53,
+    "id": "Asuka-b+1",
+    "parent": null,
     "name": "Violet",
     "input": "b+1",
-    "hitLevels": [
-      "L"
-    ],
-    "damage": [
-      17
-    ],
-    "framesOnBlock": {
-      "_raw": "-10",
-      "lower": "-10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "6",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i29~30",
-      "lower": "i29",
-      "properties": [],
-      "upper": "30"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i29~30",
+    "hitLevels": "L",
+    "damage": 17,
+    "onBlock": -10,
+    "onHit": 6,
+    "onCounterHit": "+0d",
+    "states": "cs6~",
+    "index": 53
   },
   {
+    "id": "Asuka-b+1+3",
+    "parent": null,
     "name": "Attack Reversal",
     "input": "b+1+3",
-    "hitLevels": [],
-    "damage": [
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": 25,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": "ps5~12",
+    "index": null
   },
   {
+    "id": "Asuka-b+1+3*",
+    "parent": null,
     "name": "Attack Reversal (Hold)",
     "input": "b+1+3*",
-    "hitLevels": [],
-    "damage": [
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": 25,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": "ps5~54",
+    "index": null
   },
   {
+    "id": "Asuka-b+1+4",
+    "parent": null,
+    "name": null,
     "input": "b+1+4",
-    "hitLevels": [
-      "h",
-      "L"
-    ],
-    "damage": [
-      15,
-      8
-    ],
-    "framesOnBlock": {
-      "_raw": "-8",
-      "lower": "-8",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "5",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "7",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12 i17~18",
-      "lower": "i12",
-      "properties": [],
-      "upper": "18"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12 i17~18",
+    "hitLevels": "h,L",
+    "damage": "15,8",
+    "onBlock": -8,
+    "onHit": 5,
+    "onCounterHit": 7,
+    "states": null,
+    "index": null
   },
   {
-    "index": 62,
+    "id": "Asuka-b+1+4,3",
+    "parent": "Asuka-b+1+4",
     "name": "Reverse Narcissus",
     "input": "b+1+4,3",
-    "hitLevels": [
-      "h",
-      "L",
-      "L"
-    ],
-    "damage": [
-      15,
-      8,
-      18
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+16a",
-      "lower": "+16",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i12 i17~18",
-      "lower": "i12",
-      "properties": [],
-      "upper": "18"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12 i17~18",
+    "hitLevels": "h,L,L",
+    "damage": "15,8,18",
+    "onBlock": -13,
+    "onHit": -2,
+    "onCounterHit": "+16a",
+    "states": null,
+    "index": 62
   },
   {
-    "index": 63,
+    "id": "Asuka-b+1+4,4",
+    "parent": "Asuka-b+1+4",
     "name": "Narcissus",
     "input": "b+1+4,4",
-    "hitLevels": [
-      "h",
-      "L",
-      "m"
-    ],
-    "damage": [
-      15,
-      8,
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "-14",
-      "lower": "-14",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+5b",
-      "lower": "+5",
-      "properties": [
-        "b"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12 i17~18",
-      "lower": "i12",
-      "properties": [],
-      "upper": "18"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12 i17~18",
+    "hitLevels": "h,L,m",
+    "damage": "15,8,23",
+    "onBlock": -14,
+    "onHit": "+5b",
+    "onCounterHit": null,
+    "states": null,
+    "index": 63
   },
   {
+    "id": "Asuka-b+2",
+    "parent": null,
     "name": "Swallow Mallet",
     "input": "b+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-4c",
-      "lower": "-4",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnHit": {
-      "_raw": "+1c",
-      "lower": "+1",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m",
+    "damage": 12,
+    "onBlock": "-4c",
+    "onHit": "+1c",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 55,
+    "id": "Asuka-b+2,1",
+    "parent": "Asuka-b+2",
     "name": "Swallow Mallet Lunging Mist Thrust",
     "input": "b+2,1",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      12,
-      14
-    ],
-    "framesOnBlock": {
-      "_raw": "-7",
-      "lower": "-7",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "4",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m,m",
+    "damage": "12,14",
+    "onBlock": -7,
+    "onHit": 4,
+    "onCounterHit": null,
+    "states": null,
+    "index": 55
   },
   {
+    "id": "Asuka-b+2,1+2",
+    "parent": "Asuka-b+2",
+    "name": null,
     "input": "b+2,1+2",
-    "hitLevels": [
-      "m",
-      "h"
-    ],
-    "damage": [
-      12,
-      7
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "2",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m,h",
+    "damage": "12,7",
+    "onBlock": -9,
+    "onHit": 2,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 57,
+    "id": "Asuka-b+2,1+2,4",
+    "parent": "Asuka-b+2,1+2",
     "name": "Swallow Mallet Combo",
     "input": "b+2,1+2,4",
-    "hitLevels": [
-      "m",
-      "h",
-      "m"
-    ],
-    "damage": [
-      12,
-      7,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+18a (+9)",
-      "lower": "+18",
-      "properties": [
-        "a"
-      ],
-      "tech": "+9"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m,h,m",
+    "damage": "12,7,20",
+    "onBlock": -13,
+    "onHit": "+18a (+9)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 57
   },
   {
-    "index": 64,
+    "id": "Asuka-b+2+3",
+    "parent": null,
     "name": "Azalea",
     "input": "b+2+3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "6",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i24~25",
-      "lower": "i24",
-      "properties": [],
-      "upper": "25"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i24~25",
+    "hitLevels": "m",
+    "damage": 23,
+    "onBlock": -9,
+    "onHit": 6,
+    "onCounterHit": null,
+    "states": "ps4~15",
+    "index": 64
   },
   {
-    "index": 56,
+    "id": "Asuka-b+2,4",
+    "parent": "Asuka-b+2",
     "name": "Swallow Mallet Leg Cutter",
     "input": "b+2,4",
-    "hitLevels": [
-      "m",
-      "L"
-    ],
-    "damage": [
-      12,
-      14
-    ],
-    "framesOnBlock": {
-      "_raw": "-11",
-      "lower": "-11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "3",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m,L",
+    "damage": "12,14",
+    "onBlock": -11,
+    "onHit": 0,
+    "onCounterHit": 3,
+    "states": "cs15~",
+    "index": 56
   },
   {
-    "index": 58,
+    "id": "Asuka-b+3",
+    "parent": null,
     "name": "Dragon Wheel Kick",
     "input": "b+3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "-19",
-      "lower": "-19",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "[[Asuka_combos#Staples|+22a (+12)]]",
-      "lower": "+22",
-      "properties": [
-        "a"
-      ],
-      "tech": "+12"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16~17",
-      "lower": "i16",
-      "properties": [],
-      "upper": "17"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16~17",
+    "hitLevels": "m",
+    "damage": 15,
+    "onBlock": -19,
+    "onHit": "[[Asuka_combos#Staples|+22a (+12)]]",
+    "onCounterHit": null,
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* js10~37\n* fs38~40&lt;/div&gt;",
+    "index": 58
   },
   {
+    "id": "Asuka-b+3,2",
+    "parent": "Asuka-b+3",
     "name": "Dragon Wheel Kick Demon Slayer",
     "input": "b+3,2",
-    "hitLevels": [
-      "m",
-      "M"
-    ],
-    "damage": [
-      15,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-20",
-      "lower": "-20",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "[[Asuka_combos#Staples|+33a (+23)]]",
-      "lower": "+33",
-      "properties": [
-        "a"
-      ],
-      "tech": "+23"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16~17",
-      "lower": "i16",
-      "properties": [],
-      "upper": "17"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16~17",
+    "hitLevels": "m,M",
+    "damage": "15,20",
+    "onBlock": -20,
+    "onHit": "[[Asuka_combos#Staples|+33a (+23)]]",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 60,
+    "id": "Asuka-b+3,4",
+    "parent": "Asuka-b+3",
     "name": "Dragon Wheel Leg Cutter",
     "input": "b+3,4",
-    "hitLevels": [
-      "m",
-      "L"
-    ],
-    "damage": [
-      15,
-      14
-    ],
-    "framesOnBlock": {
-      "_raw": "-11",
-      "lower": "-11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "3",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16~17",
-      "lower": "i16",
-      "properties": [],
-      "upper": "17"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16~17",
+    "hitLevels": "m,L",
+    "damage": "15,14",
+    "onBlock": -11,
+    "onHit": 0,
+    "onCounterHit": 3,
+    "states": ",cs1~",
+    "index": 60
   },
   {
+    "id": "Asuka-b+4",
+    "parent": null,
+    "name": null,
     "input": "b+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      17
-    ],
-    "framesOnBlock": {
-      "_raw": "-7",
-      "lower": "-7",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "8",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "[[Asuka_combos#Staples|+56a]]",
-      "lower": "+56",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "m",
+    "damage": 17,
+    "onBlock": -7,
+    "onHit": 8,
+    "onCounterHit": "[[Asuka_combos#Staples|+56a]]",
+    "states": null,
+    "index": null
   },
   {
+    "id": "Asuka-b+4,2",
+    "parent": "Asuka-b+4",
+    "name": null,
     "input": "b+4,2",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      17,
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+4c",
-      "lower": "+4",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "m,m",
+    "damage": "17,12",
+    "onBlock": -12,
+    "onHit": "+4c",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 61,
+    "id": "Asuka-b+4,2,3",
+    "parent": "Asuka-b+4,2",
     "name": "Tsuyababuki",
     "input": "b+4,2,3",
-    "hitLevels": [
-      "m",
-      "m",
-      "M"
-    ],
-    "damage": [
-      17,
-      12,
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-16",
-      "lower": "-16",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+15a (-2)",
-      "lower": "+15",
-      "properties": [
-        "a"
-      ],
-      "tech": "-2"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "m,m,M",
+    "damage": "17,12,21",
+    "onBlock": -16,
+    "onHit": "+15a (-2)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 61
   },
   {
-    "index": 101,
+    "id": "Asuka-Back throw",
+    "parent": null,
     "name": "Twisted Limbs",
-    "input": "Backthrow",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      50
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+7d",
-      "lower": "+7",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": "Back throw",
+    "startup": null,
+    "hitLevels": "t",
+    "damage": 50,
+    "onBlock": null,
+    "onHit": "+7d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 101
   },
   {
+    "id": "Asuka-(Back to wall).b,b,UB",
+    "parent": null,
     "name": "[[Wall Jump Attack]]",
-    "input": "(Backtowall).b,b,UB",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "+4c~+6c",
-      "lower": "+4",
-      "properties": [
-        "c",
-        "c"
-      ],
-      "upper": "+6"
-    },
-    "framesOnHit": {
-      "_raw": "+22a",
-      "lower": "+22",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i39~41",
-      "lower": "i39",
-      "properties": [],
-      "upper": "41"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": "(Back to wall).b,b,UB",
+    "startup": "i39~41",
+    "hitLevels": "m",
+    "damage": 21,
+    "onBlock": "+4c~+6c",
+    "onHit": "+22a",
+    "onCounterHit": null,
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* fs5~13\n* js14~33\n* fs34~36&lt;/div&gt;",
+    "index": null
   },
   {
-    "index": 42,
+    "id": "Asuka-d+1+2",
+    "parent": null,
     "name": "Sashiro",
     "input": "d+1+2",
-    "hitLevels": [
-      "L"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-18",
-      "lower": "-18",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+11a",
-      "lower": "+11",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20",
-      "lower": "i20",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20",
+    "hitLevels": "L",
+    "damage": 20,
+    "onBlock": -18,
+    "onHit": "+11a",
+    "onCounterHit": null,
+    "states": "cs10~39",
+    "index": 42
   },
   {
-    "index": 41,
+    "id": "Asuka-d+2",
+    "parent": null,
     "name": "Heaven&#039;s Hammer",
     "input": "d+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      18
-    ],
-    "framesOnBlock": {
-      "_raw": "-4c",
-      "lower": "-4",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnHit": {
-      "_raw": "+9c",
-      "lower": "+9",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18",
-      "lower": "i18",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18",
+    "hitLevels": "m",
+    "damage": 18,
+    "onBlock": "-4c",
+    "onHit": "+9c",
+    "onCounterHit": null,
+    "states": null,
+    "index": 41
   },
   {
-    "index": 43,
+    "id": "Asuka-d+3+4",
+    "parent": null,
     "name": "Double Lift Kicks",
     "input": "d+3+4",
-    "hitLevels": [
-      "l",
-      "h"
-    ],
-    "damage": [
-      5,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-8",
-      "lower": "-8",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "[[Asuka_combos#Staples|+30a (+20)]]",
-      "lower": "+30",
-      "properties": [
-        "a"
-      ],
-      "tech": "+20"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14 i9~12",
-      "lower": "i14",
-      "properties": [],
-      "upper": "12"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14 i9~12",
+    "hitLevels": "l,h",
+    "damage": "5,20",
+    "onBlock": -8,
+    "onHit": "[[Asuka_combos#Staples|+30a (+20)]]",
+    "onCounterHit": null,
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* js5~42\n* fs43~45&lt;/div&gt;",
+    "index": 43
   },
   {
-    "index": 44,
+    "id": "Asuka-db+1",
+    "parent": null,
     "name": "Swallow Slice",
     "input": "db+1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      13
-    ],
-    "framesOnBlock": {
-      "_raw": "-10",
-      "lower": "-10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "6",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14",
-      "lower": "i14",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14",
+    "hitLevels": "m",
+    "damage": 13,
+    "onBlock": -10,
+    "onHit": 6,
+    "onCounterHit": null,
+    "states": "cs6~13",
+    "index": 44
   },
   {
-    "index": 52,
+    "id": "Asuka-db+1+2",
+    "parent": null,
     "name": "Raging Storm",
     "input": "db+1+2",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      10,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "+10g +25w",
-      "lower": "+10",
-      "properties": [
-        "g"
-      ]
-    },
-    "framesOnHit": {
-      "_raw": "+18a (+9)",
-      "lower": "+18",
-      "properties": [
-        "a"
-      ],
-      "tech": "+9"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i42 i3",
-      "lower": "i42",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i42 i3",
+    "hitLevels": "m,m",
+    "damage": "10,20",
+    "onBlock": "+10g +25w",
+    "onHit": "+18a (+9)",
+    "onCounterHit": null,
+    "states": "ps8~20",
+    "index": 52
   },
   {
-    "index": 45,
+    "id": "Asuka-db+1,2",
+    "parent": "Asuka-db+1",
     "name": "Swallow Vortex",
     "input": "db+1,2",
-    "hitLevels": [
-      "m",
-      "h"
-    ],
-    "damage": [
-      13,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+22a (+13)",
-      "lower": "+22",
-      "properties": [
-        "a"
-      ],
-      "tech": "+13"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14",
-      "lower": "i14",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14",
+    "hitLevels": "m,h",
+    "damage": "13,20",
+    "onBlock": -9,
+    "onHit": "+22a (+13)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 45
   },
   {
-    "index": 46,
+    "id": "Asuka-db+1,4",
+    "parent": "Asuka-db+1",
     "name": "Swallow Torrent",
     "input": "db+1,4",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      13,
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-15",
-      "lower": "-15",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+16a (+9)",
-      "lower": "+16",
-      "properties": [
-        "a"
-      ],
-      "tech": "+9"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14",
-      "lower": "i14",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14",
+    "hitLevels": "m,m",
+    "damage": "13,25",
+    "onBlock": -15,
+    "onHit": "+16a (+9)",
+    "onCounterHit": null,
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* ,js29~46\n* fs47~49&lt;/div&gt;",
+    "index": 46
   },
   {
-    "index": 47,
+    "id": "Asuka-db+2",
+    "parent": null,
     "name": "Funeral Palm",
     "input": "db+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      22
-    ],
-    "framesOnBlock": {
-      "_raw": "-11",
-      "lower": "-11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "[[Asuka_combos#Staples|+32a (+22)]]",
-      "lower": "+32",
-      "properties": [
-        "a"
-      ],
-      "tech": "+22"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20~21",
-      "lower": "i20",
-      "properties": [],
-      "upper": "21"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20~21",
+    "hitLevels": "m",
+    "damage": 22,
+    "onBlock": -11,
+    "onHit": "[[Asuka_combos#Staples|+32a (+22)]]",
+    "onCounterHit": null,
+    "states": "cs3~17",
+    "index": 47
   },
   {
-    "index": 48,
+    "id": "Asuka-db+3",
+    "parent": null,
     "name": "Enchanted Circle",
     "input": "db+3",
-    "hitLevels": [
-      "L"
-    ],
-    "damage": [
-      17
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+4c",
-      "lower": "+4",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "+14g",
-      "lower": "+14",
-      "properties": [
-        "g"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i20",
-      "lower": "i20",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20",
+    "hitLevels": "L",
+    "damage": 17,
+    "onBlock": -12,
+    "onHit": "+4c",
+    "onCounterHit": "+14g",
+    "states": null,
+    "index": 48
   },
   {
+    "id": "Asuka-db+4",
+    "parent": null,
+    "name": null,
     "input": "db+4",
-    "hitLevels": [
-      "L"
-    ],
-    "damage": [
-      14
-    ],
-    "framesOnBlock": {
-      "_raw": "-11",
-      "lower": "-11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "3",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i22~24",
-      "lower": "i22",
-      "properties": [],
-      "upper": "24"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i22~24",
+    "hitLevels": "L",
+    "damage": 14,
+    "onBlock": -11,
+    "onHit": 0,
+    "onCounterHit": 3,
+    "states": "cs6~41",
+    "index": null
   },
   {
-    "index": 51,
+    "id": "Asuka-db+4,1+4",
+    "parent": "Asuka-db+4",
     "name": "Kariashi Hakuro",
     "input": "db+4,1+4",
-    "hitLevels": [
-      "L",
-      "sl",
-      "h"
-    ],
-    "damage": [
-      14,
-      5,
-      8
-    ],
-    "framesOnBlock": {
-      "_raw": "--3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "9",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i22~24",
-      "lower": "i22",
-      "properties": [],
-      "upper": "24"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i22~24",
+    "hitLevels": "L,sl,h",
+    "damage": "14,5,8",
+    "onBlock": "--3",
+    "onHit": 9,
+    "onCounterHit": null,
+    "states": null,
+    "index": 51
   },
   {
-    "index": 50,
+    "id": "Asuka-db+4,3",
+    "parent": "Asuka-db+4",
     "name": "Kariashi Shiranui",
     "input": "db+4,3",
-    "hitLevels": [
-      "L",
-      "h"
-    ],
-    "damage": [
-      14,
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "[[Asuka_combos#Staples|+39a (+29)]]",
-      "lower": "+39",
-      "properties": [
-        "a"
-      ],
-      "tech": "+29"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i22~24",
-      "lower": "i22",
-      "properties": [],
-      "upper": "24"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i22~24",
+    "hitLevels": "L,h",
+    "damage": "14,21",
+    "onBlock": -3,
+    "onHit": "[[Asuka_combos#Staples|+39a (+29)]]",
+    "onCounterHit": null,
+    "states": null,
+    "index": 50
   },
   {
+    "id": "Asuka-db+4,4",
+    "parent": "Asuka-db+4",
+    "name": null,
     "input": "db+4,4",
-    "hitLevels": [
-      "L",
-      "L"
-    ],
-    "damage": [
-      14,
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "-7",
-      "lower": "-7",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "4",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+35a",
-      "lower": "+35",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i22~24",
-      "lower": "i22",
-      "properties": [],
-      "upper": "24"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i22~24",
+    "hitLevels": "L,L",
+    "damage": "14,15",
+    "onBlock": -7,
+    "onHit": 4,
+    "onCounterHit": "+35a",
+    "states": "cs1~49",
+    "index": null
   },
   {
-    "index": 49,
+    "id": "Asuka-db+4,4,4",
+    "parent": "Asuka-db+4,4",
     "name": "Leg Cutter",
     "input": "db+4,4,4",
-    "hitLevels": [
-      "L",
-      "L",
-      "L"
-    ],
-    "damage": [
-      14,
-      15,
-      16
-    ],
-    "framesOnBlock": {
-      "_raw": "-7",
-      "lower": "-7",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "4",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+35a",
-      "lower": "+35",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i22~24",
-      "lower": "i22",
-      "properties": [],
-      "upper": "24"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i22~24",
+    "hitLevels": "L,L,L",
+    "damage": "14,15,16",
+    "onBlock": -7,
+    "onHit": 4,
+    "onCounterHit": "+35a",
+    "states": "cs1~49",
+    "index": 49
   },
   {
+    "id": "Asuka-df+1",
+    "parent": null,
+    "name": null,
     "input": "df+1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "8",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13~14",
-      "lower": "i13",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13~14",
+    "hitLevels": "m",
+    "damage": 10,
+    "onBlock": -3,
+    "onHit": 8,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 36,
+    "id": "Asuka-df+1,2",
+    "parent": "Asuka-df+1",
     "name": "Falling Tower",
     "input": "df+1,2",
-    "hitLevels": [
-      "m",
-      "h",
-      "t"
-    ],
-    "damage": [
-      10,
-      13,
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13~14",
-      "lower": "i13",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13~14",
+    "hitLevels": "m,h,t",
+    "damage": "10,13,25",
+    "onBlock": -3,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 36
   },
   {
-    "index": 37,
+    "id": "Asuka-df+1,4",
+    "parent": "Asuka-df+1",
     "name": "Kyara Boku",
     "input": "df+1,4",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      10,
-      22
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+22a (+17)",
-      "lower": "+22",
-      "properties": [
-        "a"
-      ],
-      "tech": "+17"
-    },
-    "framesOnCounter": {
-      "_raw": "[[Asuka_combos#Staples|+59a]]",
-      "lower": "+59",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i13~14",
-      "lower": "i13",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13~14",
+    "hitLevels": "m,m",
+    "damage": "10,22",
+    "onBlock": -12,
+    "onHit": "+22a (+17)",
+    "onCounterHit": "[[Asuka_combos#Staples|+59a]]",
+    "states": null,
+    "index": 37
   },
   {
-    "index": 38,
+    "id": "Asuka-df+2",
+    "parent": null,
     "name": "Rising Palm",
     "input": "df+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      14
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "[[Asuka_combos#Staples|+35a (+25)]]",
-      "lower": "+35",
-      "properties": [
-        "a"
-      ],
-      "tech": "+25"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "m",
+    "damage": 14,
+    "onBlock": -6,
+    "onHit": "[[Asuka_combos#Staples|+35a (+25)]]",
+    "onCounterHit": null,
+    "states": null,
+    "index": 38
   },
   {
-    "index": 105,
+    "id": "Asuka-df+2+3",
+    "parent": null,
     "name": "White Mountain",
     "input": "df+2+3",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      40
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-6d",
-      "lower": "-6",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "t",
+    "damage": 40,
+    "onBlock": -6,
+    "onHit": "-6d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 105
   },
   {
-    "index": 39,
+    "id": "Asuka-df+3",
+    "parent": null,
     "name": "Kagamino",
     "input": "df+3",
-    "hitLevels": [
-      "M"
-    ],
-    "damage": [
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "-8",
-      "lower": "-8",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+12a",
-      "lower": "+12",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20~21",
-      "lower": "i20",
-      "properties": [],
-      "upper": "21"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20~21",
+    "hitLevels": "M",
+    "damage": 23,
+    "onBlock": -8,
+    "onHit": "+12a",
+    "onCounterHit": null,
+    "states": null,
+    "index": 39
   },
   {
-    "index": 40,
+    "id": "Asuka-df+3+4",
+    "parent": null,
     "name": "Sacred Blade",
     "input": "df+3+4",
-    "hitLevels": [
-      "L"
-    ],
-    "damage": [
-      22
-    ],
-    "framesOnBlock": {
-      "_raw": "-26",
-      "lower": "-26",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "[[Asuka_combos#Staples|+70a (+54)]]",
-      "lower": "+70",
-      "properties": [
-        "a"
-      ],
-      "tech": "+54"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i28~30",
-      "lower": "i28",
-      "properties": [],
-      "upper": "30"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i28~30",
+    "hitLevels": "L",
+    "damage": 22,
+    "onBlock": -26,
+    "onHit": "[[Asuka_combos#Staples|+70a (+54)]]",
+    "onCounterHit": null,
+    "states": "cs6~",
+    "index": 40
   },
   {
+    "id": "Asuka-df+4",
+    "parent": null,
     "name": "Front Kick",
     "input": "df+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      16
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "2",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "m",
+    "damage": 16,
+    "onBlock": -9,
+    "onHit": 2,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 103,
+    "id": "Asuka-DST.2",
+    "parent": null,
     "name": "Compulsory Reform",
     "input": "DST.2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+8a",
-      "lower": "+8",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i19",
-      "lower": "i19",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i19",
+    "hitLevels": "m",
+    "damage": 20,
+    "onBlock": -3,
+    "onHit": "+8a",
+    "onCounterHit": null,
+    "states": null,
+    "index": 103
   },
   {
-    "index": 104,
+    "id": "Asuka-DST.4",
+    "parent": null,
     "name": "Inescapable Tirade",
     "input": "DST.4",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      19
-    ],
-    "framesOnBlock": {
-      "_raw": "-14",
-      "lower": "-14",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+11a",
-      "lower": "+11",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i19",
-      "lower": "i19",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i19",
+    "hitLevels": "l",
+    "damage": 19,
+    "onBlock": -14,
+    "onHit": "+11a",
+    "onCounterHit": null,
+    "states": null,
+    "index": 104
   },
   {
+    "id": "Asuka-f+1",
+    "parent": null,
     "name": "Whiplash (WHP)",
     "input": "f+1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      17
-    ],
-    "framesOnBlock": {
-      "_raw": "-7",
-      "lower": "-7",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "4",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20",
-      "lower": "i20",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20",
+    "hitLevels": "m",
+    "damage": 17,
+    "onBlock": -7,
+    "onHit": 4,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 33,
+    "id": "Asuka-f+1+2",
+    "parent": null,
     "name": "Exorcisor",
     "input": "f+1+2",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      26
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+19a (+9)",
-      "lower": "+19",
-      "properties": [
-        "a"
-      ],
-      "tech": "+9"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "h",
+    "damage": 26,
+    "onBlock": -9,
+    "onHit": "+19a (+9)",
+    "onCounterHit": null,
+    "states": "pc7~14",
+    "index": 33
   },
   {
-    "index": 102,
+    "id": "Asuka-f+1+3",
+    "parent": null,
     "name": "Destabilizer (DST)",
     "input": "f+1+3",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "17",
-      "lower": "17",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i19~20",
-      "lower": "i19",
-      "properties": [],
-      "upper": "20"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i19~20",
+    "hitLevels": "t",
+    "damage": 0,
+    "onBlock": null,
+    "onHit": 17,
+    "onCounterHit": null,
+    "states": null,
+    "index": 102
   },
   {
-    "index": 26,
+    "id": "Asuka-f+1,3",
+    "parent": "Asuka-f+1",
     "name": "Whiplash &gt; Toe Kick",
     "input": "f+1,3",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      17,
-      17
-    ],
-    "framesOnBlock": {
-      "_raw": "-5",
-      "lower": "-5",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "6",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+14c",
-      "lower": "+14",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i20",
-      "lower": "i20",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20",
+    "hitLevels": "m,m",
+    "damage": "17,17",
+    "onBlock": -5,
+    "onHit": 6,
+    "onCounterHit": "+14c",
+    "states": null,
+    "index": 26
   },
   {
-    "index": 27,
+    "id": "Asuka-f+1,4",
+    "parent": "Asuka-f+1",
     "name": "Whiplash Sacred Blade",
     "input": "f+1,4",
-    "hitLevels": [
-      "m",
-      "L"
-    ],
-    "damage": [
-      17,
-      26
-    ],
-    "framesOnBlock": {
-      "_raw": "-26",
-      "lower": "-26",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+24a",
-      "lower": "+24",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20",
-      "lower": "i20",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20",
+    "hitLevels": "m,L",
+    "damage": "17,26",
+    "onBlock": -26,
+    "onHit": "+24a",
+    "onCounterHit": null,
+    "states": ",cs6~",
+    "index": 27
   },
   {
-    "index": 28,
+    "id": "Asuka-f+2",
+    "parent": null,
     "name": "Demon Slayer",
     "input": "f+2",
-    "hitLevels": [
-      "M"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-18",
-      "lower": "-18",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "[[Asuka_combos#Staples|+33a (+23)]]",
-      "lower": "+33",
-      "properties": [
-        "a"
-      ],
-      "tech": "+23"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17~18",
-      "lower": "i17",
-      "properties": [],
-      "upper": "18"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17~18",
+    "hitLevels": "M",
+    "damage": 20,
+    "onBlock": -18,
+    "onHit": "[[Asuka_combos#Staples|+33a (+23)]]",
+    "onCounterHit": null,
+    "states": null,
+    "index": 28
   },
   {
-    "index": 35,
+    "id": "Asuka-f+2+3",
+    "parent": null,
     "name": "Wheel Kick",
     "input": "f+2+3",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+25a",
-      "lower": "+25",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i23~24",
-      "lower": "i23",
-      "properties": [],
-      "upper": "24"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i23~24",
+    "hitLevels": "h",
+    "damage": 21,
+    "onBlock": 0,
+    "onHit": "+25a",
+    "onCounterHit": null,
+    "states": "ps4~15",
+    "index": 35
   },
   {
+    "id": "Asuka-f+3",
+    "parent": null,
     "name": "Spinning Heel Drop (One Spin)",
     "input": "f+3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      24
-    ],
-    "framesOnBlock": {
-      "_raw": "-2~+0",
-      "lower": "-2",
-      "properties": [],
-      "upper": "+0"
-    },
-    "framesOnHit": {
-      "_raw": "+29a (+20)",
-      "lower": "+29",
-      "properties": [
-        "a"
-      ],
-      "tech": "+20"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i31~i33",
-      "lower": "i31",
-      "properties": [],
-      "upper": "i33"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i31~i33",
+    "hitLevels": "m",
+    "damage": 24,
+    "onBlock": "-2~+0",
+    "onHit": "+29a (+20)",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Asuka-f+3*",
+    "parent": null,
     "name": "Spinning Heel Drop (Two Spins)",
     "input": "f+3*",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      26
-    ],
-    "framesOnBlock": {
-      "_raw": "+6~+7",
-      "lower": "+6",
-      "properties": [],
-      "upper": "+7"
-    },
-    "framesOnHit": {
-      "_raw": "+28a (+19)",
-      "lower": "+28",
-      "properties": [
-        "a"
-      ],
-      "tech": "+19"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i52~i53",
-      "lower": "i52",
-      "properties": [],
-      "upper": "i53"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i52~i53",
+    "hitLevels": "m",
+    "damage": 26,
+    "onBlock": "+6~+7",
+    "onHit": "+28a (+19)",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Asuka-f+3**",
+    "parent": null,
     "name": "Spinning Heel Drop (Three Spins)",
     "input": "f+3**",
-    "hitLevels": [
-      "m!"
-    ],
-    "damage": [
-      28
-    ],
-    "framesOnBlock": {
-      "_raw": "+28a (+19)",
-      "lower": "+28",
-      "properties": [
-        "a"
-      ],
-      "tech": "+19"
-    },
-    "framesOnHit": {
-      "_raw": "+28a (+19)",
-      "lower": "+28",
-      "properties": [
-        "a"
-      ],
-      "tech": "+19"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i70~71",
-      "lower": "i70",
-      "properties": [],
-      "upper": "71"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i70~71",
+    "hitLevels": "m!",
+    "damage": 28,
+    "onBlock": "+28a (+19)",
+    "onHit": "+28a (+19)",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 34,
+    "id": "Asuka-f+3+4",
+    "parent": null,
     "name": "Spinning Heel Chop &gt; Naniwa Gusto",
     "input": "f+3+4",
-    "hitLevels": [
-      "M"
-    ],
-    "damage": [
-      27
-    ],
-    "framesOnBlock": {
-      "_raw": "-1",
-      "lower": "-1",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+18a (+9)",
-      "lower": "+18",
-      "properties": [
-        "a"
-      ],
-      "tech": "+9"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i29~30",
-      "lower": "i29",
-      "properties": [],
-      "upper": "30"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i29~30",
+    "hitLevels": "M",
+    "damage": 27,
+    "onBlock": -1,
+    "onHit": "+18a (+9)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 34
   },
   {
-    "index": 32,
+    "id": "Asuka-f+4",
+    "parent": null,
     "name": "Back Spin Kick",
     "input": "f+4",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "3",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+28a",
-      "lower": "+28",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i19~21",
-      "lower": "i19",
-      "properties": [],
-      "upper": "21"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i19~21",
+    "hitLevels": "h",
+    "damage": 21,
+    "onBlock": 3,
+    "onHit": "+28a",
+    "onCounterHit": null,
+    "states": null,
+    "index": 32
   },
   {
+    "id": "Asuka-FC.3+4",
+    "parent": null,
+    "name": null,
     "input": "FC.3+4",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      10,
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+5c",
-      "lower": "+5",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i21~22 i9~10",
-      "lower": "i21",
-      "properties": [],
-      "upper": "22"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i21~22 i9~10",
+    "hitLevels": "m,m",
+    "damage": "10,10",
+    "onBlock": -6,
+    "onHit": "+5c",
+    "onCounterHit": null,
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* js5~19\n* fs20~22&lt;/div&gt;",
+    "index": null
   },
   {
-    "index": 107,
+    "id": "Asuka-FC.db+1+2",
+    "parent": null,
     "name": "Falling Rain",
     "input": "FC.db+1+2",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      15,
-      15,
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "[[Asuka_combos#Staples|+56a (+28)]]",
-      "lower": "+56",
-      "properties": [
-        "a"
-      ],
-      "tech": "+28"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i11",
-      "lower": "i11",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i11",
+    "hitLevels": "t",
+    "damage": "15,15,15",
+    "onBlock": -6,
+    "onHit": "[[Asuka_combos#Staples|+56a (+28)]]",
+    "onCounterHit": null,
+    "states": null,
+    "index": 107
   },
   {
-    "index": 90,
+    "id": "Asuka-FC.df+2",
+    "parent": null,
     "name": "Grace",
     "input": "FC.df+2",
-    "hitLevels": [
-      "L"
-    ],
-    "damage": [
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-11",
-      "lower": "-11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+25g",
-      "lower": "+25",
-      "properties": [
-        "g"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i16~17",
-      "lower": "i16",
-      "properties": [],
-      "upper": "17"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16~17",
+    "hitLevels": "L",
+    "damage": 10,
+    "onBlock": -11,
+    "onHit": 0,
+    "onCounterHit": "+25g",
+    "states": "cs1~",
+    "index": 90
   },
   {
-    "index": 91,
+    "id": "Asuka-FC.df+3",
+    "parent": null,
     "name": "Minazuki",
     "input": "FC.df+3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+34a (+26)",
-      "lower": "+34",
-      "properties": [
-        "a"
-      ],
-      "tech": "+26"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17",
-      "lower": "i17",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17",
+    "hitLevels": "m",
+    "damage": 20,
+    "onBlock": -9,
+    "onHit": "+34a (+26)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 91
   },
   {
-    "index": 69,
+    "id": "Asuka-f,F+1",
+    "parent": null,
     "name": "Burning Lantern",
     "input": "f,F+1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      30
-    ],
-    "framesOnBlock": {
-      "_raw": "5",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+14c",
-      "lower": "+14",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i23",
-      "lower": "i23",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i23",
+    "hitLevels": "m",
+    "damage": 30,
+    "onBlock": 5,
+    "onHit": "+14c",
+    "onCounterHit": null,
+    "states": null,
+    "index": 69
   },
   {
-    "index": 75,
+    "id": "Asuka-f,F+1+2",
+    "parent": null,
     "name": "Tenjin Upward Strike",
     "input": "f,F+1+2",
-    "hitLevels": [
-      "M"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+29a (+14)",
-      "lower": "+29",
-      "properties": [
-        "a"
-      ],
-      "tech": "+14"
-    },
-    "framesOnCounter": {
-      "_raw": "[[Asuka_combos#Staples|+68a (+52)]]",
-      "lower": "+68",
-      "properties": [
-        "a"
-      ],
-      "tech": "+52"
-    },
-    "framesOnStartup": {
-      "_raw": "i19~20",
-      "lower": "i19",
-      "properties": [],
-      "upper": "20"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i19~20",
+    "hitLevels": "M",
+    "damage": 20,
+    "onBlock": -6,
+    "onHit": "+29a (+14)",
+    "onCounterHit": "[[Asuka_combos#Staples|+68a (+52)]]",
+    "states": null,
+    "index": 75
   },
   {
+    "id": "Asuka-f,F+2",
+    "parent": null,
+    "name": null,
     "input": "f,F+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      16
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "1",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "m",
+    "damage": 16,
+    "onBlock": -9,
+    "onHit": 1,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 70,
+    "id": "Asuka-f,F+2,1",
+    "parent": "Asuka-f,F+2",
     "name": "Hiboko no Kagami",
     "input": "f,F+2,1",
-    "hitLevels": [
-      "m",
-      "h"
-    ],
-    "damage": [
-      16,
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-5",
-      "lower": "-5",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+45a (-13)",
-      "lower": "+45",
-      "properties": [
-        "a"
-      ],
-      "tech": "-13"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "m,h",
+    "damage": "16,21",
+    "onBlock": -5,
+    "onHit": "+45a (-13)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 70
   },
   {
-    "index": 72,
+    "id": "Asuka-f,F+2,1+2",
+    "parent": "Asuka-f,F+2",
     "name": "Higata no Kagami",
     "input": "f,F+2,1+2",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      16,
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+23a (+13)",
-      "lower": "+23",
-      "properties": [
-        "a"
-      ],
-      "tech": "+13"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "m,m",
+    "damage": "16,25",
+    "onBlock": -13,
+    "onHit": "+23a (+13)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 72
   },
   {
-    "index": 71,
+    "id": "Asuka-f,F+2,3",
+    "parent": "Asuka-f,F+2",
     "name": "Yata Kagami",
     "input": "f,F+2,3",
-    "hitLevels": [
-      "m",
-      "M"
-    ],
-    "damage": [
-      16,
-      22
-    ],
-    "framesOnBlock": {
-      "_raw": "-8",
-      "lower": "-8",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+15a",
-      "lower": "+15",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "m,M",
+    "damage": "16,22",
+    "onBlock": -8,
+    "onHit": "+15a",
+    "onCounterHit": null,
+    "states": null,
+    "index": 71
   },
   {
-    "index": 73,
+    "id": "Asuka-f,F+3",
+    "parent": null,
     "name": "Matoi Hiragi",
     "input": "f,F+3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+11g",
-      "lower": "+11",
-      "properties": [
-        "g"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "+35a",
-      "lower": "+35",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i20~21",
-      "lower": "i20",
-      "properties": [],
-      "upper": "21"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20~21",
+    "hitLevels": "m",
+    "damage": 23,
+    "onBlock": -9,
+    "onHit": "+11g",
+    "onCounterHit": "+35a",
+    "states": null,
+    "index": 73
   },
   {
-    "index": 74,
+    "id": "Asuka-f,F+4",
+    "parent": null,
     "name": "Leaping Spin Kick",
     "input": "f,F+4",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "[[Asuka_combos#Staples|+66a (+46)]]",
-      "lower": "+66",
-      "properties": [
-        "a"
-      ],
-      "tech": "+46"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20~21",
-      "lower": "i20",
-      "properties": [],
-      "upper": "21"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20~21",
+    "hitLevels": "h",
+    "damage": 23,
+    "onBlock": -3,
+    "onHit": "[[Asuka_combos#Staples|+66a (+46)]]",
+    "onCounterHit": null,
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* js6~21\n* fs22~24&lt;/div&gt;",
+    "index": 74
   },
   {
-    "index": 77,
+    "id": "Asuka-f,f,F+1+2",
+    "parent": null,
     "name": "Aizen Swing",
     "input": "f,f,F+1+2",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      30
-    ],
-    "framesOnBlock": {
-      "_raw": "4",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+32a (+6)",
-      "lower": "+32",
-      "properties": [
-        "a"
-      ],
-      "tech": "+6"
-    },
-    "framesOnCounter": {
-      "_raw": "+67a (+51)",
-      "lower": "+67",
-      "properties": [
-        "a"
-      ],
-      "tech": "+51"
-    },
-    "framesOnStartup": {
-      "_raw": "i17~18",
-      "lower": "i17",
-      "properties": [],
-      "upper": "18"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17~18",
+    "hitLevels": "h",
+    "damage": 30,
+    "onBlock": 4,
+    "onHit": "+32a (+6)",
+    "onCounterHit": "+67a (+51)",
+    "states": null,
+    "index": 77
   },
   {
-    "index": 76,
+    "id": "Asuka-f,f,F+3",
+    "parent": null,
     "name": "Ame-no-Uzume",
     "input": "f,f,F+3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      32
-    ],
-    "framesOnBlock": {
-      "_raw": "+3~+7",
-      "lower": "+3",
-      "properties": [],
-      "upper": "+7"
-    },
-    "framesOnHit": {
-      "_raw": "+16a (+7)",
-      "lower": "+16",
-      "properties": [
-        "a"
-      ],
-      "tech": "+7"
-    },
-    "framesOnCounter": {
-      "_raw": "+48a (+1)",
-      "lower": "+48",
-      "properties": [
-        "a"
-      ],
-      "tech": "+1"
-    },
-    "framesOnStartup": {
-      "_raw": "i24~28",
-      "lower": "i24",
-      "properties": [],
-      "upper": "28"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i24~28",
+    "hitLevels": "m",
+    "damage": 32,
+    "onBlock": "+3~+7",
+    "onHit": "+16a (+7)",
+    "onCounterHit": "+48a (+1)",
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* js3~30\n* fs31~33&lt;/div&gt;",
+    "index": 76
   },
   {
+    "id": "Asuka-H.2+3",
+    "parent": null,
     "name": "Triple Ascension Kicks",
     "input": "H.2+3",
-    "hitLevels": [
-      "m",
-      "t"
-    ],
-    "damage": [
-      12,
-      11,
-      27
-    ],
-    "framesOnBlock": {
-      "_raw": "+10g",
-      "lower": "+10",
-      "properties": [
-        "g"
-      ]
-    },
-    "framesOnHit": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "m,t",
+    "damage": "12,11,27",
+    "onBlock": "+10g",
+    "onHit": -6,
+    "onCounterHit": null,
+    "states": "js5~",
+    "index": null
   },
   {
+    "id": "Asuka-hFC.1",
+    "parent": null,
     "name": "Crouch Jab",
     "input": "hFC.1",
-    "hitLevels": [
-      "sl"
-    ],
-    "damage": [
-      5
-    ],
-    "framesOnBlock": {
-      "_raw": "-5",
-      "lower": "-5",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "6",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "sl",
+    "damage": 5,
+    "onBlock": -5,
+    "onHit": 6,
+    "onCounterHit": null,
+    "states": "cs1~",
+    "index": null
   },
   {
+    "id": "Asuka-hFC.2",
+    "parent": null,
     "name": "Crouch Straight",
     "input": "hFC.2",
-    "hitLevels": [
-      "sl"
-    ],
-    "damage": [
-      8
-    ],
-    "framesOnBlock": {
-      "_raw": "-4",
-      "lower": "-4",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "7",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i11",
-      "lower": "i11",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i11",
+    "hitLevels": "sl",
+    "damage": 8,
+    "onBlock": -4,
+    "onHit": 7,
+    "onCounterHit": null,
+    "states": "cs1~",
+    "index": null
   },
   {
+    "id": "Asuka-hFC.3",
+    "parent": null,
     "name": "Crouch Spin Kick",
     "input": "hFC.3",
-    "hitLevels": [
-      "L"
-    ],
-    "damage": [
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-17",
-      "lower": "-17",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "L",
+    "damage": 10,
+    "onBlock": -17,
+    "onHit": -6,
+    "onCounterHit": null,
+    "states": "cs1~",
+    "index": null
   },
   {
+    "id": "Asuka-hFC.4",
+    "parent": null,
     "name": "Crouch Shin Kick",
     "input": "hFC.4",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      6
-    ],
-    "framesOnBlock": {
-      "_raw": "-15",
-      "lower": "-15",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-4",
-      "lower": "-4",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "l",
+    "damage": 6,
+    "onBlock": -15,
+    "onHit": -4,
+    "onCounterHit": null,
+    "states": "cs1~",
+    "index": null
   },
   {
-    "index": 99,
+    "id": "Asuka-Left Throw",
+    "parent": null,
     "name": "Cloud Taste",
-    "input": "Leftthrow",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      40
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-3d",
-      "lower": "-3",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": "Left throw",
+    "startup": null,
+    "hitLevels": "t",
+    "damage": 40,
+    "onBlock": -3,
+    "onHit": "-3d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 99
   },
   {
-    "index": 82,
+    "id": "Asuka-NWG.f,F+1+2",
+    "parent": null,
     "name": "Tenjin Festival Upward Strike",
     "input": "NWG.f,F+1+2",
-    "hitLevels": [
-      "M"
-    ],
-    "damage": [
-      24
-    ],
-    "framesOnBlock": {
-      "_raw": "2",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "[[Asuka_combos#Staples|+67a (+51)]]",
-      "lower": "+67",
-      "properties": [
-        "a"
-      ],
-      "tech": "+51"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i19~20",
-      "lower": "i19",
-      "properties": [],
-      "upper": "20"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i19~20",
+    "hitLevels": "M",
+    "damage": 24,
+    "onBlock": 2,
+    "onHit": "[[Asuka_combos#Staples|+67a (+51)]]",
+    "onCounterHit": null,
+    "states": null,
+    "index": 82
   },
   {
-    "index": 83,
+    "id": "Asuka-NWG.f,f,F+1+2",
+    "parent": null,
     "name": "Aizen Festival Swing",
     "input": "NWG.f,f,F+1+2",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      36
-    ],
-    "framesOnBlock": {
-      "_raw": "+11g",
-      "lower": "+11",
-      "properties": [
-        "g"
-      ]
-    },
-    "framesOnHit": {
-      "_raw": "+66a (+50)",
-      "lower": "+66",
-      "properties": [
-        "a"
-      ],
-      "tech": "+50"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17~18",
-      "lower": "i17",
-      "properties": [],
-      "upper": "18"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17~18",
+    "hitLevels": "h",
+    "damage": 36,
+    "onBlock": "+11g",
+    "onHit": "+66a (+50)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 83
   },
   {
-    "index": 81,
+    "id": "Asuka-NWG.u+1+2",
+    "parent": null,
     "name": "Sumiyoshi Festival Plunge",
     "input": "NWG.u+1+2",
-    "hitLevels": [
-      "M"
-    ],
-    "damage": [
-      24
-    ],
-    "framesOnBlock": {
-      "_raw": "+8~+9",
-      "lower": "+8",
-      "properties": [],
-      "upper": "+9"
-    },
-    "framesOnHit": {
-      "_raw": "+18a",
-      "lower": "+18",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i31~32",
-      "lower": "i31",
-      "properties": [],
-      "upper": "32"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i31~32",
+    "hitLevels": "M",
+    "damage": 24,
+    "onBlock": "+8~+9",
+    "onHit": "+18a",
+    "onCounterHit": null,
+    "states": "js9~31",
+    "index": 81
   },
   {
+    "id": "Asuka-NWG.uf+1,2",
+    "parent": null,
+    "name": null,
     "input": "NWG.uf+1,2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i26~27",
-      "lower": "i26",
-      "properties": [],
-      "upper": "27"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i26~27",
+    "hitLevels": "m",
+    "damage": null,
+    "onBlock": 0,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Asuka-R.df+1+2",
+    "parent": null,
     "name": "Naniwa Peacemaker Knuckle",
     "input": "R.df+1+2",
-    "hitLevels": [
-      "m",
-      "t"
-    ],
-    "damage": [
-      55
-    ],
-    "framesOnBlock": {
-      "_raw": "-15",
-      "lower": "-15",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20",
-      "lower": "i20",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20",
+    "hitLevels": "m,t",
+    "damage": "55+",
+    "onBlock": -15,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": "pc8~",
+    "index": null
   },
   {
-    "index": 100,
+    "id": "Asuka-Right Throw",
+    "parent": null,
     "name": "Wind Wheel",
-    "input": "Rightthrow",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      40
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": "Right throw",
+    "startup": null,
+    "hitLevels": "t",
+    "damage": 40,
+    "onBlock": -3,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 100
   },
   {
-    "index": 95,
+    "id": "Asuka-SS.2",
+    "parent": null,
     "name": "Mist Palm Thrust",
     "input": "SS.2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+13a (+4)",
-      "lower": "+13",
-      "properties": [
-        "a"
-      ],
-      "tech": "+4"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13~14",
-      "lower": "i13",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13~14",
+    "hitLevels": "m",
+    "damage": 23,
+    "onBlock": -13,
+    "onHit": "+13a (+4)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 95
   },
   {
-    "index": 96,
+    "id": "Asuka-SS.4",
+    "parent": null,
     "name": "Camellia",
     "input": "SS.4",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      18
-    ],
-    "framesOnBlock": {
-      "_raw": "-6~-2",
-      "lower": "-6",
-      "properties": [],
-      "upper": "-2"
-    },
-    "framesOnHit": {
-      "_raw": "+7~+11",
-      "lower": "+7",
-      "properties": [],
-      "upper": "+11"
-    },
-    "framesOnCounter": {
-      "_raw": "+30a",
-      "lower": "+30",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i17~21",
-      "lower": "i17",
-      "properties": [],
-      "upper": "21"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17~21",
+    "hitLevels": "h",
+    "damage": 18,
+    "onBlock": "-6~-2",
+    "onHit": "+7~+11",
+    "onCounterHit": "+30a",
+    "states": null,
+    "index": 96
   },
   {
-    "index": 80,
+    "id": "Asuka-Tackle.2,1,2,1",
+    "parent": null,
     "name": "Eternal Punishment",
     "input": "Tackle.2,1,2,1",
-    "hitLevels": [],
-    "damage": [
-      5,
-      5,
-      5,
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "+3c",
-      "lower": "+3",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": "5,5,5,10",
+    "onBlock": "+3c",
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 80
   },
   {
-    "index": 65,
+    "id": "Asuka-u+1+2",
+    "parent": null,
     "name": "Sumiyoshi Plunge",
     "input": "u+1+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-13~-12",
-      "lower": "-13",
-      "properties": [],
-      "upper": "-12"
-    },
-    "framesOnHit": {
-      "_raw": "+19a",
-      "lower": "+19",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i31~32",
-      "lower": "i31",
-      "properties": [],
-      "upper": "32"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i31~32",
+    "hitLevels": "m",
+    "damage": 20,
+    "onBlock": "-13~-12",
+    "onHit": "+19a",
+    "onCounterHit": null,
+    "states": "js9~31",
+    "index": 65
   },
   {
+    "id": "Asuka-uf+1",
+    "parent": null,
+    "name": null,
     "input": "uf+1",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13",
-      "lower": "i13",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13",
+    "hitLevels": "h",
+    "damage": null,
+    "onBlock": -9,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 106,
+    "id": "Asuka-uf+1+2",
+    "parent": null,
     "name": "Cherry Blossom",
     "input": "uf+1+2",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      40
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "t",
+    "damage": 40,
+    "onBlock": -3,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 106
   },
   {
+    "id": "Asuka-uf+1,2",
+    "parent": null,
+    "name": null,
     "input": "uf+1,2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "-11",
-      "lower": "-11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i26~27",
-      "lower": "i26",
-      "properties": [],
-      "upper": "27"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i26~27",
+    "hitLevels": "m",
+    "damage": null,
+    "onBlock": -11,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 66,
+    "id": "Asuka-uf+2",
+    "parent": null,
     "name": "Rangetsu",
     "input": "uf+2",
-    "hitLevels": [
-      "h",
-      "t"
-    ],
-    "damage": [
-      20,
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-1",
-      "lower": "-1",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14",
-      "lower": "i14",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14",
+    "hitLevels": "h,t",
+    "damage": "20,25",
+    "onBlock": -1,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 66
   },
   {
-    "index": 67,
+    "id": "Asuka-uf+3",
+    "parent": null,
     "name": "Iwato",
     "input": "uf+3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      17
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "8",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "[[Asuka_combos#Staples|+33a]]",
-      "lower": "+33",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i20~21",
-      "lower": "i20",
-      "properties": [],
-      "upper": "21"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20~21",
+    "hitLevels": "m",
+    "damage": 17,
+    "onBlock": -3,
+    "onHit": 8,
+    "onCounterHit": "[[Asuka_combos#Staples|+33a]]",
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* js11~27\n* fs28~30&lt;/div&gt;",
+    "index": 67
   },
   {
-    "index": 68,
+    "id": "Asuka-uf+4",
+    "parent": null,
     "name": "Night Sky",
     "input": "uf+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "[[Asuka_combos#Staples|+31a (+21)]]",
-      "lower": "+31",
-      "properties": [
-        "a"
-      ],
-      "tech": "+21"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20~21",
-      "lower": "i20",
-      "properties": [],
-      "upper": "21"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20~21",
+    "hitLevels": "m",
+    "damage": 25,
+    "onBlock": -13,
+    "onHit": "[[Asuka_combos#Staples|+31a (+21)]]",
+    "onCounterHit": null,
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* js9~30\n* fs31~33&lt;/div&gt;",
+    "index": 68
   },
   {
+    "id": "Asuka-ws1",
+    "parent": null,
+    "name": null,
     "input": "ws1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-7",
-      "lower": "-7",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "4",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14~15",
-      "lower": "i14",
-      "properties": [],
-      "upper": "15"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14~15",
+    "hitLevels": "m",
+    "damage": 12,
+    "onBlock": -7,
+    "onHit": 4,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 88,
+    "id": "Asuka-ws1+2",
+    "parent": null,
     "name": "Sudare Nagashi",
     "input": "ws1+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+13g +25w",
-      "lower": "+13",
-      "properties": [
-        "g"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "[[Asuka_combos#Staples|+14 +63a]]",
-      "lower": "+14",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i21",
-      "lower": "i21",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i21",
+    "hitLevels": "m",
+    "damage": 20,
+    "onBlock": -2,
+    "onHit": "+13g +25w",
+    "onCounterHit": "[[Asuka_combos#Staples|+14 +63a]]",
+    "states": null,
+    "index": 88
   },
   {
-    "index": 84,
+    "id": "Asuka-ws1,4",
+    "parent": "Asuka-ws1",
     "name": "Shikeitai",
     "input": "ws1,4",
-    "hitLevels": [
-      "m",
-      "h"
-    ],
-    "damage": [
-      12,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-4",
-      "lower": "-4",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+37a (+29)",
-      "lower": "+37",
-      "properties": [
-        "a"
-      ],
-      "tech": "+29"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14~15",
-      "lower": "i14",
-      "properties": [],
-      "upper": "15"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14~15",
+    "hitLevels": "m,h",
+    "damage": "12,20",
+    "onBlock": -4,
+    "onHit": "+37a (+29)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 84
   },
   {
+    "id": "Asuka-ws2",
+    "parent": null,
+    "name": null,
     "input": "ws2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      18
-    ],
-    "framesOnBlock": {
-      "_raw": "-8",
-      "lower": "-8",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "8",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13~14",
-      "lower": "i13",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13~14",
+    "hitLevels": "m",
+    "damage": 18,
+    "onBlock": -8,
+    "onHit": 8,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Asuka-ws2,1",
+    "parent": "Asuka-ws2",
+    "name": null,
     "input": "ws2,1",
-    "hitLevels": [
-      "m",
-      "h"
-    ],
-    "damage": [
-      18,
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "9",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13~14",
-      "lower": "i13",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13~14",
+    "hitLevels": "m,h",
+    "damage": "18,10",
+    "onBlock": -2,
+    "onHit": 9,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Asuka-ws2,1,1",
+    "parent": "Asuka-ws2,1",
     "name": "3rd Hit",
     "input": "ws2,1,1",
-    "hitLevels": [
-      "m",
-      "h",
-      "m"
-    ],
-    "damage": [
-      18,
-      10,
-      8
-    ],
-    "framesOnBlock": {
-      "_raw": "-23",
-      "lower": "-23",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13~14",
-      "lower": "i13",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13~14",
+    "hitLevels": "m,h,m",
+    "damage": "18,10,8",
+    "onBlock": -23,
+    "onHit": -12,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Asuka-ws2,1,1",
+    "parent": "Asuka-ws2,1",
     "name": "3rd Hit (2)",
     "input": "ws2,1,1",
-    "hitLevels": [
-      "m",
-      "h",
-      "m"
-    ],
-    "damage": [
-      18,
-      10,
-      8
-    ],
-    "framesOnBlock": {
-      "_raw": "-23",
-      "lower": "-23",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13~14",
-      "lower": "i13",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13~14",
+    "hitLevels": "m,h,m",
+    "damage": "18,10,8",
+    "onBlock": -23,
+    "onHit": -12,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Asuka-ws2,1,1,1",
+    "parent": "Asuka-ws2,1,1",
     "name": "4th Hit",
     "input": "ws2,1,1,1",
-    "hitLevels": [
-      "m",
-      "h",
-      "m",
-      "h"
-    ],
-    "damage": [
-      18,
-      10,
-      8,
-      8
-    ],
-    "framesOnBlock": {
-      "_raw": "-25",
-      "lower": "-25",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-14",
-      "lower": "-14",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13~14",
-      "lower": "i13",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13~14",
+    "hitLevels": "m,h,m,h",
+    "damage": "18,10,8,8",
+    "onBlock": -25,
+    "onHit": -14,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Asuka-ws2,1,1,1",
+    "parent": "Asuka-ws2,1,1",
     "name": "4th Hit (2)",
     "input": "ws2,1,1,1",
-    "hitLevels": [
-      "m",
-      "h",
-      "m",
-      "h"
-    ],
-    "damage": [
-      18,
-      10,
-      8,
-      8
-    ],
-    "framesOnBlock": {
-      "_raw": "-25",
-      "lower": "-25",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-14",
-      "lower": "-14",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13~14",
-      "lower": "i13",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13~14",
+    "hitLevels": "m,h,m,h",
+    "damage": "18,10,8,8",
+    "onBlock": -25,
+    "onHit": -14,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Asuka-ws2,1,1,1,2",
+    "parent": "Asuka-ws2,1,1,1",
     "name": "5th Hit",
     "input": "ws2,1,1,1,2",
-    "hitLevels": [
-      "m",
-      "h",
-      "m",
-      "h",
-      "m"
-    ],
-    "damage": [
-      18,
-      10,
-      8,
-      8,
-      6
-    ],
-    "framesOnBlock": {
-      "_raw": "-11",
-      "lower": "-11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13~14",
-      "lower": "i13",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13~14",
+    "hitLevels": "m,h,m,h,m",
+    "damage": "18,10,8,8,6",
+    "onBlock": -11,
+    "onHit": 0,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Asuka-ws2,1,1,1,2",
+    "parent": "Asuka-ws2,1,1,1",
     "name": "5th Hit (2)",
     "input": "ws2,1,1,1,2",
-    "hitLevels": [
-      "m",
-      "h",
-      "m",
-      "h",
-      "m"
-    ],
-    "damage": [
-      18,
-      10,
-      8,
-      8,
-      6
-    ],
-    "framesOnBlock": {
-      "_raw": "-11",
-      "lower": "-11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13~14",
-      "lower": "i13",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13~14",
+    "hitLevels": "m,h,m,h,m",
+    "damage": "18,10,8,8,6",
+    "onBlock": -11,
+    "onHit": 0,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Asuka-ws2,1,1,1,2,1",
+    "parent": "Asuka-ws2,1,1,1,2",
     "name": "6th Hit",
     "input": "ws2,1,1,1,2,1",
-    "hitLevels": [
-      "m",
-      "h",
-      "m",
-      "h",
-      "m",
-      "sm"
-    ],
-    "damage": [
-      18,
-      10,
-      8,
-      8,
-      6,
-      5
-    ],
-    "framesOnBlock": {
-      "_raw": "-10",
-      "lower": "-10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "1",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13~14",
-      "lower": "i13",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13~14",
+    "hitLevels": "m,h,m,h,m,sm",
+    "damage": "18,10,8,8,6,5",
+    "onBlock": -10,
+    "onHit": 1,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Asuka-ws2,1,1,1,2,1+4",
+    "parent": "Asuka-ws2,1,1,1,2",
     "name": "6th &amp; 7th Hit (2)",
     "input": "ws2,1,1,1,2,1+4",
-    "hitLevels": [
-      "m",
-      "h",
-      "m",
-      "h",
-      "m",
-      "sll",
-      "h"
-    ],
-    "damage": [
-      18,
-      10,
-      8,
-      8,
-      6,
-      7,
-      5
-    ],
-    "framesOnBlock": {
-      "_raw": "-33",
-      "lower": "-33",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-7",
-      "lower": "-7",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13~14",
-      "lower": "i13",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13~14",
+    "hitLevels": "m,h,m,h,m,sll,h",
+    "damage": "18,10,8,8,6,7,5",
+    "onBlock": -33,
+    "onHit": -7,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Asuka-ws2,1,1,1,2,1,4",
+    "parent": "Asuka-ws2,1,1,1,2,1",
     "name": "7th Hit",
     "input": "ws2,1,1,1,2,1,4",
-    "hitLevels": [
-      "m",
-      "h",
-      "m",
-      "h",
-      "m",
-      "sm",
-      "m"
-    ],
-    "damage": [
-      18,
-      10,
-      8,
-      8,
-      6,
-      5,
-      7
-    ],
-    "framesOnBlock": {
-      "_raw": "-16",
-      "lower": "-16",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13~14",
-      "lower": "i13",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13~14",
+    "hitLevels": "m,h,m,h,m,sm,m",
+    "damage": "18,10,8,8,6,5,7",
+    "onBlock": -16,
+    "onHit": -6,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Asuka-ws2,1,1,1,2,1+4,1",
+    "parent": "Asuka-ws2,1,1,1,2,1+4",
     "name": "8th Hit (2)",
     "input": "ws2,1,1,1,2,1+4,1",
-    "hitLevels": [
-      "m",
-      "h",
-      "m",
-      "h",
-      "m",
-      "sll",
-      "h",
-      "h"
-    ],
-    "damage": [
-      18,
-      10,
-      8,
-      8,
-      6,
-      7,
-      5,
-      6
-    ],
-    "framesOnBlock": {
-      "_raw": "-10",
-      "lower": "-10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-43",
-      "lower": "-43",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13~14",
-      "lower": "i13",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13~14",
+    "hitLevels": "m,h,m,h,m,sll,h,h",
+    "damage": "18,10,8,8,6,7,5,6",
+    "onBlock": -10,
+    "onHit": -43,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 93,
+    "id": "Asuka-ws2,1,1,1,2,1+4,1,3+4",
+    "parent": "Asuka-ws2,1,1,1,2,1+4,1",
     "name": "10 Hit Combo 2",
     "input": "ws2,1,1,1,2,1+4,1,3+4",
-    "hitLevels": [
-      "m",
-      "h",
-      "m",
-      "h",
-      "m",
-      "sll",
-      "h",
-      "h",
-      "l",
-      "m"
-    ],
-    "damage": [
-      18,
-      10,
-      8,
-      8,
-      6,
-      7,
-      5,
-      6,
-      5,
-      24
-    ],
-    "framesOnBlock": {
-      "_raw": "-43",
-      "lower": "-43",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "LNC",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13~14",
-      "lower": "i13",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13~14",
+    "hitLevels": "m,h,m,h,m,sll,h,h,l,m",
+    "damage": "18,10,8,8,6,7,5,6,5,24",
+    "onBlock": -43,
+    "onHit": "LNC",
+    "onCounterHit": null,
+    "states": null,
+    "index": 93
   },
   {
+    "id": "Asuka-ws2,1,1,1,2,1,4,3",
+    "parent": "Asuka-ws2,1,1,1,2,1,4",
     "name": "8th Hit",
     "input": "ws2,1,1,1,2,1,4,3",
-    "hitLevels": [
-      "m",
-      "h",
-      "m",
-      "h",
-      "m",
-      "sm",
-      "m",
-      "l"
-    ],
-    "damage": [
-      18,
-      10,
-      8,
-      8,
-      6,
-      5,
-      7,
-      7
-    ],
-    "framesOnBlock": {
-      "_raw": "-25",
-      "lower": "-25",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13~14",
-      "lower": "i13",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13~14",
+    "hitLevels": "m,h,m,h,m,sm,m,l",
+    "damage": "18,10,8,8,6,5,7,7",
+    "onBlock": -25,
+    "onHit": -9,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 92,
+    "id": "Asuka-ws2,1,1,1,2,1,4,3,3+4",
+    "parent": "Asuka-ws2,1,1,1,2,1,4,3",
     "name": "10 Hit Combo 1",
     "input": "ws2,1,1,1,2,1,4,3,3+4",
-    "hitLevels": [
-      "m",
-      "h",
-      "m",
-      "h",
-      "m",
-      "sm",
-      "m",
-      "l",
-      "m",
-      "m"
-    ],
-    "damage": [
-      18,
-      10,
-      8,
-      8,
-      6,
-      5,
-      7,
-      7,
-      25,
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-11",
-      "lower": "-11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "KND",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13~14",
-      "lower": "i13",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13~14",
+    "hitLevels": "m,h,m,h,m,sm,m,l,m,m",
+    "damage": "18,10,8,8,6,5,7,7,25,25",
+    "onBlock": -11,
+    "onHit": "KND",
+    "onCounterHit": null,
+    "states": null,
+    "index": 92
   },
   {
-    "index": 94,
+    "id": "Asuka-ws2,1,1,3",
+    "parent": "Asuka-ws2,1,1",
     "name": "10 Hit Combo 3",
     "input": "ws2,1,1,3",
-    "hitLevels": [
-      "m",
-      "h",
-      "m",
-      "",
-      "m"
-    ],
-    "damage": [
-      18,
-      10,
-      8,
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+11a (+1)",
-      "lower": "+11",
-      "properties": [
-        "a"
-      ],
-      "tech": "+1"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13~14",
-      "lower": "i13",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13~14",
+    "hitLevels": "m,h,m,,m",
+    "damage": "18,10,8,10",
+    "onBlock": null,
+    "onHit": "+11a (+1)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 94
   },
   {
-    "index": 85,
+    "id": "Asuka-ws2,1+2",
+    "parent": "Asuka-ws2",
     "name": "Kohaku",
     "input": "ws2,1+2",
-    "hitLevels": [
-      "m",
-      "t"
-    ],
-    "damage": [
-      18,
-      8
-    ],
-    "framesOnBlock": {
-      "_raw": "-5",
-      "lower": "-5",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "17",
-      "lower": "17",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13~14",
-      "lower": "i13",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13~14",
+    "hitLevels": "m,t",
+    "damage": "18,8",
+    "onBlock": -5,
+    "onHit": 17,
+    "onCounterHit": null,
+    "states": null,
+    "index": 85
   },
   {
-    "index": 86,
+    "id": "Asuka-ws3",
+    "parent": null,
     "name": "Moon Scent",
     "input": "ws3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-16",
-      "lower": "-16",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "[[Asuka_combos#Staples|+35a (+25)]]",
-      "lower": "+35",
-      "properties": [
-        "a"
-      ],
-      "tech": "+25"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18~19",
-      "lower": "i18",
-      "properties": [],
-      "upper": "19"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18~19",
+    "hitLevels": "m",
+    "damage": 20,
+    "onBlock": -16,
+    "onHit": "[[Asuka_combos#Staples|+35a (+25)]]",
+    "onCounterHit": null,
+    "states": "fs18~40",
+    "index": 86
   },
   {
-    "index": 87,
+    "id": "Asuka-ws4",
+    "parent": null,
     "name": "Toe Smash",
     "input": "ws4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "8",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i11~12",
-      "lower": "i11",
-      "properties": [],
-      "upper": "12"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i11~12",
+    "hitLevels": "m",
+    "damage": 15,
+    "onBlock": -3,
+    "onHit": 8,
+    "onCounterHit": null,
+    "states": null,
+    "index": 87
   }
 ]

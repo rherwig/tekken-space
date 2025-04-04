@@ -1,4786 +1,1752 @@
 [
   {
-    "input": "1",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      5
-    ],
-    "framesOnBlock": {
-      "_raw": "1",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "8",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "id": "Kuma-1",
+    "parent": null,
+    "name": null,
+    "input": 1,
+    "startup": "i10",
+    "hitLevels": "h",
+    "damage": 5,
+    "onBlock": 1,
+    "onHit": 8,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Kuma-1,1",
+    "parent": "Kuma-1",
+    "name": null,
     "input": "1,1",
-    "hitLevels": [
-      "h",
-      "m"
-    ],
-    "damage": [
-      5,
-      8
-    ],
-    "framesOnBlock": {
-      "_raw": "-15",
-      "lower": "-15",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-4c",
-      "lower": "-4",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,m",
+    "damage": "5,8",
+    "onBlock": -15,
+    "onHit": "-4c",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 17,
+    "id": "Kuma-1,1,1",
+    "parent": "Kuma-1,1",
     "name": "G-Clef Cannon",
     "input": "1,1,1",
-    "hitLevels": [
-      "h",
-      "m",
-      "m"
-    ],
-    "damage": [
-      5,
-      8,
-      14
-    ],
-    "framesOnBlock": {
-      "_raw": "-16",
-      "lower": "-16",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+69a (+23)",
-      "lower": "+69",
-      "properties": [
-        "a"
-      ],
-      "tech": "+23"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,m,m",
+    "damage": "5,8,14",
+    "onBlock": -16,
+    "onHit": "+69a (+23)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 17
   },
   {
-    "index": 21,
+    "id": "Kuma-1+2",
+    "parent": null,
     "name": "Demon Bear Breath",
     "input": "1+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+18g / HE",
-      "lower": "+18",
-      "properties": [
-        "g"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13~14",
-      "lower": "i13",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13~14",
+    "hitLevels": "m",
+    "damage": 25,
+    "onBlock": -13,
+    "onHit": "+18g / HE",
+    "onCounterHit": null,
+    "states": null,
+    "index": 21
   },
   {
-    "index": 18,
+    "id": "Kuma-1,2",
+    "parent": "Kuma-1",
     "name": "Angry Lumberjack",
     "input": "1,2",
-    "hitLevels": [
-      "h",
-      "h"
-    ],
-    "damage": [
-      5,
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-5",
-      "lower": "-5",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+11 (+2)",
-      "lower": "+11",
-      "properties": [],
-      "tech": "+2"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,h",
+    "damage": "5,25",
+    "onBlock": -5,
+    "onHit": "+11 (+2)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 18
   },
   {
-    "index": 64,
+    "id": "Kuma-1+2+3+4",
+    "parent": null,
     "name": "Ki Charge",
     "input": "1+2+3+4",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": 64
   },
   {
-    "index": 106,
+    "id": "Kuma-1+3",
+    "parent": null,
     "name": "Bear&#039;s Bite",
     "input": "1+3",
-    "hitLevels": [
-      "th(h)"
-    ],
-    "damage": [
-      35
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "1",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12~14",
-      "lower": "i12",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12~14",
+    "hitLevels": "th(h)",
+    "damage": 35,
+    "onBlock": -3,
+    "onHit": 1,
+    "onCounterHit": null,
+    "states": null,
+    "index": 106
   },
   {
-    "index": 63,
+    "id": "Kuma-1+3+4",
+    "parent": null,
     "name": "You&#039;re Welcome",
     "input": "1+3+4",
-    "hitLevels": [
-      "sp"
-    ],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": "sp",
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": 63
   },
   {
-    "input": "2",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-1",
-      "lower": "-1",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "6",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "id": "Kuma-2",
+    "parent": null,
+    "name": null,
+    "input": 2,
+    "startup": "i10",
+    "hitLevels": "h",
+    "damage": 10,
+    "onBlock": -1,
+    "onHit": 6,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Kuma-2,1",
+    "parent": "Kuma-2",
+    "name": null,
     "input": "2,1",
-    "hitLevels": [
-      "h",
-      "m"
-    ],
-    "damage": [
-      10,
-      11
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "2",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,m",
+    "damage": "10,11",
+    "onBlock": -3,
+    "onHit": 2,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 19,
+    "id": "Kuma-2,1,2",
+    "parent": "Kuma-2,1",
     "name": "Bear Combo Middle",
     "input": "2,1,2",
-    "hitLevels": [
-      "h",
-      "m",
-      "m"
-    ],
-    "damage": [
-      10,
-      11,
-      22
-    ],
-    "framesOnBlock": {
-      "_raw": "-14",
-      "lower": "-14",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+31a (+21)",
-      "lower": "+31",
-      "properties": [
-        "a"
-      ],
-      "tech": "+21"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,m,m",
+    "damage": "10,11,22",
+    "onBlock": -14,
+    "onHit": "+31a (+21)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 19
   },
   {
-    "index": 20,
+    "id": "Kuma-2,1,3",
+    "parent": "Kuma-2,1",
     "name": "Bear Combo Low",
     "input": "2,1,3",
-    "hitLevels": [
-      "h",
-      "m",
-      "l"
-    ],
-    "damage": [
-      10,
-      11,
-      13
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,m,l",
+    "damage": "10,11,13",
+    "onBlock": -13,
+    "onHit": -2,
+    "onCounterHit": null,
+    "states": null,
+    "index": 20
   },
   {
+    "id": "Kuma-2+3",
+    "parent": null,
     "name": "Heat Burst",
     "input": "2+3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      1212
-    ],
-    "framesOnBlock": {
-      "_raw": "1",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+2c",
-      "lower": "+2",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "m",
+    "damage": "12 (12)",
+    "onBlock": 1,
+    "onHit": "+2c",
+    "onCounterHit": null,
+    "states": "pc",
+    "index": null
   },
   {
-    "index": 107,
+    "id": "Kuma-2+4",
+    "parent": null,
     "name": "Bear Hug",
     "input": "2+4",
-    "hitLevels": [
-      "th(h)"
-    ],
-    "damage": [
-      35
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "1",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12~14",
-      "lower": "i12",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12~14",
+    "hitLevels": "th(h)",
+    "damage": 35,
+    "onBlock": -6,
+    "onHit": 1,
+    "onCounterHit": null,
+    "states": null,
+    "index": 107
   },
   {
+    "id": "Kuma-3+4",
+    "parent": null,
     "name": "Hunting",
     "input": "3+4",
-    "hitLevels": [
-      "sp"
-    ],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": "sp",
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Kuma-3+4",
+    "parent": null,
     "name": "Hunting",
     "input": "3+4",
-    "hitLevels": [
-      "sp"
-    ],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": "sp",
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 42,
+    "id": "Kuma-b+1",
+    "parent": null,
     "name": "Bear Slash",
     "input": "b+1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      24
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+13a",
-      "lower": "+13",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i22~23",
-      "lower": "i22",
-      "properties": [],
-      "upper": "23"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i22~23",
+    "hitLevels": "m",
+    "damage": 24,
+    "onBlock": -13,
+    "onHit": "+13a",
+    "onCounterHit": null,
+    "states": "pc",
+    "index": 42
   },
   {
-    "index": 45,
+    "id": "Kuma-b+1+2",
+    "parent": null,
     "name": "Bear X",
     "input": "b+1+2",
-    "hitLevels": [
-      "h",
-      "m"
-    ],
-    "damage": [
-      10,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-8",
-      "lower": "-8",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+13d / HE",
-      "lower": "+13",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18~19 i12~13",
-      "lower": "i18",
-      "properties": [],
-      "upper": "19"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18~19 i12~13",
+    "hitLevels": "h,m",
+    "damage": "10,20",
+    "onBlock": -8,
+    "onHit": "+13d / HE",
+    "onCounterHit": null,
+    "states": null,
+    "index": 45
   },
   {
-    "index": 47,
+    "id": "Kuma-b+1+4",
+    "parent": null,
     "name": "Deadly Claw",
     "input": "b+1+4",
-    "hitLevels": [
-      "ub(m)"
-    ],
-    "damage": [
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+16a/+21a HBS",
-      "lower": "+16",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i60~62",
-      "lower": "i60",
-      "properties": [],
-      "upper": "62"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i60~62",
+    "hitLevels": "ub(m)",
+    "damage": 25,
+    "onBlock": null,
+    "onHit": "+16a/+21a HBS",
+    "onCounterHit": null,
+    "states": null,
+    "index": 47
   },
   {
-    "index": 48,
+    "id": "Kuma-b+1,f,f",
+    "parent": null,
     "name": "Rolling Bear",
     "input": "b+1+4,f,f",
-    "hitLevels": [
-      "sm"
-    ],
-    "damage": [
-      40
-    ],
-    "framesOnBlock": {
-      "_raw": "-20~+55",
-      "lower": "-20",
-      "properties": [],
-      "upper": "+55"
-    },
-    "framesOnHit": {
-      "_raw": "+42a~+117a",
-      "lower": "+42",
-      "properties": [
-        "a",
-        "a"
-      ],
-      "upper": "+117"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i55~i130",
-      "lower": "i55",
-      "properties": [],
-      "upper": "i130"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i55~i130",
+    "hitLevels": "sm",
+    "damage": 40,
+    "onBlock": "-20~+55",
+    "onHit": "+42a~+117a",
+    "onCounterHit": null,
+    "states": null,
+    "index": 48
   },
   {
+    "id": "Kuma-b+2",
+    "parent": null,
+    "name": null,
     "input": "b+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "2",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m",
+    "damage": 12,
+    "onBlock": -9,
+    "onHit": 2,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Kuma-b+2,1",
+    "parent": "Kuma-b+2",
+    "name": null,
     "input": "b+2,1",
-    "hitLevels": [
-      "m",
-      "h"
-    ],
-    "damage": [
-      12,
-      14
-    ],
-    "framesOnBlock": {
-      "_raw": "-3 / - 4 HBS / -14 ROL",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+8 / +7 HBS / -3 ROL",
-      "lower": "+8",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m,h",
+    "damage": "12,14",
+    "onBlock": "-3 / - 4 HBS / -14 ROL",
+    "onHit": "+8 / +7 HBS / -3 ROL",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 43,
+    "id": "Kuma-b+2,1,1+2",
+    "parent": "Kuma-b+2,1",
     "name": "Howling Bear",
     "input": "b+2,1,1+2",
-    "hitLevels": [
-      "m",
-      "h",
-      "m"
-    ],
-    "damage": [
-      12,
-      14,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-11",
-      "lower": "-11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+15a (+6)",
-      "lower": "+15",
-      "properties": [
-        "a"
-      ],
-      "tech": "+6"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m,h,m",
+    "damage": "12,14,20",
+    "onBlock": -11,
+    "onHit": "+15a (+6)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 43
   },
   {
+    "id": "Kuma-b+2,2",
+    "parent": "Kuma-b+2",
+    "name": null,
     "input": "b+2,2",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      12,
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "-10",
-      "lower": "-10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "6",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m,m",
+    "damage": "12,15",
+    "onBlock": -10,
+    "onHit": 6,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 44,
+    "id": "Kuma-b+2,2,1",
+    "parent": "Kuma-b+2,2",
     "name": "Salmon Massacre",
     "input": "b+2,2,1",
-    "hitLevels": [
-      "m",
-      "m",
-      "m"
-    ],
-    "damage": [
-      12,
-      15,
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-15",
-      "lower": "-15",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+25a (+15)",
-      "lower": "+25",
-      "properties": [
-        "a"
-      ],
-      "tech": "+15"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m,m,m",
+    "damage": "12,15,25",
+    "onBlock": -15,
+    "onHit": "+25a (+15)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 44
   },
   {
-    "index": 46,
+    "id": "Kuma-b+3+4",
+    "parent": null,
     "name": "High Jinks",
     "input": "b+3+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-28",
-      "lower": "-28",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+61a",
-      "lower": "+61",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i22~23",
-      "lower": "i22",
-      "properties": [],
-      "upper": "23"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i22~23",
+    "hitLevels": "m",
+    "damage": 20,
+    "onBlock": -28,
+    "onHit": "+61a",
+    "onCounterHit": null,
+    "states": null,
+    "index": 46
   },
   {
-    "index": 110,
+    "id": "Kuma-Back throw",
+    "parent": null,
     "name": "Swing Swung",
-    "input": "Backthrow",
-    "hitLevels": [
-      "th(h)"
-    ],
-    "damage": [
-      70
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "1",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12~14",
-      "lower": "i12",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": "Back throw",
+    "startup": "i12~14",
+    "hitLevels": "th(h)",
+    "damage": 70,
+    "onBlock": null,
+    "onHit": 1,
+    "onCounterHit": null,
+    "states": null,
+    "index": 110
   },
   {
-    "index": 58,
+    "id": "Kuma-b,f+2",
+    "parent": null,
     "name": "Anger Hook",
     "input": "b,f+2",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      26
-    ],
-    "framesOnBlock": {
-      "_raw": "-5",
-      "lower": "-5",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+17a (+8)",
-      "lower": "+17",
-      "properties": [
-        "a"
-      ],
-      "tech": "+8"
-    },
-    "framesOnCounter": {
-      "_raw": "+62a (+42)",
-      "lower": "+62",
-      "properties": [
-        "a"
-      ],
-      "tech": "+42"
-    },
-    "framesOnStartup": {
-      "_raw": "i15~17",
-      "lower": "i15",
-      "properties": [],
-      "upper": "17"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~17",
+    "hitLevels": "h",
+    "damage": 26,
+    "onBlock": -5,
+    "onHit": "+17a (+8)",
+    "onCounterHit": "+62a (+42)",
+    "states": null,
+    "index": 58
   },
   {
-    "index": 30,
+    "id": "Kuma-d+1+2",
+    "parent": null,
     "name": "Hip Smash",
     "input": "d+1+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      28
-    ],
-    "framesOnBlock": {
-      "_raw": "-15",
-      "lower": "-15",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+20d (+10)",
-      "lower": "+20",
-      "properties": [
-        "d"
-      ],
-      "tech": "+10"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14~15",
-      "lower": "i14",
-      "properties": [],
-      "upper": "15"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14~15",
+    "hitLevels": "m",
+    "damage": 28,
+    "onBlock": -15,
+    "onHit": "+20d (+10)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 30
   },
   {
+    "id": "Kuma-d+3+4",
+    "parent": null,
     "name": "Bear Sit",
     "input": "d+3+4",
-    "hitLevels": [
-      "sp"
-    ],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": "sp",
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Kuma-d+3+4",
+    "parent": null,
     "name": "Bear Sit",
     "input": "d+3+4",
-    "hitLevels": [
-      "sp"
-    ],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": "sp",
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Kuma-db+1",
+    "parent": null,
+    "name": null,
     "input": "db+1",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      11
-    ],
-    "framesOnBlock": {
-      "_raw": "-10",
-      "lower": "-10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "4",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "9",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14~15",
-      "lower": "i14",
-      "properties": [],
-      "upper": "15"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14~15",
+    "hitLevels": "h",
+    "damage": 11,
+    "onBlock": -10,
+    "onHit": 4,
+    "onCounterHit": 9,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Kuma-db+1+2",
+    "parent": null,
+    "name": null,
     "input": "db+1+2",
-    "hitLevels": [
-      "mm"
-    ],
-    "damage": [
-      4,
-      4
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+2~3",
-      "lower": "+2",
-      "properties": [],
-      "upper": ""
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14~15",
-      "lower": "i14",
-      "properties": [],
-      "upper": "15"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14~15",
+    "hitLevels": "mm",
+    "damage": "4,4",
+    "onBlock": -9,
+    "onHit": "+2~3",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Kuma-db+1,2",
+    "parent": "Kuma-db+1",
     "name": "Double Wild Slap",
     "input": "db+1,2",
-    "hitLevels": [
-      "h",
-      "m"
-    ],
-    "damage": [
-      1120
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "4",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+13c",
-      "lower": "+13",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i14~15",
-      "lower": "i14",
-      "properties": [],
-      "upper": "15"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14~15",
+    "hitLevels": "h,m",
+    "damage": "1120",
+    "onBlock": -13,
+    "onHit": 4,
+    "onCounterHit": "+13c",
+    "states": null,
+    "index": null
   },
   {
+    "id": "Kuma-db+1,2*",
+    "parent": "Kuma-db+1",
     "name": "Double Wild Slap",
     "input": "db+1,2*",
-    "hitLevels": [
-      "h",
-      "m"
-    ],
-    "damage": [
-      1120
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+13c",
-      "lower": "+13",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "+42a",
-      "lower": "+42",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i14~15",
-      "lower": "i14",
-      "properties": [],
-      "upper": "15"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14~15",
+    "hitLevels": "h,m",
+    "damage": "1120",
+    "onBlock": -12,
+    "onHit": "+13c",
+    "onCounterHit": "+42a",
+    "states": null,
+    "index": null
   },
   {
-    "index": 34,
+    "id": "Kuma-db+1,2**",
+    "parent": "Kuma-db+1",
     "name": "Fresh Wild Slap",
     "input": "db+1,2**",
-    "hitLevels": [
-      "h",
-      "m"
-    ],
-    "damage": [
-      1130
-    ],
-    "framesOnBlock": {
-      "_raw": "3",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+42a",
-      "lower": "+42",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14~15",
-      "lower": "i14",
-      "properties": [],
-      "upper": "15"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14~15",
+    "hitLevels": "h,m",
+    "damage": "1130",
+    "onBlock": 3,
+    "onHit": "+42a",
+    "onCounterHit": null,
+    "states": null,
+    "index": 34
   },
   {
+    "id": "Kuma-db+1+2,1+2",
+    "parent": "Kuma-db+1+2",
+    "name": null,
     "input": "db+1+2,1+2",
-    "hitLevels": [
-      "mm",
-      "mm"
-    ],
-    "damage": [
-      4,
-      4,
-      4,
-      4
-    ],
-    "framesOnBlock": {
-      "_raw": "-11",
-      "lower": "-11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14~15",
-      "lower": "i14",
-      "properties": [],
-      "upper": "15"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14~15",
+    "hitLevels": "mm,mm",
+    "damage": "4,4,4,4",
+    "onBlock": -11,
+    "onHit": 0,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 38,
+    "id": "Kuma-db+1+2,1+2,2",
+    "parent": "Kuma-db+1+2,1+2",
     "name": "Drum Roll",
     "input": "db+1+2,1+2,2",
-    "hitLevels": [
-      "mm",
-      "mm",
-      "m"
-    ],
-    "damage": [
-      4,
-      4,
-      4,
-      4,
-      18
-    ],
-    "framesOnBlock": {
-      "_raw": "-15",
-      "lower": "-15",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+22a (+12)",
-      "lower": "+22",
-      "properties": [
-        "a"
-      ],
-      "tech": "+12"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14~15",
-      "lower": "i14",
-      "properties": [],
-      "upper": "15"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14~15",
+    "hitLevels": "mm,mm,m",
+    "damage": "4,4,4,4,18",
+    "onBlock": -15,
+    "onHit": "+22a (+12)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 38
   },
   {
-    "index": 35,
+    "id": "Kuma-db+2",
+    "parent": null,
     "name": "Bear Lariat",
     "input": "db+2",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-15 / -17 HBS",
-      "lower": "-15",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-1 / -3 HBS",
-      "lower": "-1",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18",
-      "lower": "i18",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18",
+    "hitLevels": "l",
+    "damage": 10,
+    "onBlock": "-15 / -17 HBS",
+    "onHit": "-1 / -3 HBS",
+    "onCounterHit": null,
+    "states": null,
+    "index": 35
   },
   {
+    "id": "Kuma-db+2+3",
+    "parent": null,
     "name": "Salmon Hunter",
     "input": "db+2+3",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      30
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+39a",
-      "lower": "+39",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i32~34",
-      "lower": "i32",
-      "properties": [],
-      "upper": "34"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i32~34",
+    "hitLevels": "l",
+    "damage": 30,
+    "onBlock": -12,
+    "onHit": "+39a",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Kuma-db+2+3*",
+    "parent": null,
     "name": "Salmon Hunter",
     "input": "db+2+3*",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      40
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+39a",
-      "lower": "+39",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i45~47",
-      "lower": "i45",
-      "properties": [],
-      "upper": "47"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i45~47",
+    "hitLevels": "l",
+    "damage": 40,
+    "onBlock": -12,
+    "onHit": "+39a",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 41,
+    "id": "Kuma-db+2+3**",
+    "parent": null,
     "name": "Fresh Salmon Hunter",
     "input": "db+2+3**",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      60
-    ],
-    "framesOnBlock": {
-      "_raw": "-4",
-      "lower": "-4",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+43a",
-      "lower": "+43",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i60~62",
-      "lower": "i60",
-      "properties": [],
-      "upper": "62"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i60~62",
+    "hitLevels": "l",
+    "damage": 60,
+    "onBlock": -4,
+    "onHit": "+43a",
+    "onCounterHit": null,
+    "states": null,
+    "index": 41
   },
   {
-    "index": 36,
+    "id": "Kuma-db+3",
+    "parent": null,
     "name": "Bear Pump in Pedal",
     "input": "db+3",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "1",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18",
-      "lower": "i18",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18",
+    "hitLevels": "l",
+    "damage": 12,
+    "onBlock": -12,
+    "onHit": 1,
+    "onCounterHit": null,
+    "states": null,
+    "index": 36
   },
   {
-    "index": 37,
+    "id": "Kuma-db+4",
+    "parent": null,
     "name": "Spinning Kuma",
     "input": "db+4",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-23",
-      "lower": "-23",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "6",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+74a (+38)",
-      "lower": "+74",
-      "properties": [
-        "a"
-      ],
-      "tech": "+38"
-    },
-    "framesOnStartup": {
-      "_raw": "i21~22",
-      "lower": "i21",
-      "properties": [],
-      "upper": "22"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i21~22",
+    "hitLevels": "l",
+    "damage": 20,
+    "onBlock": -23,
+    "onHit": 6,
+    "onCounterHit": "+74a (+38)",
+    "states": "cs6~",
+    "index": 37
   },
   {
+    "id": "Kuma-df+1",
+    "parent": null,
+    "name": null,
     "input": "df+1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      6
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "2",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "m",
+    "damage": 6,
+    "onBlock": -6,
+    "onHit": 2,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Kuma-df+1,2",
+    "parent": "Kuma-df+1",
+    "name": null,
     "input": "df+1,2",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      6,
-      9
-    ],
-    "framesOnBlock": {
-      "_raw": "-11",
-      "lower": "-11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "m,m",
+    "damage": "6,9",
+    "onBlock": -11,
+    "onHit": -2,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 27,
+    "id": "Kuma-df+1,2,1+2",
+    "parent": "Kuma-df+1,2",
     "name": "Grizzly Rampage",
     "input": "df+1,2,1+2",
-    "hitLevels": [
-      "m",
-      "m",
-      "m"
-    ],
-    "damage": [
-      6,
-      9,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-14c",
-      "lower": "-14",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnHit": {
-      "_raw": "+17d",
-      "lower": "+17",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "m,m,m",
+    "damage": "6,9,20",
+    "onBlock": "-14c",
+    "onHit": "+17d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 27
   },
   {
+    "id": "Kuma-df+2",
+    "parent": null,
+    "name": null,
     "input": "df+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "2",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "m",
+    "damage": 10,
+    "onBlock": -9,
+    "onHit": 2,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 28,
+    "id": "Kuma-df+2,1",
+    "parent": "Kuma-df+2",
     "name": "Kuma Musou",
     "input": "df+2,1",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      10,
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-16",
-      "lower": "-16",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+35a (+25)",
-      "lower": "+35",
-      "properties": [
-        "a"
-      ],
-      "tech": "+25"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "m,m",
+    "damage": "10,12",
+    "onBlock": -16,
+    "onHit": "+35a (+25)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 28
   },
   {
+    "id": "Kuma-df+3",
+    "parent": null,
+    "name": null,
     "input": "df+3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      13
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "2",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "m",
+    "damage": 13,
+    "onBlock": -9,
+    "onHit": 2,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 29,
+    "id": "Kuma-df+3,2",
+    "parent": "Kuma-df+3",
     "name": "Honey Trap",
     "input": "df+3,2",
-    "hitLevels": [
-      "m",
-      "h"
-    ],
-    "damage": [
-      13,
-      24
-    ],
-    "framesOnBlock": {
-      "_raw": "-5",
-      "lower": "-5",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+22a",
-      "lower": "+22",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "m,h",
+    "damage": "13,24",
+    "onBlock": -5,
+    "onHit": "+22a",
+    "onCounterHit": null,
+    "states": null,
+    "index": 29
   },
   {
+    "id": "Kuma-df+4",
+    "parent": null,
+    "name": null,
     "input": "df+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "-4",
-      "lower": "-4",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "7",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "m",
+    "damage": 15,
+    "onBlock": -4,
+    "onHit": 7,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Kuma-f+1+2",
+    "parent": null,
+    "name": null,
     "input": "f+1+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      16
-    ],
-    "framesOnBlock": {
-      "_raw": "-15",
-      "lower": "-15",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+18a",
-      "lower": "+18",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18",
-      "lower": "i18",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18",
+    "hitLevels": "m",
+    "damage": 16,
+    "onBlock": -15,
+    "onHit": "+18a",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 24,
+    "id": "Kuma-f+1+2,1+2",
+    "parent": "Kuma-f+1+2",
     "name": "Bear Claw Cross",
     "input": "f+1+2,1+2",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      16,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-14",
-      "lower": "-14",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+65a (+49)",
-      "lower": "+65",
-      "properties": [
-        "a"
-      ],
-      "tech": "+49"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18",
-      "lower": "i18",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18",
+    "hitLevels": "m,m",
+    "damage": "16,20",
+    "onBlock": -14,
+    "onHit": "+65a (+49)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 24
   },
   {
+    "id": "Kuma-f+2",
+    "parent": null,
+    "name": null,
     "input": "f+2",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      11
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "3",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "h",
+    "damage": 11,
+    "onBlock": -13,
+    "onHit": 3,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 23,
+    "id": "Kuma-f+2,1",
+    "parent": "Kuma-f+2",
     "name": "Wild Lumberjack",
     "input": "f+2,1",
-    "hitLevels": [
-      "h",
-      "h"
-    ],
-    "damage": [
-      11,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-5",
-      "lower": "-5",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+36a (+10)",
-      "lower": "+36",
-      "properties": [
-        "a"
-      ],
-      "tech": "+10"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "h,h",
+    "damage": "11,20",
+    "onBlock": -5,
+    "onHit": "+36a (+10)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 23
   },
   {
-    "index": 25,
+    "id": "Kuma-f+3+4",
+    "parent": null,
     "name": "Shape-Up Kick",
     "input": "f+3+4",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-23",
-      "lower": "-23",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+6a",
-      "lower": "+6",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i28~30",
-      "lower": "i28",
-      "properties": [],
-      "upper": "30"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i28~30",
+    "hitLevels": "l",
+    "damage": 20,
+    "onBlock": -23,
+    "onHit": "+6a",
+    "onCounterHit": null,
+    "states": "cs",
+    "index": 25
   },
   {
-    "index": 26,
+    "id": "Kuma-f+3+4,1+2",
+    "parent": "Kuma-f+3+4",
     "name": "Shape-Up Hip",
     "input": "f+3+4,1+2",
-    "hitLevels": [
-      "l",
-      "m"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-16",
-      "lower": "-16",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-13a",
-      "lower": "-13",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i28~30",
-      "lower": "i28",
-      "properties": [],
-      "upper": "30"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i28~30",
+    "hitLevels": "l,m",
+    "damage": "20null",
+    "onBlock": -16,
+    "onHit": "-13a",
+    "onCounterHit": null,
+    "states": "cs",
+    "index": 26
   },
   {
-    "index": 71,
+    "id": "Kuma-FC.1",
+    "parent": null,
     "name": "Watch Your Feet",
     "input": "FC.1",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-8",
-      "lower": "-8",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "2",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i19~21",
-      "lower": "i19",
-      "properties": [],
-      "upper": "21"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i19~21",
+    "hitLevels": "l",
+    "damage": 12,
+    "onBlock": -8,
+    "onHit": 2,
+    "onCounterHit": null,
+    "states": null,
+    "index": 71
   },
   {
+    "id": "Kuma-FC.1+2",
+    "parent": null,
     "name": "Bear Roll",
     "input": "FC.1+2",
-    "hitLevels": [
-      "sp"
-    ],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "+1~+6 / -6~-1 HBS",
-      "lower": "+1",
-      "properties": [],
-      "upper": "+6"
-    },
-    "framesOnHit": {
-      "_raw": "+7~+12 / 0~+5 HBS",
-      "lower": "+7",
-      "properties": [],
-      "upper": "+12"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "N/A / i26~i31 Heat",
-      "lower": "i26",
-      "properties": [],
-      "upper": "i31"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "N/A / i26~i31 Heat",
+    "hitLevels": "sp",
+    "damage": null,
+    "onBlock": "+1~+6 / -6~-1 HBS",
+    "onHit": "+7~+12 / 0~+5 HBS",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 104,
+    "id": "Kuma-FDFA.1+2",
+    "parent": null,
     "name": "Bear Butterfly",
     "input": "FDFA.1+2",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "6",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "6",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14~16",
-      "lower": "i14",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14~16",
+    "hitLevels": "l",
+    "damage": 10,
+    "onBlock": -12,
+    "onHit": 6,
+    "onCounterHit": 6,
+    "states": null,
+    "index": 104
   },
   {
-    "index": 57,
+    "id": "Kuma-f,F+1+2",
+    "parent": null,
     "name": "Falling Bear",
     "input": "f,F+1+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      30
-    ],
-    "framesOnBlock": {
-      "_raw": "+8 HBS / +5 ROL",
-      "lower": "+8",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "52a HBS / +49a ROL",
-      "lower": "52",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i37~38",
-      "lower": "i37",
-      "properties": [],
-      "upper": "38"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i37~38",
+    "hitLevels": "m",
+    "damage": 30,
+    "onBlock": "+8 HBS / +5 ROL",
+    "onHit": "52a HBS / +49a ROL",
+    "onCounterHit": null,
+    "states": null,
+    "index": 57
   },
   {
-    "index": 56,
+    "id": "Kuma-f,F+2",
+    "parent": null,
     "name": "Demon Uppercut",
     "input": "f,F+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "-19",
-      "lower": "-19",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+45a (+35)",
-      "lower": "+45",
-      "properties": [
-        "a"
-      ],
-      "tech": "+35"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i19~21",
-      "lower": "i19",
-      "properties": [],
-      "upper": "21"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i19~21",
+    "hitLevels": "m",
+    "damage": 23,
+    "onBlock": -19,
+    "onHit": "+45a (+35)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 56
   },
   {
-    "index": 62,
+    "id": "Kuma-f,f,F+1+2",
+    "parent": null,
     "name": "Rabid Bear",
     "input": "f,f,F+1+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      30
-    ],
-    "framesOnBlock": {
-      "_raw": "3",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+35d (-23)",
-      "lower": "+35",
-      "properties": [
-        "d"
-      ],
-      "tech": "-23"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20~24",
-      "lower": "i20",
-      "properties": [],
-      "upper": "24"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20~24",
+    "hitLevels": "m",
+    "damage": 30,
+    "onBlock": 3,
+    "onHit": "+35d (-23)",
+    "onCounterHit": null,
+    "states": "js 21F",
+    "index": 62
   },
   {
-    "index": 61,
+    "id": "Kuma-f,f,F+3",
+    "parent": null,
     "name": "Leaping Side Kick",
     "input": "f,f,F+3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      30
-    ],
-    "framesOnBlock": {
-      "_raw": "6",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+13a (+3)",
-      "lower": "+13",
-      "properties": [
-        "a"
-      ],
-      "tech": "+3"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i22~23",
-      "lower": "i22",
-      "properties": [],
-      "upper": "23"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i22~23",
+    "hitLevels": "m",
+    "damage": 30,
+    "onBlock": 6,
+    "onHit": "+13a (+3)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 61
   },
   {
-    "index": 102,
+    "id": "Kuma-FUFA.1+2",
+    "parent": null,
     "name": "Bear Backstroke",
     "input": "FUFA.1+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "-2 (-2)",
-      "lower": "-2",
-      "properties": [],
-      "tech": "-2"
-    },
-    "framesOnHit": {
-      "_raw": "+6 (+6)",
-      "lower": "+6",
-      "properties": [],
-      "tech": "+6"
-    },
-    "framesOnCounter": {
-      "_raw": "+6 (+6)",
-      "lower": "+6",
-      "properties": [],
-      "tech": "+6"
-    },
-    "framesOnStartup": {
-      "_raw": "i17~19",
-      "lower": "i17",
-      "properties": [],
-      "upper": "19"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17~19",
+    "hitLevels": "m",
+    "damage": 15,
+    "onBlock": "-2 (-2)",
+    "onHit": "+6 (+6)",
+    "onCounterHit": "+6 (+6)",
+    "states": null,
+    "index": 102
   },
   {
-    "index": 103,
+    "id": "Kuma-FUFT.d+1+2",
+    "parent": null,
     "name": "Get Up Punch",
     "input": "FUFT.d+1+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "17",
-      "lower": "17",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+37a",
-      "lower": "+37",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "+37a",
-      "lower": "+37",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i30",
-      "lower": "i30",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i30",
+    "hitLevels": "m",
+    "damage": 21,
+    "onBlock": 17,
+    "onHit": "+37a",
+    "onCounterHit": "+37a",
+    "states": null,
+    "index": 103
   },
   {
+    "id": "Kuma-H.2+3",
+    "parent": null,
     "name": "Salmon Fishing Cast",
     "input": "H.2+3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      51
-    ],
-    "framesOnBlock": {
-      "_raw": "10",
-      "lower": "10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+33 (+23)",
-      "lower": "+33",
-      "properties": [],
-      "tech": "+23"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13~15",
-      "lower": "i13",
-      "properties": [],
-      "upper": "15"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13~15",
+    "hitLevels": "m",
+    "damage": 51,
+    "onBlock": 10,
+    "onHit": "+33 (+23)",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Kuma-HBS.1",
+    "parent": null,
+    "name": null,
     "input": "HBS.1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "2",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "12",
-      "lower": "12",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12~13",
-      "lower": "i12",
-      "properties": [],
-      "upper": "13"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12~13",
+    "hitLevels": "m",
+    "damage": 10,
+    "onBlock": -13,
+    "onHit": 2,
+    "onCounterHit": 12,
+    "states": null,
+    "index": null
   },
   {
-    "index": 80,
+    "id": "Kuma-HBS.1+2",
+    "parent": null,
     "name": "Bear Fling",
     "input": "HBS.1+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      24
-    ],
-    "framesOnBlock": {
-      "_raw": "-15",
-      "lower": "-15",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+79a",
-      "lower": "+79",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i19~22",
-      "lower": "i19",
-      "properties": [],
-      "upper": "22"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i19~22",
+    "hitLevels": "m",
+    "damage": 24,
+    "onBlock": -15,
+    "onHit": "+79a",
+    "onCounterHit": null,
+    "states": null,
+    "index": 80
   },
   {
+    "id": "Kuma-HBS.1,2",
+    "parent": "Kuma-HBS.1",
     "name": "Honeycomb Spike",
     "input": "HBS.1,2",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      10,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "4",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+13c",
-      "lower": "+13",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i12~13",
-      "lower": "i12",
-      "properties": [],
-      "upper": "13"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12~13",
+    "hitLevels": "m,m",
+    "damage": "10,20",
+    "onBlock": -13,
+    "onHit": 4,
+    "onCounterHit": "+13c",
+    "states": null,
+    "index": null
   },
   {
+    "id": "Kuma-HBS.1,2*",
+    "parent": "Kuma-HBS.1",
     "name": "Honeycomb Spike",
     "input": "HBS.1,2*",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      10,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+13c",
-      "lower": "+13",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "+49a",
-      "lower": "+49",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i12~13",
-      "lower": "i12",
-      "properties": [],
-      "upper": "13"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12~13",
+    "hitLevels": "m,m",
+    "damage": "10,20",
+    "onBlock": -12,
+    "onHit": "+13c",
+    "onCounterHit": "+49a",
+    "states": null,
+    "index": null
   },
   {
-    "index": 78,
+    "id": "Kuma-HBS.1,2**",
+    "parent": "Kuma-HBS.1",
     "name": "Fresh Honeycomb Spike",
     "input": "HBS.1,2**",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      10,
-      30
-    ],
-    "framesOnBlock": {
-      "_raw": "3",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+49a",
-      "lower": "+49",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12~13",
-      "lower": "i12",
-      "properties": [],
-      "upper": "13"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12~13",
+    "hitLevels": "m,m",
+    "damage": "10,30",
+    "onBlock": 3,
+    "onHit": "+49a",
+    "onCounterHit": null,
+    "states": null,
+    "index": 78
   },
   {
-    "index": 79,
+    "id": "Kuma-HBS.2",
+    "parent": null,
     "name": "Bear Claw",
     "input": "HBS.2",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      16
-    ],
-    "framesOnBlock": {
-      "_raw": "-15",
-      "lower": "-15",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+21g",
-      "lower": "+21",
-      "properties": [
-        "g"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i21~24",
-      "lower": "i21",
-      "properties": [],
-      "upper": "24"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i21~24",
+    "hitLevels": "l",
+    "damage": 16,
+    "onBlock": -15,
+    "onHit": "+21g",
+    "onCounterHit": null,
+    "states": null,
+    "index": 79
   },
   {
-    "index": 86,
+    "id": "Kuma-HBS.3",
+    "parent": null,
     "name": "Hunting to Roll Over",
     "input": "HBS.3",
-    "hitLevels": [
-      "sp"
-    ],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": "sp",
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": 86
   },
   {
-    "index": 81,
+    "id": "Kuma-HBS.3+4",
+    "parent": null,
     "name": "Bear Tackle",
     "input": "HBS.3+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-2a (-11)",
-      "lower": "-2",
-      "properties": [
-        "a"
-      ],
-      "tech": "-11"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i25~30",
-      "lower": "i25",
-      "properties": [],
-      "upper": "30"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i25~30",
+    "hitLevels": "m",
+    "damage": 21,
+    "onBlock": -12,
+    "onHit": "-2a (-11)",
+    "onCounterHit": null,
+    "states": "pc8~",
+    "index": 81
   },
   {
+    "id": "Kuma-HBS.b+1+2",
+    "parent": null,
+    "name": null,
     "input": "HBS.b+1+2",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      16
-    ],
-    "framesOnBlock": {
-      "_raw": "-25c",
-      "lower": "-25",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnHit": {
-      "_raw": "+14a",
-      "lower": "+14",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i26~29",
-      "lower": "i26",
-      "properties": [],
-      "upper": "29"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i26~29",
+    "hitLevels": "l",
+    "damage": 16,
+    "onBlock": "-25c",
+    "onHit": "+14a",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 85,
+    "id": "Kuma-HBS.b+1+2,1+2",
+    "parent": "Kuma-HBS.b+1+2",
     "name": "Break&#039;n",
     "input": "HBS.b+1+2,1+2",
-    "hitLevels": [
-      "l",
-      "l"
-    ],
-    "damage": [
-      16,
-      33
-    ],
-    "framesOnBlock": {
-      "_raw": "-29c",
-      "lower": "-29",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnHit": {
-      "_raw": "+8a / -3a (-10)",
-      "lower": "+8",
-      "properties": [
-        "a"
-      ],
-      "tech": "-10"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i26~29",
-      "lower": "i26",
-      "properties": [],
-      "upper": "29"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i26~29",
+    "hitLevels": "l,l",
+    "damage": "16,33",
+    "onBlock": "-29c",
+    "onHit": "+8a / -3a (-10)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 85
   },
   {
-    "index": 89,
+    "id": "Kuma-HBS.b,b",
+    "parent": null,
     "name": "Backward Roll",
     "input": "HBS.b,b",
-    "hitLevels": [
-      "sp"
-    ],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": "sp",
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": 89
   },
   {
-    "index": 84,
+    "id": "Kuma-HBS.d+1+2",
+    "parent": null,
     "name": "Frolicking Bear",
     "input": "HBS.d+1+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      22
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "0 / HE",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16~20",
-      "lower": "i16",
-      "properties": [],
-      "upper": "20"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16~20",
+    "hitLevels": "m",
+    "damage": 22,
+    "onBlock": -9,
+    "onHit": "0 / HE",
+    "onCounterHit": null,
+    "states": null,
+    "index": 84
   },
   {
-    "index": 87,
+    "id": "Kuma-HBS.d+3+4",
+    "parent": null,
     "name": "Hunting to Play Dead",
     "input": "HBS.d+3+4",
-    "hitLevels": [
-      "sp"
-    ],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": "sp",
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": 87
   },
   {
-    "index": 83,
+    "id": "Kuma-HBS.df+2",
+    "parent": null,
     "name": "Big Tree",
     "input": "HBS.df+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-17",
-      "lower": "-17",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+35a (+25)",
-      "lower": "+35",
-      "properties": [
-        "a"
-      ],
-      "tech": "+25"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "m",
+    "damage": 20,
+    "onBlock": -17,
+    "onHit": "+35a (+25)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 83
   },
   {
-    "index": 113,
+    "id": "Kuma-HBS.f+1+2",
+    "parent": null,
     "name": "Bear Toss",
     "input": "HBS.f+1+2",
-    "hitLevels": [
-      "th(h)"
-    ],
-    "damage": [
-      35
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "1",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i26~27",
-      "lower": "i26",
-      "properties": [],
-      "upper": "27"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i26~27",
+    "hitLevels": "th(h)",
+    "damage": 35,
+    "onBlock": null,
+    "onHit": 1,
+    "onCounterHit": null,
+    "states": null,
+    "index": 113
   },
   {
-    "index": 82,
+    "id": "Kuma-HBS.f+3+4",
+    "parent": null,
     "name": "Hunting Hip Smash",
     "input": "HBS.f+3+4",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": 82
   },
   {
+    "id": "Kuma-HBS.f,f",
+    "parent": null,
     "name": "Bear Roll",
     "input": "HBS.f,f",
-    "hitLevels": [
-      "sp"
-    ],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "+1~+6 / -6~-1 HBS",
-      "lower": "+1",
-      "properties": [],
-      "upper": "+6"
-    },
-    "framesOnHit": {
-      "_raw": "+7~+12 / 0~+5 HBS",
-      "lower": "+7",
-      "properties": [],
-      "upper": "+12"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "N/A / i26~i31 Heat",
-      "lower": "i26",
-      "properties": [],
-      "upper": "i31"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "N/A / i26~i31 Heat",
+    "hitLevels": "sp",
+    "damage": null,
+    "onBlock": "+1~+6 / -6~-1 HBS",
+    "onHit": "+7~+12 / 0~+5 HBS",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 112,
+    "id": "Kuma-hcb,f+1+2",
+    "parent": null,
     "name": "Rock&#039;n Roll Circus",
     "input": "f,df,d,db,b,f+1+2",
-    "hitLevels": [
-      "th(h)"
-    ],
-    "damage": [
-      50
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "5",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i11",
-      "lower": "i11",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i11",
+    "hitLevels": "th(h)",
+    "damage": 50,
+    "onBlock": 0,
+    "onHit": 5,
+    "onCounterHit": null,
+    "states": null,
+    "index": 112
   },
   {
+    "id": "Kuma-H.df+2+3",
+    "parent": null,
     "name": "Wind Bear Fist",
     "input": "H.df+2+3",
-    "hitLevels": [
-      "sm"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "5",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+39 (+29)",
-      "lower": "+39",
-      "properties": [],
-      "tech": "+29"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "sm",
+    "damage": 20,
+    "onBlock": 5,
+    "onHit": "+39 (+29)",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Kuma-H.df+2+3*",
+    "parent": null,
     "name": "Fresh Wind Bear Fist",
     "input": "H.df+2+3*",
-    "hitLevels": [
-      "sm"
-    ],
-    "damage": [
-      26
-    ],
-    "framesOnBlock": {
-      "_raw": "9",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+45 (+35)",
-      "lower": "+45",
-      "properties": [],
-      "tech": "+35"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i25~26",
-      "lower": "i25",
-      "properties": [],
-      "upper": "26"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i25~26",
+    "hitLevels": "sm",
+    "damage": 26,
+    "onBlock": 9,
+    "onHit": "+45 (+35)",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Kuma-H.f,f,F+1+2",
+    "parent": null,
     "name": "Rabid Bear",
     "input": "H.f,f,F+1+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      30
-    ],
-    "framesOnBlock": {
-      "_raw": "3",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+35d (-23)",
-      "lower": "+35",
-      "properties": [
-        "d"
-      ],
-      "tech": "-23"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20~24",
-      "lower": "i20",
-      "properties": [],
-      "upper": "24"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20~24",
+    "hitLevels": "m",
+    "damage": 30,
+    "onBlock": 3,
+    "onHit": "+35d (-23)",
+    "onCounterHit": null,
+    "states": "js 21F",
+    "index": null
   },
   {
-    "index": 108,
+    "id": "Kuma-Left throw",
+    "parent": null,
     "name": "Bear Slam",
-    "input": "Leftthrow",
-    "hitLevels": [
-      "th(h)"
-    ],
-    "damage": [
-      50
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "1",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12~14",
-      "lower": "i12",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": "Left throw",
+    "startup": "i12~14",
+    "hitLevels": "th(h)",
+    "damage": 50,
+    "onBlock": -3,
+    "onHit": 1,
+    "onCounterHit": null,
+    "states": null,
+    "index": 108
   },
   {
+    "id": "Kuma-OTG.d+1+4",
+    "parent": null,
     "name": "Dance With Me",
     "input": "OTG.d+1+4",
-    "hitLevels": [
-      "l",
-      "ub(l)"
-    ],
-    "damage": [
-      1611,
-      4833
-    ],
-    "framesOnBlock": {
-      "_raw": "N/A",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "8 (0) / +14",
-      "lower": "+14",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i55~110,i25~38",
-      "lower": "i55",
-      "properties": [],
-      "upper": "110"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i55~110,i25~38",
+    "hitLevels": "l,ub(l)",
+    "damage": "16 (11),48 (33)",
+    "onBlock": "N/A",
+    "onHit": "8 (0) / +14",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Kuma-qcf+2",
+    "parent": null,
+    "name": null,
     "input": "d,df,f+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "-8",
-      "lower": "-8",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "3",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18~19",
-      "lower": "i18",
-      "properties": [],
-      "upper": "19"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18~19",
+    "hitLevels": "m",
+    "damage": 15,
+    "onBlock": -8,
+    "onHit": 3,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 59,
+    "id": "Kuma-qcf+2,1",
+    "parent": "Kuma-qcf+2",
     "name": "Grizzly Claws",
     "input": "d,df,f+2,1",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      15,
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-14",
-      "lower": "-14",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+29a (+3)",
-      "lower": "+29",
-      "properties": [
-        "a"
-      ],
-      "tech": "+3"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18~19",
-      "lower": "i18",
-      "properties": [],
-      "upper": "19"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18~19",
+    "hitLevels": "m,m",
+    "damage": "15,25",
+    "onBlock": -14,
+    "onHit": "+29a (+3)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 59
   },
   {
-    "index": 60,
+    "id": "Kuma-qcf+2,2",
+    "parent": "Kuma-qcf+2",
     "name": "Grizzly Claw Smash",
     "input": "d,df,f+2,2",
-    "hitLevels": [
-      "m",
-      "l"
-    ],
-    "damage": [
-      15,
-      22
-    ],
-    "framesOnBlock": {
-      "_raw": "-18",
-      "lower": "-18",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+40a",
-      "lower": "+40",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18~19",
-      "lower": "i18",
-      "properties": [],
-      "upper": "19"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18~19",
+    "hitLevels": "m,l",
+    "damage": "15,22",
+    "onBlock": -18,
+    "onHit": "+40a",
+    "onCounterHit": null,
+    "states": null,
+    "index": 60
   },
   {
+    "id": "Kuma-R.df+1+2",
+    "parent": null,
     "name": "Type 38 Eradication Weapon: Aramaki",
     "input": "R.df+1+2",
-    "hitLevels": [
-      "m",
-      "t"
-    ],
-    "damage": [
-      55
-    ],
-    "framesOnBlock": {
-      "_raw": "-15",
-      "lower": "-15",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20",
-      "lower": "i20",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20",
+    "hitLevels": "m,t",
+    "damage": "55+",
+    "onBlock": -15,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": "pc8~",
+    "index": null
   },
   {
-    "index": 109,
+    "id": "Kuma-Right throw",
+    "parent": null,
     "name": "Choke Slam",
-    "input": "Rightthrow",
-    "hitLevels": [
-      "th(h)"
-    ],
-    "damage": [
-      40
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "1",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12~14",
-      "lower": "i12",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": "Right throw",
+    "startup": "i12~14",
+    "hitLevels": "th(h)",
+    "damage": 40,
+    "onBlock": -3,
+    "onHit": 1,
+    "onCounterHit": null,
+    "states": null,
+    "index": 109
   },
   {
-    "index": 96,
+    "id": "Kuma-ROL.1",
+    "parent": null,
     "name": "Bear Shove",
     "input": "ROL.1",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      31
-    ],
-    "framesOnBlock": {
-      "_raw": "4",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+35d (+27)",
-      "lower": "+35",
-      "properties": [
-        "d"
-      ],
-      "tech": "+27"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "h",
+    "damage": 31,
+    "onBlock": 4,
+    "onHit": "+35d (+27)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 96
   },
   {
-    "index": 100,
+    "id": "Kuma-ROL.1+2",
+    "parent": null,
     "name": "Giant Roll",
     "input": "ROL.1+2",
-    "hitLevels": [
-      "sm"
-    ],
-    "damage": [
-      22
-    ],
-    "framesOnBlock": {
-      "_raw": "-30",
-      "lower": "-30",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+45a",
-      "lower": "+45",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10~40",
-      "lower": "i10",
-      "properties": [],
-      "upper": "40"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10~40",
+    "hitLevels": "sm",
+    "damage": 22,
+    "onBlock": -30,
+    "onHit": "+45a",
+    "onCounterHit": null,
+    "states": null,
+    "index": 100
   },
   {
-    "index": 97,
+    "id": "Kuma-ROL.2",
+    "parent": null,
     "name": "Bear Backhand",
     "input": "ROL.2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-17",
-      "lower": "-17",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+28a (+18)",
-      "lower": "+28",
-      "properties": [
-        "a"
-      ],
-      "tech": "+18"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17~19",
-      "lower": "i17",
-      "properties": [],
-      "upper": "19"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17~19",
+    "hitLevels": "m",
+    "damage": 21,
+    "onBlock": -17,
+    "onHit": "+28a (+18)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 97
   },
   {
-    "index": 98,
+    "id": "Kuma-ROL.3",
+    "parent": null,
     "name": "Bear Slide",
     "input": "ROL.3",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-18",
-      "lower": "-18",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+33a",
-      "lower": "+33",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18~26",
-      "lower": "i18",
-      "properties": [],
-      "upper": "26"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18~26",
+    "hitLevels": "l",
+    "damage": 20,
+    "onBlock": -18,
+    "onHit": "+33a",
+    "onCounterHit": null,
+    "states": null,
+    "index": 98
   },
   {
-    "index": 99,
+    "id": "Kuma-ROL.4",
+    "parent": null,
     "name": "Bear Rolling Kick",
     "input": "ROL.4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "7",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+26a",
-      "lower": "+26",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i26~30",
-      "lower": "i26",
-      "properties": [],
-      "upper": "30"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i26~30",
+    "hitLevels": "m",
+    "damage": 20,
+    "onBlock": 7,
+    "onHit": "+26a",
+    "onCounterHit": null,
+    "states": null,
+    "index": 99
   },
   {
+    "id": "Kuma-SIT.1",
+    "parent": null,
+    "name": null,
     "input": "SIT.1",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "4",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "9",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i21~22",
-      "lower": "i21",
-      "properties": [],
-      "upper": "22"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i21~22",
+    "hitLevels": "l",
+    "damage": 15,
+    "onBlock": -12,
+    "onHit": 4,
+    "onCounterHit": 9,
+    "states": null,
+    "index": null
   },
   {
-    "index": 91,
+    "id": "Kuma-SIT.1,1",
+    "parent": "Kuma-SIT.1",
     "name": "Double Trout Sweep",
     "input": "SIT.1,1",
-    "hitLevels": [
-      "l",
-      "l"
-    ],
-    "damage": [
-      15,
-      13
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "6",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i21~22",
-      "lower": "i21",
-      "properties": [],
-      "upper": "22"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i21~22",
+    "hitLevels": "l,l",
+    "damage": "15,13",
+    "onBlock": -12,
+    "onHit": 6,
+    "onCounterHit": null,
+    "states": null,
+    "index": 91
   },
   {
-    "index": 92,
+    "id": "Kuma-SIT.2",
+    "parent": null,
     "name": "Trout Smash",
     "input": "SIT.2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      18
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+73a (+57)",
-      "lower": "+73",
-      "properties": [
-        "a"
-      ],
-      "tech": "+57"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i19~21",
-      "lower": "i19",
-      "properties": [],
-      "upper": "21"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i19~21",
+    "hitLevels": "m",
+    "damage": 18,
+    "onBlock": -12,
+    "onHit": "+73a (+57)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 92
   },
   {
-    "index": 93,
+    "id": "Kuma-SIT.3+4",
+    "parent": null,
     "name": "Rebound",
     "input": "SIT.3+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-12 / -10 ROL",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-4a / -2a ROL",
-      "lower": "-4",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i25",
-      "lower": "i25",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i25",
+    "hitLevels": "m",
+    "damage": 20,
+    "onBlock": "-12 / -10 ROL",
+    "onHit": "-4a / -2a ROL",
+    "onCounterHit": null,
+    "states": null,
+    "index": 93
   },
   {
+    "id": "Kuma-SIT.f",
+    "parent": null,
     "name": "Bear Roll",
     "input": "SIT.f",
-    "hitLevels": [
-      "sp"
-    ],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "+1~+6 / -6~-1 HBS",
-      "lower": "+1",
-      "properties": [],
-      "upper": "+6"
-    },
-    "framesOnHit": {
-      "_raw": "+7~+12 / 0~+5 HBS",
-      "lower": "+7",
-      "properties": [],
-      "upper": "+12"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "N/A / i26~i31 Heat",
-      "lower": "i26",
-      "properties": [],
-      "upper": "i31"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "N/A / i26~i31 Heat",
+    "hitLevels": "sp",
+    "damage": null,
+    "onBlock": "+1~+6 / -6~-1 HBS",
+    "onHit": "+7~+12 / 0~+5 HBS",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 74,
+    "id": "Kuma-SS.1+2",
+    "parent": null,
     "name": "Salmon Swipe",
     "input": "SS.1+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "-9c",
-      "lower": "-9",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnHit": {
-      "_raw": "+11d",
-      "lower": "+11",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i22~23",
-      "lower": "i22",
-      "properties": [],
-      "upper": "23"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i22~23",
+    "hitLevels": "m",
+    "damage": 23,
+    "onBlock": "-9c",
+    "onHit": "+11d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 74
   },
   {
-    "index": 50,
+    "id": "Kuma-u+1+2",
+    "parent": null,
     "name": "Big Bear Attack",
     "input": "u+1+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      24
-    ],
-    "framesOnBlock": {
-      "_raw": "-4 / -3 HBS",
-      "lower": "-4",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+3 / +4 HBS",
-      "lower": "+3",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18~23",
-      "lower": "i18",
-      "properties": [],
-      "upper": "23"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18~23",
+    "hitLevels": "m",
+    "damage": 24,
+    "onBlock": "-4 / -3 HBS",
+    "onHit": "+3 / +4 HBS",
+    "onCounterHit": null,
+    "states": null,
+    "index": 50
   },
   {
-    "index": 51,
+    "id": "Kuma-u+3+4",
+    "parent": null,
     "name": "Pancake Press",
     "input": "u+3+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "10",
-      "lower": "10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "20",
-      "lower": "20",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i34~39",
-      "lower": "i34",
-      "properties": [],
-      "upper": "39"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i34~39",
+    "hitLevels": "m",
+    "damage": 21,
+    "onBlock": 10,
+    "onHit": 20,
+    "onCounterHit": null,
+    "states": null,
+    "index": 51
   },
   {
-    "index": 49,
+    "id": "Kuma-ub+1+2",
+    "parent": null,
     "name": "Bear Skip",
     "input": "ub+1+2",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-17",
-      "lower": "-17",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+12a",
-      "lower": "+12",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i31~32",
-      "lower": "i31",
-      "properties": [],
-      "upper": "32"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i31~32",
+    "hitLevels": "l",
+    "damage": 25,
+    "onBlock": -17,
+    "onHit": "+12a",
+    "onCounterHit": null,
+    "states": null,
+    "index": 49
   },
   {
-    "index": 52,
+    "id": "Kuma-uf+1",
+    "parent": null,
     "name": "Hornet Sweep",
     "input": "uf+1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+22a",
-      "lower": "+22",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i26~28",
-      "lower": "i26",
-      "properties": [],
-      "upper": "28"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i26~28",
+    "hitLevels": "m",
+    "damage": 20,
+    "onBlock": -6,
+    "onHit": "+22a",
+    "onCounterHit": null,
+    "states": null,
+    "index": 52
   },
   {
-    "index": 111,
+    "id": "Kuma-uf+1+2",
+    "parent": null,
     "name": "Headbutt",
     "input": "uf+1+2",
-    "hitLevels": [
-      "th(h)"
-    ],
-    "damage": [
-      35
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+26d (+7)",
-      "lower": "+26",
-      "properties": [
-        "d"
-      ],
-      "tech": "+7"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12~14",
-      "lower": "i12",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12~14",
+    "hitLevels": "th(h)",
+    "damage": 35,
+    "onBlock": 0,
+    "onHit": "+26d (+7)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 111
   },
   {
-    "index": 53,
+    "id": "Kuma-uf+2",
+    "parent": null,
     "name": "Ultra Kuma",
     "input": "uf+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      27
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+30a",
-      "lower": "+30",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "+65a (+45)",
-      "lower": "+65",
-      "properties": [
-        "a"
-      ],
-      "tech": "+45"
-    },
-    "framesOnStartup": {
-      "_raw": "i28~30",
-      "lower": "i28",
-      "properties": [],
-      "upper": "30"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i28~30",
+    "hitLevels": "m",
+    "damage": 27,
+    "onBlock": -6,
+    "onHit": "+30a",
+    "onCounterHit": "+65a (+45)",
+    "states": null,
+    "index": 53
   },
   {
+    "id": "Kuma-uf+3",
+    "parent": null,
+    "name": null,
     "input": "uf+3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      13
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+30a (+20)",
-      "lower": "+30",
-      "properties": [
-        "a"
-      ],
-      "tech": "+20"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16~17",
-      "lower": "i16",
-      "properties": [],
-      "upper": "17"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16~17",
+    "hitLevels": "m",
+    "damage": 13,
+    "onBlock": -13,
+    "onHit": "+30a (+20)",
+    "onCounterHit": null,
+    "states": "js",
+    "index": null
   },
   {
+    "id": "Kuma-uf+3,4",
+    "parent": "Kuma-uf+3",
+    "name": null,
     "input": "uf+3,4",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      13,
-      13
-    ],
-    "framesOnBlock": {
-      "_raw": "-11",
-      "lower": "-11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+30a (+20) / +21a (+14)",
-      "lower": "+30",
-      "properties": [
-        "a"
-      ],
-      "tech": "+20"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16~17",
-      "lower": "i16",
-      "properties": [],
-      "upper": "17"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16~17",
+    "hitLevels": "m,m",
+    "damage": "13,13",
+    "onBlock": -11,
+    "onHit": "+30a (+20) / +21a (+14)",
+    "onCounterHit": null,
+    "states": "js",
+    "index": null
   },
   {
-    "index": 54,
+    "id": "Kuma-uf+3,4,1+2",
+    "parent": "Kuma-uf+3,4",
     "name": "Bear Double Hop Kick Combo",
     "input": "uf+3,4,1+2",
-    "hitLevels": [
-      "m",
-      "m",
-      "m"
-    ],
-    "damage": [
-      13,
-      13,
-      22
-    ],
-    "framesOnBlock": {
-      "_raw": "-15",
-      "lower": "-15",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+16a / -2a",
-      "lower": "+16",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16~17",
-      "lower": "i16",
-      "properties": [],
-      "upper": "17"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16~17",
+    "hitLevels": "m,m,m",
+    "damage": "13,13,22",
+    "onBlock": -15,
+    "onHit": "+16a / -2a",
+    "onCounterHit": null,
+    "states": null,
+    "index": 54
   },
   {
+    "id": "Kuma-uf+4",
+    "parent": null,
+    "name": null,
     "input": "uf+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-10a (-20)",
-      "lower": "-10",
-      "properties": [
-        "a"
-      ],
-      "tech": "-20"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i29~30",
-      "lower": "i29",
-      "properties": [],
-      "upper": "30"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i29~30",
+    "hitLevels": "m",
+    "damage": 20,
+    "onBlock": -6,
+    "onHit": "-10a (-20)",
+    "onCounterHit": null,
+    "states": "js",
+    "index": null
   },
   {
-    "index": 55,
+    "id": "Kuma-uf+4,3",
+    "parent": "Kuma-uf+4",
     "name": "Kuma Hell Axle",
     "input": "uf+4,3",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      20,
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "7",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+21a (+14)",
-      "lower": "+21",
-      "properties": [
-        "a"
-      ],
-      "tech": "+14"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i29~30",
-      "lower": "i29",
-      "properties": [],
-      "upper": "30"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i29~30",
+    "hitLevels": "m,m",
+    "damage": "20,25",
+    "onBlock": 7,
+    "onHit": "+21a (+14)",
+    "onCounterHit": null,
+    "states": "js",
+    "index": 55
   },
   {
+    "id": "Kuma-ws1",
+    "parent": null,
+    "name": null,
     "input": "ws1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      13
-    ],
-    "framesOnBlock": {
-      "_raw": "-11",
-      "lower": "-11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "2",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "7",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13~15",
-      "lower": "i13",
-      "properties": [],
-      "upper": "15"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13~15",
+    "hitLevels": "m",
+    "damage": 13,
+    "onBlock": -11,
+    "onHit": 2,
+    "onCounterHit": 7,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Kuma-ws1,2",
+    "parent": "Kuma-ws1",
     "name": "Killing Claws",
     "input": "ws1,2",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      13,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+6 (+20g)",
-      "lower": "+6",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "18",
-      "lower": "18",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13~15",
-      "lower": "i13",
-      "properties": [],
-      "upper": "15"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13~15",
+    "hitLevels": "m,m",
+    "damage": "13,20",
+    "onBlock": -13,
+    "onHit": "+6 (+20g)",
+    "onCounterHit": 18,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Kuma-ws1,2*",
+    "parent": "Kuma-ws1",
     "name": "Killing Claws",
     "input": "ws1,2*",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      13,
-      28
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+18c",
-      "lower": "+18",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "+33a (-2)",
-      "lower": "+33",
-      "properties": [
-        "a"
-      ],
-      "tech": "-2"
-    },
-    "framesOnStartup": {
-      "_raw": "i13~15",
-      "lower": "i13",
-      "properties": [],
-      "upper": "15"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13~15",
+    "hitLevels": "m,m",
+    "damage": "13,28",
+    "onBlock": -12,
+    "onHit": "+18c",
+    "onCounterHit": "+33a (-2)",
+    "states": null,
+    "index": null
   },
   {
-    "index": 67,
+    "id": "Kuma-ws1,2**",
+    "parent": "Kuma-ws1",
     "name": "Fresh Killing Claws",
     "input": "ws1,2**",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      13,
-      38
-    ],
-    "framesOnBlock": {
-      "_raw": "3",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+27a (-9)",
-      "lower": "+27",
-      "properties": [
-        "a"
-      ],
-      "tech": "-9"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13~15",
-      "lower": "i13",
-      "properties": [],
-      "upper": "15"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13~15",
+    "hitLevels": "m,m",
+    "damage": "13,38",
+    "onBlock": 3,
+    "onHit": "+27a (-9)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 67
   },
   {
-    "index": 68,
+    "id": "Kuma-ws2",
+    "parent": null,
     "name": "Mad Angler",
     "input": "ws2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+29a (+19)",
-      "lower": "+29",
-      "properties": [
-        "a"
-      ],
-      "tech": "+19"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "m",
+    "damage": 20,
+    "onBlock": -12,
+    "onHit": "+29a (+19)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 68
   },
   {
-    "index": 69,
+    "id": "Kuma-ws3",
+    "parent": null,
     "name": "Spinning Bear Kick",
     "input": "ws3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+17 (+8)",
-      "lower": "+17",
-      "properties": [],
-      "tech": "+8"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18~20",
-      "lower": "i18",
-      "properties": [],
-      "upper": "20"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18~20",
+    "hitLevels": "m",
+    "damage": 21,
+    "onBlock": -9,
+    "onHit": "+17 (+8)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 69
   },
   {
-    "index": 70,
+    "id": "Kuma-ws4",
+    "parent": null,
     "name": "Paw Smash",
     "input": "ws4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "5",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i11~12",
-      "lower": "i11",
-      "properties": [],
-      "upper": "12"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i11~12",
+    "hitLevels": "m",
+    "damage": 20,
+    "onBlock": -6,
+    "onHit": 5,
+    "onCounterHit": null,
+    "states": null,
+    "index": 70
   }
 ]

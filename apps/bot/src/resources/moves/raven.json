@@ -1,6954 +1,2466 @@
 [
   {
+    "id": "Raven-1",
+    "parent": null,
     "name": "Jab",
-    "input": "1",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      5
-    ],
-    "framesOnBlock": {
-      "_raw": "1",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "8",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": 1,
+    "startup": "i10",
+    "hitLevels": "h",
+    "damage": 5,
+    "onBlock": 1,
+    "onHit": 8,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Raven-1+2",
+    "parent": null,
     "name": "Crusader",
     "input": "1+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+15a",
-      "lower": "+15",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14",
-      "lower": "i14",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14",
+    "hitLevels": "m",
+    "damage": 20,
+    "onBlock": -9,
+    "onHit": "+15a",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 16,
+    "id": "Raven-1,2",
+    "parent": "Raven-1",
     "name": "Left Right Combo",
     "input": "1,2",
-    "hitLevels": [
-      "h",
-      "h"
-    ],
-    "damage": [
-      5,
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "7",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,h",
+    "damage": "5,12",
+    "onBlock": -3,
+    "onHit": 7,
+    "onCounterHit": null,
+    "states": null,
+    "index": 16
   },
   {
-    "index": 68,
+    "id": "Raven-1+2+3+4",
+    "parent": null,
     "name": "Ki Charge",
     "input": "1+2+3+4",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": 68
   },
   {
-    "index": 69,
+    "id": "Raven-1+2+3+4,b,f,1+2",
+    "parent": "Raven-1+2+3+4",
     "name": "Dead End",
     "input": "1+2+3+4,b,f,1+2",
-    "hitLevels": [
-      "null",
-      "m!"
-    ],
-    "damage": [
-      null,
-      60
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+21a (+11)",
-      "lower": "+21",
-      "properties": [
-        "a"
-      ],
-      "tech": "+11"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": "null,m!",
+    "damage": "null,60",
+    "onBlock": null,
+    "onHit": "+21a (+11)",
+    "onCounterHit": null,
+    "states": ",cs12~42",
+    "index": 69
   },
   {
-    "index": 17,
+    "id": "Raven-1,2,4",
+    "parent": "Raven-1,2",
     "name": "Left Right Combo &gt; Black Hole",
     "input": "1,2,4",
-    "hitLevels": [
-      "h",
-      "h",
-      "m"
-    ],
-    "damage": [
-      5,
-      12,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-14~-12",
-      "lower": "-14",
-      "properties": [],
-      "upper": "-12"
-    },
-    "framesOnHit": {
-      "_raw": "+15a (-2)",
-      "lower": "+15",
-      "properties": [
-        "a"
-      ],
-      "tech": "-2"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,h,m",
+    "damage": "5,12,20",
+    "onBlock": "-14~-12",
+    "onHit": "+15a (-2)",
+    "onCounterHit": null,
+    "states": ",js23~42 fs43~45",
+    "index": 17
   },
   {
-    "index": 115,
+    "id": "Raven-1+3",
+    "parent": null,
     "name": "Grave Digger",
     "input": "1+3",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      35
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12~14",
-      "lower": "i12",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12~14",
+    "hitLevels": "t",
+    "damage": 35,
+    "onBlock": -6,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 115
   },
   {
+    "id": "Raven-2",
+    "parent": null,
     "name": "Right Jab",
-    "input": "2",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      9
-    ],
-    "framesOnBlock": {
-      "_raw": "-1",
-      "lower": "-1",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "8",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": 2,
+    "startup": "i10",
+    "hitLevels": "h",
+    "damage": 9,
+    "onBlock": -1,
+    "onHit": 8,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Raven-2+3",
+    "parent": null,
     "name": "Heat Burst",
     "input": "2+3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "1",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+2c",
-      "lower": "+2",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "m",
+    "damage": 12,
+    "onBlock": 1,
+    "onHit": "+2c",
+    "onCounterHit": null,
+    "states": "pc7~",
+    "index": null
   },
   {
-    "index": 18,
+    "id": "Raven-2,3",
+    "parent": "Raven-2",
     "name": "PDK Combo",
     "input": "2,3",
-    "hitLevels": [
-      "h",
-      "l"
-    ],
-    "damage": [
-      9,
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,l",
+    "damage": "9,10",
+    "onBlock": -13,
+    "onHit": -2,
+    "onCounterHit": null,
+    "states": ",cs6~",
+    "index": 18
   },
   {
-    "index": 116,
+    "id": "Raven-2+4",
+    "parent": null,
     "name": "Salamander",
     "input": "2+4",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      35
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12~14",
-      "lower": "i12",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12~14",
+    "hitLevels": "t",
+    "damage": 35,
+    "onBlock": -3,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 116
   },
   {
-    "index": 19,
+    "id": "Raven-2,4",
+    "parent": "Raven-2",
     "name": "PK Combo",
     "input": "2,4",
-    "hitLevels": [
-      "h",
-      "h"
-    ],
-    "damage": [
-      9,
-      16
-    ],
-    "framesOnBlock": {
-      "_raw": "-8~-7",
-      "lower": "-8",
-      "properties": [],
-      "upper": "-7"
-    },
-    "framesOnHit": {
-      "_raw": "8",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,h",
+    "damage": "9,16",
+    "onBlock": "-8~-7",
+    "onHit": 8,
+    "onCounterHit": null,
+    "states": null,
+    "index": 19
   },
   {
-    "input": "3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-8~-7",
-      "lower": "-8",
-      "properties": [],
-      "upper": "-7"
-    },
-    "framesOnHit": {
-      "_raw": "+3~+4",
-      "lower": "+3",
-      "properties": [],
-      "upper": "+4"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": ",i14~15",
-      "lower": "i14",
-      "properties": [],
-      "upper": "15"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "id": "Raven-3",
+    "parent": null,
+    "name": null,
+    "input": 3,
+    "startup": ",i14~15",
+    "hitLevels": "m",
+    "damage": 10,
+    "onBlock": "-8~-7",
+    "onHit": "+3~+4",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Raven-3,3",
+    "parent": "Raven-3",
+    "name": null,
     "input": "3,3",
-    "hitLevels": [
-      "m",
-      "h"
-    ],
-    "damage": [
-      10,
-      16
-    ],
-    "framesOnBlock": {
-      "_raw": "-8~-7",
-      "lower": "-8",
-      "properties": [],
-      "upper": "-7"
-    },
-    "framesOnHit": {
-      "_raw": "+5~+6",
-      "lower": "+5",
-      "properties": [],
-      "upper": "+6"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": ",i14~15",
-      "lower": "i14",
-      "properties": [],
-      "upper": "15"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": ",i14~15",
+    "hitLevels": "m,h",
+    "damage": "10,16",
+    "onBlock": "-8~-7",
+    "onHit": "+5~+6",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 20,
+    "id": "Raven-3,3,4",
+    "parent": "Raven-3,3",
     "name": "Valkyrie Lance Combo",
     "input": "3,3,4",
-    "hitLevels": [
-      "m",
-      "h",
-      "h"
-    ],
-    "damage": [
-      10,
-      16,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+39a (-19)",
-      "lower": "+39",
-      "properties": [
-        "a"
-      ],
-      "tech": "-19"
-    },
-    "framesOnCounter": {
-      "_raw": "+66a (+50)",
-      "lower": "+66",
-      "properties": [
-        "a"
-      ],
-      "tech": "+50"
-    },
-    "framesOnStartup": {
-      "_raw": ",i14~15",
-      "lower": "i14",
-      "properties": [],
-      "upper": "15"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": ",i14~15",
+    "hitLevels": "m,h,h",
+    "damage": "10,16,20",
+    "onBlock": -9,
+    "onHit": "+39a (-19)",
+    "onCounterHit": "+66a (+50)",
+    "states": null,
+    "index": 20
   },
   {
+    "id": "Raven-3+4",
+    "parent": null,
     "name": "Soulzone",
     "input": "3+4",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 22,
+    "id": "Raven-3~4",
+    "parent": null,
     "name": "Chariot",
     "input": "3~4",
-    "hitLevels": [
-      "m",
-      "M"
-    ],
-    "damage": [
-      10,
-      16
-    ],
-    "framesOnBlock": {
-      "_raw": "-9~-4",
-      "lower": "-9",
-      "properties": [],
-      "upper": "-4"
-    },
-    "framesOnHit": {
-      "_raw": "+19a",
-      "lower": "+19",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i25~26 i31~36",
-      "lower": "i25",
-      "properties": [],
-      "upper": "26"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i25~26 i31~36",
+    "hitLevels": "m,M",
+    "damage": "10,16",
+    "onBlock": "-9~-4",
+    "onHit": "+19a",
+    "onCounterHit": null,
+    "states": null,
+    "index": 22
   },
   {
+    "id": "Raven-3~4,F",
+    "parent": "Raven-3~4",
     "name": "Chariot to Blind Roll",
     "input": "3~4,F",
-    "hitLevels": [
-      "m",
-      "Mnull"
-    ],
-    "damage": [
-      10,
-      16
-    ],
-    "framesOnBlock": {
-      "_raw": "-39~-36",
-      "lower": "-39",
-      "properties": [],
-      "upper": "-36"
-    },
-    "framesOnHit": {
-      "_raw": "-8",
-      "lower": "-8",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i25~26 i31~36",
-      "lower": "i25",
-      "properties": [],
-      "upper": "26"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i25~26 i31~36",
+    "hitLevels": "m,Mnull",
+    "damage": "10,16null",
+    "onBlock": "-39~-36",
+    "onHit": -8,
+    "onCounterHit": null,
+    "states": ",js13~41 fs42~44",
+    "index": null
   },
   {
+    "id": "Raven-4",
+    "parent": null,
     "name": "High Kick",
-    "input": "4",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      16
-    ],
-    "framesOnBlock": {
-      "_raw": "-7~-6",
-      "lower": "-7",
-      "properties": [],
-      "upper": "-6"
-    },
-    "framesOnHit": {
-      "_raw": "+3~+4",
-      "lower": "+3",
-      "properties": [],
-      "upper": "+4"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12~13",
-      "lower": "i12",
-      "properties": [],
-      "upper": "13"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": 4,
+    "startup": "i12~13",
+    "hitLevels": "h",
+    "damage": 16,
+    "onBlock": "-7~-6",
+    "onHit": "+3~+4",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 21,
+    "id": "Raven-4,1",
+    "parent": "Raven-4",
     "name": "Brocken Connect",
     "input": "4,1",
-    "hitLevels": [
-      "h",
-      "h"
-    ],
-    "damage": [
-      16,
-      13
-    ],
-    "framesOnBlock": {
-      "_raw": "-3~-2",
-      "lower": "-3",
-      "properties": [],
-      "upper": "-2"
-    },
-    "framesOnHit": {
-      "_raw": "+7~+8",
-      "lower": "+7",
-      "properties": [],
-      "upper": "+8"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12~13",
-      "lower": "i12",
-      "properties": [],
-      "upper": "13"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12~13",
+    "hitLevels": "h,h",
+    "damage": "16,13",
+    "onBlock": "-3~-2",
+    "onHit": "+7~+8",
+    "onCounterHit": null,
+    "states": null,
+    "index": 21
   },
   {
+    "id": "Raven-4~3",
+    "parent": null,
     "name": "Hydra Bite",
     "input": "4~3",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      8,
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-16~-15",
-      "lower": "-16",
-      "properties": [],
-      "upper": "-15"
-    },
-    "framesOnHit": {
-      "_raw": "+31a (+21)",
-      "lower": "+31",
-      "properties": [
-        "a"
-      ],
-      "tech": "+21"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16 i29~30",
-      "lower": "i16",
-      "properties": [],
-      "upper": "30"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16 i29~30",
+    "hitLevels": "m,m",
+    "damage": "8,10",
+    "onBlock": "-16~-15",
+    "onHit": "+31a (+21)",
+    "onCounterHit": null,
+    "states": "js14~27 fs28~30",
+    "index": null
   },
   {
-    "index": 23,
+    "id": "Raven-4~3,1",
+    "parent": "Raven-4~3",
     "name": "Hydra Bite Low",
     "input": "4~3,1",
-    "hitLevels": [
-      "m",
-      "m",
-      "l"
-    ],
-    "damage": [
-      8,
-      10,
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "-13~-2",
-      "lower": "-13",
-      "properties": [],
-      "upper": "-2"
-    },
-    "framesOnHit": {
-      "_raw": "+4~+5",
-      "lower": "+4",
-      "properties": [],
-      "upper": "+5"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16 i29~30",
-      "lower": "i16",
-      "properties": [],
-      "upper": "30"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16 i29~30",
+    "hitLevels": "m,m,l",
+    "damage": "8,10,15",
+    "onBlock": "-13~-2",
+    "onHit": "+4~+5",
+    "onCounterHit": null,
+    "states": ",cs1~",
+    "index": 23
   },
   {
-    "index": 24,
+    "id": "Raven-4~3,3",
+    "parent": "Raven-4~3",
     "name": "Hydra Bite High",
     "input": "4~3,3",
-    "hitLevels": [
-      "m",
-      "m",
-      "h"
-    ],
-    "damage": [
-      8,
-      10,
-      18
-    ],
-    "framesOnBlock": {
-      "_raw": "-3~+0",
-      "lower": "-3",
-      "properties": [],
-      "upper": "+0"
-    },
-    "framesOnHit": {
-      "_raw": "+14a",
-      "lower": "+14",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16 i29~30",
-      "lower": "i16",
-      "properties": [],
-      "upper": "30"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16 i29~30",
+    "hitLevels": "m,m,h",
+    "damage": "8,10,18",
+    "onBlock": "-3~+0",
+    "onHit": "+14a",
+    "onCounterHit": null,
+    "states": null,
+    "index": 24
   },
   {
-    "index": 25,
+    "id": "Raven-4~3,4",
+    "parent": "Raven-4~3",
     "name": "Hydra Bite Mid",
     "input": "4~3,4",
-    "hitLevels": [
-      "m",
-      "m",
-      "m"
-    ],
-    "damage": [
-      8,
-      10,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-14~-13",
-      "lower": "-14",
-      "properties": [],
-      "upper": "-13"
-    },
-    "framesOnHit": {
-      "_raw": "+15a",
-      "lower": "+15",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16 i29~30",
-      "lower": "i16",
-      "properties": [],
-      "upper": "30"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16 i29~30",
+    "hitLevels": "m,m,m",
+    "damage": "8,10,20",
+    "onBlock": "-14~-13",
+    "onHit": "+15a",
+    "onCounterHit": null,
+    "states": null,
+    "index": 25
   },
   {
-    "index": 43,
+    "id": "Raven-b+1",
+    "parent": null,
     "name": "Elbow Strike",
     "input": "b+1",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "+7c~+8c",
-      "lower": "+7",
-      "properties": [
-        "c",
-        "c"
-      ],
-      "upper": "+8"
-    },
-    "framesOnHit": {
-      "_raw": "+10c~+11c",
-      "lower": "+10",
-      "properties": [
-        "c",
-        "c"
-      ],
-      "upper": "+11"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16~17",
-      "lower": "i16",
-      "properties": [],
-      "upper": "17"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16~17",
+    "hitLevels": "h",
+    "damage": 21,
+    "onBlock": "+7c~+8c",
+    "onHit": "+10c~+11c",
+    "onCounterHit": null,
+    "states": null,
+    "index": 43
   },
   {
-    "index": 51,
+    "id": "Raven-b+1+2",
+    "parent": null,
     "name": "Alternating Smash",
     "input": "b+1+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      30
-    ],
-    "framesOnBlock": {
-      "_raw": "-15~-13",
-      "lower": "-15",
-      "properties": [],
-      "upper": "-13"
-    },
-    "framesOnHit": {
-      "_raw": "+20a (+10)",
-      "lower": "+20",
-      "properties": [
-        "a"
-      ],
-      "tech": "+10"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i28~30",
-      "lower": "i28",
-      "properties": [],
-      "upper": "30"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i28~30",
+    "hitLevels": "m",
+    "damage": 30,
+    "onBlock": "-15~-13",
+    "onHit": "+20a (+10)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 51
   },
   {
+    "id": "Raven-b+1+3",
+    "parent": null,
     "name": "Utsusemi Escape",
     "input": "b+1+3",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": "ps1~10",
+    "index": null
   },
   {
+    "id": "Raven-b+1+3,P",
+    "parent": "Raven-b+1+3",
     "name": "Utsusemi Escape",
     "input": "b+1+3,P",
-    "hitLevels": [
-      "nullnull"
-    ],
-    "damage": [
-      null
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-31",
-      "lower": "-31",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": "nullnull",
+    "damage": "nullnull",
+    "onBlock": null,
+    "onHit": -31,
+    "onCounterHit": null,
+    "states": "js1~32 cs33~",
+    "index": null
   },
   {
+    "id": "Raven-b+2",
+    "parent": null,
+    "name": null,
     "input": "b+2",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-14~-12",
-      "lower": "-14",
-      "properties": [],
-      "upper": "-12"
-    },
-    "framesOnHit": {
-      "_raw": "-3~-1",
-      "lower": "-3",
-      "properties": [],
-      "upper": "-1"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~17",
-      "lower": "i15",
-      "properties": [],
-      "upper": "17"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~17",
+    "hitLevels": "h",
+    "damage": 12,
+    "onBlock": "-14~-12",
+    "onHit": "-3~-1",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Raven-b+2,2",
+    "parent": "Raven-b+2",
+    "name": null,
     "input": "b+2,2",
-    "hitLevels": [
-      "h",
-      "m"
-    ],
-    "damage": [
-      12,
-      17
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "6",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "8",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~17",
-      "lower": "i15",
-      "properties": [],
-      "upper": "17"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~17",
+    "hitLevels": "h,m",
+    "damage": "12,17",
+    "onBlock": -3,
+    "onHit": 6,
+    "onCounterHit": 8,
+    "states": null,
+    "index": null
   },
   {
-    "index": 45,
+    "id": "Raven-b+2,2,1+2",
+    "parent": "Raven-b+2,2",
     "name": "Deadly Talon",
     "input": "b+2,2,1+2",
-    "hitLevels": [
-      "h",
-      "m",
-      "L"
-    ],
-    "damage": [
-      12,
-      17,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-30~-29",
-      "lower": "-30",
-      "properties": [],
-      "upper": "-29"
-    },
-    "framesOnHit": {
-      "_raw": "+3d",
-      "lower": "+3",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~17",
-      "lower": "i15",
-      "properties": [],
-      "upper": "17"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~17",
+    "hitLevels": "h,m,L",
+    "damage": "12,17,20",
+    "onBlock": "-30~-29",
+    "onHit": "+3d",
+    "onCounterHit": null,
+    "states": ",cs18~29",
+    "index": 45
   },
   {
-    "index": 44,
+    "id": "Raven-b+2,2,3",
+    "parent": "Raven-b+2,2",
     "name": "Unicorn&#039;s Tail",
     "input": "b+2,2,3",
-    "hitLevels": [
-      "h",
-      "m",
-      "M"
-    ],
-    "damage": [
-      12,
-      17,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-19~-18",
-      "lower": "-19",
-      "properties": [],
-      "upper": "-18"
-    },
-    "framesOnHit": {
-      "_raw": "+12a (-5)",
-      "lower": "+12",
-      "properties": [
-        "a"
-      ],
-      "tech": "-5"
-    },
-    "framesOnCounter": {
-      "_raw": "+26a (+16)",
-      "lower": "+26",
-      "properties": [
-        "a"
-      ],
-      "tech": "+16"
-    },
-    "framesOnStartup": {
-      "_raw": "i15~17",
-      "lower": "i15",
-      "properties": [],
-      "upper": "17"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~17",
+    "hitLevels": "h,m,M",
+    "damage": "12,17,20",
+    "onBlock": "-19~-18",
+    "onHit": "+12a (-5)",
+    "onCounterHit": "+26a (+16)",
+    "states": null,
+    "index": 44
   },
   {
+    "id": "Raven-b+2,4",
+    "parent": "Raven-b+2",
     "name": "Missing Worm",
     "input": "b+2,4",
-    "hitLevels": [
-      "h",
-      "h"
-    ],
-    "damage": [
-      12,
-      13
-    ],
-    "framesOnBlock": {
-      "_raw": "-7~-6",
-      "lower": "-7",
-      "properties": [],
-      "upper": "-6"
-    },
-    "framesOnHit": {
-      "_raw": "+4~+5",
-      "lower": "+4",
-      "properties": [],
-      "upper": "+5"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~17",
-      "lower": "i15",
-      "properties": [],
-      "upper": "17"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~17",
+    "hitLevels": "h,h",
+    "damage": "12,13",
+    "onBlock": "-7~-6",
+    "onHit": "+4~+5",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 46,
+    "id": "Raven-b+2,4,2",
+    "parent": "Raven-b+2,4",
     "name": "Missing Worm &gt; Phantom Halberd",
     "input": "b+2,4,2",
-    "hitLevels": [
-      "h",
-      "h",
-      "sm"
-    ],
-    "damage": [
-      12,
-      13,
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+24a (+9)",
-      "lower": "+24",
-      "properties": [
-        "a"
-      ],
-      "tech": "+9"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~17",
-      "lower": "i15",
-      "properties": [],
-      "upper": "17"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~17",
+    "hitLevels": "h,h,sm",
+    "damage": "12,13,21",
+    "onBlock": -13,
+    "onHit": "+24a (+9)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 46
   },
   {
+    "id": "Raven-b+2,4,H.2",
+    "parent": "Raven-b+2,4",
     "name": "Missing Worm &gt; Phantom Halberd",
     "input": "b+2,4,H.2",
-    "hitLevels": [
-      "h",
-      "h",
-      "sm",
-      "sm"
-    ],
-    "damage": [
-      12,
-      13,
-      21,
-      30
-    ],
-    "framesOnBlock": {
-      "_raw": "-3~-1",
-      "lower": "-3",
-      "properties": [],
-      "upper": "-1"
-    },
-    "framesOnHit": {
-      "_raw": "+24a (+9)",
-      "lower": "+24",
-      "properties": [
-        "a"
-      ],
-      "tech": "+9"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~17",
-      "lower": "i15",
-      "properties": [],
-      "upper": "17"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~17",
+    "hitLevels": "h,h,sm,sm",
+    "damage": "12,13,21,30",
+    "onBlock": "-3~-1",
+    "onHit": "+24a (+9)",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 47,
+    "id": "Raven-b+3",
+    "parent": null,
     "name": "Hades Heel",
     "input": "b+3",
-    "hitLevels": [
-      "M"
-    ],
-    "damage": [
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "+4~+6",
-      "lower": "+4",
-      "properties": [],
-      "upper": "+6"
-    },
-    "framesOnHit": {
-      "_raw": "+15a",
-      "lower": "+15",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i27~29",
-      "lower": "i27",
-      "properties": [],
-      "upper": "29"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i27~29",
+    "hitLevels": "M",
+    "damage": 23,
+    "onBlock": "+4~+6",
+    "onHit": "+15a",
+    "onCounterHit": null,
+    "states": null,
+    "index": 47
   },
   {
+    "id": "Raven-b+3+4",
+    "parent": null,
     "name": "Labyrinth",
     "input": "b+3+4",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Raven-b+4",
+    "parent": null,
+    "name": null,
     "input": "b+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      13
-    ],
-    "framesOnBlock": {
-      "_raw": "-9~-8",
-      "lower": "-9",
-      "properties": [],
-      "upper": "-8"
-    },
-    "framesOnHit": {
-      "_raw": "-1~+0",
-      "lower": "-1",
-      "properties": [],
-      "upper": "+0"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14~15",
-      "lower": "i14",
-      "properties": [],
-      "upper": "15"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14~15",
+    "hitLevels": "m",
+    "damage": 13,
+    "onBlock": "-9~-8",
+    "onHit": "-1~+0",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 48,
+    "id": "Raven-b+4,4",
+    "parent": "Raven-b+4",
     "name": "Skull Smasher",
     "input": "b+4,4",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      13,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-8~-6",
-      "lower": "-8",
-      "properties": [],
-      "upper": "-6"
-    },
-    "framesOnHit": {
-      "_raw": "+6c~+8c",
-      "lower": "+6",
-      "properties": [
-        "c",
-        "c"
-      ],
-      "upper": "+8"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14~15",
-      "lower": "i14",
-      "properties": [],
-      "upper": "15"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14~15",
+    "hitLevels": "m,m",
+    "damage": "13,20",
+    "onBlock": "-8~-6",
+    "onHit": "+6c~+8c",
+    "onCounterHit": null,
+    "states": null,
+    "index": 48
   },
   {
-    "index": 49,
+    "id": "Raven-b+4,B+4",
+    "parent": "Raven-b+4",
     "name": "Skull Smasher Feint",
     "input": "b+4,B+4",
-    "hitLevels": [
-      "m",
-      "M"
-    ],
-    "damage": [
-      13,
-      24
-    ],
-    "framesOnBlock": {
-      "_raw": "+1c~+6c",
-      "lower": "+1",
-      "properties": [
-        "c",
-        "c"
-      ],
-      "upper": "+6"
-    },
-    "framesOnHit": {
-      "_raw": "+2c~+7c",
-      "lower": "+2",
-      "properties": [
-        "c",
-        "c"
-      ],
-      "upper": "+7"
-    },
-    "framesOnCounter": {
-      "_raw": "+12a",
-      "lower": "+12",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i14~15",
-      "lower": "i14",
-      "properties": [],
-      "upper": "15"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14~15",
+    "hitLevels": "m,M",
+    "damage": "13,24",
+    "onBlock": "+1c~+6c",
+    "onHit": "+2c~+7c",
+    "onCounterHit": "+12a",
+    "states": null,
+    "index": 49
   },
   {
+    "id": "Raven-b+4,B+4~3",
+    "parent": "Raven-b+4,B+4",
     "name": "Skull Smasher Feint Low",
     "input": "b+4,B+4~3",
-    "hitLevels": [
-      "m",
-      "M",
-      "L"
-    ],
-    "damage": [
-      13,
-      24,
-      11
-    ],
-    "framesOnBlock": {
-      "_raw": "-11",
-      "lower": "-11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14~15",
-      "lower": "i14",
-      "properties": [],
-      "upper": "15"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14~15",
+    "hitLevels": "m,M,L",
+    "damage": "13,24,11",
+    "onBlock": -11,
+    "onHit": 0,
+    "onCounterHit": null,
+    "states": ",cs12~37",
+    "index": null
   },
   {
-    "index": 50,
+    "id": "Raven-b+4,B+4~3,3+4",
+    "parent": "Raven-b+4,B+4~3",
     "name": "Skull Spin",
     "input": "b+4,B+4~3,3+4",
-    "hitLevels": [
-      "m",
-      "M",
-      "L",
-      "m"
-    ],
-    "damage": [
-      13,
-      24,
-      11,
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "-25~-21",
-      "lower": "-25",
-      "properties": [],
-      "upper": "-21"
-    },
-    "framesOnHit": {
-      "_raw": "+6a",
-      "lower": "+6",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14~15",
-      "lower": "i14",
-      "properties": [],
-      "upper": "15"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14~15",
+    "hitLevels": "m,M,L,m",
+    "damage": "13,24,11,15",
+    "onBlock": "-25~-21",
+    "onHit": "+6a",
+    "onCounterHit": null,
+    "states": null,
+    "index": 50
   },
   {
-    "index": 119,
+    "id": "Raven-Back throw",
+    "parent": null,
     "name": "Dark Matter",
-    "input": "Backthrow",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      50
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-4d",
-      "lower": "-4",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": "Back throw",
+    "startup": null,
+    "hitLevels": "t",
+    "damage": 50,
+    "onBlock": null,
+    "onHit": "-4d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 119
   },
   {
+    "id": "Raven-(Back to wall).b,​b,​UB",
+    "parent": null,
     "name": "Wall Jump Attack",
-    "input": "(Backtowall).b,b,UB",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "+6~+9",
-      "lower": "+6",
-      "properties": [],
-      "upper": "+9"
-    },
-    "framesOnHit": {
-      "_raw": "+28a (+19)",
-      "lower": "+28",
-      "properties": [
-        "a"
-      ],
-      "tech": "+19"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i40~43",
-      "lower": "i40",
-      "properties": [],
-      "upper": "43"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": "(Back to wall).b,​b,​UB",
+    "startup": "i40~43",
+    "hitLevels": "m",
+    "damage": 21,
+    "onBlock": "+6~+9",
+    "onHit": "+28a (+19)",
+    "onCounterHit": null,
+    "states": "is8~13 js?~? fs?~?",
+    "index": null
   },
   {
-    "index": 65,
+    "id": "Raven-b,B+2",
+    "parent": null,
     "name": "War Hound",
     "input": "b,B+2",
-    "hitLevels": [
-      "m",
-      "h"
-    ],
-    "damage": [
-      15,
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-10~-9",
-      "lower": "-10",
-      "properties": [],
-      "upper": "-9"
-    },
-    "framesOnHit": {
-      "_raw": "+5~+6",
-      "lower": "+5",
-      "properties": [],
-      "upper": "+6"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17~18 i30~31",
-      "lower": "i17",
-      "properties": [],
-      "upper": "18"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17~18 i30~31",
+    "hitLevels": "m,h",
+    "damage": "15,21",
+    "onBlock": "-10~-9",
+    "onHit": "+5~+6",
+    "onCounterHit": null,
+    "states": "ps1?~",
+    "index": 65
   },
   {
+    "id": "Raven-b,B+2,P",
+    "parent": "Raven-b,B+2",
     "name": "Blind Ghost",
     "input": "b,B+2,P",
-    "hitLevels": [
-      "m",
-      "h",
-      "t"
-    ],
-    "damage": [
-      15,
-      21,
-      35
-    ],
-    "framesOnBlock": {
-      "_raw": "-8~+2",
-      "lower": "-8",
-      "properties": [],
-      "upper": "+2"
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17~18 i30~31",
-      "lower": "i17",
-      "properties": [],
-      "upper": "18"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17~18 i30~31",
+    "hitLevels": "m,h,t",
+    "damage": "15,21,35",
+    "onBlock": "-8~+2",
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Raven-BT.1",
+    "parent": null,
     "name": "Blind Axe",
     "input": "BT.1",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      7
-    ],
-    "framesOnBlock": {
-      "_raw": "-1~+0",
-      "lower": "-1",
-      "properties": [],
-      "upper": "+0"
-    },
-    "framesOnHit": {
-      "_raw": "+5~+6",
-      "lower": "+5",
-      "properties": [],
-      "upper": "+6"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i8",
-      "lower": "i8",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i8",
+    "hitLevels": "h",
+    "damage": 7,
+    "onBlock": "-1~+0",
+    "onHit": "+5~+6",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Raven-BT.1+2",
+    "parent": null,
     "name": "Crusader",
     "input": "BT.1+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+30a (+22)",
-      "lower": "+30",
-      "properties": [
-        "a"
-      ],
-      "tech": "+22"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "m",
+    "damage": 23,
+    "onBlock": -13,
+    "onHit": "+30a (+22)",
+    "onCounterHit": null,
+    "states": "pc6~",
+    "index": null
   },
   {
-    "index": 78,
+    "id": "Raven-BT.1,4",
+    "parent": "Raven-BT.1",
     "name": "Blind Lance",
     "input": "BT.1,4",
-    "hitLevels": [
-      "h",
-      "h"
-    ],
-    "damage": [
-      7,
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "-8~-7",
-      "lower": "-8",
-      "properties": [],
-      "upper": "-7"
-    },
-    "framesOnHit": {
-      "_raw": "+40a (-18)",
-      "lower": "+40",
-      "properties": [
-        "a"
-      ],
-      "tech": "-18"
-    },
-    "framesOnCounter": {
-      "_raw": "+67a (+51)",
-      "lower": "+67",
-      "properties": [
-        "a"
-      ],
-      "tech": "+51"
-    },
-    "framesOnStartup": {
-      "_raw": "i8",
-      "lower": "i8",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i8",
+    "hitLevels": "h,h",
+    "damage": "7,23",
+    "onBlock": "-8~-7",
+    "onHit": "+40a (-18)",
+    "onCounterHit": "+67a (+51)",
+    "states": null,
+    "index": 78
   },
   {
+    "id": "Raven-BT.2",
+    "parent": null,
     "name": "Backfist",
     "input": "BT.2",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      9
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "7",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h",
+    "damage": 9,
+    "onBlock": 0,
+    "onHit": 7,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 79,
+    "id": "Raven-BT.2,1",
+    "parent": "Raven-BT.2",
     "name": "Backfist &gt; Straight",
     "input": "BT.2,1",
-    "hitLevels": [
-      "h",
-      "h"
-    ],
-    "damage": [
-      9,
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-1",
-      "lower": "-1",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "3",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,h",
+    "damage": "9,10",
+    "onBlock": -1,
+    "onHit": 3,
+    "onCounterHit": null,
+    "states": null,
+    "index": 79
   },
   {
+    "id": "Raven-BT.2,2",
+    "parent": "Raven-BT.2",
     "name": "Blinding Knife",
     "input": "BT.2,2",
-    "hitLevels": [
-      "h",
-      "m"
-    ],
-    "damage": [
-      9,
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-9~-8",
-      "lower": "-9",
-      "properties": [],
-      "upper": "-8"
-    },
-    "framesOnHit": {
-      "_raw": "+2~+3",
-      "lower": "+2",
-      "properties": [],
-      "upper": "+3"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,m",
+    "damage": "9,12",
+    "onBlock": "-9~-8",
+    "onHit": "+2~+3",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 80,
+    "id": "Raven-BT.2,2,1",
+    "parent": "Raven-BT.2,2",
     "name": "Blinding Knife &gt; Phantom Javelin",
     "input": "BT.2,2,1",
-    "hitLevels": [
-      "h",
-      "m",
-      "sm"
-    ],
-    "damage": [
-      9,
-      12,
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+2a (-7)",
-      "lower": "+2",
-      "properties": [
-        "a"
-      ],
-      "tech": "-7"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,m,sm",
+    "damage": "9,12,21",
+    "onBlock": -13,
+    "onHit": "+2a (-7)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 80
   },
   {
+    "id": "Raven-BT.2,2,H.1",
+    "parent": "Raven-BT.2,2",
     "name": "Blinding Knife ＞ Phantom Javelin",
     "input": "BT.2,2,H.1",
-    "hitLevels": [
-      "h",
-      "m",
-      "sm",
-      "sm"
-    ],
-    "damage": [
-      9,
-      1221,
-      30
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+2a (-7)",
-      "lower": "+2",
-      "properties": [
-        "a"
-      ],
-      "tech": "-7"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,m,sm,sm",
+    "damage": "9,1221,30",
+    "onBlock": -3,
+    "onHit": "+2a (-7)",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Raven-BT.3",
+    "parent": null,
+    "name": null,
     "input": "BT.3",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-11",
-      "lower": "-11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h",
+    "damage": 10,
+    "onBlock": -11,
+    "onHit": 0,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 85,
+    "id": "Raven-BT.3+4",
+    "parent": null,
     "name": "Spiral Cannon",
     "input": "BT.3+4",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      5,
-      16
-    ],
-    "framesOnBlock": {
-      "_raw": "-14",
-      "lower": "-14",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+43a (+39)",
-      "lower": "+43",
-      "properties": [
-        "a"
-      ],
-      "tech": "+39"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15 i34~35",
-      "lower": "i15",
-      "properties": [],
-      "upper": "35"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15 i34~35",
+    "hitLevels": "m,m",
+    "damage": "5,16",
+    "onBlock": -14,
+    "onHit": "+43a (+39)",
+    "onCounterHit": null,
+    "states": "js13~31 fs32~34",
+    "index": 85
   },
   {
+    "id": "Raven-BT.3,4",
+    "parent": "Raven-BT.3",
+    "name": null,
     "input": "BT.3,4",
-    "hitLevels": [
-      "h",
-      "m"
-    ],
-    "damage": [
-      10,
-      17
-    ],
-    "framesOnBlock": {
-      "_raw": "+0~+2",
-      "lower": "+0",
-      "properties": [],
-      "upper": "+2"
-    },
-    "framesOnHit": {
-      "_raw": "+1~+3",
-      "lower": "+1",
-      "properties": [],
-      "upper": "+3"
-    },
-    "framesOnCounter": {
-      "_raw": "+11g~+13g",
-      "lower": "+11",
-      "properties": [
-        "g",
-        "g"
-      ],
-      "upper": "+13"
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,m",
+    "damage": "10,17",
+    "onBlock": "+0~+2",
+    "onHit": "+1~+3",
+    "onCounterHit": "+11g~+13g",
+    "states": null,
+    "index": null
   },
   {
-    "index": 81,
+    "id": "Raven-BT.3,4,3",
+    "parent": "Raven-BT.3,4",
     "name": "Crescent Mirage",
     "input": "BT.3,4,3",
-    "hitLevels": [
-      "h",
-      "m",
-      "M"
-    ],
-    "damage": [
-      10,
-      17,
-      22
-    ],
-    "framesOnBlock": {
-      "_raw": "-6~-3",
-      "lower": "-6",
-      "properties": [],
-      "upper": "-3"
-    },
-    "framesOnHit": {
-      "_raw": "+18a",
-      "lower": "+18",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,m,M",
+    "damage": "10,17,22",
+    "onBlock": "-6~-3",
+    "onHit": "+18a",
+    "onCounterHit": null,
+    "states": ",js1~27 fs28~30",
+    "index": 81
   },
   {
-    "index": 82,
+    "id": "Raven-BT.3,4,4",
+    "parent": "Raven-BT.3,4",
     "name": "Fafnir",
     "input": "BT.3,4,4",
-    "hitLevels": [
-      "h",
-      "m",
-      "M"
-    ],
-    "damage": [
-      10,
-      17,
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-9~-8",
-      "lower": "-9",
-      "properties": [],
-      "upper": "-8"
-    },
-    "framesOnHit": {
-      "_raw": "+5a",
-      "lower": "+5",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,m,M",
+    "damage": "10,17,21",
+    "onBlock": "-9~-8",
+    "onHit": "+5a",
+    "onCounterHit": null,
+    "states": ",js12~31 fs32~34",
+    "index": 82
   },
   {
+    "id": "Raven-BT.3,4,4,F",
+    "parent": "Raven-BT.3,4,4",
     "name": "Fafnir to Blind Roll",
     "input": "BT.3,4,4,F",
-    "hitLevels": [
-      "h",
-      "m",
-      "Mnull"
-    ],
-    "damage": [
-      10,
-      17,
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-36",
-      "lower": "-36",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,m,Mnull",
+    "damage": "10,17,21null",
+    "onBlock": -36,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": ",js18~49 fs50~52",
+    "index": null
   },
   {
-    "index": 83,
+    "id": "Raven-BT.4",
+    "parent": null,
     "name": "Chronos Lathe",
     "input": "BT.4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-5~-4",
-      "lower": "-5",
-      "properties": [],
-      "upper": "-4"
-    },
-    "framesOnHit": {
-      "_raw": "+44a (-14)",
-      "lower": "+44",
-      "properties": [
-        "a"
-      ],
-      "tech": "-14"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i19~20",
-      "lower": "i19",
-      "properties": [],
-      "upper": "20"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i19~20",
+    "hitLevels": "m",
+    "damage": 21,
+    "onBlock": "-5~-4",
+    "onHit": "+44a (-14)",
+    "onCounterHit": null,
+    "states": "js6~19",
+    "index": 83
   },
   {
+    "id": "Raven-BT.b+2",
+    "parent": null,
+    "name": null,
     "input": "BT.b+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      14
-    ],
-    "framesOnBlock": {
-      "_raw": "-2~-1",
-      "lower": "-2",
-      "properties": [],
-      "upper": "-1"
-    },
-    "framesOnHit": {
-      "_raw": "+6~+7",
-      "lower": "+6",
-      "properties": [],
-      "upper": "+7"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16~17",
-      "lower": "i16",
-      "properties": [],
-      "upper": "17"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16~17",
+    "hitLevels": "m",
+    "damage": 14,
+    "onBlock": "-2~-1",
+    "onHit": "+6~+7",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 93,
+    "id": "Raven-BT.b+2,3",
+    "parent": "Raven-BT.b+2",
     "name": "Abyss Cannon",
     "input": "BT.b+2,3",
-    "hitLevels": [
-      "m",
-      "m",
-      "m"
-    ],
-    "damage": [
-      14,
-      5,
-      16
-    ],
-    "framesOnBlock": {
-      "_raw": "-14",
-      "lower": "-14",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+42a (+38)",
-      "lower": "+42",
-      "properties": [
-        "a"
-      ],
-      "tech": "+38"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16~17",
-      "lower": "i16",
-      "properties": [],
-      "upper": "17"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16~17",
+    "hitLevels": "m,m,m",
+    "damage": "14,5,16",
+    "onBlock": -14,
+    "onHit": "+42a (+38)",
+    "onCounterHit": null,
+    "states": ",js18~36 fs37~39",
+    "index": 93
   },
   {
-    "index": 94,
+    "id": "Raven-BT.b+2,4",
+    "parent": "Raven-BT.b+2",
     "name": "Abyss Spear",
     "input": "BT.b+2,4",
-    "hitLevels": [
-      "m",
-      "h"
-    ],
-    "damage": [
-      14,
-      13
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "5",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16~17",
-      "lower": "i16",
-      "properties": [],
-      "upper": "17"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16~17",
+    "hitLevels": "m,h",
+    "damage": "14,13",
+    "onBlock": 0,
+    "onHit": 5,
+    "onCounterHit": null,
+    "states": null,
+    "index": 94
   },
   {
-    "index": 95,
+    "id": "Raven-BT.b+3",
+    "parent": null,
     "name": "Cannon Tail",
     "input": "BT.b+3",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      22
-    ],
-    "framesOnBlock": {
-      "_raw": "+4~+5",
-      "lower": "+4",
-      "properties": [],
-      "upper": "+5"
-    },
-    "framesOnHit": {
-      "_raw": "+41a",
-      "lower": "+41",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18~19",
-      "lower": "i18",
-      "properties": [],
-      "upper": "19"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18~19",
+    "hitLevels": "h",
+    "damage": 22,
+    "onBlock": "+4~+5",
+    "onHit": "+41a",
+    "onCounterHit": null,
+    "states": null,
+    "index": 95
   },
   {
+    "id": "Raven-BT.b+3+4",
+    "parent": null,
     "name": "Labyrinth to Front",
     "input": "BT.b+3+4",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Raven-BT.d+1",
+    "parent": null,
     "name": "Crouch Spin Knuckle",
     "input": "BT.d+1",
-    "hitLevels": [
-      "sl"
-    ],
-    "damage": [
-      5
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "6",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "sl",
+    "damage": 5,
+    "onBlock": -3,
+    "onHit": 6,
+    "onCounterHit": null,
+    "states": "cs1~",
+    "index": null
   },
   {
+    "id": "Raven-BT.d+2",
+    "parent": null,
     "name": "Revenant Stab",
     "input": "BT.d+2",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "4",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+38d",
-      "lower": "+38",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i20",
-      "lower": "i20",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20",
+    "hitLevels": "l",
+    "damage": 20,
+    "onBlock": -12,
+    "onHit": 4,
+    "onCounterHit": "+38d",
+    "states": "cs1~",
+    "index": null
   },
   {
+    "id": "Raven-BT.d+3",
+    "parent": null,
     "name": "Shinobi Cyclone",
     "input": "BT.d+3",
-    "hitLevels": [
-      "L"
-    ],
-    "damage": [
-      16
-    ],
-    "framesOnBlock": {
-      "_raw": "-26~-24",
-      "lower": "-26",
-      "properties": [],
-      "upper": "-24"
-    },
-    "framesOnHit": {
-      "_raw": "+0~+2",
-      "lower": "+0",
-      "properties": [],
-      "upper": "+2"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i25~27",
-      "lower": "i25",
-      "properties": [],
-      "upper": "27"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i25~27",
+    "hitLevels": "L",
+    "damage": 16,
+    "onBlock": "-26~-24",
+    "onHit": "+0~+2",
+    "onCounterHit": null,
+    "states": "cs4~48",
+    "index": null
   },
   {
+    "id": "Raven-BT.d+4",
+    "parent": null,
     "name": "Crouch Spin Kick",
     "input": "BT.d+4",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      6
-    ],
-    "framesOnBlock": {
-      "_raw": "-15",
-      "lower": "-15",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-4",
-      "lower": "-4",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "l",
+    "damage": 6,
+    "onBlock": -15,
+    "onHit": -4,
+    "onCounterHit": null,
+    "states": "cs1~",
+    "index": null
   },
   {
-    "index": 86,
+    "id": "Raven-BT.f+1",
+    "parent": null,
     "name": "Soul Steal",
     "input": "BT.f+1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      18
-    ],
-    "framesOnBlock": {
-      "_raw": "-8",
-      "lower": "-8",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "6",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "I16",
-      "lower": "I16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "I16",
+    "hitLevels": "m",
+    "damage": 18,
+    "onBlock": -8,
+    "onHit": 6,
+    "onCounterHit": null,
+    "states": null,
+    "index": 86
   },
   {
+    "id": "Raven-BT.f+1+2",
+    "parent": null,
     "name": "Sixth Sense",
     "input": "BT.f+1+2",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": "ps1~8",
+    "index": null
   },
   {
+    "id": "Raven-BT.f+1+2,P",
+    "parent": "Raven-BT.f+1+2",
+    "name": null,
     "input": "BT.f+1+2,P",
-    "hitLevels": [
-      "nullt"
-    ],
-    "damage": [
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+5d",
-      "lower": "+5",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": "nullt",
+    "damage": "null25",
+    "onBlock": null,
+    "onHit": "+5d",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Raven-BT.f+2",
+    "parent": null,
+    "name": null,
     "input": "BT.f+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      13
-    ],
-    "framesOnBlock": {
-      "_raw": "-5~-4",
-      "lower": "-5",
-      "properties": [],
-      "upper": "-4"
-    },
-    "framesOnHit": {
-      "_raw": "+6~+7",
-      "lower": "+6",
-      "properties": [],
-      "upper": "+7"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17~18",
-      "lower": "i17",
-      "properties": [],
-      "upper": "18"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17~18",
+    "hitLevels": "m",
+    "damage": 13,
+    "onBlock": "-5~-4",
+    "onHit": "+6~+7",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 87,
+    "id": "Raven-BT.f+2,3",
+    "parent": "Raven-BT.f+2",
     "name": "Cold Massacre",
     "input": "BT.f+2,3",
-    "hitLevels": [
-      "m",
-      "M"
-    ],
-    "damage": [
-      13,
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "-7~-6",
-      "lower": "-7",
-      "properties": [],
-      "upper": "-6"
-    },
-    "framesOnHit": {
-      "_raw": "+14c~+15c",
-      "lower": "+14",
-      "properties": [
-        "c",
-        "c"
-      ],
-      "upper": "+15"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17~18",
-      "lower": "i17",
-      "properties": [],
-      "upper": "18"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17~18",
+    "hitLevels": "m,M",
+    "damage": "13,15",
+    "onBlock": "-7~-6",
+    "onHit": "+14c~+15c",
+    "onCounterHit": null,
+    "states": null,
+    "index": 87
   },
   {
+    "id": "Raven-BT.f+2,4",
+    "parent": "Raven-BT.f+2",
     "name": "Cold Worm",
     "input": "BT.f+2,4",
-    "hitLevels": [
-      "m",
-      "h"
-    ],
-    "damage": [
-      13,
-      17
-    ],
-    "framesOnBlock": {
-      "_raw": "-7~-6",
-      "lower": "-7",
-      "properties": [],
-      "upper": "-6"
-    },
-    "framesOnHit": {
-      "_raw": "+4~+5",
-      "lower": "+4",
-      "properties": [],
-      "upper": "+5"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17~18",
-      "lower": "i17",
-      "properties": [],
-      "upper": "18"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17~18",
+    "hitLevels": "m,h",
+    "damage": "13,17",
+    "onBlock": "-7~-6",
+    "onHit": "+4~+5",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 88,
+    "id": "Raven-BT.f+2,4,2",
+    "parent": "Raven-BT.f+2,4",
     "name": "Cold Worm &gt; Phantom Halberd",
     "input": "BT.f+2,4,2",
-    "hitLevels": [
-      "m",
-      "h",
-      "sm"
-    ],
-    "damage": [
-      13,
-      17,
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+24a (+9)",
-      "lower": "+24",
-      "properties": [
-        "a"
-      ],
-      "tech": "+9"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17~18",
-      "lower": "i17",
-      "properties": [],
-      "upper": "18"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17~18",
+    "hitLevels": "m,h,sm",
+    "damage": "13,17,21",
+    "onBlock": -13,
+    "onHit": "+24a (+9)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 88
   },
   {
-    "index": 89,
+    "id": "Raven-BT.f+3",
+    "parent": null,
     "name": "Demon Knee",
     "input": "BT.f+3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      17
-    ],
-    "framesOnBlock": {
-      "_raw": "-5~-4",
-      "lower": "-5",
-      "properties": [],
-      "upper": "-4"
-    },
-    "framesOnHit": {
-      "_raw": "6",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+38a (+30)",
-      "lower": "+38",
-      "properties": [
-        "a"
-      ],
-      "tech": "+30"
-    },
-    "framesOnStartup": {
-      "_raw": "i13~14",
-      "lower": "i13",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13~14",
+    "hitLevels": "m",
+    "damage": 17,
+    "onBlock": "-5~-4",
+    "onHit": 6,
+    "onCounterHit": "+38a (+30)",
+    "states": null,
+    "index": 89
   },
   {
-    "index": 91,
+    "id": "Raven-BT.f+3+4",
+    "parent": null,
     "name": "Reverse Chakram",
     "input": "BT.f+3+4",
-    "hitLevels": [
-      "M"
-    ],
-    "damage": [
-      24
-    ],
-    "framesOnBlock": {
-      "_raw": "-9~-7",
-      "lower": "-9",
-      "properties": [],
-      "upper": "-7"
-    },
-    "framesOnHit": {
-      "_raw": "+5a",
-      "lower": "+5",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i25~27",
-      "lower": "i25",
-      "properties": [],
-      "upper": "27"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i25~27",
+    "hitLevels": "M",
+    "damage": 24,
+    "onBlock": "-9~-7",
+    "onHit": "+5a",
+    "onCounterHit": null,
+    "states": "js5~24 fs25~27 cs28~51",
+    "index": 91
   },
   {
+    "id": "Raven-BT.f+3+4,F",
+    "parent": "Raven-BT.f+3+4",
     "name": "Reverse Chakram to Blind Roll",
     "input": "BT.f+3+4,F",
-    "hitLevels": [
-      "Mnull"
-    ],
-    "damage": [
-      24
-    ],
-    "framesOnBlock": {
-      "_raw": "-36",
-      "lower": "-36",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-22",
-      "lower": "-22",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i25~27",
-      "lower": "i25",
-      "properties": [],
-      "upper": "27"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i25~27",
+    "hitLevels": "Mnull",
+    "damage": "24null",
+    "onBlock": -36,
+    "onHit": -22,
+    "onCounterHit": null,
+    "states": ",js18~49 fs50~52",
+    "index": null
   },
   {
+    "id": "Raven-BT.f+4",
+    "parent": null,
     "name": "Kama Kick",
     "input": "BT.f+4",
-    "hitLevels": [
-      "L"
-    ],
-    "damage": [
-      13
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "4",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "L",
+    "damage": 13,
+    "onBlock": -9,
+    "onHit": 4,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 90,
+    "id": "Raven-BT.f+4,1",
+    "parent": "Raven-BT.f+4",
     "name": "Trick Bang",
     "input": "BT.f+4,1",
-    "hitLevels": [
-      "L",
-      "h"
-    ],
-    "damage": [
-      13,
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "-9~-8",
-      "lower": "-9",
-      "properties": [],
-      "upper": "-8"
-    },
-    "framesOnHit": {
-      "_raw": "+5~+6",
-      "lower": "+5",
-      "properties": [],
-      "upper": "+6"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "L,h",
+    "damage": "13,15",
+    "onBlock": "-9~-8",
+    "onHit": "+5~+6",
+    "onCounterHit": null,
+    "states": null,
+    "index": 90
   },
   {
-    "index": 97,
+    "id": "Raven-BT.f,F+3",
+    "parent": null,
     "name": "Gremlin Smasher",
     "input": "BT.f,F+3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-9~-8",
-      "lower": "-9",
-      "properties": [],
-      "upper": "-8"
-    },
-    "framesOnHit": {
-      "_raw": "+8a",
-      "lower": "+8",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i21~22",
-      "lower": "i21",
-      "properties": [],
-      "upper": "22"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i21~22",
+    "hitLevels": "m",
+    "damage": 25,
+    "onBlock": "-9~-8",
+    "onHit": "+8a",
+    "onCounterHit": null,
+    "states": "cs4~22",
+    "index": 97
   },
   {
-    "index": 98,
+    "id": "Raven-BT.f,F+3+4",
+    "parent": null,
     "name": "Vermillion",
     "input": "BT.f,F+3+4",
-    "hitLevels": [
-      "L"
-    ],
-    "damage": [
-      17
-    ],
-    "framesOnBlock": {
-      "_raw": "-18~-11",
-      "lower": "-18",
-      "properties": [],
-      "upper": "-11"
-    },
-    "framesOnHit": {
-      "_raw": "+24a",
-      "lower": "+24",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i23~30",
-      "lower": "i23",
-      "properties": [],
-      "upper": "30"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i23~30",
+    "hitLevels": "L",
+    "damage": 17,
+    "onBlock": "-18~-11",
+    "onHit": "+24a",
+    "onCounterHit": null,
+    "states": "fs13~21 cs18~49",
+    "index": 98
   },
   {
-    "index": 99,
+    "id": "Raven-BT.f,f,f",
+    "parent": null,
     "name": "Blind Roll",
     "input": "BT.f,f,f",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": "js10~41 fs42~44",
+    "index": 99
   },
   {
+    "id": "Raven-d+1",
+    "parent": null,
     "name": "Crouch Jab",
     "input": "d+1",
-    "hitLevels": [
-      "sl"
-    ],
-    "damage": [
-      5
-    ],
-    "framesOnBlock": {
-      "_raw": "-5",
-      "lower": "-5",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "6",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "sl",
+    "damage": 5,
+    "onBlock": -5,
+    "onHit": 6,
+    "onCounterHit": null,
+    "states": "cs4~",
+    "index": null
   },
   {
+    "id": "Raven-d+2",
+    "parent": null,
     "name": "Crouch Straight",
     "input": "d+2",
-    "hitLevels": [
-      "sl"
-    ],
-    "damage": [
-      8
-    ],
-    "framesOnBlock": {
-      "_raw": "-4",
-      "lower": "-4",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "7",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i11",
-      "lower": "i11",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i11",
+    "hitLevels": "sl",
+    "damage": 8,
+    "onBlock": -4,
+    "onHit": 7,
+    "onCounterHit": null,
+    "states": "cs4~",
+    "index": null
   },
   {
-    "index": 38,
+    "id": "Raven-d+3",
+    "parent": null,
     "name": "Stinging Low",
     "input": "d+3",
-    "hitLevels": [
-      "L"
-    ],
-    "damage": [
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-11",
-      "lower": "-11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "L",
+    "damage": 10,
+    "onBlock": -11,
+    "onHit": 0,
+    "onCounterHit": null,
+    "states": null,
+    "index": 38
   },
   {
-    "index": 39,
+    "id": "Raven-d+4",
+    "parent": null,
     "name": "Basilisk Fang",
     "input": "d+4",
-    "hitLevels": [
-      "L"
-    ],
-    "damage": [
-      18
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+13g",
-      "lower": "+13",
-      "properties": [
-        "g"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i21",
-      "lower": "i21",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i21",
+    "hitLevels": "L",
+    "damage": 18,
+    "onBlock": -13,
+    "onHit": -2,
+    "onCounterHit": "+13g",
+    "states": "cs6~",
+    "index": 39
   },
   {
+    "id": "Raven-db+2",
+    "parent": null,
     "name": "Assassin&#039;s Sting",
     "input": "db+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      13
-    ],
-    "framesOnBlock": {
-      "_raw": "-4~-3",
-      "lower": "-4",
-      "properties": [],
-      "upper": "-3"
-    },
-    "framesOnHit": {
-      "_raw": "+5~+6",
-      "lower": "+5",
-      "properties": [],
-      "upper": "+6"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13~14",
-      "lower": "i13",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13~14",
+    "hitLevels": "m",
+    "damage": 13,
+    "onBlock": "-4~-3",
+    "onHit": "+5~+6",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Raven-db+2,1",
+    "parent": "Raven-db+2",
     "name": "Assassin&#039;s Sting Combo",
     "input": "db+2,1",
-    "hitLevels": [
-      "m",
-      "h"
-    ],
-    "damage": [
-      13,
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "-1~+0",
-      "lower": "-1",
-      "properties": [],
-      "upper": "+0"
-    },
-    "framesOnHit": {
-      "_raw": "+8~+9",
-      "lower": "+8",
-      "properties": [],
-      "upper": "+9"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13~14",
-      "lower": "i13",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13~14",
+    "hitLevels": "m,h",
+    "damage": "13,15",
+    "onBlock": "-1~+0",
+    "onHit": "+8~+9",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 40,
+    "id": "Raven-db+2,1,1",
+    "parent": "Raven-db+2,1",
     "name": "Assassin&#039;s Sting &gt; Phantom Javelin",
     "input": "db+2,1,1",
-    "hitLevels": [
-      "m",
-      "h",
-      "sm"
-    ],
-    "damage": [
-      13,
-      15,
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+2a (-7)",
-      "lower": "+2",
-      "properties": [
-        "a"
-      ],
-      "tech": "-7"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13~14",
-      "lower": "i13",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13~14",
+    "hitLevels": "m,h,sm",
+    "damage": "13,15,21",
+    "onBlock": -13,
+    "onHit": "+2a (-7)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 40
   },
   {
+    "id": "Raven-db+2,1,H.1",
+    "parent": "Raven-db+2,1",
     "name": "Assassin&#039;s Sting &gt; Phantom Javelin",
     "input": "db+2,1,H.1",
-    "hitLevels": [
-      "m",
-      "h",
-      "sm",
-      "sm"
-    ],
-    "damage": [
-      13,
-      15,
-      21,
-      30
-    ],
-    "framesOnBlock": {
-      "_raw": "-3~+5",
-      "lower": "-3",
-      "properties": [],
-      "upper": "+5"
-    },
-    "framesOnHit": {
-      "_raw": "+2a (-7)",
-      "lower": "+2",
-      "properties": [
-        "a"
-      ],
-      "tech": "-7"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13~14",
-      "lower": "i13",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13~14",
+    "hitLevels": "m,h,sm,sm",
+    "damage": "13,15,21,30",
+    "onBlock": "-3~+5",
+    "onHit": "+2a (-7)",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 41,
+    "id": "Raven-db+3",
+    "parent": null,
     "name": "Killer Bee",
     "input": "db+3",
-    "hitLevels": [
-      "L"
-    ],
-    "damage": [
-      19
-    ],
-    "framesOnBlock": {
-      "_raw": "-12~-11",
-      "lower": "-12",
-      "properties": [],
-      "upper": "-11"
-    },
-    "framesOnHit": {
-      "_raw": "+5~+6",
-      "lower": "+5",
-      "properties": [],
-      "upper": "+6"
-    },
-    "framesOnCounter": {
-      "_raw": "+39d",
-      "lower": "+39",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i28~29",
-      "lower": "i28",
-      "properties": [],
-      "upper": "29"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i28~29",
+    "hitLevels": "L",
+    "damage": 19,
+    "onBlock": "-12~-11",
+    "onHit": "+5~+6",
+    "onCounterHit": "+39d",
+    "states": "js8~24 fs25~27 cs28~",
+    "index": 41
   },
   {
+    "id": "Raven-db+4",
+    "parent": null,
     "name": "Shinobi Cyclone",
     "input": "db+4",
-    "hitLevels": [
-      "L"
-    ],
-    "damage": [
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-14~-13",
-      "lower": "-14",
-      "properties": [],
-      "upper": "-13"
-    },
-    "framesOnHit": {
-      "_raw": "+4c~+5c",
-      "lower": "+4",
-      "properties": [
-        "c",
-        "c"
-      ],
-      "upper": "+5"
-    },
-    "framesOnCounter": {
-      "_raw": "+37a",
-      "lower": "+37",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i24~25",
-      "lower": "i24",
-      "properties": [],
-      "upper": "25"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i24~25",
+    "hitLevels": "L",
+    "damage": 21,
+    "onBlock": "-14~-13",
+    "onHit": "+4c~+5c",
+    "onCounterHit": "+37a",
+    "states": "cs6~49",
+    "index": null
   },
   {
+    "id": "Raven-df+1",
+    "parent": null,
     "name": "Body Blow",
     "input": "df+1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      13
-    ],
-    "framesOnBlock": {
-      "_raw": "-2~-1",
-      "lower": "-2",
-      "properties": [],
-      "upper": "-1"
-    },
-    "framesOnHit": {
-      "_raw": "+8~+9",
-      "lower": "+8",
-      "properties": [],
-      "upper": "+9"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14~15",
-      "lower": "i14",
-      "properties": [],
-      "upper": "15"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14~15",
+    "hitLevels": "m",
+    "damage": 13,
+    "onBlock": "-2~-1",
+    "onHit": "+8~+9",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 120,
+    "id": "Raven-df+1+4",
+    "parent": null,
     "name": "Orbiting Moon",
     "input": "df+1+4",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      35
-    ],
-    "framesOnBlock": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i11",
-      "lower": "i11",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i11",
+    "hitLevels": "t",
+    "damage": 35,
+    "onBlock": -2,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 120
   },
   {
-    "index": 32,
+    "id": "Raven-df+1,4",
+    "parent": "Raven-df+1",
     "name": "Body Blow &gt; Phantom Mace",
     "input": "df+1,4",
-    "hitLevels": [
-      "m",
-      "sm"
-    ],
-    "damage": [
-      13,
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+32a (-26)",
-      "lower": "+32",
-      "properties": [
-        "a"
-      ],
-      "tech": "-26"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14~15",
-      "lower": "i14",
-      "properties": [],
-      "upper": "15"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14~15",
+    "hitLevels": "m,sm",
+    "damage": "13,25",
+    "onBlock": -13,
+    "onHit": "+32a (-26)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 32
   },
   {
+    "id": "Raven-df+1,H.4",
+    "parent": "Raven-df+1",
     "name": "Body Blow &gt; Phantom Mace",
     "input": "df+1,H.4",
-    "hitLevels": [
-      "m",
-      "sm",
-      "sm"
-    ],
-    "damage": [
-      13,
-      25,
-      30
-    ],
-    "framesOnBlock": {
-      "_raw": "-3~-2",
-      "lower": "-3",
-      "properties": [],
-      "upper": "-2"
-    },
-    "framesOnHit": {
-      "_raw": "+32a (-26)",
-      "lower": "+32",
-      "properties": [
-        "a"
-      ],
-      "tech": "-26"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14~15",
-      "lower": "i14",
-      "properties": [],
-      "upper": "15"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14~15",
+    "hitLevels": "m,sm,sm",
+    "damage": "13,25,30",
+    "onBlock": "-3~-2",
+    "onHit": "+32a (-26)",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Raven-df+2",
+    "parent": null,
     "name": "Uppercut",
     "input": "df+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "-13~-11",
-      "lower": "-13",
-      "properties": [],
-      "upper": "-11"
-    },
-    "framesOnHit": {
-      "_raw": "+30a (+20)",
-      "lower": "+30",
-      "properties": [
-        "a"
-      ],
-      "tech": "+20"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16~18",
-      "lower": "i16",
-      "properties": [],
-      "upper": "18"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16~18",
+    "hitLevels": "m",
+    "damage": 15,
+    "onBlock": "-13~-11",
+    "onHit": "+30a (+20)",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 33,
+    "id": "Raven-df+2,3",
+    "parent": "Raven-df+2",
     "name": "Meat Hook",
     "input": "df+2,3",
-    "hitLevels": [
-      "m",
-      "h"
-    ],
-    "damage": [
-      15,
-      17
-    ],
-    "framesOnBlock": {
-      "_raw": "-8~-7",
-      "lower": "-8",
-      "properties": [],
-      "upper": "-7"
-    },
-    "framesOnHit": {
-      "_raw": "+28a (+19)",
-      "lower": "+28",
-      "properties": [
-        "a"
-      ],
-      "tech": "+19"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16~18",
-      "lower": "i16",
-      "properties": [],
-      "upper": "18"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16~18",
+    "hitLevels": "m,h",
+    "damage": "15,17",
+    "onBlock": "-8~-7",
+    "onHit": "+28a (+19)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 33
   },
   {
-    "index": 34,
+    "id": "Raven-df+2,4",
+    "parent": "Raven-df+2",
     "name": "Bolt Stunner",
     "input": "df+2,4",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      15,
-      24
-    ],
-    "framesOnBlock": {
-      "_raw": "-15~-14",
-      "lower": "-15",
-      "properties": [],
-      "upper": "-14"
-    },
-    "framesOnHit": {
-      "_raw": "+11a (+2)",
-      "lower": "+11",
-      "properties": [
-        "a"
-      ],
-      "tech": "+2"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16~18",
-      "lower": "i16",
-      "properties": [],
-      "upper": "18"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16~18",
+    "hitLevels": "m,m",
+    "damage": "15,24",
+    "onBlock": "-15~-14",
+    "onHit": "+11a (+2)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 34
   },
   {
+    "id": "Raven-df+3",
+    "parent": null,
     "name": "Shadow Snap Kick",
     "input": "df+3",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      17
-    ],
-    "framesOnBlock": {
-      "_raw": "-9~-8",
-      "lower": "-9",
-      "properties": [],
-      "upper": "-8"
-    },
-    "framesOnHit": {
-      "_raw": "+12a",
-      "lower": "+12",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "+46a (+36)",
-      "lower": "+46",
-      "properties": [
-        "a"
-      ],
-      "tech": "+36"
-    },
-    "framesOnStartup": {
-      "_raw": "i16~17",
-      "lower": "i16",
-      "properties": [],
-      "upper": "17"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16~17",
+    "hitLevels": "h",
+    "damage": 17,
+    "onBlock": "-9~-8",
+    "onHit": "+12a",
+    "onCounterHit": "+46a (+36)",
+    "states": "cs6~17",
+    "index": null
   },
   {
+    "id": "Raven-df+3+4",
+    "parent": null,
     "name": "Crouch Step",
     "input": "df+3+4",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": "cs",
+    "index": null
   },
   {
+    "id": "Raven-df+4",
+    "parent": null,
+    "name": null,
     "input": "df+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "-9~-8",
-      "lower": "-9",
-      "properties": [],
-      "upper": "-8"
-    },
-    "framesOnHit": {
-      "_raw": "+2~+3",
-      "lower": "+2",
-      "properties": [],
-      "upper": "+3"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "m",
+    "damage": 15,
+    "onBlock": "-9~-8",
+    "onHit": "+2~+3",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 36,
+    "id": "Raven-df+4,4",
+    "parent": "Raven-df+4",
     "name": "Pendulum Kick",
     "input": "df+4,4",
-    "hitLevels": [
-      "m",
-      "M"
-    ],
-    "damage": [
-      15,
-      16
-    ],
-    "framesOnBlock": {
-      "_raw": "-14~-13",
-      "lower": "-14",
-      "properties": [],
-      "upper": "-13"
-    },
-    "framesOnHit": {
-      "_raw": "+6a",
-      "lower": "+6",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "m,M",
+    "damage": "15,16",
+    "onBlock": "-14~-13",
+    "onHit": "+6a",
+    "onCounterHit": null,
+    "states": null,
+    "index": 36
   },
   {
-    "index": 37,
+    "id": "Raven-df+4,4,3",
+    "parent": "Raven-df+4,4",
     "name": "Pendulum Shadow",
     "input": "df+4,4,3",
-    "hitLevels": [
-      "m",
-      "M",
-      "M"
-    ],
-    "damage": [
-      15,
-      16,
-      22
-    ],
-    "framesOnBlock": {
-      "_raw": "-6~-3",
-      "lower": "-6",
-      "properties": [],
-      "upper": "-3"
-    },
-    "framesOnHit": {
-      "_raw": "+18a",
-      "lower": "+18",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "m,M,M",
+    "damage": "15,16,22",
+    "onBlock": "-6~-3",
+    "onHit": "+18a",
+    "onCounterHit": null,
+    "states": ",js1~27 fs28~30",
+    "index": 37
   },
   {
-    "index": 31,
+    "id": "Raven-f+1+2",
+    "parent": null,
     "name": "Minos Typhoon",
     "input": "f+1+2",
-    "hitLevels": [
-      "h",
-      "m"
-    ],
-    "damage": [
-      10,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+30a (+4)",
-      "lower": "+30",
-      "properties": [
-        "a"
-      ],
-      "tech": "+4"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18~19, i26",
-      "lower": "i18",
-      "properties": [],
-      "upper": "19"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18~19, i26",
+    "hitLevels": "h,m",
+    "damage": "10,20",
+    "onBlock": -13,
+    "onHit": "+30a (+4)",
+    "onCounterHit": null,
+    "states": "pc7~",
+    "index": 31
   },
   {
+    "id": "Raven-f+2",
+    "parent": null,
+    "name": null,
     "input": "f+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-12~-11",
-      "lower": "-12",
-      "properties": [],
-      "upper": "-11"
-    },
-    "framesOnHit": {
-      "_raw": "-1~+0",
-      "lower": "-1",
-      "properties": [],
-      "upper": "+0"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "m",
+    "damage": 10,
+    "onBlock": "-12~-11",
+    "onHit": "-1~+0",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 28,
+    "id": "Raven-f+2,3",
+    "parent": "Raven-f+2",
     "name": "Tartaros",
     "input": "f+2,3",
-    "hitLevels": [
-      "m",
-      "M"
-    ],
-    "damage": [
-      10,
-      13
-    ],
-    "framesOnBlock": {
-      "_raw": "-9~-8",
-      "lower": "-9",
-      "properties": [],
-      "upper": "-8"
-    },
-    "framesOnHit": {
-      "_raw": "+6c~+7c",
-      "lower": "+6",
-      "properties": [
-        "c",
-        "c"
-      ],
-      "upper": "+7"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "m,M",
+    "damage": "10,13",
+    "onBlock": "-9~-8",
+    "onHit": "+6c~+7c",
+    "onCounterHit": null,
+    "states": null,
+    "index": 28
   },
   {
+    "id": "Raven-f+3",
+    "parent": null,
+    "name": null,
     "input": "f+3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      18
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "3",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17",
-      "lower": "i17",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17",
+    "hitLevels": "m",
+    "damage": 18,
+    "onBlock": -9,
+    "onHit": 3,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 29,
+    "id": "Raven-f+3,2",
+    "parent": "Raven-f+3",
     "name": "Circling Winds",
     "input": "f+3,2",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      18,
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-14",
-      "lower": "-14",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+10a (+1)",
-      "lower": "+10",
-      "properties": [
-        "a"
-      ],
-      "tech": "+1"
-    },
-    "framesOnCounter": {
-      "_raw": "+30a (+22)",
-      "lower": "+30",
-      "properties": [
-        "a"
-      ],
-      "tech": "+22"
-    },
-    "framesOnStartup": {
-      "_raw": "i17",
-      "lower": "i17",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17",
+    "hitLevels": "m,m",
+    "damage": "18,21",
+    "onBlock": -14,
+    "onHit": "+10a (+1)",
+    "onCounterHit": "+30a (+22)",
+    "states": null,
+    "index": 29
   },
   {
-    "index": 30,
+    "id": "Raven-f+4",
+    "parent": null,
     "name": "Lance Kick",
     "input": "f+4",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      17
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+67a (+51)",
-      "lower": "+67",
-      "properties": [
-        "a"
-      ],
-      "tech": "+51"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "h",
+    "damage": 17,
+    "onBlock": -12,
+    "onHit": "+67a (+51)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 30
   },
   {
+    "id": "Raven-FC.1",
+    "parent": null,
     "name": "Crouch Jab",
     "input": "FC.1",
-    "hitLevels": [
-      "sl"
-    ],
-    "damage": [
-      5
-    ],
-    "framesOnBlock": {
-      "_raw": "-5",
-      "lower": "-5",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "6",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "sl",
+    "damage": 5,
+    "onBlock": -5,
+    "onHit": 6,
+    "onCounterHit": null,
+    "states": "cs1~",
+    "index": null
   },
   {
+    "id": "Raven-FC.2",
+    "parent": null,
     "name": "Crouch Straight",
     "input": "FC.2",
-    "hitLevels": [
-      "sl"
-    ],
-    "damage": [
-      8
-    ],
-    "framesOnBlock": {
-      "_raw": "-4",
-      "lower": "-4",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "7",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i11",
-      "lower": "i11",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i11",
+    "hitLevels": "sl",
+    "damage": 8,
+    "onBlock": -4,
+    "onHit": 7,
+    "onCounterHit": null,
+    "states": "cs1~",
+    "index": null
   },
   {
+    "id": "Raven-FC.3",
+    "parent": null,
     "name": "Crouch Spin Kick",
     "input": "FC.3",
-    "hitLevels": [
-      "L"
-    ],
-    "damage": [
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-17",
-      "lower": "-17",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "L",
+    "damage": 10,
+    "onBlock": -17,
+    "onHit": -6,
+    "onCounterHit": null,
+    "states": "cs1~",
+    "index": null
   },
   {
+    "id": "Raven-FC.4",
+    "parent": null,
     "name": "Crouch Chin Kick",
     "input": "FC.4",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      6
-    ],
-    "framesOnBlock": {
-      "_raw": "-15",
-      "lower": "-15",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-4",
-      "lower": "-4",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "l",
+    "damage": 6,
+    "onBlock": -15,
+    "onHit": -4,
+    "onCounterHit": null,
+    "states": "cs1~",
+    "index": null
   },
   {
-    "index": 75,
+    "id": "Raven-FC.df+3",
+    "parent": null,
     "name": "Aqua Spider",
     "input": "FC.df+3",
-    "hitLevels": [
-      "L"
-    ],
-    "damage": [
-      17
-    ],
-    "framesOnBlock": {
-      "_raw": "-9~-7",
-      "lower": "-9",
-      "properties": [],
-      "upper": "-7"
-    },
-    "framesOnHit": {
-      "_raw": "+2~+4",
-      "lower": "+2",
-      "properties": [],
-      "upper": "+4"
-    },
-    "framesOnCounter": {
-      "_raw": "+30d",
-      "lower": "+30",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i20~22",
-      "lower": "i20",
-      "properties": [],
-      "upper": "22"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20~22",
+    "hitLevels": "L",
+    "damage": 17,
+    "onBlock": "-9~-7",
+    "onHit": "+2~+4",
+    "onCounterHit": "+30d",
+    "states": "cs1~35",
+    "index": 75
   },
   {
-    "index": 76,
+    "id": "Raven-FC.df+3+4",
+    "parent": null,
     "name": "Tornado Destruction",
     "input": "FC.df+3+4",
-    "hitLevels": [
-      "L",
-      "sm"
-    ],
-    "damage": [
-      17,
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-23~-21",
-      "lower": "-23",
-      "properties": [],
-      "upper": "-21"
-    },
-    "framesOnHit": {
-      "_raw": "-5a",
-      "lower": "-5",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18~20 i34~36",
-      "lower": "i18",
-      "properties": [],
-      "upper": "20"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18~20 i34~36",
+    "hitLevels": "L,sm",
+    "damage": "17,25",
+    "onBlock": "-23~-21",
+    "onHit": "-5a",
+    "onCounterHit": null,
+    "states": "cs1~17",
+    "index": 76
   },
   {
-    "index": 77,
+    "id": "Raven-FC.df,d,DF",
+    "parent": null,
     "name": "Crouch Step",
     "input": "FC.df,d,DF",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": "cs1~30",
+    "index": 77
   },
   {
+    "id": "Raven-FC.df,d,df,f",
+    "parent": "Raven-FC.df,d,DF",
     "name": "Crouch Step to Shadow Sprint",
     "input": "FC.df,d,DF,f",
-    "hitLevels": [
-      "nullnull"
-    ],
-    "damage": [
-      null
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": "nullnull",
+    "damage": "nullnull",
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 61,
+    "id": "Raven-f,F+2",
+    "parent": null,
     "name": "Shadow Spear",
     "input": "f,F+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      26
-    ],
-    "framesOnBlock": {
-      "_raw": "-12~-11",
-      "lower": "-12",
-      "properties": [],
-      "upper": "-11"
-    },
-    "framesOnHit": {
-      "_raw": "+15a (+5)",
-      "lower": "+15",
-      "properties": [
-        "a"
-      ],
-      "tech": "+5"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "m",
+    "damage": 26,
+    "onBlock": "-12~-11",
+    "onHit": "+15a (+5)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 61
   },
   {
-    "index": 62,
+    "id": "Raven-f,F+3",
+    "parent": null,
     "name": "Sudden Strike",
     "input": "f,F+3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-14~-11",
-      "lower": "-14",
-      "properties": [],
-      "upper": "-11"
-    },
-    "framesOnHit": {
-      "_raw": "+43a (+29)",
-      "lower": "+43",
-      "properties": [
-        "a"
-      ],
-      "tech": "+29"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~18",
-      "lower": "i15",
-      "properties": [],
-      "upper": "18"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~18",
+    "hitLevels": "m",
+    "damage": 20,
+    "onBlock": "-14~-11",
+    "onHit": "+43a (+29)",
+    "onCounterHit": null,
+    "states": "js7~23 fs24~26",
+    "index": 62
   },
   {
-    "index": 63,
+    "id": "Raven-f,F+4",
+    "parent": null,
     "name": "Iron Maul",
     "input": "f,F+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-10~-8",
-      "lower": "-10",
-      "properties": [],
-      "upper": "-8"
-    },
-    "framesOnHit": {
-      "_raw": "+21a (+4)",
-      "lower": "+21",
-      "properties": [
-        "a"
-      ],
-      "tech": "+4"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~17",
-      "lower": "i15",
-      "properties": [],
-      "upper": "17"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~17",
+    "hitLevels": "m",
+    "damage": 21,
+    "onBlock": "-10~-8",
+    "onHit": "+21a (+4)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 63
   },
   {
-    "index": 64,
+    "id": "Raven-f,f,F+3",
+    "parent": null,
     "name": "Typhon Fang",
     "input": "f,f,F+3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "+4~+6",
-      "lower": "+4",
-      "properties": [],
-      "upper": "+6"
-    },
-    "framesOnHit": {
-      "_raw": "+6a",
-      "lower": "+6",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i22~24",
-      "lower": "i22",
-      "properties": [],
-      "upper": "24"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i22~24",
+    "hitLevels": "m",
+    "damage": 20,
+    "onBlock": "+4~+6",
+    "onHit": "+6a",
+    "onCounterHit": null,
+    "states": "js14~34 fs35~37",
+    "index": 64
   },
   {
+    "id": "Raven-f,f,F+3,H.4",
+    "parent": "Raven-f,f,F+3",
     "name": "Typhon Fang Phantom",
     "input": "f,f,F+3,H.4",
-    "hitLevels": [
-      "m",
-      "sm"
-    ],
-    "damage": [
-      20,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "+7~+8",
-      "lower": "+7",
-      "properties": [],
-      "upper": "+8"
-    },
-    "framesOnHit": {
-      "_raw": "+72a (+56)",
-      "lower": "+72",
-      "properties": [
-        "a"
-      ],
-      "tech": "+56"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i22~24",
-      "lower": "i22",
-      "properties": [],
-      "upper": "24"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i22~24",
+    "hitLevels": "m,sm",
+    "damage": "20,20",
+    "onBlock": "+7~+8",
+    "onHit": "+72a (+56)",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Raven-H.2+3",
+    "parent": null,
     "name": "Pandemonium",
     "input": "H.2+3",
-    "hitLevels": [
-      "m",
-      "t"
-    ],
-    "damage": [
-      20,
-      35
-    ],
-    "framesOnBlock": {
-      "_raw": "+14g",
-      "lower": "+14",
-      "properties": [
-        "g"
-      ]
-    },
-    "framesOnHit": {
-      "_raw": "+3a",
-      "lower": "+3",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18~20",
-      "lower": "i18",
-      "properties": [],
-      "upper": "20"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18~20",
+    "hitLevels": "m,t",
+    "damage": "20,35",
+    "onBlock": "+14g",
+    "onHit": "+3a",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Raven-H.BT.f+2,4,2",
+    "parent": "Raven-BT.f+2,4",
     "name": "Cold Worm &gt; Phantom Halberd",
     "input": "BT.f+2,4,H.2",
-    "hitLevels": [
-      "m",
-      "h",
-      "sm",
-      "sm"
-    ],
-    "damage": [
-      13,
-      17,
-      21,
-      30
-    ],
-    "framesOnBlock": {
-      "_raw": "-3~-1",
-      "lower": "-3",
-      "properties": [],
-      "upper": "-1"
-    },
-    "framesOnHit": {
-      "_raw": "+24a (+9)",
-      "lower": "+24",
-      "properties": [
-        "a"
-      ],
-      "tech": "+9"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17~18",
-      "lower": "i17",
-      "properties": [],
-      "upper": "18"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17~18",
+    "hitLevels": "m,h,sm,sm",
+    "damage": "13,17,21,30",
+    "onBlock": "-3~-1",
+    "onHit": "+24a (+9)",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 117,
+    "id": "Raven-Left throw",
+    "parent": null,
     "name": "Neck Ringer",
-    "input": "Leftthrow",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      40
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-3d",
-      "lower": "-3",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": "Left throw",
+    "startup": null,
+    "hitLevels": "t",
+    "damage": 40,
+    "onBlock": -3,
+    "onHit": "-3d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 117
   },
   {
-    "index": 100,
+    "id": "Raven-qcf",
+    "parent": null,
     "name": "Shadow Sprint",
     "input": "qcf",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": 100
   },
   {
+    "id": "Raven-qcf+1",
+    "parent": null,
     "name": "Fatal Elbow",
     "input": "qcf+1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "4",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+15a",
-      "lower": "+15",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "m",
+    "damage": 15,
+    "onBlock": -9,
+    "onHit": 4,
+    "onCounterHit": "+15a",
+    "states": null,
+    "index": null
   },
   {
-    "index": 106,
+    "id": "Raven-qcf+1+2",
+    "parent": null,
     "name": "Hellhound",
     "input": "qcf+1+2",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      10,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "5",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+11a (+2)",
-      "lower": "+11",
-      "properties": [
-        "a"
-      ],
-      "tech": "+2"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i24 i35",
-      "lower": "i24",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i24 i35",
+    "hitLevels": "m,m",
+    "damage": "10,20",
+    "onBlock": 5,
+    "onHit": "+11a (+2)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 106
   },
   {
-    "index": 101,
+    "id": "Raven-qcf+1,2",
+    "parent": "Raven-qcf+1",
     "name": "Fatal Elbow &gt; Phantom Halberd",
     "input": "qcf+1,2",
-    "hitLevels": [
-      "m",
-      "sm"
-    ],
-    "damage": [
-      15,
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+24a (+9)",
-      "lower": "+24",
-      "properties": [
-        "a"
-      ],
-      "tech": "+9"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "m,sm",
+    "damage": "15,21",
+    "onBlock": -13,
+    "onHit": "+24a (+9)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 101
   },
   {
+    "id": "Raven-qcf+1+2,P",
+    "parent": "Raven-qcf+1+2",
     "name": "Blind Ghost",
     "input": "qcf+1+2,P",
-    "hitLevels": [
-      "m",
-      "m",
-      "t"
-    ],
-    "damage": [
-      10,
-      20,
-      35
-    ],
-    "framesOnBlock": {
-      "_raw": "-8~+2",
-      "lower": "-8",
-      "properties": [],
-      "upper": "+2"
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i24 i35",
-      "lower": "i24",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i24 i35",
+    "hitLevels": "m,m,t",
+    "damage": "10,20,35",
+    "onBlock": "-8~+2",
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Raven-qcf+1,H.2",
+    "parent": "Raven-qcf+1",
     "name": "Fatal Elbow &gt; Phantom Halberd",
     "input": "qcf+1,H.2",
-    "hitLevels": [
-      "m",
-      "sm",
-      "sm"
-    ],
-    "damage": [
-      15,
-      21,
-      30
-    ],
-    "framesOnBlock": {
-      "_raw": "-3~-1",
-      "lower": "-3",
-      "properties": [],
-      "upper": "-1"
-    },
-    "framesOnHit": {
-      "_raw": "+24a (+9)",
-      "lower": "+24",
-      "properties": [
-        "a"
-      ],
-      "tech": "+9"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "m,sm,sm",
+    "damage": "15,21,30",
+    "onBlock": "-3~-1",
+    "onHit": "+24a (+9)",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 102,
+    "id": "Raven-qcf+2",
+    "parent": null,
     "name": "Buzzsaw",
     "input": "qcf+2",
-    "hitLevels": [
-      "L"
-    ],
-    "damage": [
-      18
-    ],
-    "framesOnBlock": {
-      "_raw": "-12~-11",
-      "lower": "-12",
-      "properties": [],
-      "upper": "-11"
-    },
-    "framesOnHit": {
-      "_raw": "+5~+6",
-      "lower": "+5",
-      "properties": [],
-      "upper": "+6"
-    },
-    "framesOnCounter": {
-      "_raw": "+14~+15",
-      "lower": "+14",
-      "properties": [],
-      "upper": "+15"
-    },
-    "framesOnStartup": {
-      "_raw": "i22~23",
-      "lower": "i22",
-      "properties": [],
-      "upper": "23"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i22~23",
+    "hitLevels": "L",
+    "damage": 18,
+    "onBlock": "-12~-11",
+    "onHit": "+5~+6",
+    "onCounterHit": "+14~+15",
+    "states": "cs10~45",
+    "index": 102
   },
   {
-    "index": 103,
+    "id": "Raven-qcf+2~1",
+    "parent": null,
     "name": "Laevateinn",
     "input": "qcf+2~1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-9~-8",
-      "lower": "-9",
-      "properties": [],
-      "upper": "-8"
-    },
-    "framesOnHit": {
-      "_raw": "+24a (+14)",
-      "lower": "+24",
-      "properties": [
-        "a"
-      ],
-      "tech": "+14"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20~21",
-      "lower": "i20",
-      "properties": [],
-      "upper": "21"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20~21",
+    "hitLevels": "m",
+    "damage": 25,
+    "onBlock": "-9~-8",
+    "onHit": "+24a (+14)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 103
   },
   {
-    "index": 104,
+    "id": "Raven-qcf+3",
+    "parent": null,
     "name": "Poison Needle &gt; Nightmare",
     "input": "qcf+3",
-    "hitLevels": [
-      "h",
-      "t"
-    ],
-    "damage": [
-      16,
-      14
-    ],
-    "framesOnBlock": {
-      "_raw": "-7~-6",
-      "lower": "-7",
-      "properties": [],
-      "upper": "-6"
-    },
-    "framesOnHit": {
-      "_raw": "-4d",
-      "lower": "-4",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16~17",
-      "lower": "i16",
-      "properties": [],
-      "upper": "17"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16~17",
+    "hitLevels": "h,t",
+    "damage": "16,14",
+    "onBlock": "-7~-6",
+    "onHit": "-4d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 104
   },
   {
-    "index": 105,
+    "id": "Raven-qcf+4",
+    "parent": null,
     "name": "Black Hole",
     "input": "qcf+4",
-    "hitLevels": [
-      "M"
-    ],
-    "damage": [
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "-14~-12",
-      "lower": "-14",
-      "properties": [],
-      "upper": "-12"
-    },
-    "framesOnHit": {
-      "_raw": "+32a (+22)",
-      "lower": "+32",
-      "properties": [
-        "a"
-      ],
-      "tech": "+22"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18~20",
-      "lower": "i18",
-      "properties": [],
-      "upper": "20"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18~20",
+    "hitLevels": "M",
+    "damage": 15,
+    "onBlock": "-14~-12",
+    "onHit": "+32a (+22)",
+    "onCounterHit": null,
+    "states": "fs20~32",
+    "index": 105
   },
   {
+    "id": "Raven-R.df+1+2",
+    "parent": null,
     "name": "Wild Hunt X-ecutor",
     "input": "R.df+1+2",
-    "hitLevels": [
-      "m",
-      "t"
-    ],
-    "damage": [
-      55
-    ],
-    "framesOnBlock": {
-      "_raw": "-15",
-      "lower": "-15",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20",
-      "lower": "i20",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20",
+    "hitLevels": "m,t",
+    "damage": "55+",
+    "onBlock": -15,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": "pc8~",
+    "index": null
   },
   {
-    "index": 118,
+    "id": "Raven-Right throw",
+    "parent": null,
     "name": "Swift Assassin",
-    "input": "Rightthrow",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      40
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-4d",
-      "lower": "-4",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": "Right throw",
+    "startup": null,
+    "hitLevels": "t",
+    "damage": 40,
+    "onBlock": -3,
+    "onHit": "-4d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 118
   },
   {
+    "id": "Raven-SZN.1",
+    "parent": null,
     "name": "Swift Blade",
     "input": "SZN.1",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "1",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+8~+9",
-      "lower": "+8",
-      "properties": [],
-      "upper": "+9"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14~15",
-      "lower": "i14",
-      "properties": [],
-      "upper": "15"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14~15",
+    "hitLevels": "h",
+    "damage": 12,
+    "onBlock": 1,
+    "onHit": "+8~+9",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 112,
+    "id": "Raven-SZN.1+2",
+    "parent": null,
     "name": "Oceanus Fissure",
     "input": "SZN.1+2",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "+0~+1",
-      "lower": "+0",
-      "properties": [],
-      "upper": "+1"
-    },
-    "framesOnHit": {
-      "_raw": "+23a",
-      "lower": "+23",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "h",
+    "damage": 25,
+    "onBlock": "+0~+1",
+    "onHit": "+23a",
+    "onCounterHit": null,
+    "states": null,
+    "index": 112
   },
   {
-    "index": 108,
+    "id": "Raven-SZN.1,4",
+    "parent": "Raven-SZN.1",
     "name": "Swift Blade &gt; Phantom Mace",
     "input": "SZN.1,4",
-    "hitLevels": [
-      "h",
-      "sm"
-    ],
-    "damage": [
-      12,
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+32a (-26)",
-      "lower": "+32",
-      "properties": [
-        "a"
-      ],
-      "tech": "-26"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14~15",
-      "lower": "i14",
-      "properties": [],
-      "upper": "15"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14~15",
+    "hitLevels": "h,sm",
+    "damage": "12,25",
+    "onBlock": -13,
+    "onHit": "+32a (-26)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 108
   },
   {
+    "id": "Raven-SZN.1,H.4",
+    "parent": "Raven-SZN.1",
     "name": "Swift Blade &gt; Phantom Mace",
     "input": "SZN.1,H.4",
-    "hitLevels": [
-      "h",
-      "sm",
-      "sm"
-    ],
-    "damage": [
-      12,
-      25,
-      30
-    ],
-    "framesOnBlock": {
-      "_raw": "-3~-2",
-      "lower": "-3",
-      "properties": [],
-      "upper": "-2"
-    },
-    "framesOnHit": {
-      "_raw": "+32a (-26)",
-      "lower": "+32",
-      "properties": [
-        "a"
-      ],
-      "tech": "-26"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14~15",
-      "lower": "i14",
-      "properties": [],
-      "upper": "15"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14~15",
+    "hitLevels": "h,sm,sm",
+    "damage": "12,25,30",
+    "onBlock": "-3~-2",
+    "onHit": "+32a (-26)",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 109,
+    "id": "Raven-SZN.2",
+    "parent": null,
     "name": "Dual Thanatos",
     "input": "SZN.2",
-    "hitLevels": [
-      "m",
-      "sm"
-    ],
-    "damage": [
-      20,
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+7a (-2)",
-      "lower": "+7",
-      "properties": [
-        "a"
-      ],
-      "tech": "-2"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18, i23~24",
-      "lower": "i18",
-      "properties": [],
-      "upper": "24"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18, i23~24",
+    "hitLevels": "m,sm",
+    "damage": "20,10",
+    "onBlock": -9,
+    "onHit": "+7a (-2)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 109
   },
   {
+    "id": "Raven-SZN.3",
+    "parent": null,
     "name": "Radius Flail",
     "input": "SZN.3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      16
-    ],
-    "framesOnBlock": {
-      "_raw": "-1",
-      "lower": "-1",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+5~+6",
-      "lower": "+5",
-      "properties": [],
-      "upper": "+6"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16~17",
-      "lower": "i16",
-      "properties": [],
-      "upper": "17"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16~17",
+    "hitLevels": "m",
+    "damage": 16,
+    "onBlock": -1,
+    "onHit": "+5~+6",
+    "onCounterHit": null,
+    "states": "js9~17",
+    "index": null
   },
   {
-    "index": 110,
+    "id": "Raven-SZN.3,2",
+    "parent": "Raven-SZN.3",
     "name": "Radius Flail &gt; Phantom Halberd",
     "input": "SZN.3,2",
-    "hitLevels": [
-      "m",
-      "sm"
-    ],
-    "damage": [
-      16,
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+24a (+9)",
-      "lower": "+24",
-      "properties": [
-        "a"
-      ],
-      "tech": "+9"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16~17",
-      "lower": "i16",
-      "properties": [],
-      "upper": "17"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16~17",
+    "hitLevels": "m,sm",
+    "damage": "16,21",
+    "onBlock": -13,
+    "onHit": "+24a (+9)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 110
   },
   {
+    "id": "Raven-SZN.3,H.2",
+    "parent": "Raven-SZN.3",
     "name": "Radius Flail &gt; Phantom Halberd",
     "input": "SZN.3,H.2",
-    "hitLevels": [
-      "m",
-      "sm",
-      "sm"
-    ],
-    "damage": [
-      16,
-      21,
-      30
-    ],
-    "framesOnBlock": {
-      "_raw": "-3~-1",
-      "lower": "-3",
-      "properties": [],
-      "upper": "-1"
-    },
-    "framesOnHit": {
-      "_raw": "+24a (+9)",
-      "lower": "+24",
-      "properties": [
-        "a"
-      ],
-      "tech": "+9"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16~17",
-      "lower": "i16",
-      "properties": [],
-      "upper": "17"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16~17",
+    "hitLevels": "m,sm,sm",
+    "damage": "16,21,30",
+    "onBlock": "-3~-1",
+    "onHit": "+24a (+9)",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 111,
+    "id": "Raven-SZN.4",
+    "parent": null,
     "name": "Cocytus Glide",
     "input": "SZN.4",
-    "hitLevels": [
-      "L"
-    ],
-    "damage": [
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-14",
-      "lower": "-14",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "4",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+13a",
-      "lower": "+13",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i17~24",
-      "lower": "i17",
-      "properties": [],
-      "upper": "24"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17~24",
+    "hitLevels": "L",
+    "damage": 21,
+    "onBlock": -14,
+    "onHit": 4,
+    "onCounterHit": "+13a",
+    "states": "cs6~",
+    "index": 111
   },
   {
-    "index": 114,
+    "id": "Raven-SZN.B",
+    "parent": null,
     "name": "Blind Labyrinth",
     "input": "SZN.B",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": "js1~17 fs15~17",
+    "index": 114
   },
   {
+    "id": "Raven-SZN.D",
+    "parent": null,
     "name": "Blind Fall to Crouching State",
     "input": "SZN.D",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": "js1~17 fs15~17",
+    "index": null
   },
   {
-    "index": 113,
+    "id": "Raven-SZN.U",
+    "parent": null,
     "name": "Blind Fall",
     "input": "SZN.U",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": "js1~17 fs15~17",
+    "index": 113
   },
   {
+    "id": "Raven-u+3",
+    "parent": null,
     "name": "Deathbringer",
     "input": "u+3",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "2",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+6~+7",
-      "lower": "+6",
-      "properties": [],
-      "upper": "+7"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i27~28",
-      "lower": "i27",
-      "properties": [],
-      "upper": "28"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i27~28",
+    "hitLevels": "h",
+    "damage": 23,
+    "onBlock": 2,
+    "onHit": "+6~+7",
+    "onCounterHit": null,
+    "states": "js9~30 fs31~33",
+    "index": null
   },
   {
-    "index": 54,
+    "id": "Raven-u+3,3",
+    "parent": "Raven-u+3",
     "name": "Deathbringer Low",
     "input": "u+3,3",
-    "hitLevels": [
-      "h",
-      "L"
-    ],
-    "damage": [
-      23,
-      18
-    ],
-    "framesOnBlock": {
-      "_raw": "-16~-15",
-      "lower": "-16",
-      "properties": [],
-      "upper": "-15"
-    },
-    "framesOnHit": {
-      "_raw": "+16a",
-      "lower": "+16",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i27~28",
-      "lower": "i27",
-      "properties": [],
-      "upper": "28"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i27~28",
+    "hitLevels": "h,L",
+    "damage": "23,18",
+    "onBlock": "-16~-15",
+    "onHit": "+16a",
+    "onCounterHit": null,
+    "states": ",cs14~39",
+    "index": 54
   },
   {
-    "index": 55,
+    "id": "Raven-u+3,3,3",
+    "parent": "Raven-u+3,3",
     "name": "Deathbringer Low &gt; Shadow",
     "input": "u+3,3,3",
-    "hitLevels": [
-      "h",
-      "L",
-      "M"
-    ],
-    "damage": [
-      23,
-      18,
-      22
-    ],
-    "framesOnBlock": {
-      "_raw": "-6~-4",
-      "lower": "-6",
-      "properties": [],
-      "upper": "-4"
-    },
-    "framesOnHit": {
-      "_raw": "+18a",
-      "lower": "+18",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i27~28",
-      "lower": "i27",
-      "properties": [],
-      "upper": "28"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i27~28",
+    "hitLevels": "h,L,M",
+    "damage": "23,18,22",
+    "onBlock": "-6~-4",
+    "onHit": "+18a",
+    "onCounterHit": null,
+    "states": ",js1~27 fs28~30",
+    "index": 55
   },
   {
+    "id": "Raven-ub+1",
+    "parent": null,
+    "name": null,
     "input": "ub+1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      11
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "5",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "m",
+    "damage": 11,
+    "onBlock": -6,
+    "onHit": 5,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 53,
+    "id": "Raven-ub+1,2",
+    "parent": "Raven-ub+1",
     "name": "Gate Keeper",
     "input": "ub+1,2",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      11,
-      13
-    ],
-    "framesOnBlock": {
-      "_raw": "-13~-12",
-      "lower": "-13",
-      "properties": [],
-      "upper": "-12"
-    },
-    "framesOnHit": {
-      "_raw": "-2c~-1c",
-      "lower": "-2",
-      "properties": [
-        "c",
-        "c"
-      ],
-      "upper": "-1"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "m,m",
+    "damage": "11,13",
+    "onBlock": "-13~-12",
+    "onHit": "-2c~-1c",
+    "onCounterHit": null,
+    "states": null,
+    "index": 53
   },
   {
+    "id": "Raven-UB,b",
+    "parent": null,
     "name": "Back Handspring",
     "input": "UB,b",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": "js10~41 fs42~44",
+    "index": null
   },
   {
-    "index": 67,
+    "id": "Raven-UB,b,3+4",
+    "parent": "Raven-UB,b",
     "name": "Pandora Spin",
     "input": "UB,b,3+4",
-    "hitLevels": [
-      "null",
-      "M!",
-      "M!",
-      "M!"
-    ],
-    "damage": [
-      null,
-      20,
-      20,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-19a",
-      "lower": "-19",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": "null,M!,M!,M!",
+    "damage": "null,20,20,20",
+    "onBlock": null,
+    "onHit": "-19a",
+    "onCounterHit": null,
+    "states": ",js21~56",
+    "index": 67
   },
   {
-    "index": 121,
+    "id": "Raven-uf+1+2",
+    "parent": null,
     "name": "Undertaker",
     "input": "uf+1+2",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      40
-    ],
-    "framesOnBlock": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "t",
+    "damage": 40,
+    "onBlock": -2,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 121
   },
   {
-    "index": 56,
+    "id": "Raven-uf+3",
+    "parent": null,
     "name": "Shadow Scythe",
     "input": "uf+3",
-    "hitLevels": [
-      "M"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+20a",
-      "lower": "+20",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i29~30",
-      "lower": "i29",
-      "properties": [],
-      "upper": "30"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i29~30",
+    "hitLevels": "M",
+    "damage": 20,
+    "onBlock": -9,
+    "onHit": "+20a",
+    "onCounterHit": null,
+    "states": "js9~30",
+    "index": 56
   },
   {
+    "id": "Raven-uf+3+4",
+    "parent": null,
+    "name": null,
     "input": "uf+3+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      17
-    ],
-    "framesOnBlock": {
-      "_raw": "-16~-14",
-      "lower": "-16",
-      "properties": [],
-      "upper": "-14"
-    },
-    "framesOnHit": {
-      "_raw": "+14a",
-      "lower": "+14",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i23~25",
-      "lower": "i23",
-      "properties": [],
-      "upper": "25"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i23~25",
+    "hitLevels": "m",
+    "damage": 17,
+    "onBlock": "-16~-14",
+    "onHit": "+14a",
+    "onCounterHit": null,
+    "states": "js8~26",
+    "index": null
   },
   {
-    "index": 59,
+    "id": "Raven-uf+3+4,3+4",
+    "parent": "Raven-uf+3+4",
     "name": "Spinning Chakram",
     "input": "uf+3+4,3+4",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      17,
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "-25~-21",
-      "lower": "-25",
-      "properties": [],
-      "upper": "-21"
-    },
-    "framesOnHit": {
-      "_raw": "+6a",
-      "lower": "+6",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i23~25",
-      "lower": "i23",
-      "properties": [],
-      "upper": "25"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i23~25",
+    "hitLevels": "m,m",
+    "damage": "17,15",
+    "onBlock": "-25~-21",
+    "onHit": "+6a",
+    "onCounterHit": null,
+    "states": null,
+    "index": 59
   },
   {
+    "id": "Raven-uf+3+4,4",
+    "parent": "Raven-uf+3+4",
+    "name": null,
     "input": "uf+3+4,4",
-    "hitLevels": [
-      "m",
-      "L"
-    ],
-    "damage": [
-      17,
-      9
-    ],
-    "framesOnBlock": {
-      "_raw": "-11~-10",
-      "lower": "-11",
-      "properties": [],
-      "upper": "-10"
-    },
-    "framesOnHit": {
-      "_raw": "+0~+1",
-      "lower": "+0",
-      "properties": [],
-      "upper": "+1"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i23~25",
-      "lower": "i23",
-      "properties": [],
-      "upper": "25"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i23~25",
+    "hitLevels": "m,L",
+    "damage": "17,9",
+    "onBlock": "-11~-10",
+    "onHit": "+0~+1",
+    "onCounterHit": null,
+    "states": "cs1~41",
+    "index": null
   },
   {
-    "index": 58,
+    "id": "Raven-uf+3+4,4,2",
+    "parent": "Raven-uf+3+4,4",
     "name": "Chakram",
     "input": "uf+3+4,4,2",
-    "hitLevels": [
-      "m",
-      "L",
-      "m"
-    ],
-    "damage": [
-      17,
-      9,
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+10a",
-      "lower": "+10",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i23~25",
-      "lower": "i23",
-      "properties": [],
-      "upper": "25"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i23~25",
+    "hitLevels": "m,L,m",
+    "damage": "17,9,21",
+    "onBlock": -13,
+    "onHit": "+10a",
+    "onCounterHit": null,
+    "states": null,
+    "index": 58
   },
   {
+    "id": "Raven-uf+4",
+    "parent": null,
+    "name": null,
     "input": "uf+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      14
-    ],
-    "framesOnBlock": {
-      "_raw": "-9~-8",
-      "lower": "-9",
-      "properties": [],
-      "upper": "-8"
-    },
-    "framesOnHit": {
-      "_raw": "+22a (+12)",
-      "lower": "+22",
-      "properties": [
-        "a"
-      ],
-      "tech": "+12"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20~21",
-      "lower": "i20",
-      "properties": [],
-      "upper": "21"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20~21",
+    "hitLevels": "m",
+    "damage": 14,
+    "onBlock": "-9~-8",
+    "onHit": "+22a (+12)",
+    "onCounterHit": null,
+    "states": "js8~27 fs28~30",
+    "index": null
   },
   {
-    "index": 57,
+    "id": "Raven-uf+4,4",
+    "parent": "Raven-uf+4",
     "name": "Stormbringer",
     "input": "uf+4,4",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      14,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-15",
-      "lower": "-15",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+9g~12g",
-      "lower": "+9",
-      "properties": [
-        "g",
-        "g"
-      ],
-      "upper": "12"
-    },
-    "framesOnCounter": {
-      "_raw": "+21a",
-      "lower": "+21",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i20~21",
-      "lower": "i20",
-      "properties": [],
-      "upper": "21"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20~21",
+    "hitLevels": "m,m",
+    "damage": "14,20",
+    "onBlock": -15,
+    "onHit": "+9g~12g",
+    "onCounterHit": "+21a",
+    "states": null,
+    "index": 57
   },
   {
-    "index": 60,
+    "id": "Raven-uf,n,4",
+    "parent": null,
     "name": "Delayed Rising Toe Kick",
     "input": "uf,n,4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-13~-11",
-      "lower": "-13",
-      "properties": [],
-      "upper": "-11"
-    },
-    "framesOnHit": {
-      "_raw": "+32a (+22)",
-      "lower": "+32",
-      "properties": [
-        "a"
-      ],
-      "tech": "+22"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i23~25",
-      "lower": "i23",
-      "properties": [],
-      "upper": "25"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i23~25",
+    "hitLevels": "m",
+    "damage": 20,
+    "onBlock": "-13~-11",
+    "onHit": "+32a (+22)",
+    "onCounterHit": null,
+    "states": "js9~30 fs31~33",
+    "index": 60
   },
   {
-    "index": 70,
+    "id": "Raven-ws1",
+    "parent": null,
     "name": "Rising Uppercut",
     "input": "ws1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      14
-    ],
-    "framesOnBlock": {
-      "_raw": "-14~-13",
-      "lower": "-14",
-      "properties": [],
-      "upper": "-13"
-    },
-    "framesOnHit": {
-      "_raw": "+35a (+25)",
-      "lower": "+35",
-      "properties": [
-        "a"
-      ],
-      "tech": "+25"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14~15",
-      "lower": "i14",
-      "properties": [],
-      "upper": "15"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14~15",
+    "hitLevels": "m",
+    "damage": 14,
+    "onBlock": "-14~-13",
+    "onHit": "+35a (+25)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 70
   },
   {
-    "index": 71,
+    "id": "Raven-ws2",
+    "parent": null,
     "name": "Jackknife Elbow",
     "input": "ws2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      17
-    ],
-    "framesOnBlock": {
-      "_raw": "-8~-7",
-      "lower": "-8",
-      "properties": [],
-      "upper": "-7"
-    },
-    "framesOnHit": {
-      "_raw": "+8~+9",
-      "lower": "+8",
-      "properties": [],
-      "upper": "+9"
-    },
-    "framesOnCounter": {
-      "_raw": "+37a (+27)",
-      "lower": "+37",
-      "properties": [
-        "a"
-      ],
-      "tech": "+27"
-    },
-    "framesOnStartup": {
-      "_raw": "i13~14",
-      "lower": "i13",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13~14",
+    "hitLevels": "m",
+    "damage": 17,
+    "onBlock": "-8~-7",
+    "onHit": "+8~+9",
+    "onCounterHit": "+37a (+27)",
+    "states": null,
+    "index": 71
   },
   {
+    "id": "Raven-ws3",
+    "parent": null,
     "name": "Trident Kick",
     "input": "ws3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      18
-    ],
-    "framesOnBlock": {
-      "_raw": "-8~-7",
-      "lower": "-8",
-      "properties": [],
-      "upper": "-7"
-    },
-    "framesOnHit": {
-      "_raw": "+0s",
-      "lower": "+0",
-      "properties": [
-        "s"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16~17",
-      "lower": "i16",
-      "properties": [],
-      "upper": "17"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16~17",
+    "hitLevels": "m",
+    "damage": 18,
+    "onBlock": "-8~-7",
+    "onHit": "+0s",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 72,
+    "id": "Raven-ws3,2",
+    "parent": "Raven-ws3",
     "name": "Trident Kick &gt; Phantom Halberd",
     "input": "ws3,2",
-    "hitLevels": [
-      "m",
-      "sm"
-    ],
-    "damage": [
-      18,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+65a (+49)",
-      "lower": "+65",
-      "properties": [
-        "a"
-      ],
-      "tech": "+49"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16~17",
-      "lower": "i16",
-      "properties": [],
-      "upper": "17"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16~17",
+    "hitLevels": "m,sm",
+    "damage": "18,20",
+    "onBlock": -13,
+    "onHit": "+65a (+49)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 72
   },
   {
-    "index": 74,
+    "id": "Raven-ws3+4",
+    "parent": null,
     "name": "Spinning Middle Kick",
     "input": "ws3+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+7~+9",
-      "lower": "+7",
-      "properties": [],
-      "upper": "+9"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16~18",
-      "lower": "i16",
-      "properties": [],
-      "upper": "18"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16~18",
+    "hitLevels": "m",
+    "damage": 20,
+    "onBlock": -9,
+    "onHit": "+7~+9",
+    "onCounterHit": null,
+    "states": null,
+    "index": 74
   },
   {
+    "id": "Raven-ws3,H.2",
+    "parent": "Raven-ws3",
     "name": "Trident Kick &gt; Phantom Halberd",
     "input": "ws3,H.2",
-    "hitLevels": [
-      "m",
-      "sm",
-      "sm"
-    ],
-    "damage": [
-      18,
-      18,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-3~-1",
-      "lower": "-3",
-      "properties": [],
-      "upper": "-1"
-    },
-    "framesOnHit": {
-      "_raw": "+65a (+49)",
-      "lower": "+65",
-      "properties": [
-        "a"
-      ],
-      "tech": "+49"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16~17",
-      "lower": "i16",
-      "properties": [],
-      "upper": "17"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16~17",
+    "hitLevels": "m,sm,sm",
+    "damage": "18,18,20",
+    "onBlock": "-3~-1",
+    "onHit": "+65a (+49)",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Raven-ws4",
+    "parent": null,
     "name": "Shadow Snap Kick",
     "input": "ws4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      18
-    ],
-    "framesOnBlock": {
-      "_raw": "-7~-6",
-      "lower": "-7",
-      "properties": [],
-      "upper": "-6"
-    },
-    "framesOnHit": {
-      "_raw": "+7~+8",
-      "lower": "+7",
-      "properties": [],
-      "upper": "+8"
-    },
-    "framesOnCounter": {
-      "_raw": "4",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i11~12",
-      "lower": "i11",
-      "properties": [],
-      "upper": "12"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i11~12",
+    "hitLevels": "m",
+    "damage": 18,
+    "onBlock": "-7~-6",
+    "onHit": "+7~+8",
+    "onCounterHit": 4,
+    "states": null,
+    "index": null
   }
 ]

@@ -1,4517 +1,1612 @@
 [
   {
+    "id": "Clive-1",
+    "parent": null,
     "name": "Jab",
-    "input": "1",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      5
-    ],
-    "framesOnBlock": {
-      "_raw": "1",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "8",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": 1,
+    "startup": "i10",
+    "hitLevels": "h",
+    "damage": 5,
+    "onBlock": 1,
+    "onHit": 8,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 21,
+    "id": "Clive-1,1",
+    "parent": "Clive-1",
     "name": "Double Blow",
     "input": "1,1",
-    "hitLevels": [
-      "h",
-      "h"
-    ],
-    "damage": [
-      5,
-      13
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "6",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,h",
+    "damage": "5,13",
+    "onBlock": -3,
+    "onHit": 6,
+    "onCounterHit": null,
+    "states": null,
+    "index": 21
   },
   {
-    "index": 33,
+    "id": "Clive-1+2",
+    "parent": null,
     "name": "Flame Bash",
     "input": "1+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      24
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "2",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13",
-      "lower": "i13",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13",
+    "hitLevels": "m",
+    "damage": 24,
+    "onBlock": -9,
+    "onHit": 2,
+    "onCounterHit": null,
+    "states": null,
+    "index": 33
   },
   {
-    "index": 22,
+    "id": "Clive-1,2",
+    "parent": "Clive-1",
     "name": "Finishing Steel",
     "input": "1,2",
-    "hitLevels": [
-      "h",
-      "M"
-    ],
-    "damage": [
-      5,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-14",
-      "lower": "-14",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+22a (+17)",
-      "lower": "+22",
-      "properties": [
-        "a"
-      ],
-      "tech": "+17"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,M",
+    "damage": "5,20",
+    "onBlock": -14,
+    "onHit": "+22a (+17)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 22
   },
   {
-    "index": 62,
+    "id": "Clive-1+2+3+4",
+    "parent": null,
     "name": "&lt;div class=&quot;dotlist&quot;&gt;\n\n* Ki Charge\n* Supercharger\n&lt;/div&gt;",
     "input": "1+2+3+4",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": 62
   },
   {
+    "id": "Clive-1+3",
+    "parent": null,
     "name": "Fangs of Ruin",
     "input": "1+3",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      35
-    ],
-    "framesOnBlock": {
-      "_raw": "-5",
-      "lower": "-5",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12~14",
-      "lower": "i12",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12~14",
+    "hitLevels": "t",
+    "damage": 35,
+    "onBlock": -5,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 64,
+    "id": "Clive-1+4",
+    "parent": null,
     "name": "&lt;div class=&quot;dotlist&quot;&gt;\n\n* Arm of Darkness (ZAN1)\n* Zantetsuken (ZAN2-4)\n* Ultimate Zantetsuken (ZAN5)\n&lt;/div&gt;",
     "input": "1+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      1080
-    ],
-    "framesOnBlock": {
-      "_raw": "-15",
-      "lower": "-15",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+9a (ZAN1)",
-      "lower": "+9",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i22",
-      "lower": "i22",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i22",
+    "hitLevels": "m",
+    "damage": "10-80",
+    "onBlock": -15,
+    "onHit": "+9a (ZAN1)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 64
   },
   {
-    "index": 23,
+    "id": "Clive-1,f+2",
+    "parent": "Clive-1",
     "name": "Rapid Assault",
     "input": "1,f+2",
-    "hitLevels": [
-      "h",
-      "h"
-    ],
-    "damage": [
-      5,
-      22
-    ],
-    "framesOnBlock": {
-      "_raw": "1",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+13g",
-      "lower": "+13",
-      "properties": [
-        "g"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,h",
+    "damage": "5,22",
+    "onBlock": 1,
+    "onHit": "+13g",
+    "onCounterHit": null,
+    "states": null,
+    "index": 23
   },
   {
-    "input": "2",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      11
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "7",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "id": "Clive-2",
+    "parent": null,
+    "name": null,
+    "input": 2,
+    "startup": "i12",
+    "hitLevels": "h",
+    "damage": 11,
+    "onBlock": 0,
+    "onHit": 7,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 24,
+    "id": "Clive-2,1",
+    "parent": "Clive-2",
     "name": "Magic Burst",
     "input": "2,1",
-    "hitLevels": [
-      "h",
-      "h"
-    ],
-    "damage": [
-      11,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+8a (-1)",
-      "lower": "+8",
-      "properties": [
-        "a"
-      ],
-      "tech": "-1"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "h,h",
+    "damage": "11,20",
+    "onBlock": -13,
+    "onHit": "+8a (-1)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 24
   },
   {
+    "id": "Clive-2,2",
+    "parent": "Clive-2",
+    "name": null,
     "input": "2,2",
-    "hitLevels": [
-      "h",
-      "m"
-    ],
-    "damage": [
-      11,
-      9
-    ],
-    "framesOnBlock": {
-      "_raw": "-8",
-      "lower": "-8",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-1",
-      "lower": "-1",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "h,m",
+    "damage": "11,9",
+    "onBlock": -8,
+    "onHit": -1,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 25,
+    "id": "Clive-2,2,1",
+    "parent": "Clive-2,2",
     "name": "Assault Burst",
     "input": "2,2,1",
-    "hitLevels": [
-      "h",
-      "m",
-      "m"
-    ],
-    "damage": [
-      11,
-      9,
-      18
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+8a (-1)",
-      "lower": "+8",
-      "properties": [
-        "a"
-      ],
-      "tech": "-1"
-    },
-    "framesOnCounter": {
-      "_raw": "+28d(+20d)",
-      "lower": "+28",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "h,m,m",
+    "damage": "11,9,18",
+    "onBlock": -13,
+    "onHit": "+8a (-1)",
+    "onCounterHit": "+28d(+20d)",
+    "states": null,
+    "index": 25
   },
   {
-    "index": 28,
+    "id": "Clive-2,2,1+2",
+    "parent": "Clive-2,2",
     "name": "Gungnir Dance",
     "input": "2,2,1+2",
-    "hitLevels": [
-      "h",
-      "m",
-      "m",
-      "M"
-    ],
-    "damage": [
-      11,
-      9,
-      10,
-      18
-    ],
-    "framesOnBlock": {
-      "_raw": "-13c",
-      "lower": "-13",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnHit": {
-      "_raw": "+1a",
-      "lower": "+1",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "h,m,m,M",
+    "damage": "11,9,10,18",
+    "onBlock": "-13c",
+    "onHit": "+1a",
+    "onCounterHit": null,
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* ,js41~54\n* fs55~57&lt;/div&gt;",
+    "index": 28
   },
   {
+    "id": "Clive-2,2,2",
+    "parent": "Clive-2,2",
     "name": "Gleipnir-Cutter",
     "input": "2,2,2",
-    "hitLevels": [
-      "h",
-      "m",
-      "M",
-      "m"
-    ],
-    "damage": [
-      11,
-      9,
-      15,
-      2024
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+21a (+4)",
-      "lower": "+21",
-      "properties": [
-        "a"
-      ],
-      "tech": "+4"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "h,m,M,m",
+    "damage": "11,9,15,20 (24)",
+    "onBlock": -9,
+    "onHit": "+21a (+4)",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Clive-2+3",
+    "parent": null,
     "name": "Heat Burst",
     "input": "2+3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      12,
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "1",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+2c",
-      "lower": "+2",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "m",
+    "damage": "[12;12]",
+    "onBlock": 1,
+    "onHit": "+2c",
+    "onCounterHit": null,
+    "states": "pc7~16",
+    "index": null
   },
   {
+    "id": "Clive-2+4",
+    "parent": null,
     "name": "Punisher",
     "input": "2+4",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      35
-    ],
-    "framesOnBlock": {
-      "_raw": "-5",
-      "lower": "-5",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12~14",
-      "lower": "i12",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12~14",
+    "hitLevels": "t",
+    "damage": 35,
+    "onBlock": -5,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "input": "3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      16
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "id": "Clive-3",
+    "parent": null,
+    "name": null,
+    "input": 3,
+    "startup": "i16",
+    "hitLevels": "m",
+    "damage": 16,
+    "onBlock": -13,
+    "onHit": -2,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 29,
+    "id": "Clive-3,2",
+    "parent": "Clive-3",
     "name": "Fine Hound",
     "input": "3,2",
-    "hitLevels": [
-      "m",
-      "m",
-      "m"
-    ],
-    "damage": [
-      16,
-      15,
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "-12~+0",
-      "lower": "-12",
-      "properties": [],
-      "upper": "+0"
-    },
-    "framesOnHit": {
-      "_raw": "+22a (+12)",
-      "lower": "+22",
-      "properties": [
-        "a"
-      ],
-      "tech": "+12"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "m,m,m",
+    "damage": "16,15,15",
+    "onBlock": "-12~+0",
+    "onHit": "+22a (+12)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 29
   },
   {
-    "index": 30,
+    "id": "Clive-3,3",
+    "parent": "Clive-3",
     "name": "Bright Wing",
     "input": "3,3",
-    "hitLevels": [
-      "m",
-      "M"
-    ],
-    "damage": [
-      16,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-18~-16",
-      "lower": "-18",
-      "properties": [],
-      "upper": "-16"
-    },
-    "framesOnHit": {
-      "_raw": "+12a (-5)",
-      "lower": "+12",
-      "properties": [
-        "a"
-      ],
-      "tech": "-5"
-    },
-    "framesOnCounter": {
-      "_raw": "+36a (+26)",
-      "lower": "+36",
-      "properties": [
-        "a"
-      ],
-      "tech": "+26"
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "m,M",
+    "damage": "16,20",
+    "onBlock": "-18~-16",
+    "onHit": "+12a (-5)",
+    "onCounterHit": "+36a (+26)",
+    "states": ",fs31~",
+    "index": 30
   },
   {
+    "id": "Clive-3+4",
+    "parent": null,
     "name": "Wings of Light",
     "input": "3+4",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* fs5~\n* ps9~&lt;/div&gt;",
+    "index": null
   },
   {
+    "id": "Clive-3+4,P",
+    "parent": "Clive-3+4",
     "name": "Radiant Counter",
     "input": "3+4,P",
-    "hitLevels": [
-      "null",
-      "M"
-    ],
-    "damage": [
-      null,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+61a (+45)",
-      "lower": "+61",
-      "properties": [
-        "a"
-      ],
-      "tech": "+45"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": "null,M",
+    "damage": "null,20",
+    "onBlock": null,
+    "onHit": "+61a (+45)",
+    "onCounterHit": null,
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* ,is1~27\n* fs28~70&lt;/div&gt;",
+    "index": null
   },
   {
-    "input": "4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      8
-    ],
-    "framesOnBlock": {
-      "_raw": "-10",
-      "lower": "-10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "1",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "id": "Clive-4",
+    "parent": null,
+    "name": null,
+    "input": 4,
+    "startup": "i12",
+    "hitLevels": "m",
+    "damage": 8,
+    "onBlock": -10,
+    "onHit": 1,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 31,
+    "id": "Clive-4,2",
+    "parent": "Clive-4",
     "name": "Mercenary Cut",
     "input": "4,2",
-    "hitLevels": [
-      "m",
-      "M"
-    ],
-    "damage": [
-      8,
-      17
-    ],
-    "framesOnBlock": {
-      "_raw": "-11",
-      "lower": "-11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "3",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "m,M",
+    "damage": "8,17",
+    "onBlock": -11,
+    "onHit": 3,
+    "onCounterHit": null,
+    "states": null,
+    "index": 31
   },
   {
-    "index": 32,
+    "id": "Clive-4,4",
+    "parent": "Clive-4",
     "name": "Roundabout",
     "input": "4,4",
-    "hitLevels": [
-      "m",
-      "h"
-    ],
-    "damage": [
-      8,
-      13
-    ],
-    "framesOnBlock": {
-      "_raw": "-8",
-      "lower": "-8",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "m,h",
+    "damage": "8,13",
+    "onBlock": -8,
+    "onHit": 0,
+    "onCounterHit": null,
+    "states": null,
+    "index": 32
   },
   {
-    "index": 53,
+    "id": "Clive-b+1",
+    "parent": null,
     "name": "Blue Bolt",
     "input": "b+1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      18
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+10g",
-      "lower": "+10",
-      "properties": [
-        "g"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "+57a",
-      "lower": "+57",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i17~18",
-      "lower": "i17",
-      "properties": [],
-      "upper": "18"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17~18",
+    "hitLevels": "m",
+    "damage": 18,
+    "onBlock": -13,
+    "onHit": "+10g",
+    "onCounterHit": "+57a",
+    "states": null,
+    "index": 53
   },
   {
-    "index": 56,
+    "id": "Clive-b+1+2",
+    "parent": null,
     "name": "&lt;div class=&quot;dotlist&quot;&gt;\n\n* Windup\n* Windup Counter\n&lt;/div&gt;",
     "input": "b+1+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-14",
-      "lower": "-14",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+14a (+4a)",
-      "lower": "+14",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i24~25",
-      "lower": "i24",
-      "properties": [],
-      "upper": "25"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i24~25",
+    "hitLevels": "m",
+    "damage": 25,
+    "onBlock": -14,
+    "onHit": "+14a (+4a)",
+    "onCounterHit": null,
+    "states": "pc7~23",
+    "index": 56
   },
   {
-    "index": 54,
+    "id": "Clive-b+2",
+    "parent": null,
     "name": "Executioner",
     "input": "b+2",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-4",
-      "lower": "-4",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "9",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20~21",
-      "lower": "i20",
-      "properties": [],
-      "upper": "21"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20~21",
+    "hitLevels": "h",
+    "damage": 20,
+    "onBlock": -4,
+    "onHit": 9,
+    "onCounterHit": null,
+    "states": null,
+    "index": 54
   },
   {
+    "id": "Clive-b+3",
+    "parent": null,
     "name": "Precision Dodge",
     "input": "b+3",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": "ps5~ps13",
+    "index": null
   },
   {
+    "id": "Clive-b+3,P",
+    "parent": "Clive-b+3",
+    "name": null,
     "input": "b+3,P",
-    "hitLevels": [
-      "nullnull"
-    ],
-    "damage": [
-      null
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": "nullnull",
+    "damage": "nullnull",
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": ",is1~16",
+    "index": null
   },
   {
+    "id": "Clive-b+3,P,1+2",
+    "parent": "Clive-b+3,P",
     "name": "Dash of Steel",
     "input": "b+3,P,1+2",
-    "hitLevels": [
-      "nullnullm",
-      "t"
-    ],
-    "damage": [
-      35
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+5d",
-      "lower": "+5",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": "nullnullm,t",
+    "damage": "nullnull35",
+    "onBlock": -13,
+    "onHit": "+5d",
+    "onCounterHit": null,
+    "states": ",is1~20",
+    "index": null
   },
   {
+    "id": "Clive-b+3,P,2",
+    "parent": "Clive-b+3,P",
     "name": "Precision Counter",
     "input": "b+3,P,2",
-    "hitLevels": [
-      "nullnullm"
-    ],
-    "damage": [
-      35
-    ],
-    "framesOnBlock": {
-      "_raw": "3",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+16a (+6a)",
-      "lower": "+16",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": "nullnullm",
+    "damage": "nullnull35",
+    "onBlock": 3,
+    "onHit": "+16a (+6a)",
+    "onCounterHit": null,
+    "states": ",is1~9 fs10~20",
+    "index": null
   },
   {
-    "index": 55,
+    "id": "Clive-b+4",
+    "parent": null,
     "name": "Mercenary Kick",
     "input": "b+4",
-    "hitLevels": [
-      "M"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+16g",
-      "lower": "+16",
-      "properties": [
-        "g"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "+25a (+19a)",
-      "lower": "+25",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i18~19",
-      "lower": "i18",
-      "properties": [],
-      "upper": "19"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18~19",
+    "hitLevels": "M",
+    "damage": 20,
+    "onBlock": -9,
+    "onHit": "+16g",
+    "onCounterHit": "+25a (+19a)",
+    "states": null,
+    "index": 55
   },
   {
+    "id": "Clive-Back Throw",
+    "parent": null,
     "name": "Judgment Throw",
-    "input": "BackThrow",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      50
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": "Back Throw",
+    "startup": null,
+    "hitLevels": "t",
+    "damage": 50,
+    "onBlock": null,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 59,
+    "id": "Clive-b,B+1+4",
+    "parent": null,
     "name": "Pulverize",
     "input": "b,B+1+4",
-    "hitLevels": [
-      "m!"
-    ],
-    "damage": [
-      40
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+56a",
-      "lower": "+56",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i80~81",
-      "lower": "i80",
-      "properties": [],
-      "upper": "81"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i80~81",
+    "hitLevels": "m!",
+    "damage": 40,
+    "onBlock": null,
+    "onHit": "+56a",
+    "onCounterHit": null,
+    "states": null,
+    "index": 59
   },
   {
-    "index": 47,
+    "id": "Clive-d+1",
+    "parent": null,
     "name": "Scorching Sweep",
     "input": "d+1",
-    "hitLevels": [
-      "L"
-    ],
-    "damage": [
-      14
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "2",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18~19",
-      "lower": "i18",
-      "properties": [],
-      "upper": "19"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18~19",
+    "hitLevels": "L",
+    "damage": 14,
+    "onBlock": -13,
+    "onHit": 2,
+    "onCounterHit": null,
+    "states": "cs6~",
+    "index": 47
   },
   {
-    "index": 48,
+    "id": "Clive-d+1+2",
+    "parent": null,
     "name": "Pile Driver",
     "input": "d+1+2",
-    "hitLevels": [
-      "M"
-    ],
-    "damage": [
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+9a (-8)",
-      "lower": "+9",
-      "properties": [
-        "a"
-      ],
-      "tech": "-8"
-    },
-    "framesOnCounter": {
-      "_raw": "+63a (+47)",
-      "lower": "+63",
-      "properties": [
-        "a"
-      ],
-      "tech": "+47"
-    },
-    "framesOnStartup": {
-      "_raw": "i22~23",
-      "lower": "i22",
-      "properties": [],
-      "upper": "23"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i22~23",
+    "hitLevels": "M",
+    "damage": 23,
+    "onBlock": -6,
+    "onHit": "+9a (-8)",
+    "onCounterHit": "+63a (+47)",
+    "states": null,
+    "index": 48
   },
   {
+    "id": "Clive-d+2",
+    "parent": null,
     "name": "Crouch Straight",
     "input": "d+2",
-    "hitLevels": [
-      "sl"
-    ],
-    "damage": [
-      8
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "5",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i11",
-      "lower": "i11",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i11",
+    "hitLevels": "sl",
+    "damage": 8,
+    "onBlock": -6,
+    "onHit": 5,
+    "onCounterHit": null,
+    "states": "cs4~",
+    "index": null
   },
   {
+    "id": "Clive-d+3",
+    "parent": null,
     "name": "Crouch Spin Kick",
     "input": "d+3",
-    "hitLevels": [
-      "L"
-    ],
-    "damage": [
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-17",
-      "lower": "-17",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "L",
+    "damage": 10,
+    "onBlock": -17,
+    "onHit": -6,
+    "onCounterHit": null,
+    "states": "cs4~",
+    "index": null
   },
   {
+    "id": "Clive-d+4",
+    "parent": null,
     "name": "Crouch Shin Kick",
     "input": "d+4",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      6
-    ],
-    "framesOnBlock": {
-      "_raw": "-15",
-      "lower": "-15",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-4",
-      "lower": "-4",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "l",
+    "damage": 6,
+    "onBlock": -15,
+    "onHit": -4,
+    "onCounterHit": null,
+    "states": "cs4~",
+    "index": null
   },
   {
+    "id": "Clive-db+1",
+    "parent": null,
+    "name": null,
     "input": "db+1",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-8",
-      "lower": "-8",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "4",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+12a",
-      "lower": "+12",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i17~18",
-      "lower": "i17",
-      "properties": [],
-      "upper": "18"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17~18",
+    "hitLevels": "h",
+    "damage": 10,
+    "onBlock": -8,
+    "onHit": 4,
+    "onCounterHit": "+12a",
+    "states": null,
+    "index": null
   },
   {
-    "index": 49,
+    "id": "Clive-db+1,1",
+    "parent": "Clive-db+1",
     "name": "Tidal Surge",
     "input": "db+1,1",
-    "hitLevels": [
-      "h",
-      "m",
-      "m"
-    ],
-    "damage": [
-      10,
-      7,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+31d (+10d)",
-      "lower": "+31",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17~18",
-      "lower": "i17",
-      "properties": [],
-      "upper": "18"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17~18",
+    "hitLevels": "h,m,m",
+    "damage": "10,7,20",
+    "onBlock": null,
+    "onHit": "+31d (+10d)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 49
   },
   {
+    "id": "Clive-db+1+2",
+    "parent": null,
+    "name": null,
     "input": "db+1+2",
-    "hitLevels": [
-      "M",
-      "m"
-    ],
-    "damage": [
-      12,
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-11",
-      "lower": "-11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-2c",
-      "lower": "-2",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17~18 i23",
-      "lower": "i17",
-      "properties": [],
-      "upper": "18"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17~18 i23",
+    "hitLevels": "M,m",
+    "damage": "12,10",
+    "onBlock": -11,
+    "onHit": "-2c",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 52,
+    "id": "Clive-db+1+2,1",
+    "parent": "Clive-db+1+2",
     "name": "Gouge",
     "input": "db+1+2,1",
-    "hitLevels": [
-      "M",
-      "m",
-      "M"
-    ],
-    "damage": [
-      12,
-      10,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+24a (+9a)",
-      "lower": "+24",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17~18 i23",
-      "lower": "i17",
-      "properties": [],
-      "upper": "18"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17~18 i23",
+    "hitLevels": "M,m,M",
+    "damage": "12,10,20",
+    "onBlock": -13,
+    "onHit": "+24a (+9a)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 52
   },
   {
+    "id": "Clive-db+2",
+    "parent": null,
+    "name": null,
     "input": "db+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-1",
-      "lower": "-1",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17~18",
-      "lower": "i17",
-      "properties": [],
-      "upper": "18"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17~18",
+    "hitLevels": "m",
+    "damage": 10,
+    "onBlock": -12,
+    "onHit": -1,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 50,
+    "id": "Clive-db+2,1",
+    "parent": "Clive-db+2",
     "name": "Ice Spikes",
     "input": "db+2,1",
-    "hitLevels": [
-      "m",
-      "M"
-    ],
-    "damage": [
-      10,
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+27a (+12a)",
-      "lower": "+27",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17~18",
-      "lower": "i17",
-      "properties": [],
-      "upper": "18"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17~18",
+    "hitLevels": "m,M",
+    "damage": "10,23",
+    "onBlock": -13,
+    "onHit": "+27a (+12a)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 50
   },
   {
+    "id": "Clive-db+2,1*",
+    "parent": "Clive-db+2",
     "name": "Ice Spikes (Hold)",
     "input": "db+2,1*",
-    "hitLevels": [
-      "m",
-      "M"
-    ],
-    "damage": [
-      10,
-      27
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+27a (+12a)",
-      "lower": "+27",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17~18",
-      "lower": "i17",
-      "properties": [],
-      "upper": "18"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17~18",
+    "hitLevels": "m,M",
+    "damage": "10,27",
+    "onBlock": -3,
+    "onHit": "+27a (+12a)",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 51,
+    "id": "Clive-db+4",
+    "parent": null,
     "name": "Cold Cyclone",
     "input": "db+4",
-    "hitLevels": [
-      "L"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-18",
-      "lower": "-18",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+4c",
-      "lower": "+4",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "+67a (+51a)",
-      "lower": "+67",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i19~20",
-      "lower": "i19",
-      "properties": [],
-      "upper": "20"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i19~20",
+    "hitLevels": "L",
+    "damage": 20,
+    "onBlock": -18,
+    "onHit": "+4c",
+    "onCounterHit": "+67a (+51a)",
+    "states": null,
+    "index": 51
   },
   {
+    "id": "Clive-df+1",
+    "parent": null,
     "name": "Mid Check",
     "input": "df+1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "4",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14~15",
-      "lower": "i14",
-      "properties": [],
-      "upper": "15"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14~15",
+    "hitLevels": "m",
+    "damage": 10,
+    "onBlock": -3,
+    "onHit": 4,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Clive-df+1,2",
+    "parent": "Clive-df+1",
+    "name": null,
     "input": "df+1,2",
-    "hitLevels": [
-      "m",
-      "h"
-    ],
-    "damage": [
-      10,
-      13
-    ],
-    "framesOnBlock": {
-      "_raw": "-16",
-      "lower": "-16",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-8",
-      "lower": "-8",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14~15",
-      "lower": "i14",
-      "properties": [],
-      "upper": "15"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14~15",
+    "hitLevels": "m,h",
+    "damage": "10,13",
+    "onBlock": -16,
+    "onHit": -8,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 41,
+    "id": "Clive-df+1,2,1",
+    "parent": "Clive-df+1,2",
     "name": "Outlaw Burst",
     "input": "df+1,2,1",
-    "hitLevels": [
-      "m",
-      "h",
-      "m"
-    ],
-    "damage": [
-      10,
-      13,
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "-15",
-      "lower": "-15",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+32a (+11)",
-      "lower": "+32",
-      "properties": [
-        "a"
-      ],
-      "tech": "+11"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14~15",
-      "lower": "i14",
-      "properties": [],
-      "upper": "15"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14~15",
+    "hitLevels": "m,h,m",
+    "damage": "10,13,15",
+    "onBlock": -15,
+    "onHit": "+32a (+11)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 41
   },
   {
+    "id": "Clive-df+1,4",
+    "parent": "Clive-df+1",
+    "name": null,
     "input": "df+1,4",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      10,
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-10",
-      "lower": "-10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "1",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14~15",
-      "lower": "i14",
-      "properties": [],
-      "upper": "15"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14~15",
+    "hitLevels": "m,m",
+    "damage": "10,12",
+    "onBlock": -10,
+    "onHit": 1,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 42,
+    "id": "Clive-df+1,4,3",
+    "parent": "Clive-df+1,4",
     "name": "Outlaw Wing",
     "input": "df+1,4,3",
-    "hitLevels": [
-      "m",
-      "m",
-      "M"
-    ],
-    "damage": [
-      10,
-      12,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-18~-16",
-      "lower": "-18",
-      "properties": [],
-      "upper": "-16"
-    },
-    "framesOnHit": {
-      "_raw": "+12a (-5)",
-      "lower": "+12",
-      "properties": [
-        "a"
-      ],
-      "tech": "-5"
-    },
-    "framesOnCounter": {
-      "_raw": "+36a (+26)",
-      "lower": "+36",
-      "properties": [
-        "a"
-      ],
-      "tech": "+26"
-    },
-    "framesOnStartup": {
-      "_raw": "i14~15",
-      "lower": "i14",
-      "properties": [],
-      "upper": "15"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14~15",
+    "hitLevels": "m,m,M",
+    "damage": "10,12,20",
+    "onBlock": "-18~-16",
+    "onHit": "+12a (-5)",
+    "onCounterHit": "+36a (+26)",
+    "states": ",fs28~",
+    "index": 42
   },
   {
+    "id": "Clive-df+1,H.1",
+    "parent": "Clive-df+1",
+    "name": null,
     "input": "df+1,H.1",
-    "hitLevels": [
-      "m",
-      "m",
-      "m"
-    ],
-    "damage": [
-      10,
-      13,
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+3c",
-      "lower": "+3",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14~15",
-      "lower": "i14",
-      "properties": [],
-      "upper": "15"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14~15",
+    "hitLevels": "m,m,m",
+    "damage": "10,13,15",
+    "onBlock": -12,
+    "onHit": "+3c",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Clive-df+1,H.1,1",
+    "parent": "Clive-df+1,H.1",
     "name": "Crimson Rush",
     "input": "df+1,H.1,1",
-    "hitLevels": [
-      "m",
-      "m",
-      "m",
-      "m",
-      "m"
-    ],
-    "damage": [
-      10,
-      13,
-      15,
-      17,
-      22
-    ],
-    "framesOnBlock": {
-      "_raw": "-8",
-      "lower": "-8",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+14a(+4a)",
-      "lower": "+14",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14~15",
-      "lower": "i14",
-      "properties": [],
-      "upper": "15"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14~15",
+    "hitLevels": "m,m,m,m,m",
+    "damage": "10,13,15,17,22",
+    "onBlock": -8,
+    "onHit": "+14a(+4a)",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Clive-df+1,H.1,2",
+    "parent": "Clive-df+1,H.1",
+    "name": null,
     "input": "df+1,H.1,2",
-    "hitLevels": [
-      "m",
-      "m",
-      "m",
-      "h",
-      "h"
-    ],
-    "damage": [
-      10,
-      13,
-      15,
-      10,
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "8",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14~15",
-      "lower": "i14",
-      "properties": [],
-      "upper": "15"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14~15",
+    "hitLevels": "m,m,m,h,h",
+    "damage": "10,13,15,10,12",
+    "onBlock": -9,
+    "onHit": 8,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Clive-df+1,H.1,2,1",
+    "parent": "Clive-df+1,H.1,2",
     "name": "Crimson Eruption",
     "input": "df+1,H.1,2,1",
-    "hitLevels": [
-      "m",
-      "m",
-      "m",
-      "h",
-      "h",
-      "m",
-      "m"
-    ],
-    "damage": [
-      10,
-      13,
-      15,
-      10,
-      12,
-      10,
-      16
-    ],
-    "framesOnBlock": {
-      "_raw": "-8",
-      "lower": "-8",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+15a(-2a)",
-      "lower": "+15",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14~15",
-      "lower": "i14",
-      "properties": [],
-      "upper": "15"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14~15",
+    "hitLevels": "m,m,m,h,h,m,m",
+    "damage": "10,13,15,10,12,10,16",
+    "onBlock": -8,
+    "onHit": "+15a(-2a)",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 43,
+    "id": "Clive-df+2",
+    "parent": null,
     "name": "Wyrm Killer",
     "input": "df+2",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      5,
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+30a (+20)",
-      "lower": "+30",
-      "properties": [
-        "a"
-      ],
-      "tech": "+20"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16 i26~27",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16 i26~27",
+    "hitLevels": "m,m",
+    "damage": "5,10",
+    "onBlock": -13,
+    "onHit": "+30a (+20)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 43
   },
   {
+    "id": "Clive-df+2,2",
+    "parent": "Clive-df+2",
+    "name": null,
     "input": "df+2,2",
-    "hitLevels": [
-      "m",
-      "m",
-      "m"
-    ],
-    "damage": [
-      5,
-      10,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+5a (-2)",
-      "lower": "+5",
-      "properties": [
-        "a"
-      ],
-      "tech": "-2"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16 i26~27",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16 i26~27",
+    "hitLevels": "m,m,m",
+    "damage": "5,10,20",
+    "onBlock": null,
+    "onHit": "+5a (-2)",
+    "onCounterHit": null,
+    "states": ",js9~",
+    "index": null
   },
   {
-    "index": 44,
+    "id": "Clive-df+2,2,2",
+    "parent": "Clive-df+2,2",
     "name": "Aerial Combination",
     "input": "df+2,2,2",
-    "hitLevels": [
-      "m",
-      "m",
-      "m",
-      "m",
-      "M"
-    ],
-    "damage": [
-      5,
-      10,
-      20,
-      6,
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+60a (+44)",
-      "lower": "+60",
-      "properties": [
-        "a"
-      ],
-      "tech": "+44"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16 i26~27",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16 i26~27",
+    "hitLevels": "m,m,m,m,M",
+    "damage": "5,10,20,6,25",
+    "onBlock": null,
+    "onHit": "+60a (+44)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 44
   },
   {
+    "id": "Clive-df+3",
+    "parent": null,
+    "name": null,
     "input": "df+3",
-    "hitLevels": [
-      "L"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-26",
-      "lower": "-26",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+3c",
-      "lower": "+3",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i29~30",
-      "lower": "i29",
-      "properties": [],
-      "upper": "30"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i29~30",
+    "hitLevels": "L",
+    "damage": 20,
+    "onBlock": -26,
+    "onHit": "+3c",
+    "onCounterHit": null,
+    "states": "cs6~65",
+    "index": null
   },
   {
-    "index": 45,
+    "id": "Clive-df+3,1",
+    "parent": "Clive-df+3",
     "name": "Hydro Blast",
     "input": "df+3,1",
-    "hitLevels": [
-      "L",
-      "M",
-      "M"
-    ],
-    "damage": [
-      20,
-      18,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+3c",
-      "lower": "+3",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i29~30",
-      "lower": "i29",
-      "properties": [],
-      "upper": "30"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i29~30",
+    "hitLevels": "L,M,M",
+    "damage": "20,18,20",
+    "onBlock": null,
+    "onHit": "+3c",
+    "onCounterHit": null,
+    "states": null,
+    "index": 45
   },
   {
-    "index": 46,
+    "id": "Clive-df+4",
+    "parent": null,
     "name": "Door Knocker",
     "input": "df+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      13
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "5",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14",
-      "lower": "i14",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14",
+    "hitLevels": "m",
+    "damage": 13,
+    "onBlock": -9,
+    "onHit": 5,
+    "onCounterHit": null,
+    "states": null,
+    "index": 46
   },
   {
-    "index": 40,
+    "id": "Clive-f+1+2",
+    "parent": null,
     "name": "Prominence",
     "input": "f+1+2",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      10,
-      18
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+20a (+10)",
-      "lower": "+20",
-      "properties": [
-        "a"
-      ],
-      "tech": "+10"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16~17 i19",
-      "lower": "i16",
-      "properties": [],
-      "upper": "17"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16~17 i19",
+    "hitLevels": "m,m",
+    "damage": "10,18",
+    "onBlock": -12,
+    "onHit": "+20a (+10)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 40
   },
   {
+    "id": "Clive-f+2",
+    "parent": null,
+    "name": null,
     "input": "f+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-4",
-      "lower": "-4",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m",
+    "damage": 10,
+    "onBlock": -12,
+    "onHit": -4,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 35,
+    "id": "Clive-f+2,1",
+    "parent": "Clive-f+2",
     "name": "Firewheel",
     "input": "f+2,1",
-    "hitLevels": [
-      "m",
-      "h"
-    ],
-    "damage": [
-      10,
-      13
-    ],
-    "framesOnBlock": {
-      "_raw": "1",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+20g",
-      "lower": "+20",
-      "properties": [
-        "g"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m,h",
+    "damage": "10,13",
+    "onBlock": 1,
+    "onHit": "+20g",
+    "onCounterHit": null,
+    "states": null,
+    "index": 35
   },
   {
+    "id": "Clive-f+2,2",
+    "parent": "Clive-f+2",
+    "name": null,
     "input": "f+2,2",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      10,
-      7
-    ],
-    "framesOnBlock": {
-      "_raw": "-8",
-      "lower": "-8",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "3",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m,m",
+    "damage": "10,7",
+    "onBlock": -8,
+    "onHit": 3,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 37,
+    "id": "Clive-f+2,2,1+2",
+    "parent": "Clive-f+2,2",
     "name": "Sanngetall",
     "input": "f+2,2,1+2",
-    "hitLevels": [
-      "m",
-      "m",
-      "M"
-    ],
-    "damage": [
-      10,
-      7,
-      18
-    ],
-    "framesOnBlock": {
-      "_raw": "-13c",
-      "lower": "-13",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnHit": {
-      "_raw": "+9a",
-      "lower": "+9",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m,m,M",
+    "damage": "10,7,18",
+    "onBlock": "-13c",
+    "onHit": "+9a",
+    "onCounterHit": null,
+    "states": null,
+    "index": 37
   },
   {
-    "index": 36,
+    "id": "Clive-f+2,2,2",
+    "parent": "Clive-f+2,2",
     "name": "Burning Chain",
     "input": "f+2,2,2",
-    "hitLevels": [
-      "m",
-      "m",
-      "M"
-    ],
-    "damage": [
-      10,
-      7,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+9a",
-      "lower": "+9",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m,m,M",
+    "damage": "10,7,20",
+    "onBlock": -13,
+    "onHit": "+9a",
+    "onCounterHit": null,
+    "states": null,
+    "index": 36
   },
   {
+    "id": "Clive-f+2,2,H.1",
+    "parent": "Clive-f+2,2",
     "name": "Lethal Ignition",
     "input": "f+2,2,H.1",
-    "hitLevels": [
-      "m",
-      "m",
-      "m"
-    ],
-    "damage": [
-      10,
-      7,
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "2",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+40d(-18d)",
-      "lower": "+40",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m,m,m",
+    "damage": "10,7,25",
+    "onBlock": 2,
+    "onHit": "+40d(-18d)",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Clive-f+2,2,H.1*",
+    "parent": "Clive-f+2,2",
     "name": "Lethal Ignition (Hold)",
     "input": "f+2,2,H.1*",
-    "hitLevels": [
-      "m",
-      "m",
-      "m"
-    ],
-    "damage": [
-      10,
-      7,
-      30
-    ],
-    "framesOnBlock": {
-      "_raw": "13",
-      "lower": "13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+52a",
-      "lower": "+52",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m,m,m",
+    "damage": "10,7,30",
+    "onBlock": 13,
+    "onHit": "+52a",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 38,
+    "id": "Clive-f+3",
+    "parent": null,
     "name": "Knight&#039;s Gambit",
     "input": "f+3",
-    "hitLevels": [
-      "M"
-    ],
-    "damage": [
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "-14",
-      "lower": "-14",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+37a",
-      "lower": "+37",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20~21",
-      "lower": "i20",
-      "properties": [],
-      "upper": "21"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20~21",
+    "hitLevels": "M",
+    "damage": 15,
+    "onBlock": -14,
+    "onHit": "+37a",
+    "onCounterHit": null,
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* js9~24\n* fs25~27&lt;/div&gt;",
+    "index": 38
   },
   {
+    "id": "Clive-f+4",
+    "parent": null,
     "name": "Phoenix Shift",
     "input": "f+4",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Clive-FC.1",
+    "parent": null,
     "name": "Crouch Jab",
     "input": "FC.1",
-    "hitLevels": [
-      "sl"
-    ],
-    "damage": [
-      5
-    ],
-    "framesOnBlock": {
-      "_raw": "-5",
-      "lower": "-5",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "6",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "sl",
+    "damage": 5,
+    "onBlock": -5,
+    "onHit": 6,
+    "onCounterHit": null,
+    "states": "cs4~",
+    "index": null
   },
   {
-    "index": 71,
+    "id": "Clive-FC.df+2",
+    "parent": null,
     "name": "Swift Edge",
     "input": "FC.df+2",
-    "hitLevels": [
-      "L"
-    ],
-    "damage": [
-      18
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+3c",
-      "lower": "+3",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i19~20",
-      "lower": "i19",
-      "properties": [],
-      "upper": "20"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i19~20",
+    "hitLevels": "L",
+    "damage": 18,
+    "onBlock": -12,
+    "onHit": "+3c",
+    "onCounterHit": null,
+    "states": "cs1~20",
+    "index": 71
   },
   {
-    "index": 58,
+    "id": "Clive-f,F+2",
+    "parent": null,
     "name": "Soul Cleave",
     "input": "f,F+2",
-    "hitLevels": [
-      "M"
-    ],
-    "damage": [
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-7",
-      "lower": "-7",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+6c",
-      "lower": "+6",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "+38a",
-      "lower": "+38",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i21~22",
-      "lower": "i21",
-      "properties": [],
-      "upper": "22"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i21~22",
+    "hitLevels": "M",
+    "damage": 21,
+    "onBlock": -7,
+    "onHit": "+6c",
+    "onCounterHit": "+38a",
+    "states": null,
+    "index": 58
   },
   {
-    "index": 60,
+    "id": "Clive-f,f,F+2",
+    "parent": null,
     "name": "Lunge",
     "input": "f,f,F+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "2",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+31d (+10)",
-      "lower": "+31",
-      "properties": [
-        "d"
-      ],
-      "tech": "+10"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i24~26",
-      "lower": "i24",
-      "properties": [],
-      "upper": "26"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i24~26",
+    "hitLevels": "m",
+    "damage": 20,
+    "onBlock": 2,
+    "onHit": "+31d (+10)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 60
   },
   {
-    "index": 91,
+    "id": "Clive-GAR.1",
+    "parent": null,
     "name": "Griffin Hunter",
     "input": "GAR.1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      18
-    ],
-    "framesOnBlock": {
-      "_raw": "-12~-10",
-      "lower": "-12",
-      "properties": [],
-      "upper": "-10"
-    },
-    "framesOnHit": {
-      "_raw": "+17a",
-      "lower": "+17",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~17",
-      "lower": "i15",
-      "properties": [],
-      "upper": "17"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~17",
+    "hitLevels": "m",
+    "damage": 18,
+    "onBlock": "-12~-10",
+    "onHit": "+17a",
+    "onCounterHit": null,
+    "states": "js1~23 fs24~26",
+    "index": 91
   },
   {
+    "id": "Clive-GAR.2",
+    "parent": null,
+    "name": null,
     "input": "GAR.2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-15",
-      "lower": "-15",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18~19",
-      "lower": "i18",
-      "properties": [],
-      "upper": "19"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18~19",
+    "hitLevels": "m",
+    "damage": 20,
+    "onBlock": -15,
+    "onHit": -13,
+    "onCounterHit": null,
+    "states": "js1~49",
+    "index": null
   },
   {
-    "index": 92,
+    "id": "Clive-GAR.2,2",
+    "parent": "Clive-GAR.2",
     "name": "Burning Rain",
     "input": "GAR.2,2",
-    "hitLevels": [
-      "m",
-      "m",
-      "M"
-    ],
-    "damage": [
-      20,
-      6,
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-17",
-      "lower": "-17",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+13d (-4d)",
-      "lower": "+13",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18~19",
-      "lower": "i18",
-      "properties": [],
-      "upper": "19"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18~19",
+    "hitLevels": "m,m,M",
+    "damage": "20,6,25",
+    "onBlock": -17,
+    "onHit": "+13d (-4d)",
+    "onCounterHit": null,
+    "states": "js1~26 fs27~29",
+    "index": 92
   },
   {
-    "index": 93,
+    "id": "Clive-GAR.3",
+    "parent": null,
     "name": "Lift Kick",
     "input": "GAR.3",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+21a (-4a)",
-      "lower": "+21",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "h",
+    "damage": 12,
+    "onBlock": -3,
+    "onHit": "+21a (-4a)",
+    "onCounterHit": null,
+    "states": "js1~29 fs30~32",
+    "index": 93
   },
   {
-    "index": 94,
+    "id": "Clive-GAR.4",
+    "parent": null,
     "name": "Sky Kick",
     "input": "GAR.4",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-4",
-      "lower": "-4",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "2",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h",
+    "damage": 10,
+    "onBlock": -4,
+    "onHit": 2,
+    "onCounterHit": null,
+    "states": "js1~31 fs32~34",
+    "index": 94
   },
   {
+    "id": "Clive-H.2+3",
+    "parent": null,
     "name": "Infernal Flames of Rebirth",
     "input": "H.2+3",
-    "hitLevels": [
-      "m",
-      "t",
-      "m",
-      "m",
-      "m",
-      "m",
-      "m",
-      "m"
-    ],
-    "damage": [
-      55
-    ],
-    "framesOnBlock": {
-      "_raw": "8",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-10",
-      "lower": "-10",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18",
-      "lower": "i18",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18",
+    "hitLevels": "m,t,m,m,m,m,m,m",
+    "damage": 55,
+    "onBlock": 8,
+    "onHit": -10,
+    "onCounterHit": null,
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* js23~117\n* fs118~120&lt;/div&gt;",
+    "index": null
   },
   {
+    "id": "Clive-H.PHX.2+3",
+    "parent": null,
     "name": "Dancing Steel",
     "input": "H.PHX.2+3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      42
-    ],
-    "framesOnBlock": {
-      "_raw": "8",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "m",
+    "damage": 42,
+    "onBlock": 8,
+    "onHit": 0,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Clive-H.u+1+2",
+    "parent": null,
+    "name": null,
     "input": "H.u+1+2",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      18,
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+3c",
-      "lower": "+3",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i19~20,i20~21",
-      "lower": "i19",
-      "properties": [],
-      "upper": "20"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i19~20,i20~21",
+    "hitLevels": "m,m",
+    "damage": "18,21",
+    "onBlock": -12,
+    "onHit": "+3c",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Clive-H.u+1+2,1",
+    "parent": "Clive-H.u+1+2",
     "name": "Blazing Rush",
     "input": "H.u+1+2,1",
-    "hitLevels": [
-      "m",
-      "m",
-      "m",
-      "m"
-    ],
-    "damage": [
-      18,
-      21,
-      17,
-      22
-    ],
-    "framesOnBlock": {
-      "_raw": "-8",
-      "lower": "-8",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+14a(+4a)",
-      "lower": "+14",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i19~20,i20~21",
-      "lower": "i19",
-      "properties": [],
-      "upper": "20"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i19~20,i20~21",
+    "hitLevels": "m,m,m,m",
+    "damage": "18,21,17,22",
+    "onBlock": -8,
+    "onHit": "+14a(+4a)",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Clive-H.u+1+2,2",
+    "parent": "Clive-H.u+1+2",
+    "name": null,
     "input": "H.u+1+2,2",
-    "hitLevels": [
-      "m",
-      "m",
-      "h",
-      "h"
-    ],
-    "damage": [
-      18,
-      21,
-      10,
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "8",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i19~20,i20~21",
-      "lower": "i19",
-      "properties": [],
-      "upper": "20"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i19~20,i20~21",
+    "hitLevels": "m,m,h,h",
+    "damage": "18,21,10,12",
+    "onBlock": -9,
+    "onHit": 8,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Clive-H.u+1+2,2,1",
+    "parent": "Clive-H.u+1+2,2",
     "name": "Blazing Eruption",
     "input": "H.u+1+2,2,1",
-    "hitLevels": [
-      "m",
-      "m",
-      "h",
-      "h",
-      "m",
-      "m"
-    ],
-    "damage": [
-      18,
-      21,
-      10,
-      12,
-      10,
-      16
-    ],
-    "framesOnBlock": {
-      "_raw": "-8",
-      "lower": "-8",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+15a(-2a)",
-      "lower": "+15",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i19~20,i20~21",
-      "lower": "i19",
-      "properties": [],
-      "upper": "20"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i19~20,i20~21",
+    "hitLevels": "m,m,h,h,m,m",
+    "damage": "18,21,10,12,10,16",
+    "onBlock": -8,
+    "onHit": "+15a(-2a)",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Clive-Left Throw",
+    "parent": null,
     "name": "Fangs of Ruin",
-    "input": "LeftThrow",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      40
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12~14",
-      "lower": "i12",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": "Left Throw",
+    "startup": "i12~14",
+    "hitLevels": "t",
+    "damage": 40,
+    "onBlock": -3,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 81,
+    "id": "Clive-PHX.1",
+    "parent": null,
     "name": "Heatwave",
     "input": "PHX.1",
-    "hitLevels": [
-      "M",
-      "m",
-      "t"
-    ],
-    "damage": [
-      16,
-      15,
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-14",
-      "lower": "-14",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i21",
-      "lower": "i21",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i21",
+    "hitLevels": "M,m,t",
+    "damage": "16,15,10",
+    "onBlock": -14,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": "pc7~20",
+    "index": 81
   },
   {
-    "index": 88,
+    "id": "Clive-PHX.1+2",
+    "parent": null,
     "name": "Scarlet Cyclone",
     "input": "PHX.1+2",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      10,
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "-7",
-      "lower": "-7",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+9a (+0)",
-      "lower": "+9",
-      "properties": [
-        "a"
-      ],
-      "tech": "+0"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i23~24 i19~20",
-      "lower": "i23",
-      "properties": [],
-      "upper": "24"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i23~24 i19~20",
+    "hitLevels": "m,m",
+    "damage": "10,23",
+    "onBlock": -7,
+    "onHit": "+9a (+0)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 88
   },
   {
-    "index": 82,
+    "id": "Clive-PHX.2",
+    "parent": null,
     "name": "Shift Strike",
     "input": "PHX.2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-7",
-      "lower": "-7",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "4",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+35d (+27)",
-      "lower": "+35",
-      "properties": [
-        "d"
-      ],
-      "tech": "+27"
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m",
+    "damage": 12,
+    "onBlock": -7,
+    "onHit": 4,
+    "onCounterHit": "+35d (+27)",
+    "states": null,
+    "index": 82
   },
   {
-    "index": 83,
+    "id": "Clive-PHX.2,1",
+    "parent": "Clive-PHX.2",
     "name": "Rising Flame",
     "input": "PHX.2,1",
-    "hitLevels": [
-      "m",
-      "M"
-    ],
-    "damage": [
-      12,
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+24a (+9)",
-      "lower": "+24",
-      "properties": [
-        "a"
-      ],
-      "tech": "+9"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m,M",
+    "damage": "12,23",
+    "onBlock": -12,
+    "onHit": "+24a (+9)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 83
   },
   {
-    "index": 84,
+    "id": "Clive-PHX.2,2",
+    "parent": "Clive-PHX.2",
     "name": "Steel Slash",
     "input": "PHX.2,2",
-    "hitLevels": [
-      "m",
-      "m",
-      "t"
-    ],
-    "damage": [
-      12,
-      8,
-      18
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+5d / +5a (-4)",
-      "lower": "+5",
-      "properties": [
-        "d"
-      ],
-      "tech": "-4"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m,m,t",
+    "damage": "12,8,18",
+    "onBlock": -13,
+    "onHit": "+5d / +5a (-4)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 84
   },
   {
+    "id": "Clive-PHX.2,H.1+2",
+    "parent": "Clive-PHX.2",
     "name": "Twin Flames",
     "input": "PHX.2,H.1+2",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      12,
-      32
-    ],
-    "framesOnBlock": {
-      "_raw": "4",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+25a(-1a)",
-      "lower": "+25",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m,m",
+    "damage": "12,32",
+    "onBlock": 4,
+    "onHit": "+25a(-1a)",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Clive-PHX.3",
+    "parent": null,
+    "name": null,
     "input": "PHX.3",
-    "hitLevels": [
-      "L"
-    ],
-    "damage": [
-      8
-    ],
-    "framesOnBlock": {
-      "_raw": "-26",
-      "lower": "-26",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-3c",
-      "lower": "-3",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i21",
-      "lower": "i21",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i21",
+    "hitLevels": "L",
+    "damage": 8,
+    "onBlock": -26,
+    "onHit": "-3c",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 86,
+    "id": "Clive-PHX.3,1+2",
+    "parent": "Clive-PHX.3",
     "name": "Dark Surge",
     "input": "PHX.3,1+2",
-    "hitLevels": [
-      "L",
-      "m",
-      "M"
-    ],
-    "damage": [
-      8,
-      10,
-      18
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+6d (-29)",
-      "lower": "+6",
-      "properties": [
-        "d"
-      ],
-      "tech": "-29"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i21",
-      "lower": "i21",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i21",
+    "hitLevels": "L,m,​M",
+    "damage": "8,10,​18",
+    "onBlock": null,
+    "onHit": "+6d (-29)",
+    "onCounterHit": null,
+    "states": ",js41~54 fs55~57",
+    "index": 86
   },
   {
-    "index": 85,
+    "id": "Clive-PHX.3,2",
+    "parent": "Clive-PHX.3",
     "name": "Vanagandr",
     "input": "PHX.3,2",
-    "hitLevels": [
-      "L",
-      "m",
-      "m"
-    ],
-    "damage": [
-      8,
-      18,
-      2036
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+39a (+29)",
-      "lower": "+39",
-      "properties": [
-        "a"
-      ],
-      "tech": "+29"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i21",
-      "lower": "i21",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i21",
+    "hitLevels": "L,m,m",
+    "damage": "8,18,20(36)",
+    "onBlock": null,
+    "onHit": "+39a (+29)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 85
   },
   {
-    "index": 89,
+    "id": "Clive-PHX.3+4",
+    "parent": null,
     "name": "Bolt Boot",
     "input": "PHX.3+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "7",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+18a (+8)",
-      "lower": "+18",
-      "properties": [
-        "a"
-      ],
-      "tech": "+8"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i28~29",
-      "lower": "i28",
-      "properties": [],
-      "upper": "29"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i28~29",
+    "hitLevels": "m",
+    "damage": 20,
+    "onBlock": 7,
+    "onHit": "+18a (+8)",
+    "onCounterHit": null,
+    "states": "js18~39 fs40~42",
+    "index": 89
   },
   {
-    "index": 87,
+    "id": "Clive-PHX.4",
+    "parent": null,
     "name": "Firestarter",
     "input": "PHX.4",
-    "hitLevels": [
-      "L"
-    ],
-    "damage": [
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-1c",
-      "lower": "-1",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "+13c",
-      "lower": "+13",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "L",
+    "damage": 15,
+    "onBlock": -13,
+    "onHit": "-1c",
+    "onCounterHit": "+13c",
+    "states": "cs6~",
+    "index": 87
   },
   {
+    "id": "Clive-R.df+1+2",
+    "parent": null,
     "name": "Hellfire",
     "input": "R.df+1+2",
-    "hitLevels": [
-      "m",
-      "t"
-    ],
-    "damage": [
-      55
-    ],
-    "framesOnBlock": {
-      "_raw": "-15",
-      "lower": "-15",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20",
-      "lower": "i20",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20",
+    "hitLevels": "m,t",
+    "damage": "55+",
+    "onBlock": -15,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": "pc8~",
+    "index": null
   },
   {
+    "id": "Clive-Right Throw",
+    "parent": null,
     "name": "Punisher",
-    "input": "RightThrow",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      40
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12~14",
-      "lower": "i12",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": "Right Throw",
+    "startup": "i12~14",
+    "hitLevels": "t",
+    "damage": 40,
+    "onBlock": -3,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 73,
+    "id": "Clive-SS.1+2",
+    "parent": null,
     "name": "Stone Smite",
     "input": "SS.1+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "2",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+49a",
-      "lower": "+49",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i25~26",
-      "lower": "i25",
-      "properties": [],
-      "upper": "26"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i25~26",
+    "hitLevels": "m",
+    "damage": 21,
+    "onBlock": 2,
+    "onHit": "+49a",
+    "onCounterHit": null,
+    "states": null,
+    "index": 73
   },
   {
+    "id": "Clive-SS.2",
+    "parent": null,
+    "name": null,
     "input": "SS.2",
-    "hitLevels": [
-      "M"
-    ],
-    "damage": [
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17~18",
-      "lower": "i17",
-      "properties": [],
-      "upper": "18"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17~18",
+    "hitLevels": "M",
+    "damage": 12,
+    "onBlock": -9,
+    "onHit": -2,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 72,
+    "id": "Clive-SS.2,1",
+    "parent": "Clive-SS.2",
     "name": "Slash Burst",
     "input": "SS.2,1",
-    "hitLevels": [
-      "M",
-      "m"
-    ],
-    "damage": [
-      12,
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "-15",
-      "lower": "-15",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+35d (-23d)",
-      "lower": "+35",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17~18",
-      "lower": "i17",
-      "properties": [],
-      "upper": "18"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17~18",
+    "hitLevels": "M,m",
+    "damage": "12,23",
+    "onBlock": -15,
+    "onHit": "+35d (-23d)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 72
   },
   {
+    "id": "Clive-uf",
+    "parent": null,
     "name": "Updraft",
     "input": "uf",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": "js9~43",
+    "index": null
   },
   {
-    "index": 100,
+    "id": "Clive-uf+1+2",
+    "parent": null,
     "name": "Gigaflare",
     "input": "uf+1+2",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      40
-    ],
-    "framesOnBlock": {
-      "_raw": "-5",
-      "lower": "-5",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12~14",
-      "lower": "i12",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12~14",
+    "hitLevels": "t",
+    "damage": 40,
+    "onBlock": -5,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 100
   },
   {
-    "index": 75,
+    "id": "Clive-WOL.1",
+    "parent": null,
     "name": "Dia",
     "input": "WOL.1",
-    "hitLevels": [
-      "sm"
-    ],
-    "damage": [
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "-20~-11",
-      "lower": "-20",
-      "properties": [],
-      "upper": "-11"
-    },
-    "framesOnHit": {
-      "_raw": "+8~+17",
-      "lower": "+8",
-      "properties": [],
-      "upper": "+17"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18~27",
-      "lower": "i18",
-      "properties": [],
-      "upper": "27"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18~27",
+    "hitLevels": "sm",
+    "damage": 23,
+    "onBlock": "-20~-11",
+    "onHit": "+8~+17",
+    "onCounterHit": null,
+    "states": null,
+    "index": 75
   },
   {
-    "index": 76,
+    "id": "Clive-WOL.2",
+    "parent": null,
     "name": "&lt;div class=&quot;dotlist&quot;&gt;\n\n* Impulse \n* Follow Up Flare\n&lt;/div&gt;",
     "input": "WOL.2",
-    "hitLevels": [
-      "sm",
-      "t"
-    ],
-    "damage": [
-      30,
-      70
-    ],
-    "framesOnBlock": {
-      "_raw": "-38~-23",
-      "lower": "-38",
-      "properties": [],
-      "upper": "-23"
-    },
-    "framesOnHit": {
-      "_raw": "+14d (-44) / +0d",
-      "lower": "+14",
-      "properties": [
-        "d"
-      ],
-      "tech": "-44"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i25~40",
-      "lower": "i25",
-      "properties": [],
-      "upper": "40"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i25~40",
+    "hitLevels": "sm,t",
+    "damage": "30,70",
+    "onBlock": "-38~-23",
+    "onHit": "+14d (-44) / +0d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 76
   },
   {
-    "index": 78,
+    "id": "Clive-WOL.3",
+    "parent": null,
     "name": "Radiant Backflip",
     "input": "WOL.3",
-    "hitLevels": [
-      "M"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-15~-14",
-      "lower": "-15",
-      "properties": [],
-      "upper": "-14"
-    },
-    "framesOnHit": {
-      "_raw": "+61a (+45)",
-      "lower": "+61",
-      "properties": [
-        "a"
-      ],
-      "tech": "+45"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i27~28",
-      "lower": "i27",
-      "properties": [],
-      "upper": "28"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i27~28",
+    "hitLevels": "M",
+    "damage": 20,
+    "onBlock": "-15~-14",
+    "onHit": "+61a (+45)",
+    "onCounterHit": null,
+    "states": ",js1~52 fs53~55",
+    "index": 78
   },
   {
+    "id": "Clive-WOL.4",
+    "parent": null,
     "name": "Phoenix Shift",
     "input": "WOL.4",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Clive-ws1",
+    "parent": null,
+    "name": null,
     "input": "ws1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      11
-    ],
-    "framesOnBlock": {
-      "_raw": "-4",
-      "lower": "-4",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "3",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "8",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13~14",
-      "lower": "i13",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13~14",
+    "hitLevels": "m",
+    "damage": 11,
+    "onBlock": -4,
+    "onHit": 3,
+    "onCounterHit": 8,
+    "states": null,
+    "index": null
   },
   {
-    "index": 67,
+    "id": "Clive-ws1,2",
+    "parent": "Clive-ws1",
     "name": "Wild Steel",
     "input": "ws1,2",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      11,
-      19
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "9",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+21a",
-      "lower": "+21",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i13~14",
-      "lower": "i13",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13~14",
+    "hitLevels": "m,m",
+    "damage": "11,19",
+    "onBlock": -13,
+    "onHit": 9,
+    "onCounterHit": "+21a",
+    "states": null,
+    "index": 67
   },
   {
-    "index": 68,
+    "id": "Clive-ws2",
+    "parent": null,
     "name": "Echo Breaker",
     "input": "ws2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "-14~-13",
-      "lower": "-14",
-      "properties": [],
-      "upper": "-13"
-    },
-    "framesOnHit": {
-      "_raw": "+53a",
-      "lower": "+53",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "m",
+    "damage": 15,
+    "onBlock": "-14~-13",
+    "onHit": "+53a",
+    "onCounterHit": null,
+    "states": null,
+    "index": 68
   },
   {
-    "index": 69,
+    "id": "Clive-ws3",
+    "parent": null,
     "name": "Fame Wolf",
     "input": "ws3",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      20,
-      1520
-    ],
-    "framesOnBlock": {
-      "_raw": "-8",
-      "lower": "-8",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+21a (+11a)",
-      "lower": "+21",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20~21 i28~41",
-      "lower": "i20",
-      "properties": [],
-      "upper": "21"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20~21 i28~41",
+    "hitLevels": "m,m",
+    "damage": "20,15(20)",
+    "onBlock": -8,
+    "onHit": "+21a (+11a)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 69
   },
   {
-    "index": 70,
+    "id": "Clive-ws4",
+    "parent": null,
     "name": "Sabaton Smash",
     "input": "ws4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      14
-    ],
-    "framesOnBlock": {
-      "_raw": "-5",
-      "lower": "-5",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "6",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i11~12",
-      "lower": "i11",
-      "properties": [],
-      "upper": "12"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i11~12",
+    "hitLevels": "m",
+    "damage": 14,
+    "onBlock": -5,
+    "onHit": 6,
+    "onCounterHit": null,
+    "states": null,
+    "index": 70
   }
 ]

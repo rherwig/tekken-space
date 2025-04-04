@@ -1,5614 +1,2060 @@
 [
   {
+    "id": "Lee-1",
+    "parent": null,
     "name": "Jab",
-    "input": "1",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      5
-    ],
-    "framesOnBlock": {
-      "_raw": "1",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "8",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": 1,
+    "startup": "i10",
+    "hitLevels": "h",
+    "damage": 5,
+    "onBlock": 1,
+    "onHit": 8,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 30,
+    "id": "Lee-1+2",
+    "parent": null,
     "name": "Pirouette Punch",
     "input": "1+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-1",
-      "lower": "-1",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "3",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+26a",
-      "lower": "+26",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i21",
-      "lower": "i21",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i21",
+    "hitLevels": "m",
+    "damage": 20,
+    "onBlock": -1,
+    "onHit": 3,
+    "onCounterHit": "+26a",
+    "states": null,
+    "index": 30
   },
   {
-    "index": 14,
+    "id": "Lee-1,2",
+    "parent": "Lee-1",
     "name": "Left Right Combo",
     "input": "1,2",
-    "hitLevels": [
-      "h",
-      "h"
-    ],
-    "damage": [
-      5,
-      9
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "7",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,h",
+    "damage": "5,9",
+    "onBlock": -3,
+    "onHit": 7,
+    "onCounterHit": null,
+    "states": null,
+    "index": 14
   },
   {
+    "id": "Lee-1,2,2",
+    "parent": "Lee-1,2",
+    "name": null,
     "input": "1,2,2",
-    "hitLevels": [
-      "h",
-      "h",
-      "m"
-    ],
-    "damage": [
-      5,
-      9,
-      14
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,h,m",
+    "damage": "5,9,14",
+    "onBlock": -13,
+    "onHit": -2,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 15,
+    "id": "Lee-1,2,2,3",
+    "parent": "Lee-1,2,2",
     "name": "Left Right Combo &gt; Revolution Zwei",
     "input": "1,2,2,3",
-    "hitLevels": [
-      "h",
-      "h",
-      "m",
-      "h"
-    ],
-    "damage": [
-      5,
-      9,
-      14,
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+17a (+8)",
-      "lower": "+17",
-      "properties": [
-        "a"
-      ],
-      "tech": "+8"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,h,m,h",
+    "damage": "5,9,14,23",
+    "onBlock": -3,
+    "onHit": "+17a (+8)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 15
   },
   {
-    "index": 75,
+    "id": "Lee-1+2+3+4",
+    "parent": null,
     "name": "Ki Charge",
     "input": "1+2+3+4",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": 75
   },
   {
-    "index": 16,
+    "id": "Lee-1,2,4",
+    "parent": "Lee-1,2",
     "name": "Left Right Mid Kick",
     "input": "1,2,4",
-    "hitLevels": [
-      "h",
-      "h",
-      "m"
-    ],
-    "damage": [
-      5,
-      9,
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-1",
-      "lower": "-1",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "[[Lee combos#Staples|+58a]]",
-      "lower": "+58",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,h,m",
+    "damage": "5,9,10",
+    "onBlock": -12,
+    "onHit": -1,
+    "onCounterHit": "[[Lee combos#Staples|+58a]]",
+    "states": null,
+    "index": 16
   },
   {
-    "index": 16,
+    "id": "Lee-1,2:4",
+    "parent": "Lee-1,2",
     "name": "Left Right Mid Kick",
     "input": "1,2&amp;#58;4",
-    "hitLevels": [
-      "h",
-      "h",
-      "m"
-    ],
-    "damage": [
-      5,
-      9,
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "5",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "[[Lee combos#Staples|+58a]]",
-      "lower": "+58",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,h,m",
+    "damage": "5,9,12",
+    "onBlock": -12,
+    "onHit": 5,
+    "onCounterHit": "[[Lee combos#Staples|+58a]]",
+    "states": null,
+    "index": 16
   },
   {
-    "index": 104,
+    "id": "Lee-1+3",
+    "parent": null,
     "name": "Forearm Drop",
     "input": "1+3",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      35
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-2d",
-      "lower": "-2",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12~14",
-      "lower": "i12",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12~14",
+    "hitLevels": "t",
+    "damage": 35,
+    "onBlock": -3,
+    "onHit": "-2d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 104
   },
   {
+    "id": "Lee-1,3",
+    "parent": "Lee-1",
+    "name": null,
     "input": "1,3",
-    "hitLevels": [
-      "h",
-      "h"
-    ],
-    "damage": [
-      5,
-      5
-    ],
-    "framesOnBlock": {
-      "_raw": "-11",
-      "lower": "-11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,h",
+    "damage": "5,5",
+    "onBlock": -11,
+    "onHit": 0,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Lee-1,3:3",
+    "parent": "Lee-1,3",
+    "name": null,
     "input": "1,3&amp;#58;3",
-    "hitLevels": [
-      "h",
-      "h",
-      "m"
-    ],
-    "damage": [
-      5,
-      5,
-      4
-    ],
-    "framesOnBlock": {
-      "_raw": "-11",
-      "lower": "-11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,h,m",
+    "damage": "5,5,4",
+    "onBlock": -11,
+    "onHit": 0,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 18,
+    "id": "Lee-1,3:3:3",
+    "parent": "Lee-1,3:3",
     "name": "[[Acid Rain]]",
     "input": "1,3&amp;#58;3&amp;#58;3",
-    "hitLevels": [
-      "h",
-      "h",
-      "m",
-      "h"
-    ],
-    "damage": [
-      5,
-      5,
-      4,
-      14
-    ],
-    "framesOnBlock": {
-      "_raw": "-17",
-      "lower": "-17",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "14",
-      "lower": "14",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,h,m,h",
+    "damage": "5,5,4,14",
+    "onBlock": -17,
+    "onHit": 14,
+    "onCounterHit": null,
+    "states": null,
+    "index": 18
   },
   {
-    "index": 74,
+    "id": "Lee-1+3+4",
+    "parent": null,
     "name": "Taunt",
     "input": "1+3+4",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": 74
   },
   {
+    "id": "Lee-2",
+    "parent": null,
     "name": "Right Cross",
-    "input": "2",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "1",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "7",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": 2,
+    "startup": "i10",
+    "hitLevels": "h",
+    "damage": 10,
+    "onBlock": 1,
+    "onHit": 7,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Lee-2,1",
+    "parent": "Lee-2",
+    "name": null,
     "input": "2,1",
-    "hitLevels": [
-      "h",
-      "h"
-    ],
-    "damage": [
-      10,
-      8
-    ],
-    "framesOnBlock": {
-      "_raw": "-5",
-      "lower": "-5",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "6",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,h",
+    "damage": "10,8",
+    "onBlock": -5,
+    "onHit": 6,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 19,
+    "id": "Lee-2,1,1",
+    "parent": "Lee-2,1",
     "name": "Combination Drei",
     "input": "2,1,1",
-    "hitLevels": [
-      "h",
-      "h",
-      "m"
-    ],
-    "damage": [
-      10,
-      8,
-      18
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "3",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+26a",
-      "lower": "+26",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,h,m",
+    "damage": "10,8,18",
+    "onBlock": -12,
+    "onHit": 3,
+    "onCounterHit": "+26a",
+    "states": null,
+    "index": 19
   },
   {
-    "index": 20,
+    "id": "Lee-2,1,3",
+    "parent": "Lee-2,1",
     "name": "Combination Fünf",
     "input": "2,1,3",
-    "hitLevels": [
-      "h",
-      "h",
-      "h"
-    ],
-    "damage": [
-      10,
-      8,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-4",
-      "lower": "-4",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+20a (+11)",
-      "lower": "+20",
-      "properties": [
-        "a"
-      ],
-      "tech": "+11"
-    },
-    "framesOnCounter": {
-      "_raw": "+65a (+45)",
-      "lower": "+65",
-      "properties": [
-        "a"
-      ],
-      "tech": "+45"
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,h,h",
+    "damage": "10,8,20",
+    "onBlock": -4,
+    "onHit": "+20a (+11)",
+    "onCounterHit": "+65a (+45)",
+    "states": null,
+    "index": 20
   },
   {
-    "index": 21,
+    "id": "Lee-2,1,4",
+    "parent": "Lee-2,1",
     "name": "Combination Vier",
     "input": "2,1,4",
-    "hitLevels": [
-      "h",
-      "h",
-      "l"
-    ],
-    "damage": [
-      10,
-      8,
-      18
-    ],
-    "framesOnBlock": {
-      "_raw": "-15",
-      "lower": "-15",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "1",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "11",
-      "lower": "11",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,h,l",
+    "damage": "10,8,18",
+    "onBlock": -15,
+    "onHit": 1,
+    "onCounterHit": 11,
+    "states": null,
+    "index": 21
   },
   {
+    "id": "Lee-2,2",
+    "parent": "Lee-2",
+    "name": null,
     "input": "2,2",
-    "hitLevels": [
-      "h",
-      "m"
-    ],
-    "damage": [
-      10,
-      14
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,m",
+    "damage": "10,14",
+    "onBlock": -13,
+    "onHit": -2,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 22,
+    "id": "Lee-2,2,3",
+    "parent": "Lee-2,2",
     "name": "Right Cross &gt; Revolution Zwei",
     "input": "2,2,3",
-    "hitLevels": [
-      "h",
-      "m",
-      "h"
-    ],
-    "damage": [
-      10,
-      14,
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+17a (+8)",
-      "lower": "+17",
-      "properties": [
-        "a"
-      ],
-      "tech": "+8"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,m,h",
+    "damage": "10,14,23",
+    "onBlock": -3,
+    "onHit": "+17a (+8)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 22
   },
   {
-    "index": 105,
+    "id": "Lee-2+4",
+    "parent": null,
     "name": "Axle Throw",
     "input": "2+4",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      35
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-2d",
-      "lower": "-2",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12~14",
-      "lower": "i12",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12~14",
+    "hitLevels": "t",
+    "damage": 35,
+    "onBlock": -6,
+    "onHit": "-2d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 105
   },
   {
-    "input": "3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      16
-    ],
-    "framesOnBlock": {
-      "_raw": "-8",
-      "lower": "-8",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "7",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14",
-      "lower": "i14",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "id": "Lee-3",
+    "parent": null,
+    "name": null,
+    "input": 3,
+    "startup": "i14",
+    "hitLevels": "m",
+    "damage": 16,
+    "onBlock": -8,
+    "onHit": 7,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 23,
+    "id": "Lee-3,3",
+    "parent": "Lee-3",
     "name": "Mist Wolf Combination",
     "input": "3,3",
-    "hitLevels": [
-      "m",
-      "h"
-    ],
-    "damage": [
-      16,
-      18
-    ],
-    "framesOnBlock": {
-      "_raw": "-10",
-      "lower": "-10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "1",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14",
-      "lower": "i14",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14",
+    "hitLevels": "m,h",
+    "damage": "16,18",
+    "onBlock": -10,
+    "onHit": 1,
+    "onCounterHit": null,
+    "states": null,
+    "index": 23
   },
   {
+    "id": "Lee-3~3",
+    "parent": null,
     "name": "Mist Trap",
     "input": "3~3",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      18
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "2",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i34",
-      "lower": "i34",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i34",
+    "hitLevels": "h",
+    "damage": 18,
+    "onBlock": -9,
+    "onHit": 2,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 24,
+    "id": "Lee-3~3:4",
+    "parent": "Lee-3~3",
     "name": "Mist Trap Throw",
     "input": "3~3&amp;#58;4",
-    "hitLevels": [
-      "h",
-      "t"
-    ],
-    "damage": [
-      18,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "!",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i34",
-      "lower": "i34",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i34",
+    "hitLevels": "h,t",
+    "damage": "18,20",
+    "onBlock": "!",
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 24
   },
   {
+    "id": "Lee-3+4",
+    "parent": null,
     "name": "Hitman",
     "input": "3+4",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Lee-4",
+    "parent": null,
     "name": "Magic Four",
-    "input": "4",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      14
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "2",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+2s",
-      "lower": "+2",
-      "properties": [
-        "s"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i11",
-      "lower": "i11",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": 4,
+    "startup": "i11",
+    "hitLevels": "h",
+    "damage": 14,
+    "onBlock": -9,
+    "onHit": 2,
+    "onCounterHit": "+2s",
+    "states": null,
+    "index": null
   },
   {
+    "id": "Lee-4,3",
+    "parent": "Lee-4",
+    "name": null,
     "input": "4,3",
-    "hitLevels": [
-      "h",
-      "h"
-    ],
-    "damage": [
-      14,
-      14
-    ],
-    "framesOnBlock": {
-      "_raw": "-14",
-      "lower": "-14",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "2",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i11",
-      "lower": "i11",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i11",
+    "hitLevels": "h,h",
+    "damage": "14,14",
+    "onBlock": -14,
+    "onHit": -3,
+    "onCounterHit": 2,
+    "states": null,
+    "index": null
   },
   {
-    "index": 25,
+    "id": "Lee-4,3,3",
+    "parent": "Lee-4,3",
     "name": "Spinning Hammer Kick",
     "input": "4,3,3",
-    "hitLevels": [
-      "h",
-      "h",
-      "m"
-    ],
-    "damage": [
-      14,
-      14,
-      null
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+8d",
-      "lower": "+8",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i11",
-      "lower": "i11",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i11",
+    "hitLevels": "h,h,m",
+    "damage": "14,14,",
+    "onBlock": -13,
+    "onHit": "+8d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 25
   },
   {
-    "index": 26,
+    "id": "Lee-4,3,4",
+    "parent": "Lee-4,3",
     "name": "Spin Kick Somersault Combo",
     "input": "4,3,4",
-    "hitLevels": [
-      "h",
-      "h",
-      "m"
-    ],
-    "damage": [
-      14,
-      14,
-      null
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+42d",
-      "lower": "+42",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i11",
-      "lower": "i11",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i11",
+    "hitLevels": "h,h,m",
+    "damage": "14,14,",
+    "onBlock": -9,
+    "onHit": "+42d",
+    "onCounterHit": null,
+    "states": "js",
+    "index": 26
   },
   {
+    "id": "Lee-4,4",
+    "parent": "Lee-4",
+    "name": null,
     "input": "4,4",
-    "hitLevels": [
-      "h",
-      "h"
-    ],
-    "damage": [
-      14,
-      5
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i11",
-      "lower": "i11",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i11",
+    "hitLevels": "h,h",
+    "damage": "14,5",
+    "onBlock": -13,
+    "onHit": -2,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 27,
+    "id": "Lee-4,4,4",
+    "parent": "Lee-4,4",
     "name": "Machinegun Kicks",
     "input": "4,4,4",
-    "hitLevels": [
-      "h",
-      "h",
-      "h"
-    ],
-    "damage": [
-      14,
-      5,
-      5
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i11",
-      "lower": "i11",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i11",
+    "hitLevels": "h,h,h",
+    "damage": "14,5,5",
+    "onBlock": -13,
+    "onHit": -2,
+    "onCounterHit": null,
+    "states": null,
+    "index": 27
   },
   {
-    "index": 28,
+    "id": "Lee-4,4:4",
+    "parent": "Lee-4,4",
     "name": "Machinegun Kicks Cardinal",
     "input": "4,4&amp;#58;4",
-    "hitLevels": [
-      "h",
-      "h",
-      "h"
-    ],
-    "damage": [
-      14,
-      5,
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+15a (+6)",
-      "lower": "+15",
-      "properties": [
-        "a"
-      ],
-      "tech": "+6"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i11",
-      "lower": "i11",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i11",
+    "hitLevels": "h,h,h",
+    "damage": "14,5,12",
+    "onBlock": -9,
+    "onHit": "+15a (+6)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 28
   },
   {
-    "index": 29,
+    "id": "Lee-4,u+3",
+    "parent": "Lee-4",
     "name": "Lee Somersault",
     "input": "4,u+3",
-    "hitLevels": [
-      "h",
-      "m"
-    ],
-    "damage": [
-      14,
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "-1",
-      "lower": "-1",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+48d",
-      "lower": "+48",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "js",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i11",
-      "lower": "i11",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i11",
+    "hitLevels": "h,m",
+    "damage": "14,23",
+    "onBlock": -1,
+    "onHit": "+48d",
+    "onCounterHit": "js",
+    "states": null,
+    "index": 29
   },
   {
+    "id": "Lee-b+1",
+    "parent": null,
+    "name": null,
     "input": "b+1",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      9
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "6",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14",
-      "lower": "i14",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14",
+    "hitLevels": "h",
+    "damage": 9,
+    "onBlock": 0,
+    "onHit": 6,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Lee-b+1,1",
+    "parent": "Lee-b+1",
+    "name": null,
     "input": "b+1,1",
-    "hitLevels": [
-      "h",
-      "m"
-    ],
-    "damage": [
-      9,
-      6
-    ],
-    "framesOnBlock": {
-      "_raw": "-5",
-      "lower": "-5",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "6",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14",
-      "lower": "i14",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14",
+    "hitLevels": "h,m",
+    "damage": "9,6",
+    "onBlock": -5,
+    "onHit": 6,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Lee-b+1:1",
+    "parent": null,
+    "name": null,
     "input": "b+1&amp;#58;1",
-    "hitLevels": [
-      "h",
-      "m"
-    ],
-    "damage": [
-      12,
-      6
-    ],
-    "framesOnBlock": {
-      "_raw": "-5",
-      "lower": "-5",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "6",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14,i20",
-      "lower": "i14",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14,i20",
+    "hitLevels": "h,m",
+    "damage": "12,6",
+    "onBlock": -5,
+    "onHit": 6,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 50,
+    "id": "Lee-b+1,1,2",
+    "parent": "Lee-b+1,1",
     "name": "Triple Fang",
     "input": "b+1,1,2",
-    "hitLevels": [
-      "h",
-      "m",
-      "h"
-    ],
-    "damage": [
-      9,
-      6,
-      18
-    ],
-    "framesOnBlock": {
-      "_raw": "-11",
-      "lower": "-11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "1",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14",
-      "lower": "i14",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14",
+    "hitLevels": "h,m,h",
+    "damage": "9,6,18",
+    "onBlock": -11,
+    "onHit": 1,
+    "onCounterHit": null,
+    "states": null,
+    "index": 50
   },
   {
-    "index": 52,
+    "id": "Lee-b+1:1+2",
+    "parent": null,
     "name": "Double Fang Cardinal",
     "input": "b+1&amp;#58;1+2",
-    "hitLevels": [
-      "h",
-      "h"
-    ],
-    "damage": [
-      12,
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+39d (-19)",
-      "lower": "+39",
-      "properties": [
-        "d"
-      ],
-      "tech": "-19"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14,i21",
-      "lower": "i14",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14,i21",
+    "hitLevels": "h,h",
+    "damage": "12,25",
+    "onBlock": -6,
+    "onHit": "+39d (-19)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 52
   },
   {
-    "index": 51,
+    "id": "Lee-b+1:1,2",
+    "parent": "Lee-b+1:1",
     "name": "Triple Fang Cardinal",
     "input": "b+1&amp;#58;1,2",
-    "hitLevels": [
-      "h",
-      "m",
-      "h"
-    ],
-    "damage": [
-      12,
-      6,
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+39d (-19)",
-      "lower": "+39",
-      "properties": [
-        "d"
-      ],
-      "tech": "-19"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14,i20",
-      "lower": "i14",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14,i20",
+    "hitLevels": "h,m,h",
+    "damage": "12,6,23",
+    "onBlock": -6,
+    "onHit": "+39d (-19)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 51
   },
   {
+    "id": "Lee-b+1+3",
+    "parent": null,
     "name": "Mist Illusion",
     "input": "b+1+3",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+14BT",
-      "lower": "+14",
-      "properties": [
-        "BT"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": "+14BT",
+    "onCounterHit": null,
+    "states": "ps5?",
+    "index": null
   },
   {
+    "id": "Lee-b+1+3,4",
+    "parent": "Lee-b+1+3",
     "name": "Illusion Edge",
     "input": "b+1+3,4",
-    "hitLevels": [
-      "nullm"
-    ],
-    "damage": [
-      35
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+22a (+13)",
-      "lower": "+22",
-      "properties": [
-        "a"
-      ],
-      "tech": "+13"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": "nullm",
+    "damage": "null35",
+    "onBlock": null,
+    "onHit": "+22a (+13)",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 53,
+    "id": "Lee-b+2",
+    "parent": null,
     "name": "Rear Cross Punch",
     "input": "b+2",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      9
-    ],
-    "framesOnBlock": {
-      "_raw": "-5",
-      "lower": "-5",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "1",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14",
-      "lower": "i14",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14",
+    "hitLevels": "h",
+    "damage": 9,
+    "onBlock": -5,
+    "onHit": 1,
+    "onCounterHit": null,
+    "states": null,
+    "index": 53
   },
   {
+    "id": "Lee-b+2,4",
+    "parent": "Lee-b+2",
+    "name": null,
     "input": "b+2,4",
-    "hitLevels": [
-      "h",
-      "h"
-    ],
-    "damage": [
-      9,
-      16
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "6",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14",
-      "lower": "i14",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14",
+    "hitLevels": "h,h",
+    "damage": "9,16",
+    "onBlock": -9,
+    "onHit": 6,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 54,
+    "id": "Lee-b+2,4,3",
+    "parent": "Lee-b+2,4",
     "name": "Super High Combination",
     "input": "b+2,4,3",
-    "hitLevels": [
-      "h",
-      "h",
-      "h"
-    ],
-    "damage": [
-      9,
-      16,
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+22a (+13)",
-      "lower": "+22",
-      "properties": [
-        "a"
-      ],
-      "tech": "+13"
-    },
-    "framesOnCounter": {
-      "_raw": "+51a",
-      "lower": "+51",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i14",
-      "lower": "i14",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14",
+    "hitLevels": "h,h,h",
+    "damage": "9,16,21",
+    "onBlock": 0,
+    "onHit": "+22a (+13)",
+    "onCounterHit": "+51a",
+    "states": "js",
+    "index": 54
   },
   {
+    "id": "Lee-b+3",
+    "parent": null,
+    "name": null,
     "input": "b+3",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      9
-    ],
-    "framesOnBlock": {
-      "_raw": "-14",
-      "lower": "-14",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "l",
+    "damage": 9,
+    "onBlock": -14,
+    "onHit": -3,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 55,
+    "id": "Lee-b+3,3",
+    "parent": "Lee-b+3",
     "name": "Stinging Rush",
     "input": "b+3,3",
-    "hitLevels": [
-      "l",
-      "h"
-    ],
-    "damage": [
-      9,
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-1",
-      "lower": "-1",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "l,h",
+    "damage": "9,12",
+    "onBlock": -12,
+    "onHit": -1,
+    "onCounterHit": null,
+    "states": null,
+    "index": 55
   },
   {
-    "index": 57,
+    "id": "Lee-b+3+4",
+    "parent": null,
     "name": "Silver Revolution",
     "input": "b+3+4",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "-7",
-      "lower": "-7",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+15a (+6)",
-      "lower": "+15",
-      "properties": [
-        "a"
-      ],
-      "tech": "+6"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20",
-      "lower": "i20",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20",
+    "hitLevels": "h",
+    "damage": 23,
+    "onBlock": -7,
+    "onHit": "+15a (+6)",
+    "onCounterHit": null,
+    "states": "pc",
+    "index": 57
   },
   {
-    "index": 56,
+    "id": "Lee-b+4",
+    "parent": null,
     "name": "Silver Heel",
     "input": "b+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+7c",
-      "lower": "+7",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "+64a",
-      "lower": "+64",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i20",
-      "lower": "i20",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20",
+    "hitLevels": "m",
+    "damage": 20,
+    "onBlock": -3,
+    "onHit": "+7c",
+    "onCounterHit": "+64a",
+    "states": null,
+    "index": 56
   },
   {
+    "id": "Lee-Back Throw",
+    "parent": null,
     "name": "Face Crusher",
-    "input": "BackThrow",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      50
-    ],
-    "framesOnBlock": {
-      "_raw": "!",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-5d",
-      "lower": "-5",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12~14",
-      "lower": "i12",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": "Back Throw",
+    "startup": "i12~14",
+    "hitLevels": "t",
+    "damage": 50,
+    "onBlock": "!",
+    "onHit": "-5d",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 70,
+    "id": "Lee-b,B+4",
+    "parent": null,
     "name": "Lee Cutter",
     "input": "b,B+4",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "2",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+25a",
-      "lower": "+25",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i19",
-      "lower": "i19",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i19",
+    "hitLevels": "h",
+    "damage": 23,
+    "onBlock": 2,
+    "onHit": "+25a",
+    "onCounterHit": null,
+    "states": null,
+    "index": 70
   },
   {
+    "id": "Lee-d+1",
+    "parent": null,
+    "name": null,
     "input": "d+1",
-    "hitLevels": [
-      "s"
-    ],
-    "damage": [
-      5
-    ],
-    "framesOnBlock": {
-      "_raw": "-5",
-      "lower": "-5",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "6",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "s",
+    "damage": 5,
+    "onBlock": -5,
+    "onHit": 6,
+    "onCounterHit": null,
+    "states": "cs",
+    "index": null
   },
   {
-    "index": 43,
+    "id": "Lee-d+2",
+    "parent": null,
     "name": "Gut Polisher",
     "input": "d+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      17
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "8",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "[[Lee_combos#Mini-combos|+13]]",
-      "lower": "+13",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18",
-      "lower": "i18",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18",
+    "hitLevels": "m",
+    "damage": 17,
+    "onBlock": -6,
+    "onHit": 8,
+    "onCounterHit": "[[Lee_combos#Mini-combos|+13]]",
+    "states": "cs",
+    "index": 43
   },
   {
-    "index": 44,
+    "id": "Lee-d+3",
+    "parent": null,
     "name": "Silver Low",
     "input": "d+3",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      17
-    ],
-    "framesOnBlock": {
-      "_raw": "-15",
-      "lower": "-15",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-1",
-      "lower": "-1",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+17a",
-      "lower": "+17",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "l",
+    "damage": 17,
+    "onBlock": -15,
+    "onHit": -1,
+    "onCounterHit": "+17a",
+    "states": "cs6~",
+    "index": 44
   },
   {
-    "index": 47,
+    "id": "Lee-d+3+4",
+    "parent": null,
     "name": "Silver Cyclone",
     "input": "d+3+4",
-    "hitLevels": [
-      "!"
-    ],
-    "damage": [
-      60
-    ],
-    "framesOnBlock": {
-      "_raw": "!",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+9a",
-      "lower": "+9",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i60",
-      "lower": "i60",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i60",
+    "hitLevels": "!",
+    "damage": 60,
+    "onBlock": "!",
+    "onHit": "+9a",
+    "onCounterHit": null,
+    "states": null,
+    "index": 47
   },
   {
+    "id": "Lee-d+4",
+    "parent": null,
     "name": "Shin",
     "input": "d+4",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      7
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-14",
-      "lower": "-14",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "l",
+    "damage": 7,
+    "onBlock": -13,
+    "onHit": -14,
+    "onCounterHit": -2,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Lee-D+4",
+    "parent": null,
+    "name": null,
     "input": "D+4",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      7
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-14",
-      "lower": "-14",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "l",
+    "damage": 7,
+    "onBlock": -13,
+    "onHit": -14,
+    "onCounterHit": -2,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Lee-D+4,4",
+    "parent": "Lee-D+4",
+    "name": null,
     "input": "D+4,4",
-    "hitLevels": [
-      "l",
-      "l"
-    ],
-    "damage": [
-      7,
-      8
-    ],
-    "framesOnBlock": {
-      "_raw": "-15",
-      "lower": "-15",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-16",
-      "lower": "-16",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "-4",
-      "lower": "-4",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "l,l",
+    "damage": "7,8",
+    "onBlock": -15,
+    "onHit": -16,
+    "onCounterHit": -4,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Lee-D+4,4,4",
+    "parent": "Lee-D+4,4",
+    "name": null,
     "input": "D+4,4,4",
-    "hitLevels": [
-      "l",
-      "l",
-      "l"
-    ],
-    "damage": [
-      7,
-      8,
-      5
-    ],
-    "framesOnBlock": {
-      "_raw": "-15",
-      "lower": "-15",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-16",
-      "lower": "-16",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "-4",
-      "lower": "-4",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "l,l,l",
+    "damage": "7,8,5",
+    "onBlock": -15,
+    "onHit": -16,
+    "onCounterHit": -4,
+    "states": null,
+    "index": null
   },
   {
-    "index": 46,
+    "id": "Lee-D+4,4,4,4",
+    "parent": "Lee-D+4,4,4",
     "name": "Laser Edge Kick Combo",
     "input": "D+4,4,4,4",
-    "hitLevels": [
-      "l",
-      "l",
-      "l",
-      "m"
-    ],
-    "damage": [
-      7,
-      8,
-      5,
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-20",
-      "lower": "-20",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+11a (+2)",
-      "lower": "+11",
-      "properties": [
-        "a"
-      ],
-      "tech": "+2"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "l,l,l,m",
+    "damage": "7,8,5,21",
+    "onBlock": -20,
+    "onHit": "+11a (+2)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 46
   },
   {
-    "index": 45,
+    "id": "Lee-d+4,n,4",
+    "parent": "Lee-d+4",
     "name": "Shin &gt; Head Kick",
     "input": "d+4,n,4",
-    "hitLevels": [
-      "l",
-      "h"
-    ],
-    "damage": [
-      7,
-      16
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "2",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+27a (+17)",
-      "lower": "+27",
-      "properties": [
-        "a"
-      ],
-      "tech": "+17"
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "l,h",
+    "damage": "7,16",
+    "onBlock": -9,
+    "onHit": 2,
+    "onCounterHit": "+27a (+17)",
+    "states": null,
+    "index": 45
   },
   {
+    "id": "Lee-db+2",
+    "parent": null,
+    "name": null,
     "input": "db+2",
-    "hitLevels": [
-      "s"
-    ],
-    "damage": [
-      8
-    ],
-    "framesOnBlock": {
-      "_raw": "-4",
-      "lower": "-4",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "7",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i11",
-      "lower": "i11",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i11",
+    "hitLevels": "s",
+    "damage": 8,
+    "onBlock": -4,
+    "onHit": 7,
+    "onCounterHit": null,
+    "states": "cs",
+    "index": null
   },
   {
-    "index": 48,
+    "id": "Lee-db+3",
+    "parent": null,
     "name": "Bump Kick",
     "input": "db+3",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-1",
-      "lower": "-1",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20",
-      "lower": "i20",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20",
+    "hitLevels": "l",
+    "damage": 12,
+    "onBlock": -12,
+    "onHit": -1,
+    "onCounterHit": null,
+    "states": null,
+    "index": 48
   },
   {
-    "index": 49,
+    "id": "Lee-db+3+4",
+    "parent": null,
     "name": "Grass Snake",
     "input": "db+3+4",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "4",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+38a",
-      "lower": "+38",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i21",
-      "lower": "i21",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i21",
+    "hitLevels": "l",
+    "damage": 21,
+    "onBlock": -13,
+    "onHit": 4,
+    "onCounterHit": "+38a",
+    "states": null,
+    "index": 49
   },
   {
+    "id": "Lee-db+4",
+    "parent": null,
+    "name": null,
     "input": "db+4",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      6
-    ],
-    "framesOnBlock": {
-      "_raw": "-4",
-      "lower": "-4",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-15",
-      "lower": "-15",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "l",
+    "damage": 6,
+    "onBlock": -4,
+    "onHit": -15,
+    "onCounterHit": null,
+    "states": "cs",
+    "index": null
   },
   {
-    "index": 69,
+    "id": "Lee-d,DB+4",
+    "parent": null,
     "name": "Blazing Kick",
     "input": "d,DB+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      24
-    ],
-    "framesOnBlock": {
-      "_raw": "-17",
-      "lower": "-17",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+50a (+40)",
-      "lower": "+50",
-      "properties": [
-        "a"
-      ],
-      "tech": "+40"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i22",
-      "lower": "i22",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i22",
+    "hitLevels": "m",
+    "damage": 24,
+    "onBlock": -17,
+    "onHit": "+50a (+40)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 69
   },
   {
+    "id": "Lee-df+1",
+    "parent": null,
+    "name": null,
     "input": "df+1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-1",
-      "lower": "-1",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "5",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13",
-      "lower": "i13",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13",
+    "hitLevels": "m",
+    "damage": 10,
+    "onBlock": -1,
+    "onHit": 5,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 40,
+    "id": "Lee-df+2",
+    "parent": null,
     "name": "Silver Uppercut",
     "input": "df+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-7",
-      "lower": "-7",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+34a (+24)",
-      "lower": "+34",
-      "properties": [
-        "a"
-      ],
-      "tech": "+24"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m",
+    "damage": 12,
+    "onBlock": -7,
+    "onHit": "+34a (+24)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 40
   },
   {
+    "id": "Lee-df+3",
+    "parent": null,
+    "name": null,
     "input": "df+3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      13
-    ],
-    "framesOnBlock": {
-      "_raw": "-8",
-      "lower": "-8",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "3",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m",
+    "damage": 13,
+    "onBlock": -8,
+    "onHit": 3,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Lee-df+3,2",
+    "parent": "Lee-df+3",
+    "name": null,
     "input": "df+3,2",
-    "hitLevels": [
-      "m",
-      "h"
-    ],
-    "damage": [
-      13,
-      13
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "5",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m,h",
+    "damage": "13,13",
+    "onBlock": -6,
+    "onHit": 5,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 41,
+    "id": "Lee-df+3,2,3",
+    "parent": "Lee-df+3,2",
     "name": "Mercury Drive",
     "input": "df+3,2,3",
-    "hitLevels": [
-      "m",
-      "h",
-      "m"
-    ],
-    "damage": [
-      13,
-      13,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-16",
-      "lower": "-16",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+13c g",
-      "lower": "+13",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m,h,m",
+    "damage": "13,13,20",
+    "onBlock": -16,
+    "onHit": "+13c g",
+    "onCounterHit": null,
+    "states": null,
+    "index": 41
   },
   {
+    "id": "Lee-df+4",
+    "parent": null,
+    "name": null,
     "input": "df+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      14
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "5",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13-14",
-      "lower": "i13",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13-14",
+    "hitLevels": "m",
+    "damage": 14,
+    "onBlock": -9,
+    "onHit": 5,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 42,
+    "id": "Lee-df+4,4",
+    "parent": "Lee-df+4",
     "name": "Fabulous Whip",
     "input": "df+4,4",
-    "hitLevels": [
-      "m",
-      "h"
-    ],
-    "damage": [
-      14,
-      22
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+10g",
-      "lower": "+10",
-      "properties": [
-        "g"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13-14",
-      "lower": "i13",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13-14",
+    "hitLevels": "m,h",
+    "damage": "14,22",
+    "onBlock": -9,
+    "onHit": "+10g",
+    "onCounterHit": null,
+    "states": null,
+    "index": 42
   },
   {
-    "index": 38,
+    "id": "Lee-f+1+2",
+    "parent": null,
     "name": "Aggressive One-Two",
     "input": "f+1+2",
-    "hitLevels": [
-      "h",
-      "h"
-    ],
-    "damage": [
-      12,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+18a (+9)",
-      "lower": "+18",
-      "properties": [
-        "a"
-      ],
-      "tech": "+9"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13",
-      "lower": "i13",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13",
+    "hitLevels": "h,h",
+    "damage": "12,20",
+    "onBlock": -13,
+    "onHit": "+18a (+9)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 38
   },
   {
+    "id": "Lee-f+2",
+    "parent": null,
+    "name": null,
     "input": "f+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "2",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14",
-      "lower": "i14",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14",
+    "hitLevels": "m",
+    "damage": 12,
+    "onBlock": -9,
+    "onHit": 2,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 32,
+    "id": "Lee-f+2,1",
+    "parent": "Lee-f+2",
     "name": "Double Signal",
     "input": "f+2,1",
-    "hitLevels": [
-      "m",
-      "h"
-    ],
-    "damage": [
-      12,
-      22
-    ],
-    "framesOnBlock": {
-      "_raw": "-10",
-      "lower": "-10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+42d (-16)",
-      "lower": "+42",
-      "properties": [
-        "d"
-      ],
-      "tech": "-16"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14",
-      "lower": "i14",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14",
+    "hitLevels": "m,h",
+    "damage": "12,22",
+    "onBlock": -10,
+    "onHit": "+42d (-16)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 32
   },
   {
+    "id": "Lee-f+3",
+    "parent": null,
+    "name": null,
     "input": "f+3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      6
-    ],
-    "framesOnBlock": {
-      "_raw": "-18",
-      "lower": "-18",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-7",
-      "lower": "-7",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m",
+    "damage": 6,
+    "onBlock": -18,
+    "onHit": -7,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Lee-f+3,3",
+    "parent": "Lee-f+3",
+    "name": null,
     "input": "f+3,3",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      6,
-      3
-    ],
-    "framesOnBlock": {
-      "_raw": "-18",
-      "lower": "-18",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-7",
-      "lower": "-7",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m,m",
+    "damage": "6,3",
+    "onBlock": -18,
+    "onHit": -7,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Lee-f+3,3,3",
+    "parent": "Lee-f+3,3",
+    "name": null,
     "input": "f+3,3,3",
-    "hitLevels": [
-      "m",
-      "m",
-      "m"
-    ],
-    "damage": [
-      6,
-      3,
-      3
-    ],
-    "framesOnBlock": {
-      "_raw": "-18",
-      "lower": "-18",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-7",
-      "lower": "-7",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m,m,m",
+    "damage": "6,3,3",
+    "onBlock": -18,
+    "onHit": -7,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Lee-f+3,3,3,3",
+    "parent": "Lee-f+3,3,3",
+    "name": null,
     "input": "f+3,3,3,3",
-    "hitLevels": [
-      "m",
-      "m",
-      "m",
-      "m"
-    ],
-    "damage": [
-      6,
-      3,
-      3,
-      3
-    ],
-    "framesOnBlock": {
-      "_raw": "-18",
-      "lower": "-18",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-7",
-      "lower": "-7",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m,m,m,m",
+    "damage": "6,3,3,3",
+    "onBlock": -18,
+    "onHit": -7,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Lee-f+3,3,3,3,3",
+    "parent": "Lee-f+3,3,3,3",
+    "name": null,
     "input": "f+3,3,3,3,3",
-    "hitLevels": [
-      "m",
-      "m",
-      "m",
-      "m",
-      "h"
-    ],
-    "damage": [
-      6,
-      3,
-      3,
-      3,
-      3
-    ],
-    "framesOnBlock": {
-      "_raw": "-18",
-      "lower": "-18",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+13a (+3)",
-      "lower": "+13",
-      "properties": [
-        "a"
-      ],
-      "tech": "+3"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m,m,m,m,h",
+    "damage": "6,3,3,3,3",
+    "onBlock": -18,
+    "onHit": "+13a (+3)",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 33,
+    "id": "Lee-f+3,3,3,3,3,4",
+    "parent": "Lee-f+3,3,3,3,3",
     "name": "Acid Storm",
     "input": "f+3,3,3,3,3,4",
-    "hitLevels": [
-      "m",
-      "m",
-      "m",
-      "m",
-      "h",
-      "h"
-    ],
-    "damage": [
-      6,
-      3,
-      3,
-      3,
-      3,
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+69a (+53)",
-      "lower": "+69",
-      "properties": [
-        "a"
-      ],
-      "tech": "+53"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m,m,m,m,h,h",
+    "damage": "6,3,3,3,3,25",
+    "onBlock": -9,
+    "onHit": "+69a (+53)",
+    "onCounterHit": null,
+    "states": "js",
+    "index": 33
   },
   {
-    "index": 34,
+    "id": "Lee-f+3,3,3,3,3:4",
+    "parent": "Lee-f+3,3,3,3,3",
     "name": "Acid Storm Cardinal",
     "input": "f+3,3,3,3,3&amp;#58;4",
-    "hitLevels": [
-      "m",
-      "m",
-      "m",
-      "m",
-      "h",
-      "h"
-    ],
-    "damage": [
-      6,
-      3,
-      3,
-      3,
-      3,
-      26
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+69a (+53)",
-      "lower": "+69",
-      "properties": [
-        "a"
-      ],
-      "tech": "+53"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m,m,m,m,h,h",
+    "damage": "6,3,3,3,3,26",
+    "onBlock": -9,
+    "onHit": "+69a (+53)",
+    "onCounterHit": null,
+    "states": "js",
+    "index": 34
   },
   {
-    "index": 39,
+    "id": "Lee-f+3+4",
+    "parent": null,
     "name": "Feather Landing",
     "input": "f+3+4",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      10,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "+4c",
-      "lower": "+4",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnHit": {
-      "_raw": "+8c",
-      "lower": "+8",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i30",
-      "lower": "i30",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i30",
+    "hitLevels": "m,m",
+    "damage": "10,20",
+    "onBlock": "+4c",
+    "onHit": "+8c",
+    "onCounterHit": null,
+    "states": "js",
+    "index": 39
   },
   {
+    "id": "Lee-f+4",
+    "parent": null,
+    "name": null,
     "input": "f+4",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      13
-    ],
-    "framesOnBlock": {
-      "_raw": "-7",
-      "lower": "-7",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "4",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i11",
-      "lower": "i11",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i11",
+    "hitLevels": "h",
+    "damage": 13,
+    "onBlock": -7,
+    "onHit": 4,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 35,
+    "id": "Lee-f+4,1",
+    "parent": "Lee-f+4",
     "name": "Deadly Revolution",
     "input": "f+4,1",
-    "hitLevels": [
-      "h",
-      "h"
-    ],
-    "damage": [
-      13,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-5",
-      "lower": "-5",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+20a (+3)",
-      "lower": "+20",
-      "properties": [
-        "a"
-      ],
-      "tech": "+3"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i11",
-      "lower": "i11",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i11",
+    "hitLevels": "h,h",
+    "damage": "13,20",
+    "onBlock": -5,
+    "onHit": "+20a (+3)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 35
   },
   {
-    "index": 36,
+    "id": "Lee-f+4:1",
+    "parent": "Lee-f+4",
     "name": "Deadly Revolution Cardinal",
     "input": "f+4&amp;#58;1",
-    "hitLevels": [
-      "h",
-      "h"
-    ],
-    "damage": [
-      13,
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "5",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+20a (+3)",
-      "lower": "+20",
-      "properties": [
-        "a"
-      ],
-      "tech": "+3"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i11",
-      "lower": "i11",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i11",
+    "hitLevels": "h,h",
+    "damage": "13,25",
+    "onBlock": 5,
+    "onHit": "+20a (+3)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 36
   },
   {
-    "index": 37,
+    "id": "Lee-f+4,3",
+    "parent": "Lee-f+4",
     "name": "Deadly Arc",
     "input": "f+4,3",
-    "hitLevels": [
-      "h",
-      "m"
-    ],
-    "damage": [
-      13,
-      18
-    ],
-    "framesOnBlock": {
-      "_raw": "-8",
-      "lower": "-8",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+6c",
-      "lower": "+6",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "+63a",
-      "lower": "+63",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i11",
-      "lower": "i11",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i11",
+    "hitLevels": "h,m",
+    "damage": "13,18",
+    "onBlock": -8,
+    "onHit": "+6c",
+    "onCounterHit": "+63a",
+    "states": null,
+    "index": 37
   },
   {
+    "id": "Lee-FC.1",
+    "parent": null,
+    "name": null,
     "input": "FC.1",
-    "hitLevels": [
-      "s"
-    ],
-    "damage": [
-      5
-    ],
-    "framesOnBlock": {
-      "_raw": "-5",
-      "lower": "-5",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "6",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "s",
+    "damage": 5,
+    "onBlock": -5,
+    "onHit": 6,
+    "onCounterHit": null,
+    "states": "cs",
+    "index": null
   },
   {
+    "id": "Lee-FC.2",
+    "parent": null,
+    "name": null,
     "input": "FC.2",
-    "hitLevels": [
-      "s"
-    ],
-    "damage": [
-      5
-    ],
-    "framesOnBlock": {
-      "_raw": "-4",
-      "lower": "-4",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "7",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "s",
+    "damage": 5,
+    "onBlock": -4,
+    "onHit": 7,
+    "onCounterHit": null,
+    "states": "cs",
+    "index": null
   },
   {
+    "id": "Lee-FC.3",
+    "parent": null,
+    "name": null,
     "input": "FC.3",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-17",
-      "lower": "-17",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13",
-      "lower": "i13",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13",
+    "hitLevels": "l",
+    "damage": 10,
+    "onBlock": -17,
+    "onHit": -6,
+    "onCounterHit": null,
+    "states": "cs",
+    "index": null
   },
   {
+    "id": "Lee-FC.4",
+    "parent": null,
+    "name": null,
     "input": "FC.4",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      6
-    ],
-    "framesOnBlock": {
-      "_raw": "-15",
-      "lower": "-15",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-4",
-      "lower": "-4",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "l",
+    "damage": 6,
+    "onBlock": -15,
+    "onHit": -4,
+    "onCounterHit": null,
+    "states": "cs",
+    "index": null
   },
   {
-    "index": 83,
+    "id": "Lee-FC.df+4",
+    "parent": null,
     "name": "Silver Tail",
     "input": "FC.df+4",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      17
-    ],
-    "framesOnBlock": {
-      "_raw": "-14",
-      "lower": "-14",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+25d",
-      "lower": "+25",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i16~17",
-      "lower": "i16",
-      "properties": [],
-      "upper": "17"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16~17",
+    "hitLevels": "l",
+    "damage": 17,
+    "onBlock": -14,
+    "onHit": -3,
+    "onCounterHit": "+25d",
+    "states": "cs",
+    "index": 83
   },
   {
-    "index": 86,
+    "id": "Lee-FC.df,d,DF",
+    "parent": null,
     "name": "Slide Step",
     "input": "FC.df,d,DF",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": "cs",
+    "index": 86
   },
   {
-    "index": 88,
+    "id": "Lee-FC.df,d,DF${justFrame}3",
+    "parent": null,
     "name": "Friction Spear Cardinal",
     "input": "FC.df,d,DF#3",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "-15~-9",
-      "lower": "-15",
-      "properties": [],
-      "upper": "-9"
-    },
-    "framesOnHit": {
-      "_raw": "3",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+5d",
-      "lower": "+5",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i18~24",
-      "lower": "i18",
-      "properties": [],
-      "upper": "24"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18~24",
+    "hitLevels": "l",
+    "damage": 23,
+    "onBlock": "-15~-9",
+    "onHit": 3,
+    "onCounterHit": "+5d",
+    "states": "cs js",
+    "index": 88
   },
   {
+    "id": "Lee-FC.df,d,DF+3",
+    "parent": null,
     "name": "Friction Spear",
     "input": "FC.df,d,DF+3",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-15~-9",
-      "lower": "-15",
-      "properties": [],
-      "upper": "-9"
-    },
-    "framesOnHit": {
-      "_raw": "3",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+5d",
-      "lower": "+5",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i18~24",
-      "lower": "i18",
-      "properties": [],
-      "upper": "24"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18~24",
+    "hitLevels": "l",
+    "damage": 20,
+    "onBlock": "-15~-9",
+    "onHit": 3,
+    "onCounterHit": "+5d",
+    "states": "cs js",
+    "index": null
   },
   {
-    "index": 85,
+    "id": "Lee-FC.UF+3+4",
+    "parent": null,
     "name": "Catapult Drop",
     "input": "FC.UF+3+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      30
-    ],
-    "framesOnBlock": {
-      "_raw": "-4",
-      "lower": "-4",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+18a (+8)",
-      "lower": "+18",
-      "properties": [
-        "a"
-      ],
-      "tech": "+8"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i46~49",
-      "lower": "i46",
-      "properties": [],
-      "upper": "49"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i46~49",
+    "hitLevels": "m",
+    "damage": 30,
+    "onBlock": -4,
+    "onHit": "+18a (+8)",
+    "onCounterHit": null,
+    "states": "js",
+    "index": 85
   },
   {
-    "index": 84,
+    "id": "Lee-FC.UF+4",
+    "parent": null,
     "name": "Catapult Kick",
     "input": "FC.UF+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-17",
-      "lower": "-17",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+28a (+18)",
-      "lower": "+28",
-      "properties": [
-        "a"
-      ],
-      "tech": "+18"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18~28",
-      "lower": "i18",
-      "properties": [],
-      "upper": "28"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18~28",
+    "hitLevels": "m",
+    "damage": 25,
+    "onBlock": -17,
+    "onHit": "+28a (+18)",
+    "onCounterHit": null,
+    "states": "js",
+    "index": 84
   },
   {
-    "index": 65,
+    "id": "Lee-f,F+2",
+    "parent": null,
     "name": "Jostle Wolf",
     "input": "f,F+2",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "2",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+18gc",
-      "lower": "+18",
-      "properties": [
-        "gc"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "+69a (+53)",
-      "lower": "+69",
-      "properties": [
-        "a"
-      ],
-      "tech": "+53"
-    },
-    "framesOnStartup": {
-      "_raw": "i18",
-      "lower": "i18",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18",
+    "hitLevels": "h",
+    "damage": 23,
+    "onBlock": 2,
+    "onHit": "+18gc",
+    "onCounterHit": "+69a (+53)",
+    "states": null,
+    "index": 65
   },
   {
-    "index": 66,
+    "id": "Lee-f:F+2",
+    "parent": null,
     "name": "Jostle Wolf Cardinal",
     "input": "f&amp;#58;F+2",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      26
-    ],
-    "framesOnBlock": {
-      "_raw": "2",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+18gc",
-      "lower": "+18",
-      "properties": [
-        "gc"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "+69a (+53)",
-      "lower": "+69",
-      "properties": [
-        "a"
-      ],
-      "tech": "+53"
-    },
-    "framesOnStartup": {
-      "_raw": "i18",
-      "lower": "i18",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18",
+    "hitLevels": "h",
+    "damage": 26,
+    "onBlock": 2,
+    "onHit": "+18gc",
+    "onCounterHit": "+69a (+53)",
+    "states": null,
+    "index": 66
   },
   {
-    "index": 67,
+    "id": "Lee-f,F+3",
+    "parent": null,
     "name": "Pulse Blast",
     "input": "f,F+3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      26
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+21d (+11)",
-      "lower": "+21",
-      "properties": [
-        "d"
-      ],
-      "tech": "+11"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14~15",
-      "lower": "i14",
-      "properties": [],
-      "upper": "15"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14~15",
+    "hitLevels": "m",
+    "damage": 26,
+    "onBlock": -9,
+    "onHit": "+21d (+11)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 67
   },
   {
-    "index": 68,
+    "id": "Lee-f,F+4",
+    "parent": null,
     "name": "Deadly Edge",
     "input": "f,F+4",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      22
-    ],
-    "framesOnBlock": {
-      "_raw": "-5",
-      "lower": "-5",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+29a",
-      "lower": "+29",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "h",
+    "damage": 22,
+    "onBlock": -5,
+    "onHit": "+29a",
+    "onCounterHit": null,
+    "states": "cs5~",
+    "index": 68
   },
   {
+    "id": "Lee-f,f,F+3",
+    "parent": null,
+    "name": null,
     "input": "f,f,F+3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      14
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+16a (+9)",
-      "lower": "+16",
-      "properties": [
-        "a"
-      ],
-      "tech": "+9"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14",
-      "lower": "i14",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14",
+    "hitLevels": "m",
+    "damage": 14,
+    "onBlock": -9,
+    "onHit": "+16a (+9)",
+    "onCounterHit": null,
+    "states": "js",
+    "index": null
   },
   {
-    "index": 71,
+    "id": "Lee-f,f,F+3,4",
+    "parent": "Lee-f,f,F+3",
     "name": "Waxing Crescent",
     "input": "f,f,F+3,4",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      14,
-      26
-    ],
-    "framesOnBlock": {
-      "_raw": "3",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+19d",
-      "lower": "+19",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14",
-      "lower": "i14",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14",
+    "hitLevels": "m,m",
+    "damage": "14,26",
+    "onBlock": 3,
+    "onHit": "+19d",
+    "onCounterHit": null,
+    "states": "js",
+    "index": 71
   },
   {
-    "index": 89,
+    "id": "Lee-f,n",
+    "parent": null,
     "name": "Mist Step",
     "input": "f,n",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": "cs",
+    "index": 89
   },
   {
+    "id": "Lee-H.2+3",
+    "parent": null,
     "name": "Paradigm Breaker",
     "input": "H.2+3",
-    "hitLevels": [
-      "l",
-      "t"
-    ],
-    "damage": [
-      37
-    ],
-    "framesOnBlock": {
-      "_raw": "-14",
-      "lower": "-14",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20",
-      "lower": "i20",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20",
+    "hitLevels": "l,t",
+    "damage": 37,
+    "onBlock": -14,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 95,
+    "id": "Lee-HMS.1",
+    "parent": null,
     "name": "Freaker Jab",
     "input": "HMS.1",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      7
-    ],
-    "framesOnBlock": {
-      "_raw": "2",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "9",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "h",
+    "damage": 7,
+    "onBlock": 2,
+    "onHit": 9,
+    "onCounterHit": null,
+    "states": null,
+    "index": 95
   },
   {
+    "id": "Lee-HMS.1,1",
+    "parent": "Lee-HMS.1",
+    "name": null,
     "input": "HMS.1,1",
-    "hitLevels": [
-      "h",
-      "h"
-    ],
-    "damage": [
-      7,
-      7
-    ],
-    "framesOnBlock": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "8",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "h,h",
+    "damage": "7,7",
+    "onBlock": -2,
+    "onHit": 8,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 96,
+    "id": "Lee-HMS.1,1,1",
+    "parent": "Lee-HMS.1,1",
     "name": "Amazing Swipe",
     "input": "HMS.1,1,1",
-    "hitLevels": [
-      "h",
-      "h",
-      "h"
-    ],
-    "damage": [
-      7,
-      7,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-7",
-      "lower": "-7",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+44d (-14)",
-      "lower": "+44",
-      "properties": [
-        "d"
-      ],
-      "tech": "-14"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "h,h,h",
+    "damage": "7,7,20",
+    "onBlock": -7,
+    "onHit": "+44d (-14)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 96
   },
   {
-    "index": 101,
+    "id": "Lee-HMS.1+2",
+    "parent": null,
     "name": "Poison Touch",
     "input": "HMS.1+2",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      10,
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "-5",
-      "lower": "-5",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "6",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+19a (+10)",
-      "lower": "+19",
-      "properties": [
-        "a"
-      ],
-      "tech": "+10"
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m,m",
+    "damage": "10,15",
+    "onBlock": -5,
+    "onHit": 6,
+    "onCounterHit": "+19a (+10)",
+    "states": null,
+    "index": 101
   },
   {
-    "index": 97,
+    "id": "Lee-HMS.1,4",
+    "parent": "Lee-HMS.1",
     "name": "Excellent Combo",
     "input": "HMS.1,4",
-    "hitLevels": [
-      "h",
-      "m"
-    ],
-    "damage": [
-      7,
-      17
-    ],
-    "framesOnBlock": {
-      "_raw": "-8",
-      "lower": "-8",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "4",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+57a",
-      "lower": "+57",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "h,m",
+    "damage": "7,17",
+    "onBlock": -8,
+    "onHit": 4,
+    "onCounterHit": "+57a",
+    "states": null,
+    "index": 97
   },
   {
-    "index": 98,
+    "id": "Lee-HMS.2",
+    "parent": null,
     "name": "Scatter Blow",
     "input": "HMS.2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+39a (+29)",
-      "lower": "+39",
-      "properties": [
-        "a"
-      ],
-      "tech": "+29"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i19",
-      "lower": "i19",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i19",
+    "hitLevels": "m",
+    "damage": 23,
+    "onBlock": -13,
+    "onHit": "+39a (+29)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 98
   },
   {
-    "index": 99,
+    "id": "Lee-HMS.3",
+    "parent": null,
     "name": "Scatter Kick",
     "input": "HMS.3",
-    "hitLevels": [
-      "h",
-      "t"
-    ],
-    "damage": [
-      21,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18",
-      "lower": "i18",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18",
+    "hitLevels": "h,t",
+    "damage": "21,20",
+    "onBlock": -3,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": "pc8~",
+    "index": 99
   },
   {
-    "index": 100,
+    "id": "Lee-HMS.4",
+    "parent": null,
     "name": "Shin Slicer",
     "input": "HMS.4",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+4c",
-      "lower": "+4",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "+72a (+56)",
-      "lower": "+72",
-      "properties": [
-        "a"
-      ],
-      "tech": "+56"
-    },
-    "framesOnStartup": {
-      "_raw": "i22",
-      "lower": "i22",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i22",
+    "hitLevels": "l",
+    "damage": 20,
+    "onBlock": -13,
+    "onHit": "+4c",
+    "onCounterHit": "+72a (+56)",
+    "states": "cs6~",
+    "index": 100
   },
   {
-    "index": 102,
+    "id": "Lee-HMS.u+3",
+    "parent": null,
     "name": "Silver Slash",
     "input": "HMS.u+3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      26
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+23d (+13)",
-      "lower": "+23",
-      "properties": [
-        "d"
-      ],
-      "tech": "+13"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20~22",
-      "lower": "i20",
-      "properties": [],
-      "upper": "22"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20~22",
+    "hitLevels": "m",
+    "damage": 26,
+    "onBlock": -9,
+    "onHit": "+23d (+13)",
+    "onCounterHit": null,
+    "states": "js9~",
+    "index": 102
   },
   {
-    "index": 103,
+    "id": "Lee-HMS.u+4",
+    "parent": null,
     "name": "Silver Circle",
     "input": "HMS.u+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-7c",
-      "lower": "-7",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnHit": {
-      "_raw": "+13c",
-      "lower": "+13",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i26~29",
-      "lower": "i26",
-      "properties": [],
-      "upper": "29"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i26~29",
+    "hitLevels": "m",
+    "damage": 20,
+    "onBlock": "-7c",
+    "onHit": "+13c",
+    "onCounterHit": null,
+    "states": "js16~",
+    "index": 103
   },
   {
-    "index": 106,
+    "id": "Lee-Left throw",
+    "parent": null,
     "name": "Lee Harassment",
-    "input": "LeftThrow",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      40
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-3d",
-      "lower": "-3",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12~14",
-      "lower": "i12",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": "Left Throw",
+    "startup": "i12~14",
+    "hitLevels": "t",
+    "damage": 40,
+    "onBlock": -3,
+    "onHit": "-3d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 106
   },
   {
+    "id": "Lee-MS.3",
+    "parent": null,
+    "name": null,
     "input": "MS.3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-1",
-      "lower": "-1",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m",
+    "damage": 10,
+    "onBlock": -12,
+    "onHit": -1,
+    "onCounterHit": null,
+    "states": "js",
+    "index": null
   },
   {
+    "id": "Lee-MS.3+4",
+    "parent": null,
     "name": "Friction Spear",
     "input": "MS.3+4",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      17
-    ],
-    "framesOnBlock": {
-      "_raw": "-15~-9",
-      "lower": "-15",
-      "properties": [],
-      "upper": "-9"
-    },
-    "framesOnHit": {
-      "_raw": "3",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+5d",
-      "lower": "+5",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i25~31",
-      "lower": "i25",
-      "properties": [],
-      "upper": "31"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i25~31",
+    "hitLevels": "l",
+    "damage": 17,
+    "onBlock": "-15~-9",
+    "onHit": 3,
+    "onCounterHit": "+5d",
+    "states": "cs js",
+    "index": null
   },
   {
-    "index": 90,
+    "id": "Lee-MS.3,4",
+    "parent": "Lee-MS.3",
     "name": "Inverted Axle",
     "input": "MS.3,4",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      10,
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+32a (+22)",
-      "lower": "+32",
-      "properties": [
-        "a"
-      ],
-      "tech": "+22"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m,m",
+    "damage": "10,10",
+    "onBlock": -13,
+    "onHit": "+32a (+22)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 90
   },
   {
+    "id": "Lee-MS.b,n",
+    "parent": null,
     "name": "Sway",
     "input": "b,n",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 93,
+    "id": "Lee-MS.b,n,4",
+    "parent": "Lee-MS.b,n",
     "name": "Axe Sweep",
     "input": "b,n,4",
-    "hitLevels": [
-      "nulll"
-    ],
-    "damage": [
-      18
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "3",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "12",
-      "lower": "12",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": "nulll",
+    "damage": "null18",
+    "onBlock": -13,
+    "onHit": 3,
+    "onCounterHit": 12,
+    "states": "cs",
+    "index": 93
   },
   {
+    "id": "Lee-R.df+1+2",
+    "parent": null,
     "name": "The Marvelous Rose",
     "input": "R.df+1+2",
-    "hitLevels": [
-      "m",
-      "t"
-    ],
-    "damage": [
-      55
-    ],
-    "framesOnBlock": {
-      "_raw": "-15",
-      "lower": "-15",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20",
-      "lower": "i20",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20",
+    "hitLevels": "m,t",
+    "damage": "55+",
+    "onBlock": -15,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": "pc8~",
+    "index": null
   },
   {
-    "index": 107,
+    "id": "Lee-Right throw",
+    "parent": null,
     "name": "Lee Stunner",
-    "input": "RightThrow",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      40
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12~14",
-      "lower": "i12",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": "Right Throw",
+    "startup": "i12~14",
+    "hitLevels": "t",
+    "damage": 40,
+    "onBlock": -3,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 107
   },
   {
+    "id": "Lee-u+3",
+    "parent": null,
     "name": "Fake",
     "input": "u+3",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": "js",
+    "index": null
   },
   {
-    "index": 58,
+    "id": "Lee-ub+3",
+    "parent": null,
     "name": "Wheel of Fate",
     "input": "ub+3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+20a (+13)",
-      "lower": "+20",
-      "properties": [
-        "a"
-      ],
-      "tech": "+13"
-    },
-    "framesOnCounter": {
-      "_raw": "+74a (+58)",
-      "lower": "+74",
-      "properties": [
-        "a"
-      ],
-      "tech": "+58"
-    },
-    "framesOnStartup": {
-      "_raw": "i18",
-      "lower": "i18",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18",
+    "hitLevels": "m",
+    "damage": 20,
+    "onBlock": -13,
+    "onHit": "+20a (+13)",
+    "onCounterHit": "+74a (+58)",
+    "states": "js",
+    "index": 58
   },
   {
-    "index": 73,
+    "id": "Lee-ub,b",
+    "parent": null,
     "name": "Back Handspring &gt; Hitman",
     "input": "ub,b",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": "js",
+    "index": 73
   },
   {
-    "index": 109,
+    "id": "Lee-uf+1+2",
+    "parent": null,
     "name": "Knee Drive",
     "input": "uf+1+2",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+23d",
-      "lower": "+23",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12~14",
-      "lower": "i12",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12~14",
+    "hitLevels": "t",
+    "damage": 20,
+    "onBlock": -3,
+    "onHit": "+23d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 109
   },
   {
+    "id": "Lee-uf+3",
+    "parent": null,
+    "name": null,
     "input": "uf+3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "2",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i25",
-      "lower": "i25",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i25",
+    "hitLevels": "m",
+    "damage": 12,
+    "onBlock": -9,
+    "onHit": 2,
+    "onCounterHit": null,
+    "states": "js",
+    "index": null
   },
   {
-    "index": 60,
+    "id": "Lee-uf+3,1",
+    "parent": "Lee-uf+3",
     "name": "Brilliant Rosé",
     "input": "uf+3,1",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      12,
-      18
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "3",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+26a",
-      "lower": "+26",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i25",
-      "lower": "i25",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i25",
+    "hitLevels": "m,m",
+    "damage": "12,18",
+    "onBlock": -12,
+    "onHit": 3,
+    "onCounterHit": "+26a",
+    "states": null,
+    "index": 60
   },
   {
-    "index": 63,
+    "id": "Lee-uf+3+4",
+    "parent": null,
     "name": "Silver Bullet",
     "input": "uf+3+4",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      30
-    ],
-    "framesOnBlock": {
-      "_raw": "5",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+28d (+20)",
-      "lower": "+28",
-      "properties": [
-        "d"
-      ],
-      "tech": "+20"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i22",
-      "lower": "i22",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i22",
+    "hitLevels": "h",
+    "damage": 30,
+    "onBlock": 5,
+    "onHit": "+28d (+20)",
+    "onCounterHit": null,
+    "states": "js",
+    "index": 63
   },
   {
-    "index": 61,
+    "id": "Lee-uf+3,4",
+    "parent": "Lee-uf+3",
     "name": "Double Mazurek",
     "input": "uf+3,4",
-    "hitLevels": [
-      "m",
-      "h"
-    ],
-    "damage": [
-      12,
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+25a",
-      "lower": "+25",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i25",
-      "lower": "i25",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i25",
+    "hitLevels": "m,h",
+    "damage": "12,23",
+    "onBlock": -3,
+    "onHit": "+25a",
+    "onCounterHit": null,
+    "states": null,
+    "index": 61
   },
   {
-    "index": 62,
+    "id": "Lee-uf+4",
+    "parent": null,
     "name": "Silver Arrow",
     "input": "uf+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      14
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+31a (+21)",
-      "lower": "+31",
-      "properties": [
-        "a"
-      ],
-      "tech": "+21"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m",
+    "damage": 14,
+    "onBlock": -13,
+    "onHit": "+31a (+21)",
+    "onCounterHit": null,
+    "states": "js",
+    "index": 62
   },
   {
-    "index": 64,
+    "id": "Lee-uf,n,4",
+    "parent": null,
     "name": "Delayed Rising Toe Kick",
     "input": "uf,n,4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+32a (+22)",
-      "lower": "+32",
-      "properties": [
-        "a"
-      ],
-      "tech": "+22"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i23",
-      "lower": "i23",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i23",
+    "hitLevels": "m",
+    "damage": 20,
+    "onBlock": -13,
+    "onHit": "+32a (+22)",
+    "onCounterHit": null,
+    "states": "js",
+    "index": 64
   },
   {
+    "id": "Lee-ws1",
+    "parent": null,
+    "name": null,
     "input": "ws1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "8",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13",
-      "lower": "i13",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13",
+    "hitLevels": "m",
+    "damage": 12,
+    "onBlock": -2,
+    "onHit": 8,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 76,
+    "id": "Lee-ws1,2",
+    "parent": "Lee-ws1",
     "name": "Wonderful Spin Blow",
     "input": "ws1,2",
-    "hitLevels": [
-      "m",
-      "h"
-    ],
-    "damage": [
-      12,
-      17
-    ],
-    "framesOnBlock": {
-      "_raw": "-7",
-      "lower": "-7",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "2",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "7",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13",
-      "lower": "i13",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13",
+    "hitLevels": "m,h",
+    "damage": "12,17",
+    "onBlock": -7,
+    "onHit": 2,
+    "onCounterHit": 7,
+    "states": null,
+    "index": 76
   },
   {
-    "index": 77,
+    "id": "Lee-ws1,4",
+    "parent": "Lee-ws1",
     "name": "Wonderful Combo",
     "input": "ws1,4",
-    "hitLevels": [
-      "m",
-      "h"
-    ],
-    "damage": [
-      12,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-5",
-      "lower": "-5",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "4",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13",
-      "lower": "i13",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13",
+    "hitLevels": "m,h",
+    "damage": "12,20",
+    "onBlock": -5,
+    "onHit": 4,
+    "onCounterHit": null,
+    "states": null,
+    "index": 77
   },
   {
+    "id": "Lee-ws2",
+    "parent": null,
+    "name": null,
     "input": "ws2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-8",
-      "lower": "-8",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "3",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14",
-      "lower": "i14",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14",
+    "hitLevels": "m",
+    "damage": 12,
+    "onBlock": -8,
+    "onHit": 3,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 78,
+    "id": "Lee-ws2,3",
+    "parent": "Lee-ws2",
     "name": "Rocket Heel",
     "input": "ws2,3",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      12,
-      24
-    ],
-    "framesOnBlock": {
-      "_raw": "-14",
-      "lower": "-14",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+32a (+22)",
-      "lower": "+32",
-      "properties": [
-        "a"
-      ],
-      "tech": "+22"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14",
-      "lower": "i14",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14",
+    "hitLevels": "m,m",
+    "damage": "12,24",
+    "onBlock": -14,
+    "onHit": "+32a (+22)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 78
   },
   {
-    "index": 79,
+    "id": "Lee-ws2,4",
+    "parent": "Lee-ws2",
     "name": "Twister Heel",
     "input": "ws2,4",
-    "hitLevels": [
-      "m",
-      "h"
-    ],
-    "damage": [
-      12,
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+13g",
-      "lower": "+13",
-      "properties": [
-        "g"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "+37a",
-      "lower": "+37",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i14",
-      "lower": "i14",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14",
+    "hitLevels": "m,h",
+    "damage": "12,23",
+    "onBlock": -2,
+    "onHit": "+13g",
+    "onCounterHit": "+37a",
+    "states": null,
+    "index": 79
   },
   {
+    "id": "Lee-ws3",
+    "parent": null,
+    "name": null,
     "input": "ws3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      16
-    ],
-    "framesOnBlock": {
-      "_raw": "-21",
-      "lower": "-21",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-10",
-      "lower": "-10",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "m",
+    "damage": 16,
+    "onBlock": -21,
+    "onHit": -10,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Lee-ws3,3",
+    "parent": "Lee-ws3",
+    "name": null,
     "input": "ws3,3",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      16,
-      11
-    ],
-    "framesOnBlock": {
-      "_raw": "-15",
-      "lower": "-15",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-4c",
-      "lower": "-4",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "m,m",
+    "damage": "16,11",
+    "onBlock": -15,
+    "onHit": "-4c",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Lee-ws3,3,D+3",
+    "parent": "Lee-ws3,3",
+    "name": null,
     "input": "ws3,3,D+3",
-    "hitLevels": [
-      "m",
-      "m",
-      "l"
-    ],
-    "damage": [
-      16,
-      11,
-      8
-    ],
-    "framesOnBlock": {
-      "_raw": "-19",
-      "lower": "-19",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-8",
-      "lower": "-8",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "m,m,l",
+    "damage": "16,11,8",
+    "onBlock": -19,
+    "onHit": -8,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 80,
+    "id": "Lee-ws3,3,D+3,3",
+    "parent": "Lee-ws3,3,D+3",
     "name": "Infinite Kick Chain: Low",
-    "input": "ws3,3,D+3,3...",
-    "hitLevels": [
-      "m",
-      "m",
-      "l",
-      "h"
-    ],
-    "damage": [
-      16,
-      11,
-      8,
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-16",
-      "lower": "-16",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-5",
-      "lower": "-5",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": "ws3,3,D+3,3 ...",
+    "startup": "i10",
+    "hitLevels": "m,m,l,h",
+    "damage": "16,11,8,10",
+    "onBlock": -16,
+    "onHit": -5,
+    "onCounterHit": null,
+    "states": null,
+    "index": 80
   },
   {
+    "id": "Lee-ws3,3,DF+3",
+    "parent": "Lee-ws3,3",
+    "name": null,
     "input": "ws3,3,DF+3",
-    "hitLevels": [
-      "m",
-      "m",
-      "m"
-    ],
-    "damage": [
-      16,
-      11,
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-19",
-      "lower": "-19",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-8",
-      "lower": "-8",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "m,m,m",
+    "damage": "16,11,10",
+    "onBlock": -19,
+    "onHit": -8,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 81,
+    "id": "Lee-ws3,3,DF+3,3",
+    "parent": "Lee-ws3,3,DF+3",
     "name": "Infinite Kick Chain: Middle",
-    "input": "ws3,3,DF+3,3...",
-    "hitLevels": [
-      "m",
-      "m",
-      "m",
-      "h"
-    ],
-    "damage": [
-      16,
-      11,
-      10,
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-16",
-      "lower": "-16",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-8",
-      "lower": "-8",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": "ws3,3,DF+3,3 ...",
+    "startup": "i10",
+    "hitLevels": "m,m,m,h",
+    "damage": "16,11,10,10",
+    "onBlock": -16,
+    "onHit": -8,
+    "onCounterHit": null,
+    "states": null,
+    "index": 81
   },
   {
-    "index": 82,
+    "id": "Lee-ws4",
+    "parent": null,
     "name": "Toe Smash",
     "input": "ws4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      16
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "5",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i11",
-      "lower": "i11",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i11",
+    "hitLevels": "m",
+    "damage": 16,
+    "onBlock": -6,
+    "onHit": 5,
+    "onCounterHit": null,
+    "states": null,
+    "index": 82
   }
 ]

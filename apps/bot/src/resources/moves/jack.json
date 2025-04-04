@@ -1,7147 +1,2620 @@
 [
   {
+    "id": "Jack-8-1",
+    "parent": null,
     "name": "Jab",
-    "input": "1",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "6",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "9",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": 1,
+    "startup": "i12",
+    "hitLevels": "h",
+    "damage": 10,
+    "onBlock": -2,
+    "onHit": 6,
+    "onCounterHit": 9,
+    "states": null,
+    "index": null
   },
   {
-    "index": 13,
+    "id": "Jack-8-1,1",
+    "parent": "Jack-8-1",
     "name": "Jab &gt; Jackhammer",
     "input": "1,1",
-    "hitLevels": [
-      "h",
-      "m"
-    ],
-    "damage": [
-      10,
-      22
-    ],
-    "framesOnBlock": {
-      "_raw": "-14c",
-      "lower": "-14",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnHit": {
-      "_raw": "+4c",
-      "lower": "+4",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "+12d",
-      "lower": "+12",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "h,m",
+    "damage": "10,22",
+    "onBlock": "-14c",
+    "onHit": "+4c",
+    "onCounterHit": "+12d",
+    "states": null,
+    "index": 13
   },
   {
-    "index": 18,
+    "id": "Jack-8-1+2",
+    "parent": null,
     "name": "Tornado Punch",
     "input": "1+2",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      8,
-      14
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+67a (+51)",
-      "lower": "+67",
-      "properties": [
-        "a"
-      ],
-      "tech": "+51"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m,m",
+    "damage": "8,14",
+    "onBlock": -13,
+    "onHit": "+67a (+51)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 18
   },
   {
-    "index": 14,
+    "id": "Jack-8-1,2",
+    "parent": "Jack-8-1",
     "name": "Jab &gt; Stunning Hook",
     "input": "1,2",
-    "hitLevels": [
-      "h",
-      "h"
-    ],
-    "damage": [
-      10,
-      24
-    ],
-    "framesOnBlock": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+30a",
-      "lower": "+30",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "h,h",
+    "damage": "10,24",
+    "onBlock": -2,
+    "onHit": "+30a",
+    "onCounterHit": null,
+    "states": null,
+    "index": 14
   },
   {
-    "index": 80,
+    "id": "Jack-8-1+2+3+4",
+    "parent": null,
     "name": "Ki Charge",
     "input": "1+2+3+4",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": 80
   },
   {
-    "index": 118,
+    "id": "Jack-8-1+3",
+    "parent": null,
     "name": "Rotary Catapult",
     "input": "1+3",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      35
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+1d",
-      "lower": "+1",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "t",
+    "damage": 35,
+    "onBlock": 0,
+    "onHit": "+1d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 118
   },
   {
+    "id": "Jack-8-1+4",
+    "parent": null,
+    "name": null,
     "input": "1+4",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i22~",
-      "lower": "i22",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i22~",
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Jack-8-1+4*,1",
+    "parent": null,
     "name": "Gigaton Punch (2/3/4/5 spins)",
     "input": "1+4*,1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      354555199
-    ],
-    "framesOnBlock": {
-      "_raw": "!",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+70d",
-      "lower": "+70",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17(68/93/118~)",
-      "lower": "i17",
-      "properties": [],
-      "upper": ""
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17(68/93/118~)",
+    "hitLevels": "m",
+    "damage": "35/45/55/199",
+    "onBlock": "!",
+    "onHit": "+70d",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Jack-8-1+4,1",
+    "parent": "Jack-8-1+4",
     "name": "Gigaton Punch",
     "input": "1+4,1",
-    "hitLevels": [
-      "nullm"
-    ],
-    "damage": [
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "+21g",
-      "lower": "+21",
-      "properties": [
-        "g"
-      ]
-    },
-    "framesOnHit": {
-      "_raw": "+7a (-2)",
-      "lower": "+7",
-      "properties": [
-        "a"
-      ],
-      "tech": "-2"
-    },
-    "framesOnCounter": {
-      "_raw": "+39d (-8)",
-      "lower": "+39",
-      "properties": [
-        "d"
-      ],
-      "tech": "-8"
-    },
-    "framesOnStartup": {
-      "_raw": "i22~",
-      "lower": "i22",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i22~",
+    "hitLevels": "nullm",
+    "damage": "null25",
+    "onBlock": "+21g",
+    "onHit": "+7a (-2)",
+    "onCounterHit": "+39d (-8)",
+    "states": null,
+    "index": null
   },
   {
-    "index": 22,
+    "id": "Jack-8-1+4,df+1",
+    "parent": "Jack-8-1+4",
     "name": "Windup Uppercut",
     "input": "1+4,df+1",
-    "hitLevels": [
-      "nullm"
-    ],
-    "damage": [
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-17",
-      "lower": "-17",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+52a (+42)",
-      "lower": "+52",
-      "properties": [
-        "a"
-      ],
-      "tech": "+42"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i22~",
-      "lower": "i22",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i22~",
+    "hitLevels": "nullm",
+    "damage": "null21",
+    "onBlock": -17,
+    "onHit": "+52a (+42)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 22
   },
   {
+    "id": "Jack-8-1+4:df+1",
+    "parent": null,
     "name": "Prime Windup Uppercut",
     "input": "1+4:df+1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      30
-    ],
-    "framesOnBlock": {
-      "_raw": "-17",
-      "lower": "-17",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+66a (+50)",
-      "lower": "+66",
-      "properties": [
-        "a"
-      ],
-      "tech": "+50"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20~23",
-      "lower": "i20",
-      "properties": [],
-      "upper": "23"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20~23",
+    "hitLevels": "m",
+    "damage": 30,
+    "onBlock": -17,
+    "onHit": "+66a (+50)",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "input": "2",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "1",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "9",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i11",
-      "lower": "i11",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "id": "Jack-8-2",
+    "parent": null,
+    "name": null,
+    "input": 2,
+    "startup": "i11",
+    "hitLevels": "h",
+    "damage": 10,
+    "onBlock": 1,
+    "onHit": 9,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Jack-8-2,1",
+    "parent": "Jack-8-2",
+    "name": null,
     "input": "2,1",
-    "hitLevels": [
-      "h",
-      "m"
-    ],
-    "damage": [
-      10,
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "2",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i11",
-      "lower": "i11",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i11",
+    "hitLevels": "h,m",
+    "damage": "10,12",
+    "onBlock": -3,
+    "onHit": 2,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 16,
+    "id": "Jack-8-2,1,1+2",
+    "parent": "Jack-8-2,1",
     "name": "Piston Gun Fusillade",
     "input": "2,1,1+2",
-    "hitLevels": [
-      "h",
-      "m",
-      "h",
-      "h",
-      "h",
-      "h",
-      "h"
-    ],
-    "damage": [
-      10,
-      12,
-      10,
-      6,
-      6,
-      6,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-4",
-      "lower": "-4",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+13d",
-      "lower": "+13",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i11",
-      "lower": "i11",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i11",
+    "hitLevels": "h,m,h,h,h,h,h",
+    "damage": "10,12,10,6,6,6,20",
+    "onBlock": -4,
+    "onHit": "+13d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 16
   },
   {
-    "index": 15,
+    "id": "Jack-8-2,1,2",
+    "parent": "Jack-8-2,1",
     "name": "Jab Elbow Smash",
     "input": "2,1,2",
-    "hitLevels": [
-      "h",
-      "m",
-      "m"
-    ],
-    "damage": [
-      10,
-      12,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+29a (+19)",
-      "lower": "+29",
-      "properties": [
-        "a"
-      ],
-      "tech": "+19"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i11",
-      "lower": "i11",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i11",
+    "hitLevels": "h,m,m",
+    "damage": "10,12,20",
+    "onBlock": -12,
+    "onHit": "+29a (+19)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 15
   },
   {
+    "id": "Jack-8-2+3",
+    "parent": null,
     "name": "Heat Burst",
     "input": "2+3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "1",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+2c",
-      "lower": "+2",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "m",
+    "damage": "(12)",
+    "onBlock": 1,
+    "onHit": "+2c",
+    "onCounterHit": null,
+    "states": "pc",
+    "index": null
   },
   {
-    "index": 17,
+    "id": "Jack-8-2,3",
+    "parent": "Jack-8-2",
     "name": "Mimesis Savage Knee",
     "input": "2,3",
-    "hitLevels": [
-      "h",
-      "m"
-    ],
-    "damage": [
-      10,
-      18
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "5",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+30d (+22)",
-      "lower": "+30",
-      "properties": [
-        "d"
-      ],
-      "tech": "+22"
-    },
-    "framesOnStartup": {
-      "_raw": "i11",
-      "lower": "i11",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i11",
+    "hitLevels": "h,m",
+    "damage": "10,18",
+    "onBlock": -13,
+    "onHit": 5,
+    "onCounterHit": "+30d (+22)",
+    "states": null,
+    "index": 17
   },
   {
-    "index": 119,
+    "id": "Jack-8-2+4",
+    "parent": null,
     "name": "Piston Gun Back Breaker",
     "input": "2+4",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      35
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-3d",
-      "lower": "-3",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "t",
+    "damage": 35,
+    "onBlock": -6,
+    "onHit": "-3d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 119
   },
   {
+    "id": "Jack-8-3",
+    "parent": null,
     "name": "Left Kick",
-    "input": "3",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      30
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+18d (+8)",
-      "lower": "+18",
-      "properties": [
-        "d"
-      ],
-      "tech": "+8"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18",
-      "lower": "i18",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": 3,
+    "startup": "i18",
+    "hitLevels": "h",
+    "damage": 30,
+    "onBlock": -13,
+    "onHit": "+18d (+8)",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 115,
+    "id": "Jack-8-3+4",
+    "parent": null,
     "name": "Gamma Howl (Gamma Charge)",
     "input": "3+4",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "pc7",
-      "lower": "c7",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "pc7",
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": 115
   },
   {
+    "id": "Jack-8-4",
+    "parent": null,
     "name": "Right Kick",
-    "input": "4",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      18
-    ],
-    "framesOnBlock": {
-      "_raw": "-4",
-      "lower": "-4",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "7",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+32d (+22)",
-      "lower": "+32",
-      "properties": [
-        "d"
-      ],
-      "tech": "+22"
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": 4,
+    "startup": "i16",
+    "hitLevels": "h",
+    "damage": 18,
+    "onBlock": -4,
+    "onHit": 7,
+    "onCounterHit": "+32d (+22)",
+    "states": null,
+    "index": null
   },
   {
+    "id": "Jack-8-b+1",
+    "parent": null,
+    "name": null,
     "input": "b+1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      17
-    ],
-    "framesOnBlock": {
-      "_raw": "-11",
-      "lower": "-11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "8",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20",
-      "lower": "i20",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20",
+    "hitLevels": "m",
+    "damage": 17,
+    "onBlock": -11,
+    "onHit": 8,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 59,
+    "id": "Jack-8-b+1+2",
+    "parent": null,
     "name": "Tyulpan Blast",
     "input": "b+1+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      28
-    ],
-    "framesOnBlock": {
-      "_raw": "-19",
-      "lower": "-19",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-1d (-10)",
-      "lower": "-1",
-      "properties": [
-        "d"
-      ],
-      "tech": "-10"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14",
-      "lower": "i14",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14",
+    "hitLevels": "m",
+    "damage": 28,
+    "onBlock": -19,
+    "onHit": "-1d (-10)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 59
   },
   {
-    "index": 55,
+    "id": "Jack-8-b+1,2",
+    "parent": "Jack-8-b+1",
     "name": "Double Biceps",
     "input": "b+1,2",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      17,
-      17
-    ],
-    "framesOnBlock": {
-      "_raw": "-14c",
-      "lower": "-14",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnHit": {
-      "_raw": "+15d",
-      "lower": "+15",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "+47a",
-      "lower": "+47",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i20",
-      "lower": "i20",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20",
+    "hitLevels": "m,m",
+    "damage": "17,17",
+    "onBlock": "-14c",
+    "onHit": "+15d",
+    "onCounterHit": "+47a",
+    "states": null,
+    "index": 55
   },
   {
-    "index": 56,
+    "id": "Jack-8-b+2",
+    "parent": null,
     "name": "Piston Gun Assault",
     "input": "b+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      27
-    ],
-    "framesOnBlock": {
-      "_raw": "5",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+2d",
-      "lower": "+2",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i19",
-      "lower": "i19",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i19",
+    "hitLevels": "m",
+    "damage": 27,
+    "onBlock": 5,
+    "onHit": "+2d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 56
   },
   {
+    "id": "Jack-8-b+2*",
+    "parent": null,
     "name": "Piston Gun Assault (charged)",
     "input": "b+2*",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      40
-    ],
-    "framesOnBlock": {
-      "_raw": "-2 (+5 WC)",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+17a (+9)",
-      "lower": "+17",
-      "properties": [
-        "a"
-      ],
-      "tech": "+9"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i35",
-      "lower": "i35",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i35",
+    "hitLevels": "m",
+    "damage": 40,
+    "onBlock": "-2 (+5 WC)",
+    "onHit": "+17a (+9)",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Jack-8-b+3",
+    "parent": null,
+    "name": null,
     "input": "b+3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      14
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "2",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "m",
+    "damage": 14,
+    "onBlock": -9,
+    "onHit": 2,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Jack-8-b+3,2",
+    "parent": "Jack-8-b+3",
+    "name": null,
     "input": "b+3,2",
-    "hitLevels": [
-      "m",
-      "h"
-    ],
-    "damage": [
-      1413
-    ],
-    "framesOnBlock": {
-      "_raw": "-4",
-      "lower": "-4",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "1",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "m,h",
+    "damage": "1413",
+    "onBlock": -4,
+    "onHit": 1,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 57,
+    "id": "Jack-8-b+3,2,2",
+    "parent": "Jack-8-b+3,2",
     "name": "Mad Dozer",
     "input": "b+3,2,2",
-    "hitLevels": [
-      "m",
-      "h",
-      "h"
-    ],
-    "damage": [
-      141320
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+44d (-14)",
-      "lower": "+44",
-      "properties": [
-        "d"
-      ],
-      "tech": "-14"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "m,h,h",
+    "damage": "141320",
+    "onBlock": -9,
+    "onHit": "+44d (-14)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 57
   },
   {
+    "id": "Jack-8-b+3,2,2*",
+    "parent": "Jack-8-b+3,2",
     "name": "Mad Dozer (charged)",
     "input": "b+3,2,2*",
-    "hitLevels": [
-      "m",
-      "h",
-      "m"
-    ],
-    "damage": [
-      141340
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+13d (+5)",
-      "lower": "+13",
-      "properties": [
-        "d"
-      ],
-      "tech": "+5"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "m,h,m",
+    "damage": "141340",
+    "onBlock": -9,
+    "onHit": "+13d (+5)",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Jack-8-b+4",
+    "parent": null,
+    "name": null,
     "input": "b+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      16
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "-2a",
-      "lower": "-2",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i13",
-      "lower": "i13",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13",
+    "hitLevels": "m",
+    "damage": 16,
+    "onBlock": -13,
+    "onHit": -2,
+    "onCounterHit": "-2a",
+    "states": null,
+    "index": null
   },
   {
-    "index": 58,
+    "id": "Jack-8-b+4,4",
+    "parent": "Jack-8-b+4",
     "name": "Sherman Stomp",
     "input": "b+4,4",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      16,
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-4",
-      "lower": "-4",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-8d",
-      "lower": "-8",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13",
-      "lower": "i13",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13",
+    "hitLevels": "m,m",
+    "damage": "16,21",
+    "onBlock": -4,
+    "onHit": "-8d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 58
   },
   {
-    "index": 122,
+    "id": "Jack-8-Back Throw 1+3",
+    "parent": null,
     "name": "Spinal Crush",
-    "input": "BackThrow1+3",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      70
-    ],
-    "framesOnBlock": {
-      "_raw": "!",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+3d",
-      "lower": "+3",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": "Back Throw 1+3",
+    "startup": "i12",
+    "hitLevels": "t",
+    "damage": 70,
+    "onBlock": "!",
+    "onHit": "+3d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 122
   },
   {
-    "index": 123,
+    "id": "Jack-8-Back Throw 2+4",
+    "parent": null,
     "name": "Throw Away",
-    "input": "BackThrow2+4",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      70
-    ],
-    "framesOnBlock": {
-      "_raw": "!",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+17d",
-      "lower": "+17",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": "Back Throw 2+4",
+    "startup": "i12",
+    "hitLevels": "t",
+    "damage": 70,
+    "onBlock": "!",
+    "onHit": "+17d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 123
   },
   {
+    "id": "Jack-8-b,db,d,df+1",
+    "parent": null,
     "name": "Debugger",
     "input": "b,db,d,df+1",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      28
-    ],
-    "framesOnBlock": {
-      "_raw": "-37",
-      "lower": "-37",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+18d",
-      "lower": "+18",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i29",
-      "lower": "i29",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i29",
+    "hitLevels": "l",
+    "damage": 28,
+    "onBlock": -37,
+    "onHit": "+18d",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Jack-8-b,db,d,df+2",
+    "parent": null,
     "name": "Megaton Blast",
     "input": "b,db,d,df+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      31
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+31d (-5)",
-      "lower": "+31",
-      "properties": [
-        "d"
-      ],
-      "tech": "-5"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i22",
-      "lower": "i22",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i22",
+    "hitLevels": "m",
+    "damage": 31,
+    "onBlock": -9,
+    "onHit": "+31d (-5)",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Jack-8-d+1",
+    "parent": null,
+    "name": null,
     "input": "d+1",
-    "hitLevels": [
-      "s"
-    ],
-    "damage": [
-      5
-    ],
-    "framesOnBlock": {
-      "_raw": "-5",
-      "lower": "-5",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "6",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "s",
+    "damage": 5,
+    "onBlock": -5,
+    "onHit": 6,
+    "onCounterHit": null,
+    "states": "cs4",
+    "index": null
   },
   {
-    "index": 46,
+    "id": "Jack-8-d+1+2",
+    "parent": null,
     "name": "Double Axe",
     "input": "d+1+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      28
-    ],
-    "framesOnBlock": {
-      "_raw": "-18",
-      "lower": "-18",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+42a (+32)",
-      "lower": "+42",
-      "properties": [
-        "a"
-      ],
-      "tech": "+32"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i27",
-      "lower": "i27",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i27",
+    "hitLevels": "m",
+    "damage": 28,
+    "onBlock": -18,
+    "onHit": "+42a (+32)",
+    "onCounterHit": null,
+    "states": "cs6",
+    "index": 46
   },
   {
-    "index": 133,
+    "id": "Jack-8-d+1+3",
+    "parent": null,
     "name": "Gun Bomb",
     "input": "d+1+3",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      30
-    ],
-    "framesOnBlock": {
-      "_raw": "!",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "t",
+    "damage": 30,
+    "onBlock": "!",
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 133
   },
   {
+    "id": "Jack-8-d+2",
+    "parent": null,
+    "name": null,
     "input": "d+2",
-    "hitLevels": [
-      "s"
-    ],
-    "damage": [
-      8
-    ],
-    "framesOnBlock": {
-      "_raw": "-4",
-      "lower": "-4",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "7",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i11",
-      "lower": "i11",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i11",
+    "hitLevels": "s",
+    "damage": 8,
+    "onBlock": -4,
+    "onHit": 7,
+    "onCounterHit": null,
+    "states": "cs4",
+    "index": null
   },
   {
+    "id": "Jack-8-d+2,1",
+    "parent": "Jack-8-d+2",
+    "name": null,
     "input": "d+2,1",
-    "hitLevels": [
-      "s",
-      "l"
-    ],
-    "damage": [
-      8,
-      6
-    ],
-    "framesOnBlock": {
-      "_raw": "-14",
-      "lower": "-14",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i11",
-      "lower": "i11",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i11",
+    "hitLevels": "s,l",
+    "damage": "8,6",
+    "onBlock": -14,
+    "onHit": -3,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 134,
+    "id": "Jack-8-d+2+4",
+    "parent": null,
     "name": "Iron Gunman",
     "input": "d+2+4",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "!",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+6d",
-      "lower": "+6",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "t",
+    "damage": 25,
+    "onBlock": "!",
+    "onHit": "+6d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 134
   },
   {
+    "id": "Jack-8-d+3",
+    "parent": null,
+    "name": null,
     "input": "d+3",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-17",
-      "lower": "-17",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20",
-      "lower": "i20",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20",
+    "hitLevels": "l",
+    "damage": 12,
+    "onBlock": -17,
+    "onHit": -6,
+    "onCounterHit": null,
+    "states": "cs4",
+    "index": null
   },
   {
+    "id": "Jack-8-d+3+4",
+    "parent": null,
     "name": "Sit Down",
     "input": "d+3+4",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Jack-8-d+4",
+    "parent": null,
+    "name": null,
     "input": "d+4",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-15",
-      "lower": "-15",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-4",
-      "lower": "-4",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "l",
+    "damage": 10,
+    "onBlock": -15,
+    "onHit": -4,
+    "onCounterHit": null,
+    "states": "cs4",
+    "index": null
   },
   {
+    "id": "Jack-8-db+1",
+    "parent": null,
+    "name": null,
     "input": "db+1",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      13
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "1",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "l",
+    "damage": 13,
+    "onBlock": -12,
+    "onHit": 1,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Jack-8-db+1,1",
+    "parent": "Jack-8-db+1",
+    "name": null,
     "input": "db+1,1",
-    "hitLevels": [
-      "l",
-      "l"
-    ],
-    "damage": [
-      13,
-      5
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-1",
-      "lower": "-1",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "l,l",
+    "damage": "13,5",
+    "onBlock": -12,
+    "onHit": -1,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Jack-8-db+1,1,1",
+    "parent": "Jack-8-db+1,1",
+    "name": null,
     "input": "db+1,1,1",
-    "hitLevels": [
-      "l",
-      "l",
-      "l"
-    ],
-    "damage": [
-      13,
-      5,
-      5
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-1",
-      "lower": "-1",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "l,l,l",
+    "damage": "13,5,5",
+    "onBlock": -12,
+    "onHit": -1,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 48,
+    "id": "Jack-8-db+1,1,1,2",
+    "parent": "Jack-8-db+1,1,1",
     "name": "Machinegun Blast",
     "input": "db+1,1,1,2",
-    "hitLevels": [
-      "l",
-      "l",
-      "l",
-      "m"
-    ],
-    "damage": [
-      13,
-      5,
-      5,
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-11",
-      "lower": "-11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+43a (-4)",
-      "lower": "+43",
-      "properties": [
-        "a"
-      ],
-      "tech": "-4"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "l,l,l,m",
+    "damage": "13,5,5,21",
+    "onBlock": -11,
+    "onHit": "+43a (-4)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 48
   },
   {
-    "index": 54,
+    "id": "Jack-8-db1+2",
+    "parent": null,
     "name": "Megaton Earthquake",
     "input": "db+1+2",
-    "hitLevels": [
-      "l",
-      "l"
-    ],
-    "damage": [
-      8,
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-70",
-      "lower": "-70",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-5d",
-      "lower": "-5",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18",
-      "lower": "i18",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18",
+    "hitLevels": "l,l",
+    "damage": "8,21",
+    "onBlock": -70,
+    "onHit": "-5d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 54
   },
   {
-    "index": 49,
+    "id": "Jack-8-db+2",
+    "parent": null,
     "name": "Power Shovel",
     "input": "db+2",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      24
-    ],
-    "framesOnBlock": {
-      "_raw": "-18",
-      "lower": "-18",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+3c",
-      "lower": "+3",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "+33d",
-      "lower": "+33",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i22",
-      "lower": "i22",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i22",
+    "hitLevels": "l",
+    "damage": 24,
+    "onBlock": -18,
+    "onHit": "+3c",
+    "onCounterHit": "+33d",
+    "states": "cs6",
+    "index": 49
   },
   {
+    "id": "Jack-8-db+2*",
+    "parent": null,
     "name": "Power Shovel (charged)",
     "input": "db+2*",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      30
-    ],
-    "framesOnBlock": {
-      "_raw": "-33",
-      "lower": "-33",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+17d",
-      "lower": "+17",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i36",
-      "lower": "i36",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i36",
+    "hitLevels": "l",
+    "damage": 30,
+    "onBlock": -33,
+    "onHit": "+17d",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 126,
+    "id": "Jack-8-db+2+3",
+    "parent": null,
     "name": "Body Smash",
     "input": "db+2+3",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+14c",
-      "lower": "+14",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i11",
-      "lower": "i11",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i11",
+    "hitLevels": "t",
+    "damage": 25,
+    "onBlock": -2,
+    "onHit": "+14c",
+    "onCounterHit": null,
+    "states": null,
+    "index": 126
   },
   {
+    "id": "Jack-8-db+3",
+    "parent": null,
     "name": "Cossack Kick",
     "input": "db+3",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "-20",
-      "lower": "-20",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i21",
-      "lower": "i21",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i21",
+    "hitLevels": "l",
+    "damage": 15,
+    "onBlock": -20,
+    "onHit": -9,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 51,
+    "id": "Jack-8-db+3,1+2",
+    "parent": "Jack-8-db+3",
     "name": "Cossack Smash",
-    "input": "db+3,...1+2",
-    "hitLevels": [
-      "l",
-      "h"
-    ],
-    "damage": [
-      15,
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "+14g",
-      "lower": "+14",
-      "properties": [
-        "g"
-      ]
-    },
-    "framesOnHit": {
-      "_raw": "+43a (-15)",
-      "lower": "+43",
-      "properties": [
-        "a"
-      ],
-      "tech": "-15"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i21",
-      "lower": "i21",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": "db+3, ... 1+2",
+    "startup": "i21",
+    "hitLevels": "l,h",
+    "damage": "15,21",
+    "onBlock": "+14g",
+    "onHit": "+43a (-15)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 51
   },
   {
+    "id": "Jack-8-db+3,4",
+    "parent": "Jack-8-db+3",
+    "name": null,
     "input": "db+3,4",
-    "hitLevels": [
-      "l",
-      "l"
-    ],
-    "damage": [
-      15,
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-16",
-      "lower": "-16",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i21",
-      "lower": "i21",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i21",
+    "hitLevels": "l,l",
+    "damage": "15,12",
+    "onBlock": -16,
+    "onHit": -9,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Jack-8-db+3,4,3",
+    "parent": "Jack-8-db+3,4",
+    "name": null,
     "input": "db+3,4,3",
-    "hitLevels": [
-      "l",
-      "l",
-      "l"
-    ],
-    "damage": [
-      15,
-      12,
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-19",
-      "lower": "-19",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-8",
-      "lower": "-8",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i21",
-      "lower": "i21",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i21",
+    "hitLevels": "l,l,l",
+    "damage": "15,12,12",
+    "onBlock": -19,
+    "onHit": -8,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Jack-8-db+3,4,3,4",
+    "parent": "Jack-8-db+3,4,3",
+    "name": null,
     "input": "db+3,4,3,4",
-    "hitLevels": [
-      "l",
-      "l",
-      "l",
-      "l"
-    ],
-    "damage": [
-      15,
-      12,
-      12,
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-16",
-      "lower": "-16",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-5",
-      "lower": "-5",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i21",
-      "lower": "i21",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i21",
+    "hitLevels": "l,l,l,l",
+    "damage": "15,12,12,12",
+    "onBlock": -16,
+    "onHit": -5,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Jack-8-db+3,4,3,4,3",
+    "parent": "Jack-8-db+3,4,3,4",
+    "name": null,
     "input": "db+3,4,3,4,3",
-    "hitLevels": [
-      "l",
-      "l",
-      "l",
-      "l",
-      "l"
-    ],
-    "damage": [
-      15,
-      12,
-      12,
-      12,
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-19",
-      "lower": "-19",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-8",
-      "lower": "-8",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i21",
-      "lower": "i21",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i21",
+    "hitLevels": "l,l,l,l,l",
+    "damage": "15,12,12,12,12",
+    "onBlock": -19,
+    "onHit": -8,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 50,
+    "id": "Jack-8-db+3,4,3,4,3,4",
+    "parent": "Jack-8-db+3,4,3,4,3",
     "name": "Cossack Kicks",
     "input": "db+3,4,3,4,3,4",
-    "hitLevels": [
-      "l",
-      "l",
-      "l",
-      "l",
-      "l",
-      "l"
-    ],
-    "damage": [
-      15,
-      12,
-      12,
-      12,
-      12,
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-16",
-      "lower": "-16",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-5",
-      "lower": "-5",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i21",
-      "lower": "i21",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i21",
+    "hitLevels": "l,l,l,l,l,l",
+    "damage": "15,12,12,12,12,12",
+    "onBlock": -16,
+    "onHit": -5,
+    "onCounterHit": null,
+    "states": null,
+    "index": 50
   },
   {
-    "index": 52,
+    "id": "Jack-8-db+3,d+1+2",
+    "parent": "Jack-8-db+3",
     "name": "Cossack Compactor",
-    "input": "db+3,...d+1+2",
-    "hitLevels": [
-      "l",
-      "m(th)"
-    ],
-    "damage": [
-      15,
-      4,
-      5,
-      5,
-      5,
-      5,
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i21",
-      "lower": "i21",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": "db+3, ... d+1+2",
+    "startup": "i21",
+    "hitLevels": "l,m (th)",
+    "damage": "15,4,5,5,5,5,21",
+    "onBlock": null,
+    "onHit": 0,
+    "onCounterHit": null,
+    "states": null,
+    "index": 52
   },
   {
-    "index": 53,
+    "id": "Jack-8-db+4",
+    "parent": null,
     "name": "Big Boot",
     "input": "db+4",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      14
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "l",
+    "damage": 14,
+    "onBlock": -13,
+    "onHit": -2,
+    "onCounterHit": null,
+    "states": "cs6",
+    "index": 53
   },
   {
-    "index": 129,
+    "id": "Jack-8-db,n,f+1+2",
+    "parent": null,
     "name": "Pile Driver",
     "input": "db,n,f+1+2",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      50
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-1d",
-      "lower": "-1",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i11",
-      "lower": "i11",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i11",
+    "hitLevels": "t",
+    "damage": 50,
+    "onBlock": -6,
+    "onHit": "-1d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 129
   },
   {
+    "id": "Jack-8-df+1",
+    "parent": null,
+    "name": null,
     "input": "df+1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-4",
-      "lower": "-4",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "3",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "5",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14",
-      "lower": "i14",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14",
+    "hitLevels": "m",
+    "damage": 12,
+    "onBlock": -4,
+    "onHit": 3,
+    "onCounterHit": 5,
+    "states": null,
+    "index": null
   },
   {
-    "index": 34,
+    "id": "Jack-8-df+1,1",
+    "parent": "Jack-8-df+1",
     "name": "Overheat",
     "input": "df+1,1",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      12,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-11",
-      "lower": "-11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+21cg",
-      "lower": "+21",
-      "properties": [
-        "cg"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "+72a (+56)",
-      "lower": "+72",
-      "properties": [
-        "a"
-      ],
-      "tech": "+56"
-    },
-    "framesOnStartup": {
-      "_raw": "i14",
-      "lower": "i14",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14",
+    "hitLevels": "m,m",
+    "damage": "12,20",
+    "onBlock": -11,
+    "onHit": "+21cg",
+    "onCounterHit": "+72a (+56)",
+    "states": null,
+    "index": 34
   },
   {
+    "id": "Jack-8-df+1,2",
+    "parent": "Jack-8-df+1",
+    "name": null,
     "input": "df+1,2",
-    "hitLevels": [
-      "m",
-      "h"
-    ],
-    "damage": [
-      1210
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-1",
-      "lower": "-1",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14",
-      "lower": "i14",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14",
+    "hitLevels": "m,h",
+    "damage": "1210",
+    "onBlock": -12,
+    "onHit": -1,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Jack-8-df+1,2,1",
+    "parent": "Jack-8-df+1,2",
+    "name": null,
     "input": "df+1,2,1",
-    "hitLevels": [
-      "m",
-      "h",
-      "h"
-    ],
-    "damage": [
-      1210,
-      2
-    ],
-    "framesOnBlock": {
-      "_raw": "-10",
-      "lower": "-10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14",
-      "lower": "i14",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14",
+    "hitLevels": "m,h,h",
+    "damage": "1210,2",
+    "onBlock": -10,
+    "onHit": -2,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 35,
+    "id": "Jack-8-df+1,2,1,2",
+    "parent": "Jack-8-df+1,2,1",
     "name": "Overdrive",
     "input": "df+1,2,1,2",
-    "hitLevels": [
-      "m",
-      "h",
-      "h",
-      "h"
-    ],
-    "damage": [
-      1210,
-      2,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-18",
-      "lower": "-18",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+35d (-23)",
-      "lower": "+35",
-      "properties": [
-        "d"
-      ],
-      "tech": "-23"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14",
-      "lower": "i14",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14",
+    "hitLevels": "m,h,h,h",
+    "damage": "1210,2,20",
+    "onBlock": -18,
+    "onHit": "+35d (-23)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 35
   },
   {
-    "index": 42,
+    "id": "Jack-8-df+1+3",
+    "parent": null,
     "name": "Body Press",
     "input": "df+1+3",
-    "hitLevels": [
-      "sm"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-11",
-      "lower": "-11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d~+19d",
-      "lower": "+0",
-      "properties": [
-        "d",
-        "d"
-      ],
-      "upper": "+19"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i30~49",
-      "lower": "i30",
-      "properties": [],
-      "upper": "49"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i30~49",
+    "hitLevels": "sm",
+    "damage": 20,
+    "onBlock": -11,
+    "onHit": "+0d~+19d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 42
   },
   {
-    "index": 44,
+    "id": "Jack-8-df+1+4",
+    "parent": null,
     "name": "Debugger",
     "input": "df+1+4",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "-37",
-      "lower": "-37",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+18d",
-      "lower": "+18",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i34",
-      "lower": "i34",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i34",
+    "hitLevels": "l",
+    "damage": 23,
+    "onBlock": -37,
+    "onHit": "+18d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 44
   },
   {
-    "index": 36,
+    "id": "Jack-8-df+2",
+    "parent": null,
     "name": "Programmed Uppercut",
     "input": "df+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      13
-    ],
-    "framesOnBlock": {
-      "_raw": "-14",
-      "lower": "-14",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+31a (+21)",
-      "lower": "+31",
-      "properties": [
-        "a"
-      ],
-      "tech": "+21"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m",
+    "damage": 13,
+    "onBlock": -14,
+    "onHit": "+31a (+21)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 36
   },
   {
+    "id": "Jack-8-df+2,1",
+    "parent": "Jack-8-df+2",
     "name": "Cosmic Sweeper",
     "input": "df+2,1",
-    "hitLevels": [
-      "m",
-      "h"
-    ],
-    "damage": [
-      13,
-      16
-    ],
-    "framesOnBlock": {
-      "_raw": "-32",
-      "lower": "-32",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+40a (+22)",
-      "lower": "+40",
-      "properties": [
-        "a"
-      ],
-      "tech": "+22"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m,h",
+    "damage": "13,16",
+    "onBlock": -32,
+    "onHit": "+40a (+22)",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Jack-8-df+2,1*",
+    "parent": "Jack-8-df+2",
     "name": "Cosmic Sweeper (charged)",
     "input": "df+2,1*",
-    "hitLevels": [
-      "m",
-      "h"
-    ],
-    "damage": [
-      13,
-      16
-    ],
-    "framesOnBlock": {
-      "_raw": "-46",
-      "lower": "-46",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+69a (+53)",
-      "lower": "+69",
-      "properties": [
-        "a"
-      ],
-      "tech": "+53"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m,h",
+    "damage": "13,16",
+    "onBlock": -46,
+    "onHit": "+69a (+53)",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 45,
+    "id": "Jack-8-df+2+3",
+    "parent": null,
     "name": "Megaton Blast",
     "input": "df+2+3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      26
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+31d (-5)",
-      "lower": "+31",
-      "properties": [
-        "d"
-      ],
-      "tech": "-5"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i22",
-      "lower": "i22",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i22",
+    "hitLevels": "m",
+    "damage": 26,
+    "onBlock": -9,
+    "onHit": "+31d (-5)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 45
   },
   {
-    "index": 124,
+    "id": "Jack-8-df+2+4",
+    "parent": null,
     "name": "Volcano",
     "input": "df+2+4",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+26a",
-      "lower": "+26",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i11",
-      "lower": "i11",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i11",
+    "hitLevels": "t",
+    "damage": 10,
+    "onBlock": -2,
+    "onHit": "+26a",
+    "onCounterHit": null,
+    "states": null,
+    "index": 124
   },
   {
+    "id": "Jack-8-df+3",
+    "parent": null,
+    "name": null,
     "input": "df+3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      16
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "2",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "m",
+    "damage": 16,
+    "onBlock": -9,
+    "onHit": 2,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 39,
+    "id": "Jack-8-df+3,2",
+    "parent": "Jack-8-df+3",
     "name": "Combine Harvester",
     "input": "df+3,2",
-    "hitLevels": [
-      "m",
-      "h"
-    ],
-    "damage": [
-      1620
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+25d",
-      "lower": "+25",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "m,h",
+    "damage": "1620",
+    "onBlock": -9,
+    "onHit": "+25d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 39
   },
   {
-    "index": 41,
+    "id": "Jack-8-df+3+4",
+    "parent": null,
     "name": "Dump Truck",
     "input": "df+3+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      28
-    ],
-    "framesOnBlock": {
-      "_raw": "-23",
-      "lower": "-23",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+10a (+1)",
-      "lower": "+10",
-      "properties": [
-        "a"
-      ],
-      "tech": "+1"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13",
-      "lower": "i13",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13",
+    "hitLevels": "m",
+    "damage": 28,
+    "onBlock": -23,
+    "onHit": "+10a (+1)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 41
   },
   {
-    "index": 40,
+    "id": "Jack-8-df+4",
+    "parent": null,
     "name": "Mimesis Wrench Kick",
     "input": "df+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      17
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "5",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+14c",
-      "lower": "+14",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m",
+    "damage": 17,
+    "onBlock": -9,
+    "onHit": 5,
+    "onCounterHit": "+14c",
+    "states": null,
+    "index": 40
   },
   {
-    "index": 125,
+    "id": "Jack-8-df,DF+2+4",
+    "parent": null,
     "name": "Volcano Blaster",
     "input": "df,DF+2+4",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+54a",
-      "lower": "+54",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14",
-      "lower": "i14",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14",
+    "hitLevels": "t",
+    "damage": 10,
+    "onBlock": -2,
+    "onHit": "+54a",
+    "onCounterHit": null,
+    "states": null,
+    "index": 125
   },
   {
+    "id": "Jack-8-(During Enemy wall stun) 1+3",
+    "parent": null,
     "name": "Twin Drivers",
-    "input": "(DuringEnemywallstun)1+3",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      33
-    ],
-    "framesOnBlock": {
-      "_raw": "!",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": "(During Enemy wall stun) 1+3",
+    "startup": "i12",
+    "hitLevels": "t",
+    "damage": 33,
+    "onBlock": "!",
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Jack-8-f+1",
+    "parent": null,
+    "name": null,
     "input": "f+1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      13
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "5",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14",
-      "lower": "i14",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14",
+    "hitLevels": "m",
+    "damage": 13,
+    "onBlock": -6,
+    "onHit": 5,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 24,
+    "id": "Jack-8-f+1,1",
+    "parent": "Jack-8-f+1",
     "name": "Impact Driver",
     "input": "f+1,1",
-    "hitLevels": [
-      "m",
-      "h"
-    ],
-    "damage": [
-      13,
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-7",
-      "lower": "-7",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+8d (-1)",
-      "lower": "+8",
-      "properties": [
-        "d"
-      ],
-      "tech": "-1"
-    },
-    "framesOnCounter": {
-      "_raw": "+40d (-7)",
-      "lower": "+40",
-      "properties": [
-        "d"
-      ],
-      "tech": "-7"
-    },
-    "framesOnStartup": {
-      "_raw": "i14",
-      "lower": "i14",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14",
+    "hitLevels": "m,h",
+    "damage": "13,25",
+    "onBlock": -7,
+    "onHit": "+8d (-1)",
+    "onCounterHit": "+40d (-7)",
+    "states": null,
+    "index": 24
   },
   {
-    "index": 32,
+    "id": "Jack-8-f+1+2",
+    "parent": null,
     "name": "Rolling Death Crusher",
     "input": "f+1+2",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      12,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+32d (+6)",
-      "lower": "+32",
-      "properties": [
-        "d"
-      ],
-      "tech": "+6"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i27 pc7",
-      "lower": "i27",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i27 pc7",
+    "hitLevels": "m,m",
+    "damage": "12,20",
+    "onBlock": -12,
+    "onHit": "+32d (+6)",
+    "onCounterHit": null,
+    "states": "pc7",
+    "index": 32
   },
   {
+    "id": "Jack-8-f+1,2",
+    "parent": "Jack-8-f+1",
+    "name": null,
     "input": "f+1,2",
-    "hitLevels": [
-      "m",
-      "h"
-    ],
-    "damage": [
-      13,
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "5",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14",
-      "lower": "i14",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14",
+    "hitLevels": "m,h",
+    "damage": "13,12",
+    "onBlock": -6,
+    "onHit": 5,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 25,
+    "id": "Jack-8-f+1,2,1",
+    "parent": "Jack-8-f+1,2",
     "name": "Drilling Engine",
     "input": "f+1,2,1",
-    "hitLevels": [
-      "m",
-      "h",
-      "m"
-    ],
-    "damage": [
-      13,
-      12,
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+65a (+49)",
-      "lower": "+65",
-      "properties": [
-        "a"
-      ],
-      "tech": "+49"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14",
-      "lower": "i14",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14",
+    "hitLevels": "m,h,m",
+    "damage": "13,12,12",
+    "onBlock": -12,
+    "onHit": "+65a (+49)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 25
   },
   {
-    "index": 26,
+    "id": "Jack-8-f+1,2,2",
+    "parent": "Jack-8-f+1,2",
     "name": "Piston Gun Blaster",
     "input": "f+1,2,2",
-    "hitLevels": [
-      "m",
-      "h",
-      "m"
-    ],
-    "damage": [
-      13,
-      12,
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "6",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+3d",
-      "lower": "+3",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14",
-      "lower": "i14",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14",
+    "hitLevels": "m,h,m",
+    "damage": "13,12,12",
+    "onBlock": 6,
+    "onHit": "+3d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 26
   },
   {
+    "id": "Jack-8-f+1,2,2*",
+    "parent": "Jack-8-f+1,2",
     "name": "Piston Gun Blaster (charged)",
     "input": "f+1,2,2*",
-    "hitLevels": [
-      "m",
-      "h",
-      "m"
-    ],
-    "damage": [
-      13,
-      12,
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-12 (0 wall crush)",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+11d (-15)",
-      "lower": "+11",
-      "properties": [
-        "d"
-      ],
-      "tech": "-15"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14",
-      "lower": "i14",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14",
+    "hitLevels": "m,h,m",
+    "damage": "13,12,12",
+    "onBlock": "-12 (0 wall crush)",
+    "onHit": "+11d (-15)",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 27,
+    "id": "Jack-8-f+2",
+    "parent": null,
     "name": "Pinpoint Assault",
     "input": "f+2",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      22
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "5",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+32a (+24)",
-      "lower": "+32",
-      "properties": [
-        "a"
-      ],
-      "tech": "+24"
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h",
+    "damage": 22,
+    "onBlock": -12,
+    "onHit": 5,
+    "onCounterHit": "+32a (+24)",
+    "states": null,
+    "index": 27
   },
   {
+    "id": "Jack-8-f+3",
+    "parent": null,
+    "name": null,
     "input": "f+3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      18
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "5",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m",
+    "damage": 18,
+    "onBlock": -9,
+    "onHit": 5,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 29,
+    "id": "Jack-8-f+3,1+2",
+    "parent": "Jack-8-f+3",
     "name": "Machine Press",
     "input": "f+3,1+2",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      18,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-11c",
-      "lower": "-11",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnHit": {
-      "_raw": "+2d",
-      "lower": "+2",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "+48a",
-      "lower": "+48",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m,m",
+    "damage": "18,20",
+    "onBlock": "-11c",
+    "onHit": "+2d",
+    "onCounterHit": "+48a",
+    "states": null,
+    "index": 29
   },
   {
-    "index": 28,
+    "id": "Jack-8-f+3,2",
+    "parent": "Jack-8-f+3",
     "name": "Two-Step Die",
     "input": "f+3,2",
-    "hitLevels": [
-      "m",
-      "h"
-    ],
-    "damage": [
-      18,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+44d (-14)",
-      "lower": "+44",
-      "properties": [
-        "d"
-      ],
-      "tech": "-14"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m,h",
+    "damage": "18,20",
+    "onBlock": -9,
+    "onHit": "+44d (-14)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 28
   },
   {
-    "index": 33,
+    "id": "Jack-8-f+3+4",
+    "parent": null,
     "name": "Merkabah Headbutt",
     "input": "f+3+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      24
-    ],
-    "framesOnBlock": {
-      "_raw": "-11",
-      "lower": "-11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+9c",
-      "lower": "+9",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i22",
-      "lower": "i22",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i22",
+    "hitLevels": "m",
+    "damage": 24,
+    "onBlock": -11,
+    "onHit": "+9c",
+    "onCounterHit": null,
+    "states": null,
+    "index": 33
   },
   {
+    "id": "Jack-8-f+4",
+    "parent": null,
+    "name": null,
     "input": "f+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-4",
-      "lower": "-4",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "7",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+32d (+22)",
-      "lower": "+32",
-      "properties": [
-        "d"
-      ],
-      "tech": "+22"
-    },
-    "framesOnStartup": {
-      "_raw": "i17",
-      "lower": "i17",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17",
+    "hitLevels": "m",
+    "damage": 20,
+    "onBlock": -4,
+    "onHit": 7,
+    "onCounterHit": "+32d (+22)",
+    "states": null,
+    "index": null
   },
   {
-    "index": 30,
+    "id": "Jack-8-f+4~1",
+    "parent": null,
     "name": "Dark Greeting",
     "input": "f+4~1",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      80
-    ],
-    "framesOnBlock": {
-      "_raw": "!",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "5",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i65",
-      "lower": "i65",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i65",
+    "hitLevels": "h",
+    "damage": 80,
+    "onBlock": "!",
+    "onHit": 5,
+    "onCounterHit": null,
+    "states": null,
+    "index": 30
   },
   {
-    "index": 31,
+    "id": "Jack-8-f+4~1,2",
+    "parent": null,
     "name": "Sudden Elbow",
     "input": "f+4~1,2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      30
-    ],
-    "framesOnBlock": {
-      "_raw": "8",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15 (66~)",
-      "lower": "i15",
-      "properties": [],
-      "upper": ""
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15 (66~)",
+    "hitLevels": "m",
+    "damage": 30,
+    "onBlock": 8,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 31
   },
   {
+    "id": "Jack-8-FC.1",
+    "parent": null,
+    "name": null,
     "input": "FC.1",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-8",
-      "lower": "-8",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "3",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i19",
-      "lower": "i19",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i19",
+    "hitLevels": "l",
+    "damage": 10,
+    "onBlock": -8,
+    "onHit": 3,
+    "onCounterHit": null,
+    "states": "cs1",
+    "index": null
   },
   {
-    "index": 86,
+    "id": "Jack-8-FC.1,1",
+    "parent": "Jack-8-FC.1",
     "name": "Double Low Hammer",
     "input": "FC.1,1",
-    "hitLevels": [
-      "l",
-      "l"
-    ],
-    "damage": [
-      10,
-      14
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "5",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i19",
-      "lower": "i19",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i19",
+    "hitLevels": "l,l",
+    "damage": "10,14",
+    "onBlock": -12,
+    "onHit": 5,
+    "onCounterHit": null,
+    "states": "cs",
+    "index": 86
   },
   {
+    "id": "Jack-8-FC.1+2",
+    "parent": null,
+    "name": null,
     "input": "FC.1+2",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-15",
-      "lower": "-15",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+13d",
-      "lower": "+13",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i24",
-      "lower": "i24",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i24",
+    "hitLevels": "l",
+    "damage": 21,
+    "onBlock": -15,
+    "onHit": "+13d",
+    "onCounterHit": null,
+    "states": "cs1",
+    "index": null
   },
   {
-    "index": 87,
+    "id": "Jack-8-FC.1,2",
+    "parent": "Jack-8-FC.1",
     "name": "Megaton Strike",
     "input": "FC.1,2",
-    "hitLevels": [
-      "l",
-      "m"
-    ],
-    "damage": [
-      10,
-      24
-    ],
-    "framesOnBlock": {
-      "_raw": "-11",
-      "lower": "-11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+11a (+2)",
-      "lower": "+11",
-      "properties": [
-        "a"
-      ],
-      "tech": "+2"
-    },
-    "framesOnCounter": {
-      "_raw": "+43a (-4)",
-      "lower": "+43",
-      "properties": [
-        "a"
-      ],
-      "tech": "-4"
-    },
-    "framesOnStartup": {
-      "_raw": "i19",
-      "lower": "i19",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i19",
+    "hitLevels": "l,m",
+    "damage": "10,24",
+    "onBlock": -11,
+    "onHit": "+11a (+2)",
+    "onCounterHit": "+43a (-4)",
+    "states": null,
+    "index": 87
   },
   {
-    "index": 88,
+    "id": "Jack-8-FC.1+2,1+2",
+    "parent": "Jack-8-FC.1+2",
     "name": "Low Cross Combo",
     "input": "FC.1+2,1+2",
-    "hitLevels": [
-      "l",
-      "m"
-    ],
-    "damage": [
-      2123
-    ],
-    "framesOnBlock": {
-      "_raw": "-18",
-      "lower": "-18",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+42a (+32)",
-      "lower": "+42",
-      "properties": [
-        "a"
-      ],
-      "tech": "+32"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i24",
-      "lower": "i24",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i24",
+    "hitLevels": "l,m",
+    "damage": "2123",
+    "onBlock": -18,
+    "onHit": "+42a (+32)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 88
   },
   {
+    "id": "Jack-8-FC.2",
+    "parent": null,
+    "name": null,
     "input": "FC.2",
-    "hitLevels": [
-      "s"
-    ],
-    "damage": [
-      8
-    ],
-    "framesOnBlock": {
-      "_raw": "-4",
-      "lower": "-4",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "7",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i11",
-      "lower": "i11",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i11",
+    "hitLevels": "s",
+    "damage": 8,
+    "onBlock": -4,
+    "onHit": 7,
+    "onCounterHit": null,
+    "states": "cs1",
+    "index": null
   },
   {
+    "id": "Jack-8-FC.2,1",
+    "parent": "Jack-8-FC.2",
+    "name": null,
     "input": "FC.2,1",
-    "hitLevels": [
-      "s",
-      "l"
-    ],
-    "damage": [
-      8,
-      6
-    ],
-    "framesOnBlock": {
-      "_raw": "-14",
-      "lower": "-14",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i11",
-      "lower": "i11",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i11",
+    "hitLevels": "s,l",
+    "damage": "8,6",
+    "onBlock": -14,
+    "onHit": -3,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Jack-8-FC.3",
+    "parent": null,
+    "name": null,
     "input": "FC.3",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-17",
-      "lower": "-17",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20",
-      "lower": "i20",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20",
+    "hitLevels": "l",
+    "damage": 12,
+    "onBlock": -17,
+    "onHit": -6,
+    "onCounterHit": null,
+    "states": "cs1",
+    "index": null
   },
   {
+    "id": "Jack-8-FC.4",
+    "parent": null,
+    "name": null,
     "input": "FC.4",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-15",
-      "lower": "-15",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-4",
-      "lower": "-4",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "l",
+    "damage": 10,
+    "onBlock": -15,
+    "onHit": -4,
+    "onCounterHit": null,
+    "states": "cs1",
+    "index": null
   },
   {
+    "id": "Jack-8-FC.db+1",
+    "parent": null,
+    "name": null,
     "input": "FC.db+1",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      14
-    ],
-    "framesOnBlock": {
-      "_raw": "-11",
-      "lower": "-11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "3",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14",
-      "lower": "i14",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14",
+    "hitLevels": "l",
+    "damage": 14,
+    "onBlock": -11,
+    "onHit": 3,
+    "onCounterHit": null,
+    "states": "cs1",
+    "index": null
   },
   {
+    "id": "Jack-8-FC.db+1,1",
+    "parent": "Jack-8-FC.db+1",
+    "name": null,
     "input": "FC.db+1,1",
-    "hitLevels": [
-      "l",
-      "m"
-    ],
-    "damage": [
-      14,
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "5",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14",
-      "lower": "i14",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14",
+    "hitLevels": "l,m",
+    "damage": "14,10",
+    "onBlock": -6,
+    "onHit": 5,
+    "onCounterHit": null,
+    "states": "cs",
+    "index": null
   },
   {
-    "index": 95,
+    "id": "Jack-8-FC.db+1,1,1",
+    "parent": "Jack-8-FC.db+1,1",
     "name": "Pulverizer",
     "input": "FC.db+1,1,1",
-    "hitLevels": [
-      "l",
-      "m",
-      "m"
-    ],
-    "damage": [
-      14,
-      10,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-14",
-      "lower": "-14",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+9a",
-      "lower": "+9",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14",
-      "lower": "i14",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14",
+    "hitLevels": "l,m,m",
+    "damage": "14,10,20",
+    "onBlock": -14,
+    "onHit": "+9a",
+    "onCounterHit": null,
+    "states": null,
+    "index": 95
   },
   {
+    "id": "Jack-8-FC.db+1,1,1*",
+    "parent": "Jack-8-FC.db+1,1",
     "name": "Pulverizer (charged)",
     "input": "FC.db+1,1,1*",
-    "hitLevels": [
-      "l",
-      "m",
-      "m"
-    ],
-    "damage": [
-      14,
-      10,
-      30
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+15a (+7)",
-      "lower": "+15",
-      "properties": [
-        "a"
-      ],
-      "tech": "+7"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14",
-      "lower": "i14",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14",
+    "hitLevels": "l,m,m",
+    "damage": "14,10,30",
+    "onBlock": -6,
+    "onHit": "+15a (+7)",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Jack-8-FC.df+1",
+    "parent": null,
+    "name": null,
     "input": "FC.df+1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      5
-    ],
-    "framesOnBlock": {
-      "_raw": "-21",
-      "lower": "-21",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-11c",
-      "lower": "-11",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i23",
-      "lower": "i23",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i23",
+    "hitLevels": "m",
+    "damage": 5,
+    "onBlock": -21,
+    "onHit": "-11c",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Jack-8-FC.df+1,2",
+    "parent": "Jack-8-FC.df+1",
+    "name": null,
     "input": "FC.df+1,2",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      5,
-      8
-    ],
-    "framesOnBlock": {
-      "_raw": "-21",
-      "lower": "-21",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-11c",
-      "lower": "-11",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i23",
-      "lower": "i23",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i23",
+    "hitLevels": "m,m",
+    "damage": "5,8",
+    "onBlock": -21,
+    "onHit": "-11c",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Jack-8-FC.df+1,2,1",
+    "parent": "Jack-8-FC.df+1,2",
+    "name": null,
     "input": "FC.df+1,2,1",
-    "hitLevels": [
-      "m",
-      "m",
-      "m"
-    ],
-    "damage": [
-      5,
-      8,
-      11
-    ],
-    "framesOnBlock": {
-      "_raw": "-11",
-      "lower": "-11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+16cs",
-      "lower": "+16",
-      "properties": [
-        "cs"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i23",
-      "lower": "i23",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i23",
+    "hitLevels": "m,m,m",
+    "damage": "5,8,11",
+    "onBlock": -11,
+    "onHit": "+16cs",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 89,
+    "id": "Jack-8-FC.df+1,2,1,1",
+    "parent": "Jack-8-FC.df+1,2,1",
     "name": "Windmill Punches",
     "input": "FC.df+1,2,1,1",
-    "hitLevels": [
-      "m",
-      "m",
-      "m",
-      "h"
-    ],
-    "damage": [
-      5,
-      8,
-      11,
-      30
-    ],
-    "framesOnBlock": {
-      "_raw": "15",
-      "lower": "15",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+13BT",
-      "lower": "+13",
-      "properties": [
-        "BT"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i23",
-      "lower": "i23",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i23",
+    "hitLevels": "m,m,m,h",
+    "damage": "5,8,11,30",
+    "onBlock": 15,
+    "onHit": "+13BT",
+    "onCounterHit": null,
+    "states": null,
+    "index": 89
   },
   {
+    "id": "Jack-8-FC.df+2",
+    "parent": null,
+    "name": null,
     "input": "FC.df+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17",
-      "lower": "i17",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17",
+    "hitLevels": "m",
+    "damage": 12,
+    "onBlock": -13,
+    "onHit": -2,
+    "onCounterHit": null,
+    "states": "cs",
+    "index": null
   },
   {
+    "id": "Jack-8-FC.df+2,1",
+    "parent": "Jack-8-FC.df+2",
+    "name": null,
     "input": "FC.df+2,1",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      12,
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-4",
-      "lower": "-4",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "7",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17",
-      "lower": "i17",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17",
+    "hitLevels": "m,m",
+    "damage": "12,10",
+    "onBlock": -4,
+    "onHit": 7,
+    "onCounterHit": null,
+    "states": "cs",
+    "index": null
   },
   {
-    "index": 90,
+    "id": "Jack-8-FC.df+2,1,2",
+    "parent": "Jack-8-FC.df+2,1",
     "name": "Swing R Knuckle",
     "input": "FC.df+2,1,2",
-    "hitLevels": [
-      "m",
-      "m",
-      "m"
-    ],
-    "damage": [
-      12,
-      10,
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+29a (+19)",
-      "lower": "+29",
-      "properties": [
-        "a"
-      ],
-      "tech": "+19"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17",
-      "lower": "i17",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17",
+    "hitLevels": "m,m,m",
+    "damage": "12,10,10",
+    "onBlock": -12,
+    "onHit": "+29a (+19)",
+    "onCounterHit": null,
+    "states": "cs",
+    "index": 90
   },
   {
-    "index": 92,
+    "id": "Jack-8-FC.df+2,d+1",
+    "parent": "Jack-8-FC.df+2",
     "name": "Swing R Knuckle Low",
     "input": "FC.df+2,d+1",
-    "hitLevels": [
-      "m",
-      "l"
-    ],
-    "damage": [
-      12,
-      8
-    ],
-    "framesOnBlock": {
-      "_raw": "-11",
-      "lower": "-11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17",
-      "lower": "i17",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17",
+    "hitLevels": "m,l",
+    "damage": "12,8",
+    "onBlock": -11,
+    "onHit": 0,
+    "onCounterHit": null,
+    "states": "cs",
+    "index": 92
   },
   {
-    "index": 91,
+    "id": "Jack-8-FC.df+2,f+1",
+    "parent": "Jack-8-FC.df+2",
     "name": "Swing R Knuckle High",
     "input": "FC.df+2,f+1",
-    "hitLevels": [
-      "m",
-      "h"
-    ],
-    "damage": [
-      12,
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "-4",
-      "lower": "-4",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+32a",
-      "lower": "+32",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17",
-      "lower": "i17",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17",
+    "hitLevels": "m,h",
+    "damage": "12,23",
+    "onBlock": -4,
+    "onHit": "+32a",
+    "onCounterHit": null,
+    "states": "cs",
+    "index": 91
   },
   {
-    "index": 94,
+    "id": "Jack-8-FC.df+3+4",
+    "parent": null,
     "name": "Atomic Shoulder Tackle",
     "input": "FC.df+3+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      28
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+1a (-8)",
-      "lower": "+1",
-      "properties": [
-        "a"
-      ],
-      "tech": "-8"
-    },
-    "framesOnCounter": {
-      "_raw": "+33a (-14)",
-      "lower": "+33",
-      "properties": [
-        "a"
-      ],
-      "tech": "-14"
-    },
-    "framesOnStartup": {
-      "_raw": "i21",
-      "lower": "i21",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i21",
+    "hitLevels": "m",
+    "damage": 28,
+    "onBlock": -9,
+    "onHit": "+1a (-8)",
+    "onCounterHit": "+33a (-14)",
+    "states": null,
+    "index": 94
   },
   {
+    "id": "Jack-8-FC.df+4",
+    "parent": null,
+    "name": null,
     "input": "FC.df+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "4",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "m",
+    "damage": 10,
+    "onBlock": -12,
+    "onHit": 4,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 93,
+    "id": "Jack-8-FC.df+4,2",
+    "parent": "Jack-8-FC.df+4",
     "name": "Mimesis Spike Press",
     "input": "FC.df+4,2",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      10,
-      17
-    ],
-    "framesOnBlock": {
-      "_raw": "-14",
-      "lower": "-14",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+4c",
-      "lower": "+4",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "+19d",
-      "lower": "+19",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "m,m",
+    "damage": "10,17",
+    "onBlock": -14,
+    "onHit": "+4c",
+    "onCounterHit": "+19d",
+    "states": null,
+    "index": 93
   },
   {
-    "index": 68,
+    "id": "Jack-8-f,F+1",
+    "parent": null,
     "name": "Jackhammer",
     "input": "f,F+1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      22
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+8c",
-      "lower": "+8",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "+16d",
-      "lower": "+16",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m",
+    "damage": 22,
+    "onBlock": -6,
+    "onHit": "+8c",
+    "onCounterHit": "+16d",
+    "states": null,
+    "index": 68
   },
   {
+    "id": "Jack-8-f,F+1+2",
+    "parent": null,
+    "name": null,
     "input": "f,F+1+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-15",
-      "lower": "-15",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+22cs",
-      "lower": "+22",
-      "properties": [
-        "cs"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m",
+    "damage": 20,
+    "onBlock": -15,
+    "onHit": "+22cs",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 73,
+    "id": "Jack-8-f,F+1+2,1+2",
+    "parent": "Jack-8-f,F+1+2",
     "name": "High and Low Cross Cut",
     "input": "f,F+1+2,1+2",
-    "hitLevels": [
-      "m",
-      "l"
-    ],
-    "damage": [
-      20,
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-19",
-      "lower": "-19",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+13d",
-      "lower": "+13",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m,l",
+    "damage": "20,21",
+    "onBlock": -19,
+    "onHit": "+13d",
+    "onCounterHit": null,
+    "states": "cs",
+    "index": 73
   },
   {
-    "index": 72,
+    "id": "Jack-8-f,F+1+2,2",
+    "parent": "Jack-8-f,F+1+2",
     "name": "Cross Cut Blast",
     "input": "f,F+1+2,2",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      20,
-      24
-    ],
-    "framesOnBlock": {
-      "_raw": "-11",
-      "lower": "-11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+11a (+2)",
-      "lower": "+11",
-      "properties": [
-        "a"
-      ],
-      "tech": "+2"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m,m",
+    "damage": "20,24",
+    "onBlock": -11,
+    "onHit": "+11a (+2)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 72
   },
   {
-    "index": 74,
+    "id": "Jack-8-f,F+1+4",
+    "parent": null,
     "name": "Sliding Attack",
     "input": "f,F+1+4",
-    "hitLevels": [
-      "m(l)"
-    ],
-    "damage": [
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-82",
-      "lower": "-82",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-88",
-      "lower": "-88",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i21",
-      "lower": "i21",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i21",
+    "hitLevels": "m (l)",
+    "damage": 25,
+    "onBlock": -82,
+    "onHit": -88,
+    "onCounterHit": null,
+    "states": "js",
+    "index": 74
   },
   {
-    "index": 69,
+    "id": "Jack-8-f,F+2",
+    "parent": null,
     "name": "Rocket Uppercut",
     "input": "f,F+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "-16",
-      "lower": "-16",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+53a (+43)",
-      "lower": "+53",
-      "properties": [
-        "a"
-      ],
-      "tech": "+43"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18",
-      "lower": "i18",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18",
+    "hitLevels": "m",
+    "damage": 23,
+    "onBlock": -16,
+    "onHit": "+53a (+43)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 69
   },
   {
+    "id": "Jack-8-f,F+2*",
+    "parent": null,
     "name": "Rocket Uppercut (charged)",
     "input": "f,F+2*",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      35
-    ],
-    "framesOnBlock": {
-      "_raw": "-15",
-      "lower": "-15",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+61a",
-      "lower": "+61",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "34",
-      "lower": "34",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": 34,
+    "hitLevels": "m",
+    "damage": 35,
+    "onBlock": -15,
+    "onHit": "+61a",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Jack-8-f,F+3",
+    "parent": null,
     "name": "Granite Stomping",
     "input": "f,F+3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      22
-    ],
-    "framesOnBlock": {
-      "_raw": "+4c",
-      "lower": "+4",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnHit": {
-      "_raw": "+9c",
-      "lower": "+9",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "+22a",
-      "lower": "+22",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i26",
-      "lower": "i26",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i26",
+    "hitLevels": "m",
+    "damage": 22,
+    "onBlock": "+4c",
+    "onHit": "+9c",
+    "onCounterHit": "+22a",
+    "states": null,
+    "index": null
   },
   {
-    "index": 71,
+    "id": "Jack-8-f,F+4",
+    "parent": null,
     "name": "Rocket Kick",
     "input": "f,F+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      32
-    ],
-    "framesOnBlock": {
-      "_raw": "-10",
-      "lower": "-10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+15d (+5)",
-      "lower": "+15",
-      "properties": [
-        "d"
-      ],
-      "tech": "+5"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "m",
+    "damage": 32,
+    "onBlock": -10,
+    "onHit": "+15d (+5)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 71
   },
   {
-    "index": 76,
+    "id": "Jack-8-f,f,F+1+2",
+    "parent": null,
     "name": "Mimesis Charging Tackle",
     "input": "f,f,F+1+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      34
-    ],
-    "framesOnBlock": {
-      "_raw": "4",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+7a (-2)",
-      "lower": "+7",
-      "properties": [
-        "a"
-      ],
-      "tech": "-2"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20~23",
-      "lower": "i20",
-      "properties": [],
-      "upper": "23"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20~23",
+    "hitLevels": "m",
+    "damage": 34,
+    "onBlock": 4,
+    "onHit": "+7a (-2)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 76
   },
   {
-    "index": 75,
+    "id": "Jack-8-f,f,F+2",
+    "parent": null,
     "name": "Cemaho Chop",
     "input": "f,f,F+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "6",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "10",
-      "lower": "10",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i22",
-      "lower": "i22",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i22",
+    "hitLevels": "m",
+    "damage": 25,
+    "onBlock": 6,
+    "onHit": 10,
+    "onCounterHit": null,
+    "states": null,
+    "index": 75
   },
   {
-    "index": 116,
+    "id": "Jack-8-GMC.1",
+    "parent": null,
     "name": "Jaguar Hook - Gamma",
     "input": "GMC.1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      22
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+73a (+57)",
-      "lower": "+73",
-      "properties": [
-        "a"
-      ],
-      "tech": "+57"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i22",
-      "lower": "i22",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i22",
+    "hitLevels": "m",
+    "damage": 22,
+    "onBlock": -6,
+    "onHit": "+73a (+57)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 116
   },
   {
-    "index": 117,
+    "id": "Jack-8-GMC.2",
+    "parent": null,
     "name": "Exaton Blast - Gamma",
     "input": "GMC.2",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      42
-    ],
-    "framesOnBlock": {
-      "_raw": "11",
-      "lower": "11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+31a (+5)",
-      "lower": "+31",
-      "properties": [
-        "a"
-      ],
-      "tech": "+5"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20 pc1",
-      "lower": "i20",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20 pc1",
+    "hitLevels": "h",
+    "damage": 42,
+    "onBlock": 11,
+    "onHit": "+31a (+5)",
+    "onCounterHit": null,
+    "states": "pc1",
+    "index": 117
   },
   {
-    "index": 106,
+    "id": "Jack-8-GMH.1",
+    "parent": null,
     "name": "Juggernaut Hook",
     "input": "GMH.1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+25d",
-      "lower": "+25",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i22",
-      "lower": "i22",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i22",
+    "hitLevels": "m",
+    "damage": 20,
+    "onBlock": -9,
+    "onHit": "+25d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 106
   },
   {
-    "index": 132,
+    "id": "Jack-8-GMH.1+2",
+    "parent": null,
     "name": "Mimesis Overkill",
     "input": "GMH.1+2",
-    "hitLevels": [
-      "th"
-    ],
-    "damage": [
-      4557
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "th",
+    "damage": "45 (57)",
+    "onBlock": -6,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 132
   },
   {
+    "id": "Jack-8-GMH.1+3",
+    "parent": null,
     "name": "Gun Bomb",
     "input": "GMH.1+3",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      30
-    ],
-    "framesOnBlock": {
-      "_raw": "!",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "t",
+    "damage": 30,
+    "onBlock": "!",
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 107,
+    "id": "Jack-8-GMH.2",
+    "parent": null,
     "name": "Exaton Blast",
     "input": "GMH.2",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      40
-    ],
-    "framesOnBlock": {
-      "_raw": "+11g",
-      "lower": "+11",
-      "properties": [
-        "g"
-      ]
-    },
-    "framesOnHit": {
-      "_raw": "+21d (+11)",
-      "lower": "+21",
-      "properties": [
-        "d"
-      ],
-      "tech": "+11"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20",
-      "lower": "i20",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20",
+    "hitLevels": "h",
+    "damage": 40,
+    "onBlock": "+11g",
+    "onHit": "+21d (+11)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 107
   },
   {
+    "id": "Jack-8-GMH.2+4",
+    "parent": null,
     "name": "Iron Gunman",
     "input": "GMH.2+4",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "!",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+6d",
-      "lower": "+6",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "t",
+    "damage": 25,
+    "onBlock": "!",
+    "onHit": "+6d",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Jack-8-GMH.3",
+    "parent": null,
     "name": "Granite Stomp",
     "input": "GMH.3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      28
-    ],
-    "framesOnBlock": {
-      "_raw": "4",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+9c",
-      "lower": "+9",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "+22a",
-      "lower": "+22",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i24",
-      "lower": "i24",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i24",
+    "hitLevels": "m",
+    "damage": 28,
+    "onBlock": 4,
+    "onHit": "+9c",
+    "onCounterHit": "+22a",
+    "states": null,
+    "index": null
   },
   {
-    "index": 110,
+    "id": "Jack-8-GMH.3+4",
+    "parent": null,
     "name": "Particle Barrier",
     "input": "GMH.3+4",
-    "hitLevels": [
-      "sm"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+40d (-18)",
-      "lower": "+40",
-      "properties": [
-        "d"
-      ],
-      "tech": "-18"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20 pc6",
-      "lower": "i20",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20 pc6",
+    "hitLevels": "sm",
+    "damage": 20,
+    "onBlock": -13,
+    "onHit": "+40d (-18)",
+    "onCounterHit": null,
+    "states": "pc6",
+    "index": 110
   },
   {
-    "index": 109,
+    "id": "Jack-8-GMH.4",
+    "parent": null,
     "name": "Full Metal Deathblow",
     "input": "GMH.4",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      30
-    ],
-    "framesOnBlock": {
-      "_raw": "4",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+21d (+11)",
-      "lower": "+21",
-      "properties": [
-        "d"
-      ],
-      "tech": "+11"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14~18",
-      "lower": "i14",
-      "properties": [],
-      "upper": "18"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14~18",
+    "hitLevels": "h",
+    "damage": 30,
+    "onBlock": 4,
+    "onHit": "+21d (+11)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 109
   },
   {
+    "id": "Jack-8-GMH.f+1",
+    "parent": null,
     "name": "Prime Windup Uppercut",
     "input": "GMH.f+1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      26
-    ],
-    "framesOnBlock": {
-      "_raw": "-17",
-      "lower": "-17",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+66a (+50)",
-      "lower": "+66",
-      "properties": [
-        "a"
-      ],
-      "tech": "+50"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20",
-      "lower": "i20",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20",
+    "hitLevels": "m",
+    "damage": 26,
+    "onBlock": -17,
+    "onHit": "+66a (+50)",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 112,
+    "id": "Jack-8-GMH.f+2",
+    "parent": null,
     "name": "Megalodriller",
     "input": "GMH.f+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      34
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+30a (+4)",
-      "lower": "+30",
-      "properties": [
-        "a"
-      ],
-      "tech": "+4"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17",
-      "lower": "i17",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17",
+    "hitLevels": "m",
+    "damage": 34,
+    "onBlock": -13,
+    "onHit": "+30a (+4)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 112
   },
   {
-    "index": 113,
+    "id": "Jack-8-GMH.ub",
+    "parent": null,
     "name": "Breakout Fortress",
     "input": "GMH.ub",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "js12",
-      "lower": "12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "js12",
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": "js12",
+    "index": 113
   },
   {
-    "index": 114,
+    "id": "Jack-8-GMH.uf",
+    "parent": null,
     "name": "Flying Fortress",
     "input": "GMH.uf",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "js12",
-      "lower": "12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "js12",
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": "js12",
+    "index": 114
   },
   {
-    "index": 98,
+    "id": "Jack-8-Grounded face up d+1+2",
+    "parent": null,
     "name": "Get Up Punch",
     "input": "d+1+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      18
-    ],
-    "framesOnBlock": {
-      "_raw": "+18g",
-      "lower": "+18",
-      "properties": [
-        "g"
-      ]
-    },
-    "framesOnHit": {
-      "_raw": "+39d",
-      "lower": "+39",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i28",
-      "lower": "i28",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i28",
+    "hitLevels": "m",
+    "damage": 18,
+    "onBlock": "+18g",
+    "onHit": "+39d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 98
   },
   {
+    "id": "Jack-8-H.2+3",
+    "parent": null,
     "name": "Meteor Raid",
     "input": "H.2+3",
-    "hitLevels": [
-      "h",
-      "m",
-      "t"
-    ],
-    "damage": [
-      50
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-2d (-12)",
-      "lower": "-2",
-      "properties": [
-        "d"
-      ],
-      "tech": "-12"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,m,t",
+    "damage": 50,
+    "onBlock": -9,
+    "onHit": "-2d (-12)",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Jack-8-hcf",
+    "parent": null,
+    "name": null,
     "input": "HCF",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i22~",
-      "lower": "i22",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i22~",
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Jack-8-hcf,1",
+    "parent": "Jack-8-hcf",
     "name": "Gigaton Punch",
     "input": "HCF,1",
-    "hitLevels": [
-      "nullm"
-    ],
-    "damage": [
-      30
-    ],
-    "framesOnBlock": {
-      "_raw": "+21g",
-      "lower": "+21",
-      "properties": [
-        "g"
-      ]
-    },
-    "framesOnHit": {
-      "_raw": "+7a (-2)",
-      "lower": "+7",
-      "properties": [
-        "a"
-      ],
-      "tech": "-2"
-    },
-    "framesOnCounter": {
-      "_raw": "+39d (-8)",
-      "lower": "+39",
-      "properties": [
-        "d"
-      ],
-      "tech": "-8"
-    },
-    "framesOnStartup": {
-      "_raw": "i22~",
-      "lower": "i22",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i22~",
+    "hitLevels": "nullm",
+    "damage": "null30",
+    "onBlock": "+21g",
+    "onHit": "+7a (-2)",
+    "onCounterHit": "+39d (-8)",
+    "states": null,
+    "index": null
   },
   {
+    "id": "Jack-8-hcf,df+1",
+    "parent": "Jack-8-hcf",
     "name": "Windup Uppercut",
     "input": "HCF,df+1",
-    "hitLevels": [
-      "nullm"
-    ],
-    "damage": [
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-17",
-      "lower": "-17",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+52a (+42)",
-      "lower": "+52",
-      "properties": [
-        "a"
-      ],
-      "tech": "+42"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i22~",
-      "lower": "i22",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i22~",
+    "hitLevels": "nullm",
+    "damage": "null25",
+    "onBlock": -17,
+    "onHit": "+52a (+42)",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Jack-8-hcf:df+1",
+    "parent": null,
     "name": "Prime Windup Uppercut",
     "input": "HCF:df+1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      36
-    ],
-    "framesOnBlock": {
-      "_raw": "-17",
-      "lower": "-17",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+66a (+50)",
-      "lower": "+66",
-      "properties": [
-        "a"
-      ],
-      "tech": "+50"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20~23",
-      "lower": "i20",
-      "properties": [],
-      "upper": "23"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20~23",
+    "hitLevels": "m",
+    "damage": 36,
+    "onBlock": -17,
+    "onHit": "+66a (+50)",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 120,
+    "id": "Jack-8-Left Throw",
+    "parent": null,
     "name": "Side Left Bomb",
-    "input": "LeftThrow",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      40
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+1d",
-      "lower": "+1",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": "Left Throw",
+    "startup": "i12",
+    "hitLevels": "t",
+    "damage": 40,
+    "onBlock": -3,
+    "onHit": "+1d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 120
   },
   {
-    "index": 131,
+    "id": "Jack-8-qcb+2",
+    "parent": null,
     "name": "Back Breaker",
     "input": "qcb+2",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      45
-    ],
-    "framesOnBlock": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+12d",
-      "lower": "+12",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i11",
-      "lower": "i11",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i11",
+    "hitLevels": "t",
+    "damage": 45,
+    "onBlock": -2,
+    "onHit": "+12d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 131
   },
   {
-    "index": 130,
+    "id": "Jack-8-qcf+1",
+    "parent": null,
     "name": "Pyramid Driver",
     "input": "qcf+1",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      40
-    ],
-    "framesOnBlock": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-2d",
-      "lower": "-2",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i11",
-      "lower": "i11",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i11",
+    "hitLevels": "t",
+    "damage": 40,
+    "onBlock": -2,
+    "onHit": "-2d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 130
   },
   {
+    "id": "Jack-8-R.df+1+2",
+    "parent": null,
     "name": "Terraforming Cannon",
     "input": "R.df+1+2",
-    "hitLevels": [
-      "m",
-      "t"
-    ],
-    "damage": [
-      55
-    ],
-    "framesOnBlock": {
-      "_raw": "-15",
-      "lower": "-15",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20",
-      "lower": "i20",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20",
+    "hitLevels": "m,t",
+    "damage": "55+",
+    "onBlock": -15,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": "pc8~",
+    "index": null
   },
   {
-    "index": 121,
+    "id": "Jack-8-Right Throw",
+    "parent": null,
     "name": "Father&#039;s Love",
-    "input": "RightThrow",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      40
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": "Right Throw",
+    "startup": "i12",
+    "hitLevels": "t",
+    "damage": 40,
+    "onBlock": -3,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 121
   },
   {
+    "id": "Jack-8-SIT.1",
+    "parent": null,
+    "name": null,
     "input": "SIT.1",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-48",
-      "lower": "-48",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-37",
-      "lower": "-37",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i19",
-      "lower": "i19",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i19",
+    "hitLevels": "l",
+    "damage": 10,
+    "onBlock": -48,
+    "onHit": -37,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 101,
+    "id": "Jack-8-SIT.1+2",
+    "parent": null,
     "name": "Ground Assault",
     "input": "SIT.1+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-44",
-      "lower": "-44",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-12d",
-      "lower": "-12",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i24",
-      "lower": "i24",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i24",
+    "hitLevels": "m",
+    "damage": 21,
+    "onBlock": -44,
+    "onHit": "-12d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 101
   },
   {
+    "id": "Jack-8-SIT.1,2",
+    "parent": "Jack-8-SIT.1",
+    "name": null,
     "input": "SIT.1,2",
-    "hitLevels": [
-      "l",
-      "l"
-    ],
-    "damage": [
-      1010
-    ],
-    "framesOnBlock": {
-      "_raw": "-47",
-      "lower": "-47",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-36",
-      "lower": "-36",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i19",
-      "lower": "i19",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i19",
+    "hitLevels": "l,l",
+    "damage": "1010",
+    "onBlock": -47,
+    "onHit": -36,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Jack-8-SIT.1,2,1",
+    "parent": "Jack-8-SIT.1,2",
+    "name": null,
     "input": "SIT.1,2,1",
-    "hitLevels": [
-      "l",
-      "l",
-      "l"
-    ],
-    "damage": [
-      101010
-    ],
-    "framesOnBlock": {
-      "_raw": "-47",
-      "lower": "-47",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-36",
-      "lower": "-36",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i19",
-      "lower": "i19",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i19",
+    "hitLevels": "l,l,l",
+    "damage": "101010",
+    "onBlock": -47,
+    "onHit": -36,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 100,
+    "id": "Jack-8-SIT.1,2,1,2",
+    "parent": "Jack-8-SIT.1,2,1",
     "name": "Sit Punches",
     "input": "SIT.1,2,1,2",
-    "hitLevels": [
-      "l",
-      "l",
-      "l",
-      "l"
-    ],
-    "damage": [
-      10101010
-    ],
-    "framesOnBlock": {
-      "_raw": "-47",
-      "lower": "-47",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-36",
-      "lower": "-36",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i19",
-      "lower": "i19",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i19",
+    "hitLevels": "l,l,l,l",
+    "damage": "10101010",
+    "onBlock": -47,
+    "onHit": -36,
+    "onCounterHit": null,
+    "states": null,
+    "index": 100
   },
   {
-    "index": 102,
+    "id": "Jack-8-SIT.3+4",
+    "parent": null,
     "name": "Extra Pancake Press",
     "input": "SIT.3+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      35
-    ],
-    "framesOnBlock": {
-      "_raw": "+13cg",
-      "lower": "+13",
-      "properties": [
-        "cg"
-      ]
-    },
-    "framesOnHit": {
-      "_raw": "+20d",
-      "lower": "+20",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i54",
-      "lower": "i54",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i54",
+    "hitLevels": "m",
+    "damage": 35,
+    "onBlock": "+13cg",
+    "onHit": "+20d",
+    "onCounterHit": null,
+    "states": "js",
+    "index": 102
   },
   {
-    "index": 104,
+    "id": "Jack-8-SIT.b",
+    "parent": null,
     "name": "Backward Roll",
     "input": "SIT.b",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": 104
   },
   {
-    "index": 103,
+    "id": "Jack-8-SIT.f",
+    "parent": null,
     "name": "Forward Roll",
     "input": "SIT.f",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": 103
   },
   {
-    "index": 96,
+    "id": "Jack-8-ss1",
+    "parent": null,
     "name": "Discharger",
     "input": "ss1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "+6c",
-      "lower": "+6",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnHit": {
-      "_raw": "+59a",
-      "lower": "+59",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i32",
-      "lower": "i32",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i32",
+    "hitLevels": "m",
+    "damage": 23,
+    "onBlock": "+6c",
+    "onHit": "+59a",
+    "onCounterHit": null,
+    "states": null,
+    "index": 96
   },
   {
-    "index": 97,
+    "id": "Jack-8-ss2",
+    "parent": null,
     "name": "Piston Gun Snipe",
     "input": "ss2",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "9",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+35d (+27)",
-      "lower": "+35",
-      "properties": [
-        "d"
-      ],
-      "tech": "+27"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17",
-      "lower": "i17",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17",
+    "hitLevels": "h",
+    "damage": 20,
+    "onBlock": 9,
+    "onHit": "+35d (+27)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 97
   },
   {
-    "index": 61,
+    "id": "Jack-8-u+1+2",
+    "parent": null,
     "name": "Patriot Fist",
     "input": "u+1+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+49a (+39)",
-      "lower": "+49",
-      "properties": [
-        "a"
-      ],
-      "tech": "+39"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i19",
-      "lower": "i19",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i19",
+    "hitLevels": "m",
+    "damage": 23,
+    "onBlock": -13,
+    "onHit": "+49a (+39)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 61
   },
   {
-    "index": 62,
+    "id": "Jack-8-u+3+4",
+    "parent": null,
     "name": "Giant Foot Stomp",
     "input": "u+3+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      40
-    ],
-    "framesOnBlock": {
-      "_raw": "!",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+17d",
-      "lower": "+17",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i94~100",
-      "lower": "i94",
-      "properties": [],
-      "upper": "100"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i94~100",
+    "hitLevels": "m",
+    "damage": 40,
+    "onBlock": "!",
+    "onHit": "+17d",
+    "onCounterHit": null,
+    "states": "js",
+    "index": 62
   },
   {
+    "id": "Jack-8-u+4",
+    "parent": null,
+    "name": null,
     "input": "u+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-16",
-      "lower": "-16",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+15a (+5)",
-      "lower": "+15",
-      "properties": [
-        "a"
-      ],
-      "tech": "+5"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i25",
-      "lower": "i25",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i25",
+    "hitLevels": "m",
+    "damage": 25,
+    "onBlock": -16,
+    "onHit": "+15a (+5)",
+    "onCounterHit": null,
+    "states": "js",
+    "index": null
   },
   {
-    "index": 60,
+    "id": "Jack-8-ub+1+2",
+    "parent": null,
     "name": "Barrel Jacket Hammer",
     "input": "ub+1+2",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      30
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+23d",
-      "lower": "+23",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20 pc7",
-      "lower": "i20",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20 pc7",
+    "hitLevels": "h",
+    "damage": 30,
+    "onBlock": -9,
+    "onHit": "+23d",
+    "onCounterHit": null,
+    "states": "pc7",
+    "index": 60
   },
   {
+    "id": "Jack-8-uf+1",
+    "parent": null,
     "name": "Sky Sweeper",
     "input": "uf+1",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+71a (+55)",
-      "lower": "+71",
-      "properties": [
-        "a"
-      ],
-      "tech": "+55"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17",
-      "lower": "i17",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17",
+    "hitLevels": "h",
+    "damage": 10,
+    "onBlock": null,
+    "onHit": "+71a (+55)",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Jack-8-uf+1*",
+    "parent": null,
     "name": "Sky Sweeper (charged)",
     "input": "uf+1*",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      35
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+69a (+53)",
-      "lower": "+69",
-      "properties": [
-        "a"
-      ],
-      "tech": "+53"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i35",
-      "lower": "i35",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i35",
+    "hitLevels": "h",
+    "damage": 35,
+    "onBlock": null,
+    "onHit": "+69a (+53)",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 127,
+    "id": "Jack-8-uf+1+2",
+    "parent": null,
     "name": "Ground Zero",
     "input": "uf+1+2",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      35
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-10d",
-      "lower": "-10",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i11",
-      "lower": "i11",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i11",
+    "hitLevels": "t",
+    "damage": 35,
+    "onBlock": -6,
+    "onHit": "-10d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 127
   },
   {
-    "index": 128,
+    "id": "Jack-8-uf+1+2,d,df+2",
+    "parent": null,
     "name": "Lift Up Megaton Hit",
     "input": "uf+1+2,d,df+2",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      40
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+19a (-7)",
-      "lower": "+19",
-      "properties": [
-        "a"
-      ],
-      "tech": "-7"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i11",
-      "lower": "i11",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i11",
+    "hitLevels": "t",
+    "damage": 40,
+    "onBlock": -6,
+    "onHit": "+19a (-7)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 128
   },
   {
-    "index": 65,
+    "id": "Jack-8-uf+2",
+    "parent": null,
     "name": "Reactor Elbow",
     "input": "uf+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "+4c",
-      "lower": "+4",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnHit": {
-      "_raw": "+7c",
-      "lower": "+7",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "+11d",
-      "lower": "+11",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i24 js9",
-      "lower": "i24",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i24 js9",
+    "hitLevels": "m",
+    "damage": 25,
+    "onBlock": "+4c",
+    "onHit": "+7c",
+    "onCounterHit": "+11d",
+    "states": "js9",
+    "index": 65
   },
   {
-    "index": 66,
+    "id": "Jack-8-uf+3",
+    "parent": null,
     "name": "Terrapulser",
     "input": "uf+3",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      8
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+8c",
-      "lower": "+8",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i23 js9",
-      "lower": "i23",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i23 js9",
+    "hitLevels": "l",
+    "damage": "(8)",
+    "onBlock": -12,
+    "onHit": "+8c",
+    "onCounterHit": null,
+    "states": "js9",
+    "index": 66
   },
   {
-    "index": 67,
+    "id": "Jack-8-uf+3+4",
+    "parent": null,
     "name": "Pancake Press",
     "input": "uf+3+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "+13cg",
-      "lower": "+13",
-      "properties": [
-        "cg"
-      ]
-    },
-    "framesOnHit": {
-      "_raw": "+20d",
-      "lower": "+20",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i34 js8",
-      "lower": "i34",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i34 js8",
+    "hitLevels": "m",
+    "damage": 23,
+    "onBlock": "+13cg",
+    "onHit": "+20d",
+    "onCounterHit": null,
+    "states": "js8",
+    "index": 67
   },
   {
+    "id": "Jack-8-uf,n,2",
+    "parent": null,
+    "name": null,
     "input": "uf,n,2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      28
-    ],
-    "framesOnBlock": {
-      "_raw": "-1c",
-      "lower": "-1",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnHit": {
-      "_raw": "+10c",
-      "lower": "+10",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i32",
-      "lower": "i32",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i32",
+    "hitLevels": "m",
+    "damage": 28,
+    "onBlock": "-1c",
+    "onHit": "+10c",
+    "onCounterHit": null,
+    "states": "js",
+    "index": null
   },
   {
-    "index": 81,
+    "id": "Jack-8-ws1",
+    "parent": null,
     "name": "Killing Uppercut",
     "input": "ws1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      14
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+34a (+24)",
-      "lower": "+34",
-      "properties": [
-        "a"
-      ],
-      "tech": "+24"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m",
+    "damage": 14,
+    "onBlock": -13,
+    "onHit": "+34a (+24)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 81
   },
   {
+    "id": "Jack-8-ws1+2",
+    "parent": null,
+    "name": null,
     "input": "ws1+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      14
-    ],
-    "framesOnBlock": {
-      "_raw": "-15",
-      "lower": "-15",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+26a (+16)",
-      "lower": "+26",
-      "properties": [
-        "a"
-      ],
-      "tech": "+16"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20",
-      "lower": "i20",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20",
+    "hitLevels": "m",
+    "damage": 14,
+    "onBlock": -15,
+    "onHit": "+26a (+16)",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Jack-8-ws1+2,1+2",
+    "parent": "Jack-8-ws1+2",
+    "name": null,
     "input": "ws1+2,1+2",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      14,
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-15",
-      "lower": "-15",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+15d",
-      "lower": "+15",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20",
-      "lower": "i20",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20",
+    "hitLevels": "m,m",
+    "damage": "14,12",
+    "onBlock": -15,
+    "onHit": "+15d",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 85,
+    "id": "Jack-8-ws1+2,1+2,1+2",
+    "parent": "Jack-8-ws1+2,1+2",
     "name": "Double Hammer Thrash",
     "input": "ws1+2,1+2,1+2",
-    "hitLevels": [
-      "m",
-      "m",
-      "l"
-    ],
-    "damage": [
-      14,
-      12,
-      14
-    ],
-    "framesOnBlock": {
-      "_raw": "-23",
-      "lower": "-23",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+6d",
-      "lower": "+6",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20",
-      "lower": "i20",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20",
+    "hitLevels": "m,m,l",
+    "damage": "14,12,14",
+    "onBlock": -23,
+    "onHit": "+6d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 85
   },
   {
+    "id": "Jack-8-ws2",
+    "parent": null,
+    "name": null,
     "input": "ws2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-7",
-      "lower": "-7",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "4",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14",
-      "lower": "i14",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14",
+    "hitLevels": "m",
+    "damage": 10,
+    "onBlock": -7,
+    "onHit": 4,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Jack-8-ws2,1",
+    "parent": "Jack-8-ws2",
     "name": "V-Twin",
     "input": "ws2,1",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      10,
-      17
-    ],
-    "framesOnBlock": {
-      "_raw": "-14c",
-      "lower": "-14",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnHit": {
-      "_raw": "+3d",
-      "lower": "+3",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "+49a",
-      "lower": "+49",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i14",
-      "lower": "i14",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14",
+    "hitLevels": "m,m",
+    "damage": "10,17",
+    "onBlock": "-14c",
+    "onHit": "+3d",
+    "onCounterHit": "+49a",
+    "states": null,
+    "index": null
   },
   {
-    "index": 83,
+    "id": "Jack-8-ws2,4",
+    "parent": "Jack-8-ws2",
     "name": "V-Deathblow",
     "input": "ws2,4",
-    "hitLevels": [
-      "m",
-      "h"
-    ],
-    "damage": [
-      10,
-      26
-    ],
-    "framesOnBlock": {
-      "_raw": "4",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+21a (+11)",
-      "lower": "+21",
-      "properties": [
-        "a"
-      ],
-      "tech": "+11"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14",
-      "lower": "i14",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14",
+    "hitLevels": "m,h",
+    "damage": "10,26",
+    "onBlock": 4,
+    "onHit": "+21a (+11)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 83
   },
   {
-    "index": 84,
+    "id": "Jack-8-ws4",
+    "parent": null,
     "name": "Toe Smash",
     "input": "ws4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "5",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i11",
-      "lower": "i11",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i11",
+    "hitLevels": "m",
+    "damage": 20,
+    "onBlock": -6,
+    "onHit": 5,
+    "onCounterHit": null,
+    "states": null,
+    "index": 84
   }
 ]

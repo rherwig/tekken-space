@@ -1,5563 +1,2060 @@
 [
   {
+    "id": "Azucena-1",
+    "parent": null,
     "name": "Jab",
-    "input": "1",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      5
-    ],
-    "framesOnBlock": {
-      "_raw": "1",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "8",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": 1,
+    "startup": "i10",
+    "hitLevels": "h",
+    "damage": 5,
+    "onBlock": 1,
+    "onHit": 8,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 22,
+    "id": "Azucena-1,1",
+    "parent": "Azucena-1",
     "name": "High Mountain Combo",
     "input": "1,1",
-    "hitLevels": [
-      "h",
-      "m"
-    ],
-    "damage": [
-      5,
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "-10",
-      "lower": "-10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "8",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+18a",
-      "lower": "+18",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,m",
+    "damage": "5,15",
+    "onBlock": -10,
+    "onHit": 8,
+    "onCounterHit": "+18a",
+    "states": null,
+    "index": 22
   },
   {
-    "index": 29,
+    "id": "Azucena-1+2",
+    "parent": null,
     "name": "Boomerang Scythe",
     "input": "1+2",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      17
-    ],
-    "framesOnBlock": {
-      "_raw": "-8",
-      "lower": "-8",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+13g",
-      "lower": "+13",
-      "properties": [
-        "g"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "+56a",
-      "lower": "+56",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "h",
+    "damage": 17,
+    "onBlock": -8,
+    "onHit": "+13g",
+    "onCounterHit": "+56a",
+    "states": "cs8~15",
+    "index": 29
   },
   {
-    "index": 23,
+    "id": "Azucena-1,2",
+    "parent": "Azucena-1",
     "name": "High Roast Combo",
     "input": "1,2",
-    "hitLevels": [
-      "h",
-      "h"
-    ],
-    "damage": [
-      5,
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "-14",
-      "lower": "-14",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "8",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,h",
+    "damage": "5,23",
+    "onBlock": -14,
+    "onHit": 8,
+    "onCounterHit": null,
+    "states": null,
+    "index": 23
   },
   {
-    "index": 68,
+    "id": "Azucena-1+2+3+4",
+    "parent": null,
     "name": "Ki Charge",
     "input": "1+2+3+4",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": 68
   },
   {
-    "index": 69,
+    "id": "Azucena-1+2+3+4,3+4",
+    "parent": "Azucena-1+2+3+4",
     "name": "Black Ivory Talon",
     "input": "1+2+3+4,3+4",
-    "hitLevels": [
-      "nullm!"
-    ],
-    "damage": [
-      54
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-8a",
-      "lower": "-8",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": "nullm!",
+    "damage": "null54",
+    "onBlock": null,
+    "onHit": "-8a",
+    "onCounterHit": null,
+    "states": null,
+    "index": 69
   },
   {
-    "index": 106,
+    "id": "Azucena-1+3",
+    "parent": null,
     "name": "Amaru Head Squeeze",
     "input": "1+3",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      35
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12~14",
-      "lower": "i12",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12~14",
+    "hitLevels": "t",
+    "damage": 35,
+    "onBlock": -3,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 106
   },
   {
-    "index": 65,
+    "id": "Azucena-1+3+4",
+    "parent": null,
     "name": "Taunt",
     "input": "1+3+4",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": 65
   },
   {
-    "index": 66,
+    "id": "Azucena-1+3+4*",
+    "parent": null,
     "name": "Shuffle Recital",
     "input": "1+3+4*",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": 66
   },
   {
+    "id": "Azucena-2",
+    "parent": null,
     "name": "Right Jab",
-    "input": "2",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      9
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "9",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": 2,
+    "startup": "i10",
+    "hitLevels": "h",
+    "damage": 9,
+    "onBlock": 0,
+    "onHit": 9,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Azucena-2,1",
+    "parent": "Azucena-2",
+    "name": null,
     "input": "2,1",
-    "hitLevels": [
-      "h",
-      "m"
-    ],
-    "damage": [
-      9,
-      11
-    ],
-    "framesOnBlock": {
-      "_raw": "-7",
-      "lower": "-7",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "3",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,m",
+    "damage": "9,11",
+    "onBlock": -7,
+    "onHit": 3,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 24,
+    "id": "Azucena-2,1,2",
+    "parent": "Azucena-2,1",
     "name": "Andes Mountain Uppercut Combo",
     "input": "2,1,2",
-    "hitLevels": [
-      "h",
-      "m",
-      "h"
-    ],
-    "damage": [
-      9,
-      11,
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-5",
-      "lower": "-5",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+20a (+3)",
-      "lower": "+20",
-      "properties": [
-        "a"
-      ],
-      "tech": "+3"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,m,h",
+    "damage": "9,11,21",
+    "onBlock": -5,
+    "onHit": "+20a (+3)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 24
   },
   {
+    "id": "Azucena-2+3",
+    "parent": null,
     "name": "Heat Burst",
     "input": "2+3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      12,
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "1",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+2c",
-      "lower": "+2",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "m",
+    "damage": "[12;12]",
+    "onBlock": 1,
+    "onHit": "+2c",
+    "onCounterHit": null,
+    "states": "pc7~16",
+    "index": null
   },
   {
-    "index": 67,
+    "id": "Azucena-2+3+4",
+    "parent": null,
     "name": "Coffee Break",
     "input": "2+3+4",
-    "hitLevels": [
-      "h!"
-    ],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-1",
-      "lower": "-1",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i45",
-      "lower": "i45",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i45",
+    "hitLevels": "h!",
+    "damage": 0,
+    "onBlock": null,
+    "onHit": -1,
+    "onCounterHit": null,
+    "states": null,
+    "index": 67
   },
   {
-    "index": 107,
+    "id": "Azucena-2+4",
+    "parent": null,
     "name": "El Dorado Neck Snap",
     "input": "2+4",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      35
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12~14",
-      "lower": "i12",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12~14",
+    "hitLevels": "t",
+    "damage": 35,
+    "onBlock": -3,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 107
   },
   {
+    "id": "Azucena-3",
+    "parent": null,
     "name": "Left Kick",
-    "input": "3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      13
-    ],
-    "framesOnBlock": {
-      "_raw": "-7",
-      "lower": "-7",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "4",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14",
-      "lower": "i14",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": 3,
+    "startup": "i14",
+    "hitLevels": "m",
+    "damage": 13,
+    "onBlock": -7,
+    "onHit": 4,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 25,
+    "id": "Azucena-3,2",
+    "parent": "Azucena-3",
     "name": "Groovy Strike",
     "input": "3,2",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      13,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+23g",
-      "lower": "+23",
-      "properties": [
-        "g"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "[[Azucena combos#Mini-combos|+33d (+25)]]",
-      "lower": "+33",
-      "properties": [
-        "d"
-      ],
-      "tech": "+25"
-    },
-    "framesOnStartup": {
-      "_raw": "i14",
-      "lower": "i14",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14",
+    "hitLevels": "m,m",
+    "damage": "13,20",
+    "onBlock": -12,
+    "onHit": "+23g",
+    "onCounterHit": "[[Azucena combos#Mini-combos|+33d (+25)]]",
+    "states": null,
+    "index": 25
   },
   {
+    "id": "Azucena-3,2~F",
+    "parent": "Azucena-3",
+    "name": null,
     "input": "3,2~F",
-    "hitLevels": [
-      "mnull"
-    ],
-    "damage": [
-      13
-    ],
-    "framesOnBlock": {
-      "_raw": "-18",
-      "lower": "-18",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-7",
-      "lower": "-7",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14",
-      "lower": "i14",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14",
+    "hitLevels": "mnull",
+    "damage": "13null",
+    "onBlock": -18,
+    "onHit": -7,
+    "onCounterHit": null,
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* ,ps36~ on whiff\n* ps17~ on block\n* ps6~ on hit\n&lt;/div&gt;",
+    "index": null
   },
   {
-    "index": 26,
+    "id": "Azucena-3,3",
+    "parent": "Azucena-3",
     "name": "Groovy Punalada",
     "input": "3,3",
-    "hitLevels": [
-      "m",
-      "h"
-    ],
-    "damage": [
-      13,
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "-1",
-      "lower": "-1",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "17",
-      "lower": "17",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14",
-      "lower": "i14",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14",
+    "hitLevels": "m,h",
+    "damage": "13,23",
+    "onBlock": -1,
+    "onHit": 17,
+    "onCounterHit": null,
+    "states": null,
+    "index": 26
   },
   {
+    "id": "Azucena-4",
+    "parent": null,
     "name": "Right Kick",
-    "input": "4",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "-8",
-      "lower": "-8",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "3",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "8",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12~13",
-      "lower": "i12",
-      "properties": [],
-      "upper": "13"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": 4,
+    "startup": "i12~13",
+    "hitLevels": "h",
+    "damage": 15,
+    "onBlock": -8,
+    "onHit": 3,
+    "onCounterHit": 8,
+    "states": null,
+    "index": null
   },
   {
-    "index": 27,
+    "id": "Azucena-4,1",
+    "parent": "Azucena-4",
     "name": "Guapuño",
     "input": "4,1",
-    "hitLevels": [
-      "h",
-      "h"
-    ],
-    "damage": [
-      15,
-      14
-    ],
-    "framesOnBlock": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "4",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+6~+7",
-      "lower": "+6",
-      "properties": [],
-      "upper": "+7"
-    },
-    "framesOnStartup": {
-      "_raw": "i12~13",
-      "lower": "i12",
-      "properties": [],
-      "upper": "13"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12~13",
+    "hitLevels": "h,h",
+    "damage": "15,14",
+    "onBlock": -2,
+    "onHit": 4,
+    "onCounterHit": "+6~+7",
+    "states": null,
+    "index": 27
   },
   {
-    "index": 28,
+    "id": "Azucena-4,3",
+    "parent": "Azucena-4",
     "name": "Delfin Patadas",
     "input": "4,3",
-    "hitLevels": [
-      "h",
-      "M"
-    ],
-    "damage": [
-      15,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-11",
-      "lower": "-11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+37a",
-      "lower": "+37",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12~13",
-      "lower": "i12",
-      "properties": [],
-      "upper": "13"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12~13",
+    "hitLevels": "h,M",
+    "damage": "15,20",
+    "onBlock": -11,
+    "onHit": "+37a",
+    "onCounterHit": null,
+    "states": null,
+    "index": 28
   },
   {
+    "id": "Azucena-b+1",
+    "parent": null,
+    "name": null,
     "input": "b+1",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "3",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14~15",
-      "lower": "i14",
-      "properties": [],
-      "upper": "15"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14~15",
+    "hitLevels": "h",
+    "damage": 10,
+    "onBlock": -3,
+    "onHit": 3,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Azucena-b+1,1",
+    "parent": "Azucena-b+1",
+    "name": null,
     "input": "b+1,1",
-    "hitLevels": [
-      "h",
-      "h"
-    ],
-    "damage": [
-      10,
-      14
-    ],
-    "framesOnBlock": {
-      "_raw": "-8",
-      "lower": "-8",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "3",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14~15",
-      "lower": "i14",
-      "properties": [],
-      "upper": "15"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14~15",
+    "hitLevels": "h,h",
+    "damage": "10,14",
+    "onBlock": -8,
+    "onHit": 3,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 51,
+    "id": "Azucena-b+1,1,2",
+    "parent": "Azucena-b+1,1",
     "name": "Double Blend Tempestad",
     "input": "b+1,1,2",
-    "hitLevels": [
-      "h",
-      "h",
-      "h"
-    ],
-    "damage": [
-      10,
-      14,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-5",
-      "lower": "-5",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+17a (+8)",
-      "lower": "+17",
-      "properties": [
-        "a"
-      ],
-      "tech": "+8"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14~15",
-      "lower": "i14",
-      "properties": [],
-      "upper": "15"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14~15",
+    "hitLevels": "h,h,h",
+    "damage": "10,14,20",
+    "onBlock": -5,
+    "onHit": "+17a (+8)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 51
   },
   {
-    "index": 52,
+    "id": "Azucena-b+2",
+    "parent": null,
     "name": "Mil Nudillo",
     "input": "b+2",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "2",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+22a (+13)",
-      "lower": "+22",
-      "properties": [
-        "a"
-      ],
-      "tech": "+13"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18~19",
-      "lower": "i18",
-      "properties": [],
-      "upper": "19"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18~19",
+    "hitLevels": "h",
+    "damage": 21,
+    "onBlock": 2,
+    "onHit": "+22a (+13)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 52
   },
   {
-    "index": 53,
+    "id": "Azucena-b+3",
+    "parent": null,
     "name": "Tacón Plunger",
     "input": "b+3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "+2c",
-      "lower": "+2",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnHit": {
-      "_raw": "+8c",
-      "lower": "+8",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i19",
-      "lower": "i19",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i19",
+    "hitLevels": "m",
+    "damage": 21,
+    "onBlock": "+2c",
+    "onHit": "+8c",
+    "onCounterHit": null,
+    "states": null,
+    "index": 53
   },
   {
+    "id": "Azucena-b+3+4",
+    "parent": null,
     "name": "Hopping Turn",
     "input": "b+3+4",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* js8~19\n* fs20~22&lt;/div&gt;",
+    "index": null
   },
   {
-    "index": 71,
+    "id": "Azucena-b+3+4*",
+    "parent": null,
     "name": "Shuffle Carnival",
     "input": "b+3+4*",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": 71
   },
   {
+    "id": "Azucena-b+4",
+    "parent": null,
+    "name": null,
     "input": "b+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "2",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "m",
+    "damage": 10,
+    "onBlock": -9,
+    "onHit": 2,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Azucena-b+4,3",
+    "parent": "Azucena-b+4",
+    "name": null,
     "input": "b+4,3",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      10,
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-10",
-      "lower": "-10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "4",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "m,m",
+    "damage": "10,10",
+    "onBlock": -10,
+    "onHit": 4,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Azucena-b+4,3,4",
+    "parent": "Azucena-b+4,3",
+    "name": null,
     "input": "b+4,3,4",
-    "hitLevels": [
-      "m",
-      "m",
-      "m"
-    ],
-    "damage": [
-      10,
-      10,
-      16
-    ],
-    "framesOnBlock": {
-      "_raw": "-10",
-      "lower": "-10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "m,m,m",
+    "damage": "10,10,16",
+    "onBlock": -10,
+    "onHit": -2,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 54,
+    "id": "Azucena-b+4,3,4,3",
+    "parent": "Azucena-b+4,3,4",
     "name": "Seattle Skipper",
     "input": "b+4,3,4,3",
-    "hitLevels": [
-      "m",
-      "m",
-      "m",
-      "h"
-    ],
-    "damage": [
-      10,
-      10,
-      16,
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "-7",
-      "lower": "-7",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+39d (-19)",
-      "lower": "+39",
-      "properties": [
-        "d"
-      ],
-      "tech": "-19"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "m,m,m,h",
+    "damage": "10,10,16,23",
+    "onBlock": -7,
+    "onHit": "+39d (-19)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 54
   },
   {
-    "index": 110,
+    "id": "Azucena-Back throw",
+    "parent": null,
     "name": "Caffeine Abduction",
-    "input": "Backthrow",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      50
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": "Back throw",
+    "startup": null,
+    "hitLevels": "t",
+    "damage": 50,
+    "onBlock": null,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 110
   },
   {
+    "id": "Azucena-(Back to wall).b,b,UB",
+    "parent": null,
     "name": "[[Wall Jump Attack]]",
-    "input": "(Backtowall).b,b,UB",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "+1~+7",
-      "lower": "+1",
-      "properties": [],
-      "upper": "+7"
-    },
-    "framesOnHit": {
-      "_raw": "+7a (-3)",
-      "lower": "+7",
-      "properties": [
-        "a"
-      ],
-      "tech": "-3"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i27~33",
-      "lower": "i27",
-      "properties": [],
-      "upper": "33"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": "(Back to wall).b,b,UB",
+    "startup": "i27~33",
+    "hitLevels": "m",
+    "damage": 25,
+    "onBlock": "+1~+7",
+    "onHit": "+7a (-3)",
+    "onCounterHit": null,
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* fs5~13\n* js14~26\n* fs27~54&lt;/div&gt;",
+    "index": null
   },
   {
+    "id": "Azucena-BT.1",
+    "parent": null,
+    "name": null,
     "input": "BT.1",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      9
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "6",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "8",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10~11",
-      "lower": "i10",
-      "properties": [],
-      "upper": "11"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10~11",
+    "hitLevels": "h",
+    "damage": 9,
+    "onBlock": 0,
+    "onHit": 6,
+    "onCounterHit": 8,
+    "states": null,
+    "index": null
   },
   {
-    "index": 85,
+    "id": "Azucena-BT.1+2",
+    "parent": null,
     "name": "Golpe Affogato",
     "input": "BT.1+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      17
-    ],
-    "framesOnBlock": {
-      "_raw": "-11",
-      "lower": "-11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "3",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+58a",
-      "lower": "+58",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i14~15",
-      "lower": "i14",
-      "properties": [],
-      "upper": "15"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14~15",
+    "hitLevels": "m",
+    "damage": 17,
+    "onBlock": -11,
+    "onHit": 3,
+    "onCounterHit": "+58a",
+    "states": null,
+    "index": 85
   },
   {
-    "index": 80,
+    "id": "Azucena-BT.1,2",
+    "parent": "Azucena-BT.1",
     "name": "Mocha Attaque Matari",
     "input": "BT.1,2",
-    "hitLevels": [
-      "h",
-      "h"
-    ],
-    "damage": [
-      9,
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "-7",
-      "lower": "-7",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+19a (+10)",
-      "lower": "+19",
-      "properties": [
-        "a"
-      ],
-      "tech": "+10"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10~11",
-      "lower": "i10",
-      "properties": [],
-      "upper": "11"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10~11",
+    "hitLevels": "h,h",
+    "damage": "9,23",
+    "onBlock": -7,
+    "onHit": "+19a (+10)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 80
   },
   {
-    "index": 81,
+    "id": "Azucena-BT.1,4",
+    "parent": "Azucena-BT.1",
     "name": "Mocha Attaque Sidamo",
     "input": "BT.1,4",
-    "hitLevels": [
-      "h",
-      "m"
-    ],
-    "damage": [
-      9,
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-11",
-      "lower": "-11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "8",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+53a",
-      "lower": "+53",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i10~11",
-      "lower": "i10",
-      "properties": [],
-      "upper": "11"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10~11",
+    "hitLevels": "h,m",
+    "damage": "9,21",
+    "onBlock": -11,
+    "onHit": 8,
+    "onCounterHit": "+53a",
+    "states": null,
+    "index": 81
   },
   {
+    "id": "Azucena-BT.2",
+    "parent": null,
+    "name": null,
     "input": "BT.2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "-8",
-      "lower": "-8",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "3",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17~18",
-      "lower": "i17",
-      "properties": [],
-      "upper": "18"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17~18",
+    "hitLevels": "m",
+    "damage": 15,
+    "onBlock": -8,
+    "onHit": 3,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 82,
+    "id": "Azucena-BT.2,2",
+    "parent": "Azucena-BT.2",
     "name": "Qhapaq Ñan",
     "input": "BT.2&amp;#58;2",
-    "hitLevels": [
-      "m",
-      "t"
-    ],
-    "damage": [
-      15,
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17~18",
-      "lower": "i17",
-      "properties": [],
-      "upper": "18"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17~18",
+    "hitLevels": "m,t",
+    "damage": "15,23",
+    "onBlock": null,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 82
   },
   {
-    "index": 83,
+    "id": "Azucena-BT.3",
+    "parent": null,
     "name": "Calf Reaper",
     "input": "BT.3",
-    "hitLevels": [
-      "L"
-    ],
-    "damage": [
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+4 LIB",
-      "lower": "+4",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "[[Azucena combos#Mini-combos|+14c]]",
-      "lower": "+14",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i19~20",
-      "lower": "i19",
-      "properties": [],
-      "upper": "20"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i19~20",
+    "hitLevels": "L",
+    "damage": 23,
+    "onBlock": -13,
+    "onHit": "+4 LIB",
+    "onCounterHit": "[[Azucena combos#Mini-combos|+14c]]",
+    "states": null,
+    "index": 83
   },
   {
-    "index": 86,
+    "id": "Azucena-BT.3+4",
+    "parent": null,
     "name": "Foo Fighter",
     "input": "BT.3+4",
-    "hitLevels": [
-      "M"
-    ],
-    "damage": [
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "-5c~-3c",
-      "lower": "-5",
-      "properties": [
-        "c",
-        "c"
-      ],
-      "upper": "-3"
-    },
-    "framesOnHit": {
-      "_raw": "+20a",
-      "lower": "+20",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i27~29",
-      "lower": "i27",
-      "properties": [],
-      "upper": "29"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i27~29",
+    "hitLevels": "M",
+    "damage": 23,
+    "onBlock": "-5c~-3c",
+    "onHit": "+20a",
+    "onCounterHit": null,
+    "states": "js9~29",
+    "index": 86
   },
   {
+    "id": "Azucena-BT.4",
+    "parent": null,
+    "name": null,
     "input": "BT.4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "-5",
-      "lower": "-5",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "6",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "m",
+    "damage": 15,
+    "onBlock": -5,
+    "onHit": 6,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 84,
+    "id": "Azucena-BT.4,3",
+    "parent": "Azucena-BT.4",
     "name": "Upbeat Patadas",
     "input": "BT.4,3",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      15,
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-14",
-      "lower": "-14",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+16a (-1)",
-      "lower": "+16",
-      "properties": [
-        "a"
-      ],
-      "tech": "-1"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "m,m",
+    "damage": "15,21",
+    "onBlock": -14,
+    "onHit": "+16a (-1)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 84
   },
   {
-    "index": 89,
+    "id": "Azucena-BT.b+1+2",
+    "parent": null,
     "name": "Runaway",
     "input": "BT.b+1+2",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": "ps2~8",
+    "index": 89
   },
   {
-    "index": 88,
+    "id": "Azucena-BT.b+3",
+    "parent": null,
     "name": "Shuffle Walk",
     "input": "BT.b+3",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": 88
   },
   {
-    "index": 90,
+    "id": "Azucena-BT.b+3+4",
+    "parent": null,
     "name": "Hide Turn",
     "input": "BT.b+3+4",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": "cs6~20",
+    "index": 90
   },
   {
-    "index": 87,
+    "id": "Azucena-BT.f+3+4",
+    "parent": null,
     "name": "Libertador (Regreso)",
     "input": "BT.f+3+4",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* js9~21\n* fs22~24&lt;/div&gt;",
+    "index": 87
   },
   {
-    "index": 42,
+    "id": "Azucena-d+1",
+    "parent": null,
     "name": "Hand Drip Hammer",
     "input": "d+1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "4",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+7c",
-      "lower": "+7",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "+44a",
-      "lower": "+44",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i20~21",
-      "lower": "i20",
-      "properties": [],
-      "upper": "21"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20~21",
+    "hitLevels": "m",
+    "damage": 20,
+    "onBlock": 4,
+    "onHit": "+7c",
+    "onCounterHit": "+44a",
+    "states": null,
+    "index": 42
   },
   {
-    "index": 112,
+    "id": "Azucena-d+1+2",
+    "parent": null,
     "name": "UFO Roll",
     "input": "d+1+2",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      21,
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-4",
-      "lower": "-4",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i25~26",
-      "lower": "i25",
-      "properties": [],
-      "upper": "26"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i25~26",
+    "hitLevels": "l",
+    "damage": "[21;21]",
+    "onBlock": -4,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* cs8~\n* fs25~&lt;/div&gt;",
+    "index": 112
   },
   {
-    "index": 116,
+    "id": "Azucena-d+1+3",
+    "parent": null,
     "name": "Smell the Coffee",
     "input": "d+1+3",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      30
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12~13",
-      "lower": "i12",
-      "properties": [],
-      "upper": "13"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12~13",
+    "hitLevels": "t",
+    "damage": 30,
+    "onBlock": null,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 116
   },
   {
+    "id": "Azucena-d+2",
+    "parent": null,
+    "name": null,
     "input": "d+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "5",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17~18",
-      "lower": "i17",
-      "properties": [],
-      "upper": "18"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17~18",
+    "hitLevels": "m",
+    "damage": 15,
+    "onBlock": -9,
+    "onHit": 5,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 43,
+    "id": "Azucena-d+2,3",
+    "parent": "Azucena-d+2",
     "name": "La Niña Kick Combo",
     "input": "d+2,3",
-    "hitLevels": [
-      "m",
-      "h"
-    ],
-    "damage": [
-      15,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "1",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+16g",
-      "lower": "+16",
-      "properties": [
-        "g"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17~18",
-      "lower": "i17",
-      "properties": [],
-      "upper": "18"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17~18",
+    "hitLevels": "m,h",
+    "damage": "15,20",
+    "onBlock": 1,
+    "onHit": "+16g",
+    "onCounterHit": null,
+    "states": null,
+    "index": 43
   },
   {
+    "id": "Azucena-d+3",
+    "parent": null,
+    "name": null,
     "input": "d+3",
-    "hitLevels": [
-      "L"
-    ],
-    "damage": [
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-14",
-      "lower": "-14",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "L",
+    "damage": 10,
+    "onBlock": -14,
+    "onHit": -3,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Azucena-d+3,3",
+    "parent": "Azucena-d+3",
+    "name": null,
     "input": "d+3,3",
-    "hitLevels": [
-      "L",
-      "m"
-    ],
-    "damage": [
-      10,
-      14
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "1",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "L,m",
+    "damage": "10,14",
+    "onBlock": -13,
+    "onHit": 1,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 44,
+    "id": "Azucena-d+3,3,4",
+    "parent": "Azucena-d+3,3",
     "name": "Passionate Kick Combo",
     "input": "d+3,3,4",
-    "hitLevels": [
-      "L",
-      "m",
-      "m"
-    ],
-    "damage": [
-      10,
-      14,
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-14",
-      "lower": "-14",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+15a (-2)",
-      "lower": "+15",
-      "properties": [
-        "a"
-      ],
-      "tech": "-2"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "L,m,m",
+    "damage": "10,14,21",
+    "onBlock": -14,
+    "onHit": "+15a (-2)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 44
   },
   {
+    "id": "Azucena-d+4",
+    "parent": null,
+    "name": null,
     "input": "d+4",
-    "hitLevels": [
-      "L"
-    ],
-    "damage": [
-      13
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "L",
+    "damage": 13,
+    "onBlock": -13,
+    "onHit": -2,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 45,
+    "id": "Azucena-d+4,1",
+    "parent": "Azucena-d+4",
     "name": "Roast Knuckle Combo",
     "input": "d+4,1",
-    "hitLevels": [
-      "L",
-      "h"
-    ],
-    "damage": [
-      13,
-      5
-    ],
-    "framesOnBlock": {
-      "_raw": "-1",
-      "lower": "-1",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "3",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "L,h",
+    "damage": "13,5",
+    "onBlock": -1,
+    "onHit": 3,
+    "onCounterHit": null,
+    "states": null,
+    "index": 45
   },
   {
-    "index": 46,
+    "id": "Azucena-d+4,1~2",
+    "parent": "Azucena-d+4",
     "name": "Full City Roast Knuckle Combo",
     "input": "d+4,1~2",
-    "hitLevels": [
-      "L",
-      "m"
-    ],
-    "damage": [
-      13,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-8",
-      "lower": "-8",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+20a (+11)",
-      "lower": "+20",
-      "properties": [
-        "a"
-      ],
-      "tech": "+11"
-    },
-    "framesOnCounter": {
-      "_raw": "+59a",
-      "lower": "+59",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "L,m",
+    "damage": "13,20",
+    "onBlock": -8,
+    "onHit": "+20a (+11)",
+    "onCounterHit": "+59a",
+    "states": null,
+    "index": 46
   },
   {
+    "id": "Azucena-db+1",
+    "parent": null,
     "name": "Crouch Jab",
     "input": "db+1",
-    "hitLevels": [
-      "sl"
-    ],
-    "damage": [
-      5
-    ],
-    "framesOnBlock": {
-      "_raw": "-5",
-      "lower": "-5",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "6",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "sl",
+    "damage": 5,
+    "onBlock": -5,
+    "onHit": 6,
+    "onCounterHit": null,
+    "states": "cs4~",
+    "index": null
   },
   {
-    "index": 49,
+    "id": "Azucena-db+1+2",
+    "parent": null,
     "name": "Kilimanjaro Uppercut",
     "input": "db+1+2",
-    "hitLevels": [
-      "M"
-    ],
-    "damage": [
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "-21",
-      "lower": "-21",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+33a (+23)",
-      "lower": "+33",
-      "properties": [
-        "a"
-      ],
-      "tech": "+23"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20~21",
-      "lower": "i20",
-      "properties": [],
-      "upper": "21"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20~21",
+    "hitLevels": "M",
+    "damage": 23,
+    "onBlock": -21,
+    "onHit": "+33a (+23)",
+    "onCounterHit": null,
+    "states": "cs6~21",
+    "index": 49
   },
   {
+    "id": "Azucena-db+2",
+    "parent": null,
     "name": "Crouch Straight",
     "input": "db+2",
-    "hitLevels": [
-      "sl"
-    ],
-    "damage": [
-      8
-    ],
-    "framesOnBlock": {
-      "_raw": "-4",
-      "lower": "-4",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "7",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i11",
-      "lower": "i11",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i11",
+    "hitLevels": "sl",
+    "damage": 8,
+    "onBlock": -4,
+    "onHit": 7,
+    "onCounterHit": null,
+    "states": "cs4~",
+    "index": null
   },
   {
+    "id": "Azucena-db+3",
+    "parent": null,
+    "name": null,
     "input": "db+3",
-    "hitLevels": [
-      "L"
-    ],
-    "damage": [
-      14
-    ],
-    "framesOnBlock": {
-      "_raw": "-7",
-      "lower": "-7",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "4",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16~17",
-      "lower": "i16",
-      "properties": [],
-      "upper": "17"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16~17",
+    "hitLevels": "L",
+    "damage": 14,
+    "onBlock": -7,
+    "onHit": 4,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 50,
+    "id": "Azucena-db+3+4",
+    "parent": null,
     "name": "El Cóndor Pasa",
     "input": "db+3+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      30
-    ],
-    "framesOnBlock": {
-      "_raw": "-16~-12",
-      "lower": "-16",
-      "properties": [],
-      "upper": "-12"
-    },
-    "framesOnHit": {
-      "_raw": "+15a (+5)",
-      "lower": "+15",
-      "properties": [
-        "a"
-      ],
-      "tech": "+5"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i26~30",
-      "lower": "i26",
-      "properties": [],
-      "upper": "30"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i26~30",
+    "hitLevels": "m",
+    "damage": 30,
+    "onBlock": "-16~-12",
+    "onHit": "+15a (+5)",
+    "onCounterHit": null,
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* js20~35\n* fs36~38&lt;/div&gt;",
+    "index": 50
   },
   {
-    "index": 47,
+    "id": "Azucena-db+3,4",
+    "parent": "Azucena-db+3",
     "name": "Borrasca Kick Combo",
     "input": "db+3,4",
-    "hitLevels": [
-      "L",
-      "h"
-    ],
-    "damage": [
-      14,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+66a (+50)",
-      "lower": "+66",
-      "properties": [
-        "a"
-      ],
-      "tech": "+50"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16~17",
-      "lower": "i16",
-      "properties": [],
-      "upper": "17"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16~17",
+    "hitLevels": "L,h",
+    "damage": "14,20",
+    "onBlock": -13,
+    "onHit": "+66a (+50)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 47
   },
   {
-    "index": 48,
+    "id": "Azucena-db+4",
+    "parent": null,
     "name": "Bitter Low Kick",
     "input": "db+4",
-    "hitLevels": [
-      "L"
-    ],
-    "damage": [
-      13
-    ],
-    "framesOnBlock": {
-      "_raw": "-14",
-      "lower": "-14",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+12g",
-      "lower": "+12",
-      "properties": [
-        "g"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i19",
-      "lower": "i19",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i19",
+    "hitLevels": "L",
+    "damage": 13,
+    "onBlock": -14,
+    "onHit": -3,
+    "onCounterHit": "+12g",
+    "states": "cs6~20",
+    "index": 48
   },
   {
+    "id": "Azucena-df+1",
+    "parent": null,
     "name": "Mid Check",
     "input": "df+1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      11
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "8",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13~14",
-      "lower": "i13",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13~14",
+    "hitLevels": "m",
+    "damage": 11,
+    "onBlock": -3,
+    "onHit": 8,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Azucena-df+1,4",
+    "parent": "Azucena-df+1",
+    "name": null,
     "input": "df+1,4",
-    "hitLevels": [
-      "m",
-      "h"
-    ],
-    "damage": [
-      11,
-      13
-    ],
-    "framesOnBlock": {
-      "_raw": "-7",
-      "lower": "-7",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "4",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13~14",
-      "lower": "i13",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13~14",
+    "hitLevels": "m,h",
+    "damage": "11,13",
+    "onBlock": -7,
+    "onHit": 4,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 37,
+    "id": "Azucena-df+1,4,1",
+    "parent": "Azucena-df+1,4",
     "name": "Grande Combo",
     "input": "df+1,4,1",
-    "hitLevels": [
-      "m",
-      "h",
-      "h"
-    ],
-    "damage": [
-      11,
-      13,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-5",
-      "lower": "-5",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+44d (-14)",
-      "lower": "+44",
-      "properties": [
-        "d"
-      ],
-      "tech": "-14"
-    },
-    "framesOnCounter": {
-      "_raw": "+56a",
-      "lower": "+56",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i13~14",
-      "lower": "i13",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13~14",
+    "hitLevels": "m,h,h",
+    "damage": "11,13,20",
+    "onBlock": -5,
+    "onHit": "+44d (-14)",
+    "onCounterHit": "+56a",
+    "states": null,
+    "index": 37
   },
   {
-    "index": 38,
+    "id": "Azucena-df+1,4,1~2",
+    "parent": "Azucena-df+1,4",
     "name": "Full Body Grande Combo",
     "input": "df+1,4,1~2",
-    "hitLevels": [
-      "m",
-      "h",
-      "M"
-    ],
-    "damage": [
-      11,
-      13,
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "-10",
-      "lower": "-10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "[[Azucena combos#Mini-combos|+23d]]",
-      "lower": "+23",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13~14",
-      "lower": "i13",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13~14",
+    "hitLevels": "m,h,M",
+    "damage": "11,13,23",
+    "onBlock": -10,
+    "onHit": "[[Azucena combos#Mini-combos|+23d]]",
+    "onCounterHit": null,
+    "states": null,
+    "index": 38
   },
   {
-    "index": 39,
+    "id": "Azucena-df+2",
+    "parent": null,
     "name": "Mount Rainier",
     "input": "df+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+28a (+18)",
-      "lower": "+28",
-      "properties": [
-        "a"
-      ],
-      "tech": "+18"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "m",
+    "damage": 12,
+    "onBlock": -13,
+    "onHit": "+28a (+18)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 39
   },
   {
-    "index": 40,
+    "id": "Azucena-df+3",
+    "parent": null,
     "name": "Rodilla Shot",
     "input": "df+3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      17
-    ],
-    "framesOnBlock": {
-      "_raw": "-5",
-      "lower": "-5",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "5",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+59a",
-      "lower": "+59",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i17~18",
-      "lower": "i17",
-      "properties": [],
-      "upper": "18"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17~18",
+    "hitLevels": "m",
+    "damage": 17,
+    "onBlock": -5,
+    "onHit": 5,
+    "onCounterHit": "+59a",
+    "states": null,
+    "index": 40
   },
   {
+    "id": "Azucena-df+4",
+    "parent": null,
+    "name": null,
     "input": "df+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "-7",
-      "lower": "-7",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "2",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16~17",
-      "lower": "i16",
-      "properties": [],
-      "upper": "17"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16~17",
+    "hitLevels": "m",
+    "damage": 15,
+    "onBlock": -7,
+    "onHit": 2,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 41,
+    "id": "Azucena-df+4,1",
+    "parent": "Azucena-df+4",
     "name": "Blue Mountain Combo",
     "input": "df+4,1",
-    "hitLevels": [
-      "m",
-      "h"
-    ],
-    "damage": [
-      15,
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "-5",
-      "lower": "-5",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+20a (+3)",
-      "lower": "+20",
-      "properties": [
-        "a"
-      ],
-      "tech": "+3"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16~17",
-      "lower": "i16",
-      "properties": [],
-      "upper": "17"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16~17",
+    "hitLevels": "m,h",
+    "damage": "15,23",
+    "onBlock": -5,
+    "onHit": "+20a (+3)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 41
   },
   {
-    "index": 35,
+    "id": "Azucena-f+1+2",
+    "parent": null,
     "name": "Aero Press Pegar",
     "input": "f+1+2",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "15",
-      "lower": "15",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16~17",
-      "lower": "i16",
-      "properties": [],
-      "upper": "17"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16~17",
+    "hitLevels": "h",
+    "damage": 25,
+    "onBlock": -9,
+    "onHit": 15,
+    "onCounterHit": null,
+    "states": "pc7~15",
+    "index": 35
   },
   {
+    "id": "Azucena-f+2",
+    "parent": null,
+    "name": null,
     "input": "f+2",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      14
-    ],
-    "framesOnBlock": {
-      "_raw": "-10",
-      "lower": "-10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "1",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17~18",
-      "lower": "i17",
-      "properties": [],
-      "upper": "18"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17~18",
+    "hitLevels": "h",
+    "damage": 14,
+    "onBlock": -10,
+    "onHit": 1,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Azucena-f+2,1",
+    "parent": "Azucena-f+2",
+    "name": null,
     "input": "f+2,1",
-    "hitLevels": [
-      "h",
-      "m"
-    ],
-    "damage": [
-      14,
-      17
-    ],
-    "framesOnBlock": {
-      "_raw": "-10",
-      "lower": "-10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "5",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17~18",
-      "lower": "i17",
-      "properties": [],
-      "upper": "18"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17~18",
+    "hitLevels": "h,m",
+    "damage": "14,17",
+    "onBlock": -10,
+    "onHit": 5,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 30,
+    "id": "Azucena-f+2,1,4",
+    "parent": "Azucena-f+2,1",
     "name": "Danza Del Cóndor",
     "input": "f+2,1,4",
-    "hitLevels": [
-      "h",
-      "m",
-      "m"
-    ],
-    "damage": [
-      14,
-      17,
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "-14",
-      "lower": "-14",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+19a (+9)",
-      "lower": "+19",
-      "properties": [
-        "a"
-      ],
-      "tech": "+9"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17~18",
-      "lower": "i17",
-      "properties": [],
-      "upper": "18"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17~18",
+    "hitLevels": "h,m,m",
+    "damage": "14,17,23",
+    "onBlock": -14,
+    "onHit": "+19a (+9)",
+    "onCounterHit": null,
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* ,js18~38\n* fs39~41&lt;/div&gt;",
+    "index": 30
   },
   {
+    "id": "Azucena-f+3",
+    "parent": null,
+    "name": null,
     "input": "f+3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "-4",
-      "lower": "-4",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "5",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18",
-      "lower": "i18",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18",
+    "hitLevels": "m",
+    "damage": 15,
+    "onBlock": -4,
+    "onHit": 5,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 31,
+    "id": "Azucena-f+3,2",
+    "parent": "Azucena-f+3",
     "name": "Sumatra Back Knuckle",
     "input": "f+3,2",
-    "hitLevels": [
-      "m",
-      "h"
-    ],
-    "damage": [
-      15,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-4",
-      "lower": "-4",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "[[Azucena combos#Mini-combos|+22a]]",
-      "lower": "+22",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18",
-      "lower": "i18",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18",
+    "hitLevels": "m,h",
+    "damage": "15,20",
+    "onBlock": -4,
+    "onHit": "[[Azucena combos#Mini-combos|+22a]]",
+    "onCounterHit": null,
+    "states": null,
+    "index": 31
   },
   {
+    "id": "Azucena-f+3+4",
+    "parent": null,
     "name": "Libertador",
     "input": "f+3+4",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": "ps18~",
+    "index": null
   },
   {
-    "index": 70,
+    "id": "Azucena-f+3+4*",
+    "parent": null,
     "name": "Shuffle Jamboree",
     "input": "f+3+4*",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": ",ps1~",
+    "index": 70
   },
   {
-    "index": 32,
+    "id": "Azucena-f+3,4",
+    "parent": "Azucena-f+3",
     "name": "Sumatra Patadas",
     "input": "f+3,4",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      15,
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-11",
-      "lower": "-11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "8",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+52a",
-      "lower": "+52",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i18",
-      "lower": "i18",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18",
+    "hitLevels": "m,m",
+    "damage": "15,21",
+    "onBlock": -11,
+    "onHit": 8,
+    "onCounterHit": "+52a",
+    "states": null,
+    "index": 32
   },
   {
+    "id": "Azucena-f+4",
+    "parent": null,
+    "name": null,
     "input": "f+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      16
-    ],
-    "framesOnBlock": {
-      "_raw": "-8",
-      "lower": "-8",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "1",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17~18",
-      "lower": "i17",
-      "properties": [],
-      "upper": "18"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17~18",
+    "hitLevels": "m",
+    "damage": 16,
+    "onBlock": -8,
+    "onHit": 1,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 32,
+    "id": "Azucena-f+4,4",
+    "parent": "Azucena-f+4",
     "name": "Tifón Patear",
     "input": "f+4,4",
-    "hitLevels": [
-      "m",
-      "h"
-    ],
-    "damage": [
-      16,
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-7",
-      "lower": "-7",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+19a (+10)",
-      "lower": "+19",
-      "properties": [
-        "a"
-      ],
-      "tech": "+10"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17~18",
-      "lower": "i17",
-      "properties": [],
-      "upper": "18"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17~18",
+    "hitLevels": "m,h",
+    "damage": "16,21",
+    "onBlock": -7,
+    "onHit": "+19a (+10)",
+    "onCounterHit": null,
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* ,js15~23\n* fs24~26&lt;/div&gt;",
+    "index": 32
   },
   {
-    "index": 33,
+    "id": "Azucena-f+4,4~2",
+    "parent": "Azucena-f+4",
     "name": "Tifón Trueno",
     "input": "f+4,4~2",
-    "hitLevels": [
-      "m",
-      "h"
-    ],
-    "damage": [
-      16,
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "1",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+52a",
-      "lower": "+52",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17~18",
-      "lower": "i17",
-      "properties": [],
-      "upper": "18"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17~18",
+    "hitLevels": "m,h",
+    "damage": "16,23",
+    "onBlock": 1,
+    "onHit": "+52a",
+    "onCounterHit": null,
+    "states": null,
+    "index": 33
   },
   {
-    "index": 34,
+    "id": "Azucena-f+4,4~3",
+    "parent": "Azucena-f+4",
     "name": "Tifón Cañón",
     "input": "f+4,4~3",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      16,
-      24
-    ],
-    "framesOnBlock": {
-      "_raw": "-9~-8",
-      "lower": "-9",
-      "properties": [],
-      "upper": "-8"
-    },
-    "framesOnHit": {
-      "_raw": "+15a (+6)",
-      "lower": "+15",
-      "properties": [
-        "a"
-      ],
-      "tech": "+6"
-    },
-    "framesOnCounter": {
-      "_raw": "+70a (+54)",
-      "lower": "+70",
-      "properties": [
-        "a"
-      ],
-      "tech": "+54"
-    },
-    "framesOnStartup": {
-      "_raw": "i17~18",
-      "lower": "i17",
-      "properties": [],
-      "upper": "18"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17~18",
+    "hitLevels": "m,m",
+    "damage": "16,24",
+    "onBlock": "-9~-8",
+    "onHit": "+15a (+6)",
+    "onCounterHit": "+70a (+54)",
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* ,js1~6\n* fs7~9&lt;/div&gt;",
+    "index": 34
   },
   {
-    "index": 113,
+    "id": "Azucena-FC.1+2",
+    "parent": null,
     "name": "Ultimate Tackle",
     "input": "FC.1+2",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "-5",
-      "lower": "-5",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "3",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i26",
-      "lower": "i26",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i26",
+    "hitLevels": "t",
+    "damage": 0,
+    "onBlock": -5,
+    "onHit": 3,
+    "onCounterHit": null,
+    "states": null,
+    "index": 113
   },
   {
+    "id": "Azucena-FC.d+1",
+    "parent": null,
     "name": "Crouch Jab",
     "input": "FC.d+1",
-    "hitLevels": [
-      "sl"
-    ],
-    "damage": [
-      5
-    ],
-    "framesOnBlock": {
-      "_raw": "-5",
-      "lower": "-5",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "6",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "sl",
+    "damage": 5,
+    "onBlock": -5,
+    "onHit": 6,
+    "onCounterHit": null,
+    "states": "cs1~",
+    "index": null
   },
   {
+    "id": "Azucena-FC.d+2",
+    "parent": null,
     "name": "Crouch Straight",
     "input": "FC.d+2",
-    "hitLevels": [
-      "sl"
-    ],
-    "damage": [
-      8
-    ],
-    "framesOnBlock": {
-      "_raw": "-4",
-      "lower": "-4",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "7",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i11",
-      "lower": "i11",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i11",
+    "hitLevels": "sl",
+    "damage": 8,
+    "onBlock": -4,
+    "onHit": 7,
+    "onCounterHit": null,
+    "states": "cs1~",
+    "index": null
   },
   {
+    "id": "Azucena-FC.d+3",
+    "parent": null,
     "name": "Crouch Spin Kick",
     "input": "FC.d+3",
-    "hitLevels": [
-      "L"
-    ],
-    "damage": [
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-17",
-      "lower": "-17",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "L",
+    "damage": 10,
+    "onBlock": -17,
+    "onHit": -6,
+    "onCounterHit": null,
+    "states": "cs1~",
+    "index": null
   },
   {
+    "id": "Azucena-FC.d+4",
+    "parent": null,
     "name": "Crouch Shin Kick",
     "input": "FC.d+4",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      6
-    ],
-    "framesOnBlock": {
-      "_raw": "-15",
-      "lower": "-15",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-4",
-      "lower": "-4",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "l",
+    "damage": 6,
+    "onBlock": -15,
+    "onHit": -4,
+    "onCounterHit": null,
+    "states": "cs1~",
+    "index": null
   },
   {
-    "index": 79,
+    "id": "Azucena-FC.df+3",
+    "parent": null,
     "name": "Cosecha Látigo",
     "input": "FC.df+3",
-    "hitLevels": [
-      "L"
-    ],
-    "damage": [
-      17
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+3c",
-      "lower": "+3",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "[[Azucena combos#Mini-combos|+13c]]",
-      "lower": "+13",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i18~19",
-      "lower": "i18",
-      "properties": [],
-      "upper": "19"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18~19",
+    "hitLevels": "L",
+    "damage": 17,
+    "onBlock": -13,
+    "onHit": "+3c",
+    "onCounterHit": "[[Azucena combos#Mini-combos|+13c]]",
+    "states": "cs1~",
+    "index": 79
   },
   {
-    "index": 60,
+    "id": "Azucena-f,F+3",
+    "parent": null,
     "name": "Luna Llena",
     "input": "f,F+3",
-    "hitLevels": [
-      "M"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-14~-12",
-      "lower": "-14",
-      "properties": [],
-      "upper": "-12"
-    },
-    "framesOnHit": {
-      "_raw": "+35a (+25)",
-      "lower": "+35",
-      "properties": [
-        "a"
-      ],
-      "tech": "+25"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~17",
-      "lower": "i15",
-      "properties": [],
-      "upper": "17"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~17",
+    "hitLevels": "M",
+    "damage": 20,
+    "onBlock": "-14~-12",
+    "onHit": "+35a (+25)",
+    "onCounterHit": null,
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* js17~37\n* fs38~40&lt;/div&gt;",
+    "index": 60
   },
   {
-    "index": 62,
+    "id": "Azucena-f,F+3+4",
+    "parent": null,
     "name": "Ortiz Molino",
     "input": "f,F+3+4",
-    "hitLevels": [
-      "m",
-      "M"
-    ],
-    "damage": [
-      10,
-      18
-    ],
-    "framesOnBlock": {
-      "_raw": "+4~+6",
-      "lower": "+4",
-      "properties": [],
-      "upper": "+6"
-    },
-    "framesOnHit": {
-      "_raw": "+5d",
-      "lower": "+5",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i21~22 i10~12",
-      "lower": "i21",
-      "properties": [],
-      "upper": "22"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i21~22 i10~12",
+    "hitLevels": "m,M",
+    "damage": "10,18",
+    "onBlock": "+4~+6",
+    "onHit": "+5d",
+    "onCounterHit": null,
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* js16~36\n* fs37~39&lt;/div&gt;",
+    "index": 62
   },
   {
-    "index": 61,
+    "id": "Azucena-f,F+4",
+    "parent": null,
     "name": "Demitasse Molino",
     "input": "f,F+4",
-    "hitLevels": [
-      "M"
-    ],
-    "damage": [
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "+0~+2",
-      "lower": "+0",
-      "properties": [],
-      "upper": "+2"
-    },
-    "framesOnHit": {
-      "_raw": "[[Azucena combos#Mini-combos|+13c~+15c]]",
-      "lower": "+13",
-      "properties": [
-        "c",
-        "c"
-      ],
-      "upper": "+15"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i25~27",
-      "lower": "i25",
-      "properties": [],
-      "upper": "27"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i25~27",
+    "hitLevels": "M",
+    "damage": 21,
+    "onBlock": "+0~+2",
+    "onHit": "[[Azucena combos#Mini-combos|+13c~+15c]]",
+    "onCounterHit": null,
+    "states": null,
+    "index": 61
   },
   {
+    "id": "Azucena-f,f,F+3",
+    "parent": null,
+    "name": null,
     "input": "f,f,F+3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-14",
-      "lower": "-14",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "m",
+    "damage": 10,
+    "onBlock": -14,
+    "onHit": -9,
+    "onCounterHit": null,
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* js9~36\n* fs37~39&lt;/div&gt;",
+    "index": null
   },
   {
-    "index": 63,
+    "id": "Azucena-f,f,F+3,2",
+    "parent": "Azucena-f,f,F+3",
     "name": "Espresso Agresión",
     "input": "f,f,F+3,2",
-    "hitLevels": [
-      "m",
-      "h"
-    ],
-    "damage": [
-      10,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "2",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+28a (+2)",
-      "lower": "+28",
-      "properties": [
-        "a"
-      ],
-      "tech": "+2"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "m,h",
+    "damage": "10,20",
+    "onBlock": 2,
+    "onHit": "+28a (+2)",
+    "onCounterHit": null,
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* ,js1~24\n* fs25~27&lt;/div&gt;",
+    "index": 63
   },
   {
+    "id": "Azucena-H.2+3",
+    "parent": null,
     "name": "Azucena Speciality",
     "input": "H.2+3",
-    "hitLevels": [
-      "m",
-      "m",
-      "t"
-    ],
-    "damage": [
-      15,
-      9,
-      29
-    ],
-    "framesOnBlock": {
-      "_raw": "6",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0a",
-      "lower": "+0",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "m,m,t",
+    "damage": "15,9,29",
+    "onBlock": 6,
+    "onHit": "+0a",
+    "onCounterHit": null,
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* js18~57\n* fs58~60\n&lt;/div&gt;",
+    "index": null
   },
   {
+    "id": "Azucena-H.2+3+4",
+    "parent": null,
     "name": "Coffee Break",
     "input": "H.2+3+4",
-    "hitLevels": [
-      "h!"
-    ],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+35a",
-      "lower": "+35",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i45",
-      "lower": "i45",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i45",
+    "hitLevels": "h!",
+    "damage": 0,
+    "onBlock": null,
+    "onHit": "+35a",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Azucena-H.b+1,1,2,F",
+    "parent": null,
     "name": "Double Blend Tempestad &gt; Nuevo Libertador",
     "input": "H.b+1,1,2,F",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "7",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+54a (+34)",
-      "lower": "+54",
-      "properties": [
-        "a"
-      ],
-      "tech": "+34"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": 7,
+    "onHit": "+54a (+34)",
+    "onCounterHit": null,
+    "states": ",fs15~33",
+    "index": null
   },
   {
+    "id": "Azucena-H.b+2,F",
+    "parent": null,
     "name": "Mil Nudillo &gt; Nuevo Libertador",
     "input": "H.b+2,F",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "7",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+54a (+34)",
-      "lower": "+54",
-      "properties": [
-        "a"
-      ],
-      "tech": "+34"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": 7,
+    "onHit": "+54a (+34)",
+    "onCounterHit": null,
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* ,js15~30\n* fs31~33&lt;/div&gt;",
+    "index": null
   },
   {
+    "id": "Azucena-H.f+3+4",
+    "parent": null,
     "name": "Libertador Revolución",
     "input": "H.f+3+4",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* cs4~20\n* ps17~&lt;/div&gt;",
+    "index": null
   },
   {
+    "id": "Azucena-H.LIB.1,2,F",
+    "parent": null,
     "name": "Blend Tempestad &gt; Nuevo Libertador",
     "input": "H.LIB.1,2,F",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "7",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+54a (+34)",
-      "lower": "+54",
-      "properties": [
-        "a"
-      ],
-      "tech": "+34"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": 7,
+    "onHit": "+54a (+34)",
+    "onCounterHit": null,
+    "states": ",fs15~33",
+    "index": null
   },
   {
+    "id": "Azucena-H.LIB.d+3+4",
+    "parent": null,
     "name": "One Drip Cielo",
     "input": "H.LIB.d+3+4",
-    "hitLevels": [
-      "M"
-    ],
-    "damage": [
-      27
-    ],
-    "framesOnBlock": {
-      "_raw": "+4~6",
-      "lower": "+4",
-      "properties": [],
-      "upper": ""
-    },
-    "framesOnHit": {
-      "_raw": "+58a (+42)",
-      "lower": "+58",
-      "properties": [
-        "a"
-      ],
-      "tech": "+42"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16~18",
-      "lower": "i16",
-      "properties": [],
-      "upper": "18"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16~18",
+    "hitLevels": "M",
+    "damage": 27,
+    "onBlock": "+4~6",
+    "onHit": "+58a (+42)",
+    "onCounterHit": null,
+    "states": "fs2~48",
+    "index": null
   },
   {
+    "id": "Azucena-H.LIB.P (High)",
+    "parent": null,
     "name": "Puño de Fuego Evitacion",
-    "input": "H.LIB.P(High)",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "[[Azucena combos#Mini-combos|+32a]]",
-      "lower": "+32",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17~18",
-      "lower": "i17",
-      "properties": [],
-      "upper": "18"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": "H.LIB.P (High)",
+    "startup": "i17~18",
+    "hitLevels": "m",
+    "damage": 25,
+    "onBlock": null,
+    "onHit": "[[Azucena combos#Mini-combos|+32a]]",
+    "onCounterHit": null,
+    "states": "is1~17",
+    "index": null
   },
   {
+    "id": "Azucena-H.LIB.P (Low)",
+    "parent": null,
     "name": "One Drip Cielo Evitacion",
-    "input": "H.LIB.P(Low)",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+58a (+42)",
-      "lower": "+58",
-      "properties": [
-        "a"
-      ],
-      "tech": "+42"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16~18",
-      "lower": "i16",
-      "properties": [],
-      "upper": "18"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": "H.LIB.P (Low)",
+    "startup": "i16~18",
+    "hitLevels": "m",
+    "damage": 20,
+    "onBlock": null,
+    "onHit": "+58a (+42)",
+    "onCounterHit": null,
+    "states": "is1 fs2~48",
+    "index": null
   },
   {
+    "id": "Azucena-Left Throw",
+    "parent": null,
     "name": "Urubamba Neck Lock",
-    "input": "Leftthrow",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      40
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": "Left throw",
+    "startup": null,
+    "hitLevels": "t",
+    "damage": 40,
+    "onBlock": -3,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Azucena-LIB.1",
+    "parent": null,
+    "name": null,
     "input": "LIB.1",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      14
-    ],
-    "framesOnBlock": {
-      "_raw": "3",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "8",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13",
-      "lower": "i13",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13",
+    "hitLevels": "h",
+    "damage": 14,
+    "onBlock": 3,
+    "onHit": 8,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 98,
+    "id": "Azucena-LIB.1+2",
+    "parent": null,
     "name": "Rana Barista",
     "input": "LIB.1+2",
-    "hitLevels": [
-      "M"
-    ],
-    "damage": [
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "-14",
-      "lower": "-14",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+38a (+28)",
-      "lower": "+38",
-      "properties": [
-        "a"
-      ],
-      "tech": "+28"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18~19",
-      "lower": "i18",
-      "properties": [],
-      "upper": "19"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18~19",
+    "hitLevels": "M",
+    "damage": 23,
+    "onBlock": -14,
+    "onHit": "+38a (+28)",
+    "onCounterHit": null,
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* js20~30\n* fs31~33&lt;/div&gt;",
+    "index": 98
   },
   {
-    "index": 92,
+    "id": "Azucena-LIB.1,2",
+    "parent": "Azucena-LIB.1",
     "name": "Blend Tempestad",
     "input": "LIB.1,2",
-    "hitLevels": [
-      "h",
-      "h"
-    ],
-    "damage": [
-      14,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-5",
-      "lower": "-5",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+17a (+8)",
-      "lower": "+17",
-      "properties": [
-        "a"
-      ],
-      "tech": "+8"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13",
-      "lower": "i13",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13",
+    "hitLevels": "h,h",
+    "damage": "14,20",
+    "onBlock": -5,
+    "onHit": "+17a (+8)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 92
   },
   {
-    "index": 93,
+    "id": "Azucena-LIB.2",
+    "parent": null,
     "name": "Golpe Cappuccino",
     "input": "LIB.2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      22
-    ],
-    "framesOnBlock": {
-      "_raw": "-8",
-      "lower": "-8",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+22g",
-      "lower": "+22",
-      "properties": [
-        "g"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14~15",
-      "lower": "i14",
-      "properties": [],
-      "upper": "15"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14~15",
+    "hitLevels": "m",
+    "damage": 22,
+    "onBlock": -8,
+    "onHit": "+22g",
+    "onCounterHit": null,
+    "states": null,
+    "index": 93
   },
   {
-    "index": 94,
+    "id": "Azucena-LIB.3",
+    "parent": null,
     "name": "Acerbic Low Kick",
     "input": "LIB.3",
-    "hitLevels": [
-      "L"
-    ],
-    "damage": [
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "2",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16~17",
-      "lower": "i16",
-      "properties": [],
-      "upper": "17"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16~17",
+    "hitLevels": "L",
+    "damage": 15,
+    "onBlock": -9,
+    "onHit": 2,
+    "onCounterHit": null,
+    "states": null,
+    "index": 94
   },
   {
-    "index": 95,
+    "id": "Azucena-LIB.3,1",
+    "parent": "Azucena-LIB.3",
     "name": "Blend Reganar",
     "input": "LIB.3,1",
-    "hitLevels": [
-      "L",
-      "m"
-    ],
-    "damage": [
-      15,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-10",
-      "lower": "-10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "[[Azucena combos#Mini-combos|+21d]]",
-      "lower": "+21",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16~17",
-      "lower": "i16",
-      "properties": [],
-      "upper": "17"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16~17",
+    "hitLevels": "L,m",
+    "damage": "15,20",
+    "onBlock": -10,
+    "onHit": "[[Azucena combos#Mini-combos|+21d]]",
+    "onCounterHit": null,
+    "states": null,
+    "index": 95
   },
   {
-    "index": 99,
+    "id": "Azucena-LIB.3+4",
+    "parent": null,
     "name": "El Niño High Kick",
     "input": "LIB.3+4",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-5",
-      "lower": "-5",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "[[Azucena combos#Mini-combos|+32a]]",
-      "lower": "+32",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16~17",
-      "lower": "i16",
-      "properties": [],
-      "upper": "17"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16~17",
+    "hitLevels": "h",
+    "damage": 25,
+    "onBlock": -5,
+    "onHit": "[[Azucena combos#Mini-combos|+32a]]",
+    "onCounterHit": null,
+    "states": "pc8~20",
+    "index": 99
   },
   {
+    "id": "Azucena-LIB.4",
+    "parent": null,
+    "name": null,
     "input": "LIB.4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      14
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "10",
-      "lower": "10",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+10a",
-      "lower": "+10",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "m",
+    "damage": 14,
+    "onBlock": -3,
+    "onHit": 10,
+    "onCounterHit": "+10a",
+    "states": null,
+    "index": null
   },
   {
+    "id": "Azucena-LIB.4,1",
+    "parent": "Azucena-LIB.4",
+    "name": null,
     "input": "LIB.4,1",
-    "hitLevels": [
-      "m",
-      "h"
-    ],
-    "damage": [
-      14,
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-1",
-      "lower": "-1",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "5",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "10",
-      "lower": "10",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "m,h",
+    "damage": "14,10",
+    "onBlock": -1,
+    "onHit": 5,
+    "onCounterHit": 10,
+    "states": null,
+    "index": null
   },
   {
-    "index": 96,
+    "id": "Azucena-LIB.4,1,2",
+    "parent": "Azucena-LIB.4,1",
     "name": "Blend Asaltar",
     "input": "LIB.4,1,2",
-    "hitLevels": [
-      "m",
-      "h",
-      "m"
-    ],
-    "damage": [
-      14,
-      10,
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "-10",
-      "lower": "-10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+67a (+51)",
-      "lower": "+67",
-      "properties": [
-        "a"
-      ],
-      "tech": "+51"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "m,h,m",
+    "damage": "14,10,23",
+    "onBlock": -10,
+    "onHit": "+67a (+51)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 96
   },
   {
-    "index": 97,
+    "id": "Azucena-LIB.4,2",
+    "parent": "Azucena-LIB.4",
     "name": "Blend Martillo",
     "input": "LIB.4,2",
-    "hitLevels": [
-      "m",
-      "M"
-    ],
-    "damage": [
-      14,
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+16a",
-      "lower": "+16",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "m,M",
+    "damage": "14,21",
+    "onBlock": -13,
+    "onHit": "+16a",
+    "onCounterHit": null,
+    "states": null,
+    "index": 97
   },
   {
-    "index": 105,
+    "id": "Azucena-LIB.B",
+    "parent": null,
     "name": "Salida Castillo",
     "input": "LIB.B",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": "ps1~",
+    "index": 105
   },
   {
-    "index": 102,
+    "id": "Azucena-LIB.b,b",
+    "parent": null,
     "name": "Caer Back Funnel",
     "input": "LIB.b,b",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": 102
   },
   {
+    "id": "Azucena-LIB.d+4",
+    "parent": null,
+    "name": null,
     "input": "LIB.d+4",
-    "hitLevels": [
-      "L"
-    ],
-    "damage": [
-      14
-    ],
-    "framesOnBlock": {
-      "_raw": "-31",
-      "lower": "-31",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i19~20",
-      "lower": "i19",
-      "properties": [],
-      "upper": "20"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i19~20",
+    "hitLevels": "L",
+    "damage": 14,
+    "onBlock": -31,
+    "onHit": -2,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 100,
+    "id": "Azucena-LIB.d+4,4",
+    "parent": "Azucena-LIB.d+4",
     "name": "Blend Cortar",
     "input": "LIB.d+4,4",
-    "hitLevels": [
-      "L",
-      "h"
-    ],
-    "damage": [
-      14,
-      27
-    ],
-    "framesOnBlock": {
-      "_raw": "-7",
-      "lower": "-7",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+14a (+5)",
-      "lower": "+14",
-      "properties": [
-        "a"
-      ],
-      "tech": "+5"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i19~20",
-      "lower": "i19",
-      "properties": [],
-      "upper": "20"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i19~20",
+    "hitLevels": "L,h",
+    "damage": "14,27",
+    "onBlock": -7,
+    "onHit": "+14a (+5)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 100
   },
   {
-    "index": 103,
+    "id": "Azucena-LIB.F",
+    "parent": null,
     "name": "Azucena Admission",
     "input": "LIB.F",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": "ps1~",
+    "index": 103
   },
   {
-    "index": 101,
+    "id": "Azucena-LIB.f,f",
+    "parent": null,
     "name": "Libertador (Varios)",
     "input": "LIB.f,f",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": 101
   },
   {
+    "id": "Azucena-LIB.P (High)",
+    "parent": null,
     "name": "Crema Petalo",
-    "input": "LIB.P(High)",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": "LIB.P (High)",
+    "startup": null,
+    "hitLevels": null,
+    "damage": 0,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": "is1~16",
+    "index": null
   },
   {
+    "id": "Azucena-LIB.P (Low)",
+    "parent": null,
     "name": "Flush Valve Gracia",
-    "input": "LIB.P(Low)",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      15,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i7~8 i19~20",
-      "lower": "i7",
-      "properties": [],
-      "upper": "i19"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": "LIB.P (Low)",
+    "startup": "i7~8 i19~20",
+    "hitLevels": "m,m",
+    "damage": "15,20",
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* is1~6\n* fs7\n* js8~19\n* fs20~22&lt;/div&gt;",
+    "index": null
   },
   {
-    "index": 104,
+    "id": "Azucena-LIB.U_D",
+    "parent": null,
     "name": "Milagros Show",
     "input": "LIB.U_D",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": "ps1~",
+    "index": 104
   },
   {
+    "id": "Azucena-R.df+1+2",
+    "parent": null,
     "name": "Alegría del Café",
     "input": "R.df+1+2",
-    "hitLevels": [
-      "m",
-      "t"
-    ],
-    "damage": [
-      55
-    ],
-    "framesOnBlock": {
-      "_raw": "-15",
-      "lower": "-15",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20",
-      "lower": "i20",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20",
+    "hitLevels": "m,t",
+    "damage": "55+",
+    "onBlock": -15,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": "pc8~",
+    "index": null
   },
   {
-    "index": 109,
+    "id": "Azucena-Right Throw",
+    "parent": null,
     "name": "Giratorio Sleeper Throw",
-    "input": "Rightthrow",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      40
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-3d",
-      "lower": "-3",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": "Right throw",
+    "startup": null,
+    "hitLevels": "t",
+    "damage": 40,
+    "onBlock": -3,
+    "onHit": "-3d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 109
   },
   {
-    "index": 115,
+    "id": "Azucena-Tackle.1+2",
+    "parent": null,
     "name": "Arm Breaker",
     "input": "Tackle.1+2",
-    "hitLevels": [
-      "",
-      "t"
-    ],
-    "damage": [
-      null,
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+1d",
-      "lower": "+1",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": ",t",
+    "damage": ",25",
+    "onBlock": -9,
+    "onHit": "+1d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 115
   },
   {
-    "index": 114,
+    "id": "Azucena-Tackle.2,1,2,1",
+    "parent": null,
     "name": "Ultimate Punch",
     "input": "Tackle.2,1,2,1",
-    "hitLevels": [
-      "",
-      "t"
-    ],
-    "damage": [
-      null,
-      5,
-      5,
-      5,
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": ",t",
+    "damage": ",5,5,5,15",
+    "onBlock": null,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 114
   },
   {
-    "index": 72,
+    "id": "Azucena-UB,​b",
+    "parent": null,
     "name": "Volterador",
-    "input": "UB,b",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": "UB,​b",
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* js18~37\n* fs38~40&lt;/div&gt;",
+    "index": 72
   },
   {
-    "index": 56,
+    "id": "Azucena-uf+1",
+    "parent": null,
     "name": "Eye Opener",
     "input": "uf+1",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      18
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+7 +15w",
-      "lower": "+7",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18~19",
-      "lower": "i18",
-      "properties": [],
-      "upper": "19"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18~19",
+    "hitLevels": "h",
+    "damage": 18,
+    "onBlock": -9,
+    "onHit": "+7 +15w",
+    "onCounterHit": null,
+    "states": "ps3~10",
+    "index": 56
   },
   {
-    "index": 111,
+    "id": "Azucena-uf+1+2",
+    "parent": null,
     "name": "Inti Raymi Necklace",
     "input": "uf+1+2",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      40
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-3d",
-      "lower": "-3",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i11",
-      "lower": "i11",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i11",
+    "hitLevels": "t",
+    "damage": 40,
+    "onBlock": 0,
+    "onHit": "-3d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 111
   },
   {
+    "id": "Azucena-uf+1,P",
+    "parent": "Azucena-uf+1",
     "name": "Close Encounter",
     "input": "uf+1,P",
-    "hitLevels": [
-      "h",
-      "t"
-    ],
-    "damage": [
-      18,
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-4d",
-      "lower": "-4",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18~19",
-      "lower": "i18",
-      "properties": [],
-      "upper": "19"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18~19",
+    "hitLevels": "h,t",
+    "damage": "18,25",
+    "onBlock": null,
+    "onHit": "-4d",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 57,
+    "id": "Azucena-uf+2",
+    "parent": null,
     "name": "Rhythmic Hook",
     "input": "uf+2",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "-7",
-      "lower": "-7",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+15a (+6)",
-      "lower": "+15",
-      "properties": [
-        "a"
-      ],
-      "tech": "+6"
-    },
-    "framesOnCounter": {
-      "_raw": "+51a",
-      "lower": "+51",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i17~18",
-      "lower": "i17",
-      "properties": [],
-      "upper": "18"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17~18",
+    "hitLevels": "h",
+    "damage": 23,
+    "onBlock": -7,
+    "onHit": "+15a (+6)",
+    "onCounterHit": "+51a",
+    "states": null,
+    "index": 57
   },
   {
+    "id": "Azucena-uf+3",
+    "parent": null,
+    "name": null,
     "input": "uf+3",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-16a",
-      "lower": "-16",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnHit": {
-      "_raw": "+36a",
-      "lower": "+36",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i21~22",
-      "lower": "i21",
-      "properties": [],
-      "upper": "22"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i21~22",
+    "hitLevels": "h",
+    "damage": 20,
+    "onBlock": "-16a",
+    "onHit": "+36a",
+    "onCounterHit": null,
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* js10~30\n* fs31~65&lt;/div&gt;",
+    "index": null
   },
   {
-    "index": 58,
+    "id": "Azucena-uf+3,4",
+    "parent": "Azucena-uf+3",
     "name": "Daylight Disk",
     "input": "uf+3,4",
-    "hitLevels": [
-      "h",
-      "m"
-    ],
-    "damage": [
-      20,
-      17
-    ],
-    "framesOnBlock": {
-      "_raw": "-14",
-      "lower": "-14",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+15a (+6)",
-      "lower": "+15",
-      "properties": [
-        "a"
-      ],
-      "tech": "+6"
-    },
-    "framesOnCounter": {
-      "_raw": "+55a",
-      "lower": "+55",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i21~22",
-      "lower": "i21",
-      "properties": [],
-      "upper": "22"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i21~22",
+    "hitLevels": "h,m",
+    "damage": "20,17",
+    "onBlock": -14,
+    "onHit": "+15a (+6)",
+    "onCounterHit": "+55a",
+    "states": null,
+    "index": 58
   },
   {
-    "index": 59,
+    "id": "Azucena-uf+4",
+    "parent": null,
     "name": "Tacones Drip",
     "input": "uf+4",
-    "hitLevels": [
-      "M"
-    ],
-    "damage": [
-      22
-    ],
-    "framesOnBlock": {
-      "_raw": "-8",
-      "lower": "-8",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+21a",
-      "lower": "+21",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i24~26",
-      "lower": "i24",
-      "properties": [],
-      "upper": "26"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i24~26",
+    "hitLevels": "M",
+    "damage": 22,
+    "onBlock": -8,
+    "onHit": "+21a",
+    "onCounterHit": null,
+    "states": "js9~26",
+    "index": 59
   },
   {
-    "index": 73,
+    "id": "Azucena-ws1",
+    "parent": null,
     "name": "Gold Mountain Fist",
     "input": "ws1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      17
-    ],
-    "framesOnBlock": {
-      "_raw": "-8",
-      "lower": "-8",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "6",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+32a (+26)",
-      "lower": "+32",
-      "properties": [
-        "a"
-      ],
-      "tech": "+26"
-    },
-    "framesOnStartup": {
-      "_raw": "i13~14",
-      "lower": "i13",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13~14",
+    "hitLevels": "m",
+    "damage": 17,
+    "onBlock": -8,
+    "onHit": 6,
+    "onCounterHit": "+32a (+26)",
+    "states": null,
+    "index": 73
   },
   {
-    "index": 74,
+    "id": "Azucena-ws2",
+    "parent": null,
     "name": "Rainbow Mountain Swing",
     "input": "ws2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      14
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+32a (+22)",
-      "lower": "+32",
-      "properties": [
-        "a"
-      ],
-      "tech": "+22"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "m",
+    "damage": 14,
+    "onBlock": -13,
+    "onHit": "+32a (+22)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 74
   },
   {
-    "index": 75,
+    "id": "Azucena-ws3",
+    "parent": null,
     "name": "Viento Fuerte",
     "input": "ws3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "4",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+16g",
-      "lower": "+16",
-      "properties": [
-        "g"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20~21",
-      "lower": "i20",
-      "properties": [],
-      "upper": "21"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20~21",
+    "hitLevels": "m",
+    "damage": 23,
+    "onBlock": 4,
+    "onHit": "+16g",
+    "onCounterHit": null,
+    "states": null,
+    "index": 75
   },
   {
+    "id": "Azucena-ws4",
+    "parent": null,
+    "name": null,
     "input": "ws4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      13
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "5",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i11~12",
-      "lower": "i11",
-      "properties": [],
-      "upper": "12"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i11~12",
+    "hitLevels": "m",
+    "damage": 13,
+    "onBlock": -6,
+    "onHit": 5,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Azucena-ws4,1",
+    "parent": "Azucena-ws4",
+    "name": null,
     "input": "ws4,1",
-    "hitLevels": [
-      "m",
-      "h"
-    ],
-    "damage": [
-      13,
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "6",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i11~12",
-      "lower": "i11",
-      "properties": [],
-      "upper": "12"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i11~12",
+    "hitLevels": "m,h",
+    "damage": "13,10",
+    "onBlock": -2,
+    "onHit": 6,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 76,
+    "id": "Azucena-ws4,1,3",
+    "parent": "Azucena-ws4,1",
     "name": "Combo de Cantuta",
     "input": "ws4,1,3",
-    "hitLevels": [
-      "m",
-      "h",
-      "m"
-    ],
-    "damage": [
-      13,
-      10,
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "-14",
-      "lower": "-14",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+10a (+1)",
-      "lower": "+10",
-      "properties": [
-        "a"
-      ],
-      "tech": "+1"
-    },
-    "framesOnCounter": {
-      "_raw": "[[Azucena combos#Mini-combos|+27a]]",
-      "lower": "+27",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i11~12",
-      "lower": "i11",
-      "properties": [],
-      "upper": "12"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i11~12",
+    "hitLevels": "m,h,m",
+    "damage": "13,10,23",
+    "onBlock": -14,
+    "onHit": "+10a (+1)",
+    "onCounterHit": "[[Azucena combos#Mini-combos|+27a]]",
+    "states": null,
+    "index": 76
   }
 ]

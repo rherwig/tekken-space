@@ -1,8120 +1,2942 @@
 [
   {
+    "id": "King-1",
+    "parent": null,
     "name": "Jab",
-    "input": "1",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      5
-    ],
-    "framesOnBlock": {
-      "_raw": "1",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "8",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": 1,
+    "startup": "i10",
+    "hitLevels": "h",
+    "damage": 5,
+    "onBlock": 1,
+    "onHit": 8,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "King-1+2",
+    "parent": null,
+    "name": null,
     "input": "1+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      17
-    ],
-    "framesOnBlock": {
-      "_raw": "-11",
-      "lower": "-11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-2s",
-      "lower": "-2",
-      "properties": [
-        "s"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "+0s",
-      "lower": "+0",
-      "properties": [
-        "s"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i18",
-      "lower": "i18",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18",
+    "hitLevels": "m",
+    "damage": 17,
+    "onBlock": -11,
+    "onHit": "-2s",
+    "onCounterHit": "+0s",
+    "states": null,
+    "index": null
   },
   {
-    "index": 14,
+    "id": "King-1,2",
+    "parent": "King-1",
     "name": "Palm Strike",
     "input": "1,2",
-    "hitLevels": [
-      "h",
-      "h"
-    ],
-    "damage": [
-      5,
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "8",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,h",
+    "damage": "5,15",
+    "onBlock": -3,
+    "onHit": 8,
+    "onCounterHit": null,
+    "states": null,
+    "index": 14
   },
   {
-    "index": 21,
+    "id": "King-1+2,1",
+    "parent": "King-1+2",
     "name": "Head Spinner",
     "input": "1+2,1",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      17,
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-13/-18",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+12a(+3)/-9",
-      "lower": "+12",
-      "properties": [
-        "a"
-      ],
-      "tech": "+3"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18",
-      "lower": "i18",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18",
+    "hitLevels": "m,m",
+    "damage": "17,21",
+    "onBlock": "-13/-18",
+    "onHit": "+12a(+3)/-9",
+    "onCounterHit": null,
+    "states": null,
+    "index": 21
   },
   {
-    "index": 17,
+    "id": "King-1,2,1",
+    "parent": "King-1,2",
     "name": "Palm Strike Uppercut",
     "input": "1,2,1",
-    "hitLevels": [
-      "h",
-      "h",
-      "m"
-    ],
-    "damage": [
-      5,
-      15,
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-4",
-      "lower": "-4",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+5s",
-      "lower": "+5",
-      "properties": [
-        "s"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "+10s",
-      "lower": "+10",
-      "properties": [
-        "s"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,h,m",
+    "damage": "5,15,10",
+    "onBlock": -4,
+    "onHit": "+5s",
+    "onCounterHit": "+10s",
+    "states": null,
+    "index": 17
   },
   {
-    "index": 18,
+    "id": "King-1,2,1,2+4",
+    "parent": "King-1,2,1",
     "name": "Palm Strike Uppercut &gt; Suplex",
     "input": "1,2,1,2+4",
-    "hitLevels": [
-      "h",
-      "h",
-      "m",
-      "t"
-    ],
-    "damage": [
-      5,
-      15,
-      10,
-      40
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,h,m,t",
+    "damage": "5,15,10,40",
+    "onBlock": null,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 18
   },
   {
-    "index": 19,
+    "id": "King-1,2,1,d+2+4",
+    "parent": "King-1,2,1",
     "name": "Palm Strike Uppercut &gt; V Driver",
     "input": "1,2,1,d+2+4",
-    "hitLevels": [
-      "h",
-      "h",
-      "m",
-      "t(c)"
-    ],
-    "damage": [
-      5,
-      15,
-      10,
-      35
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+1d",
-      "lower": "+1",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,h,m,t(c)",
+    "damage": "5,15,10,35",
+    "onBlock": null,
+    "onHit": "+1d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 19
   },
   {
-    "index": 15,
+    "id": "King-1,2,2+4",
+    "parent": "King-1,2",
     "name": "Palm Strike &gt; Head Jammer",
     "input": "1,2,2+4",
-    "hitLevels": [
-      "h",
-      "h",
-      "t"
-    ],
-    "damage": [
-      5,
-      15,
-      30
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+1d",
-      "lower": "+1",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,h,t",
+    "damage": "5,15,30",
+    "onBlock": null,
+    "onHit": "+1d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 15
   },
   {
-    "index": 22,
+    "id": "King-1+2,3",
+    "parent": "King-1+2",
     "name": "Brutal Sting",
     "input": "1+2,3",
-    "hitLevels": [
-      "m",
-      "h"
-    ],
-    "damage": [
-      17,
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+12a(+3)",
-      "lower": "+12",
-      "properties": [
-        "a"
-      ],
-      "tech": "+3"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18",
-      "lower": "i18",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18",
+    "hitLevels": "m,h",
+    "damage": "17,25",
+    "onBlock": -3,
+    "onHit": "+12a(+3)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 22
   },
   {
-    "index": 81,
+    "id": "King-1+2+3+4",
+    "parent": null,
     "name": "Ki Charge",
     "input": "1+2+3+4",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": 81
   },
   {
-    "index": 16,
+    "id": "King-1,2,d+2+4",
+    "parent": "King-1,2",
     "name": "Palm Strike &gt; V Driver",
     "input": "1,2,d+2+4",
-    "hitLevels": [
-      "h",
-      "h",
-      "t(c)"
-    ],
-    "damage": [
-      5,
-      15,
-      35
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+1d",
-      "lower": "+1",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,h,t(c)",
+    "damage": "5,15,35",
+    "onBlock": null,
+    "onHit": "+1d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 16
   },
   {
+    "id": "King-1+3",
+    "parent": null,
     "name": "Winding Nut",
-    "input": "1+3/f+1+3",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      35
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12~15 / i15~17",
-      "lower": "i12",
-      "properties": [],
-      "upper": "15"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": "1+3 / f+1+3",
+    "startup": "i12~15 / i15~17",
+    "hitLevels": "t",
+    "damage": 35,
+    "onBlock": -6,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "King-2",
+    "parent": null,
     "name": "Right Jab",
-    "input": "2",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "1",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "7",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": 2,
+    "startup": "i10",
+    "hitLevels": "h",
+    "damage": 10,
+    "onBlock": 1,
+    "onHit": 7,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 20,
+    "id": "King-2,1",
+    "parent": "King-2",
     "name": "Right Jab &gt; Uppercut",
     "input": "2,1",
-    "hitLevels": [
-      "h",
-      "m"
-    ],
-    "damage": [
-      10,
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "8",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,m",
+    "damage": "10,15",
+    "onBlock": -3,
+    "onHit": 8,
+    "onCounterHit": null,
+    "states": null,
+    "index": 20
   },
   {
+    "id": "King-2+3",
+    "parent": null,
     "name": "Heat Burst",
     "input": "2+3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      12,
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "1",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+2c",
-      "lower": "+2",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "m",
+    "damage": "[12;12]",
+    "onBlock": 1,
+    "onHit": "+2c",
+    "onCounterHit": null,
+    "states": "pc7~16",
+    "index": null
   },
   {
+    "id": "King-2+4",
+    "parent": null,
     "name": "Suplex",
-    "input": "2+4/f+2+4",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      35
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12~15 / i15~17",
-      "lower": "i12",
-      "properties": [],
-      "upper": "15"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": "2+4 / f+2+4",
+    "startup": "i12~15 / i15~17",
+    "hitLevels": "t",
+    "damage": 35,
+    "onBlock": -3,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "King-3",
+    "parent": null,
     "name": "Left Kick",
-    "input": "3",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-14",
-      "lower": "-14",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+17a",
-      "lower": "+17",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17",
-      "lower": "i17",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": 3,
+    "startup": "i17",
+    "hitLevels": "h",
+    "damage": 25,
+    "onBlock": -14,
+    "onHit": "+17a",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "King-3+4",
+    "parent": null,
     "name": "Jaguar Step",
     "input": "3+4",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": "js6~21 fs22~24",
+    "index": null
   },
   {
+    "id": "King-4",
+    "parent": null,
     "name": "Right Kick",
-    "input": "4",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-5",
-      "lower": "-5",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "6",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+31d",
-      "lower": "+31",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i13",
-      "lower": "i13",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": 4,
+    "startup": "i13",
+    "hitLevels": "h",
+    "damage": 20,
+    "onBlock": -5,
+    "onHit": 6,
+    "onCounterHit": "+31d",
+    "states": null,
+    "index": null
   },
   {
-    "index": 183,
+    "id": "King-AB1.1,1+2",
+    "parent": null,
     "name": "Triple Arm Breaker (AB2a)",
     "input": "AB1.1,1+2",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      12,
-      18
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+2d",
-      "lower": "+2",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": "t",
+    "damage": "12,18",
+    "onBlock": -3,
+    "onHit": "+2d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 183
   },
   {
-    "index": 186,
+    "id": "King-AB1.2,1,1+3",
+    "parent": null,
     "name": "Chicken Wing Face Lock (AB2c)",
     "input": "AB1.2,1,1+3",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": "t",
+    "damage": 20,
+    "onBlock": -3,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 186
   },
   {
-    "index": 184,
+    "id": "King-AB1.2,4,2+4",
+    "parent": null,
     "name": "Head Jammer (AB2b)",
     "input": "AB1.2,4,2+4",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+1d",
-      "lower": "+1",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": "t",
+    "damage": 20,
+    "onBlock": -3,
+    "onHit": "+1d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 184
   },
   {
-    "index": 185,
+    "id": "King-AB2b.3,4,3+4,1+2",
+    "parent": null,
     "name": "Struggle Combination (AB2b1)",
     "input": "AB2b.3,4,3+4,1+2",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+1d",
-      "lower": "+1",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": "t",
+    "damage": 20,
+    "onBlock": null,
+    "onHit": "+1d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 185
   },
   {
-    "index": 188,
+    "id": "King-AB2c.1,3,4,2,1+2",
+    "parent": null,
     "name": "Rolling Death Cradle (AB3cb)",
     "input": "AB2c.1,3,4,2,1+2",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      60
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+1d",
-      "lower": "+1",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": "t",
+    "damage": 60,
+    "onBlock": -3,
+    "onHit": "+1d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 188
   },
   {
-    "index": 187,
+    "id": "King-AB2c.2,1,3,1+2",
+    "parent": null,
     "name": "Dragon Sleeper Finish (AB3ca)",
     "input": "AB2c.2,1,3,1+2",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+1d",
-      "lower": "+1",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": "t",
+    "damage": 25,
+    "onBlock": -3,
+    "onHit": "+1d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 187
   },
   {
-    "index": 152,
+    "id": "King-AIR.1+3",
+    "parent": null,
     "name": "Mid-Air Leg Cross Hold",
-    "input": "AIR.1+3/AIR.f+1+3",
-    "hitLevels": [
-      "t(a)"
-    ],
-    "damage": [
-      30
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12~14 / i15~17",
-      "lower": "i12",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": "AIR.1+3 / AIR.f+1+3",
+    "startup": "i12~14 / i15~17",
+    "hitLevels": "t(a)",
+    "damage": 30,
+    "onBlock": null,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 152
   },
   {
-    "index": 153,
+    "id": "King-AIR.2+4",
+    "parent": null,
     "name": "Spine Cracker",
-    "input": "AIR.2+4/AIR.f+2+4",
-    "hitLevels": [
-      "t(a)"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+40d(+35)",
-      "lower": "+40",
-      "properties": [
-        "d"
-      ],
-      "tech": "+35"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12~14 / i15~17",
-      "lower": "i12",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": "AIR.2+4 / AIR.f+2+4",
+    "startup": "i12~14 / i15~17",
+    "hitLevels": "t(a)",
+    "damage": 20,
+    "onBlock": null,
+    "onHit": "+40d(+35)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 153
   },
   {
+    "id": "King-AIR.d+1+3",
+    "parent": null,
     "name": "Double Heel Hold (DHH)",
     "input": "AIR.d+1+3_2+4",
-    "hitLevels": [
-      "t(a)"
-    ],
-    "damage": [
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-5d",
-      "lower": "-5",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12~13",
-      "lower": "i12",
-      "properties": [],
-      "upper": "13"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12~13",
+    "hitLevels": "t(a)",
+    "damage": 15,
+    "onBlock": null,
+    "onHit": "-5d",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "King-AIR.d+1+3,1+2,1+2",
+    "parent": null,
     "name": "Flapjack (From DHH)",
     "input": "DHH.1+2,1+2",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-3d",
-      "lower": "-3",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": "t",
+    "damage": 15,
+    "onBlock": -6,
+    "onHit": "-3d",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "King-Air.d+1+3,2,1,3,4",
+    "parent": null,
     "name": "Giant Swing (From DHH)",
     "input": "DHH.2,1,3,4",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      12,
-      1332
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-7d(-40)",
-      "lower": "-7",
-      "properties": [
-        "d"
-      ],
-      "tech": "-40"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": "t",
+    "damage": "12,13 / 32",
+    "onBlock": -6,
+    "onHit": "-7d(-40)",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 157,
+    "id": "King-AIR.f,f,F+2+4",
+    "parent": null,
     "name": "Running Jaguar Bomb",
     "input": "AIR.f,f,F+2+4",
-    "hitLevels": [
-      "t(a)"
-    ],
-    "damage": [
-      6570
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+4d",
-      "lower": "+4",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "t(a)",
+    "damage": "65(70)",
+    "onBlock": null,
+    "onHit": "+4d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 157
   },
   {
-    "index": 158,
+    "id": "King-AIR.f,hcf+1",
+    "parent": null,
     "name": "Aerial Jaguar Bomb",
     "input": "AIR.f,hcf+1_2",
-    "hitLevels": [
-      "t(a)"
-    ],
-    "damage": [
-      5560
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+3d",
-      "lower": "+3",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10 / i12~14",
-      "lower": "i10",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10 / i12~14",
+    "hitLevels": "t(a)",
+    "damage": "55(60)",
+    "onBlock": null,
+    "onHit": "+3d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 158
   },
   {
+    "id": "King-b+1",
+    "parent": null,
     "name": "Quick Hook",
     "input": "b+1",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      13
-    ],
-    "framesOnBlock": {
-      "_raw": "-8",
-      "lower": "-8",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "3",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+3a",
-      "lower": "+3",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "h",
+    "damage": 13,
+    "onBlock": -8,
+    "onHit": 3,
+    "onCounterHit": "+3a",
+    "states": null,
+    "index": null
   },
   {
-    "index": 122,
+    "id": "King-b+1+2",
+    "parent": null,
     "name": "Throw Away",
     "input": "b+1+2(,f,F)",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+14g / -2",
-      "lower": "+14",
-      "properties": [
-        "g"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12~17",
-      "lower": "i12",
-      "properties": [],
-      "upper": "17"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12~17",
+    "hitLevels": "t",
+    "damage": 0,
+    "onBlock": -3,
+    "onHit": "+14g / -2",
+    "onCounterHit": null,
+    "states": null,
+    "index": 122
   },
   {
-    "index": 51,
+    "id": "King-b+1,2",
+    "parent": "King-b+1",
     "name": "Quick Hook &gt; Uppercut",
     "input": "b+1,2",
-    "hitLevels": [
-      "h",
-      "h"
-    ],
-    "damage": [
-      1320
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "5",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+70a(+54)*",
-      "lower": "+70",
-      "properties": [
-        "a"
-      ],
-      "tech": "+54"
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "h,h",
+    "damage": "1320",
+    "onBlock": -13,
+    "onHit": 5,
+    "onCounterHit": "+70a(+54)*",
+    "states": null,
+    "index": 51
   },
   {
-    "index": 123,
+    "id": "King-b+1+2,1+2",
+    "parent": null,
     "name": "Throw Away &gt; Back Swing",
     "input": "b+1+2,1+2(,f,F)",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+11g / -6",
-      "lower": "+11",
-      "properties": [
-        "g"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12~17",
-      "lower": "i12",
-      "properties": [],
-      "upper": "17"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12~17",
+    "hitLevels": "t",
+    "damage": 0,
+    "onBlock": null,
+    "onHit": "+11g / -6",
+    "onCounterHit": null,
+    "states": null,
+    "index": 123
   },
   {
-    "index": 160,
+    "id": "King-b+1+3",
+    "parent": null,
     "name": "Arm Whip",
     "input": "b+1+3",
-    "hitLevels": [
-      "r(m)"
-    ],
-    "damage": [
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+2d",
-      "lower": "+2",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "r(m)",
+    "damage": 25,
+    "onBlock": null,
+    "onHit": "+2d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 160
   },
   {
-    "index": 52,
+    "id": "King-b+1,4",
+    "parent": "King-b+1",
     "name": "Quick Hook &gt; Heel Kick",
     "input": "b+1,4",
-    "hitLevels": [
-      "h",
-      "m"
-    ],
-    "damage": [
-      1323
-    ],
-    "framesOnBlock": {
-      "_raw": "-11",
-      "lower": "-11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+1d",
-      "lower": "+1",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "+18(-17)*",
-      "lower": "+18",
-      "properties": [],
-      "tech": "-17"
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "h,m",
+    "damage": "1323",
+    "onBlock": -11,
+    "onHit": "+1d",
+    "onCounterHit": "+18(-17)*",
+    "states": null,
+    "index": 52
   },
   {
+    "id": "King-b+2",
+    "parent": null,
     "name": "Chupacabra",
     "input": "b+2",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      16
-    ],
-    "framesOnBlock": {
-      "_raw": "-5",
-      "lower": "-5",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "1",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14",
-      "lower": "i14",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14",
+    "hitLevels": "h",
+    "damage": 16,
+    "onBlock": -5,
+    "onHit": 1,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 53,
+    "id": "King-b+2,1",
+    "parent": "King-b+2",
     "name": "Chupacabra &gt; Spinning Back Elbow",
     "input": "b+2,1",
-    "hitLevels": [
-      "h",
-      "h"
-    ],
-    "damage": [
-      16,
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+19a(+10)",
-      "lower": "+19",
-      "properties": [
-        "a"
-      ],
-      "tech": "+10"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14",
-      "lower": "i14",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14",
+    "hitLevels": "h,h",
+    "damage": "16,21",
+    "onBlock": -9,
+    "onHit": "+19a(+10)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 53
   },
   {
-    "index": 55,
+    "id": "King-b+2,1+2",
+    "parent": "King-b+2",
     "name": "Chupacabra &gt; Head Butt",
     "input": "b+2,1+2",
-    "hitLevels": [
-      "h",
-      "h"
-    ],
-    "damage": [
-      16,
-      22
-    ],
-    "framesOnBlock": {
-      "_raw": "+2c",
-      "lower": "+2",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnHit": {
-      "_raw": "+22d",
-      "lower": "+22",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14",
-      "lower": "i14",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14",
+    "hitLevels": "h,h",
+    "damage": "16,22",
+    "onBlock": "+2c",
+    "onHit": "+22d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 55
   },
   {
-    "index": 161,
+    "id": "King-b+2+4",
+    "parent": null,
     "name": "Spinning Heel Hold",
     "input": "b+2+4",
-    "hitLevels": [
-      "r(m)"
-    ],
-    "damage": [
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+24d",
-      "lower": "+24",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "r(m)",
+    "damage": 25,
+    "onBlock": null,
+    "onHit": "+24d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 161
   },
   {
-    "index": 54,
+    "id": "King-b+2,4",
+    "parent": "King-b+2",
     "name": "Chupacabra &gt; Olympia Slam",
     "input": "b+2,4",
-    "hitLevels": [
-      "h",
-      "m",
-      "t"
-    ],
-    "damage": [
-      16,
-      18,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-8",
-      "lower": "-8",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+10s/+0",
-      "lower": "+10",
-      "properties": [
-        "s"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14",
-      "lower": "i14",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14",
+    "hitLevels": "h,m,t",
+    "damage": "16,18,20",
+    "onBlock": -8,
+    "onHit": "+10s/+0",
+    "onCounterHit": null,
+    "states": null,
+    "index": 54
   },
   {
+    "id": "King-b+2+4:3+4",
+    "parent": null,
     "name": "Leg Screw &gt; Figure Four Leg Lock",
     "input": "b+2+4:3+4",
-    "hitLevels": [
-      "r(m)"
-    ],
-    "damage": [
-      25,
-      28
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+27d(+1d)",
-      "lower": "+27",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "r(m)",
+    "damage": "25(,28)",
+    "onBlock": null,
+    "onHit": "+27d(+1d)",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 56,
+    "id": "King-b+3",
+    "parent": null,
     "name": "Toll Kick",
     "input": "b+3",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "-10/-5",
-      "lower": "-10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+39d",
-      "lower": "+39",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16~18",
-      "lower": "i16",
-      "properties": [],
-      "upper": "18"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16~18",
+    "hitLevels": "h",
+    "damage": 23,
+    "onBlock": "-10/-5",
+    "onHit": "+39d",
+    "onCounterHit": null,
+    "states": "pc7~",
+    "index": 56
   },
   {
-    "index": 57,
+    "id": "King-b+3:1+2",
+    "parent": "King-b+3",
     "name": "Guillotine Drop",
     "input": "b+3&amp;#58;1+2",
-    "hitLevels": [
-      "h",
-      "t"
-    ],
-    "damage": [
-      23,
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-7d",
-      "lower": "-7",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16~18",
-      "lower": "i16",
-      "properties": [],
-      "upper": "18"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16~18",
+    "hitLevels": "h,t",
+    "damage": "23,15",
+    "onBlock": null,
+    "onHit": "-7d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 57
   },
   {
-    "index": 59,
+    "id": "King-b+3+4",
+    "parent": null,
     "name": "Reverse Jaguar Step",
     "input": "b+3+4",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": "js6~21 fs22~24",
+    "index": 59
   },
   {
-    "index": 58,
+    "id": "King-b+4",
+    "parent": null,
     "name": "Disgraceful Kick",
     "input": "b+4",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "2",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+14gc",
-      "lower": "+14",
-      "properties": [
-        "gc"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17~21",
-      "lower": "i17",
-      "properties": [],
-      "upper": "21"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17~21",
+    "hitLevels": "h",
+    "damage": 25,
+    "onBlock": 2,
+    "onHit": "+14gc",
+    "onCounterHit": null,
+    "states": null,
+    "index": 58
   },
   {
+    "id": "King-Behind.1+3",
+    "parent": null,
     "name": "Half Boston Crab",
-    "input": "(Behind1throw)",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      60
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "(depends)",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": "(Behind 1 throw)",
+    "startup": "(depends)",
+    "hitLevels": "t",
+    "damage": 60,
+    "onBlock": null,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 118,
+    "id": "King-Behind.2+4",
+    "parent": null,
     "name": "Cobra Twist",
-    "input": "(Behind2throw)",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      60
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-1d",
-      "lower": "-1",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "(depends)",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": "(Behind 2 throw)",
+    "startup": "(depends)",
+    "hitLevels": "t",
+    "damage": 60,
+    "onBlock": null,
+    "onHit": "-1d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 118
   },
   {
-    "index": 119,
+    "id": "King-Behind.b,f+1+2",
+    "parent": null,
     "name": "Stretch Buster",
     "input": "Behind.b,f+1+2",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      75
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+1d",
-      "lower": "+1",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "t",
+    "damage": 75,
+    "onBlock": null,
+    "onHit": "+1d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 119
   },
   {
-    "index": 95,
+    "id": "King-BT.1+2",
+    "parent": null,
     "name": "Atomic Blaster",
     "input": "BT.1+2",
-    "hitLevels": [
-      "h!"
-    ],
-    "damage": [
-      45
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+2d",
-      "lower": "+2",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i26~30",
-      "lower": "i26",
-      "properties": [],
-      "upper": "30"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i26~30",
+    "hitLevels": "h!",
+    "damage": 45,
+    "onBlock": null,
+    "onHit": "+2d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 95
   },
   {
-    "index": 96,
+    "id": "King-BT.1+4",
+    "parent": null,
     "name": "Moonsault Body Press",
     "input": "BT.1+4",
-    "hitLevels": [
-      "m!"
-    ],
-    "damage": [
-      30
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+6d",
-      "lower": "+6",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i41~47",
-      "lower": "i41",
-      "properties": [],
-      "upper": "47"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i41~47",
+    "hitLevels": "m!",
+    "damage": 30,
+    "onBlock": null,
+    "onHit": "+6d",
+    "onCounterHit": null,
+    "states": "js8~",
+    "index": 96
   },
   {
-    "index": 93,
+    "id": "King-BT.3",
+    "parent": null,
     "name": "Blind Kick",
     "input": "BT.3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      18
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+9s",
-      "lower": "+9",
-      "properties": [
-        "s"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "+50d",
-      "lower": "+50",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i13~14",
-      "lower": "i13",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13~14",
+    "hitLevels": "m",
+    "damage": 18,
+    "onBlock": -13,
+    "onHit": "+9s",
+    "onCounterHit": "+50d",
+    "states": null,
+    "index": 93
   },
   {
-    "index": 94,
+    "id": "King-BT3,1+2",
+    "parent": "King-BT.3",
     "name": "Blind Kick &gt; Neck Breaker",
     "input": "BT.3&amp;#58;1+2",
-    "hitLevels": [
-      "m",
-      "t"
-    ],
-    "damage": [
-      18,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13~14",
-      "lower": "i13",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13~14",
+    "hitLevels": "m,t",
+    "damage": "18,20",
+    "onBlock": null,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 94
   },
   {
+    "id": "King-BT.3+4",
+    "parent": null,
     "name": "Jaguar Step (BT)",
     "input": "BT.3+4",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": "js6~",
+    "index": null
   },
   {
+    "id": "King-BT.d+4",
+    "parent": null,
     "name": "Low Drop Kick (BT)",
     "input": "BT.d+4",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-14",
-      "lower": "-14",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-2d",
-      "lower": "-2",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "+28d",
-      "lower": "+28",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i22~24",
-      "lower": "i22",
-      "properties": [],
-      "upper": "24"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i22~24",
+    "hitLevels": "l",
+    "damage": 20,
+    "onBlock": -14,
+    "onHit": "-2d",
+    "onCounterHit": "+28d",
+    "states": "js11~",
+    "index": null
   },
   {
-    "index": 182,
+    "id": "King-CD.1+4",
+    "parent": null,
     "name": "Arm Breaker (AB1)",
     "input": "CD.1+4",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+1d",
-      "lower": "+1",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "t",
+    "damage": 20,
+    "onBlock": -2,
+    "onHit": "+1d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 182
   },
   {
-    "index": 177,
+    "id": "King-CD.2+3",
+    "parent": null,
     "name": "Standing Heel Hold (SHH1)",
     "input": "CD.2+3",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "t",
+    "damage": 25,
+    "onBlock": -2,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 177
   },
   {
-    "index": 84,
+    "id": "King-CD.DF+1+2",
+    "parent": null,
     "name": "Black Bomb",
     "input": "CD.1+2",
-    "hitLevels": [
-      "M"
-    ],
-    "damage": [
-      24
-    ],
-    "framesOnBlock": {
-      "_raw": "-5c",
-      "lower": "-5",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnHit": {
-      "_raw": "+16d",
-      "lower": "+16",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "+52a",
-      "lower": "+52",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i20~23",
-      "lower": "i20",
-      "properties": [],
-      "upper": "23"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20~23",
+    "hitLevels": "M",
+    "damage": 24,
+    "onBlock": "-5c",
+    "onHit": "+16d",
+    "onCounterHit": "+52a",
+    "states": null,
+    "index": 84
   },
   {
-    "index": 83,
+    "id": "King-CD.DF+4",
+    "parent": null,
     "name": "Knee Lift",
     "input": "CD.DF+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+49a(+18)",
-      "lower": "+49",
-      "properties": [
-        "a"
-      ],
-      "tech": "+18"
-    },
-    "framesOnCounter": {
-      "_raw": "+53a",
-      "lower": "+53",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "m",
+    "damage": 21,
+    "onBlock": -9,
+    "onHit": "+49a(+18)",
+    "onCounterHit": "+53a",
+    "states": null,
+    "index": 83
   },
   {
+    "id": "King-d+1",
+    "parent": null,
+    "name": null,
     "input": "d+1",
-    "hitLevels": [
-      "s.l"
-    ],
-    "damage": [
-      5
-    ],
-    "framesOnBlock": {
-      "_raw": "-5",
-      "lower": "-5",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "6",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "s.l",
+    "damage": 5,
+    "onBlock": -5,
+    "onHit": 6,
+    "onCounterHit": null,
+    "states": "cs4~",
+    "index": null
   },
   {
-    "index": 41,
+    "id": "King-d+1+2",
+    "parent": null,
     "name": "Atlas Hammer",
     "input": "d+1+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-24",
-      "lower": "-24",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+45a(+35)",
-      "lower": "+45",
-      "properties": [
-        "a"
-      ],
-      "tech": "+35"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i23",
-      "lower": "i23",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i23",
+    "hitLevels": "m",
+    "damage": 21,
+    "onBlock": -24,
+    "onHit": "+45a(+35)",
+    "onCounterHit": null,
+    "states": "cs6~23",
+    "index": 41
   },
   {
-    "index": 39,
+    "id": "King-d+1,2",
+    "parent": null,
     "name": "Jab &gt; Uppercut",
     "input": "d+1,2",
-    "hitLevels": [
-      "s.l",
-      "m"
-    ],
-    "damage": [
-      5,
-      13
-    ],
-    "framesOnBlock": {
-      "_raw": "-11",
-      "lower": "-11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+5s",
-      "lower": "+5",
-      "properties": [
-        "s"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10,i15~17",
-      "lower": "i10",
-      "properties": [],
-      "upper": "17"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10,i15~17",
+    "hitLevels": "s.l,m",
+    "damage": "5,13",
+    "onBlock": -11,
+    "onHit": "+5s",
+    "onCounterHit": null,
+    "states": null,
+    "index": 39
   },
   {
-    "index": 140,
+    "id": "King-d+1+3",
+    "parent": null,
     "name": "Iron Lariat",
     "input": "d+1+3",
-    "hitLevels": [
-      "t(c)"
-    ],
-    "damage": [
-      35
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12~13",
-      "lower": "i12",
-      "properties": [],
-      "upper": "13"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12~13",
+    "hitLevels": "t(c)",
+    "damage": 35,
+    "onBlock": null,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 140
   },
   {
-    "index": 142,
+    "id": "King-d+1+4",
+    "parent": null,
     "name": "Freedom Face Buster (Pedigree)",
     "input": "d+1+4",
-    "hitLevels": [
-      "t(c)"
-    ],
-    "damage": [
-      35
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12~13",
-      "lower": "i12",
-      "properties": [],
-      "upper": "13"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12~13",
+    "hitLevels": "t(c)",
+    "damage": 35,
+    "onBlock": null,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 142
   },
   {
+    "id": "King-d+2",
+    "parent": null,
+    "name": null,
     "input": "d+2",
-    "hitLevels": [
-      "s.l"
-    ],
-    "damage": [
-      8
-    ],
-    "framesOnBlock": {
-      "_raw": "-4",
-      "lower": "-4",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "7",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i11",
-      "lower": "i11",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i11",
+    "hitLevels": "s.l",
+    "damage": 8,
+    "onBlock": -4,
+    "onHit": 7,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 45,
+    "id": "King-d+2+3",
+    "parent": null,
     "name": "Corporate Elbow",
     "input": "d+2+3",
-    "hitLevels": [
-      "M"
-    ],
-    "damage": [
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-8",
-      "lower": "-8",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0c",
-      "lower": "+0",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i30~35",
-      "lower": "i30",
-      "properties": [],
-      "upper": "35"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i30~35",
+    "hitLevels": "M",
+    "damage": 25,
+    "onBlock": -8,
+    "onHit": "+0c",
+    "onCounterHit": null,
+    "states": "js21~32, fs33~54",
+    "index": 45
   },
   {
-    "index": 141,
+    "id": "King-d+2+4",
+    "parent": null,
     "name": "V Driver",
     "input": "d+2+4",
-    "hitLevels": [
-      "t(c)"
-    ],
-    "damage": [
-      35
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12~13",
-      "lower": "i12",
-      "properties": [],
-      "upper": "13"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12~13",
+    "hitLevels": "t(c)",
+    "damage": 35,
+    "onBlock": null,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 141
   },
   {
-    "index": 40,
+    "id": "King-d+3",
+    "parent": null,
     "name": "Stomp",
     "input": "d+3",
-    "hitLevels": [
-      "L"
-    ],
-    "damage": [
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "1",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17",
-      "lower": "i17",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17",
+    "hitLevels": "L",
+    "damage": 12,
+    "onBlock": -12,
+    "onHit": 1,
+    "onCounterHit": null,
+    "states": null,
+    "index": 40
   },
   {
+    "id": "King-d+3+4",
+    "parent": null,
+    "name": null,
     "input": "d+3+4",
-    "hitLevels": [
-      "L"
-    ],
-    "damage": [
-      14
-    ],
-    "framesOnBlock": {
-      "_raw": "-25",
-      "lower": "-25",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "L",
+    "damage": 14,
+    "onBlock": -25,
+    "onHit": -9,
+    "onCounterHit": null,
+    "states": "cs6~",
+    "index": null
   },
   {
+    "id": "King-d+3+4,4",
+    "parent": "King-d+3+4",
+    "name": null,
     "input": "d+3+4,4",
-    "hitLevels": [
-      "L",
-      "L"
-    ],
-    "damage": [
-      14,
-      7
-    ],
-    "framesOnBlock": {
-      "_raw": "-25",
-      "lower": "-25",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "L,L",
+    "damage": "14,7",
+    "onBlock": -25,
+    "onHit": -9,
+    "onCounterHit": null,
+    "states": "cs1~",
+    "index": null
   },
   {
-    "index": 42,
+    "id": "King-d+3+4,4,4",
+    "parent": "King-d+3+4,4",
     "name": "Stagger Kicks",
     "input": "d+3+4,4,4",
-    "hitLevels": [
-      "L",
-      "L",
-      "L"
-    ],
-    "damage": [
-      14,
-      7,
-      7
-    ],
-    "framesOnBlock": {
-      "_raw": "-29",
-      "lower": "-29",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "7",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "L,L,L",
+    "damage": "14,7,7",
+    "onBlock": -29,
+    "onHit": 7,
+    "onCounterHit": null,
+    "states": "cs1~",
+    "index": 42
   },
   {
-    "index": 44,
+    "id": "King-d+3+4,4,4,2",
+    "parent": "King-d+3+4,4,4",
     "name": "Stagger Kick Spinning Uppercut",
     "input": "d+3+4,4,4,2",
-    "hitLevels": [
-      "L",
-      "L",
-      "L",
-      "m"
-    ],
-    "damage": [
-      14,
-      7,
-      7,
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-15",
-      "lower": "-15",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+16d(+6)",
-      "lower": "+16",
-      "properties": [
-        "d"
-      ],
-      "tech": "+6"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "L,L,L,m",
+    "damage": "14,7,7,10",
+    "onBlock": -15,
+    "onHit": "+16d(+6)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 44
   },
   {
+    "id": "King-d+3+4,4,4,4",
+    "parent": "King-d+3+4,4,4",
     "name": "Stagger Kick Flurry",
     "input": "d+3+4,4,4,4",
-    "hitLevels": [
-      "L",
-      "L",
-      "L",
-      "L",
-      "L"
-    ],
-    "damage": [
-      14,
-      7,
-      7,
-      4,
-      3
-    ],
-    "framesOnBlock": {
-      "_raw": "-26",
-      "lower": "-26",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "15",
-      "lower": "15",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "L,L,L,L,L",
+    "damage": "14,7,7,4,3",
+    "onBlock": -26,
+    "onHit": 15,
+    "onCounterHit": null,
+    "states": "cs1~",
+    "index": null
   },
   {
+    "id": "King-d+4",
+    "parent": null,
+    "name": null,
     "input": "d+4",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      6
-    ],
-    "framesOnBlock": {
-      "_raw": "-15",
-      "lower": "-15",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-4",
-      "lower": "-4",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14",
-      "lower": "i14",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14",
+    "hitLevels": "l",
+    "damage": 6,
+    "onBlock": -15,
+    "onHit": -4,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "King-db+1+2",
+    "parent": null,
     "name": "Muscle Armor",
     "input": "db+1+2",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": "pc6~59",
+    "index": null
   },
   {
-    "index": 49,
+    "id": "King-db+1+2,2",
+    "parent": null,
     "name": "Muscle Armor &gt; Emerald Elbow",
     "input": "db+1+2,2",
-    "hitLevels": [
-      "m",
-      "t"
-    ],
-    "damage": [
-      15,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+8g",
-      "lower": "+8",
-      "properties": [
-        "g"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m,t",
+    "damage": "15,20",
+    "onBlock": -9,
+    "onHit": "+8g",
+    "onCounterHit": null,
+    "states": null,
+    "index": 49
   },
   {
-    "index": 50,
+    "id": "King-db+1+2,3+4",
+    "parent": null,
     "name": "Muscle Armor &gt; Jaguar Sprint",
     "input": "db+1+2,3+4",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": 50
   },
   {
-    "index": 46,
+    "id": "King-db+2",
+    "parent": null,
     "name": "Brain Chop",
     "input": "db+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-5c",
-      "lower": "-5",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnHit": {
-      "_raw": "+19a",
-      "lower": "+19",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i25~26",
-      "lower": "i25",
-      "properties": [],
-      "upper": "26"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i25~26",
+    "hitLevels": "m",
+    "damage": 21,
+    "onBlock": "-5c",
+    "onHit": "+19a",
+    "onCounterHit": null,
+    "states": null,
+    "index": 46
   },
   {
+    "id": "King-db+2+3",
+    "parent": null,
     "name": "Figure Four Leg Lock",
     "input": "db+2+3",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      4082012
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+1d / 0d",
-      "lower": "+1",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "t",
+    "damage": "40 (8+20+12)",
+    "onBlock": -6,
+    "onHit": "+1d / 0d",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 47,
+    "id": "King-db+3",
+    "parent": null,
     "name": "Crouching Low Kick",
     "input": "db+3",
-    "hitLevels": [
-      "L"
-    ],
-    "damage": [
-      17
-    ],
-    "framesOnBlock": {
-      "_raw": "-14",
-      "lower": "-14",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+4c",
-      "lower": "+4",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "+25a",
-      "lower": "+25",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i23",
-      "lower": "i23",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i23",
+    "hitLevels": "L",
+    "damage": 17,
+    "onBlock": -14,
+    "onHit": "+4c",
+    "onCounterHit": "+25a",
+    "states": "cs6~",
+    "index": 47
   },
   {
-    "index": 48,
+    "id": "King-db+4",
+    "parent": null,
     "name": "Low Drop Kick",
     "input": "db+4",
-    "hitLevels": [
-      "L"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-17a",
-      "lower": "-17",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnHit": {
-      "_raw": "-3d",
-      "lower": "-3",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "+27d",
-      "lower": "+27",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i29~31",
-      "lower": "i29",
-      "properties": [],
-      "upper": "31"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i29~31",
+    "hitLevels": "L",
+    "damage": 20,
+    "onBlock": "-17a",
+    "onHit": "-3d",
+    "onCounterHit": "+27d",
+    "states": "cs6~14 js16~29 fs30~",
+    "index": 48
   },
   {
-    "index": 125,
+    "id": "King-db,n,f+2+4",
+    "parent": null,
     "name": "Tombstone Pile Driver",
     "input": "db,n,f+2+4",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      53
-    ],
-    "framesOnBlock": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-1d",
-      "lower": "-1",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i11",
-      "lower": "i11",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i11",
+    "hitLevels": "t",
+    "damage": 53,
+    "onBlock": -2,
+    "onHit": "-1d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 125
   },
   {
-    "index": 163,
+    "id": "King-DF",
+    "parent": null,
     "name": "Low Parry",
     "input": "DF",
-    "hitLevels": [
-      "r(l)"
-    ],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+51a(+35)",
-      "lower": "+51",
-      "properties": [
-        "a"
-      ],
-      "tech": "+35"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": "r(l)",
+    "damage": 0,
+    "onBlock": null,
+    "onHit": "+51a(+35)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 163
   },
   {
+    "id": "King-df+1",
+    "parent": null,
+    "name": null,
     "input": "df+1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "-1",
-      "lower": "-1",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+3s",
-      "lower": "+3",
-      "properties": [
-        "s"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14~15",
-      "lower": "i14",
-      "properties": [],
-      "upper": "15"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14~15",
+    "hitLevels": "m",
+    "damage": 15,
+    "onBlock": -1,
+    "onHit": "+3s",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 33,
+    "id": "King-df+1,2",
+    "parent": "King-df+1",
     "name": "Elbow Sting",
     "input": "df+1,2",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      15,
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "-10",
-      "lower": "-10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+5s",
-      "lower": "+5",
-      "properties": [
-        "s"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14~15",
-      "lower": "i14",
-      "properties": [],
-      "upper": "15"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14~15",
+    "hitLevels": "m,m",
+    "damage": "15,15",
+    "onBlock": -10,
+    "onHit": "+5s",
+    "onCounterHit": null,
+    "states": null,
+    "index": 33
   },
   {
-    "index": 164,
+    "id": "King-df+1+3",
+    "parent": null,
     "name": "Reverse Arm Slam (RAS1)",
     "input": "df+1+3",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      19
-    ],
-    "framesOnBlock": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+1d",
-      "lower": "+1",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i32",
-      "lower": "i32",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i32",
+    "hitLevels": "t",
+    "damage": 19,
+    "onBlock": -2,
+    "onHit": "+1d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 164
   },
   {
+    "id": "King-df+2",
+    "parent": null,
+    "name": null,
     "input": "df+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+4s",
-      "lower": "+4",
-      "properties": [
-        "s"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13",
-      "lower": "i13",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13",
+    "hitLevels": "m",
+    "damage": 12,
+    "onBlock": -6,
+    "onHit": "+4s",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 34,
+    "id": "King-df+2,1",
+    "parent": "King-df+2",
     "name": "Double Hook Disaster",
     "input": "df+2,1",
-    "hitLevels": [
-      "m",
-      "h"
-    ],
-    "damage": [
-      12,
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "-4",
-      "lower": "-4",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+24a",
-      "lower": "+24",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13",
-      "lower": "i13",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13",
+    "hitLevels": "m,h",
+    "damage": "12,15",
+    "onBlock": -4,
+    "onHit": "+24a",
+    "onCounterHit": null,
+    "states": null,
+    "index": 34
   },
   {
-    "index": 120,
+    "id": "King-df+2+3",
+    "parent": null,
     "name": "Knee Bash",
     "input": "df+2+3",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      40
-    ],
-    "framesOnBlock": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "t",
+    "damage": 40,
+    "onBlock": -2,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 120
   },
   {
-    "index": 170,
+    "id": "King-df+2+4",
+    "parent": null,
     "name": "Reverse Special Stretch Bomb (RSSB1)",
     "input": "df+2+4",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+1d",
-      "lower": "+1",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i32",
-      "lower": "i32",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i32",
+    "hitLevels": "t",
+    "damage": 20,
+    "onBlock": -2,
+    "onHit": "+1d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 170
   },
   {
+    "id": "King-df+3",
+    "parent": null,
+    "name": null,
     "input": "df+3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      17
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+6s",
-      "lower": "+6",
-      "properties": [
-        "s"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14",
-      "lower": "i14",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14",
+    "hitLevels": "m",
+    "damage": 17,
+    "onBlock": -9,
+    "onHit": "+6s",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 38,
+    "id": "King-df+3+4",
+    "parent": null,
     "name": "Frankensteiner",
     "input": "df+3+4",
-    "hitLevels": [
-      "t/s"
-    ],
-    "damage": [
-      3015
-    ],
-    "framesOnBlock": {
-      "_raw": "-12~-18",
-      "lower": "-12",
-      "properties": [],
-      "upper": "-18"
-    },
-    "framesOnHit": {
-      "_raw": "+18d/-7~0",
-      "lower": "+18",
-      "properties": [
-        "d"
-      ],
-      "upper": ""
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i28~35",
-      "lower": "i28",
-      "properties": [],
-      "upper": "35"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i28~35",
+    "hitLevels": "t/s",
+    "damage": "30/15",
+    "onBlock": "-12~-18",
+    "onHit": "+18d/-7~0",
+    "onCounterHit": null,
+    "states": "js13~",
+    "index": 38
   },
   {
-    "index": 35,
+    "id": "King-df+3,4",
+    "parent": "King-df+3",
     "name": "Lasso Kick",
     "input": "df+3,4",
-    "hitLevels": [
-      "m",
-      "h"
-    ],
-    "damage": [
-      17,
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+28d",
-      "lower": "+28",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14",
-      "lower": "i14",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14",
+    "hitLevels": "m,h",
+    "damage": "17,23",
+    "onBlock": 0,
+    "onHit": "+28d",
+    "onCounterHit": null,
+    "states": "js22~",
+    "index": 35
   },
   {
+    "id": "King-df+4",
+    "parent": null,
+    "name": null,
     "input": "df+4",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-14",
-      "lower": "-14",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14~15",
-      "lower": "i14",
-      "properties": [],
-      "upper": "15"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14~15",
+    "hitLevels": "l",
+    "damage": 10,
+    "onBlock": -14,
+    "onHit": -3,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "King-df+4,3",
+    "parent": "King-df+4",
+    "name": null,
     "input": "df+4,3",
-    "hitLevels": [
-      "l",
-      "h"
-    ],
-    "damage": [
-      10,
-      11
-    ],
-    "framesOnBlock": {
-      "_raw": "-5",
-      "lower": "-5",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "6",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14~15",
-      "lower": "i14",
-      "properties": [],
-      "upper": "15"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14~15",
+    "hitLevels": "l,h",
+    "damage": "10,11",
+    "onBlock": -5,
+    "onHit": 6,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 36,
+    "id": "King-df+4,3,4",
+    "parent": "King-df+4,3",
     "name": "Mincer",
     "input": "df+4,3,4",
-    "hitLevels": [
-      "l",
-      "h",
-      "m"
-    ],
-    "damage": [
-      10,
-      11,
-      27
-    ],
-    "framesOnBlock": {
-      "_raw": "-15",
-      "lower": "-15",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+6a (-3)",
-      "lower": "+6",
-      "properties": [
-        "a"
-      ],
-      "tech": "-3"
-    },
-    "framesOnCounter": {
-      "_raw": "+47a(+16)",
-      "lower": "+47",
-      "properties": [
-        "a"
-      ],
-      "tech": "+16"
-    },
-    "framesOnStartup": {
-      "_raw": "i14~15",
-      "lower": "i14",
-      "properties": [],
-      "upper": "15"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14~15",
+    "hitLevels": "l,h,m",
+    "damage": "10,11,27",
+    "onBlock": -15,
+    "onHit": "+6a (-3)",
+    "onCounterHit": "+47a(+16)",
+    "states": "js18~",
+    "index": 36
   },
   {
-    "index": 37,
+    "id": "King-df+4,3,d+4",
+    "parent": "King-df+4,3",
     "name": "Mincer Low",
     "input": "df+4,3,d+4",
-    "hitLevels": [
-      "l",
-      "h",
-      "L"
-    ],
-    "damage": [
-      10,
-      11,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-10",
-      "lower": "-10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-8a FC",
-      "lower": "-8",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "+22a FC",
-      "lower": "+22",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i14~15",
-      "lower": "i14",
-      "properties": [],
-      "upper": "15"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14~15",
+    "hitLevels": "l,h,L",
+    "damage": "10,11,20",
+    "onBlock": -10,
+    "onHit": "-8a FC",
+    "onCounterHit": "+22a FC",
+    "states": "js25~",
+    "index": 37
   },
   {
-    "index": 29,
+    "id": "King-f+1+2",
+    "parent": null,
     "name": "Shadow Lariat",
     "input": "f+1+2",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+10d",
-      "lower": "+10",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16~17",
-      "lower": "i16",
-      "properties": [],
-      "upper": "17"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16~17",
+    "hitLevels": "h",
+    "damage": 23,
+    "onBlock": 0,
+    "onHit": "+10d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 29
   },
   {
-    "index": 31,
+    "id": "King-f+1+4",
+    "parent": null,
     "name": "Body Check",
     "input": "f+1+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "3",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+7s",
-      "lower": "+7",
-      "properties": [
-        "s"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17~19",
-      "lower": "i17",
-      "properties": [],
-      "upper": "19"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17~19",
+    "hitLevels": "m",
+    "damage": 21,
+    "onBlock": 3,
+    "onHit": "+7s",
+    "onCounterHit": null,
+    "states": null,
+    "index": 31
   },
   {
+    "id": "King-f+2",
+    "parent": null,
+    "name": null,
     "input": "f+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-11",
-      "lower": "-11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+2s",
-      "lower": "+2",
-      "properties": [
-        "s"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "m",
+    "damage": 12,
+    "onBlock": -11,
+    "onHit": "+2s",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 24,
+    "id": "King-f+2,1",
+    "parent": "King-f+2",
     "name": "Elbow Impact",
     "input": "f+2,1",
-    "hitLevels": [
-      "m",
-      "h"
-    ],
-    "damage": [
-      12,
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+16a",
-      "lower": "+16",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "m,h",
+    "damage": "12,25",
+    "onBlock": -9,
+    "onHit": "+16a",
+    "onCounterHit": null,
+    "states": null,
+    "index": 24
   },
   {
-    "index": 32,
+    "id": "King-f+2+3",
+    "parent": null,
     "name": "Shoulder Tackle",
     "input": "f+2+3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      27
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+8a(-1a)",
-      "lower": "+8",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20~24",
-      "lower": "i20",
-      "properties": [],
-      "upper": "24"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20~24",
+    "hitLevels": "m",
+    "damage": 27,
+    "onBlock": -9,
+    "onHit": "+8a(-1a)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 32
   },
   {
+    "id": "King-f+2,d+1",
+    "parent": "King-f+2",
+    "name": null,
     "input": "f+2,d+1",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      12,
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "-13c",
-      "lower": "-13",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnHit": {
-      "_raw": "+2c",
-      "lower": "+2",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "m,m",
+    "damage": "12,15",
+    "onBlock": "-13c",
+    "onHit": "+2c",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 25,
+    "id": "King-f+2,d+1,2",
+    "parent": "King-f+2,d+1",
     "name": "Jaguar Smash Combo",
     "input": "f+2,d+1,2",
-    "hitLevels": [
-      "m",
-      "m",
-      "m"
-    ],
-    "damage": [
-      12,
-      15,
-      16
-    ],
-    "framesOnBlock": {
-      "_raw": "-15",
-      "lower": "-15",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+27a(+17)",
-      "lower": "+27",
-      "properties": [
-        "a"
-      ],
-      "tech": "+17"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "m,m,m",
+    "damage": "12,15,16",
+    "onBlock": -15,
+    "onHit": "+27a(+17)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 25
   },
   {
-    "index": 26,
+    "id": "King-f+3",
+    "parent": null,
     "name": "Front Kick",
     "input": "f+3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      18
-    ],
-    "framesOnBlock": {
-      "_raw": "-8",
-      "lower": "-8",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "1",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+9s",
-      "lower": "+9",
-      "properties": [
-        "s"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "m",
+    "damage": 18,
+    "onBlock": -8,
+    "onHit": 1,
+    "onCounterHit": "+9s",
+    "states": null,
+    "index": 26
   },
   {
-    "index": 27,
+    "id": "King-f+3:1+2",
+    "parent": "King-f+3",
     "name": "Front Kick &gt; DDT",
     "input": "f+3&amp;#58;1+2",
-    "hitLevels": [
-      "m",
-      "t"
-    ],
-    "damage": [
-      18,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-5d",
-      "lower": "-5",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "m,t",
+    "damage": "18,20",
+    "onBlock": null,
+    "onHit": "-5d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 27
   },
   {
+    "id": "King-f+3+4",
+    "parent": null,
     "name": "Jaguar Sprint",
     "input": "f+3+4",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 28,
+    "id": "King-f+4",
+    "parent": null,
     "name": "Rolling Sobat",
     "input": "f+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+12a(+3)",
-      "lower": "+12",
-      "properties": [
-        "a"
-      ],
-      "tech": "+3"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18~20",
-      "lower": "i18",
-      "properties": [],
-      "upper": "20"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18~20",
+    "hitLevels": "m",
+    "damage": 25,
+    "onBlock": -9,
+    "onHit": "+12a(+3)",
+    "onCounterHit": null,
+    "states": "js9~",
+    "index": 28
   },
   {
-    "index": 134,
+    "id": "King-FC.1+2",
+    "parent": null,
     "name": "Ultimate Tackle (UT)",
     "input": "FC.1+2",
-    "hitLevels": [
-      "t(s)"
-    ],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "-5",
-      "lower": "-5",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+3d",
-      "lower": "+3",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i26",
-      "lower": "i26",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i26",
+    "hitLevels": "t(s)",
+    "damage": 0,
+    "onBlock": -5,
+    "onHit": "+3d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 134
   },
   {
+    "id": "King-FC.d+3",
+    "parent": null,
+    "name": null,
     "input": "FC.d+3",
-    "hitLevels": [
-      "L"
-    ],
-    "damage": [
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-17",
-      "lower": "-17",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18",
-      "lower": "i18",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18",
+    "hitLevels": "L",
+    "damage": 10,
+    "onBlock": -17,
+    "onHit": -6,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 133,
+    "id": "King-FC.db,d,db+1+2",
+    "parent": null,
     "name": "Clothesline Press (Rock Bottom)",
     "input": "FC.db,d,db+1+2",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      45
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "t",
+    "damage": 45,
+    "onBlock": -6,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 133
   },
   {
-    "index": 88,
+    "id": "King-FC.df+1",
+    "parent": null,
     "name": "Leg Breaker",
     "input": "FC.df+1",
-    "hitLevels": [
-      "L"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+73a(+57)",
-      "lower": "+73",
-      "properties": [
-        "a"
-      ],
-      "tech": "+57"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i32~34",
-      "lower": "i32",
-      "properties": [],
-      "upper": "34"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i32~34",
+    "hitLevels": "L",
+    "damage": 20,
+    "onBlock": -12,
+    "onHit": "+73a(+57)",
+    "onCounterHit": null,
+    "states": "cs1~",
+    "index": 88
   },
   {
-    "index": 89,
+    "id": "King-FC.df+2",
+    "parent": null,
     "name": "Body Blow",
     "input": "FC.df+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-14",
-      "lower": "-14",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "[[King combos#Staples|+56a]]",
-      "lower": "+56",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m",
+    "damage": 21,
+    "onBlock": -14,
+    "onHit": "[[King combos#Staples|+56a]]",
+    "onCounterHit": null,
+    "states": null,
+    "index": 89
   },
   {
-    "index": 149,
+    "id": "King-FDFA.db+1+3",
+    "parent": null,
     "name": "Wing Tearer",
     "input": "FDFA.db+1+3_2+4",
-    "hitLevels": [
-      "t(g)"
-    ],
-    "damage": [
-      32
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18~20",
-      "lower": "i18",
-      "properties": [],
-      "upper": "20"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18~20",
+    "hitLevels": "t(g)",
+    "damage": 32,
+    "onBlock": 0,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 149
   },
   {
+    "id": "King-FDFL.db+1+3",
+    "parent": null,
     "name": "Bow &amp; Arrow Stretch Hold",
     "input": "FDFL.db+1+3_2+4",
-    "hitLevels": [
-      "t(g)"
-    ],
-    "damage": [
-      37
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18~20",
-      "lower": "i18",
-      "properties": [],
-      "upper": "20"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18~20",
+    "hitLevels": "t(g)",
+    "damage": 37,
+    "onBlock": 0,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 150,
+    "id": "King-FDFR.db+1+3",
+    "parent": null,
     "name": "Camel Clutch",
     "input": "FDFR.db+1+3_2+4",
-    "hitLevels": [
-      "t(g)"
-    ],
-    "damage": [
-      35
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18~20",
-      "lower": "i18",
-      "properties": [],
-      "upper": "20"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18~20",
+    "hitLevels": "t(g)",
+    "damage": 35,
+    "onBlock": 0,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 150
   },
   {
+    "id": "King-FDFT.db+1+3",
+    "parent": null,
     "name": "Half Boston Crab (OTG)",
     "input": "FDFT.db+1+3_2+4",
-    "hitLevels": [
-      "t(g)"
-    ],
-    "damage": [
-      30
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+22d",
-      "lower": "+22",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18~20",
-      "lower": "i18",
-      "properties": [],
-      "upper": "20"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18~20",
+    "hitLevels": "t(g)",
+    "damage": 30,
+    "onBlock": 0,
+    "onHit": "+22d",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 71,
+    "id": "King-f,F,1",
+    "parent": null,
     "name": "Jaguar Hook",
     "input": "f,F,1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-5",
-      "lower": "-5",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+14g",
-      "lower": "+14",
-      "properties": [
-        "g"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "+38d",
-      "lower": "+38",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i20~21",
-      "lower": "i20",
-      "properties": [],
-      "upper": "21"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20~21",
+    "hitLevels": "m",
+    "damage": 21,
+    "onBlock": -5,
+    "onHit": "+14g",
+    "onCounterHit": "+38d",
+    "states": null,
+    "index": 71
   },
   {
-    "index": 72,
+    "id": "King-f,F,2",
+    "parent": null,
     "name": "Beast Elbow",
     "input": "f,F,2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "7",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+12c",
-      "lower": "+12",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i31~32",
-      "lower": "i31",
-      "properties": [],
-      "upper": "32"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i31~32",
+    "hitLevels": "m",
+    "damage": 21,
+    "onBlock": 7,
+    "onHit": "+12c",
+    "onCounterHit": null,
+    "states": null,
+    "index": 72
   },
   {
+    "id": "King-f,F,2+3",
+    "parent": null,
     "name": "Diving Body Press",
     "input": "f,F,2+3",
-    "hitLevels": [
-      "m",
-      "t"
-    ],
-    "damage": [
-      20,
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "-16c~+2c",
-      "lower": "-16",
-      "properties": [
-        "c",
-        "c"
-      ],
-      "upper": "+2"
-    },
-    "framesOnHit": {
-      "_raw": "-19c~+3c/-5d",
-      "lower": "-19",
-      "properties": [
-        "c",
-        "c"
-      ],
-      "upper": "+3"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i21~43",
-      "lower": "i21",
-      "properties": [],
-      "upper": "43"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i21~43",
+    "hitLevels": "m,t",
+    "damage": "20,15",
+    "onBlock": "-16c~+2c",
+    "onHit": "-19c~+3c/-5d",
+    "onCounterHit": null,
+    "states": "js12~",
+    "index": null
   },
   {
-    "index": 75,
+    "id": "King-f,F,3+4",
+    "parent": null,
     "name": "Exploder",
     "input": "f,F,3+4",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+24d(-34)",
-      "lower": "+24",
-      "properties": [
-        "d"
-      ],
-      "tech": "-34"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i28~30",
-      "lower": "i28",
-      "properties": [],
-      "upper": "30"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i28~30",
+    "hitLevels": "h",
+    "damage": 25,
+    "onBlock": 0,
+    "onHit": "+24d(-34)",
+    "onCounterHit": null,
+    "states": "js9~",
+    "index": 75
   },
   {
-    "index": 73,
+    "id": "King-f,F,4",
+    "parent": null,
     "name": "Konvict Kick",
     "input": "f,F,4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      2530,
-      14
-    ],
-    "framesOnBlock": {
-      "_raw": "-15",
-      "lower": "-15",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+14a(+4)",
-      "lower": "+14",
-      "properties": [
-        "a"
-      ],
-      "tech": "+4"
-    },
-    "framesOnCounter": {
-      "_raw": "+1d",
-      "lower": "+1",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m",
+    "damage": "25(30,14)",
+    "onBlock": -15,
+    "onHit": "+14a(+4)",
+    "onCounterHit": "+1d",
+    "states": null,
+    "index": 73
   },
   {
-    "index": 126,
+    "id": "King-f,f,F+2+4",
+    "parent": null,
     "name": "Tomahawk",
     "input": "f,f,F+2+4",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      4045
-    ],
-    "framesOnBlock": {
-      "_raw": "-5",
-      "lower": "-5",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+1d",
-      "lower": "+1",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "t",
+    "damage": "40(45)",
+    "onBlock": -5,
+    "onHit": "+1d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 126
   },
   {
-    "index": 77,
+    "id": "King-f,f,F,3",
+    "parent": null,
     "name": "Strong Knee",
     "input": "f,f,F,3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "3",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+30(+22)",
-      "lower": "+30",
-      "properties": [],
-      "tech": "+22"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20~25",
-      "lower": "i20",
-      "properties": [],
-      "upper": "25"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20~25",
+    "hitLevels": "m",
+    "damage": 25,
+    "onBlock": 3,
+    "onHit": "+30(+22)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 77
   },
   {
-    "index": 78,
+    "id": "King-f,f,F,3+4",
+    "parent": null,
     "name": "Running Exploder",
     "input": "f,f,F,3+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      40
-    ],
-    "framesOnBlock": {
-      "_raw": "17",
-      "lower": "17",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+32d(-26)",
-      "lower": "+32",
-      "properties": [
-        "d"
-      ],
-      "tech": "-26"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i28~34",
-      "lower": "i28",
-      "properties": [],
-      "upper": "34"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i28~34",
+    "hitLevels": "m",
+    "damage": 40,
+    "onBlock": 17,
+    "onHit": "+32d(-26)",
+    "onCounterHit": null,
+    "states": "js9~",
+    "index": 78
   },
   {
-    "index": 70,
+    "id": "King-f,f,n,1+2",
+    "parent": null,
     "name": "Lay Off",
     "input": "f,f,n,1+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+7s",
-      "lower": "+7",
-      "properties": [
-        "s"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "+18s",
-      "lower": "+18",
-      "properties": [
-        "s"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i9",
-      "lower": "i9",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i9",
+    "hitLevels": "m",
+    "damage": 0,
+    "onBlock": 0,
+    "onHit": "+7s",
+    "onCounterHit": "+18s",
+    "states": null,
+    "index": 70
   },
   {
-    "index": 68,
+    "id": "King-f,f,n,2",
+    "parent": null,
     "name": "Stomach Smash / Jaguar Hammer",
     "input": "f,f,n,2",
-    "hitLevels": [
-      "L",
-      "(t)"
-    ],
-    "damage": [
-      17,
-      30
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+5s/(0d)",
-      "lower": "+5",
-      "properties": [
-        "s"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18",
-      "lower": "i18",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18",
+    "hitLevels": "L,(t)",
+    "damage": "17,(30)",
+    "onBlock": -13,
+    "onHit": "+5s/(0d)",
+    "onCounterHit": null,
+    "states": "cs6~",
+    "index": 68
   },
   {
+    "id": "King-f,hcf+1",
+    "parent": null,
     "name": "Giant Swing",
     "input": "f,hcf+1",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      4550,
-      2070
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-22d(-50)",
-      "lower": "-22",
-      "properties": [
-        "d"
-      ],
-      "tech": "-50"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "t",
+    "damage": "45(50),20 / 70",
+    "onBlock": -13,
+    "onHit": "-22d(-50)",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 132,
+    "id": "King-f,hcf+2",
+    "parent": null,
     "name": "Tijuana Twister",
     "input": "f,hcf+2",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      5055
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+1d",
-      "lower": "+1",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12~14",
-      "lower": "i12",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12~14",
+    "hitLevels": "t",
+    "damage": "50(55)",
+    "onBlock": -6,
+    "onHit": "+1d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 132
   },
   {
-    "index": 82,
+    "id": "King-f,n,d,df",
+    "parent": null,
     "name": "Beast Step",
     "input": "f,n,d,df",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": 82
   },
   {
-    "index": 146,
+    "id": "King-FUFA.db+1+3",
+    "parent": null,
     "name": "Shoulder Cracker",
     "input": "FUFA.db+1+3_2+4",
-    "hitLevels": [
-      "t(g)"
-    ],
-    "damage": [
-      28
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18~20",
-      "lower": "i18",
-      "properties": [],
-      "upper": "20"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18~20",
+    "hitLevels": "t(g)",
+    "damage": 28,
+    "onBlock": 0,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 146
   },
   {
-    "index": 147,
+    "id": "King-FUFL/FUFR.db+1+3",
+    "parent": null,
     "name": "Turn Over",
-    "input": "FUFL.db+1+3_2+4/FUFR.db+1+3_2+4",
-    "hitLevels": [
-      "t(g)"
-    ],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+25d",
-      "lower": "+25",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18~20",
-      "lower": "i18",
-      "properties": [],
-      "upper": "20"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": "FUFL.db+1+3_2+4/ FUFR.db+1+3_2+4",
+    "startup": "i18~20",
+    "hitLevels": "t(g)",
+    "damage": 0,
+    "onBlock": 0,
+    "onHit": "+25d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 147
   },
   {
-    "index": 92,
+    "id": "King-FUFT.b+3+4",
+    "parent": null,
     "name": "Whirling Spring Kick",
     "input": "FUFT.b+3+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-25",
-      "lower": "-25",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+4a(-6)",
-      "lower": "+4",
-      "properties": [
-        "a"
-      ],
-      "tech": "-6"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16~28",
-      "lower": "i16",
-      "properties": [],
-      "upper": "28"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16~28",
+    "hitLevels": "m",
+    "damage": 25,
+    "onBlock": -25,
+    "onHit": "+4a(-6)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 92
   },
   {
-    "index": 143,
+    "id": "King-FUFT.db+1+3",
+    "parent": null,
     "name": "Swing Away",
     "input": "FUFT.db+1+3_2+4",
-    "hitLevels": [
-      "t(g)"
-    ],
-    "damage": [
-      20,
-      1035
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+1d(-40)",
-      "lower": "+1",
-      "properties": [
-        "d"
-      ],
-      "tech": "-40"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18~20",
-      "lower": "i18",
-      "properties": [],
-      "upper": "20"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18~20",
+    "hitLevels": "t(g)",
+    "damage": "20,10 / 35",
+    "onBlock": 0,
+    "onHit": "+1d(-40)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 143
   },
   {
-    "index": 144,
+    "id": "King-FUFT.DB+1+3",
+    "parent": null,
     "name": "Head Bomber",
     "input": "FUFT.DB+1+3",
-    "hitLevels": [
-      "t(g)"
-    ],
-    "damage": [
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18~20",
-      "lower": "i18",
-      "properties": [],
-      "upper": "20"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18~20",
+    "hitLevels": "t(g)",
+    "damage": 25,
+    "onBlock": 0,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 144
   },
   {
+    "id": "King-FUFT.DB+2+4",
+    "parent": null,
     "name": "Figure Four Leg Lock (OTG)",
     "input": "FUFT.DB+2+4",
-    "hitLevels": [
-      "t(g)"
-    ],
-    "damage": [
-      28
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+1d",
-      "lower": "+1",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18~20",
-      "lower": "i18",
-      "properties": [],
-      "upper": "20"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18~20",
+    "hitLevels": "t(g)",
+    "damage": 28,
+    "onBlock": 0,
+    "onHit": "+1d",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "King-H.2+3",
+    "parent": null,
     "name": "Ultimo Jaguar",
     "input": "H.2+3",
-    "hitLevels": [
-      "m",
-      "t"
-    ],
-    "damage": [
-      20,
-      40
-    ],
-    "framesOnBlock": {
-      "_raw": "12",
-      "lower": "12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17",
-      "lower": "i17",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17",
+    "hitLevels": "m,t",
+    "damage": "20,40",
+    "onBlock": 12,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "King-H.JGR.1",
+    "parent": null,
     "name": "Running Elbow Smash (Heat)",
     "input": "H.JGR.1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-8",
-      "lower": "-8",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+75a(+59)",
-      "lower": "+75",
-      "properties": [
-        "a"
-      ],
-      "tech": "+59"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16~17",
-      "lower": "i16",
-      "properties": [],
-      "upper": "17"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16~17",
+    "hitLevels": "m",
+    "damage": 21,
+    "onBlock": -8,
+    "onHit": "+75a(+59)",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "King-H.JGR.2",
+    "parent": null,
     "name": "Jaguar Axe (Heat)",
     "input": "H.JGR.2",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      26
-    ],
-    "framesOnBlock": {
-      "_raw": "6",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+4a",
-      "lower": "+4",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18~19",
-      "lower": "i18",
-      "properties": [],
-      "upper": "19"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18~19",
+    "hitLevels": "h",
+    "damage": 26,
+    "onBlock": 6,
+    "onHit": "+4a",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 105,
+    "id": "King-JGR.1",
+    "parent": null,
     "name": "Running Elbow Smash",
     "input": "JGR.1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-8",
-      "lower": "-8",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+39d/+75a(+59)",
-      "lower": "+39",
-      "properties": [
-        "d"
-      ],
-      "tech": "+59"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16~17",
-      "lower": "i16",
-      "properties": [],
-      "upper": "17"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16~17",
+    "hitLevels": "m",
+    "damage": 21,
+    "onBlock": -8,
+    "onHit": "+39d/+75a(+59)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 105
   },
   {
-    "index": 109,
+    "id": "King-JGR.1+3",
+    "parent": null,
     "name": "Rapid King Onslaught",
     "input": "JGR.1+3_2+4",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      45
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+1d",
-      "lower": "+1",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i23",
-      "lower": "i23",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i23",
+    "hitLevels": "t",
+    "damage": 45,
+    "onBlock": null,
+    "onHit": "+1d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 109
   },
   {
-    "index": 106,
+    "id": "King-JGR.2",
+    "parent": null,
     "name": "Jaguar Axe",
     "input": "JGR.2",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      26
-    ],
-    "framesOnBlock": {
-      "_raw": "+3/+6/+18c",
-      "lower": "+3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+4d",
-      "lower": "+4",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18~19",
-      "lower": "i18",
-      "properties": [],
-      "upper": "19"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18~19",
+    "hitLevels": "h",
+    "damage": 26,
+    "onBlock": "+3/+6/+18c",
+    "onHit": "+4d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 106
   },
   {
+    "id": "King-JGR.2+3",
+    "parent": null,
     "name": "Diving Body Press",
     "input": "JGR.2+3",
-    "hitLevels": [
-      "M",
-      "t"
-    ],
-    "damage": [
-      20,
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "-16c~+2c",
-      "lower": "-16",
-      "properties": [
-        "c",
-        "c"
-      ],
-      "upper": "+2"
-    },
-    "framesOnHit": {
-      "_raw": "-19c~+3c/-5d",
-      "lower": "-19",
-      "properties": [
-        "c",
-        "c"
-      ],
-      "upper": "+3"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i21~43",
-      "lower": "i21",
-      "properties": [],
-      "upper": "43"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i21~43",
+    "hitLevels": "M,t",
+    "damage": "20,15",
+    "onBlock": "-16c~+2c",
+    "onHit": "-19c~+3c/-5d",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 107,
+    "id": "King-JGR.3",
+    "parent": null,
     "name": "Sprint K.",
     "input": "JGR.3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      30
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+11d (+1)",
-      "lower": "+11",
-      "properties": [
-        "d"
-      ],
-      "tech": "+1"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i22~23",
-      "lower": "i22",
-      "properties": [],
-      "upper": "23"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i22~23",
+    "hitLevels": "m",
+    "damage": 30,
+    "onBlock": -9,
+    "onHit": "+11d (+1)",
+    "onCounterHit": null,
+    "states": "js11~30 fs31~33",
+    "index": 107
   },
   {
-    "index": 108,
+    "id": "King-JGR.4",
+    "parent": null,
     "name": "Dashing Low Drop Kick",
     "input": "JGR.4",
-    "hitLevels": [
-      "L"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-21",
-      "lower": "-21",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0c",
-      "lower": "+0",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20~24",
-      "lower": "i20",
-      "properties": [],
-      "upper": "24"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20~24",
+    "hitLevels": "L",
+    "damage": 20,
+    "onBlock": -21,
+    "onHit": "+0c",
+    "onCounterHit": null,
+    "states": "js7~23 fs24~",
+    "index": 108
   },
   {
-    "index": 98,
+    "id": "King-JGS.1",
+    "parent": null,
     "name": "Jaguar Step &gt; Hook",
     "input": "JGS.1",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      212531
-    ],
-    "framesOnBlock": {
-      "_raw": "-7/-1",
-      "lower": "-7",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+47d/+53d",
-      "lower": "+47",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17~18/i19~20",
-      "lower": "i17",
-      "properties": [],
-      "upper": "18"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17~18/i19~20",
+    "hitLevels": "h",
+    "damage": "21/25/31",
+    "onBlock": "-7/-1",
+    "onHit": "+47d/+53d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 98
   },
   {
-    "index": 189,
+    "id": "King-JGS.1+4_2+3",
+    "parent": null,
     "name": "Cobra Clutch (MMD1)",
     "input": "JGS.1+4_2+3",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "t",
+    "damage": 20,
+    "onBlock": -3,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 189
   },
   {
-    "index": 99,
+    "id": "King-JGS.2",
+    "parent": null,
     "name": "Jaguar Step &gt; Hammer",
     "input": "JGS.2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      151822
-    ],
-    "framesOnBlock": {
-      "_raw": "-9/-2/0c",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+12c",
-      "lower": "+12",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i11~12",
-      "lower": "i11",
-      "properties": [],
-      "upper": "12"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i11~12",
+    "hitLevels": "m",
+    "damage": "15/18/22",
+    "onBlock": "-9/-2/0c",
+    "onHit": "+12c",
+    "onCounterHit": null,
+    "states": null,
+    "index": 99
   },
   {
-    "index": 100,
+    "id": "King-JGS.3",
+    "parent": null,
     "name": "Jaguar Step &gt; Sobat",
     "input": "JGS.3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      232734
-    ],
-    "framesOnBlock": {
-      "_raw": "-5/-1",
-      "lower": "-5",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+21a(+12)/+25a(+16)",
-      "lower": "+21",
-      "properties": [
-        "a"
-      ],
-      "tech": "+12"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i22~23",
-      "lower": "i22",
-      "properties": [],
-      "upper": "23"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i22~23",
+    "hitLevels": "m",
+    "damage": "23/27/34",
+    "onBlock": "-5/-1",
+    "onHit": "+21a(+12)/+25a(+16)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 100
   },
   {
-    "index": 101,
+    "id": "King-JGS.3,2+3",
+    "parent": "King-JGS.3",
     "name": "Jaguar Step &gt; Sobat &amp; Press",
     "input": "JGS.3,2+3",
-    "hitLevels": [
-      "m",
-      "m",
-      "t"
-    ],
-    "damage": [
-      232734,
-      20,
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "-16c~+2c",
-      "lower": "-16",
-      "properties": [
-        "c",
-        "c"
-      ],
-      "upper": "+2"
-    },
-    "framesOnHit": {
-      "_raw": "-19c~+3c/-5d",
-      "lower": "-19",
-      "properties": [
-        "c",
-        "c"
-      ],
-      "upper": "+3"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i22~23",
-      "lower": "i22",
-      "properties": [],
-      "upper": "23"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i22~23",
+    "hitLevels": "m,m,t",
+    "damage": "23/27/34,20,15",
+    "onBlock": "-16c~+2c",
+    "onHit": "-19c~+3c/-5d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 101
   },
   {
-    "index": 102,
+    "id": "King-JGS.4",
+    "parent": null,
     "name": "Jaguar Step &gt; High Kick",
     "input": "JGS.4",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      404252
-    ],
-    "framesOnBlock": {
-      "_raw": "+8/+15",
-      "lower": "+8",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+5a(-4)/+10a(+1)",
-      "lower": "+5",
-      "properties": [
-        "a"
-      ],
-      "tech": "-4"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17~18",
-      "lower": "i17",
-      "properties": [],
-      "upper": "18"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17~18",
+    "hitLevels": "h",
+    "damage": "40/42/52",
+    "onBlock": "+8/+15",
+    "onHit": "+5a(-4)/+10a(+1)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 102
   },
   {
-    "index": 103,
+    "id": "King-JGS.df+4",
+    "parent": null,
     "name": "Jaguar Step &gt; Mid Kick",
     "input": "JGS.df+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      303645
-    ],
-    "framesOnBlock": {
-      "_raw": "-16/+8",
-      "lower": "-16",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+5a(-4)",
-      "lower": "+5",
-      "properties": [
-        "a"
-      ],
-      "tech": "-4"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17~19",
-      "lower": "i17",
-      "properties": [],
-      "upper": "19"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17~19",
+    "hitLevels": "m",
+    "damage": "30/36/45",
+    "onBlock": "-16/+8",
+    "onHit": "+5a(-4)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 103
   },
   {
-    "index": 115,
+    "id": "King-LeftSide.1+3",
+    "parent": null,
     "name": "Argentina Backbreaker",
-    "input": "(Leftsidethrow)",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      40
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+36d",
-      "lower": "+36",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "(depends)",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": "(Left side throw)",
+    "startup": "(depends)",
+    "hitLevels": "t",
+    "damage": 40,
+    "onBlock": -3,
+    "onHit": "+36d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 115
   },
   {
-    "index": 190,
+    "id": "King-MMD1.1,4,2,3",
+    "parent": null,
     "name": "Cobra Twist (MMD2)",
     "input": "MMD1.1,4,2,3",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+1d",
-      "lower": "+1",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": "t",
+    "damage": 12,
+    "onBlock": null,
+    "onHit": "+1d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 190
   },
   {
-    "index": 191,
+    "id": "King-MMD2.1,1+3_2,2+4",
+    "parent": null,
     "name": "Reverse DDT (MMD3)",
-    "input": "MMD2.1,1+3/MMD2.2,2+4",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      13
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": "MMD2.1,1+3/ MMD2.2,2+4",
+    "startup": null,
+    "hitLevels": "t",
+    "damage": 13,
+    "onBlock": -6,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 191
   },
   {
-    "index": 192,
+    "id": "King-MMD3.1+2,1,1+3_1+2,2,2+4",
+    "parent": null,
     "name": "Reverse Special Stretch Bomb (MMD4)",
-    "input": "MMD3.1+2,1,1+3/MMD3.1+2,2,2+4",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+1d",
-      "lower": "+1",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": "MMD3.1+2,1,1+3/ MMD3.1+2,2,2+4",
+    "startup": null,
+    "hitLevels": "t",
+    "damage": 12,
+    "onBlock": -6,
+    "onHit": "+1d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 192
   },
   {
-    "index": 193,
+    "id": "King-MMD3.2,3,1,1+2",
+    "parent": null,
     "name": "Samurai Rock (MMD4a)",
     "input": "MMD3.2,3,1,1+2",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      24
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": "t",
+    "damage": 24,
+    "onBlock": -6,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 193
   },
   {
-    "index": 194,
+    "id": "King-MMD4.3+4,1+2",
+    "parent": null,
     "name": "Backdrop (MMD5)",
     "input": "MMD4.3+4,1+2",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": "t",
+    "damage": 10,
+    "onBlock": null,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 194
   },
   {
-    "index": 196,
+    "id": "King-MMD5.1+2,3,1+3_1+2,4,2+4",
+    "parent": null,
     "name": "Burning Hammer (MMD6)",
-    "input": "MMD5.1+2,3,1+3/MMD5.1+2,4,2+4",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      18
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": "MMD5.1+2,3,1+3/ MMD5.1+2,4,2+4",
+    "startup": null,
+    "hitLevels": "t",
+    "damage": 18,
+    "onBlock": -3,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 196
   },
   {
-    "index": 195,
+    "id": "King-MMD5.1+2,4,2,1+2",
+    "parent": null,
     "name": "Sol Naciente (MMD6a)",
     "input": "MMD5.1+2,4,2,1+2",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      11,
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": "t",
+    "damage": "11,15",
+    "onBlock": -3,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 195
   },
   {
-    "index": 197,
+    "id": "King-MMD6.2,4,1,1+3_2,4,1,2+4",
+    "parent": null,
     "name": "Screwdriver (MMD7)",
-    "input": "MMD6.2,4,1,1+3/MMD6.2,4,1,2+4",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      31
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-10d",
-      "lower": "-10",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": "MMD6.2,4,1,1+3/ MMD6.2,4,1,2+4",
+    "startup": null,
+    "hitLevels": "t",
+    "damage": 31,
+    "onBlock": -6,
+    "onHit": "-10d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 197
   },
   {
-    "index": 128,
+    "id": "King-PD.1+2,1+2",
+    "parent": null,
     "name": "Double Arm Face Buster (from PD)",
     "input": "PD.1+2,1+2",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      35
-    ],
-    "framesOnBlock": {
-      "_raw": "-7",
-      "lower": "-7",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-14d",
-      "lower": "-14",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i11",
-      "lower": "i11",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i11",
+    "hitLevels": "t",
+    "damage": 35,
+    "onBlock": -7,
+    "onHit": "-14d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 128
   },
   {
-    "index": 129,
+    "id": "King-PD.1+2,3,4,1+2",
+    "parent": null,
     "name": "Boston Crab (from PD)",
     "input": "PD.1+2,3,4,1+2",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      45
-    ],
-    "framesOnBlock": {
-      "_raw": "-7",
-      "lower": "-7",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i11",
-      "lower": "i11",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i11",
+    "hitLevels": "t",
+    "damage": 45,
+    "onBlock": -7,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 129
   },
   {
-    "index": 130,
+    "id": "King-qcb+1+2",
+    "parent": null,
     "name": "Muscle Buster",
     "input": "qcb+1+2",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      50
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-6d",
-      "lower": "-6",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i11",
-      "lower": "i11",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i11",
+    "hitLevels": "t",
+    "damage": 50,
+    "onBlock": -6,
+    "onHit": "-6d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 130
   },
   {
-    "index": 127,
+    "id": "King-qcf+1",
+    "parent": null,
     "name": "Pile Driver (PD)",
     "input": "qcf+1",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      30
-    ],
-    "framesOnBlock": {
-      "_raw": "-2/-7",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+8d",
-      "lower": "+8",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i11",
-      "lower": "i11",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i11",
+    "hitLevels": "t",
+    "damage": 30,
+    "onBlock": "-2/-7",
+    "onHit": "+8d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 127
   },
   {
-    "index": 165,
+    "id": "King-RAS1.1_2",
+    "parent": null,
     "name": "Backdrop (RAS2)",
     "input": "RAS1.1_2",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      715
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": "t",
+    "damage": "7/15",
+    "onBlock": null,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 165
   },
   {
-    "index": 166,
+    "id": "King-RAS2.1_2",
+    "parent": null,
     "name": "German Suplex (RAS3)",
     "input": "RAS2.1_2",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      715
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": "t",
+    "damage": "7/15",
+    "onBlock": -9,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 166
   },
   {
-    "index": 167,
+    "id": "King-RAS3.1_2",
+    "parent": null,
     "name": "Power Bomb (RAS4)",
     "input": "RAS3.1_2",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      1217
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+1d",
-      "lower": "+1",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": "t",
+    "damage": "12/17",
+    "onBlock": null,
+    "onHit": "+1d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 167
   },
   {
-    "index": 168,
+    "id": "King-RAS4.1",
+    "parent": null,
     "name": "Giant Swing (RAS5a)",
     "input": "RAS4.1",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      152031
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+1d",
-      "lower": "+1",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": "t",
+    "damage": "15/20/31",
+    "onBlock": -3,
+    "onHit": "+1d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 168
   },
   {
-    "index": 169,
+    "id": "King-RAS4.2",
+    "parent": null,
     "name": "Muscle Buster (RAS5b)",
     "input": "RAS4.2",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      2025
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+1d",
-      "lower": "+1",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": "t",
+    "damage": "20/25",
+    "onBlock": -6,
+    "onHit": "+1d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 169
   },
   {
+    "id": "King-R.df+1+2",
+    "parent": null,
     "name": "Anger Of The Beast",
     "input": "R.df+1+2",
-    "hitLevels": [
-      "m",
-      "t"
-    ],
-    "damage": [
-      55
-    ],
-    "framesOnBlock": {
-      "_raw": "-15",
-      "lower": "-15",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20",
-      "lower": "i20",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20",
+    "hitLevels": "m,t",
+    "damage": "55+",
+    "onBlock": -15,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": "pc8~",
+    "index": null
   },
   {
-    "index": 116,
+    "id": "King-RightSide.2+4",
+    "parent": null,
     "name": "Knee Crusher",
-    "input": "(Rightsidethrow)",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      42
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+21d",
-      "lower": "+21",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "(depends)",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": "(Right side throw)",
+    "startup": "(depends)",
+    "hitLevels": "t",
+    "damage": 42,
+    "onBlock": -3,
+    "onHit": "+21d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 116
   },
   {
-    "index": 172,
+    "id": "King-RSSB1.1_2",
+    "parent": null,
     "name": "Cannonball Buster (RSSB2)",
     "input": "RSSB1.1_2",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      715
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+1d",
-      "lower": "+1",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": "t",
+    "damage": "7/15",
+    "onBlock": null,
+    "onHit": "+1d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 172
   },
   {
-    "index": 173,
+    "id": "King-RSSB2.1_2",
+    "parent": null,
     "name": "Manhattan Drop (RSSB3)",
     "input": "RSSB2.1_2",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      715
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": "t",
+    "damage": "7/15",
+    "onBlock": -3,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 173
   },
   {
-    "index": 174,
+    "id": "King-RSSB3.1_2",
+    "parent": null,
     "name": "Victory Bomb (RSSB4)",
     "input": "RSSB3.1_2",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      913
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+1d",
-      "lower": "+1",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": "t",
+    "damage": "9/13",
+    "onBlock": null,
+    "onHit": "+1d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 174
   },
   {
-    "index": 175,
+    "id": "King-RSSB4.1",
+    "parent": null,
     "name": "Giant Swing (RSSB5a)",
     "input": "RSSB4.1",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      152031
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+1d",
-      "lower": "+1",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": "t",
+    "damage": "15/20/31",
+    "onBlock": null,
+    "onHit": "+1d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 175
   },
   {
-    "index": 176,
+    "id": "King-RSSB4.2",
+    "parent": null,
     "name": "Muscle Buster (RSSB5b)",
     "input": "RSSB4.2",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      2025
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+1d",
-      "lower": "+1",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": "t",
+    "damage": "20/25",
+    "onBlock": null,
+    "onHit": "+1d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 176
   },
   {
-    "index": 178,
+    "id": "King-SHH1.1,2,1+2",
+    "parent": null,
     "name": "S.T.F. (SHH2a)",
     "input": "SHH1.1,2,1+2",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-10",
-      "lower": "-10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": "t",
+    "damage": 25,
+    "onBlock": -10,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 178
   },
   {
-    "index": 180,
+    "id": "King-SHH1.1+2,1,3",
+    "parent": null,
     "name": "Indian Death Lock (SHH2c)",
     "input": "SHH1.1+2,1,3",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-10",
-      "lower": "-10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": "t",
+    "damage": 20,
+    "onBlock": -10,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 180
   },
   {
-    "index": 179,
+    "id": "King-SHH1.2,1,1+3",
+    "parent": null,
     "name": "Scorpion Death Lock (SHH2b)",
     "input": "SHH1.2,1,1+3",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      30
-    ],
-    "framesOnBlock": {
-      "_raw": "-10",
-      "lower": "-10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": "t",
+    "damage": 30,
+    "onBlock": -10,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 179
   },
   {
-    "index": 181,
+    "id": "King-SHH2c.3,4,1+2,3+4",
+    "parent": null,
     "name": "King&#039;s Bridge (SHH3ca)",
     "input": "SHH2c.3,4,1+2,3+4",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      40
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": "t",
+    "damage": 40,
+    "onBlock": null,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 181
   },
   {
-    "index": 90,
+    "id": "King-ss2",
+    "parent": null,
     "name": "Victory Palm",
     "input": "ss2",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-5",
-      "lower": "-5",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+18a(+9)",
-      "lower": "+18",
-      "properties": [
-        "a"
-      ],
-      "tech": "+9"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i19~20",
-      "lower": "i19",
-      "properties": [],
-      "upper": "20"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i19~20",
+    "hitLevels": "h",
+    "damage": 25,
+    "onBlock": -5,
+    "onHit": "+18a(+9)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 90
   },
   {
-    "index": 171,
+    "id": "King-ss2+4",
+    "parent": null,
     "name": "Side Step to RSSB2 / RSSB1",
     "input": "ss2+4",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      1520
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d / +1d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13",
-      "lower": "i13",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13",
+    "hitLevels": "t",
+    "damage": "15 / 20",
+    "onBlock": -3,
+    "onHit": "+0d / +1d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 171
   },
   {
+    "id": "King-ss2+4,b",
+    "parent": null,
     "name": "Reverse Special Stretch Bomb (Cancel)",
     "input": "ss2+4,b/db",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 91,
+    "id": "King-ss3+4",
+    "parent": null,
     "name": "Deadly Boomerang",
     "input": "ss3+4",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      50
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i27~31",
-      "lower": "i27",
-      "properties": [],
-      "upper": "31"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i27~31",
+    "hitLevels": "h",
+    "damage": 50,
+    "onBlock": 0,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 91
   },
   {
-    "index": 60,
+    "id": "King-u+1+2",
+    "parent": null,
     "name": "Capital Punishment",
     "input": "u+1+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "+2c",
-      "lower": "+2",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnHit": {
-      "_raw": "+22d",
-      "lower": "+22",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i35~36",
-      "lower": "i35",
-      "properties": [],
-      "upper": "36"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i35~36",
+    "hitLevels": "m",
+    "damage": 25,
+    "onBlock": "+2c",
+    "onHit": "+22d",
+    "onCounterHit": null,
+    "states": "js9~",
+    "index": 60
   },
   {
-    "index": 61,
+    "id": "King-u+1+2*",
+    "parent": null,
     "name": "Burning Knuckle",
     "input": "u+1+2*",
-    "hitLevels": [
-      "m!"
-    ],
-    "damage": [
-      40
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+11d",
-      "lower": "+11",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i67",
-      "lower": "i67",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i67",
+    "hitLevels": "m!",
+    "damage": 40,
+    "onBlock": null,
+    "onHit": "+11d",
+    "onCounterHit": null,
+    "states": "js9?~",
+    "index": 61
   },
   {
+    "id": "King-ub+4",
+    "parent": null,
+    "name": null,
     "input": "ub+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+19a(+9)",
-      "lower": "+19",
-      "properties": [
-        "a"
-      ],
-      "tech": "+9"
-    },
-    "framesOnCounter": {
-      "_raw": "+33a(+23)",
-      "lower": "+33",
-      "properties": [
-        "a"
-      ],
-      "tech": "+23"
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m",
+    "damage": 15,
+    "onBlock": -13,
+    "onHit": "+19a(+9)",
+    "onCounterHit": "+33a(+23)",
+    "states": "js9~",
+    "index": null
   },
   {
-    "index": 62,
+    "id": "King-uf+1",
+    "parent": null,
     "name": "Water Parting Chop",
     "input": "uf+1",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+36a(+27)",
-      "lower": "+36",
-      "properties": [
-        "a"
-      ],
-      "tech": "+27"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20~23",
-      "lower": "i20",
-      "properties": [],
-      "upper": "23"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20~23",
+    "hitLevels": "h",
+    "damage": 21,
+    "onBlock": -3,
+    "onHit": "+36a(+27)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 62
   },
   {
-    "index": 124,
+    "id": "King-uf+1+2",
+    "parent": null,
     "name": "Executioner Drop",
-    "input": "uf+1+2/uf+1+2,B",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      30
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+19d(-7) / +17d(-13)",
-      "lower": "+19",
-      "properties": [
-        "d"
-      ],
-      "tech": "-7"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": "uf+1+2 / uf+1+2,B",
+    "startup": "i12",
+    "hitLevels": "t",
+    "damage": 30,
+    "onBlock": -6,
+    "onHit": "+19d(-7) / +17d(-13)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 124
   },
   {
-    "index": 63,
+    "id": "King-uf+2",
+    "parent": null,
     "name": "High Elbow Drop",
     "input": "uf+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      35
-    ],
-    "framesOnBlock": {
-      "_raw": "-17c",
-      "lower": "-17",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnHit": {
-      "_raw": "-7d/-4c",
-      "lower": "-7",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i47~53",
-      "lower": "i47",
-      "properties": [],
-      "upper": "53"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i47~53",
+    "hitLevels": "m",
+    "damage": 35,
+    "onBlock": "-17c",
+    "onHit": "-7d/-4c",
+    "onCounterHit": null,
+    "states": "js10~",
+    "index": 63
   },
   {
-    "index": 64,
+    "id": "King-uf+3",
+    "parent": null,
     "name": "Falling Heel Kick",
     "input": "uf+3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "-10",
-      "lower": "-10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-1d",
-      "lower": "-1",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i22~29",
-      "lower": "i22",
-      "properties": [],
-      "upper": "29"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i22~29",
+    "hitLevels": "m",
+    "damage": 23,
+    "onBlock": -10,
+    "onHit": "-1d",
+    "onCounterHit": null,
+    "states": "js13~",
+    "index": 64
   },
   {
-    "index": 66,
+    "id": "King-uf+3+4",
+    "parent": null,
     "name": "Sole Crusher",
     "input": "uf+3+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "-12/-7",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+25g / +22g",
-      "lower": "+25",
-      "properties": [
-        "g"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i22~23",
-      "lower": "i22",
-      "properties": [],
-      "upper": "23"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i22~23",
+    "hitLevels": "m",
+    "damage": 23,
+    "onBlock": "-12/-7",
+    "onHit": "+25g / +22g",
+    "onCounterHit": null,
+    "states": "pc7~",
+    "index": 66
   },
   {
-    "index": 65,
+    "id": "King-uf+4",
+    "parent": null,
     "name": "Jumping Knee Lift",
     "input": "uf+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      13
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "[[King combos#Staples|+33a(+23)]]",
-      "lower": "+33",
-      "properties": [
-        "a"
-      ],
-      "tech": "+23"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m",
+    "damage": 13,
+    "onBlock": -13,
+    "onHit": "[[King combos#Staples|+33a(+23)]]",
+    "onCounterHit": null,
+    "states": "js9~",
+    "index": 65
   },
   {
-    "index": 67,
+    "id": "King-uf,n,4",
+    "parent": null,
     "name": "Delayed Rising Toe Kick",
     "input": "uf,n,4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+32a(+22)",
-      "lower": "+32",
-      "properties": [
-        "a"
-      ],
-      "tech": "+22"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i23~25",
-      "lower": "i23",
-      "properties": [],
-      "upper": "25"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i23~25",
+    "hitLevels": "m",
+    "damage": 20,
+    "onBlock": -13,
+    "onHit": "+32a(+22)",
+    "onCounterHit": null,
+    "states": "js9~",
+    "index": 67
   },
   {
-    "index": 136,
+    "id": "King-UT,1+2",
+    "parent": null,
     "name": "Armbar",
     "input": "UT,1+2",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+1d",
-      "lower": "+1",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": "t",
+    "damage": 25,
+    "onBlock": -9,
+    "onHit": "+1d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 136
   },
   {
-    "index": 137,
+    "id": "King-UT,1+2,1+2",
+    "parent": "King-UT,1+2",
     "name": "Arm Twist",
     "input": "UT,1+2,1+2",
-    "hitLevels": [
-      "t",
-      "t"
-    ],
-    "damage": [
-      25,
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+1d",
-      "lower": "+1",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": "t,t",
+    "damage": "25,10",
+    "onBlock": null,
+    "onHit": "+1d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 137
   },
   {
-    "index": 135,
+    "id": "King-UT,2,1,2,1",
+    "parent": null,
     "name": "Ultimate Punch",
     "input": "UT,2,1,2,1",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      5,
-      5,
-      5,
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": "t",
+    "damage": "5,5,5,15",
+    "onBlock": 0,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 135
   },
   {
-    "index": 138,
+    "id": "King-UT,3+4",
+    "parent": null,
     "name": "Leg Cross Hold",
     "input": "UT,3+4",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+1d",
-      "lower": "+1",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i69?",
-      "lower": "i69",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i69?",
+    "hitLevels": "t",
+    "damage": 20,
+    "onBlock": 0,
+    "onHit": "+1d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 138
   },
   {
-    "index": 139,
+    "id": "King-UT,3+4,1+2",
+    "parent": "King-UT,3+4",
     "name": "Stretch Combo",
     "input": "UT,3+4&amp;#58;1+2",
-    "hitLevels": [
-      "t",
-      "t"
-    ],
-    "damage": [
-      20,
-      30
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+1d",
-      "lower": "+1",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i69?",
-      "lower": "i69",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i69?",
+    "hitLevels": "t,t",
+    "damage": "20,30",
+    "onBlock": null,
+    "onHit": "+1d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 139
   },
   {
+    "id": "King-WallBack.b,b,ub",
+    "parent": null,
     "name": "Wall Jumping Attack",
     "input": "WallBack.b,b,ub",
-    "hitLevels": [
-      "t/m"
-    ],
-    "damage": [
-      4521
-    ],
-    "framesOnBlock": {
-      "_raw": "-8",
-      "lower": "-8",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+2 / +15",
-      "lower": "+2",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i43~48 / i44~63",
-      "lower": "i43",
-      "properties": [],
-      "upper": "48"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i43~48 / i44~63",
+    "hitLevels": "t / m",
+    "damage": "45 / 21",
+    "onBlock": -8,
+    "onHit": "+2 / +15",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 159,
+    "id": "King-WALL.f,hcf+1",
+    "parent": null,
     "name": "Shining Torpedo",
-    "input": "WALL.f,hcf+1/WALL.f,f,F+2+4",
-    "hitLevels": [
-      "t(w)"
-    ],
-    "damage": [
-      6570
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-5d",
-      "lower": "-5",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": "WALL.f,hcf+1 / WALL.f,f,F+2+4",
+    "startup": "i10",
+    "hitLevels": "t(w)",
+    "damage": "65(70)",
+    "onBlock": null,
+    "onHit": "-5d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 159
   },
   {
+    "id": "King-ws1",
+    "parent": null,
+    "name": null,
     "input": "ws1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+4s",
-      "lower": "+4",
-      "properties": [
-        "s"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10~11",
-      "lower": "i10",
-      "properties": [],
-      "upper": "11"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10~11",
+    "hitLevels": "m",
+    "damage": 12,
+    "onBlock": -3,
+    "onHit": "+4s",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 87,
+    "id": "King-ws1+2",
+    "parent": null,
     "name": "Snap Uppercut",
     "input": "ws1+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-10",
-      "lower": "-10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "[[King combos#Staples|+35a(+25)]]",
-      "lower": "+35",
-      "properties": [
-        "a"
-      ],
-      "tech": "+25"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18~19",
-      "lower": "i18",
-      "properties": [],
-      "upper": "19"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18~19",
+    "hitLevels": "m",
+    "damage": 20,
+    "onBlock": -10,
+    "onHit": "[[King combos#Staples|+35a(+25)]]",
+    "onCounterHit": null,
+    "states": null,
+    "index": 87
   },
   {
+    "id": "King-ws2",
+    "parent": null,
+    "name": null,
     "input": "ws2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      11
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+1s",
-      "lower": "+1",
-      "properties": [
-        "s"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14",
-      "lower": "i14",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14",
+    "hitLevels": "m",
+    "damage": 11,
+    "onBlock": -9,
+    "onHit": "+1s",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 85,
+    "id": "King-ws2,2",
+    "parent": "King-ws2",
     "name": "Round Trip Chop",
     "input": "ws2,2",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      11,
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+12g",
-      "lower": "+12",
-      "properties": [
-        "g"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14",
-      "lower": "i14",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14",
+    "hitLevels": "m,m",
+    "damage": "11,25",
+    "onBlock": -12,
+    "onHit": "+12g",
+    "onCounterHit": null,
+    "states": null,
+    "index": 85
   },
   {
+    "id": "King-ws3",
+    "parent": null,
+    "name": null,
     "input": "ws3",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+22a(+12)",
-      "lower": "+22",
-      "properties": [
-        "a"
-      ],
-      "tech": "+12"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "h",
+    "damage": 20,
+    "onBlock": 0,
+    "onHit": "+22a(+12)",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 86,
+    "id": "King-ws4",
+    "parent": null,
     "name": "Toe Smash",
     "input": "ws4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "5",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i11~12",
-      "lower": "i11",
-      "properties": [],
-      "upper": "12"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i11~12",
+    "hitLevels": "m",
+    "damage": 20,
+    "onBlock": -6,
+    "onHit": 5,
+    "onCounterHit": null,
+    "states": null,
+    "index": 86
   }
 ]

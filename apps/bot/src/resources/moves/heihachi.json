@@ -1,5370 +1,1934 @@
 [
   {
+    "id": "Heihachi-1",
+    "parent": null,
     "name": "Jab",
-    "input": "1",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      5
-    ],
-    "framesOnBlock": {
-      "_raw": "1",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "8",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": 1,
+    "startup": "i10",
+    "hitLevels": "h",
+    "damage": 5,
+    "onBlock": 1,
+    "onHit": 8,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Heihachi-1,1",
+    "parent": "Heihachi-1",
+    "name": null,
     "input": "1,1",
-    "hitLevels": [
-      "h",
-      "h"
-    ],
-    "damage": [
-      5,
-      6
-    ],
-    "framesOnBlock": {
-      "_raw": "-5",
-      "lower": "-5",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "6",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,h",
+    "damage": "5,6",
+    "onBlock": -5,
+    "onHit": 6,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 23,
+    "id": "Heihachi-1,1,2",
+    "parent": "Heihachi-1,1",
     "name": "Flash Punch Combo",
     "input": "1,1,2",
-    "hitLevels": [
-      "h",
-      "h",
-      "m"
-    ],
-    "damage": [
-      5,
-      6,
-      16
-    ],
-    "framesOnBlock": {
-      "_raw": "-17",
-      "lower": "-17",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "[[Heihachi combos#Wall|+19a (+9)]]",
-      "lower": "+19",
-      "properties": [
-        "a"
-      ],
-      "tech": "+9"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,h,m",
+    "damage": "5,6,16",
+    "onBlock": -17,
+    "onHit": "[[Heihachi combos#Wall|+19a (+9)]]",
+    "onCounterHit": null,
+    "states": null,
+    "index": 23
   },
   {
-    "index": 111,
+    "id": "Heihachi-1,1,WAR.2",
+    "parent": "Heihachi-1,1",
     "name": "Ultimate Flash Punch Combo",
     "input": "1,1,WAR.2",
-    "hitLevels": [
-      "h",
-      "h",
-      "m"
-    ],
-    "damage": [
-      5,
-      6,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-17",
-      "lower": "-17",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+28a (+2)",
-      "lower": "+28",
-      "properties": [
-        "a"
-      ],
-      "tech": "+2"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,h,m",
+    "damage": "5,6,20",
+    "onBlock": -17,
+    "onHit": "+28a (+2)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 111
   },
   {
-    "index": 35,
+    "id": "Heihachi-1+2",
+    "parent": null,
     "name": "Demon Breath",
     "input": "1+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-10",
-      "lower": "-10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "[[Heihachi combos#Wall|+24a (+14)]]",
-      "lower": "+24",
-      "properties": [
-        "a"
-      ],
-      "tech": "+14"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "m",
+    "damage": 25,
+    "onBlock": -10,
+    "onHit": "[[Heihachi combos#Wall|+24a (+14)]]",
+    "onCounterHit": null,
+    "states": null,
+    "index": 35
   },
   {
-    "index": 24,
+    "id": "Heihachi-1,2",
+    "parent": "Heihachi-1",
     "name": "One Two Strike",
     "input": "1,2",
-    "hitLevels": [
-      "h",
-      "h"
-    ],
-    "damage": [
-      5,
-      8
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "8",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,h",
+    "damage": "5,8",
+    "onBlock": -3,
+    "onHit": 8,
+    "onCounterHit": null,
+    "states": null,
+    "index": 24
   },
   {
-    "index": 25,
+    "id": "Heihachi-1,2,2",
+    "parent": "Heihachi-1,2",
     "name": "Back Fist Combo",
     "input": "1,2,2",
-    "hitLevels": [
-      "h",
-      "h",
-      "h"
-    ],
-    "damage": [
-      5,
-      8,
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "4",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,h,h",
+    "damage": "5,8,12",
+    "onBlock": -12,
+    "onHit": 4,
+    "onCounterHit": null,
+    "states": null,
+    "index": 25
   },
   {
+    "id": "Heihachi-1,2,2~1",
+    "parent": "Heihachi-1,2",
+    "name": null,
     "input": "1,2,2~1",
-    "hitLevels": [
-      "h",
-      "h",
-      "m"
-    ],
-    "damage": [
-      5,
-      8,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-11",
-      "lower": "-11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "6",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,h,m",
+    "damage": "5,8,20",
+    "onBlock": -11,
+    "onHit": 6,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 26,
+    "id": "Heihachi-1,2,2~1,1+2",
+    "parent": "Heihachi-1,2,2~1",
     "name": "Demon Executioner Volley",
     "input": "1,2,2~1,1+2",
-    "hitLevels": [
-      "h",
-      "h",
-      "m",
-      "m"
-    ],
-    "damage": [
-      5,
-      8,
-      20,
-      24
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "[[Heihachi combos#Wall|+11a (+2)]]",
-      "lower": "+11",
-      "properties": [
-        "a"
-      ],
-      "tech": "+2"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,h,m,m",
+    "damage": "5,8,20,24",
+    "onBlock": -13,
+    "onHit": "[[Heihachi combos#Wall|+11a (+2)]]",
+    "onCounterHit": null,
+    "states": null,
+    "index": 26
   },
   {
-    "index": 75,
+    "id": "Heihachi-1+2+3+4",
+    "parent": null,
     "name": "&lt;div class=&quot;dotlist&quot;&gt;\n\n* Ki Charge\n* Supercharger\n&lt;/div&gt;",
     "input": "1+2+3+4",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": 75
   },
   {
-    "index": 27,
+    "id": "Heihachi-1,2,4",
+    "parent": "Heihachi-1,2",
     "name": "Wailing Demon Otoko Geri",
     "input": "1,2,4",
-    "hitLevels": [
-      "h",
-      "h",
-      "h"
-    ],
-    "damage": [
-      5,
-      8,
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+16g",
-      "lower": "+16",
-      "properties": [
-        "g"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "+52a",
-      "lower": "+52",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,h,h",
+    "damage": "5,8,21",
+    "onBlock": -9,
+    "onHit": "+16g",
+    "onCounterHit": "+52a",
+    "states": null,
+    "index": 27
   },
   {
-    "index": 120,
+    "id": "Heihachi-1+3",
+    "parent": null,
     "name": "Neck Breaker",
     "input": "1+3",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      35
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-1d",
-      "lower": "-1",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12~14",
-      "lower": "i12",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12~14",
+    "hitLevels": "t",
+    "damage": 35,
+    "onBlock": -3,
+    "onHit": "-1d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 120
   },
   {
-    "index": 110,
+    "id": "Heihachi-1+4",
+    "parent": null,
     "name": "Mishima-Style Ultimate Technique: Warrior Instinct",
     "input": "1+4",
-    "hitLevels": [
-      "SL"
-    ],
-    "damage": [
-      10,
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "2",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+21g",
-      "lower": "+21",
-      "properties": [
-        "g"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17",
-      "lower": "i17",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17",
+    "hitLevels": "SL",
+    "damage": "[10;10]",
+    "onBlock": 2,
+    "onHit": "+21g",
+    "onCounterHit": null,
+    "states": null,
+    "index": 110
   },
   {
+    "id": "Heihachi-1,b+2",
+    "parent": "Heihachi-1",
+    "name": null,
     "input": "1,b+2",
-    "hitLevels": [
-      "h",
-      "m"
-    ],
-    "damage": [
-      5,
-      17
-    ],
-    "framesOnBlock": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "8",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,m",
+    "damage": "5,17",
+    "onBlock": -2,
+    "onHit": 8,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 28,
+    "id": "Heihachi-1,b+2,1",
+    "parent": "Heihachi-1,b+2",
     "name": "Demon Massacre",
     "input": "1,b+2,1",
-    "hitLevels": [
-      "h",
-      "m",
-      "m"
-    ],
-    "damage": [
-      5,
-      17,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-15",
-      "lower": "-15",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "[[Heihachi combos#Wall|+30a (+20)]]",
-      "lower": "+30",
-      "properties": [
-        "a"
-      ],
-      "tech": "+20"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,m,m",
+    "damage": "5,17,20",
+    "onBlock": -15,
+    "onHit": "[[Heihachi combos#Wall|+30a (+20)]]",
+    "onCounterHit": null,
+    "states": "js38~61",
+    "index": 28
   },
   {
-    "index": 29,
+    "id": "Heihachi-1,b+2,2",
+    "parent": "Heihachi-1,b+2",
     "name": "Demon Basara",
     "input": "1,b+2,2",
-    "hitLevels": [
-      "h",
-      "m",
-      "m"
-    ],
-    "damage": [
-      5,
-      17,
-      17
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+6c",
-      "lower": "+6",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,m,m",
+    "damage": "5,17,17",
+    "onBlock": -13,
+    "onHit": "+6c",
+    "onCounterHit": null,
+    "states": null,
+    "index": 29
   },
   {
-    "index": 112,
+    "id": "Heihachi-1,b+2,2",
+    "parent": "Heihachi-1,b+2",
     "name": "Ultimate Demon Basara",
     "input": "1,b+2,WAR.2",
-    "hitLevels": [
-      "h",
-      "m",
-      "m"
-    ],
-    "damage": [
-      5,
-      17,
-      22
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+23a (+13)",
-      "lower": "+23",
-      "properties": [
-        "a"
-      ],
-      "tech": "+13"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,m,m",
+    "damage": "5,17,22",
+    "onBlock": -13,
+    "onHit": "+23a (+13)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 112
   },
   {
-    "index": 30,
+    "id": "Heihachi-1,b+2,4",
+    "parent": "Heihachi-1,b+2",
     "name": "Demon Lair",
     "input": "1,b+2,4",
-    "hitLevels": [
-      "h",
-      "m",
-      "m"
-    ],
-    "damage": [
-      5,
-      17,
-      30
-    ],
-    "framesOnBlock": {
-      "_raw": "5",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+30a (+9)",
-      "lower": "+30",
-      "properties": [
-        "a"
-      ],
-      "tech": "+9"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,m,m",
+    "damage": "5,17,30",
+    "onBlock": 5,
+    "onHit": "+30a (+9)",
+    "onCounterHit": null,
+    "states": "js17~39",
+    "index": 30
   },
   {
-    "input": "2",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-1",
-      "lower": "-1",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i11",
-      "lower": "i11",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "id": "Heihachi-2",
+    "parent": null,
+    "name": null,
+    "input": 2,
+    "startup": "i11",
+    "hitLevels": "h",
+    "damage": 10,
+    "onBlock": 0,
+    "onHit": -1,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 31,
+    "id": "Heihachi-2,2",
+    "parent": "Heihachi-2",
     "name": "Dogenkotsu",
     "input": "2,2",
-    "hitLevels": [
-      "h",
-      "m"
-    ],
-    "damage": [
-      10,
-      13
-    ],
-    "framesOnBlock": {
-      "_raw": "-8",
-      "lower": "-8",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+3c",
-      "lower": "+3",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i11",
-      "lower": "i11",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i11",
+    "hitLevels": "h,m",
+    "damage": "10,13",
+    "onBlock": -8,
+    "onHit": "+3c",
+    "onCounterHit": null,
+    "states": null,
+    "index": 31
   },
   {
+    "id": "Heihachi-2+3",
+    "parent": null,
     "name": "Heat Burst",
     "input": "2+3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      12,
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "1",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+2c",
-      "lower": "+2",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "m",
+    "damage": "[12;12]",
+    "onBlock": 1,
+    "onHit": "+2c",
+    "onCounterHit": null,
+    "states": "pc7~16",
+    "index": null
   },
   {
+    "id": "Heihachi-2+3+4",
+    "parent": null,
     "name": "Auger",
     "input": "2+3+4",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 121,
+    "id": "Heihachi-2+4",
+    "parent": null,
     "name": "Jumping Powerbomb",
     "input": "2+4",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      35
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12~14",
-      "lower": "i12",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12~14",
+    "hitLevels": "t",
+    "damage": 35,
+    "onBlock": null,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 121
   },
   {
-    "input": "3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-4",
-      "lower": "-4",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "1",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "id": "Heihachi-3",
+    "parent": null,
+    "name": null,
+    "input": 3,
+    "startup": "i15",
+    "hitLevels": "m",
+    "damage": 10,
+    "onBlock": -4,
+    "onHit": 1,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 32,
+    "id": "Heihachi-3,2",
+    "parent": "Heihachi-3",
     "name": "Byakko Gekishin",
     "input": "3,2",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      10,
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m,m",
+    "damage": "10,10",
+    "onBlock": -13,
+    "onHit": -2,
+    "onCounterHit": null,
+    "states": null,
+    "index": 32
   },
   {
-    "index": 33,
+    "id": "Heihachi-4",
+    "parent": null,
     "name": "Otoko Geri",
-    "input": "4",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+16g",
-      "lower": "+16",
-      "properties": [
-        "g"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "[[Heihachi combos#Staples|+52a]]",
-      "lower": "+52",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": 4,
+    "startup": "i15~16",
+    "hitLevels": "h",
+    "damage": 21,
+    "onBlock": -9,
+    "onHit": "+16g",
+    "onCounterHit": "[[Heihachi combos#Staples|+52a]]",
+    "states": null,
+    "index": 33
   },
   {
-    "index": 34,
+    "id": "Heihachi-4~3",
+    "parent": null,
     "name": "Demon Scissors",
     "input": "4~3",
-    "hitLevels": [
-      "M"
-    ],
-    "damage": [
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-11a",
-      "lower": "-11",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnHit": {
-      "_raw": "+21a",
-      "lower": "+21",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i35~37",
-      "lower": "i35",
-      "properties": [],
-      "upper": "37"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i35~37",
+    "hitLevels": "M",
+    "damage": 25,
+    "onBlock": "-11a",
+    "onHit": "+21a",
+    "onCounterHit": null,
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* js10~37\n* fs38~&lt;/div&gt;",
+    "index": 34
   },
   {
+    "id": "Heihachi-b+1",
+    "parent": null,
+    "name": null,
     "input": "b+1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "4",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14~15",
-      "lower": "i14",
-      "properties": [],
-      "upper": "15"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14~15",
+    "hitLevels": "m",
+    "damage": 12,
+    "onBlock": -9,
+    "onHit": 4,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 63,
+    "id": "Heihachi-b+1+2",
+    "parent": null,
     "name": "Heaven&#039;s Merciless Wrath",
     "input": "b+1+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-11",
-      "lower": "-11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+23a (+13)",
-      "lower": "+23",
-      "properties": [
-        "a"
-      ],
-      "tech": "+13"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i42",
-      "lower": "i42",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i42",
+    "hitLevels": "m",
+    "damage": 20,
+    "onBlock": -11,
+    "onHit": "+23a (+13)",
+    "onCounterHit": null,
+    "states": "ps5~25",
+    "index": 63
   },
   {
-    "index": 56,
+    "id": "Heihachi-b+1,4",
+    "parent": "Heihachi-b+1",
     "name": "Oni Yarai",
     "input": "b+1,4",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      12,
-      24
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+7a",
-      "lower": "+7",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14~15",
-      "lower": "i14",
-      "properties": [],
-      "upper": "15"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14~15",
+    "hitLevels": "m,m",
+    "damage": "12,24",
+    "onBlock": -13,
+    "onHit": "+7a",
+    "onCounterHit": null,
+    "states": ",js24~",
+    "index": 56
   },
   {
-    "index": 57,
+    "id": "Heihachi-b+2",
+    "parent": null,
     "name": "Rashomon",
     "input": "b+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "2",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "7",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i22~23",
-      "lower": "i22",
-      "properties": [],
-      "upper": "23"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i22~23",
+    "hitLevels": "m",
+    "damage": 20,
+    "onBlock": 2,
+    "onHit": 7,
+    "onCounterHit": null,
+    "states": null,
+    "index": 57
   },
   {
-    "index": 58,
+    "id": "Heihachi-b+2*",
+    "parent": null,
     "name": "True Rashomon",
     "input": "b+2*",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      30
-    ],
-    "framesOnBlock": {
-      "_raw": "5",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "[[Heihachi combos#Mini-combos|+29a (+21)]]",
-      "lower": "+29",
-      "properties": [
-        "a"
-      ],
-      "tech": "+21"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i39~40",
-      "lower": "i39",
-      "properties": [],
-      "upper": "40"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i39~40",
+    "hitLevels": "m",
+    "damage": 30,
+    "onBlock": 5,
+    "onHit": "[[Heihachi combos#Mini-combos|+29a (+21)]]",
+    "onCounterHit": null,
+    "states": null,
+    "index": 58
   },
   {
-    "index": 59,
+    "id": "Heihachi-b:2*",
+    "parent": null,
     "name": "Zenith Rashomon",
     "input": "b:2*",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "6",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+24a (+14)",
-      "lower": "+24",
-      "properties": [
-        "a"
-      ],
-      "tech": "+14"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i29~30",
-      "lower": "i29",
-      "properties": [],
-      "upper": "30"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i29~30",
+    "hitLevels": "m",
+    "damage": 23,
+    "onBlock": 6,
+    "onHit": "+24a (+14)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 59
   },
   {
+    "id": "Heihachi-b+3",
+    "parent": null,
+    "name": null,
     "input": "b+3",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      14
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "2",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14~15",
-      "lower": "i14",
-      "properties": [],
-      "upper": "15"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14~15",
+    "hitLevels": "h",
+    "damage": 14,
+    "onBlock": -9,
+    "onHit": 2,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 60,
+    "id": "Heihachi-b+3,2",
+    "parent": "Heihachi-b+3",
     "name": "Hooking Crescent Thrust",
     "input": "b+3,2",
-    "hitLevels": [
-      "h",
-      "h"
-    ],
-    "damage": [
-      14,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-1",
-      "lower": "-1",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "8",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14~15",
-      "lower": "i14",
-      "properties": [],
-      "upper": "15"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14~15",
+    "hitLevels": "h,h",
+    "damage": "14,20",
+    "onBlock": -1,
+    "onHit": 8,
+    "onCounterHit": null,
+    "states": null,
+    "index": 60
   },
   {
-    "index": 61,
+    "id": "Heihachi-b+3,3",
+    "parent": "Heihachi-b+3",
     "name": "Hooking Crescent Kick",
     "input": "b+3,3",
-    "hitLevels": [
-      "h",
-      "m"
-    ],
-    "damage": [
-      14,
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-12c",
-      "lower": "-12",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnHit": {
-      "_raw": "[[Heihachi combos#Mini-combos|+3a]]",
-      "lower": "+3",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14~15",
-      "lower": "i14",
-      "properties": [],
-      "upper": "15"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14~15",
+    "hitLevels": "h,m",
+    "damage": "14,25",
+    "onBlock": "-12c",
+    "onHit": "[[Heihachi combos#Mini-combos|+3a]]",
+    "onCounterHit": null,
+    "states": null,
+    "index": 61
   },
   {
-    "index": 62,
+    "id": "Heihachi-b+4",
+    "parent": null,
     "name": "Indra&#039;s Kick",
     "input": "b+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      27
-    ],
-    "framesOnBlock": {
-      "_raw": "-8",
-      "lower": "-8",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+30a (+4)",
-      "lower": "+30",
-      "properties": [
-        "a"
-      ],
-      "tech": "+4"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18~19",
-      "lower": "i18",
-      "properties": [],
-      "upper": "19"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18~19",
+    "hitLevels": "m",
+    "damage": 27,
+    "onBlock": -8,
+    "onHit": "+30a (+4)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 62
   },
   {
-    "index": 124,
+    "id": "Heihachi-Back throw",
+    "parent": null,
     "name": "Atomic Drop",
-    "input": "Backthrow",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      60
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": "Back throw",
+    "startup": null,
+    "hitLevels": "t",
+    "damage": 60,
+    "onBlock": null,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 124
   },
   {
-    "index": 49,
+    "id": "Heihachi-d+1",
+    "parent": null,
     "name": "Hammer Punch",
     "input": "d+1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "2",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "m",
+    "damage": 12,
+    "onBlock": -9,
+    "onHit": 2,
+    "onCounterHit": null,
+    "states": null,
+    "index": 49
   },
   {
+    "id": "Heihachi-d+1+2",
+    "parent": null,
     "name": "&lt;div class=&quot;dotlist&quot;&gt;\n\n* Fujin\n* Wind God&#039;s Kamae\n&lt;/div&gt;",
     "input": "d+1+2",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 50,
+    "id": "Heihachi-d+1,2",
+    "parent": "Heihachi-d+1",
     "name": "Hammer Beating",
     "input": "d+1,2",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      12,
-      14
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "9",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+35a (+28)",
-      "lower": "+35",
-      "properties": [
-        "a"
-      ],
-      "tech": "+28"
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "m,m",
+    "damage": "12,14",
+    "onBlock": -9,
+    "onHit": 9,
+    "onCounterHit": "+35a (+28)",
+    "states": null,
+    "index": 50
   },
   {
-    "index": 53,
+    "id": "Heihachi-d+1+4",
+    "parent": null,
     "name": "Lightning Hammer",
     "input": "d+1+4",
-    "hitLevels": [
-      "m!"
-    ],
-    "damage": [
-      50
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+18a",
-      "lower": "+18",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i60",
-      "lower": "i60",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i60",
+    "hitLevels": "m!",
+    "damage": 50,
+    "onBlock": null,
+    "onHit": "+18a",
+    "onCounterHit": null,
+    "states": null,
+    "index": 53
   },
   {
+    "id": "Heihachi-d+3",
+    "parent": null,
     "name": "Jichinsai",
     "input": "d+3",
-    "hitLevels": [
-      "M"
-    ],
-    "damage": [
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-7",
-      "lower": "-7",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+3a",
-      "lower": "+3",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i22~23",
-      "lower": "i22",
-      "properties": [],
-      "upper": "23"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i22~23",
+    "hitLevels": "M",
+    "damage": 25,
+    "onBlock": -7,
+    "onHit": "+3a",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Heihachi-d+3,H.2",
+    "parent": "Heihachi-d+3",
     "name": "Rending Battering Ram",
     "input": "d+3,H.2",
-    "hitLevels": [
-      "M",
-      "SM"
-    ],
-    "damage": [
-      25,
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-10a (-20)",
-      "lower": "-10",
-      "properties": [
-        "a"
-      ],
-      "tech": "-20"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i22~23",
-      "lower": "i22",
-      "properties": [],
-      "upper": "23"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i22~23",
+    "hitLevels": "M,SM",
+    "damage": "25,25",
+    "onBlock": 0,
+    "onHit": "-10a (-20)",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 54,
+    "id": "Heihachi-db+2",
+    "parent": null,
     "name": "Eishomon",
     "input": "db+2",
-    "hitLevels": [
-      "L"
-    ],
-    "damage": [
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-18",
-      "lower": "-18",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+6c",
-      "lower": "+6",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i23~25",
-      "lower": "i23",
-      "properties": [],
-      "upper": "25"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i23~25",
+    "hitLevels": "L",
+    "damage": 25,
+    "onBlock": -18,
+    "onHit": "+6c",
+    "onCounterHit": null,
+    "states": "cs8~",
+    "index": 54
   },
   {
-    "index": 55,
+    "id": "Heihachi-db+3",
+    "parent": null,
     "name": "Sacred Tree Fell",
     "input": "db+3",
-    "hitLevels": [
-      "L"
-    ],
-    "damage": [
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "L",
+    "damage": 10,
+    "onBlock": -13,
+    "onHit": -2,
+    "onCounterHit": null,
+    "states": null,
+    "index": 55
   },
   {
+    "id": "Heihachi-df+1",
+    "parent": null,
+    "name": null,
     "input": "df+1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-5",
-      "lower": "-5",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "7",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13~14",
-      "lower": "i13",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13~14",
+    "hitLevels": "m",
+    "damage": 10,
+    "onBlock": -5,
+    "onHit": 7,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 42,
+    "id": "Heihachi-df+1,1",
+    "parent": "Heihachi-df+1",
     "name": "Muso Palm Strike",
     "input": "df+1,1",
-    "hitLevels": [
-      "m",
-      "h"
-    ],
-    "damage": [
-      10,
-      8
-    ],
-    "framesOnBlock": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "4",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13~14",
-      "lower": "i13",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13~14",
+    "hitLevels": "m,h",
+    "damage": "10,8",
+    "onBlock": -2,
+    "onHit": 4,
+    "onCounterHit": null,
+    "states": null,
+    "index": 42
   },
   {
-    "index": 43,
+    "id": "Heihachi-df+1,2",
+    "parent": "Heihachi-df+1",
     "name": "Muso Tekken",
     "input": "df+1,2",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      10,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "3",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13~14",
-      "lower": "i13",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13~14",
+    "hitLevels": "m,m",
+    "damage": "10,20",
+    "onBlock": -13,
+    "onHit": 3,
+    "onCounterHit": null,
+    "states": null,
+    "index": 43
   },
   {
-    "index": 44,
+    "id": "Heihachi-df+1,2*",
+    "parent": "Heihachi-df+1",
     "name": "True Muso Tekken",
     "input": "df+1,2*",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      10,
-      28
-    ],
-    "framesOnBlock": {
-      "_raw": "1",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+32a (+11)",
-      "lower": "+32",
-      "properties": [
-        "a"
-      ],
-      "tech": "+11"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13~14",
-      "lower": "i13",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13~14",
+    "hitLevels": "m,m",
+    "damage": "10,28",
+    "onBlock": 1,
+    "onHit": "+32a (+11)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 44
   },
   {
-    "index": 45,
+    "id": "Heihachi-df+1:2*",
+    "parent": "Heihachi-df+1",
     "name": "Zenith Muso Tekken",
     "input": "df+1&amp;#58;2*",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      10,
-      2328
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+19a (+14)",
-      "lower": "+19",
-      "properties": [
-        "a"
-      ],
-      "tech": "+14"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13~14",
-      "lower": "i13",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13~14",
+    "hitLevels": "m,m",
+    "damage": "10,23 (28)",
+    "onBlock": -9,
+    "onHit": "+19a (+14)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 45
   },
   {
+    "id": "Heihachi-df+2",
+    "parent": null,
+    "name": null,
     "input": "df+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      8
-    ],
-    "framesOnBlock": {
-      "_raw": "-7",
-      "lower": "-7",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "4",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13~14",
-      "lower": "i13",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13~14",
+    "hitLevels": "m",
+    "damage": 8,
+    "onBlock": -7,
+    "onHit": 4,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 46,
+    "id": "Heihachi-df+2,1",
+    "parent": "Heihachi-df+2",
     "name": "Reverse Muso Renken",
     "input": "df+2,1",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      8,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-17",
-      "lower": "-17",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+12a (+5)",
-      "lower": "+12",
-      "properties": [
-        "a"
-      ],
-      "tech": "+5"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13~14",
-      "lower": "i13",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13~14",
+    "hitLevels": "m,m",
+    "damage": "8,20",
+    "onBlock": -17,
+    "onHit": "+12a (+5)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 46
   },
   {
-    "index": 114,
+    "id": "Heihachi-df+2,WAR.1",
+    "parent": "Heihachi-df+2",
     "name": "Ultimate Muso Renken",
     "input": "df+2,WAR.1",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      8,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-17",
-      "lower": "-17",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "[[Heihachi combos#Staples|+66a (+50)]]",
-      "lower": "+66",
-      "properties": [
-        "a"
-      ],
-      "tech": "+50"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13~14",
-      "lower": "i13",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13~14",
+    "hitLevels": "m,m",
+    "damage": "8,20",
+    "onBlock": -17,
+    "onHit": "[[Heihachi combos#Staples|+66a (+50)]]",
+    "onCounterHit": null,
+    "states": null,
+    "index": 114
   },
   {
+    "id": "Heihachi-df+3",
+    "parent": null,
+    "name": null,
     "input": "df+3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "5",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "m",
+    "damage": 10,
+    "onBlock": -6,
+    "onHit": 5,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Heihachi-df+3,1+2",
+    "parent": "Heihachi-df+3",
+    "name": null,
     "input": "df+3,1+2",
-    "hitLevels": [
-      "m",
-      "h",
-      "m",
-      "m"
-    ],
-    "damage": [
-      10,
-      3,
-      3,
-      3
-    ],
-    "framesOnBlock": {
-      "_raw": "-15",
-      "lower": "-15",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-4",
-      "lower": "-4",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "m,h,m,m",
+    "damage": "10,3,3,3",
+    "onBlock": -15,
+    "onHit": -4,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 47,
+    "id": "Heihachi-df+3,1+2,1",
+    "parent": "Heihachi-df+3,1+2",
     "name": "Gokotai Rampage",
     "input": "df+3,1+2,1",
-    "hitLevels": [
-      "m",
-      "h",
-      "m",
-      "m",
-      "m"
-    ],
-    "damage": [
-      10,
-      3,
-      3,
-      3,
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-15",
-      "lower": "-15",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+20a (+15)",
-      "lower": "+20",
-      "properties": [
-        "a"
-      ],
-      "tech": "+15"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "m,h,m,m,m",
+    "damage": "10,3,3,3,25",
+    "onBlock": -15,
+    "onHit": "+20a (+15)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 47
   },
   {
+    "id": "Heihachi-df+4",
+    "parent": null,
+    "name": null,
     "input": "df+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "5",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13~14",
-      "lower": "i13",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13~14",
+    "hitLevels": "m",
+    "damage": 10,
+    "onBlock": -6,
+    "onHit": 5,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 48,
+    "id": "Heihachi-df+4,2",
+    "parent": "Heihachi-df+4",
     "name": "Rapid Crush Combo",
     "input": "df+4,2",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      10,
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+9a (+0)",
-      "lower": "+9",
-      "properties": [
-        "a"
-      ],
-      "tech": "+0"
-    },
-    "framesOnCounter": {
-      "_raw": "+55a",
-      "lower": "+55",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i13~14",
-      "lower": "i13",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13~14",
+    "hitLevels": "m,m",
+    "damage": "10,23",
+    "onBlock": -12,
+    "onHit": "+9a (+0)",
+    "onCounterHit": "+55a",
+    "states": null,
+    "index": 48
   },
   {
-    "index": 40,
+    "id": "Heihachi-f+1+2",
+    "parent": null,
     "name": "Chrome Dome",
     "input": "f+1+2",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "-14",
-      "lower": "-14",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "[[Heihachi combos#Mini-combos|+14c]]",
-      "lower": "+14",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "h",
+    "damage": 15,
+    "onBlock": -14,
+    "onHit": "[[Heihachi combos#Mini-combos|+14c]]",
+    "onCounterHit": null,
+    "states": null,
+    "index": 40
   },
   {
+    "id": "Heihachi-f+2",
+    "parent": null,
+    "name": null,
     "input": "f+2",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      13
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "2",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "h",
+    "damage": 13,
+    "onBlock": -9,
+    "onHit": 2,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Heihachi-f+2~1",
+    "parent": null,
+    "name": null,
     "input": "f+2~1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-11",
-      "lower": "-11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "6",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13",
-      "lower": "i13",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13",
+    "hitLevels": "m",
+    "damage": 20,
+    "onBlock": -11,
+    "onHit": 6,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 37,
+    "id": "Heihachi-f+2~1,1+2",
+    "parent": "Heihachi-f+2~1",
     "name": "Demon Shout Volley",
     "input": "f+2~1,1+2",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      20,
-      24
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+11a (+2)",
-      "lower": "+11",
-      "properties": [
-        "a"
-      ],
-      "tech": "+2"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13",
-      "lower": "i13",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13",
+    "hitLevels": "m,m",
+    "damage": "20,24",
+    "onBlock": -13,
+    "onHit": "+11a (+2)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 37
   },
   {
-    "index": 36,
+    "id": "Heihachi-f+2,2",
+    "parent": "Heihachi-f+2",
     "name": "Tensu Gekishin",
     "input": "f+2,2",
-    "hitLevels": [
-      "h",
-      "m"
-    ],
-    "damage": [
-      13,
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "h,m",
+    "damage": "13,10",
+    "onBlock": -13,
+    "onHit": -2,
+    "onCounterHit": null,
+    "states": null,
+    "index": 36
   },
   {
-    "index": 38,
+    "id": "Heihachi-f+3",
+    "parent": null,
     "name": "Lightning Crush",
     "input": "f+3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-5",
-      "lower": "-5",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "9",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18~20",
-      "lower": "i18",
-      "properties": [],
-      "upper": "20"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18~20",
+    "hitLevels": "m",
+    "damage": 10,
+    "onBlock": -5,
+    "onHit": 9,
+    "onCounterHit": null,
+    "states": null,
+    "index": 38
   },
   {
+    "id": "Heihachi-f+3+4",
+    "parent": null,
     "name": "Thunder God&#039;s Kamae",
     "input": "f+3+4",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 39,
+    "id": "Heihachi-f+4",
+    "parent": null,
     "name": "Right Splits Kick",
     "input": "f+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "4",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+7c",
-      "lower": "+7",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "+26d",
-      "lower": "+26",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i19~20",
-      "lower": "i19",
-      "properties": [],
-      "upper": "20"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i19~20",
+    "hitLevels": "m",
+    "damage": 20,
+    "onBlock": 4,
+    "onHit": "+7c",
+    "onCounterHit": "+26d",
+    "states": null,
+    "index": 39
   },
   {
-    "index": 80,
+    "id": "Heihachi-FC.df+2",
+    "parent": null,
     "name": "Ascension Upper",
     "input": "FC.df+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      17
-    ],
-    "framesOnBlock": {
-      "_raw": "-14",
-      "lower": "-14",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "[[Heihachi combos#Staples|+37a (+27)]]",
-      "lower": "+37",
-      "properties": [
-        "a"
-      ],
-      "tech": "+27"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m",
+    "damage": 17,
+    "onBlock": -14,
+    "onHit": "[[Heihachi combos#Staples|+37a (+27)]]",
+    "onCounterHit": null,
+    "states": null,
+    "index": 80
   },
   {
-    "index": 81,
+    "id": "Heihachi-FC.df+4",
+    "parent": null,
     "name": "Crouching Dragon Kick",
     "input": "FC.df+4",
-    "hitLevels": [
-      "L"
-    ],
-    "damage": [
-      16
-    ],
-    "framesOnBlock": {
-      "_raw": "-23",
-      "lower": "-23",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+4c",
-      "lower": "+4",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i19~21",
-      "lower": "i19",
-      "properties": [],
-      "upper": "21"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i19~21",
+    "hitLevels": "L",
+    "damage": 16,
+    "onBlock": -23,
+    "onHit": "+4c",
+    "onCounterHit": null,
+    "states": "cs1~",
+    "index": 81
   },
   {
-    "index": 71,
+    "id": "Heihachi-f,F+1+2",
+    "parent": null,
     "name": "Raoh Thrust",
     "input": "f,F+1+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      22
-    ],
-    "framesOnBlock": {
-      "_raw": "-8",
-      "lower": "-8",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+22a (+12)",
-      "lower": "+22",
-      "properties": [
-        "a"
-      ],
-      "tech": "+12"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13",
-      "lower": "i13",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13",
+    "hitLevels": "m",
+    "damage": 22,
+    "onBlock": -8,
+    "onHit": "+22a (+12)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 71
   },
   {
-    "index": 69,
+    "id": "Heihachi-f,F+2",
+    "parent": null,
     "name": "Demon God Fist",
     "input": "f,F+2",
-    "hitLevels": [
-      "M"
-    ],
-    "damage": [
-      22
-    ],
-    "framesOnBlock": {
-      "_raw": "-16",
-      "lower": "-16",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "[[Heihachi combos#Staples|+37a (+27)]]",
-      "lower": "+37",
-      "properties": [
-        "a"
-      ],
-      "tech": "+27"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i19~21",
-      "lower": "i19",
-      "properties": [],
-      "upper": "21"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i19~21",
+    "hitLevels": "M",
+    "damage": 22,
+    "onBlock": -16,
+    "onHit": "[[Heihachi combos#Staples|+37a (+27)]]",
+    "onCounterHit": null,
+    "states": null,
+    "index": 69
   },
   {
-    "index": 70,
+    "id": "Heihachi-f,F+3",
+    "parent": null,
     "name": "Left Splits Kick",
     "input": "f,F+3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-3c",
-      "lower": "-3",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnHit": {
-      "_raw": "[[Heihachi combos#Staples|+56a]]",
-      "lower": "+56",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20~22",
-      "lower": "i20",
-      "properties": [],
-      "upper": "22"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20~22",
+    "hitLevels": "m",
+    "damage": 21,
+    "onBlock": "-3c",
+    "onHit": "[[Heihachi combos#Staples|+56a]]",
+    "onCounterHit": null,
+    "states": null,
+    "index": 70
   },
   {
-    "index": 73,
+    "id": "Heihachi-f,f,F+3",
+    "parent": null,
     "name": "Leaping Side Kick",
     "input": "f,f,F+3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      28
-    ],
-    "framesOnBlock": {
-      "_raw": "6",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+13a (+3)",
-      "lower": "+13",
-      "properties": [
-        "a"
-      ],
-      "tech": "+3"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i22~25",
-      "lower": "i22",
-      "properties": [],
-      "upper": "25"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i22~25",
+    "hitLevels": "m",
+    "damage": 28,
+    "onBlock": 6,
+    "onHit": "+13a (+3)",
+    "onCounterHit": null,
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* js3~25\n* fs26~28&lt;/div&gt;",
+    "index": 73
   },
   {
+    "id": "Heihachi-f,n,d,df",
+    "parent": null,
     "name": "Wind God Step",
     "input": "f,n,d,df",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 85,
+    "id": "Heihachi-f,n,d,df${justFrame}1",
+    "parent": null,
     "name": "&lt;div class=&quot;dotlist&quot;&gt;\n\n* Omen Thunder God Fist\n* Electric Thunder God Fist\n&lt;/div&gt;",
     "input": "f,n,d,df#1",
-    "hitLevels": [
-      "M"
-    ],
-    "damage": [
-      33
-    ],
-    "framesOnBlock": {
-      "_raw": "-11",
-      "lower": "-11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+26a (+16)",
-      "lower": "+26",
-      "properties": [
-        "a"
-      ],
-      "tech": "+16"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i19~21",
-      "lower": "i19",
-      "properties": [],
-      "upper": "21"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i19~21",
+    "hitLevels": "M",
+    "damage": 33,
+    "onBlock": -11,
+    "onHit": "+26a (+16)",
+    "onCounterHit": null,
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* js19~40\n* fs41~43&lt;/div&gt;",
+    "index": 85
   },
   {
-    "index": 87,
+    "id": "Heihachi-f,n,d,df${justFrame}2",
+    "parent": null,
     "name": "Electric Wind God Fist",
     "input": "f,n,d,df#2",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "5",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "[[Heihachi combos#Staples|+39a (+29)]]",
-      "lower": "+39",
-      "properties": [
-        "a"
-      ],
-      "tech": "+29"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i11~12",
-      "lower": "i11",
-      "properties": [],
-      "upper": "12"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i11~12",
+    "hitLevels": "h",
+    "damage": 23,
+    "onBlock": 5,
+    "onHit": "[[Heihachi combos#Staples|+39a (+29)]]",
+    "onCounterHit": null,
+    "states": null,
+    "index": 87
   },
   {
-    "index": 84,
+    "id": "Heihachi-f,n,d,df+1",
+    "parent": null,
     "name": "Thunder God Fist",
     "input": "f,n,d,df+1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      30
-    ],
-    "framesOnBlock": {
-      "_raw": "-15",
-      "lower": "-15",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+30a (+20)",
-      "lower": "+30",
-      "properties": [
-        "a"
-      ],
-      "tech": "+20"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i19~21",
-      "lower": "i19",
-      "properties": [],
-      "upper": "21"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i19~21",
+    "hitLevels": "m",
+    "damage": 30,
+    "onBlock": -15,
+    "onHit": "+30a (+20)",
+    "onCounterHit": null,
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* js19~40\n* fs41~43&lt;/div&gt;",
+    "index": 84
   },
   {
-    "index": 86,
+    "id": "Heihachi-f,n,d,df+2",
+    "parent": null,
     "name": "Wind God Fist",
     "input": "f,n,d,df+2",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-10",
-      "lower": "-10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "[[Heihachi combos#Staples|+39a (+29)]]",
-      "lower": "+39",
-      "properties": [
-        "a"
-      ],
-      "tech": "+29"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i11~12",
-      "lower": "i11",
-      "properties": [],
-      "upper": "12"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i11~12",
+    "hitLevels": "h",
+    "damage": 20,
+    "onBlock": -10,
+    "onHit": "[[Heihachi combos#Staples|+39a (+29)]]",
+    "onCounterHit": null,
+    "states": null,
+    "index": 86
   },
   {
-    "index": 88,
+    "id": "Heihachi-f,n,d,df+3",
+    "parent": null,
     "name": "Bone Splinter Kick",
     "input": "f,n,d,df+3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      30
-    ],
-    "framesOnBlock": {
-      "_raw": "+11g",
-      "lower": "+11",
-      "properties": [
-        "g"
-      ]
-    },
-    "framesOnHit": {
-      "_raw": "+31a (+10)",
-      "lower": "+31",
-      "properties": [
-        "a"
-      ],
-      "tech": "+10"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i27~28",
-      "lower": "i27",
-      "properties": [],
-      "upper": "28"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i27~28",
+    "hitLevels": "m",
+    "damage": 30,
+    "onBlock": "+11g",
+    "onHit": "+31a (+10)",
+    "onCounterHit": null,
+    "states": "js5~28",
+    "index": 88
   },
   {
-    "index": 89,
+    "id": "Heihachi-f,n,d,DF+3",
+    "parent": null,
     "name": "Earth Scraper Kick",
     "input": "f,n,d,DF+3",
-    "hitLevels": [
-      "L"
-    ],
-    "damage": [
-      24
-    ],
-    "framesOnBlock": {
-      "_raw": "-23",
-      "lower": "-23",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "[[Heihachi combos#Mini-combos|+28a]]",
-      "lower": "+28",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i33~34",
-      "lower": "i33",
-      "properties": [],
-      "upper": "34"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i33~34",
+    "hitLevels": "L",
+    "damage": 24,
+    "onBlock": -23,
+    "onHit": "[[Heihachi combos#Mini-combos|+28a]]",
+    "onCounterHit": null,
+    "states": "js5~28",
+    "index": 89
   },
   {
+    "id": "Heihachi-f,n,d,DF+4",
+    "parent": null,
+    "name": null,
     "input": "f,n,d,DF+4",
-    "hitLevels": [
-      "L"
-    ],
-    "damage": [
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "-23",
-      "lower": "-23",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+8c",
-      "lower": "+8",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "[[Heihachi combos#Staples|+28a]]",
-      "lower": "+28",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i16~17",
-      "lower": "i16",
-      "properties": [],
-      "upper": "17"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16~17",
+    "hitLevels": "L",
+    "damage": 15,
+    "onBlock": -23,
+    "onHit": "+8c",
+    "onCounterHit": "[[Heihachi combos#Staples|+28a]]",
+    "states": null,
+    "index": null
   },
   {
+    "id": "Heihachi-f,n,d,DF+4,4",
+    "parent": "Heihachi-f,n,d,DF+4",
+    "name": null,
     "input": "f,n,d,DF+4,4",
-    "hitLevels": [
-      "L",
-      "L"
-    ],
-    "damage": [
-      15,
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-10",
-      "lower": "-10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+3c",
-      "lower": "+3",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "[[Heihachi combos#Staples|+26a]]",
-      "lower": "+26",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i16~17",
-      "lower": "i16",
-      "properties": [],
-      "upper": "17"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16~17",
+    "hitLevels": "L,L",
+    "damage": "15,10",
+    "onBlock": -10,
+    "onHit": "+3c",
+    "onCounterHit": "[[Heihachi combos#Staples|+26a]]",
+    "states": null,
+    "index": null
   },
   {
+    "id": "Heihachi-f,n,d,DF+4,4,4",
+    "parent": "Heihachi-f,n,d,DF+4,4",
     "name": "Spinning Demon",
     "input": "f,n,d,DF+4,4,4",
-    "hitLevels": [
-      "L",
-      "L",
-      "L"
-    ],
-    "damage": [
-      15,
-      10,
-      8
-    ],
-    "framesOnBlock": {
-      "_raw": "-10",
-      "lower": "-10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+3c",
-      "lower": "+3",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "[[Heihachi combos#Staples|+26a]]",
-      "lower": "+26",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i16~17",
-      "lower": "i16",
-      "properties": [],
-      "upper": "17"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16~17",
+    "hitLevels": "L,L,L",
+    "damage": "15,10,8",
+    "onBlock": -10,
+    "onHit": "+3c",
+    "onCounterHit": "[[Heihachi combos#Staples|+26a]]",
+    "states": null,
+    "index": null
   },
   {
-    "index": 91,
+    "id": "Heihachi-f,n,d,DF+4,4,4,1",
+    "parent": "Heihachi-f,n,d,DF+4,4,4",
     "name": "Spinning Demon Thunder God Fist",
     "input": "f,n,d,DF+4,4,4,1",
-    "hitLevels": [
-      "L",
-      "L",
-      "L",
-      "m"
-    ],
-    "damage": [
-      15,
-      10,
-      8,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-15",
-      "lower": "-15",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+25a (+18)",
-      "lower": "+25",
-      "properties": [
-        "a"
-      ],
-      "tech": "+18"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16~17",
-      "lower": "i16",
-      "properties": [],
-      "upper": "17"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16~17",
+    "hitLevels": "L,L,L,m",
+    "damage": "15,10,8,20",
+    "onBlock": -15,
+    "onHit": "+25a (+18)",
+    "onCounterHit": null,
+    "states": ",js?~",
+    "index": 91
   },
   {
-    "index": 92,
+    "id": "Heihachi-f,n,d,DF+4,4,4,3",
+    "parent": "Heihachi-f,n,d,DF+4,4,4",
     "name": "Spinning Demon Bell-Ringer",
     "input": "f,n,d,DF+4,4,4,3",
-    "hitLevels": [
-      "L",
-      "L",
-      "L",
-      "h"
-    ],
-    "damage": [
-      15,
-      10,
-      8,
-      30
-    ],
-    "framesOnBlock": {
-      "_raw": "9",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+45a",
-      "lower": "+45",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16~17",
-      "lower": "i16",
-      "properties": [],
-      "upper": "17"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16~17",
+    "hitLevels": "L,L,L,h",
+    "damage": "15,10,8,30",
+    "onBlock": 9,
+    "onHit": "+45a",
+    "onCounterHit": null,
+    "states": ",js17~",
+    "index": 92
   },
   {
+    "id": "Heihachi-f,n,d,DF+4,4,4,n+4",
+    "parent": "Heihachi-f,n,d,DF+4,4,4",
+    "name": null,
     "input": "f,n,d,DF+4,4,4,n+4",
-    "hitLevels": [
-      "L",
-      "L",
-      "L",
-      "m"
-    ],
-    "damage": [
-      15,
-      10,
-      8,
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "8",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16~17",
-      "lower": "i16",
-      "properties": [],
-      "upper": "17"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16~17",
+    "hitLevels": "L,L,L,m",
+    "damage": "15,10,8,10",
+    "onBlock": -3,
+    "onHit": 8,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 93,
+    "id": "Heihachi-f,n,d,DF+4,4,4,n,4,4",
+    "parent": "Heihachi-f,n,d,DF+4,4,4,n+4",
     "name": "Spinning Demon Tsunami Kick",
     "input": "f,n,d,DF+4,4,4,n+4,4",
-    "hitLevels": [
-      "L",
-      "L",
-      "L",
-      "m",
-      "m"
-    ],
-    "damage": [
-      15,
-      10,
-      8,
-      10,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-15",
-      "lower": "-15",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0c",
-      "lower": "+0",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16~17",
-      "lower": "i16",
-      "properties": [],
-      "upper": "17"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16~17",
+    "hitLevels": "L,L,L,m,m",
+    "damage": "15,10,8,10,20",
+    "onBlock": -15,
+    "onHit": "+0c",
+    "onCounterHit": null,
+    "states": null,
+    "index": 93
   },
   {
+    "id": "Heihachi-f,n,d,df,UF",
+    "parent": null,
+    "name": null,
     "input": "f,n,d,df,UF",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* js1~21\n* fs22~24&lt;/div&gt;",
+    "index": null
   },
   {
+    "id": "Heihachi-f,n,df${justFrame}1",
+    "parent": null,
     "name": "&lt;div class=&quot;dotlist&quot;&gt;\n\n* Omen Thunder God Fist\n* Electric Thunder God Fist\n&lt;/div&gt;",
     "input": "f,n,df#1",
-    "hitLevels": [
-      "M"
-    ],
-    "damage": [
-      38
-    ],
-    "framesOnBlock": {
-      "_raw": "-11",
-      "lower": "-11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+25a (+15)",
-      "lower": "+25",
-      "properties": [
-        "a"
-      ],
-      "tech": "+15"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i19~21",
-      "lower": "i19",
-      "properties": [],
-      "upper": "21"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i19~21",
+    "hitLevels": "M",
+    "damage": 38,
+    "onBlock": -11,
+    "onHit": "+25a (+15)",
+    "onCounterHit": null,
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* js19~40\n* fs41~43&lt;/div&gt;",
+    "index": null
   },
   {
+    "id": "Heihachi-FUJ.1",
+    "parent": null,
+    "name": null,
     "input": "FUJ.1",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      13
-    ],
-    "framesOnBlock": {
-      "_raw": "-4",
-      "lower": "-4",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "7",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12~13",
-      "lower": "i12",
-      "properties": [],
-      "upper": "13"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12~13",
+    "hitLevels": "h",
+    "damage": 13,
+    "onBlock": -4,
+    "onHit": 7,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 101,
+    "id": "Heihachi-FUJ.1,1",
+    "parent": "Heihachi-FUJ.1",
     "name": "Wind God Hasai Rengeki",
     "input": "FUJ.1,1",
-    "hitLevels": [
-      "h",
-      "h"
-    ],
-    "damage": [
-      13,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+34a (+9)",
-      "lower": "+34",
-      "properties": [
-        "a"
-      ],
-      "tech": "+9"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12~13",
-      "lower": "i12",
-      "properties": [],
-      "upper": "13"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12~13",
+    "hitLevels": "h,h",
+    "damage": "13,20",
+    "onBlock": -2,
+    "onHit": "+34a (+9)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 101
   },
   {
-    "index": 106,
+    "id": "Heihachi-FUJ.1+2",
+    "parent": null,
     "name": "Tengu&#039;s Wings",
     "input": "FUJ.1+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+6a (-3)",
-      "lower": "+6",
-      "properties": [
-        "a"
-      ],
-      "tech": "-3"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18~19",
-      "lower": "i18",
-      "properties": [],
-      "upper": "19"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18~19",
+    "hitLevels": "m",
+    "damage": 25,
+    "onBlock": -13,
+    "onHit": "+6a (-3)",
+    "onCounterHit": null,
+    "states": "pc7~17",
+    "index": 106
   },
   {
-    "index": 102,
+    "id": "Heihachi-FUJ.1,2",
+    "parent": "Heihachi-FUJ.1",
     "name": "Wind God Tettsui",
     "input": "FUJ.1,2",
-    "hitLevels": [
-      "h",
-      "m"
-    ],
-    "damage": [
-      13,
-      24
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+13a",
-      "lower": "+13",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12~13",
-      "lower": "i12",
-      "properties": [],
-      "upper": "13"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12~13",
+    "hitLevels": "h,m",
+    "damage": "13,24",
+    "onBlock": -13,
+    "onHit": "+13a",
+    "onCounterHit": null,
+    "states": null,
+    "index": 102
   },
   {
+    "id": "Heihachi-FUJ.1+3",
+    "parent": null,
     "name": "Fire Starter",
     "input": "FUJ.1+3",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "7",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18",
-      "lower": "i18",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18",
+    "hitLevels": "t",
+    "damage": 15,
+    "onBlock": null,
+    "onHit": 7,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 103,
+    "id": "Heihachi-FUJ.2",
+    "parent": null,
     "name": "Hidden Wind God Fist",
     "input": "FUJ.2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-10",
-      "lower": "-10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+75a (+59)",
-      "lower": "+75",
-      "properties": [
-        "a"
-      ],
-      "tech": "+59"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "m",
+    "damage": 20,
+    "onBlock": -10,
+    "onHit": "+75a (+59)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 103
   },
   {
+    "id": "Heihachi-FUJ.3",
+    "parent": null,
+    "name": null,
     "input": "FUJ.3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      17
-    ],
-    "framesOnBlock": {
-      "_raw": "-10",
-      "lower": "-10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-10a (-20)",
-      "lower": "-10",
-      "properties": [
-        "a"
-      ],
-      "tech": "-20"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i28~29",
-      "lower": "i28",
-      "properties": [],
-      "upper": "29"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i28~29",
+    "hitLevels": "m",
+    "damage": 17,
+    "onBlock": -10,
+    "onHit": "-10a (-20)",
+    "onCounterHit": null,
+    "states": "js8~",
+    "index": null
   },
   {
-    "index": 104,
+    "id": "Heihachi-FUJ.3,4",
+    "parent": "Heihachi-FUJ.3",
     "name": "Wind God Hell Axle",
     "input": "FUJ.3,4",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      17,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "4",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+30a (+23)",
-      "lower": "+30",
-      "properties": [
-        "a"
-      ],
-      "tech": "+23"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i28~29",
-      "lower": "i28",
-      "properties": [],
-      "upper": "29"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i28~29",
+    "hitLevels": "m,m",
+    "damage": "17,20",
+    "onBlock": 4,
+    "onHit": "+30a (+23)",
+    "onCounterHit": null,
+    "states": ",js1~",
+    "index": 104
   },
   {
-    "index": 105,
+    "id": "Heihachi-FUJ.4",
+    "parent": null,
     "name": "Wind God Geta Stomp",
     "input": "FUJ.4",
-    "hitLevels": [
-      "L"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-14",
-      "lower": "-14",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-4",
-      "lower": "-4",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+12g",
-      "lower": "+12",
-      "properties": [
-        "g"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i18~19",
-      "lower": "i18",
-      "properties": [],
-      "upper": "19"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18~19",
+    "hitLevels": "L",
+    "damage": 20,
+    "onBlock": -14,
+    "onHit": -4,
+    "onCounterHit": "+12g",
+    "states": null,
+    "index": 105
   },
   {
+    "id": "Heihachi-FUJ.DF",
+    "parent": null,
     "name": "Fujin &gt; Wind God Step",
     "input": "FUJ.DF",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Heihachi-H.2+3",
+    "parent": null,
     "name": "Enraged Tettsui Otoshi",
     "input": "H.2+3",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      50
-    ],
-    "framesOnBlock": {
-      "_raw": "10",
-      "lower": "10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m,m",
+    "damage": 50,
+    "onBlock": 10,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Heihachi-H.2+3,F",
+    "parent": null,
     "name": "Eight Thunder Kami Slayer",
     "input": "H.2+3,F",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      50
-    ],
-    "framesOnBlock": {
-      "_raw": "10",
-      "lower": "10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-2d",
-      "lower": "-2",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m",
+    "damage": 50,
+    "onBlock": 10,
+    "onHit": "-2d",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Heihachi-H.b,b,n,3+4",
+    "parent": null,
     "name": "Shadow Step",
     "input": "H.b,b,n,3+4",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Heihachi-H.d+1+2,P",
+    "parent": null,
     "name": "Charging Hard",
     "input": "H.d+1+2,P",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      35
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i11",
-      "lower": "i11",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i11",
+    "hitLevels": "t",
+    "damage": 35,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": "ps19~40",
+    "index": null
   },
   {
+    "id": "Heihachi-H.db+1+2",
+    "parent": null,
     "name": "Thunderous Battering Ram",
     "input": "H.db+1+2",
-    "hitLevels": [
-      "M"
-    ],
-    "damage": [
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0a (-17)",
-      "lower": "+0",
-      "properties": [
-        "a"
-      ],
-      "tech": "-17"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i30",
-      "lower": "i30",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i30",
+    "hitLevels": "M",
+    "damage": 25,
+    "onBlock": 0,
+    "onHit": "+0a (-17)",
+    "onCounterHit": null,
+    "states": "pc7~29",
+    "index": null
   },
   {
+    "id": "Heihachi-H.FUJ.1+3",
+    "parent": null,
     "name": "Firestarter",
     "input": "H.FUJ.1+3",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "8",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18",
-      "lower": "i18",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18",
+    "hitLevels": "t",
+    "damage": 15,
+    "onBlock": null,
+    "onHit": 8,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 122,
+    "id": "Heihachi-Left throw",
+    "parent": null,
     "name": "Guillotine Chop",
-    "input": "Leftthrow",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      40
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-3d",
-      "lower": "-3",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": "Left throw",
+    "startup": null,
+    "hitLevels": "t",
+    "damage": 40,
+    "onBlock": null,
+    "onHit": "-3d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 122
   },
   {
+    "id": "Heihachi-OTG.d+4",
+    "parent": null,
     "name": "Geta Stomp",
     "input": "OTG.d+4",
-    "hitLevels": [
-      "L"
-    ],
-    "damage": [
-      30
-    ],
-    "framesOnBlock": {
-      "_raw": "-14",
-      "lower": "-14",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-3a (-11)",
-      "lower": "-3",
-      "properties": [
-        "a"
-      ],
-      "tech": "-11"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i19~20",
-      "lower": "i19",
-      "properties": [],
-      "upper": "20"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i19~20",
+    "hitLevels": "L",
+    "damage": 30,
+    "onBlock": -14,
+    "onHit": "-3a (-11)",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 72,
+    "id": "Heihachi-qcf+2",
+    "parent": null,
     "name": "Iron Hand",
     "input": "qcf+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      30
-    ],
-    "framesOnBlock": {
-      "_raw": "-17",
-      "lower": "-17",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+18a (+8)",
-      "lower": "+18",
-      "properties": [
-        "a"
-      ],
-      "tech": "+8"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14~15",
-      "lower": "i14",
-      "properties": [],
-      "upper": "15"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14~15",
+    "hitLevels": "m",
+    "damage": 30,
+    "onBlock": -17,
+    "onHit": "+18a (+8)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 72
   },
   {
-    "index": 95,
+    "id": "Heihachi-RAI.1",
+    "parent": null,
     "name": "Hidden Thunder God Fist",
     "input": "RAI.1",
-    "hitLevels": [
-      "M"
-    ],
-    "damage": [
-      38
-    ],
-    "framesOnBlock": {
-      "_raw": "-11",
-      "lower": "-11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+12a (+2)",
-      "lower": "+12",
-      "properties": [
-        "a"
-      ],
-      "tech": "+2"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17~18",
-      "lower": "i17",
-      "properties": [],
-      "upper": "18"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17~18",
+    "hitLevels": "M",
+    "damage": 38,
+    "onBlock": -11,
+    "onHit": "+12a (+2)",
+    "onCounterHit": null,
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* js17~43\n* fs44~46&lt;/div&gt;",
+    "index": 95
   },
   {
-    "index": 99,
+    "id": "Heihachi-RAI.1+3",
+    "parent": null,
     "name": "Thunder Broken Toy",
     "input": "RAI.1+3",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      30
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "t",
+    "damage": 30,
+    "onBlock": null,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 99
   },
   {
-    "index": 96,
+    "id": "Heihachi-RAI.2",
+    "parent": null,
     "name": "Thunder Cutter",
     "input": "RAI.2",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "10",
-      "lower": "10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+51a",
-      "lower": "+51",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17~18",
-      "lower": "i17",
-      "properties": [],
-      "upper": "18"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17~18",
+    "hitLevels": "h",
+    "damage": 25,
+    "onBlock": 10,
+    "onHit": "+51a",
+    "onCounterHit": null,
+    "states": null,
+    "index": 96
   },
   {
+    "id": "Heihachi-RAI.3",
+    "parent": null,
     "name": "Jichinsai",
     "input": "RAI.3",
-    "hitLevels": [
-      "M"
-    ],
-    "damage": [
-      30
-    ],
-    "framesOnBlock": {
-      "_raw": "-7",
-      "lower": "-7",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+3a",
-      "lower": "+3",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i22~23",
-      "lower": "i22",
-      "properties": [],
-      "upper": "23"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i22~23",
+    "hitLevels": "M",
+    "damage": 30,
+    "onBlock": -7,
+    "onHit": "+3a",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Heihachi-RAI.4",
+    "parent": null,
     "name": "Raijin Spinning Demon",
     "input": "RAI.4",
-    "hitLevels": [
-      "L"
-    ],
-    "damage": [
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "-23",
-      "lower": "-23",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+8c",
-      "lower": "+8",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "+28a",
-      "lower": "+28",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i19~20",
-      "lower": "i19",
-      "properties": [],
-      "upper": "20"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i19~20",
+    "hitLevels": "L",
+    "damage": 15,
+    "onBlock": -23,
+    "onHit": "+8c",
+    "onCounterHit": "+28a",
+    "states": null,
+    "index": null
   },
   {
+    "id": "Heihachi-R.df+1+2",
+    "parent": null,
     "name": "Mishima Style Ultimate Technique - Tempest Dragon God Fist",
     "input": "R.df+1+2",
-    "hitLevels": [
-      "m",
-      "t"
-    ],
-    "damage": [
-      55
-    ],
-    "framesOnBlock": {
-      "_raw": "-15",
-      "lower": "-15",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20",
-      "lower": "i20",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20",
+    "hitLevels": "m,t",
+    "damage": "55+",
+    "onBlock": -15,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": "pc8~",
+    "index": null
   },
   {
-    "index": 123,
+    "id": "Heihachi-Right throw",
+    "parent": null,
     "name": "Freefall",
-    "input": "Rightthrow",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      45
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-4d",
-      "lower": "-4",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": "Right throw",
+    "startup": null,
+    "hitLevels": "t",
+    "damage": 45,
+    "onBlock": null,
+    "onHit": "-4d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 123
   },
   {
-    "index": 82,
+    "id": "Heihachi-SS.2",
+    "parent": null,
     "name": "Nail Beating",
     "input": "SS.2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "9",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+36a (+28)",
-      "lower": "+36",
-      "properties": [
-        "a"
-      ],
-      "tech": "+28"
-    },
-    "framesOnStartup": {
-      "_raw": "i23~24",
-      "lower": "i23",
-      "properties": [],
-      "upper": "24"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i23~24",
+    "hitLevels": "m",
+    "damage": 20,
+    "onBlock": -9,
+    "onHit": 9,
+    "onCounterHit": "+36a (+28)",
+    "states": null,
+    "index": 82
   },
   {
-    "index": 64,
+    "id": "Heihachi-ub+2",
+    "parent": null,
     "name": "Skull Rupture",
     "input": "ub+2",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+40d (-18)",
-      "lower": "+40",
-      "properties": [
-        "d"
-      ],
-      "tech": "-18"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18~19",
-      "lower": "i18",
-      "properties": [],
-      "upper": "19"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18~19",
+    "hitLevels": "h",
+    "damage": 25,
+    "onBlock": -6,
+    "onHit": "+40d (-18)",
+    "onCounterHit": null,
+    "states": "ps5~12",
+    "index": 64
   },
   {
-    "index": 65,
+    "id": "Heihachi-uf+1",
+    "parent": null,
     "name": "Demon&#039;s Wings",
     "input": "uf+1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+14a (+5)",
-      "lower": "+14",
-      "properties": [
-        "a"
-      ],
-      "tech": "+5"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i24~25",
-      "lower": "i24",
-      "properties": [],
-      "upper": "25"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i24~25",
+    "hitLevels": "m",
+    "damage": 25,
+    "onBlock": -13,
+    "onHit": "+14a (+5)",
+    "onCounterHit": null,
+    "states": "pc7~23",
+    "index": 65
   },
   {
-    "index": 125,
+    "id": "Heihachi-uf+1+2",
+    "parent": null,
     "name": "Stonehead",
     "input": "uf+1+2",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      35
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+26a (+7)",
-      "lower": "+26",
-      "properties": [
-        "a"
-      ],
-      "tech": "+7"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "t",
+    "damage": 35,
+    "onBlock": 0,
+    "onHit": "+26a (+7)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 125
   },
   {
-    "index": 126,
+    "id": "Heihachi-uf+1+4",
+    "parent": null,
     "name": "Headbutt Clash",
     "input": "uf+1+4",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      30
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+28d (-30)",
-      "lower": "+28",
-      "properties": [
-        "d"
-      ],
-      "tech": "-30"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12 i48",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12 i48",
+    "hitLevels": "t",
+    "damage": 30,
+    "onBlock": -6,
+    "onHit": "+28d (-30)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 126
   },
   {
+    "id": "Heihachi-uf+2",
+    "parent": null,
+    "name": null,
     "input": "uf+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      16
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "4",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i19",
-      "lower": "i19",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i19",
+    "hitLevels": "m",
+    "damage": 16,
+    "onBlock": -9,
+    "onHit": 4,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 66,
+    "id": "Heihachi-uf+2,1",
+    "parent": "Heihachi-uf+2",
     "name": "Kidney Crush Combo",
     "input": "uf+2,1",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      16,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-11",
-      "lower": "-11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+21a (+11)",
-      "lower": "+21",
-      "properties": [
-        "a"
-      ],
-      "tech": "+11"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i19",
-      "lower": "i19",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i19",
+    "hitLevels": "m,m",
+    "damage": "16,20",
+    "onBlock": -11,
+    "onHit": "+21a (+11)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 66
   },
   {
+    "id": "Heihachi-uf+3",
+    "parent": null,
+    "name": null,
     "input": "uf+3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      17
-    ],
-    "framesOnBlock": {
-      "_raw": "-10",
-      "lower": "-10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-10a (-20)",
-      "lower": "-10",
-      "properties": [
-        "a"
-      ],
-      "tech": "-20"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i28~29",
-      "lower": "i28",
-      "properties": [],
-      "upper": "29"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i28~29",
+    "hitLevels": "m",
+    "damage": 17,
+    "onBlock": -10,
+    "onHit": "-10a (-20)",
+    "onCounterHit": null,
+    "states": "js9~",
+    "index": null
   },
   {
-    "index": 67,
+    "id": "Heihachi-uf+3,4",
+    "parent": "Heihachi-uf+3",
     "name": "Hell Axle",
     "input": "uf+3,4",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      17,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "4",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "[[Heihachi combos#Staples|+30a (+23)]]",
-      "lower": "+30",
-      "properties": [
-        "a"
-      ],
-      "tech": "+23"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i28~29",
-      "lower": "i28",
-      "properties": [],
-      "upper": "29"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i28~29",
+    "hitLevels": "m,m",
+    "damage": "17,20",
+    "onBlock": 4,
+    "onHit": "[[Heihachi combos#Staples|+30a (+23)]]",
+    "onCounterHit": null,
+    "states": ",js1~",
+    "index": 67
   },
   {
-    "index": 68,
+    "id": "Heihachi-uf+4",
+    "parent": null,
     "name": "Wind Slicer",
     "input": "uf+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      17
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "[[Heihachi combos#Mini-combos|+43a]]",
-      "lower": "+43",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i24~26",
-      "lower": "i24",
-      "properties": [],
-      "upper": "26"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i24~26",
+    "hitLevels": "m",
+    "damage": 17,
+    "onBlock": -9,
+    "onHit": "[[Heihachi combos#Mini-combos|+43a]]",
+    "onCounterHit": null,
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* js9~29\n* fs31~32&lt;/div&gt;",
+    "index": 68
   },
   {
+    "id": "Heihachi-uf+4,H.1",
+    "parent": "Heihachi-uf+4",
     "name": "Soaring Anvil Smasher",
     "input": "uf+4,H.1",
-    "hitLevels": [
-      "m",
-      "M"
-    ],
-    "damage": [
-      17,
-      30
-    ],
-    "framesOnBlock": {
-      "_raw": "2",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+5a",
-      "lower": "+5",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i24~26",
-      "lower": "i24",
-      "properties": [],
-      "upper": "26"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i24~26",
+    "hitLevels": "m,M",
+    "damage": "17,30",
+    "onBlock": 2,
+    "onHit": "+5a",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 113,
+    "id": "Heihachi-WAR.1+2",
+    "parent": null,
     "name": "Ultimate Demon Breath",
     "input": "WAR.1+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      34
-    ],
-    "framesOnBlock": {
-      "_raw": "-10",
-      "lower": "-10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+32a (+24)",
-      "lower": "+32",
-      "properties": [
-        "a"
-      ],
-      "tech": "+24"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "m",
+    "damage": 34,
+    "onBlock": -10,
+    "onHit": "+32a (+24)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 113
   },
   {
-    "index": 115,
+    "id": "Heihachi-WAR.f,F+2",
+    "parent": null,
     "name": "Ultimate Demon God Fist",
     "input": "WAR.f,F+2",
-    "hitLevels": [
-      "M"
-    ],
-    "damage": [
-      30
-    ],
-    "framesOnBlock": {
-      "_raw": "-16",
-      "lower": "-16",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "[[Heihachi combos#Staples|+37a (+27)]]",
-      "lower": "+37",
-      "properties": [
-        "a"
-      ],
-      "tech": "+27"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i19~21",
-      "lower": "i19",
-      "properties": [],
-      "upper": "21"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i19~21",
+    "hitLevels": "M",
+    "damage": 30,
+    "onBlock": -16,
+    "onHit": "[[Heihachi combos#Staples|+37a (+27)]]",
+    "onCounterHit": null,
+    "states": null,
+    "index": 115
   },
   {
-    "index": 116,
+    "id": "Heihachi-WAR.f,F+3",
+    "parent": null,
     "name": "Ultimate Splits Kick",
     "input": "WAR.f,F+3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "+1c",
-      "lower": "+1",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnHit": {
-      "_raw": "[[Heihachi combos#Staples|+56a]]",
-      "lower": "+56",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20~22",
-      "lower": "i20",
-      "properties": [],
-      "upper": "22"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20~22",
+    "hitLevels": "m",
+    "damage": 25,
+    "onBlock": "+1c",
+    "onHit": "[[Heihachi combos#Staples|+56a]]",
+    "onCounterHit": null,
+    "states": null,
+    "index": 116
   },
   {
-    "index": 117,
+    "id": "Heihachi-WAR.f,n,d,DF+4",
+    "parent": null,
     "name": "Ultimate Spinning Demon",
     "input": "WAR.f,n,d,DF+4",
-    "hitLevels": [
-      "L"
-    ],
-    "damage": [
-      17
-    ],
-    "framesOnBlock": {
-      "_raw": "-14",
-      "lower": "-14",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+8c",
-      "lower": "+8",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "+28a",
-      "lower": "+28",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i16~17",
-      "lower": "i16",
-      "properties": [],
-      "upper": "17"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16~17",
+    "hitLevels": "L",
+    "damage": 17,
+    "onBlock": -14,
+    "onHit": "+8c",
+    "onCounterHit": "+28a",
+    "states": null,
+    "index": 117
   },
   {
-    "index": 119,
+    "id": "Heihachi-WAR.FUJ.2",
+    "parent": null,
     "name": "Ultimate Hidden Wind God Fist",
     "input": "WAR.FUJ.2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      24
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "[[Heihachi combos#Staples|+75a (+59)]]",
-      "lower": "+75",
-      "properties": [
-        "a"
-      ],
-      "tech": "+59"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "m",
+    "damage": 24,
+    "onBlock": -3,
+    "onHit": "[[Heihachi combos#Staples|+75a (+59)]]",
+    "onCounterHit": null,
+    "states": null,
+    "index": 119
   },
   {
-    "index": 118,
+    "id": "Heihachi-WAR.RAI.1",
+    "parent": null,
     "name": "Ultimate Hidden Thunder God Fist",
     "input": "WAR.RAI.1",
-    "hitLevels": [
-      "M"
-    ],
-    "damage": [
-      42
-    ],
-    "framesOnBlock": {
-      "_raw": "-8",
-      "lower": "-8",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+12a (+2)",
-      "lower": "+12",
-      "properties": [
-        "a"
-      ],
-      "tech": "+2"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17~19",
-      "lower": "i17",
-      "properties": [],
-      "upper": "19"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17~19",
+    "hitLevels": "M",
+    "damage": 42,
+    "onBlock": -8,
+    "onHit": "+12a (+2)",
+    "onCounterHit": null,
+    "states": "js17~",
+    "index": 118
   },
   {
-    "index": 76,
+    "id": "Heihachi-ws1",
+    "parent": null,
     "name": "Quick Iron Fist",
     "input": "ws1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      17
-    ],
-    "framesOnBlock": {
-      "_raw": "-14",
-      "lower": "-14",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "[[Heihachi combos#Mini-combos|+35d (+27)]]",
-      "lower": "+35",
-      "properties": [
-        "d"
-      ],
-      "tech": "+27"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13~14",
-      "lower": "i13",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13~14",
+    "hitLevels": "m",
+    "damage": 17,
+    "onBlock": -14,
+    "onHit": "[[Heihachi combos#Mini-combos|+35d (+27)]]",
+    "onCounterHit": null,
+    "states": null,
+    "index": 76
   },
   {
-    "index": 77,
+    "id": "Heihachi-ws2",
+    "parent": null,
     "name": "Dark Thrust",
     "input": "ws2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-8",
-      "lower": "-8",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "8",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "[[Heihachi combos#Mini-combos|+14c]]",
-      "lower": "+14",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i18",
-      "lower": "i18",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18",
+    "hitLevels": "m",
+    "damage": 20,
+    "onBlock": -8,
+    "onHit": 8,
+    "onCounterHit": "[[Heihachi combos#Mini-combos|+14c]]",
+    "states": null,
+    "index": 77
   },
   {
+    "id": "Heihachi-ws3",
+    "parent": null,
+    "name": null,
     "input": "ws3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-11",
-      "lower": "-11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18~19",
-      "lower": "i18",
-      "properties": [],
-      "upper": "19"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18~19",
+    "hitLevels": "m",
+    "damage": 10,
+    "onBlock": -11,
+    "onHit": 0,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 78,
+    "id": "Heihachi-ws3,1+2",
+    "parent": "Heihachi-ws3",
     "name": "Holy Demon Cross",
     "input": "ws3,1+2",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      10,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+13a (+4)",
-      "lower": "+13",
-      "properties": [
-        "a"
-      ],
-      "tech": "+4"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18~19",
-      "lower": "i18",
-      "properties": [],
-      "upper": "19"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18~19",
+    "hitLevels": "m,m",
+    "damage": "10,20",
+    "onBlock": -9,
+    "onHit": "+13a (+4)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 78
   },
   {
+    "id": "Heihachi-ws4",
+    "parent": null,
+    "name": null,
     "input": "ws4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      13
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "8",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i11~12",
-      "lower": "i11",
-      "properties": [],
-      "upper": "12"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i11~12",
+    "hitLevels": "m",
+    "damage": 13,
+    "onBlock": -3,
+    "onHit": 8,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 79,
+    "id": "Heihachi-ws4,4",
+    "parent": "Heihachi-ws4",
     "name": "Tsunami Kick",
     "input": "ws4,4",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      13,
-      16
-    ],
-    "framesOnBlock": {
-      "_raw": "-15",
-      "lower": "-15",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0c",
-      "lower": "+0",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i11~12",
-      "lower": "i11",
-      "properties": [],
-      "upper": "12"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i11~12",
+    "hitLevels": "m,m",
+    "damage": "13,16",
+    "onBlock": -15,
+    "onHit": "+0c",
+    "onCounterHit": null,
+    "states": null,
+    "index": 79
   }
 ]

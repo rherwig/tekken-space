@@ -1,4928 +1,1780 @@
 [
   {
-    "input": "1",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      5
-    ],
-    "framesOnBlock": {
-      "_raw": "1",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "8",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "id": "Leroy-1",
+    "parent": null,
+    "name": null,
+    "input": 1,
+    "startup": "i10",
+    "hitLevels": "h",
+    "damage": 5,
+    "onBlock": 1,
+    "onHit": 8,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Leroy-1,1",
+    "parent": "Leroy-1",
+    "name": null,
     "input": "1,1",
-    "hitLevels": [
-      "h",
-      "m"
-    ],
-    "damage": [
-      5,
-      7
-    ],
-    "framesOnBlock": {
-      "_raw": "-9~-8",
-      "lower": "-9",
-      "properties": [],
-      "upper": "-8"
-    },
-    "framesOnHit": {
-      "_raw": "+2~+3",
-      "lower": "+2",
-      "properties": [],
-      "upper": "+3"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,m",
+    "damage": "5,7",
+    "onBlock": "-9~-8",
+    "onHit": "+2~+3",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Leroy-1,1,1+2",
+    "parent": "Leroy-1,1",
+    "name": null,
     "input": "1,1,1+2",
-    "hitLevels": [
-      "h",
-      "m",
-      "h"
-    ],
-    "damage": [
-      5,
-      7,
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-9~-8",
-      "lower": "-9",
-      "properties": [],
-      "upper": "-8"
-    },
-    "framesOnHit": {
-      "_raw": "-2~-1",
-      "lower": "-2",
-      "properties": [],
-      "upper": "-1"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,m,h",
+    "damage": "5,7,12",
+    "onBlock": "-9~-8",
+    "onHit": "-2~-1",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 14,
+    "id": "Leroy-1,1,1+2,1",
+    "parent": "Leroy-1,1,1+2",
     "name": "Chain Punch: Sheath",
     "input": "1,1,1+2,1",
-    "hitLevels": [
-      "h",
-      "m",
-      "h",
-      "m"
-    ],
-    "damage": [
-      5,
-      7,
-      12,
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "-16~-15",
-      "lower": "-16",
-      "properties": [],
-      "upper": "-15"
-    },
-    "framesOnHit": {
-      "_raw": "+20a(+15)~+21a(+17)",
-      "lower": "+20",
-      "properties": [
-        "a",
-        "a"
-      ],
-      "tech": "+15",
-      "upper": "+21"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,m,h,m",
+    "damage": "5,7,12,15",
+    "onBlock": "-16~-15",
+    "onHit": "+20a(+15)~+21a(+17)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 14
   },
   {
+    "id": "Leroy-1+2",
+    "parent": null,
+    "name": null,
     "input": "1+2",
-    "hitLevels": [
-      "h",
-      "h",
-      "h"
-    ],
-    "damage": [
-      9
-    ],
-    "framesOnBlock": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "4",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14",
-      "lower": "i14",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14",
+    "hitLevels": "h,h,h",
+    "damage": 9,
+    "onBlock": -2,
+    "onHit": 4,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 15,
+    "id": "Leroy-1,2",
+    "parent": "Leroy-1",
     "name": "Front Palm",
     "input": "1,2",
-    "hitLevels": [
-      "h",
-      "h"
-    ],
-    "damage": [
-      5,
-      9
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "7",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,h",
+    "damage": "5,9",
+    "onBlock": -3,
+    "onHit": 7,
+    "onCounterHit": null,
+    "states": null,
+    "index": 15
   },
   {
-    "index": 16,
+    "id": "Leroy-1,2,1",
+    "parent": "Leroy-1,2",
     "name": "Front Palm Pulsing Fist",
     "input": "1,2,1",
-    "hitLevels": [
-      "h",
-      "h",
-      "h"
-    ],
-    "damage": [
-      5,
-      9,
-      17
-    ],
-    "framesOnBlock": {
-      "_raw": "-6~-5",
-      "lower": "-6",
-      "properties": [],
-      "upper": "-5"
-    },
-    "framesOnHit": {
-      "_raw": "+8~+9",
-      "lower": "+8",
-      "properties": [],
-      "upper": "+9"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,h,h",
+    "damage": "5,9,17",
+    "onBlock": "-6~-5",
+    "onHit": "+8~+9",
+    "onCounterHit": null,
+    "states": "ps10~24",
+    "index": 16
   },
   {
+    "id": "Leroy-1+2,1+2",
+    "parent": "Leroy-1+2",
+    "name": null,
     "input": "1+2,1+2",
-    "hitLevels": [
-      "h",
-      "h",
-      "h",
-      "h",
-      "h",
-      "h"
-    ],
-    "damage": [
-      9,
-      9
-    ],
-    "framesOnBlock": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "7",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14",
-      "lower": "i14",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14",
+    "hitLevels": "h,h,h,h,h,h",
+    "damage": "9,9",
+    "onBlock": -2,
+    "onHit": 7,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 23,
+    "id": "Leroy-1+2,1+2,1",
+    "parent": "Leroy-1+2,1+2",
     "name": "Chain Punch: Stem",
     "input": "1+2,1+2,1",
-    "hitLevels": [
-      "h",
-      "h",
-      "h",
-      "h",
-      "h",
-      "h",
-      "m"
-    ],
-    "damage": [
-      9,
-      9,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-17~-16",
-      "lower": "-17",
-      "properties": [],
-      "upper": "-16"
-    },
-    "framesOnHit": {
-      "_raw": "+7a(-2)~+8a(-1) / HE",
-      "lower": "+7",
-      "properties": [
-        "a",
-        "a"
-      ],
-      "tech": "-2",
-      "upper": "+8"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14",
-      "lower": "i14",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14",
+    "hitLevels": "h,h,h,h,h,h,m",
+    "damage": "9,9,20",
+    "onBlock": "-17~-16",
+    "onHit": "+7a(-2)~+8a(-1) / HE",
+    "onCounterHit": null,
+    "states": null,
+    "index": 23
   },
   {
-    "index": 17,
+    "id": "Leroy-1,2,3",
+    "parent": "Leroy-1,2",
     "name": "Front Palm Xuan Feng Jiao",
     "input": "1,2,3",
-    "hitLevels": [
-      "h",
-      "h",
-      "h"
-    ],
-    "damage": [
-      5,
-      9,
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-6~-5",
-      "lower": "-6",
-      "properties": [],
-      "upper": "-5"
-    },
-    "framesOnHit": {
-      "_raw": "+20a(+11)~+21a(+13)",
-      "lower": "+20",
-      "properties": [
-        "a",
-        "a"
-      ],
-      "tech": "+11",
-      "upper": "+21"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,h,h",
+    "damage": "5,9,21",
+    "onBlock": "-6~-5",
+    "onHit": "+20a(+11)~+21a(+13)",
+    "onCounterHit": null,
+    "states": "js",
+    "index": 17
   },
   {
-    "index": 68,
+    "id": "Leroy-1+2+3+4",
+    "parent": null,
     "name": "Ki Charge",
     "input": "1+2+3+4",
-    "hitLevels": [
-      "sp"
-    ],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": "sp",
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": 68
   },
   {
-    "index": 18,
+    "id": "Leroy-1,2,4",
+    "parent": "Leroy-1,2",
     "name": "Front Palm Snap Kick",
     "input": "1,2,4",
-    "hitLevels": [
-      "h",
-      "h",
-      "m"
-    ],
-    "damage": [
-      5,
-      9,
-      11
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "3",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,h,m",
+    "damage": "5,9,11",
+    "onBlock": -9,
+    "onHit": 3,
+    "onCounterHit": null,
+    "states": null,
+    "index": 18
   },
   {
+    "id": "Leroy-1+3",
+    "parent": null,
     "name": "Devastating Chain Punch",
     "input": "1+3",
-    "hitLevels": [
-      "th(h)"
-    ],
-    "damage": [
-      35
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12~14",
-      "lower": "i12",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12~14",
+    "hitLevels": "th(h)",
+    "damage": 35,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 67,
+    "id": "Leroy-1+3+4",
+    "parent": null,
     "name": "Taunt",
     "input": "1+3+4",
-    "hitLevels": [
-      "sp"
-    ],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": "sp",
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": "ps20~100",
+    "index": 67
   },
   {
-    "index": 66,
+    "id": "Leroy-1+4",
+    "parent": null,
     "name": "Go Sugar",
     "input": "1+4",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      16
-    ],
-    "framesOnBlock": {
-      "_raw": "-26",
-      "lower": "-26",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "24",
-      "lower": "24",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i100~279",
-      "lower": "i100",
-      "properties": [],
-      "upper": "279"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i100~279",
+    "hitLevels": "l",
+    "damage": 16,
+    "onBlock": -26,
+    "onHit": 24,
+    "onCounterHit": null,
+    "states": null,
+    "index": 66
   },
   {
-    "input": "2",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "9",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "id": "Leroy-2",
+    "parent": null,
+    "name": null,
+    "input": 2,
+    "startup": "i12",
+    "hitLevels": "h",
+    "damage": 10,
+    "onBlock": 0,
+    "onHit": 9,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Leroy-2,1",
+    "parent": "Leroy-2",
+    "name": null,
     "input": "2,1",
-    "hitLevels": [
-      "h",
-      "m"
-    ],
-    "damage": [
-      10,
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-7~-6",
-      "lower": "-7",
-      "properties": [],
-      "upper": "-6"
-    },
-    "framesOnHit": {
-      "_raw": "+4~+5",
-      "lower": "+4",
-      "properties": [],
-      "upper": "+5"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "h,m",
+    "damage": "10,12",
+    "onBlock": "-7~-6",
+    "onHit": "+4~+5",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Leroy-2,1,2",
+    "parent": "Leroy-2,1",
+    "name": null,
     "input": "2,1,2",
-    "hitLevels": [
-      "h",
-      "m",
-      "h"
-    ],
-    "damage": [
-      10,
-      12,
-      17
-    ],
-    "framesOnBlock": {
-      "_raw": "-7~-6",
-      "lower": "-7",
-      "properties": [],
-      "upper": "-6"
-    },
-    "framesOnHit": {
-      "_raw": "+4~+5",
-      "lower": "+4",
-      "properties": [],
-      "upper": "+5"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "h,m,h",
+    "damage": "10,12,17",
+    "onBlock": "-7~-6",
+    "onHit": "+4~+5",
+    "onCounterHit": null,
+    "states": "ps2~16",
+    "index": null
   },
   {
-    "index": 20,
+    "id": "Leroy-2,1,2,1",
+    "parent": "Leroy-2,1,2",
     "name": "Claws of Fury",
     "input": "2,1,2,1",
-    "hitLevels": [
-      "h",
-      "m",
-      "h",
-      "m"
-    ],
-    "damage": [
-      10,
-      12,
-      17,
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-13~-11",
-      "lower": "-13",
-      "properties": [],
-      "upper": "-11"
-    },
-    "framesOnHit": {
-      "_raw": "+16a(-1)~+18a(+3)",
-      "lower": "+16",
-      "properties": [
-        "a",
-        "a"
-      ],
-      "tech": "-1",
-      "upper": "+18"
-    },
-    "framesOnCounter": {
-      "_raw": "+30a(+20)",
-      "lower": "+30",
-      "properties": [
-        "a"
-      ],
-      "tech": "+20"
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "h,m,h,m",
+    "damage": "10,12,17,21",
+    "onBlock": "-13~-11",
+    "onHit": "+16a(-1)~+18a(+3)",
+    "onCounterHit": "+30a(+20)",
+    "states": null,
+    "index": 20
   },
   {
-    "index": 19,
+    "id": "Leroy-2,2",
+    "parent": "Leroy-2",
     "name": "Needle Elbow",
     "input": "2,2",
-    "hitLevels": [
-      "h",
-      "h"
-    ],
-    "damage": [
-      10,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-7~-6",
-      "lower": "-7",
-      "properties": [],
-      "upper": "-6"
-    },
-    "framesOnHit": {
-      "_raw": "+7~+8",
-      "lower": "+7",
-      "properties": [],
-      "upper": "+8"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "h,h",
+    "damage": "10,20",
+    "onBlock": "-7~-6",
+    "onHit": "+7~+8",
+    "onCounterHit": null,
+    "states": null,
+    "index": 19
   },
   {
+    "id": "Leroy-2+3",
+    "parent": null,
     "name": "Heat Burst",
     "input": "2+3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      1212
-    ],
-    "framesOnBlock": {
-      "_raw": "1",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+2c",
-      "lower": "+2",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "m",
+    "damage": "12 (12)",
+    "onBlock": 1,
+    "onHit": "+2c",
+    "onCounterHit": null,
+    "states": "pc",
+    "index": null
   },
   {
+    "id": "Leroy-2+4",
+    "parent": null,
     "name": "Corkscrew Strike",
     "input": "2+4",
-    "hitLevels": [
-      "th(h)"
-    ],
-    "damage": [
-      35
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12~14",
-      "lower": "i12",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12~14",
+    "hitLevels": "th(h)",
+    "damage": 35,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "input": "3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      14
-    ],
-    "framesOnBlock": {
-      "_raw": "-8",
-      "lower": "-8",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "3",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "id": "Leroy-3",
+    "parent": null,
+    "name": null,
+    "input": 3,
+    "startup": "i15",
+    "hitLevels": "m",
+    "damage": 14,
+    "onBlock": -8,
+    "onHit": 3,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 21,
+    "id": "Leroy-3,3",
+    "parent": "Leroy-3",
     "name": "Hissing Snake",
     "input": "3,3",
-    "hitLevels": [
-      "m",
-      "l"
-    ],
-    "damage": [
-      14,
-      13
-    ],
-    "framesOnBlock": {
-      "_raw": "-14",
-      "lower": "-14",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "2",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+15d",
-      "lower": "+15",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m,l",
+    "damage": "14,13",
+    "onBlock": -14,
+    "onHit": 2,
+    "onCounterHit": "+15d",
+    "states": null,
+    "index": 21
   },
   {
+    "id": "Leroy-3+4",
+    "parent": null,
     "name": "Hermit",
     "input": "3+4",
-    "hitLevels": [
-      "sp"
-    ],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": "sp",
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": "ps3",
+    "index": null
   },
   {
+    "id": "Leroy-3+4",
+    "parent": null,
     "name": "Hermit",
     "input": "3+4",
-    "hitLevels": [
-      "sp"
-    ],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": "sp",
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": "ps3",
+    "index": null
   },
   {
-    "input": "4",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "-11",
-      "lower": "-11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "id": "Leroy-4",
+    "parent": null,
+    "name": null,
+    "input": 4,
+    "startup": "i12",
+    "hitLevels": "h",
+    "damage": 15,
+    "onBlock": -11,
+    "onHit": 0,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 22,
+    "id": "Leroy-4,4",
+    "parent": "Leroy-4",
     "name": "Falling Bamboo",
     "input": "4,4",
-    "hitLevels": [
-      "h",
-      "m"
-    ],
-    "damage": [
-      1513
-    ],
-    "framesOnBlock": {
-      "_raw": "-13~-12",
-      "lower": "-13",
-      "properties": [],
-      "upper": "-12"
-    },
-    "framesOnHit": {
-      "_raw": "+3~+4",
-      "lower": "+3",
-      "properties": [],
-      "upper": "+4"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "h,m",
+    "damage": "1513",
+    "onBlock": "-13~-12",
+    "onHit": "+3~+4",
+    "onCounterHit": null,
+    "states": null,
+    "index": 22
   },
   {
-    "index": 46,
+    "id": "Leroy-b+1",
+    "parent": null,
     "name": "Hermit&#039;s Fist",
     "input": "b+1",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      17
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "5",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13",
-      "lower": "i13",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13",
+    "hitLevels": "h",
+    "damage": 17,
+    "onBlock": -6,
+    "onHit": 5,
+    "onCounterHit": null,
+    "states": null,
+    "index": 46
   },
   {
-    "index": 50,
+    "id": "Leroy-b+1+2",
+    "parent": null,
     "name": "Outcast Arrow",
     "input": "b+1+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      17
-    ],
-    "framesOnBlock": {
-      "_raw": "-10",
-      "lower": "-10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "2",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "60",
-      "lower": "60",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "m",
+    "damage": 17,
+    "onBlock": -10,
+    "onHit": 2,
+    "onCounterHit": 60,
+    "states": null,
+    "index": 50
   },
   {
+    "id": "Leroy-b+2",
+    "parent": null,
     "name": "Twin Dragon Gate",
     "input": "b+2",
-    "hitLevels": [
-      "sp"
-    ],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": "sp",
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": "ps5~15",
+    "index": null
   },
   {
-    "index": 48,
+    "id": "Leroy-b+3",
+    "parent": null,
     "name": "Beheading Back Kick",
     "input": "b+3",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      27
-    ],
-    "framesOnBlock": {
-      "_raw": "+9~+10",
-      "lower": "+9",
-      "properties": [],
-      "upper": "+10"
-    },
-    "framesOnHit": {
-      "_raw": "[[Leroy_combos#Mini-combos|+16~+17c]]",
-      "lower": "+16",
-      "properties": [
-        "c"
-      ],
-      "upper": "+17"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i22~23",
-      "lower": "i22",
-      "properties": [],
-      "upper": "23"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i22~23",
+    "hitLevels": "h",
+    "damage": 27,
+    "onBlock": "+9~+10",
+    "onHit": "[[Leroy_combos#Mini-combos|+16~+17c]]",
+    "onCounterHit": null,
+    "states": null,
+    "index": 48
   },
   {
-    "index": 51,
+    "id": "Leroy-b+3+4",
+    "parent": null,
     "name": "Earth Sunder Chain",
     "input": "b+3+4",
-    "hitLevels": [
-      "m",
-      "th"
-    ],
-    "damage": [
-      21,
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-8",
-      "lower": "-8",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18~19",
-      "lower": "i18",
-      "properties": [],
-      "upper": "19"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18~19",
+    "hitLevels": "m,th",
+    "damage": "21,25",
+    "onBlock": -8,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 51
   },
   {
-    "index": 49,
+    "id": "Leroy-b+4",
+    "parent": null,
     "name": "Zhuan Shen Jiao",
     "input": "b+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      16
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "4",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17~18",
-      "lower": "i17",
-      "properties": [],
-      "upper": "18"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17~18",
+    "hitLevels": "m",
+    "damage": 16,
+    "onBlock": -9,
+    "onHit": 4,
+    "onCounterHit": null,
+    "states": null,
+    "index": 49
   },
   {
-    "index": 93,
+    "id": "Leroy-Back throw",
+    "parent": null,
     "name": "Lone Dragon&#039;s Rage",
-    "input": "Backthrow",
-    "hitLevels": [
-      "th(h)"
-    ],
-    "damage": [
-      50
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12~14",
-      "lower": "i12",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": "Back throw",
+    "startup": "i12~14",
+    "hitLevels": "th(h)",
+    "damage": 50,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": 93
   },
   {
-    "index": 47,
+    "id": "Leroy-CH b+1",
+    "parent": null,
     "name": "Knee Snap",
-    "input": "CHb+1",
-    "hitLevels": [
-      "h",
-      "th"
-    ],
-    "damage": [
-      20,
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13",
-      "lower": "i13",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": "CH b+1",
+    "startup": "i13",
+    "hitLevels": "h,th",
+    "damage": "20,25",
+    "onBlock": null,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 47
   },
   {
+    "id": "Leroy-d+1",
+    "parent": null,
+    "name": null,
     "input": "d+1",
-    "hitLevels": [
-      "sl"
-    ],
-    "damage": [
-      5
-    ],
-    "framesOnBlock": {
-      "_raw": "-5",
-      "lower": "-5",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "6",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "sl",
+    "damage": 5,
+    "onBlock": -5,
+    "onHit": 6,
+    "onCounterHit": null,
+    "states": "cs",
+    "index": null
   },
   {
-    "index": 39,
+    "id": "Leroy-d+1+2",
+    "parent": null,
     "name": "Chanhui Zhang",
     "input": "d+1+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-4~-3",
-      "lower": "-4",
-      "properties": [],
-      "upper": "-3"
-    },
-    "framesOnHit": {
-      "_raw": "+6c / HE",
-      "lower": "+6",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17~18",
-      "lower": "i17",
-      "properties": [],
-      "upper": "18"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17~18",
+    "hitLevels": "m",
+    "damage": 21,
+    "onBlock": "-4~-3",
+    "onHit": "+6c / HE",
+    "onCounterHit": null,
+    "states": null,
+    "index": 39
   },
   {
+    "id": "Leroy-d+1,2",
+    "parent": "Leroy-d+1",
+    "name": null,
     "input": "d+1,2",
-    "hitLevels": [
-      "sl",
-      "m"
-    ],
-    "damage": [
-      5,
-      8
-    ],
-    "framesOnBlock": {
-      "_raw": "-10~-9",
-      "lower": "-10",
-      "properties": [],
-      "upper": "-9"
-    },
-    "framesOnHit": {
-      "_raw": "-1~0",
-      "lower": "-1",
-      "properties": [],
-      "upper": ""
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "sl,m",
+    "damage": "5,8",
+    "onBlock": "-10~-9",
+    "onHit": "-1~0",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 35,
+    "id": "Leroy-d+1,2,4",
+    "parent": "Leroy-d+1,2",
     "name": "Ru Huan Snap Kick",
     "input": "d+1,2,4",
-    "hitLevels": [
-      "sl",
-      "m",
-      "m"
-    ],
-    "damage": [
-      5,
-      8,
-      11
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "3",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "sl,m,m",
+    "damage": "5,8,11",
+    "onBlock": -9,
+    "onHit": 3,
+    "onCounterHit": null,
+    "states": null,
+    "index": 35
   },
   {
+    "id": "Leroy-d+2",
+    "parent": null,
+    "name": null,
     "input": "d+2",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      11
-    ],
-    "framesOnBlock": {
-      "_raw": "-13~-12",
-      "lower": "-13",
-      "properties": [],
-      "upper": "-12"
-    },
-    "framesOnHit": {
-      "_raw": "-2~-1",
-      "lower": "-2",
-      "properties": [],
-      "upper": "-1"
-    },
-    "framesOnCounter": {
-      "_raw": "+3~+4",
-      "lower": "+3",
-      "properties": [],
-      "upper": "+4"
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "l",
+    "damage": 11,
+    "onBlock": "-13~-12",
+    "onHit": "-2~-1",
+    "onCounterHit": "+3~+4",
+    "states": "cs",
+    "index": null
   },
   {
-    "index": 36,
+    "id": "Leroy-d+2,4",
+    "parent": "Leroy-d+2",
     "name": "Falling Fist Sweep",
     "input": "d+2,4",
-    "hitLevels": [
-      "l",
-      "l"
-    ],
-    "damage": [
-      11,
-      11
-    ],
-    "framesOnBlock": {
-      "_raw": "-13~-12",
-      "lower": "-13",
-      "properties": [],
-      "upper": "-12"
-    },
-    "framesOnHit": {
-      "_raw": "-2c",
-      "lower": "-2",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "+38d",
-      "lower": "+38",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "l,l",
+    "damage": "11,11",
+    "onBlock": "-13~-12",
+    "onHit": "-2c",
+    "onCounterHit": "+38d",
+    "states": "cs",
+    "index": 36
   },
   {
+    "id": "Leroy-d+3",
+    "parent": null,
+    "name": null,
     "input": "d+3",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      8
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "l",
+    "damage": 8,
+    "onBlock": -13,
+    "onHit": -2,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 37,
+    "id": "Leroy-d+3,2",
+    "parent": "Leroy-d+3",
     "name": "Twin Snake Strike",
     "input": "d+3,2",
-    "hitLevels": [
-      "l",
-      "h"
-    ],
-    "damage": [
-      8,
-      8
-    ],
-    "framesOnBlock": {
-      "_raw": "-3~-2",
-      "lower": "-3",
-      "properties": [],
-      "upper": "-2"
-    },
-    "framesOnHit": {
-      "_raw": "+8~+9",
-      "lower": "+8",
-      "properties": [],
-      "upper": "+9"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "l,h",
+    "damage": "8,8",
+    "onBlock": "-3~-2",
+    "onHit": "+8~+9",
+    "onCounterHit": null,
+    "states": null,
+    "index": 37
   },
   {
+    "id": "Leroy-d+4",
+    "parent": null,
+    "name": null,
     "input": "d+4",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      9
-    ],
-    "framesOnBlock": {
-      "_raw": "-12~-11",
-      "lower": "-12",
-      "properties": [],
-      "upper": "-11"
-    },
-    "framesOnHit": {
-      "_raw": "-1~0",
-      "lower": "-1",
-      "properties": [],
-      "upper": ""
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14~15",
-      "lower": "i14",
-      "properties": [],
-      "upper": "15"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14~15",
+    "hitLevels": "l",
+    "damage": 9,
+    "onBlock": "-12~-11",
+    "onHit": "-1~0",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 38,
+    "id": "Leroy-d+4,4",
+    "parent": "Leroy-d+4",
     "name": "Razor Kick",
     "input": "d+4,4",
-    "hitLevels": [
-      "l",
-      "m"
-    ],
-    "damage": [
-      9,
-      16
-    ],
-    "framesOnBlock": {
-      "_raw": "-11~-10",
-      "lower": "-11",
-      "properties": [],
-      "upper": "-10"
-    },
-    "framesOnHit": {
-      "_raw": "+1~+2",
-      "lower": "+1",
-      "properties": [],
-      "upper": "+2"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14~15",
-      "lower": "i14",
-      "properties": [],
-      "upper": "15"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14~15",
+    "hitLevels": "l,m",
+    "damage": "9,16",
+    "onBlock": "-11~-10",
+    "onHit": "+1~+2",
+    "onCounterHit": null,
+    "states": null,
+    "index": 38
   },
   {
+    "id": "Leroy-db+1",
+    "parent": null,
+    "name": null,
     "input": "db+1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-9~-8",
-      "lower": "-9",
-      "properties": [],
-      "upper": "-8"
-    },
-    "framesOnHit": {
-      "_raw": "+1~+2",
-      "lower": "+1",
-      "properties": [],
-      "upper": "+2"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16~17",
-      "lower": "i16",
-      "properties": [],
-      "upper": "17"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16~17",
+    "hitLevels": "m",
+    "damage": 12,
+    "onBlock": "-9~-8",
+    "onHit": "+1~+2",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 42,
+    "id": "Leroy-db+1,1+2",
+    "parent": "Leroy-db+1",
     "name": "Shadow Double Fist Punch",
     "input": "db+1,1+2",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      12,
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-10~-9",
-      "lower": "-10",
-      "properties": [],
-      "upper": "-9"
-    },
-    "framesOnHit": {
-      "_raw": "+23a (+18)",
-      "lower": "+23",
-      "properties": [
-        "a"
-      ],
-      "tech": "+18"
-    },
-    "framesOnCounter": {
-      "_raw": "+41a",
-      "lower": "+41",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i16~17",
-      "lower": "i16",
-      "properties": [],
-      "upper": "17"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16~17",
+    "hitLevels": "m,m",
+    "damage": "12,25",
+    "onBlock": "-10~-9",
+    "onHit": "+23a (+18)",
+    "onCounterHit": "+41a",
+    "states": null,
+    "index": 42
   },
   {
-    "index": 45,
+    "id": "Leroy-db+1+2",
+    "parent": null,
     "name": "Tan Sau Shui Yue Tu",
     "input": "db+1+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-11~-10",
-      "lower": "-11",
-      "properties": [],
-      "upper": "-10"
-    },
-    "framesOnHit": {
-      "_raw": "+36d (+15)",
-      "lower": "+36",
-      "properties": [
-        "d"
-      ],
-      "tech": "+15"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i32~33",
-      "lower": "i32",
-      "properties": [],
-      "upper": "33"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i32~33",
+    "hitLevels": "m",
+    "damage": 25,
+    "onBlock": "-11~-10",
+    "onHit": "+36d (+15)",
+    "onCounterHit": null,
+    "states": "ps4~20",
+    "index": 45
   },
   {
-    "index": 40,
+    "id": "Leroy-db+1,2",
+    "parent": "Leroy-db+1",
     "name": "Shadow Ram Punch",
     "input": "db+1,2",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      12,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-12~-11",
-      "lower": "-12",
-      "properties": [],
-      "upper": "-11"
-    },
-    "framesOnHit": {
-      "_raw": "+17a(+0)",
-      "lower": "+17",
-      "properties": [
-        "a"
-      ],
-      "tech": "+0"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16~17",
-      "lower": "i16",
-      "properties": [],
-      "upper": "17"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16~17",
+    "hitLevels": "m,m",
+    "damage": "12,20",
+    "onBlock": "-12~-11",
+    "onHit": "+17a(+0)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 40
   },
   {
-    "index": 41,
+    "id": "Leroy-db+1,3",
+    "parent": "Leroy-db+1",
     "name": "Shadow Raccoon Swing",
     "input": "db+1,3",
-    "hitLevels": [
-      "m",
-      "h"
-    ],
-    "damage": [
-      12,
-      17
-    ],
-    "framesOnBlock": {
-      "_raw": "0~+1",
-      "lower": "",
-      "properties": [],
-      "upper": "+1"
-    },
-    "framesOnHit": {
-      "_raw": "+8~+9",
-      "lower": "+8",
-      "properties": [],
-      "upper": "+9"
-    },
-    "framesOnCounter": {
-      "_raw": "+31a",
-      "lower": "+31",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i16~17",
-      "lower": "i16",
-      "properties": [],
-      "upper": "17"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16~17",
+    "hitLevels": "m,h",
+    "damage": "12,17",
+    "onBlock": "0~+1",
+    "onHit": "+8~+9",
+    "onCounterHit": "+31a",
+    "states": null,
+    "index": 41
   },
   {
-    "index": 88,
+    "id": "Leroy-db+2+3",
+    "parent": null,
     "name": "Master&#039;s Sermon",
     "input": "db+2+3",
-    "hitLevels": [
-      "lm"
-    ],
-    "damage": [
-      10,
-      149
-    ],
-    "framesOnBlock": {
-      "_raw": "-14",
-      "lower": "-14",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+67a (+51)",
-      "lower": "+67",
-      "properties": [
-        "a"
-      ],
-      "tech": "+51"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20~21",
-      "lower": "i20",
-      "properties": [],
-      "upper": "21"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20~21",
+    "hitLevels": "lm",
+    "damage": "10,14 (9)",
+    "onBlock": -14,
+    "onHit": "+67a (+51)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 88
   },
   {
-    "index": 43,
+    "id": "Leroy-db+3",
+    "parent": null,
     "name": "Amputation Kick",
     "input": "db+3",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-8~-7",
-      "lower": "-8",
-      "properties": [],
-      "upper": "-7"
-    },
-    "framesOnHit": {
-      "_raw": "+5~+6",
-      "lower": "+5",
-      "properties": [],
-      "upper": "+6"
-    },
-    "framesOnCounter": {
-      "_raw": "+14c",
-      "lower": "+14",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i20~21",
-      "lower": "i20",
-      "properties": [],
-      "upper": "21"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20~21",
+    "hitLevels": "l",
+    "damage": 12,
+    "onBlock": "-8~-7",
+    "onHit": "+5~+6",
+    "onCounterHit": "+14c",
+    "states": "cs",
+    "index": 43
   },
   {
-    "index": 44,
+    "id": "Leroy-db+4",
+    "parent": null,
     "name": "Fan Sweep",
     "input": "db+4",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      13
-    ],
-    "framesOnBlock": {
-      "_raw": "-15",
-      "lower": "-15",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-4c",
-      "lower": "-4",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "[[Leroy combos#Mini-combos|+36d]]",
-      "lower": "+36",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i17",
-      "lower": "i17",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17",
+    "hitLevels": "l",
+    "damage": 13,
+    "onBlock": -15,
+    "onHit": "-4c",
+    "onCounterHit": "[[Leroy combos#Mini-combos|+36d]]",
+    "states": "cs",
+    "index": 44
   },
   {
+    "id": "Leroy-df+1",
+    "parent": null,
+    "name": null,
     "input": "df+1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "5",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13~14",
-      "lower": "i13",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13~14",
+    "hitLevels": "m",
+    "damage": 10,
+    "onBlock": -6,
+    "onHit": 5,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Leroy-df+1,1+2",
+    "parent": "Leroy-df+1",
+    "name": null,
     "input": "df+1,1+2",
-    "hitLevels": [
-      "m",
-      "h"
-    ],
-    "damage": [
-      10,
-      9
-    ],
-    "framesOnBlock": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "4",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13~14",
-      "lower": "i13",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13~14",
+    "hitLevels": "m,h",
+    "damage": "10,9",
+    "onBlock": -2,
+    "onHit": 4,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 30,
+    "id": "Leroy-df+1,1+2,2",
+    "parent": "Leroy-df+1,1+2",
     "name": "Admonishment Whirl",
     "input": "df+1,1+2,2",
-    "hitLevels": [
-      "m",
-      "hnull"
-    ],
-    "damage": [
-      10,
-      9,
-      17
-    ],
-    "framesOnBlock": {
-      "_raw": "-10",
-      "lower": "-10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "3",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+33d (-25)",
-      "lower": "+33",
-      "properties": [
-        "d"
-      ],
-      "tech": "-25"
-    },
-    "framesOnStartup": {
-      "_raw": "i13~14",
-      "lower": "i13",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13~14",
+    "hitLevels": "m,hnull",
+    "damage": "10,9,17",
+    "onBlock": -10,
+    "onHit": 3,
+    "onCounterHit": "+33d (-25)",
+    "states": "ps4~12",
+    "index": 30
   },
   {
-    "index": 29,
+    "id": "Leroy-df+1,4",
+    "parent": "Leroy-df+1",
     "name": "Chopping Snap Kick",
     "input": "df+1,4",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      10,
-      16
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "3",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13~14",
-      "lower": "i13",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13~14",
+    "hitLevels": "m,m",
+    "damage": "10,16",
+    "onBlock": -9,
+    "onHit": 3,
+    "onCounterHit": null,
+    "states": null,
+    "index": 29
   },
   {
+    "id": "Leroy-df+2",
+    "parent": null,
+    "name": null,
     "input": "df+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      7
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "6",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "m",
+    "damage": 7,
+    "onBlock": -6,
+    "onHit": 6,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 31,
+    "id": "Leroy-df+2,1+2",
+    "parent": "Leroy-df+2",
     "name": "Rising Dragons",
     "input": "df+2,1+2",
-    "hitLevels": [
-      "m",
-      "hm"
-    ],
-    "damage": [
-      7,
-      5,
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-18",
-      "lower": "-18",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+33 (+23)",
-      "lower": "+33",
-      "properties": [],
-      "tech": "+23"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "m,hm",
+    "damage": "7,5,10",
+    "onBlock": -18,
+    "onHit": "+33 (+23)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 31
   },
   {
+    "id": "Leroy-df+3",
+    "parent": null,
+    "name": null,
     "input": "df+3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      14
-    ],
-    "framesOnBlock": {
-      "_raw": "-11",
-      "lower": "-11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "m",
+    "damage": 14,
+    "onBlock": -11,
+    "onHit": 0,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Leroy-df+3,1",
+    "parent": "Leroy-df+3",
+    "name": null,
     "input": "df+3,1",
-    "hitLevels": [
-      "m",
-      "h"
-    ],
-    "damage": [
-      14,
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "6",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "m,h",
+    "damage": "14,12",
+    "onBlock": 0,
+    "onHit": 6,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 32,
+    "id": "Leroy-df+3,1,1+2",
+    "parent": "Leroy-df+3,1",
     "name": "Poison Strike",
     "input": "df+3,1,1+2",
-    "hitLevels": [
-      "m",
-      "h",
-      "m"
-    ],
-    "damage": [
-      14,
-      12,
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+34 (+13)",
-      "lower": "+34",
-      "properties": [],
-      "tech": "+13"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "m,h,m",
+    "damage": "14,12,25",
+    "onBlock": -13,
+    "onHit": "+34 (+13)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 32
   },
   {
-    "index": 34,
+    "id": "Leroy-df+3+4",
+    "parent": null,
     "name": "Jawbreaker Bow Kick",
     "input": "df+3+4",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+70a(+54)~+71a(+55)",
-      "lower": "+70",
-      "properties": [
-        "a",
-        "a"
-      ],
-      "tech": "+54",
-      "upper": "+71"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18~19",
-      "lower": "i18",
-      "properties": [],
-      "upper": "19"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18~19",
+    "hitLevels": "h",
+    "damage": 23,
+    "onBlock": -2,
+    "onHit": "+70a(+54)~+71a(+55)",
+    "onCounterHit": null,
+    "states": "cs, js",
+    "index": 34
   },
   {
+    "id": "Leroy-df+4",
+    "parent": null,
+    "name": null,
     "input": "df+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      14
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "6",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13",
-      "lower": "i13",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13",
+    "hitLevels": "m",
+    "damage": 14,
+    "onBlock": -6,
+    "onHit": 6,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 33,
+    "id": "Leroy-df+4,3",
+    "parent": "Leroy-df+4",
     "name": "Snap Kick Knee",
     "input": "df+4,3",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      14,
-      14
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "7",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+37d (+29)",
-      "lower": "+37",
-      "properties": [
-        "d"
-      ],
-      "tech": "+29"
-    },
-    "framesOnStartup": {
-      "_raw": "i13",
-      "lower": "i13",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13",
+    "hitLevels": "m,m",
+    "damage": "14,14",
+    "onBlock": -9,
+    "onHit": 7,
+    "onCounterHit": "+37d (+29)",
+    "states": null,
+    "index": 33
   },
   {
-    "index": 28,
+    "id": "Leroy-f+1+2",
+    "parent": null,
     "name": "Dragon Elbow Crash",
     "input": "f+1+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+20a (+15)",
-      "lower": "+20",
-      "properties": [
-        "a"
-      ],
-      "tech": "+15"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17~18",
-      "lower": "i17",
-      "properties": [],
-      "upper": "18"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17~18",
+    "hitLevels": "m",
+    "damage": 20,
+    "onBlock": -13,
+    "onHit": "+20a (+15)",
+    "onCounterHit": null,
+    "states": "pc",
+    "index": 28
   },
   {
+    "id": "Leroy-f+2",
+    "parent": null,
+    "name": null,
     "input": "f+2",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "-9~-7",
-      "lower": "-9",
-      "properties": [],
-      "upper": "-7"
-    },
-    "framesOnHit": {
-      "_raw": "+2~+4",
-      "lower": "+2",
-      "properties": [],
-      "upper": "+4"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14~16",
-      "lower": "i14",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14~16",
+    "hitLevels": "h",
+    "damage": 15,
+    "onBlock": "-9~-7",
+    "onHit": "+2~+4",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 87,
+    "id": "Leroy-f+2+3",
+    "parent": null,
     "name": "Master&#039;s Lesson",
     "input": "f+2+3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      35
-    ],
-    "framesOnBlock": {
-      "_raw": "-7",
-      "lower": "-7",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+73a",
-      "lower": "+73",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16~17",
-      "lower": "i16",
-      "properties": [],
-      "upper": "17"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16~17",
+    "hitLevels": "m",
+    "damage": 35,
+    "onBlock": -7,
+    "onHit": "+73a",
+    "onCounterHit": null,
+    "states": null,
+    "index": 87
   },
   {
+    "id": "Leroy-f+2,3",
+    "parent": "Leroy-f+2",
+    "name": null,
     "input": "f+2,3",
-    "hitLevels": [
-      "h",
-      "m"
-    ],
-    "damage": [
-      1515
-    ],
-    "framesOnBlock": {
-      "_raw": "-10",
-      "lower": "-10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "2",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14~16",
-      "lower": "i14",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14~16",
+    "hitLevels": "h,m",
+    "damage": "1515",
+    "onBlock": -10,
+    "onHit": 2,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 25,
+    "id": "Leroy-f+2,3,4",
+    "parent": "Leroy-f+2,3",
     "name": "Lone Dragon Storm",
     "input": "f+2,3,4",
-    "hitLevels": [
-      "h",
-      "m",
-      "m"
-    ],
-    "damage": [
-      151520
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "8",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+38d (+30)",
-      "lower": "+38",
-      "properties": [
-        "d"
-      ],
-      "tech": "+30"
-    },
-    "framesOnStartup": {
-      "_raw": "i14~16",
-      "lower": "i14",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14~16",
+    "hitLevels": "h,m,m",
+    "damage": "151520",
+    "onBlock": -9,
+    "onHit": 8,
+    "onCounterHit": "+38d (+30)",
+    "states": null,
+    "index": 25
   },
   {
+    "id": "Leroy-f+3",
+    "parent": null,
+    "name": null,
     "input": "f+3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      14
-    ],
-    "framesOnBlock": {
-      "_raw": "-7~-6",
-      "lower": "-7",
-      "properties": [],
-      "upper": "-6"
-    },
-    "framesOnHit": {
-      "_raw": "+7~+8",
-      "lower": "+7",
-      "properties": [],
-      "upper": "+8"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14~15",
-      "lower": "i14",
-      "properties": [],
-      "upper": "15"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14~15",
+    "hitLevels": "m",
+    "damage": 14,
+    "onBlock": "-7~-6",
+    "onHit": "+7~+8",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Leroy-f+3,1+2",
+    "parent": "Leroy-f+3",
+    "name": null,
     "input": "f+3,1+2",
-    "hitLevels": [
-      "m",
-      "h"
-    ],
-    "damage": [
-      1415
-    ],
-    "framesOnBlock": {
-      "_raw": "-8",
-      "lower": "-8",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14~15",
-      "lower": "i14",
-      "properties": [],
-      "upper": "15"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14~15",
+    "hitLevels": "m,h",
+    "damage": "1415",
+    "onBlock": -8,
+    "onHit": -6,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 26,
+    "id": "Leroy-f+3,1+2,4",
+    "parent": "Leroy-f+3,1+2",
     "name": "Strike of the Five Precepts",
     "input": "f+3,1+2,4",
-    "hitLevels": [
-      "m",
-      "h",
-      "m"
-    ],
-    "damage": [
-      1415,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-16~-15",
-      "lower": "-16",
-      "properties": [],
-      "upper": "-15"
-    },
-    "framesOnHit": {
-      "_raw": "+13a (+6)",
-      "lower": "+13",
-      "properties": [
-        "a"
-      ],
-      "tech": "+6"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14~15",
-      "lower": "i14",
-      "properties": [],
-      "upper": "15"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14~15",
+    "hitLevels": "m,h,m",
+    "damage": "1415,20",
+    "onBlock": "-16~-15",
+    "onHit": "+13a (+6)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 26
   },
   {
+    "id": "Leroy-f+4",
+    "parent": null,
+    "name": null,
     "input": "f+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      14
-    ],
-    "framesOnBlock": {
-      "_raw": "-9~-8",
-      "lower": "-9",
-      "properties": [],
-      "upper": "-8"
-    },
-    "framesOnHit": {
-      "_raw": "4",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16~17",
-      "lower": "i16",
-      "properties": [],
-      "upper": "17"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16~17",
+    "hitLevels": "m",
+    "damage": 14,
+    "onBlock": "-9~-8",
+    "onHit": 4,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 27,
+    "id": "Leroy-f+4,4",
+    "parent": "Leroy-f+4",
     "name": "Lao Weng Xuan Feng Jiao",
     "input": "f+4,4",
-    "hitLevels": [
-      "m",
-      "h"
-    ],
-    "damage": [
-      14,
-      24
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+20a (+11) / HE",
-      "lower": "+20",
-      "properties": [
-        "a"
-      ],
-      "tech": "+11"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16~17",
-      "lower": "i16",
-      "properties": [],
-      "upper": "17"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16~17",
+    "hitLevels": "m,h",
+    "damage": "14,24",
+    "onBlock": -6,
+    "onHit": "+20a (+11) / HE",
+    "onCounterHit": null,
+    "states": "js",
+    "index": 27
   },
   {
+    "id": "Leroy-FC.df+4",
+    "parent": null,
+    "name": null,
     "input": "FC.df+4",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      14
-    ],
-    "framesOnBlock": {
-      "_raw": "-13~-12",
-      "lower": "-13",
-      "properties": [],
-      "upper": "-12"
-    },
-    "framesOnHit": {
-      "_raw": "-2~-1",
-      "lower": "-2",
-      "properties": [],
-      "upper": "-1"
-    },
-    "framesOnCounter": {
-      "_raw": "+3~+4",
-      "lower": "+3",
-      "properties": [],
-      "upper": "+4"
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "l",
+    "damage": 14,
+    "onBlock": "-13~-12",
+    "onHit": "-2~-1",
+    "onCounterHit": "+3~+4",
+    "states": "cs",
+    "index": null
   },
   {
-    "index": 72,
+    "id": "Leroy-FC.df+4,1",
+    "parent": "Leroy-FC.df+4",
     "name": "Reverse Cross Kick",
     "input": "FC.df+4,1",
-    "hitLevels": [
-      "l",
-      "m"
-    ],
-    "damage": [
-      14,
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "-13~-12",
-      "lower": "-13",
-      "properties": [],
-      "upper": "-12"
-    },
-    "framesOnHit": {
-      "_raw": "[[Leroy_combos#Staples|+31a (+21)]]",
-      "lower": "+31",
-      "properties": [
-        "a"
-      ],
-      "tech": "+21"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "l,m",
+    "damage": "14,15",
+    "onBlock": "-13~-12",
+    "onHit": "[[Leroy_combos#Staples|+31a (+21)]]",
+    "onCounterHit": null,
+    "states": null,
+    "index": 72
   },
   {
+    "id": "Leroy-f,F+2",
+    "parent": null,
+    "name": null,
     "input": "f,F+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      8
-    ],
-    "framesOnBlock": {
-      "_raw": "-11~-10",
-      "lower": "-11",
-      "properties": [],
-      "upper": "-10"
-    },
-    "framesOnHit": {
-      "_raw": "0~+1",
-      "lower": "",
-      "properties": [],
-      "upper": "+1"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14~15",
-      "lower": "i14",
-      "properties": [],
-      "upper": "15"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14~15",
+    "hitLevels": "m",
+    "damage": 8,
+    "onBlock": "-11~-10",
+    "onHit": "0~+1",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 59,
+    "id": "Leroy-f,F+2,2",
+    "parent": "Leroy-f,F+2",
     "name": "Cleansing Arrow",
     "input": "f,F+2,2",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      8,
-      13
-    ],
-    "framesOnBlock": {
-      "_raw": "-15~-14",
-      "lower": "-15",
-      "properties": [],
-      "upper": "-14"
-    },
-    "framesOnHit": {
-      "_raw": "+55~+56",
-      "lower": "+55",
-      "properties": [],
-      "upper": "+56"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14~15",
-      "lower": "i14",
-      "properties": [],
-      "upper": "15"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14~15",
+    "hitLevels": "m,m",
+    "damage": "8,13",
+    "onBlock": "-15~-14",
+    "onHit": "+55~+56",
+    "onCounterHit": null,
+    "states": null,
+    "index": 59
   },
   {
-    "index": 60,
+    "id": "Leroy-f,F+3",
+    "parent": null,
     "name": "Viper Bow Kick",
     "input": "f,F+3",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "-2~+3",
-      "lower": "-2",
-      "properties": [],
-      "upper": "+3"
-    },
-    "framesOnHit": {
-      "_raw": "+33d(+25)~+38d(+30)",
-      "lower": "+33",
-      "properties": [
-        "d",
-        "d"
-      ],
-      "tech": "+25",
-      "upper": "+38"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18~23",
-      "lower": "i18",
-      "properties": [],
-      "upper": "23"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18~23",
+    "hitLevels": "h",
+    "damage": 23,
+    "onBlock": "-2~+3",
+    "onHit": "+33d(+25)~+38d(+30)",
+    "onCounterHit": null,
+    "states": "js",
+    "index": 60
   },
   {
+    "id": "Leroy-f,F+4",
+    "parent": null,
+    "name": null,
     "input": "f,F+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      16
-    ],
-    "framesOnBlock": {
-      "_raw": "-4~-3",
-      "lower": "-4",
-      "properties": [],
-      "upper": "-3"
-    },
-    "framesOnHit": {
-      "_raw": "+9~+10g",
-      "lower": "+9",
-      "properties": [
-        "g"
-      ],
-      "upper": "+10"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16~17",
-      "lower": "i16",
-      "properties": [],
-      "upper": "17"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16~17",
+    "hitLevels": "m",
+    "damage": 16,
+    "onBlock": "-4~-3",
+    "onHit": "+9~+10g",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 61,
+    "id": "Leroy-f,F+4,2",
+    "parent": "Leroy-f,F+4",
     "name": "Sacrum Severance",
     "input": "f,F+4,2",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      16,
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-14~-13",
-      "lower": "-14",
-      "properties": [],
-      "upper": "-13"
-    },
-    "framesOnHit": {
-      "_raw": "+34a (+19)",
-      "lower": "+34",
-      "properties": [
-        "a"
-      ],
-      "tech": "+19"
-    },
-    "framesOnCounter": {
-      "_raw": "+43a (-33)",
-      "lower": "+43",
-      "properties": [
-        "a"
-      ],
-      "tech": "-33"
-    },
-    "framesOnStartup": {
-      "_raw": "i16~17",
-      "lower": "i16",
-      "properties": [],
-      "upper": "17"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16~17",
+    "hitLevels": "m,m",
+    "damage": "16,21",
+    "onBlock": "-14~-13",
+    "onHit": "+34a (+19)",
+    "onCounterHit": "+43a (-33)",
+    "states": null,
+    "index": 61
   },
   {
-    "index": 64,
+    "id": "Leroy-f,f,F+3",
+    "parent": null,
     "name": "Dragon&#039;s Heel",
     "input": "f,f,F+3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      30
-    ],
-    "framesOnBlock": {
-      "_raw": "+6~+9",
-      "lower": "+6",
-      "properties": [],
-      "upper": "+9"
-    },
-    "framesOnHit": {
-      "_raw": "+41d(-17)~+44(-11)",
-      "lower": "+41",
-      "properties": [
-        "d"
-      ],
-      "tech": "-17",
-      "upper": "+44"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i24~27",
-      "lower": "i24",
-      "properties": [],
-      "upper": "27"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i24~27",
+    "hitLevels": "m",
+    "damage": 30,
+    "onBlock": "+6~+9",
+    "onHit": "+41d(-17)~+44(-11)",
+    "onCounterHit": null,
+    "states": "js",
+    "index": 64
   },
   {
+    "id": "Leroy-H.2+3",
+    "parent": null,
     "name": "Twin Dragon Thunderclap",
     "input": "H.2+3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      5025
-    ],
-    "framesOnBlock": {
-      "_raw": "6",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m",
+    "damage": "50 (25)",
+    "onBlock": 6,
+    "onHit": 0,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 76,
+    "id": "Leroy-HRM.1",
+    "parent": null,
     "name": "Tan Zhang",
     "input": "HRM.1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      17
-    ],
-    "framesOnBlock": {
-      "_raw": "-10~-9",
-      "lower": "-10",
-      "properties": [],
-      "upper": "-9"
-    },
-    "framesOnHit": {
-      "_raw": "0~+1",
-      "lower": "",
-      "properties": [],
-      "upper": "+1"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i24~25",
-      "lower": "i24",
-      "properties": [],
-      "upper": "25"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i24~25",
+    "hitLevels": "m",
+    "damage": 17,
+    "onBlock": "-10~-9",
+    "onHit": "0~+1",
+    "onCounterHit": null,
+    "states": "ps3~12",
+    "index": 76
   },
   {
+    "id": "Leroy-HRM.1+2",
+    "parent": null,
+    "name": null,
     "input": "HRM.1+2",
-    "hitLevels": [
-      "m",
-      "h",
-      "h",
-      "h"
-    ],
-    "damage": [
-      3,
-      3,
-      3,
-      3
-    ],
-    "framesOnBlock": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "5",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14",
-      "lower": "i14",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14",
+    "hitLevels": "m,h,h,h",
+    "damage": "3,3,3,3",
+    "onBlock": -2,
+    "onHit": 5,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 80,
+    "id": "Leroy-HRM.1+2,1",
+    "parent": "Leroy-HRM.1+2",
     "name": "Chain Punch: Root",
     "input": "HRM.1+2,1",
-    "hitLevels": [
-      "m",
-      "h",
-      "h",
-      "h",
-      "m"
-    ],
-    "damage": [
-      3,
-      3,
-      3,
-      3,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-17",
-      "lower": "-17",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+7a(-2)/HE",
-      "lower": "+7",
-      "properties": [
-        "a"
-      ],
-      "tech": "-2"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14",
-      "lower": "i14",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14",
+    "hitLevels": "m,h,h,h,m",
+    "damage": "3,3,3,3,20",
+    "onBlock": -17,
+    "onHit": "+7a(-2)/HE",
+    "onCounterHit": null,
+    "states": null,
+    "index": 80
   },
   {
+    "id": "Leroy-HRM.2",
+    "parent": null,
+    "name": null,
     "input": "HRM.2",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      14
-    ],
-    "framesOnBlock": {
-      "_raw": "-6~-5",
-      "lower": "-6",
-      "properties": [],
-      "upper": "-5"
-    },
-    "framesOnHit": {
-      "_raw": "+5~+6",
-      "lower": "+5",
-      "properties": [],
-      "upper": "+6"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12~13",
-      "lower": "i12",
-      "properties": [],
-      "upper": "13"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12~13",
+    "hitLevels": "h",
+    "damage": 14,
+    "onBlock": "-6~-5",
+    "onHit": "+5~+6",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 77,
+    "id": "Leroy-HRM.2,3",
+    "parent": "Leroy-HRM.2",
     "name": "Double Jawbreaker",
     "input": "HRM.2,3",
-    "hitLevels": [
-      "h",
-      "h"
-    ],
-    "damage": [
-      14,
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "-9~-8",
-      "lower": "-9",
-      "properties": [],
-      "upper": "-8"
-    },
-    "framesOnHit": {
-      "_raw": "+16a (+9)",
-      "lower": "+16",
-      "properties": [
-        "a"
-      ],
-      "tech": "+9"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12~13",
-      "lower": "i12",
-      "properties": [],
-      "upper": "13"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12~13",
+    "hitLevels": "h,h",
+    "damage": "14,23",
+    "onBlock": "-9~-8",
+    "onHit": "+16a (+9)",
+    "onCounterHit": null,
+    "states": "js",
+    "index": 77
   },
   {
+    "id": "Leroy-HRM.3",
+    "parent": null,
+    "name": null,
     "input": "HRM.3",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      8
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "l",
+    "damage": 8,
+    "onBlock": -13,
+    "onHit": -2,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 78,
+    "id": "Leroy-HRM.3,4",
+    "parent": "Leroy-HRM.3",
     "name": "Stampeding Dragon",
     "input": "HRM.3,4",
-    "hitLevels": [
-      "l",
-      "m"
-    ],
-    "damage": [
-      8,
-      16
-    ],
-    "framesOnBlock": {
-      "_raw": "-15~-14",
-      "lower": "-15",
-      "properties": [],
-      "upper": "-14"
-    },
-    "framesOnHit": {
-      "_raw": "+1~+2",
-      "lower": "+1",
-      "properties": [],
-      "upper": "+2"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "l,m",
+    "damage": "8,16",
+    "onBlock": "-15~-14",
+    "onHit": "+1~+2",
+    "onCounterHit": null,
+    "states": null,
+    "index": 78
   },
   {
+    "id": "Leroy-HRM.4",
+    "parent": null,
+    "name": null,
     "input": "HRM.4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      13
-    ],
-    "framesOnBlock": {
-      "_raw": "-7~-6",
-      "lower": "-7",
-      "properties": [],
-      "upper": "-6"
-    },
-    "framesOnHit": {
-      "_raw": "+7~+8",
-      "lower": "+7",
-      "properties": [],
-      "upper": "+8"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i11~12",
-      "lower": "i11",
-      "properties": [],
-      "upper": "12"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i11~12",
+    "hitLevels": "m",
+    "damage": 13,
+    "onBlock": "-7~-6",
+    "onHit": "+7~+8",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 79,
+    "id": "Leroy-HRM.4,1+2",
+    "parent": "Leroy-HRM.4",
     "name": "Cautious Dragon",
     "input": "HRM.4,1+2",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      13,
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-14~-13",
-      "lower": "-14",
-      "properties": [],
-      "upper": "-13"
-    },
-    "framesOnHit": {
-      "_raw": "+27a (+12)",
-      "lower": "+27",
-      "properties": [
-        "a"
-      ],
-      "tech": "+12"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i11~12",
-      "lower": "i11",
-      "properties": [],
-      "upper": "12"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i11~12",
+    "hitLevels": "m,m",
+    "damage": "13,25",
+    "onBlock": "-14~-13",
+    "onHit": "+27a (+12)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 79
   },
   {
-    "index": 83,
+    "id": "Leroy-HRM.b+1",
+    "parent": null,
     "name": "Prayer Fist",
     "input": "HRM.b+1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "4",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+7c",
-      "lower": "+7",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "[[Leroy_combos#Staples|+52a]]",
-      "lower": "+52",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i20~22",
-      "lower": "i20",
-      "properties": [],
-      "upper": "22"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20~22",
+    "hitLevels": "m",
+    "damage": 21,
+    "onBlock": 4,
+    "onHit": "+7c",
+    "onCounterHit": "[[Leroy_combos#Staples|+52a]]",
+    "states": null,
+    "index": 83
   },
   {
+    "id": "Leroy-HRM.b+3",
+    "parent": null,
+    "name": null,
     "input": "HRM.b+3",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-31",
-      "lower": "-31",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20~21",
-      "lower": "i20",
-      "properties": [],
-      "upper": "21"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20~21",
+    "hitLevels": "l",
+    "damage": 12,
+    "onBlock": -31,
+    "onHit": -9,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 84,
+    "id": "Leroy-HRM.b+3,1+2",
+    "parent": "Leroy-HRM.b+3",
     "name": "Twin Dragon Acceptance",
     "input": "HRM.b+3,1+2",
-    "hitLevels": [
-      "l",
-      "m"
-    ],
-    "damage": [
-      12,
-      27
-    ],
-    "framesOnBlock": {
-      "_raw": "-16",
-      "lower": "-16",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0a (-1)",
-      "lower": "+0",
-      "properties": [
-        "a"
-      ],
-      "tech": "-1"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20~21",
-      "lower": "i20",
-      "properties": [],
-      "upper": "21"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20~21",
+    "hitLevels": "l,m",
+    "damage": "12,27",
+    "onBlock": -16,
+    "onHit": "+0a (-1)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 84
   },
   {
-    "index": 85,
+    "id": "Leroy-HRM.b+4",
+    "parent": null,
     "name": "Razor Sweep",
     "input": "HRM.b+4",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      17
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+4c",
-      "lower": "+4",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "[[Leroy_combos#Staples|+28a]]",
-      "lower": "+28",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i20~21",
-      "lower": "i20",
-      "properties": [],
-      "upper": "21"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20~21",
+    "hitLevels": "l",
+    "damage": 17,
+    "onBlock": -13,
+    "onHit": "+4c",
+    "onCounterHit": "[[Leroy_combos#Staples|+28a]]",
+    "states": "cs",
+    "index": 85
   },
   {
-    "index": 86,
+    "id": "Leroy-HRM.d",
+    "parent": null,
     "name": "Nimble Shift",
     "input": "HRM.SS",
-    "hitLevels": [
-      "sp"
-    ],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": "sp",
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": 86
   },
   {
-    "index": 81,
+    "id": "Leroy-HRM.f+1",
+    "parent": null,
     "name": "Villain Slayer",
     "input": "HRM.f+1",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      17
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+15g",
-      "lower": "+15",
-      "properties": [
-        "g"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14~15",
-      "lower": "i14",
-      "properties": [],
-      "upper": "15"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14~15",
+    "hitLevels": "h",
+    "damage": 17,
+    "onBlock": 0,
+    "onHit": "+15g",
+    "onCounterHit": null,
+    "states": null,
+    "index": 81
   },
   {
-    "index": 82,
+    "id": "Leroy-HRM.f+4",
+    "parent": null,
     "name": "Duan Tou Xuan Feng Jiao",
     "input": "HRM.f+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "[[Leroy_combos#Staples|+40a]]",
-      "lower": "+40",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i26~29",
-      "lower": "i26",
-      "properties": [],
-      "upper": "29"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i26~29",
+    "hitLevels": "m",
+    "damage": 21,
+    "onBlock": 0,
+    "onHit": "[[Leroy_combos#Staples|+40a]]",
+    "onCounterHit": null,
+    "states": "js",
+    "index": 82
   },
   {
+    "id": "Leroy-HRM.SS.1+2",
+    "parent": null,
     "name": "Chain Punch: Seed",
     "input": "HRM.SS.1+2",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      26
-    ],
-    "framesOnBlock": {
-      "_raw": "7",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+30g",
-      "lower": "+30",
-      "properties": [
-        "g"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14",
-      "lower": "i14",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14",
+    "hitLevels": "h",
+    "damage": 26,
+    "onBlock": 7,
+    "onHit": "+30g",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Leroy-Left throw",
+    "parent": null,
     "name": "Devastating Chain Punch",
-    "input": "Leftthrow",
-    "hitLevels": [
-      "th(h)"
-    ],
-    "damage": [
-      40
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12~14",
-      "lower": "i12",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": "Left throw",
+    "startup": "i12~14",
+    "hitLevels": "th(h)",
+    "damage": 40,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Leroy-OTG.db+2",
+    "parent": null,
+    "name": null,
     "input": "OTG.db+2",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "-16",
-      "lower": "-16",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-5",
-      "lower": "-5",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17~18",
-      "lower": "i17",
-      "properties": [],
-      "upper": "18"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17~18",
+    "hitLevels": "l",
+    "damage": null,
+    "onBlock": -16,
+    "onHit": -5,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Leroy-OTG.db+2,1+2",
+    "parent": "Leroy-OTG.db+2",
     "name": "Tremor Punch",
     "input": "OTG.db+2,1+2",
-    "hitLevels": [
-      "l",
-      "l"
-    ],
-    "damage": [
-      null
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17~18",
-      "lower": "i17",
-      "properties": [],
-      "upper": "18"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17~18",
+    "hitLevels": "l,l",
+    "damage": "nullnull",
+    "onBlock": -13,
+    "onHit": -2,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Leroy-P:b+2",
+    "parent": null,
     "name": "Superior Twin Dragon Gate",
     "input": "P:b+2",
-    "hitLevels": [
-      "sp"
-    ],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": "sp",
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Leroy-P.b+2,1",
+    "parent": null,
     "name": "Chain Punch: Branch",
     "input": "P.b+2,1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      35
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+21g",
-      "lower": "+21",
-      "properties": [
-        "g"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13",
-      "lower": "i13",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13",
+    "hitLevels": "m",
+    "damage": 35,
+    "onBlock": null,
+    "onHit": "+21g",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Leroy-P:b+2,1",
+    "parent": null,
     "name": "Superior Chain Punch: Branch",
     "input": "P:b+2,1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      40
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+29a",
-      "lower": "+29",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13",
-      "lower": "i13",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13",
+    "hitLevels": "m",
+    "damage": 40,
+    "onBlock": null,
+    "onHit": "+29a",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 62,
+    "id": "Leroy-qcf+2",
+    "parent": null,
     "name": "Chakra Elbow",
     "input": "d,df,f+2",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-6~-5",
-      "lower": "-6",
-      "properties": [],
-      "upper": "-5"
-    },
-    "framesOnHit": {
-      "_raw": "+29a (+22)",
-      "lower": "+29",
-      "properties": [
-        "a"
-      ],
-      "tech": "+22"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16~17",
-      "lower": "i16",
-      "properties": [],
-      "upper": "17"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16~17",
+    "hitLevels": "h",
+    "damage": 20,
+    "onBlock": "-6~-5",
+    "onHit": "+29a (+22)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 62
   },
   {
-    "index": 63,
+    "id": "Leroy-qcf+3+4,F",
+    "parent": null,
     "name": "Piercing Charge",
     "input": "d,df,f+3+4,F",
-    "hitLevels": [
-      "ub(m)"
-    ],
-    "damage": [
-      80
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-1~0d",
-      "lower": "-1",
-      "properties": [],
-      "upper": ""
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i56~57",
-      "lower": "i56",
-      "properties": [],
-      "upper": "57"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i56~57",
+    "hitLevels": "ub(m)",
+    "damage": 80,
+    "onBlock": null,
+    "onHit": "-1~0d",
+    "onCounterHit": null,
+    "states": "ps20~60",
+    "index": 63
   },
   {
+    "id": "Leroy-R.df+1+2",
+    "parent": null,
     "name": "Dark Dragon Commandment",
     "input": "R.df+1+2",
-    "hitLevels": [
-      "m",
-      "t"
-    ],
-    "damage": [
-      55
-    ],
-    "framesOnBlock": {
-      "_raw": "-15",
-      "lower": "-15",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20",
-      "lower": "i20",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20",
+    "hitLevels": "m,t",
+    "damage": "55+",
+    "onBlock": -15,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": "pc8~",
+    "index": null
   },
   {
+    "id": "Leroy-Right throw",
+    "parent": null,
     "name": "Corkscrew Strike",
-    "input": "Rightthrow",
-    "hitLevels": [
-      "th(h)"
-    ],
-    "damage": [
-      40
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12~14",
-      "lower": "i12",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": "Right throw",
+    "startup": "i12~14",
+    "hitLevels": "th(h)",
+    "damage": 40,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 74,
+    "id": "Leroy-SS.1+2",
+    "parent": null,
     "name": "Chain Punch: Seed",
     "input": "SS.1+2",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      26
-    ],
-    "framesOnBlock": {
-      "_raw": "7",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+30g",
-      "lower": "+30",
-      "properties": [
-        "g"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14",
-      "lower": "i14",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14",
+    "hitLevels": "h",
+    "damage": 26,
+    "onBlock": 7,
+    "onHit": "+30g",
+    "onCounterHit": null,
+    "states": null,
+    "index": 74
   },
   {
-    "index": 73,
+    "id": "Leroy-SS.4",
+    "parent": null,
     "name": "Lone Dragon Slice",
     "input": "SS.4",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      17
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "4",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "[[Leroy_combos#Mini-combos|+14]]",
-      "lower": "+14",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18~19",
-      "lower": "i18",
-      "properties": [],
-      "upper": "19"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18~19",
+    "hitLevels": "l",
+    "damage": 17,
+    "onBlock": -12,
+    "onHit": 4,
+    "onCounterHit": "[[Leroy_combos#Mini-combos|+14]]",
+    "states": null,
+    "index": 73
   },
   {
-    "index": 52,
+    "id": "Leroy-ub+2",
+    "parent": null,
     "name": "Enter the Dragon",
     "input": "ub+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      17
-    ],
-    "framesOnBlock": {
-      "_raw": "-10",
-      "lower": "-10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "3",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+33d (+25)",
-      "lower": "+33",
-      "properties": [
-        "d"
-      ],
-      "tech": "+25"
-    },
-    "framesOnStartup": {
-      "_raw": "i20",
-      "lower": "i20",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20",
+    "hitLevels": "m",
+    "damage": 17,
+    "onBlock": -10,
+    "onHit": 3,
+    "onCounterHit": "+33d (+25)",
+    "states": "ps4~12",
+    "index": 52
   },
   {
-    "index": 53,
+    "id": "Leroy-uf+1",
+    "parent": null,
     "name": "Pulsing Fist",
     "input": "uf+1",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      17
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "5",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16~17",
-      "lower": "i16",
-      "properties": [],
-      "upper": "17"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16~17",
+    "hitLevels": "h",
+    "damage": 17,
+    "onBlock": -9,
+    "onHit": 5,
+    "onCounterHit": null,
+    "states": "ps6~13",
+    "index": 53
   },
   {
-    "index": 94,
+    "id": "Leroy-uf+1+2",
+    "parent": null,
     "name": "Lian Jin Xuan Feng Jiao",
     "input": "uf+1+2",
-    "hitLevels": [
-      "th(h)"
-    ],
-    "damage": [
-      35
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12~14",
-      "lower": "i12",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12~14",
+    "hitLevels": "th(h)",
+    "damage": 35,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": 94
   },
   {
-    "index": 54,
+    "id": "Leroy-uf+2",
+    "parent": null,
     "name": "Zhuan Shen Long Fang Quan",
     "input": "uf+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "1",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+10a (+1)",
-      "lower": "+10",
-      "properties": [
-        "a"
-      ],
-      "tech": "+1"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i24~25",
-      "lower": "i24",
-      "properties": [],
-      "upper": "25"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i24~25",
+    "hitLevels": "m",
+    "damage": 25,
+    "onBlock": 1,
+    "onHit": "+10a (+1)",
+    "onCounterHit": null,
+    "states": "js",
+    "index": 54
   },
   {
-    "index": 55,
+    "id": "Leroy-uf+3",
+    "parent": null,
     "name": "Floating Kick",
     "input": "uf+3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-8",
-      "lower": "-8",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+14a (+5)",
-      "lower": "+14",
-      "properties": [
-        "a"
-      ],
-      "tech": "+5"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20~24",
-      "lower": "i20",
-      "properties": [],
-      "upper": "24"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20~24",
+    "hitLevels": "m",
+    "damage": 25,
+    "onBlock": -8,
+    "onHit": "+14a (+5)",
+    "onCounterHit": null,
+    "states": "js",
+    "index": 55
   },
   {
+    "id": "Leroy-uf+3+4",
+    "parent": null,
+    "name": null,
     "input": "uf+3+4",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      8,
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-14",
-      "lower": "-14",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+16a",
-      "lower": "+16",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14~15,i10~11",
-      "lower": "i14",
-      "properties": [],
-      "upper": "15"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14~15,i10~11",
+    "hitLevels": "m,m",
+    "damage": "8,10",
+    "onBlock": -14,
+    "onHit": "+16a",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 57,
+    "id": "Leroy-uf+3+4,1+2",
+    "parent": "Leroy-uf+3+4",
     "name": "Biting Dragons",
     "input": "uf+3+4,1+2",
-    "hitLevels": [
-      "m",
-      "m",
-      "m"
-    ],
-    "damage": [
-      8,
-      10,
-      1711
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+23a (+13)",
-      "lower": "+23",
-      "properties": [
-        "a"
-      ],
-      "tech": "+13"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14~15,i10~11",
-      "lower": "i14",
-      "properties": [],
-      "upper": "15"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14~15,i10~11",
+    "hitLevels": "m,m,m",
+    "damage": "8,10,17 (11)",
+    "onBlock": -13,
+    "onHit": "+23a (+13)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 57
   },
   {
-    "index": 56,
+    "id": "Leroy-uf+4",
+    "parent": null,
     "name": "Floating Axe Drop",
     "input": "uf+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      22
-    ],
-    "framesOnBlock": {
-      "_raw": "-8~-6",
-      "lower": "-8",
-      "properties": [],
-      "upper": "-6"
-    },
-    "framesOnHit": {
-      "_raw": "+21a",
-      "lower": "+21",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i23~25",
-      "lower": "i23",
-      "properties": [],
-      "upper": "25"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i23~25",
+    "hitLevels": "m",
+    "damage": 22,
+    "onBlock": "-8~-6",
+    "onHit": "+21a",
+    "onCounterHit": null,
+    "states": "js9",
+    "index": 56
   },
   {
-    "index": 58,
+    "id": "Leroy-uf,n,4",
+    "parent": null,
     "name": "Delayed Rising Toe Kick",
     "input": "uf,n,4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+32a (+22)",
-      "lower": "+32",
-      "properties": [
-        "a"
-      ],
-      "tech": "+22"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i23~25",
-      "lower": "i23",
-      "properties": [],
-      "upper": "25"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i23~25",
+    "hitLevels": "m",
+    "damage": 20,
+    "onBlock": -13,
+    "onHit": "+32a (+22)",
+    "onCounterHit": null,
+    "states": "js",
+    "index": 58
   },
   {
+    "id": "Leroy-ws1",
+    "parent": null,
+    "name": null,
     "input": "ws1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      14
-    ],
-    "framesOnBlock": {
-      "_raw": "-7",
-      "lower": "-7",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "3",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13~14",
-      "lower": "i13",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13~14",
+    "hitLevels": "m",
+    "damage": 14,
+    "onBlock": -7,
+    "onHit": 3,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 69,
+    "id": "Leroy-ws1,4",
+    "parent": "Leroy-ws1",
     "name": "Elbow Slash Snap Kick",
     "input": "ws1,4",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      14,
-      16
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "3",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13~14",
-      "lower": "i13",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13~14",
+    "hitLevels": "m,m",
+    "damage": "14,16",
+    "onBlock": -9,
+    "onHit": 3,
+    "onCounterHit": null,
+    "states": null,
+    "index": 69
   },
   {
-    "index": 70,
+    "id": "Leroy-ws2",
+    "parent": null,
     "name": "Arrow Shower",
     "input": "ws2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-14",
-      "lower": "-14",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "[[Leroy_combos#Staples|+51a]]",
-      "lower": "+51",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "m",
+    "damage": 21,
+    "onBlock": -14,
+    "onHit": "[[Leroy_combos#Staples|+51a]]",
+    "onCounterHit": null,
+    "states": null,
+    "index": 70
   },
   {
-    "index": 71,
+    "id": "Leroy-ws4",
+    "parent": null,
     "name": "Toe Smash",
     "input": "ws4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      16
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "5",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i11~12",
-      "lower": "i11",
-      "properties": [],
-      "upper": "12"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i11~12",
+    "hitLevels": "m",
+    "damage": 16,
+    "onBlock": -6,
+    "onHit": 5,
+    "onCounterHit": null,
+    "states": null,
+    "index": 71
   }
 ]

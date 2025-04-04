@@ -1,3635 +1,1318 @@
 [
   {
+    "id": "Claudio-1",
+    "parent": null,
     "name": "Jab",
-    "input": "1",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      5
-    ],
-    "framesOnBlock": {
-      "_raw": "1",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "8",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": 1,
+    "startup": "i10",
+    "hitLevels": "h",
+    "damage": 5,
+    "onBlock": 1,
+    "onHit": 8,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 18,
+    "id": "Claudio-1+2",
+    "parent": null,
     "name": "Crimson Delta Edge",
     "input": "1+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-14",
-      "lower": "-14",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+2c",
-      "lower": "+2",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17",
-      "lower": "i17",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17",
+    "hitLevels": "m",
+    "damage": 20,
+    "onBlock": -14,
+    "onHit": "+2c",
+    "onCounterHit": null,
+    "states": null,
+    "index": 18
   },
   {
-    "index": 13,
+    "id": "Claudio-1,2",
+    "parent": "Claudio-1",
     "name": "Scattered Ashes",
     "input": "1,2",
-    "hitLevels": [
-      "h",
-      "h"
-    ],
-    "damage": [
-      5,
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "8",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,h",
+    "damage": "5,12",
+    "onBlock": -3,
+    "onHit": 8,
+    "onCounterHit": null,
+    "states": null,
+    "index": 13
   },
   {
+    "id": "Claudio-1+2,1+2",
+    "parent": "Claudio-1+2",
+    "name": null,
     "input": "1+2,1+2",
-    "hitLevels": [
-      "m",
-      "t"
-    ],
-    "damage": [
-      20,
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17",
-      "lower": "i17",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17",
+    "hitLevels": "m,t",
+    "damage": "20,10",
+    "onBlock": null,
+    "onHit": 0,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Claudio-1+2,1+2,2",
+    "parent": "Claudio-1+2,1+2",
     "name": "Crimson Delta Edge to Starburst",
     "input": "1+2,1+2,2",
-    "hitLevels": [
-      "m",
-      "t",
-      "t"
-    ],
-    "damage": [
-      20,
-      10,
-      18
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-5d or +0d",
-      "lower": "-5",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17",
-      "lower": "i17",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17",
+    "hitLevels": "m,t,t",
+    "damage": "20,10,18",
+    "onBlock": null,
+    "onHit": "-5d or +0d",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 57,
+    "id": "Claudio-1+2+3+4",
+    "parent": null,
     "name": "&lt;div class=&quot;dotlist&quot;&gt;\n\n* Ki Charge\n* Supercharger\n&lt;/div&gt;",
     "input": "1+2+3+4",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": 57
   },
   {
-    "index": 71,
+    "id": "Claudio-1+3",
+    "parent": null,
     "name": "Punishment",
     "input": "1+3",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      35
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+1d",
-      "lower": "+1",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12~14",
-      "lower": "i12",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12~14",
+    "hitLevels": "t",
+    "damage": 35,
+    "onBlock": -3,
+    "onHit": "+1d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 71
   },
   {
-    "index": 14,
+    "id": "Claudio-1,3",
+    "parent": "Claudio-1",
     "name": "Absolve",
     "input": "1,3",
-    "hitLevels": [
-      "h",
-      "l"
-    ],
-    "damage": [
-      5,
-      11
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-1",
-      "lower": "-1",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,l",
+    "damage": "5,11",
+    "onBlock": -12,
+    "onHit": -1,
+    "onCounterHit": null,
+    "states": null,
+    "index": 14
   },
   {
+    "id": "Claudio-2",
+    "parent": null,
     "name": "Right Jab",
-    "input": "2",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "3",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": 2,
+    "startup": "i12",
+    "hitLevels": "h",
+    "damage": 10,
+    "onBlock": -3,
+    "onHit": 3,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Claudio-2,1",
+    "parent": "Claudio-2",
+    "name": null,
     "input": "2,1",
-    "hitLevels": [
-      "h",
-      "m"
-    ],
-    "damage": [
-      10,
-      13
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "5",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "h,m",
+    "damage": "10,13",
+    "onBlock": -6,
+    "onHit": 5,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 15,
+    "id": "Claudio-2,1,2",
+    "parent": "Claudio-2,1",
     "name": "Circle of Judgment",
     "input": "2,1,2",
-    "hitLevels": [
-      "h",
-      "m",
-      "m"
-    ],
-    "damage": [
-      10,
-      13,
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+12a (+3)",
-      "lower": "+12",
-      "properties": [
-        "a"
-      ],
-      "tech": "+3"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "h,m,m",
+    "damage": "10,13,25",
+    "onBlock": -13,
+    "onHit": "+12a (+3)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 15
   },
   {
+    "id": "Claudio-2+3",
+    "parent": null,
     "name": "Heat Burst",
     "input": "2+3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      12,
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "1",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+2c",
-      "lower": "+2",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "m",
+    "damage": "[12;12]",
+    "onBlock": 1,
+    "onHit": "+2c",
+    "onCounterHit": null,
+    "states": "pc7~16",
+    "index": null
   },
   {
-    "index": 72,
+    "id": "Claudio-2+4",
+    "parent": null,
     "name": "Roche Limit",
     "input": "2+4",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      35
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12~14",
-      "lower": "i12",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12~14",
+    "hitLevels": "t",
+    "damage": 35,
+    "onBlock": -6,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 72
   },
   {
-    "input": "3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      14
-    ],
-    "framesOnBlock": {
-      "_raw": "-10",
-      "lower": "-10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "1",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14",
-      "lower": "i14",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "id": "Claudio-3",
+    "parent": null,
+    "name": null,
+    "input": 3,
+    "startup": "i14",
+    "hitLevels": "m",
+    "damage": 14,
+    "onBlock": -10,
+    "onHit": 1,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 16,
+    "id": "Claudio-3,2",
+    "parent": "Claudio-3",
     "name": "Requiescat",
     "input": "3,2",
-    "hitLevels": [
-      "m",
-      "h"
-    ],
-    "damage": [
-      14,
-      22
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+25a (+16)",
-      "lower": "+25",
-      "properties": [
-        "a"
-      ],
-      "tech": "+16"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14",
-      "lower": "i14",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14",
+    "hitLevels": "m,h",
+    "damage": "14,22",
+    "onBlock": -6,
+    "onHit": "+25a (+16)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 16
   },
   {
-    "index": 19,
+    "id": "Claudio-3+4",
+    "parent": null,
     "name": "Rolling Strike",
     "input": "3+4",
-    "hitLevels": [
-      "M"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-11c",
-      "lower": "-11",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnHit": {
-      "_raw": "+9a",
-      "lower": "+9",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i24~26",
-      "lower": "i24",
-      "properties": [],
-      "upper": "26"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i24~26",
+    "hitLevels": "M",
+    "damage": 20,
+    "onBlock": "-11c",
+    "onHit": "+9a",
+    "onCounterHit": null,
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* js13~22\n* fs23~25&lt;/div&gt;",
+    "index": 19
   },
   {
+    "id": "Claudio-4",
+    "parent": null,
     "name": "High Kick",
-    "input": "4",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      13
-    ],
-    "framesOnBlock": {
-      "_raw": "-11",
-      "lower": "-11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "5",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+9s",
-      "lower": "+9",
-      "properties": [
-        "s"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": 4,
+    "startup": "i12",
+    "hitLevels": "h",
+    "damage": 13,
+    "onBlock": -11,
+    "onHit": 5,
+    "onCounterHit": "+9s",
+    "states": null,
+    "index": null
   },
   {
-    "index": 17,
+    "id": "Claudio-4,3",
+    "parent": "Claudio-4",
     "name": "Battle Scars",
     "input": "4,3",
-    "hitLevels": [
-      "h",
-      "h"
-    ],
-    "damage": [
-      13,
-      14
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+15g",
-      "lower": "+15",
-      "properties": [
-        "g"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "h,h",
+    "damage": "13,14",
+    "onBlock": 0,
+    "onHit": "+15g",
+    "onCounterHit": null,
+    "states": ",js17~30",
+    "index": 17
   },
   {
-    "index": 64,
+    "id": "Claudio-4,STB.2",
+    "parent": "Claudio-4",
     "name": "Aurora Pactum",
     "input": "4,STB.2",
-    "hitLevels": [
-      "h",
-      "sm"
-    ],
-    "damage": [
-      13,
-      32
-    ],
-    "framesOnBlock": {
-      "_raw": "-19~-11",
-      "lower": "-19",
-      "properties": [],
-      "upper": "-11"
-    },
-    "framesOnHit": {
-      "_raw": "+27a (+1)",
-      "lower": "+27",
-      "properties": [
-        "a"
-      ],
-      "tech": "+1"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "h,sm",
+    "damage": "13,32",
+    "onBlock": "-19~-11",
+    "onHit": "+27a (+1)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 64
   },
   {
-    "index": 37,
+    "id": "Claudio-b+1",
+    "parent": null,
     "name": "Vanishing Storm",
     "input": "b+1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-5",
-      "lower": "-5",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+12a",
-      "lower": "+12",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18~19",
-      "lower": "i18",
-      "properties": [],
-      "upper": "19"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18~19",
+    "hitLevels": "m",
+    "damage": 25,
+    "onBlock": -5,
+    "onHit": "+12a",
+    "onCounterHit": null,
+    "states": null,
+    "index": 37
   },
   {
-    "index": 44,
+    "id": "Claudio-b+1+2",
+    "parent": null,
     "name": "Judgment Claw",
     "input": "b+1+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+15a",
-      "lower": "+15",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i22",
-      "lower": "i22",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i22",
+    "hitLevels": "m",
+    "damage": 25,
+    "onBlock": -13,
+    "onHit": "+15a",
+    "onCounterHit": null,
+    "states": "pc7~21",
+    "index": 44
   },
   {
-    "index": 38,
+    "id": "Claudio-b+2",
+    "parent": null,
     "name": "Spinning Skies",
     "input": "b+2",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+9a",
-      "lower": "+9",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14",
-      "lower": "i14",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14",
+    "hitLevels": "h",
+    "damage": 25,
+    "onBlock": -9,
+    "onHit": "+9a",
+    "onCounterHit": null,
+    "states": null,
+    "index": 38
   },
   {
-    "index": 46,
+    "id": "Claudio-b+2+3",
+    "parent": null,
     "name": "Big Bang",
     "input": "b+2+3",
-    "hitLevels": [
-      "m!"
-    ],
-    "damage": [
-      60
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+15a (-11)",
-      "lower": "+15",
-      "properties": [
-        "a"
-      ],
-      "tech": "-11"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i72",
-      "lower": "i72",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i72",
+    "hitLevels": "m!",
+    "damage": 60,
+    "onBlock": null,
+    "onHit": "+15a (-11)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 46
   },
   {
+    "id": "Claudio-b+3",
+    "parent": null,
     "name": "Burning Core",
     "input": "b+3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      14
-    ],
-    "framesOnBlock": {
-      "_raw": "-4",
-      "lower": "-4",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "7",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13",
-      "lower": "i13",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13",
+    "hitLevels": "m",
+    "damage": 14,
+    "onBlock": -4,
+    "onHit": 7,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 45,
+    "id": "Claudio-b+3+4",
+    "parent": null,
     "name": "Eternal Moon",
     "input": "b+3+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      24
-    ],
-    "framesOnBlock": {
-      "_raw": "-15",
-      "lower": "-15",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+9a (+0)",
-      "lower": "+9",
-      "properties": [
-        "a"
-      ],
-      "tech": "+0"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i29~30",
-      "lower": "i29",
-      "properties": [],
-      "upper": "30"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i29~30",
+    "hitLevels": "m",
+    "damage": 24,
+    "onBlock": -15,
+    "onHit": "+9a (+0)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 45
   },
   {
-    "index": 39,
+    "id": "Claudio-b+3,n,3",
+    "parent": "Claudio-b+3",
     "name": "Crescent Heel",
     "input": "b+3,n,3",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      14,
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+7c",
-      "lower": "+7",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "+22d",
-      "lower": "+22",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i13",
-      "lower": "i13",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13",
+    "hitLevels": "m,m",
+    "damage": "14,21",
+    "onBlock": -12,
+    "onHit": "+7c",
+    "onCounterHit": "+22d",
+    "states": null,
+    "index": 39
   },
   {
+    "id": "Claudio-b+4",
+    "parent": null,
+    "name": null,
     "input": "b+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-14",
-      "lower": "-14",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17",
-      "lower": "i17",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17",
+    "hitLevels": "m",
+    "damage": 10,
+    "onBlock": -14,
+    "onHit": -3,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 40,
+    "id": "Claudio-b+4,1",
+    "parent": "Claudio-b+4",
     "name": "Shining Wind",
     "input": "b+4,1",
-    "hitLevels": [
-      "m",
-      "h"
-    ],
-    "damage": [
-      10,
-      18
-    ],
-    "framesOnBlock": {
-      "_raw": "1",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "4",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17",
-      "lower": "i17",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17",
+    "hitLevels": "m,h",
+    "damage": "10,18",
+    "onBlock": 1,
+    "onHit": 4,
+    "onCounterHit": null,
+    "states": null,
+    "index": 40
   },
   {
-    "index": 41,
+    "id": "Claudio-b+4,2",
+    "parent": "Claudio-b+4",
     "name": "Shining Ray",
     "input": "b+4,2",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      10,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-11",
-      "lower": "-11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+29a (+3)",
-      "lower": "+29",
-      "properties": [
-        "a"
-      ],
-      "tech": "+3"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17",
-      "lower": "i17",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17",
+    "hitLevels": "m,m",
+    "damage": "10,20",
+    "onBlock": -11,
+    "onHit": "+29a (+3)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 41
   },
   {
+    "id": "Claudio-b+4,3",
+    "parent": "Claudio-b+4",
     "name": "Axial Ray",
     "input": "b+4,3",
-    "hitLevels": [
-      "m",
-      "h"
-    ],
-    "damage": [
-      10,
-      14
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-4",
-      "lower": "-4",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "1",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17",
-      "lower": "i17",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17",
+    "hitLevels": "m,h",
+    "damage": "10,14",
+    "onBlock": -12,
+    "onHit": -4,
+    "onCounterHit": 1,
+    "states": null,
+    "index": null
   },
   {
-    "index": 42,
+    "id": "Claudio-b+4,3,2",
+    "parent": "Claudio-b+4,3",
     "name": "Avaritia",
     "input": "b+4,3,2",
-    "hitLevels": [
-      "m",
-      "h",
-      "M"
-    ],
-    "damage": [
-      10,
-      14,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+16a",
-      "lower": "+16",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17",
-      "lower": "i17",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17",
+    "hitLevels": "m,h,M",
+    "damage": "10,14,20",
+    "onBlock": -13,
+    "onHit": "+16a",
+    "onCounterHit": null,
+    "states": ",js1~31",
+    "index": 42
   },
   {
-    "index": 68,
+    "id": "Claudio-b+4,3,STB.2",
+    "parent": "Claudio-b+4,3",
     "name": "Avaritia Burst",
     "input": "b+4,3,STB.2",
-    "hitLevels": [
-      "m",
-      "h",
-      "M"
-    ],
-    "damage": [
-      10,
-      14,
-      38
-    ],
-    "framesOnBlock": {
-      "_raw": "-1c",
-      "lower": "-1",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnHit": {
-      "_raw": "43a (+33)",
-      "lower": "43",
-      "properties": [
-        "a"
-      ],
-      "tech": "+33"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17",
-      "lower": "i17",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17",
+    "hitLevels": "m,h,M",
+    "damage": "10,14,38",
+    "onBlock": "-1c",
+    "onHit": "43a (+33)",
+    "onCounterHit": null,
+    "states": ",js1~31",
+    "index": 68
   },
   {
-    "index": 43,
+    "id": "Claudio-b+4,4",
+    "parent": "Claudio-b+4",
     "name": "Lunar Ray",
     "input": "b+4,4",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      10,
-      16
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "[[Claudio_combos#Staples|+30a (+20)]]",
-      "lower": "+30",
-      "properties": [
-        "a"
-      ],
-      "tech": "+20"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17",
-      "lower": "i17",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17",
+    "hitLevels": "m,m",
+    "damage": "10,16",
+    "onBlock": -13,
+    "onHit": "[[Claudio_combos#Staples|+30a (+20)]]",
+    "onCounterHit": null,
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* js22~37\n* fs38~40&lt;/div&gt;",
+    "index": 43
   },
   {
-    "index": 75,
+    "id": "Claudio-Back throw",
+    "parent": null,
     "name": "Sudden Shadow",
-    "input": "Backthrow",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      50
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": "Back throw",
+    "startup": null,
+    "hitLevels": "t",
+    "damage": 50,
+    "onBlock": null,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 75
   },
   {
+    "id": "Claudio-(back to wall).b,b,ub",
+    "parent": null,
     "name": "[[Wall Jump Attack]]",
-    "input": "(backtowall).b,b,ub",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "+0c",
-      "lower": "+0",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnHit": {
-      "_raw": "+8a",
-      "lower": "+8",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i36~38",
-      "lower": "i36",
-      "properties": [],
-      "upper": "38"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": "(back to wall).b,b,ub",
+    "startup": "i36~38",
+    "hitLevels": "m",
+    "damage": 21,
+    "onBlock": "+0c",
+    "onHit": "+8a",
+    "onCounterHit": null,
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* fs5~13\n* js14~32\n* fs33~35\n&lt;/div&gt;",
+    "index": null
   },
   {
+    "id": "Claudio-d+1",
+    "parent": null,
     "name": "Axion",
     "input": "d+1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      14
-    ],
-    "framesOnBlock": {
-      "_raw": "-8",
-      "lower": "-8",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "2",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17~18",
-      "lower": "i17",
-      "properties": [],
-      "upper": "18"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17~18",
+    "hitLevels": "m",
+    "damage": 14,
+    "onBlock": -8,
+    "onHit": 2,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 32,
+    "id": "Claudio-d+1+2",
+    "parent": null,
     "name": "Superbia",
     "input": "d+1+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      28
-    ],
-    "framesOnBlock": {
-      "_raw": "-18",
-      "lower": "-18",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+7a (-2)",
-      "lower": "+7",
-      "properties": [
-        "a"
-      ],
-      "tech": "-2"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13~14",
-      "lower": "i13",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13~14",
+    "hitLevels": "m",
+    "damage": 28,
+    "onBlock": -18,
+    "onHit": "+7a (-2)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 32
   },
   {
-    "index": 66,
+    "id": "Claudio-d+1,STB.2",
+    "parent": "Claudio-d+1",
     "name": "Mystic Ray Burst",
     "input": "d+1,STB.2",
-    "hitLevels": [
-      "m",
-      "M"
-    ],
-    "damage": [
-      14,
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "6",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+28a (+13)",
-      "lower": "+28",
-      "properties": [
-        "a"
-      ],
-      "tech": "+13"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17~18",
-      "lower": "i17",
-      "properties": [],
-      "upper": "18"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17~18",
+    "hitLevels": "m,M",
+    "damage": "14,23",
+    "onBlock": 6,
+    "onHit": "+28a (+13)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 66
   },
   {
+    "id": "Claudio-d+2",
+    "parent": null,
+    "name": null,
     "input": "d+2",
-    "hitLevels": [
-      "L"
-    ],
-    "damage": [
-      6
-    ],
-    "framesOnBlock": {
-      "_raw": "-11",
-      "lower": "-11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20",
-      "lower": "i20",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20",
+    "hitLevels": "L",
+    "damage": 6,
+    "onBlock": -11,
+    "onHit": 0,
+    "onCounterHit": null,
+    "states": "cs6~",
+    "index": null
   },
   {
-    "index": 31,
+    "id": "Claudio-d+2,2",
+    "parent": "Claudio-d+2",
     "name": "Gravity Hole",
     "input": "d+2,2",
-    "hitLevels": [
-      "L",
-      "L"
-    ],
-    "damage": [
-      6,
-      8
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-1",
-      "lower": "-1",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20",
-      "lower": "i20",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20",
+    "hitLevels": "L,L",
+    "damage": "6,8",
+    "onBlock": -13,
+    "onHit": -1,
+    "onCounterHit": null,
+    "states": ",cs1~",
+    "index": 31
   },
   {
+    "id": "Claudio-d+3",
+    "parent": null,
     "name": "Crouch Side Kick",
     "input": "d+3",
-    "hitLevels": [
-      "L"
-    ],
-    "damage": [
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-17",
-      "lower": "-17",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "L",
+    "damage": 10,
+    "onBlock": -17,
+    "onHit": -6,
+    "onCounterHit": null,
+    "states": "cs4~",
+    "index": null
   },
   {
+    "id": "Claudio-d+4",
+    "parent": null,
     "name": "Crouch Chin Kick",
     "input": "d+4",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      6
-    ],
-    "framesOnBlock": {
-      "_raw": "-15",
-      "lower": "-15",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-4",
-      "lower": "-4",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "l",
+    "damage": 6,
+    "onBlock": -15,
+    "onHit": -4,
+    "onCounterHit": null,
+    "states": "cs4~",
+    "index": null
   },
   {
+    "id": "Claudio-db+1",
+    "parent": null,
     "name": "Crouch Jab",
     "input": "db+1",
-    "hitLevels": [
-      "sl"
-    ],
-    "damage": [
-      5
-    ],
-    "framesOnBlock": {
-      "_raw": "-5",
-      "lower": "-5",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "6",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "sl",
+    "damage": 5,
+    "onBlock": -5,
+    "onHit": 6,
+    "onCounterHit": null,
+    "states": "cs4~",
+    "index": null
   },
   {
-    "index": 36,
+    "id": "Claudio-db+1+2",
+    "parent": null,
     "name": "Blue Moon",
     "input": "db+1+2",
-    "hitLevels": [
-      "M"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+8a (-9)",
-      "lower": "+8",
-      "properties": [
-        "a"
-      ],
-      "tech": "-9"
-    },
-    "framesOnCounter": {
-      "_raw": "+62a (+46)",
-      "lower": "+62",
-      "properties": [
-        "a"
-      ],
-      "tech": "+46"
-    },
-    "framesOnStartup": {
-      "_raw": "i17~18",
-      "lower": "i17",
-      "properties": [],
-      "upper": "18"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17~18",
+    "hitLevels": "M",
+    "damage": 20,
+    "onBlock": -12,
+    "onHit": "+8a (-9)",
+    "onCounterHit": "+62a (+46)",
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* js20~32\n* fs33~35&lt;/div&gt;",
+    "index": 36
   },
   {
+    "id": "Claudio-db+2",
+    "parent": null,
     "name": "Crouch Straight",
     "input": "db+2",
-    "hitLevels": [
-      "sl"
-    ],
-    "damage": [
-      8
-    ],
-    "framesOnBlock": {
-      "_raw": "-4",
-      "lower": "-4",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "7",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i11",
-      "lower": "i11",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i11",
+    "hitLevels": "sl",
+    "damage": 8,
+    "onBlock": -4,
+    "onHit": 7,
+    "onCounterHit": null,
+    "states": "cs4~",
+    "index": null
   },
   {
-    "index": 33,
+    "id": "Claudio-db+2,1",
+    "parent": "Claudio-db+2",
     "name": "Twin Claws",
     "input": "db+2,1",
-    "hitLevels": [
-      "sl",
-      "m"
-    ],
-    "damage": [
-      8,
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "3",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i11",
-      "lower": "i11",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i11",
+    "hitLevels": "sl,m",
+    "damage": "8,12",
+    "onBlock": -9,
+    "onHit": 3,
+    "onCounterHit": null,
+    "states": ",cs1~",
+    "index": 33
   },
   {
-    "index": 34,
+    "id": "Claudio-db+3",
+    "parent": null,
     "name": "Acedia",
     "input": "db+3",
-    "hitLevels": [
-      "L"
-    ],
-    "damage": [
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "-14~15",
-      "lower": "-14",
-      "properties": [],
-      "upper": "15"
-    },
-    "framesOnHit": {
-      "_raw": "+3c",
-      "lower": "+3",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "[[Claudio_combos#Staples|+27a]]",
-      "lower": "+27",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i24~25",
-      "lower": "i24",
-      "properties": [],
-      "upper": "25"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i24~25",
+    "hitLevels": "L",
+    "damage": 23,
+    "onBlock": "-14~15",
+    "onHit": "+3c",
+    "onCounterHit": "[[Claudio_combos#Staples|+27a]]",
+    "states": "cs6~",
+    "index": 34
   },
   {
+    "id": "Claudio-db+4",
+    "parent": null,
+    "name": null,
     "input": "db+4",
-    "hitLevels": [
-      "L"
-    ],
-    "damage": [
-      7
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "L",
+    "damage": 7,
+    "onBlock": -13,
+    "onHit": -2,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 35,
+    "id": "Claudio-db+4,3",
+    "parent": "Claudio-db+4",
     "name": "Lagrange Needle",
     "input": "db+4,3",
-    "hitLevels": [
-      "L",
-      "h"
-    ],
-    "damage": [
-      7,
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-11",
-      "lower": "-11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "L,h",
+    "damage": "7,10",
+    "onBlock": -11,
+    "onHit": 0,
+    "onCounterHit": null,
+    "states": null,
+    "index": 35
   },
   {
+    "id": "Claudio-df+1",
+    "parent": null,
     "name": "Quick Upper",
     "input": "df+1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-4",
-      "lower": "-4",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "7",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m",
+    "damage": 10,
+    "onBlock": -4,
+    "onHit": 7,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 26,
+    "id": "Claudio-df+1,2",
+    "parent": "Claudio-df+1",
     "name": "Sky&#039;s Arc",
     "input": "df+1,2",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      10,
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "-15",
-      "lower": "-15",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "[[Claudio_combos#Staples|+31a (+21)]]",
-      "lower": "+31",
-      "properties": [
-        "a"
-      ],
-      "tech": "+21"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m,m",
+    "damage": "10,15",
+    "onBlock": -15,
+    "onHit": "[[Claudio_combos#Staples|+31a (+21)]]",
+    "onCounterHit": null,
+    "states": null,
+    "index": 26
   },
   {
-    "index": 27,
+    "id": "Claudio-df+2",
+    "parent": null,
     "name": "Chaos Fist",
     "input": "df+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      19
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "5",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "[[Claudio_combos#Staples|+59a]]",
-      "lower": "+59",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i14",
-      "lower": "i14",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14",
+    "hitLevels": "m",
+    "damage": 19,
+    "onBlock": -13,
+    "onHit": 5,
+    "onCounterHit": "[[Claudio_combos#Staples|+59a]]",
+    "states": null,
+    "index": 27
   },
   {
+    "id": "Claudio-df+3",
+    "parent": null,
+    "name": null,
     "input": "df+3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-7",
-      "lower": "-7",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "6",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14",
-      "lower": "i14",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14",
+    "hitLevels": "m",
+    "damage": 12,
+    "onBlock": -7,
+    "onHit": 6,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 28,
+    "id": "Claudio-df+3,1",
+    "parent": "Claudio-df+3",
     "name": "Dispel Magic",
     "input": "df+3,1",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      12,
-      18
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+29a (+14)",
-      "lower": "+29",
-      "properties": [
-        "a"
-      ],
-      "tech": "+14"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14",
-      "lower": "i14",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14",
+    "hitLevels": "m,m",
+    "damage": "12,18",
+    "onBlock": -12,
+    "onHit": "+29a (+14)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 28
   },
   {
-    "index": 29,
+    "id": "Claudio-df+3,2",
+    "parent": "Claudio-df+3",
     "name": "Dispel Force",
     "input": "df+3,2",
-    "hitLevels": [
-      "m",
-      "h"
-    ],
-    "damage": [
-      12,
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "4",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14",
-      "lower": "i14",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14",
+    "hitLevels": "m,h",
+    "damage": "12,10",
+    "onBlock": -2,
+    "onHit": 4,
+    "onCounterHit": null,
+    "states": null,
+    "index": 29
   },
   {
+    "id": "Claudio-df+4",
+    "parent": null,
     "name": "Front Kick",
     "input": "df+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      14
-    ],
-    "framesOnBlock": {
-      "_raw": "-8",
-      "lower": "-8",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "3",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13",
-      "lower": "i13",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13",
+    "hitLevels": "m",
+    "damage": 14,
+    "onBlock": -8,
+    "onHit": 3,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Claudio-f+1+2",
+    "parent": null,
     "name": "Cross Arm Strike",
     "input": "f+1+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      8
-    ],
-    "framesOnBlock": {
-      "_raw": "-18",
-      "lower": "-18",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-7",
-      "lower": "-7",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "m",
+    "damage": 8,
+    "onBlock": -18,
+    "onHit": -7,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 24,
+    "id": "Claudio-f+1+2,1+2",
+    "parent": "Claudio-f+1+2",
     "name": "Cross Arm Impact",
     "input": "f+1+2,1+2",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      8,
-      16
-    ],
-    "framesOnBlock": {
-      "_raw": "-14",
-      "lower": "-14",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+4a",
-      "lower": "+4",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "m,m",
+    "damage": "8,16",
+    "onBlock": -14,
+    "onHit": "+4a",
+    "onCounterHit": null,
+    "states": null,
+    "index": 24
   },
   {
-    "index": 65,
+    "id": "Claudio-f+1+2,STB.1+2",
+    "parent": "Claudio-f+1+2",
     "name": "Cross Arm Impact Burst",
     "input": "f+1+2,STB.1+2",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      8,
-      16
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+64a",
-      "lower": "+64",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "m,m",
+    "damage": "8,16",
+    "onBlock": -9,
+    "onHit": "+64a",
+    "onCounterHit": null,
+    "states": null,
+    "index": 65
   },
   {
+    "id": "Claudio-f+2",
+    "parent": null,
+    "name": null,
     "input": "f+2",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      9
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "6",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "h",
+    "damage": 9,
+    "onBlock": 0,
+    "onHit": 6,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Claudio-f+2,1",
+    "parent": "Claudio-f+2",
+    "name": null,
     "input": "f+2,1",
-    "hitLevels": [
-      "h",
-      "m"
-    ],
-    "damage": [
-      9,
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-10",
-      "lower": "-10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+6c",
-      "lower": "+6",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "h,m",
+    "damage": "9,12",
+    "onBlock": -10,
+    "onHit": "+6c",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 20,
+    "id": "Claudio-f+2,1,1+2",
+    "parent": "Claudio-f+2,1",
     "name": "Trinity of Pain",
     "input": "f+2,1,1+2",
-    "hitLevels": [
-      "h",
-      "m",
-      "m"
-    ],
-    "damage": [
-      9,
-      12,
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-18",
-      "lower": "-18",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+7a (-2)",
-      "lower": "+7",
-      "properties": [
-        "a"
-      ],
-      "tech": "-2"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "h,m,m",
+    "damage": "9,12,25",
+    "onBlock": -18,
+    "onHit": "+7a (-2)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 20
   },
   {
-    "index": 21,
+    "id": "Claudio-f+2,2",
+    "parent": "Claudio-f+2",
     "name": "Deadly Sin",
     "input": "f+2,2",
-    "hitLevels": [
-      "h",
-      "m"
-    ],
-    "damage": [
-      9,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-26",
-      "lower": "-26",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+18a (-13)",
-      "lower": "+18",
-      "properties": [
-        "a"
-      ],
-      "tech": "-13"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "h,m",
+    "damage": "9,20",
+    "onBlock": -26,
+    "onHit": "+18a (-13)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 21
   },
   {
-    "index": 22,
+    "id": "Claudio-f+3",
+    "parent": null,
     "name": "Sacred Edge",
     "input": "f+3",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      18
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+15g",
-      "lower": "+15",
-      "properties": [
-        "g"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "[[Claudio_combos#Mini-combos|+14]]",
-      "lower": "+14",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18",
-      "lower": "i18",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18",
+    "hitLevels": "h",
+    "damage": 18,
+    "onBlock": 0,
+    "onHit": "+15g",
+    "onCounterHit": "[[Claudio_combos#Mini-combos|+14]]",
+    "states": "js9~24",
+    "index": 22
   },
   {
-    "index": 25,
+    "id": "Claudio-f+3+4",
+    "parent": null,
     "name": "Above the Storm",
     "input": "f+3+4",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      18
-    ],
-    "framesOnBlock": {
-      "_raw": "-8",
-      "lower": "-8",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+19a",
-      "lower": "+19",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17~18",
-      "lower": "i17",
-      "properties": [],
-      "upper": "18"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17~18",
+    "hitLevels": "h",
+    "damage": 18,
+    "onBlock": -8,
+    "onHit": "+19a",
+    "onCounterHit": null,
+    "states": null,
+    "index": 25
   },
   {
-    "index": 23,
+    "id": "Claudio-f+4",
+    "parent": null,
     "name": "Into the Abyss",
     "input": "f+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "+4c",
-      "lower": "+4",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnHit": {
-      "_raw": "+4c",
-      "lower": "+4",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "[[Claudio_combos#Mini-combos|+28d]]",
-      "lower": "+28",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i22~23",
-      "lower": "i22",
-      "properties": [],
-      "upper": "23"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i22~23",
+    "hitLevels": "m",
+    "damage": 23,
+    "onBlock": "+4c",
+    "onHit": "+4c",
+    "onCounterHit": "[[Claudio_combos#Mini-combos|+28d]]",
+    "states": null,
+    "index": 23
   },
   {
+    "id": "Claudio-FC.df+2",
+    "parent": null,
+    "name": null,
     "input": "FC.df+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      14
-    ],
-    "framesOnBlock": {
-      "_raw": "-18",
-      "lower": "-18",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-7",
-      "lower": "-7",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14~16",
-      "lower": "i14",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14~16",
+    "hitLevels": "m",
+    "damage": 14,
+    "onBlock": -18,
+    "onHit": -7,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Claudio-FC.df+2,1+2",
+    "parent": null,
     "name": "Bringer of Justice",
     "input": "FC.df+2,1+2",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      14,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+10a (+1)",
-      "lower": "+10",
-      "properties": [
-        "a"
-      ],
-      "tech": "+1"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14~16",
-      "lower": "i14",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14~16",
+    "hitLevels": "m,m",
+    "damage": "14,20",
+    "onBlock": -13,
+    "onHit": "+10a (+1)",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Claudio-FC.df+2,2",
+    "parent": "Claudio-FC.df+2",
     "name": "Dual Guns",
     "input": "FC.df+2,2",
-    "hitLevels": [
-      "m",
-      "h"
-    ],
-    "damage": [
-      14,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-2c",
-      "lower": "-2",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnHit": {
-      "_raw": "+6c",
-      "lower": "+6",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14~16",
-      "lower": "i14",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14~16",
+    "hitLevels": "m,h",
+    "damage": "14,20",
+    "onBlock": "-2c",
+    "onHit": "+6c",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Claudio-f,F+2",
+    "parent": null,
+    "name": null,
     "input": "f,F+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      14
-    ],
-    "framesOnBlock": {
-      "_raw": "-18",
-      "lower": "-18",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-7",
-      "lower": "-7",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14~16",
-      "lower": "i14",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14~16",
+    "hitLevels": "m",
+    "damage": 14,
+    "onBlock": -18,
+    "onHit": -7,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 53,
+    "id": "Claudio-f,F+2,1+2",
+    "parent": "Claudio-f,F+2",
     "name": "Bringer of Justice",
     "input": "f,F+2,1+2",
-    "hitLevels": [
-      "mm",
-      "m"
-    ],
-    "damage": [
-      1414,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+10a (+1)",
-      "lower": "+10",
-      "properties": [
-        "a"
-      ],
-      "tech": "+1"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14~16",
-      "lower": "i14",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14~16",
+    "hitLevels": "mm,m",
+    "damage": "1414,20",
+    "onBlock": -13,
+    "onHit": "+10a (+1)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 53
   },
   {
-    "index": 52,
+    "id": "Claudio-f,F+2,2",
+    "parent": "Claudio-f,F+2",
     "name": "Dual Guns",
     "input": "f,F+2,2",
-    "hitLevels": [
-      "m",
-      "h"
-    ],
-    "damage": [
-      14,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-2c",
-      "lower": "-2",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnHit": {
-      "_raw": "+6c",
-      "lower": "+6",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14~16",
-      "lower": "i14",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14~16",
+    "hitLevels": "m,h",
+    "damage": "14,20",
+    "onBlock": "-2c",
+    "onHit": "+6c",
+    "onCounterHit": null,
+    "states": null,
+    "index": 52
   },
   {
-    "index": 54,
+    "id": "Claudio-f,F+4",
+    "parent": null,
     "name": "Invidia",
     "input": "f,F+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-1~+1",
-      "lower": "-1",
-      "properties": [],
-      "upper": "+1"
-    },
-    "framesOnHit": {
-      "_raw": "+6~+8",
-      "lower": "+6",
-      "properties": [],
-      "upper": "+8"
-    },
-    "framesOnCounter": {
-      "_raw": "+13~+15",
-      "lower": "+13",
-      "properties": [],
-      "upper": "+15"
-    },
-    "framesOnStartup": {
-      "_raw": "i15~17",
-      "lower": "i15",
-      "properties": [],
-      "upper": "17"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~17",
+    "hitLevels": "m",
+    "damage": 20,
+    "onBlock": "-1~+1",
+    "onHit": "+6~+8",
+    "onCounterHit": "+13~+15",
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* js11~28\n* fs29~31&lt;/div&gt;",
+    "index": 54
   },
   {
-    "index": 55,
+    "id": "Claudio-f,f,F+2",
+    "parent": null,
     "name": "Ira",
     "input": "f,f,F+2",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      40
-    ],
-    "framesOnBlock": {
-      "_raw": "6",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+24a (+19)",
-      "lower": "+24",
-      "properties": [
-        "a"
-      ],
-      "tech": "+19"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13~16",
-      "lower": "i13",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13~16",
+    "hitLevels": "h",
+    "damage": 40,
+    "onBlock": 6,
+    "onHit": "+24a (+19)",
+    "onCounterHit": null,
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* js3~26\n* fs27~29&lt;/div&gt;",
+    "index": 55
   },
   {
+    "id": "Claudio-H.2+3",
+    "parent": null,
     "name": "Stella Cadente",
     "input": "H.2+3",
-    "hitLevels": [
-      "L",
-      "M"
-    ],
-    "damage": [
-      40
-    ],
-    "framesOnBlock": {
-      "_raw": "-14",
-      "lower": "-14",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+11d",
-      "lower": "+11",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18~19",
-      "lower": "i18",
-      "properties": [],
-      "upper": "19"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18~19",
+    "hitLevels": "L,M",
+    "damage": 40,
+    "onBlock": -14,
+    "onHit": "+11d",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Claudio-Left Throw",
+    "parent": null,
     "name": "Avalaunche Throw",
-    "input": "Leftthrow",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      40
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+1d",
-      "lower": "+1",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": "Left throw",
+    "startup": null,
+    "hitLevels": "t",
+    "damage": 40,
+    "onBlock": -3,
+    "onHit": "+1d",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Claudio-R.df+1+2",
+    "parent": null,
     "name": "La Luce Di Sirio",
     "input": "R.df+1+2",
-    "hitLevels": [
-      "m",
-      "t"
-    ],
-    "damage": [
-      55
-    ],
-    "framesOnBlock": {
-      "_raw": "-15",
-      "lower": "-15",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20",
-      "lower": "i20",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20",
+    "hitLevels": "m,t",
+    "damage": "55+",
+    "onBlock": -15,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": "pc8~",
+    "index": null
   },
   {
-    "index": 74,
+    "id": "Claudio-Right Throw",
+    "parent": null,
     "name": "Prayer into the Void",
-    "input": "Rightthrow",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      40
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+1d",
-      "lower": "+1",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": "Right throw",
+    "startup": null,
+    "hitLevels": "t",
+    "damage": 40,
+    "onBlock": -3,
+    "onHit": "+1d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 74
   },
   {
-    "index": 63,
+    "id": "Claudio-SS.4",
+    "parent": null,
     "name": "Luxuria",
     "input": "SS.4",
-    "hitLevels": [
-      "L"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+6c",
-      "lower": "+6",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "+27d",
-      "lower": "+27",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i20~21",
-      "lower": "i20",
-      "properties": [],
-      "upper": "21"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20~21",
+    "hitLevels": "L",
+    "damage": 20,
+    "onBlock": -12,
+    "onHit": "+6c",
+    "onCounterHit": "+27d",
+    "states": null,
+    "index": 63
   },
   {
-    "index": 67,
+    "id": "Claudio-STB.db+1+2",
+    "parent": null,
     "name": "Blue Moon Burst",
     "input": "STB.db+1+2",
-    "hitLevels": [
-      "M"
-    ],
-    "damage": [
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+62a (+46)",
-      "lower": "+62",
-      "properties": [
-        "a"
-      ],
-      "tech": "+46"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17~18",
-      "lower": "i17",
-      "properties": [],
-      "upper": "18"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17~18",
+    "hitLevels": "M",
+    "damage": 25,
+    "onBlock": -2,
+    "onHit": "+62a (+46)",
+    "onCounterHit": null,
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* js20~32\n* fs33~35&lt;/div&gt;",
+    "index": 67
   },
   {
-    "index": 69,
+    "id": "Claudio-STB.f,f,F+1+2",
+    "parent": null,
     "name": "Anima",
     "input": "STB.f,f,F+1+2",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      45
-    ],
-    "framesOnBlock": {
-      "_raw": "+8g~+11g +8w",
-      "lower": "+8",
-      "properties": [
-        "g",
-        "g"
-      ],
-      "upper": "+11"
-    },
-    "framesOnHit": {
-      "_raw": "+28a (+18)",
-      "lower": "+28",
-      "properties": [
-        "a"
-      ],
-      "tech": "+18"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13~16",
-      "lower": "i13",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13~16",
+    "hitLevels": "h",
+    "damage": 45,
+    "onBlock": "+8g~+11g +8w",
+    "onHit": "+28a (+18)",
+    "onCounterHit": null,
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* js3~26\n* fs27~29&lt;/div&gt;",
+    "index": 69
   },
   {
-    "index": 47,
+    "id": "Claudio-u+2",
+    "parent": null,
     "name": "Meteor Storm",
     "input": "u+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-8",
-      "lower": "-8",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+16a",
-      "lower": "+16",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i21~22",
-      "lower": "i21",
-      "properties": [],
-      "upper": "22"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i21~22",
+    "hitLevels": "m",
+    "damage": 21,
+    "onBlock": -8,
+    "onHit": "+16a",
+    "onCounterHit": null,
+    "states": "js9~22",
+    "index": 47
   },
   {
-    "index": 76,
+    "id": "Claudio-uf+1+2",
+    "parent": null,
     "name": "Gula",
     "input": "uf+1+2",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      40
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+1d",
-      "lower": "+1",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "t",
+    "damage": 40,
+    "onBlock": -6,
+    "onHit": "+1d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 76
   },
   {
-    "index": 48,
+    "id": "Claudio-uf+3",
+    "parent": null,
     "name": "Ground Slash Nova",
     "input": "uf+3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      22
-    ],
-    "framesOnBlock": {
-      "_raw": "+2c",
-      "lower": "+2",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnHit": {
-      "_raw": "+7c",
-      "lower": "+7",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i23~25",
-      "lower": "i23",
-      "properties": [],
-      "upper": "25"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i23~25",
+    "hitLevels": "m",
+    "damage": 22,
+    "onBlock": "+2c",
+    "onHit": "+7c",
+    "onCounterHit": null,
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* js9~26\n* fs27~29&lt;/div&gt;",
+    "index": 48
   },
   {
-    "index": 50,
+    "id": "Claudio-uf+3+4",
+    "parent": null,
     "name": "Pollux",
     "input": "uf+3+4",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      10,
-      14
-    ],
-    "framesOnBlock": {
-      "_raw": "-11",
-      "lower": "-11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+14a (+5)",
-      "lower": "+14",
-      "properties": [
-        "a"
-      ],
-      "tech": "+5"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20 i13~14",
-      "lower": "i20",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20 i13~14",
+    "hitLevels": "m,m",
+    "damage": "10,14",
+    "onBlock": -11,
+    "onHit": "+14a (+5)",
+    "onCounterHit": null,
+    "states": "js21~38",
+    "index": 50
   },
   {
-    "index": 49,
+    "id": "Claudio-uf+4",
+    "parent": null,
     "name": "Sky Slash Nova",
     "input": "uf+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      13
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "[[Claudio_combos#Staples|+33a (+23)]]",
-      "lower": "+33",
-      "properties": [
-        "a"
-      ],
-      "tech": "+23"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~17",
-      "lower": "i15",
-      "properties": [],
-      "upper": "17"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~17",
+    "hitLevels": "m",
+    "damage": 13,
+    "onBlock": -13,
+    "onHit": "[[Claudio_combos#Staples|+33a (+23)]]",
+    "onCounterHit": null,
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* js9~30\n* fs31~33&lt;/div&gt;",
+    "index": 49
   },
   {
-    "index": 51,
+    "id": "Claudio-uf,n,4",
+    "parent": null,
     "name": "Delayed Rising Toe Kick",
     "input": "uf,n,4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+32a (+22a)",
-      "lower": "+32",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i23~i25",
-      "lower": "i23",
-      "properties": [],
-      "upper": "i25"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i23~i25",
+    "hitLevels": "m",
+    "damage": 20,
+    "onBlock": -13,
+    "onHit": "+32a (+22a)",
+    "onCounterHit": null,
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* js9~30\n* fs31~33&lt;/div&gt;",
+    "index": 51
   },
   {
+    "id": "Claudio-ws1",
+    "parent": null,
+    "name": null,
     "input": "ws1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-4",
-      "lower": "-4",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "7",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12~13",
-      "lower": "i12",
-      "properties": [],
-      "upper": "13"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12~13",
+    "hitLevels": "m",
+    "damage": 12,
+    "onBlock": -4,
+    "onHit": 7,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 58,
+    "id": "Claudio-ws1,1",
+    "parent": "Claudio-ws1",
     "name": "Noble Step",
     "input": "ws1,1",
-    "hitLevels": [
-      "m",
-      "h"
-    ],
-    "damage": [
-      12,
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "9",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12~13",
-      "lower": "i12",
-      "properties": [],
-      "upper": "13"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12~13",
+    "hitLevels": "m,h",
+    "damage": "12,15",
+    "onBlock": -12,
+    "onHit": 9,
+    "onCounterHit": null,
+    "states": null,
+    "index": 58
   },
   {
-    "index": 59,
+    "id": "Claudio-ws1,2",
+    "parent": "Claudio-ws1",
     "name": "Malefic Draw",
     "input": "ws1,2",
-    "hitLevels": [
-      "m",
-      "M"
-    ],
-    "damage": [
-      12,
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "4",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12~13",
-      "lower": "i12",
-      "properties": [],
-      "upper": "13"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12~13",
+    "hitLevels": "m,M",
+    "damage": "12,12",
+    "onBlock": -9,
+    "onHit": 4,
+    "onCounterHit": null,
+    "states": null,
+    "index": 59
   },
   {
-    "index": 70,
+    "id": "Claudio-ws1,STB.2",
+    "parent": "Claudio-ws1",
     "name": "Malefic Draw Burst",
     "input": "ws1,STB.2",
-    "hitLevels": [
-      "m",
-      "M"
-    ],
-    "damage": [
-      12,
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "6",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+28a (+13)",
-      "lower": "+28",
-      "properties": [
-        "a"
-      ],
-      "tech": "+13"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12~13",
-      "lower": "i12",
-      "properties": [],
-      "upper": "13"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12~13",
+    "hitLevels": "m,M",
+    "damage": "12,23",
+    "onBlock": 6,
+    "onHit": "+28a (+13)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 70
   },
   {
-    "index": 60,
+    "id": "Claudio-ws2",
+    "parent": null,
     "name": "Sylvia",
     "input": "ws2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-14",
-      "lower": "-14",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "[[Claudio_combos#Staples|+26a (+16)]]",
-      "lower": "+26",
-      "properties": [
-        "a"
-      ],
-      "tech": "+16"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "m",
+    "damage": 20,
+    "onBlock": -14,
+    "onHit": "[[Claudio_combos#Staples|+26a (+16)]]",
+    "onCounterHit": null,
+    "states": null,
+    "index": 60
   },
   {
-    "index": 61,
+    "id": "Claudio-ws3",
+    "parent": null,
     "name": "Piercing Wind",
     "input": "ws3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-8",
-      "lower": "-8",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+15a (+6)",
-      "lower": "+15",
-      "properties": [
-        "a"
-      ],
-      "tech": "+6"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "m",
+    "damage": 20,
+    "onBlock": -8,
+    "onHit": "+15a (+6)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 61
   },
   {
-    "index": 62,
+    "id": "Claudio-ws4",
+    "parent": null,
     "name": "Holy Smash",
     "input": "ws4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      18
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "5",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i11~12",
-      "lower": "i11",
-      "properties": [],
-      "upper": "12"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i11~12",
+    "hitLevels": "m",
+    "damage": 18,
+    "onBlock": -6,
+    "onHit": 5,
+    "onCounterHit": null,
+    "states": null,
+    "index": 62
   }
 ]

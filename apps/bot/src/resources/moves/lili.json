@@ -1,5489 +1,2004 @@
 [
   {
+    "id": "Lili-1",
+    "parent": null,
     "name": "Jab",
-    "input": "1",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      5
-    ],
-    "framesOnBlock": {
-      "_raw": "1",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "8",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": 1,
+    "startup": "i10",
+    "hitLevels": "h",
+    "damage": 5,
+    "onBlock": 1,
+    "onHit": 8,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Lili-1,1",
+    "parent": "Lili-1",
+    "name": null,
     "input": "1,1",
-    "hitLevels": [
-      "h",
-      "h"
-    ],
-    "damage": [
-      5,
-      16
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "4",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,h",
+    "damage": "5,16",
+    "onBlock": -6,
+    "onHit": 4,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 15,
+    "id": "Lili-1,1,3",
+    "parent": "Lili-1,1",
     "name": "Tricolore",
     "input": "1,1,3",
-    "hitLevels": [
-      "h",
-      "h",
-      "M"
-    ],
-    "damage": [
-      5,
-      16,
-      17
-    ],
-    "framesOnBlock": {
-      "_raw": "-15",
-      "lower": "-15",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+6d",
-      "lower": "+6",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "+25a",
-      "lower": "+25",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,h,M",
+    "damage": "5,16,17",
+    "onBlock": -15,
+    "onHit": "+6d",
+    "onCounterHit": "+25a",
+    "states": null,
+    "index": 15
   },
   {
-    "index": 23,
+    "id": "Lili-1+2",
+    "parent": null,
     "name": "Broken Heart",
     "input": "1+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      26
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+20d (+10)",
-      "lower": "+20",
-      "properties": [
-        "d"
-      ],
-      "tech": "+10"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12~13",
-      "lower": "i12",
-      "properties": [],
-      "upper": "13"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12~13",
+    "hitLevels": "m",
+    "damage": 26,
+    "onBlock": -12,
+    "onHit": "+20d (+10)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 23
   },
   {
-    "index": 16,
+    "id": "Lili-1,2",
+    "parent": "Lili-1",
     "name": "Left Right Thrust",
     "input": "1,2",
-    "hitLevels": [
-      "h",
-      "h"
-    ],
-    "damage": [
-      5,
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "8",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,h",
+    "damage": "5,12",
+    "onBlock": -3,
+    "onHit": 8,
+    "onCounterHit": null,
+    "states": null,
+    "index": 16
   },
   {
-    "index": 17,
+    "id": "Lili-1,2,3",
+    "parent": "Lili-1,2",
     "name": "Left Right Back Strike",
     "input": "1,2,3",
-    "hitLevels": [
-      "h",
-      "h",
-      "L"
-    ],
-    "damage": [
-      5,
-      12,
-      13
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+6c",
-      "lower": "+6",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,h,L",
+    "damage": "5,12,13",
+    "onBlock": -13,
+    "onHit": -2,
+    "onCounterHit": "+6c",
+    "states": ",cs10~45",
+    "index": 17
   },
   {
-    "index": 70,
+    "id": "Lili-1+2+3+4",
+    "parent": null,
     "name": "Ki Charge",
     "input": "1+2+3+4",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": 70
   },
   {
-    "index": 18,
+    "id": "Lili-1,2,4",
+    "parent": "Lili-1,2",
     "name": "Left Right Piercing Thorn",
     "input": "1,2,4",
-    "hitLevels": [
-      "h",
-      "h",
-      "m"
-    ],
-    "damage": [
-      5,
-      12,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-9~-4",
-      "lower": "-9",
-      "properties": [],
-      "upper": "-4"
-    },
-    "framesOnHit": {
-      "_raw": "+2a (-7)",
-      "lower": "+2",
-      "properties": [
-        "a"
-      ],
-      "tech": "-7"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,h,m",
+    "damage": "5,12,20",
+    "onBlock": "-9~-4",
+    "onHit": "+2a (-7)",
+    "onCounterHit": null,
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* ,js21~41\n* fs42~44&lt;/div&gt;",
+    "index": 18
   },
   {
+    "id": "Lili-1,2,H.4",
+    "parent": "Lili-1,2",
     "name": "Left Right Piercing Thorn (Heat)",
     "input": "1,2,H.4",
-    "hitLevels": [
-      "h",
-      "h",
-      "m"
-    ],
-    "damage": [
-      5,
-      12,
-      30
-    ],
-    "framesOnBlock": {
-      "_raw": "+5~+10",
-      "lower": "+5",
-      "properties": [],
-      "upper": "+10"
-    },
-    "framesOnHit": {
-      "_raw": "+18~23a (-8~-3)",
-      "lower": "+18",
-      "properties": [
-        "a"
-      ],
-      "upper": "23"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,h,m",
+    "damage": "5,12,30",
+    "onBlock": "+5~+10",
+    "onHit": "+18~23a (-8~-3)",
+    "onCounterHit": null,
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* ,js21?~41?\n* fs42?~44?&lt;/div&gt;",
+    "index": null
   },
   {
-    "index": 104,
+    "id": "Lili-1+3",
+    "parent": null,
     "name": "Kiss of Devotion",
     "input": "1+3",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      35
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "t",
+    "damage": 35,
+    "onBlock": -3,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": 104
   },
   {
-    "input": "2",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      8
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "8",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "id": "Lili-2",
+    "parent": null,
+    "name": null,
+    "input": 2,
+    "startup": "i10",
+    "hitLevels": "h",
+    "damage": 8,
+    "onBlock": 0,
+    "onHit": 8,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Lili-2+3",
+    "parent": null,
     "name": "Heat Burst",
     "input": "2+3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      12,
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "1",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+2c",
-      "lower": "+2",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "m",
+    "damage": "[12;12]",
+    "onBlock": 1,
+    "onHit": "+2c",
+    "onCounterHit": null,
+    "states": "pc7~16",
+    "index": null
   },
   {
-    "index": 19,
+    "id": "Lili-2,3",
+    "parent": "Lili-2",
     "name": "Sunrise Sunset",
     "input": "2,3",
-    "hitLevels": [
-      "h",
-      "L"
-    ],
-    "damage": [
-      8,
-      13
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+6c",
-      "lower": "+6",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,L",
+    "damage": "8,13",
+    "onBlock": -12,
+    "onHit": -2,
+    "onCounterHit": "+6c",
+    "states": ",cs10~45",
+    "index": 19
   },
   {
-    "index": 105,
+    "id": "Lili-2+4",
+    "parent": null,
     "name": "Femme Fatale",
     "input": "2+4",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      35
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "t",
+    "damage": 35,
+    "onBlock": -3,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": 105
   },
   {
-    "index": 20,
+    "id": "Lili-2,4",
+    "parent": "Lili-2",
     "name": "Bed Time",
     "input": "2,4",
-    "hitLevels": [
-      "h",
-      "h"
-    ],
-    "damage": [
-      8,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-2~+2",
-      "lower": "-2",
-      "properties": [],
-      "upper": "+2"
-    },
-    "framesOnHit": {
-      "_raw": "+24a (+15)",
-      "lower": "+24",
-      "properties": [
-        "a"
-      ],
-      "tech": "+15"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "h,h",
+    "damage": "8,20",
+    "onBlock": "-2~+2",
+    "onHit": "+24a (+15)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 20
   },
   {
-    "input": "3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-11",
-      "lower": "-11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "id": "Lili-3",
+    "parent": null,
+    "name": null,
+    "input": 3,
+    "startup": "i15~16",
+    "hitLevels": "m",
+    "damage": 12,
+    "onBlock": -11,
+    "onHit": -3,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 21,
+    "id": "Lili-3,1",
+    "parent": "Lili-3",
     "name": "Peacock Waltz",
     "input": "3,1",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      12,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+40d (-18)",
-      "lower": "+40",
-      "properties": [
-        "d"
-      ],
-      "tech": "-18"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "m,m",
+    "damage": "12,20",
+    "onBlock": -13,
+    "onHit": "+40d (-18)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 21
   },
   {
+    "id": "Lili-3,2",
+    "parent": "Lili-3",
+    "name": null,
     "input": "3,2",
-    "hitLevels": [
-      "m",
-      "h"
-    ],
-    "damage": [
-      12,
-      8
-    ],
-    "framesOnBlock": {
-      "_raw": "-5",
-      "lower": "-5",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "2",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "10",
-      "lower": "10",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "m,h",
+    "damage": "12,8",
+    "onBlock": -5,
+    "onHit": 2,
+    "onCounterHit": 10,
+    "states": null,
+    "index": null
   },
   {
-    "index": 22,
+    "id": "Lili-3,2,3",
+    "parent": "Lili-3,2",
     "name": "Peacock Jive",
     "input": "3,2,3",
-    "hitLevels": [
-      "m",
-      "h",
-      "h"
-    ],
-    "damage": [
-      12,
-      8,
-      22
-    ],
-    "framesOnBlock": {
-      "_raw": "-9~-6",
-      "lower": "-9",
-      "properties": [],
-      "upper": "-6"
-    },
-    "framesOnHit": {
-      "_raw": "+13a (+4)",
-      "lower": "+13",
-      "properties": [
-        "a"
-      ],
-      "tech": "+4"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~16",
-      "lower": "i15",
-      "properties": [],
-      "upper": "16"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~16",
+    "hitLevels": "m,h,h",
+    "damage": "12,8,22",
+    "onBlock": "-9~-6",
+    "onHit": "+13a (+4)",
+    "onCounterHit": null,
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* ,js13~31\n* fs32~34&lt;/div&gt;",
+    "index": 22
   },
   {
-    "index": 24,
+    "id": "Lili-3+4",
+    "parent": null,
     "name": "Black Swan",
     "input": "3+4",
-    "hitLevels": [
-      "h",
-      "h"
-    ],
-    "damage": [
-      10,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+20a (+11)",
-      "lower": "+20",
-      "properties": [
-        "a"
-      ],
-      "tech": "+11"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i23~24 i14~15",
-      "lower": "i23",
-      "properties": [],
-      "upper": "24"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i23~24 i14~15",
+    "hitLevels": "h,h",
+    "damage": "10,20",
+    "onBlock": -2,
+    "onHit": "+20a (+11)",
+    "onCounterHit": null,
+    "states": "&lt;div class=&quot;plainlist&quot;&gt;\n* js22~36\n* fs37~39&lt;/div&gt;",
+    "index": 24
   },
   {
-    "input": "4",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      16
-    ],
-    "framesOnBlock": {
-      "_raw": "-4",
-      "lower": "-4",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "7",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "id": "Lili-4",
+    "parent": null,
+    "name": null,
+    "input": 4,
+    "startup": "i12",
+    "hitLevels": "h",
+    "damage": 16,
+    "onBlock": -4,
+    "onHit": 7,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Lili-b+1",
+    "parent": null,
     "name": "Élysée Le Bras Allongé",
     "input": "b+1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      16
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "2",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "8",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17",
-      "lower": "i17",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17",
+    "hitLevels": "m",
+    "damage": 16,
+    "onBlock": -6,
+    "onHit": 2,
+    "onCounterHit": 8,
+    "states": null,
+    "index": null
   },
   {
-    "index": 48,
+    "id": "Lili-b+1+2",
+    "parent": null,
     "name": "Dendrobium",
     "input": "b+1+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      28
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+29a (-7)",
-      "lower": "+29",
-      "properties": [
-        "a"
-      ],
-      "tech": "-7"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i23",
-      "lower": "i23",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i23",
+    "hitLevels": "m",
+    "damage": 28,
+    "onBlock": -12,
+    "onHit": "+29a (-7)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 48
   },
   {
+    "id": "Lili-b+1+3_b+2+4",
+    "parent": null,
     "name": "Attack Reversal",
     "input": "b+1+3_b+2+4",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+1d",
-      "lower": "+1",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": "t",
+    "damage": 25,
+    "onBlock": null,
+    "onHit": "+1d",
+    "onCounterHit": null,
+    "states": "ps5~15",
+    "index": null
   },
   {
-    "index": 50,
+    "id": "Lili-b+1+4",
+    "parent": null,
     "name": "Piercing Thorn Fortissimo",
     "input": "b+1+4",
-    "hitLevels": [
-      "m!"
-    ],
-    "damage": [
-      50
-    ],
-    "framesOnBlock": {
-      "_raw": "!",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+9a (-17)",
-      "lower": "+9",
-      "properties": [
-        "a"
-      ],
-      "tech": "-17"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i63",
-      "lower": "i63",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i63",
+    "hitLevels": "m!",
+    "damage": 50,
+    "onBlock": "!",
+    "onHit": "+9a (-17)",
+    "onCounterHit": null,
+    "states": "js",
+    "index": 50
   },
   {
-    "index": 45,
+    "id": "Lili-b+1,4",
+    "parent": "Lili-b+1",
     "name": "Élysée Le Bras Allongé Caracole",
     "input": "b+1,4",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      16,
-      22
-    ],
-    "framesOnBlock": {
-      "_raw": "-11",
-      "lower": "-11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+32a (+17)",
-      "lower": "+32",
-      "properties": [
-        "a"
-      ],
-      "tech": "+17"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17",
-      "lower": "i17",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17",
+    "hitLevels": "m,m",
+    "damage": "16,22",
+    "onBlock": -11,
+    "onHit": "+32a (+17)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 45
   },
   {
+    "id": "Lili-b+2",
+    "parent": null,
+    "name": null,
     "input": "b+2",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "-11",
-      "lower": "-11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13",
-      "lower": "i13",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13",
+    "hitLevels": "h",
+    "damage": 15,
+    "onBlock": -11,
+    "onHit": 0,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Lili-b+2,1",
+    "parent": "Lili-b+2",
+    "name": null,
     "input": "b+2,1",
-    "hitLevels": [
-      "h",
-      "m"
-    ],
-    "damage": [
-      15,
-      13
-    ],
-    "framesOnBlock": {
-      "_raw": "-4",
-      "lower": "-4",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "7",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "9",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13",
-      "lower": "i13",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13",
+    "hitLevels": "h,m",
+    "damage": "15,13",
+    "onBlock": -4,
+    "onHit": 7,
+    "onCounterHit": 9,
+    "states": null,
+    "index": null
   },
   {
-    "index": 46,
+    "id": "Lili-b+2,1,1+2",
+    "parent": "Lili-b+2,1",
     "name": "Heliotrope Corsage",
     "input": "b+2,1,1+2",
-    "hitLevels": [
-      "h",
-      "m",
-      "m"
-    ],
-    "damage": [
-      15,
-      13,
-      27
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+20a (+10)",
-      "lower": "+20",
-      "properties": [
-        "a"
-      ],
-      "tech": "+10"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13",
-      "lower": "i13",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13",
+    "hitLevels": "h,m,m",
+    "damage": "15,13,27",
+    "onBlock": -12,
+    "onHit": "+20a (+10)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 46
   },
   {
+    "id": "Lili-b+3",
+    "parent": null,
     "name": "Feisty Rabbit",
     "input": "b+3",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": "js12~ (js10 in heat)",
+    "index": null
   },
   {
-    "index": 49,
+    "id": "Lili-b+3+4",
+    "parent": null,
     "name": "Mirror Image",
     "input": "b+3+4",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": 49
   },
   {
+    "id": "Lili-Back throw",
+    "parent": null,
     "name": "Ravaging Beauty",
-    "input": "BackThrow",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      60
-    ],
-    "framesOnBlock": {
-      "_raw": "!",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+1d",
-      "lower": "+1",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": "Back Throw",
+    "startup": "i12",
+    "hitLevels": "t",
+    "damage": 60,
+    "onBlock": "!",
+    "onHit": "+1d",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Lili-BT.1",
+    "parent": null,
+    "name": null,
     "input": "BT.1",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      8
-    ],
-    "framesOnBlock": {
-      "_raw": "-8",
-      "lower": "-8",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "3",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i8",
-      "lower": "i8",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i8",
+    "hitLevels": "h",
+    "damage": 8,
+    "onBlock": -8,
+    "onHit": 3,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 85,
+    "id": "Lili-BT.1+2",
+    "parent": null,
     "name": "Tempest",
     "input": "BT.1+2",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      5,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-11c",
-      "lower": "-11",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnHit": {
-      "_raw": "+16a",
-      "lower": "+16",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13~14 i3~4",
-      "lower": "i13",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13~14 i3~4",
+    "hitLevels": "m,m",
+    "damage": "5,20",
+    "onBlock": "-11c",
+    "onHit": "+16a",
+    "onCounterHit": null,
+    "states": null,
+    "index": 85
   },
   {
-    "index": 80,
+    "id": "Lili-BT.1,2",
+    "parent": "Lili-BT.1",
     "name": "Fierbois Sword",
     "input": "BT.1,2",
-    "hitLevels": [
-      "h",
-      "m"
-    ],
-    "damage": [
-      8,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+16a (-1)",
-      "lower": "+16",
-      "properties": [
-        "a"
-      ],
-      "tech": "-1"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i8",
-      "lower": "i8",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i8",
+    "hitLevels": "h,m",
+    "damage": "8,20",
+    "onBlock": -13,
+    "onHit": "+16a (-1)",
+    "onCounterHit": null,
+    "states": "js27~",
+    "index": 80
   },
   {
-    "index": 81,
+    "id": "Lili-BT.1,4",
+    "parent": "Lili-BT.1",
     "name": "Scorpio&#039;s Sting",
     "input": "BT.1,4",
-    "hitLevels": [
-      "h",
-      "h"
-    ],
-    "damage": [
-      8,
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-5",
-      "lower": "-5",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+10g",
-      "lower": "+10",
-      "properties": [
-        "g"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i8",
-      "lower": "i8",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i8",
+    "hitLevels": "h,h",
+    "damage": "8,21",
+    "onBlock": -5,
+    "onHit": "+10g",
+    "onCounterHit": null,
+    "states": null,
+    "index": 81
   },
   {
-    "index": 82,
+    "id": "Lili-BT.2",
+    "parent": null,
     "name": "Rompez Fleuret",
     "input": "BT.2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      22
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "8",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14",
-      "lower": "i14",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14",
+    "hitLevels": "m",
+    "damage": 22,
+    "onBlock": -13,
+    "onHit": 8,
+    "onCounterHit": null,
+    "states": "pc6~",
+    "index": 82
   },
   {
+    "id": "Lili-BT.3",
+    "parent": null,
+    "name": null,
     "input": "BT.3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-10",
-      "lower": "-10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14",
-      "lower": "i14",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14",
+    "hitLevels": "m",
+    "damage": 12,
+    "onBlock": -10,
+    "onHit": 0,
+    "onCounterHit": null,
+    "states": "cs4~",
+    "index": null
   },
   {
-    "index": 86,
+    "id": "Lili-BT.3+4",
+    "parent": null,
     "name": "Twist Backflip",
     "input": "BT.3+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      24
-    ],
-    "framesOnBlock": {
-      "_raw": "2",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+7c",
-      "lower": "+7",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i29",
-      "lower": "i29",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i29",
+    "hitLevels": "m",
+    "damage": 24,
+    "onBlock": 2,
+    "onHit": "+7c",
+    "onCounterHit": null,
+    "states": "js5~",
+    "index": 86
   },
   {
-    "index": 83,
+    "id": "Lili-BT.3,4",
+    "parent": "Lili-BT.3",
     "name": "Arc-en-Ciel",
     "input": "BT.3,4",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      12,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+39d (+31)",
-      "lower": "+39",
-      "properties": [
-        "d"
-      ],
-      "tech": "+31"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14",
-      "lower": "i14",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14",
+    "hitLevels": "m,m",
+    "damage": "12,20",
+    "onBlock": -12,
+    "onHit": "+39d (+31)",
+    "onCounterHit": null,
+    "states": "js26~",
+    "index": 83
   },
   {
+    "id": "Lili-BT.4",
+    "parent": null,
     "name": "Shears",
     "input": "BT.4",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      10,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-11",
-      "lower": "-11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+11d",
-      "lower": "+11",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i26~28 i21~22",
-      "lower": "i26",
-      "properties": [],
-      "upper": "28"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i26~28 i21~22",
+    "hitLevels": "m,m",
+    "damage": "10,20",
+    "onBlock": -11,
+    "onHit": "+11d",
+    "onCounterHit": null,
+    "states": "js13~28, js1~?",
+    "index": null
   },
   {
-    "index": 84,
+    "id": "Lili-BT.4,3+4",
+    "parent": "Lili-BT.4",
     "name": "Shears &gt; Spinning Edge",
     "input": "BT.4,3+4",
-    "hitLevels": [
-      "m",
-      "m",
-      "m"
-    ],
-    "damage": [
-      10,
-      20,
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-10",
-      "lower": "-10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+4d",
-      "lower": "+4",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i26~28 i21~22",
-      "lower": "i26",
-      "properties": [],
-      "upper": "28"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i26~28 i21~22",
+    "hitLevels": "m,m,m",
+    "damage": "10,20,12",
+    "onBlock": -10,
+    "onHit": "+4d",
+    "onCounterHit": null,
+    "states": "js14~",
+    "index": 84
   },
   {
+    "id": "Lili-BT.b+3",
+    "parent": null,
     "name": "Feisty Rabbit",
     "input": "BT.b+3",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": "js10~",
+    "index": null
   },
   {
-    "index": 87,
+    "id": "Lili-BT.d+2",
+    "parent": null,
     "name": "Petal Sweep",
     "input": "BT.d+2",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      17
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+5c",
-      "lower": "+5",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "+14d",
-      "lower": "+14",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "l",
+    "damage": 17,
+    "onBlock": -12,
+    "onHit": "+5c",
+    "onCounterHit": "+14d",
+    "states": "cs4~",
+    "index": 87
   },
   {
+    "id": "Lili-BT.d+3",
+    "parent": null,
+    "name": null,
     "input": "BT.d+3",
-    "hitLevels": [
-      "L"
-    ],
-    "damage": [
-      8
-    ],
-    "framesOnBlock": {
-      "_raw": "-17",
-      "lower": "-17",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-1",
-      "lower": "-1",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "2",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17",
-      "lower": "i17",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17",
+    "hitLevels": "L",
+    "damage": 8,
+    "onBlock": -17,
+    "onHit": -1,
+    "onCounterHit": 2,
+    "states": "cs4~",
+    "index": null
   },
   {
-    "index": 90,
+    "id": "Lili-BT.d+3+4",
+    "parent": null,
     "name": "Orchid Ring",
     "input": "BT.d+3+4",
-    "hitLevels": [
-      "L"
-    ],
-    "damage": [
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-26",
-      "lower": "-26",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+19d",
-      "lower": "+19",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20",
-      "lower": "i20",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20",
+    "hitLevels": "L",
+    "damage": 25,
+    "onBlock": -26,
+    "onHit": "+19d",
+    "onCounterHit": null,
+    "states": "cs8~",
+    "index": 90
   },
   {
-    "index": 88,
+    "id": "Lili-BT.d+3,4",
+    "parent": "Lili-BT.d+3",
     "name": "Autumn Wind",
     "input": "BT.d+3,4",
-    "hitLevels": [
-      "L",
-      "m"
-    ],
-    "damage": [
-      8,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+27a (+12)",
-      "lower": "+27",
-      "properties": [
-        "a"
-      ],
-      "tech": "+12"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17",
-      "lower": "i17",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17",
+    "hitLevels": "L,m",
+    "damage": "8,20",
+    "onBlock": -13,
+    "onHit": "+27a (+12)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 88
   },
   {
+    "id": "Lili-BT.d+3+4,F",
+    "parent": "Lili-BT.d+3+4",
+    "name": null,
     "input": "BT.d+3+4,F",
-    "hitLevels": [
-      "Lnull"
-    ],
-    "damage": [
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-26",
-      "lower": "-26",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+18d",
-      "lower": "+18",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20",
-      "lower": "i20",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20",
+    "hitLevels": "Lnull",
+    "damage": "25null",
+    "onBlock": -26,
+    "onHit": "+18d",
+    "onCounterHit": null,
+    "states": "cs",
+    "index": null
   },
   {
-    "index": 89,
+    "id": "Lili-BT.d+4",
+    "parent": null,
     "name": "Graceful Low Kick",
     "input": "BT.d+4",
-    "hitLevels": [
-      "L"
-    ],
-    "damage": [
-      9
-    ],
-    "framesOnBlock": {
-      "_raw": "-11",
-      "lower": "-11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "1",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14",
-      "lower": "i14",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14",
+    "hitLevels": "L",
+    "damage": 9,
+    "onBlock": -11,
+    "onHit": 1,
+    "onCounterHit": null,
+    "states": "cs4~",
+    "index": 89
   },
   {
+    "id": "Lili-d+1",
+    "parent": null,
+    "name": null,
     "input": "d+1",
-    "hitLevels": [
-      "L"
-    ],
-    "damage": [
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-11",
-      "lower": "-11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18",
-      "lower": "i18",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18",
+    "hitLevels": "L",
+    "damage": 10,
+    "onBlock": -11,
+    "onHit": 0,
+    "onCounterHit": null,
+    "states": "cs",
+    "index": null
   },
   {
-    "index": 40,
+    "id": "Lili-d+1+2",
+    "parent": null,
     "name": "Barcarolle",
     "input": "d+1+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+13d",
-      "lower": "+13",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20",
-      "lower": "i20",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20",
+    "hitLevels": "m",
+    "damage": 25,
+    "onBlock": -13,
+    "onHit": "+13d",
+    "onCounterHit": null,
+    "states": "pc7~",
+    "index": 40
   },
   {
+    "id": "Lili-d+1,2",
+    "parent": "Lili-d+1",
+    "name": null,
     "input": "d+1,2",
-    "hitLevels": [
-      "L",
-      "h"
-    ],
-    "damage": [
-      10,
-      8
-    ],
-    "framesOnBlock": {
-      "_raw": "-8",
-      "lower": "-8",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "3",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "5",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18",
-      "lower": "i18",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18",
+    "hitLevels": "L,h",
+    "damage": "10,8",
+    "onBlock": -8,
+    "onHit": 3,
+    "onCounterHit": 5,
+    "states": null,
+    "index": null
   },
   {
-    "index": 36,
+    "id": "Lili-d+1,2,4",
+    "parent": "Lili-d+1,2",
     "name": "Heavy Languish",
     "input": "d+1,2,4",
-    "hitLevels": [
-      "L",
-      "h",
-      "m"
-    ],
-    "damage": [
-      10,
-      8,
-      24
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+17a (+8)",
-      "lower": "+17",
-      "properties": [
-        "a"
-      ],
-      "tech": "+8"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18",
-      "lower": "i18",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18",
+    "hitLevels": "L,h,m",
+    "damage": "10,8,24",
+    "onBlock": -12,
+    "onHit": "+17a (+8)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 36
   },
   {
+    "id": "Lili-d+2",
+    "parent": null,
+    "name": null,
     "input": "d+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      16
-    ],
-    "framesOnBlock": {
-      "_raw": "-7",
-      "lower": "-7",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "1",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "m",
+    "damage": 16,
+    "onBlock": -7,
+    "onHit": 1,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Lili-d+2,2",
+    "parent": "Lili-d+2",
+    "name": null,
     "input": "d+2,2",
-    "hitLevels": [
-      "m",
-      "h"
-    ],
-    "damage": [
-      16,
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-10",
-      "lower": "-10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-4",
-      "lower": "-4",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "m,h",
+    "damage": "16,10",
+    "onBlock": -10,
+    "onHit": -4,
+    "onCounterHit": -2,
+    "states": null,
+    "index": null
   },
   {
-    "index": 37,
+    "id": "Lili-d+2,2,3",
+    "parent": "Lili-d+2,2",
     "name": "Bloody Masquerade Piton",
     "input": "d+2,2,3",
-    "hitLevels": [
-      "m",
-      "h",
-      "h"
-    ],
-    "damage": [
-      16,
-      10,
-      24
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+23a (+14)",
-      "lower": "+23",
-      "properties": [
-        "a"
-      ],
-      "tech": "+14"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "m,h,h",
+    "damage": "16,10,24",
+    "onBlock": -3,
+    "onHit": "+23a (+14)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 37
   },
   {
-    "index": 38,
+    "id": "Lili-d+2,2,4",
+    "parent": "Lili-d+2,2",
     "name": "Bloody Masquerade Lance",
     "input": "d+2,2,4",
-    "hitLevels": [
-      "m",
-      "h",
-      "m"
-    ],
-    "damage": [
-      16,
-      10,
-      24
-    ],
-    "framesOnBlock": {
-      "_raw": "-17",
-      "lower": "-17",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+35d (-23)",
-      "lower": "+35",
-      "properties": [
-        "d"
-      ],
-      "tech": "-23"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "m,h,m",
+    "damage": "16,10,24",
+    "onBlock": -17,
+    "onHit": "+35d (-23)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 38
   },
   {
-    "index": 39,
+    "id": "Lili-d+3",
+    "parent": null,
     "name": "Thorn Whip",
     "input": "d+3",
-    "hitLevels": [
-      "L"
-    ],
-    "damage": [
-      14
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "1",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+5c",
-      "lower": "+5",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i19",
-      "lower": "i19",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i19",
+    "hitLevels": "L",
+    "damage": 14,
+    "onBlock": -12,
+    "onHit": 1,
+    "onCounterHit": "+5c",
+    "states": null,
+    "index": 39
   },
   {
-    "index": 41,
+    "id": "Lili-d+3+4",
+    "parent": null,
     "name": "Matterhorn Ascension",
     "input": "d+3+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "-21",
-      "lower": "-21",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+45a (+35)",
-      "lower": "+45",
-      "properties": [
-        "a"
-      ],
-      "tech": "+35"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17",
-      "lower": "i17",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17",
+    "hitLevels": "m",
+    "damage": 23,
+    "onBlock": -21,
+    "onHit": "+45a (+35)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 41
   },
   {
+    "id": "Lili-d+4",
+    "parent": null,
+    "name": null,
     "input": "d+4",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      6
-    ],
-    "framesOnBlock": {
-      "_raw": "-15",
-      "lower": "-15",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-4",
-      "lower": "-4",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "l",
+    "damage": 6,
+    "onBlock": -15,
+    "onHit": -4,
+    "onCounterHit": null,
+    "states": "cs",
+    "index": null
   },
   {
+    "id": "Lili-db+1",
+    "parent": null,
+    "name": null,
     "input": "db+1",
-    "hitLevels": [
-      "sl"
-    ],
-    "damage": [
-      5
-    ],
-    "framesOnBlock": {
-      "_raw": "-5",
-      "lower": "-5",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "6",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "sl",
+    "damage": 5,
+    "onBlock": -5,
+    "onHit": 6,
+    "onCounterHit": null,
+    "states": "cs",
+    "index": null
   },
   {
+    "id": "Lili-db+2",
+    "parent": null,
+    "name": null,
     "input": "db+2",
-    "hitLevels": [
-      "sl"
-    ],
-    "damage": [
-      8
-    ],
-    "framesOnBlock": {
-      "_raw": "-4",
-      "lower": "-4",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "7",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i11",
-      "lower": "i11",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i11",
+    "hitLevels": "sl",
+    "damage": 8,
+    "onBlock": -4,
+    "onHit": 7,
+    "onCounterHit": null,
+    "states": "cs",
+    "index": null
   },
   {
-    "index": 42,
+    "id": "Lili-db+3",
+    "parent": null,
     "name": "Twist of Fate",
     "input": "db+3",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      22
-    ],
-    "framesOnBlock": {
-      "_raw": "-9~-6",
-      "lower": "-9",
-      "properties": [],
-      "upper": "-6"
-    },
-    "framesOnHit": {
-      "_raw": "+34a",
-      "lower": "+34",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "+46a",
-      "lower": "+46",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i19~22",
-      "lower": "i19",
-      "properties": [],
-      "upper": "22"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i19~22",
+    "hitLevels": "h",
+    "damage": 22,
+    "onBlock": "-9~-6",
+    "onHit": "+34a",
+    "onCounterHit": "+46a",
+    "states": "cs6~19",
+    "index": 42
   },
   {
-    "index": 44,
+    "id": "Lili-db+3+4",
+    "parent": null,
     "name": "Freesia Thrust",
     "input": "db+3+4",
-    "hitLevels": [
-      "L"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-18",
-      "lower": "-18",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+3d",
-      "lower": "+3",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "+33a",
-      "lower": "+33",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i24",
-      "lower": "i24",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i24",
+    "hitLevels": "L",
+    "damage": 20,
+    "onBlock": -18,
+    "onHit": "+3d",
+    "onCounterHit": "+33a",
+    "states": "cs16~",
+    "index": 44
   },
   {
-    "index": 43,
+    "id": "Lili-db+4",
+    "parent": null,
     "name": "Edelweiss",
     "input": "db+4",
-    "hitLevels": [
-      "L"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-24",
-      "lower": "-24",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+76a (+60)",
-      "lower": "+76",
-      "properties": [
-        "a"
-      ],
-      "tech": "+60"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i30",
-      "lower": "i30",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i30",
+    "hitLevels": "L",
+    "damage": 20,
+    "onBlock": -24,
+    "onHit": "+76a (+60)",
+    "onCounterHit": null,
+    "states": "cs7~",
+    "index": 43
   },
   {
+    "id": "Lili-DEW.1",
+    "parent": null,
     "name": "Rose",
     "input": "DEW.1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-4",
-      "lower": "-4",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "2",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m",
+    "damage": 12,
+    "onBlock": -9,
+    "onHit": -4,
+    "onCounterHit": 2,
+    "states": null,
+    "index": null
   },
   {
-    "index": 97,
+    "id": "Lili-DEW.1+2",
+    "parent": null,
     "name": "Angel Heart",
     "input": "DEW.1+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      28
-    ],
-    "framesOnBlock": {
-      "_raw": "-11",
-      "lower": "-11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+17cg",
-      "lower": "+17",
-      "properties": [
-        "cg"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "m",
+    "damage": 28,
+    "onBlock": -11,
+    "onHit": "+17cg",
+    "onCounterHit": null,
+    "states": "pc6~",
+    "index": 97
   },
   {
-    "index": 93,
+    "id": "Lili-DEW.1,2",
+    "parent": "Lili-DEW.1",
     "name": "Rose Pique",
     "input": "DEW.1,2",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      12,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-14",
-      "lower": "-14",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+20a (+10)",
-      "lower": "+20",
-      "properties": [
-        "a"
-      ],
-      "tech": "+10"
-    },
-    "framesOnCounter": {
-      "_raw": "+54a",
-      "lower": "+54",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m,m",
+    "damage": "12,20",
+    "onBlock": -14,
+    "onHit": "+20a (+10)",
+    "onCounterHit": "+54a",
+    "states": null,
+    "index": 93
   },
   {
+    "id": "Lili-DEW.1,2~B",
+    "parent": "Lili-DEW.1",
+    "name": null,
     "input": "DEW.1,2~B",
-    "hitLevels": [
-      "mnull"
-    ],
-    "damage": [
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-14~-15",
-      "lower": "-14",
-      "properties": [],
-      "upper": "-15"
-    },
-    "framesOnHit": {
-      "_raw": "-9~-8",
-      "lower": "-9",
-      "properties": [],
-      "upper": "-8"
-    },
-    "framesOnCounter": {
-      "_raw": "-3~-2",
-      "lower": "-3",
-      "properties": [],
-      "upper": "-2"
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "mnull",
+    "damage": "12null",
+    "onBlock": "-14~-15",
+    "onHit": "-9~-8",
+    "onCounterHit": "-3~-2",
+    "states": null,
+    "index": null
   },
   {
-    "index": 94,
+    "id": "Lili-DEW.1,4",
+    "parent": "Lili-DEW.1",
     "name": "Rose Piercing Thorn",
     "input": "DEW.1,4",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      12,
-      30
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+2a (-7)",
-      "lower": "+2",
-      "properties": [
-        "a"
-      ],
-      "tech": "-7"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m,m",
+    "damage": "12,30",
+    "onBlock": -9,
+    "onHit": "+2a (-7)",
+    "onCounterHit": null,
+    "states": "js17~",
+    "index": 94
   },
   {
+    "id": "Lili-DEW.1,H.4",
+    "parent": "Lili-DEW.1",
     "name": "Rose Piercing Thorn (Heat)",
     "input": "DEW.1,H.4",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      12,
-      36
-    ],
-    "framesOnBlock": {
-      "_raw": "+7~+13",
-      "lower": "+7",
-      "properties": [],
-      "upper": "+13"
-    },
-    "framesOnHit": {
-      "_raw": "+20~26a (-6~+0)",
-      "lower": "+20",
-      "properties": [
-        "a"
-      ],
-      "upper": "26"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m,m",
+    "damage": "12,36",
+    "onBlock": "+7~+13",
+    "onHit": "+20~26a (-6~+0)",
+    "onCounterHit": null,
+    "states": "js17~",
+    "index": null
   },
   {
+    "id": "Lili-DEW.2",
+    "parent": null,
+    "name": null,
     "input": "DEW.2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      13
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14",
-      "lower": "i14",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14",
+    "hitLevels": "m",
+    "damage": 13,
+    "onBlock": -9,
+    "onHit": 0,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 95,
+    "id": "Lili-DEW.2,1",
+    "parent": "Lili-DEW.2",
     "name": "Nocturne",
     "input": "DEW.2,1",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      13,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+17d",
-      "lower": "+17",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i14",
-      "lower": "i14",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14",
+    "hitLevels": "m,m",
+    "damage": "13,20",
+    "onBlock": -13,
+    "onHit": "+17d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 95
   },
   {
-    "index": 96,
+    "id": "Lili-DEW.3",
+    "parent": null,
     "name": "Platinum Grace",
     "input": "DEW.3",
-    "hitLevels": [
-      "M"
-    ],
-    "damage": [
-      28
-    ],
-    "framesOnBlock": {
-      "_raw": "-11",
-      "lower": "-11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+20a (+3)",
-      "lower": "+20",
-      "properties": [
-        "a"
-      ],
-      "tech": "+3"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i17",
-      "lower": "i17",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17",
+    "hitLevels": "M",
+    "damage": 28,
+    "onBlock": -11,
+    "onHit": "+20a (+3)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 96
   },
   {
-    "index": 98,
+    "id": "Lili-DEW.3+4",
+    "parent": null,
     "name": "Cloisonne",
     "input": "DEW.3+4",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      6,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "6",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+17g",
-      "lower": "+17",
-      "properties": [
-        "g"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12~14, i5~6",
-      "lower": "i12",
-      "properties": [],
-      "upper": "14"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12~14, i5~6",
+    "hitLevels": "h",
+    "damage": "6,20",
+    "onBlock": 6,
+    "onHit": "+17g",
+    "onCounterHit": null,
+    "states": "js12~?, js17?~?",
+    "index": 98
   },
   {
+    "id": "Lili-df+1",
+    "parent": null,
+    "name": null,
     "input": "df+1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-1",
-      "lower": "-1",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "8",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13",
-      "lower": "i13",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13",
+    "hitLevels": "m",
+    "damage": 10,
+    "onBlock": -1,
+    "onHit": 8,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 31,
+    "id": "Lili-df+2",
+    "parent": null,
     "name": "Orleans Sword",
     "input": "df+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "-11",
-      "lower": "-11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+31a (+21)",
-      "lower": "+31",
-      "properties": [
-        "a"
-      ],
-      "tech": "+21"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "m",
+    "damage": 15,
+    "onBlock": -11,
+    "onHit": "+31a (+21)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 31
   },
   {
-    "index": 32,
+    "id": "Lili-df+3",
+    "parent": null,
     "name": "Submissive Heel",
     "input": "df+3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "+3c",
-      "lower": "+3",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnHit": {
-      "_raw": "+8c",
-      "lower": "+8",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "+19a",
-      "lower": "+19",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i20",
-      "lower": "i20",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20",
+    "hitLevels": "m",
+    "damage": 23,
+    "onBlock": "+3c",
+    "onHit": "+8c",
+    "onCounterHit": "+19a",
+    "states": null,
+    "index": 32
   },
   {
-    "index": 34,
+    "id": "Lili-df+3+4",
+    "parent": null,
     "name": "Backflip",
     "input": "df+3+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      14
-    ],
-    "framesOnBlock": {
-      "_raw": "-4",
-      "lower": "-4",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+27a",
-      "lower": "+27",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i24~29",
-      "lower": "i24",
-      "properties": [],
-      "upper": "29"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i24~29",
+    "hitLevels": "m",
+    "damage": 14,
+    "onBlock": -4,
+    "onHit": "+27a",
+    "onCounterHit": null,
+    "states": "js12~",
+    "index": 34
   },
   {
-    "index": 35,
+    "id": "Lili-df+3+4,3+4",
+    "parent": "Lili-df+3+4",
     "name": "Backflip Spinning Edge",
     "input": "df+3+4,3+4",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      14,
-      19
-    ],
-    "framesOnBlock": {
-      "_raw": "-7",
-      "lower": "-7",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+2d",
-      "lower": "+2",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i24~29",
-      "lower": "i24",
-      "properties": [],
-      "upper": "29"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i24~29",
+    "hitLevels": "m,m",
+    "damage": "14,19",
+    "onBlock": -7,
+    "onHit": "+2d",
+    "onCounterHit": null,
+    "states": "js12~",
+    "index": 35
   },
   {
+    "id": "Lili-df+4",
+    "parent": null,
+    "name": null,
     "input": "df+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      12
-    ],
-    "framesOnBlock": {
-      "_raw": "-8",
-      "lower": "-8",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "5",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13",
-      "lower": "i13",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13",
+    "hitLevels": "m",
+    "damage": 12,
+    "onBlock": -8,
+    "onHit": -2,
+    "onCounterHit": 5,
+    "states": null,
+    "index": null
   },
   {
-    "index": 33,
+    "id": "Lili-df+4,4",
+    "parent": "Lili-df+4",
     "name": "Dominating Heel",
     "input": "df+4,4",
-    "hitLevels": [
-      "m",
-      "L"
-    ],
-    "damage": [
-      12,
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "8",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13",
-      "lower": "i13",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13",
+    "hitLevels": "m,L",
+    "damage": "12,23",
+    "onBlock": -13,
+    "onHit": -2,
+    "onCounterHit": 8,
+    "states": null,
+    "index": 33
   },
   {
+    "id": "Lili-(During Enemy wall stun) 1+3",
+    "parent": null,
     "name": "Larkspur",
-    "input": "(DuringEnemywallstun)1+3",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      39
-    ],
-    "framesOnBlock": {
-      "_raw": "!",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": "(During Enemy wall stun) 1+3",
+    "startup": "i12",
+    "hitLevels": "t",
+    "damage": 39,
+    "onBlock": "!",
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 28,
+    "id": "Lili-f+1+2",
+    "parent": null,
     "name": "Kitty Claws",
     "input": "f+1+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      17
-    ],
-    "framesOnBlock": {
-      "_raw": "-7",
-      "lower": "-7",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+4c",
-      "lower": "+4",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "+12c",
-      "lower": "+12",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i14",
-      "lower": "i14",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14",
+    "hitLevels": "m",
+    "damage": 17,
+    "onBlock": -7,
+    "onHit": "+4c",
+    "onCounterHit": "+12c",
+    "states": null,
+    "index": 28
   },
   {
+    "id": "Lili-f+2",
+    "parent": null,
+    "name": null,
     "input": "f+2",
-    "hitLevels": [
-      "h"
-    ],
-    "damage": [
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-1",
-      "lower": "-1",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "h",
+    "damage": 10,
+    "onBlock": -9,
+    "onHit": -1,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 25,
+    "id": "Lili-f+2,3",
+    "parent": "Lili-f+2",
     "name": "Mars Sword",
     "input": "f+2,3",
-    "hitLevels": [
-      "h",
-      "m"
-    ],
-    "damage": [
-      10,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-15",
-      "lower": "-15",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+24a (+7)",
-      "lower": "+24",
-      "properties": [
-        "a"
-      ],
-      "tech": "+7"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "h,m",
+    "damage": "10,20",
+    "onBlock": -15,
+    "onHit": "+24a (+7)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 25
   },
   {
-    "index": 26,
+    "id": "Lili-f+3",
+    "parent": null,
     "name": "Circle Knee",
     "input": "f+3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      26
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+17a (+8)",
-      "lower": "+17",
-      "properties": [
-        "a"
-      ],
-      "tech": "+8"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20",
-      "lower": "i20",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20",
+    "hitLevels": "m",
+    "damage": 26,
+    "onBlock": -3,
+    "onHit": "+17a (+8)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 26
   },
   {
-    "index": 29,
+    "id": "Lili-f+3+4",
+    "parent": null,
     "name": "Sundial",
     "input": "f+3+4",
-    "hitLevels": [
-      "m",
-      "M"
-    ],
-    "damage": [
-      6,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+6d",
-      "lower": "+6",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18~20 i11~13",
-      "lower": "i18",
-      "properties": [],
-      "upper": "20"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18~20 i11~13",
+    "hitLevels": "m,M",
+    "damage": "6,20",
+    "onBlock": -9,
+    "onHit": "+6d",
+    "onCounterHit": null,
+    "states": "js11~",
+    "index": 29
   },
   {
+    "id": "Lili-f+3+4,3",
+    "parent": null,
+    "name": null,
     "input": "f+3+4,3",
-    "hitLevels": [
-      "m",
-      "M"
-    ],
-    "damage": [
-      6,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-8",
-      "lower": "-8",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+23a",
-      "lower": "+23",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18~20 i30~33",
-      "lower": "i18",
-      "properties": [],
-      "upper": "20"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18~20 i30~33",
+    "hitLevels": "m,M",
+    "damage": "6,20",
+    "onBlock": -8,
+    "onHit": "+23a",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 30,
+    "id": "Lili-f+3+4,3,4",
+    "parent": "Lili-f+3+4,3",
     "name": "Garland Kick Combo",
     "input": "f+3+4,3,4",
-    "hitLevels": [
-      "m",
-      "M",
-      "M"
-    ],
-    "damage": [
-      6,
-      20,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-20",
-      "lower": "-20",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+10 (+3)",
-      "lower": "+10",
-      "properties": [],
-      "tech": "+3"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18~20 i30~33",
-      "lower": "i18",
-      "properties": [],
-      "upper": "20"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18~20 i30~33",
+    "hitLevels": "m,M,M",
+    "damage": "6,20,20",
+    "onBlock": -20,
+    "onHit": "+10 (+3)",
+    "onCounterHit": null,
+    "states": "js",
+    "index": 30
   },
   {
-    "index": 27,
+    "id": "Lili-f+4",
+    "parent": null,
     "name": "Bélier Attaque",
     "input": "f+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "7",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+57a",
-      "lower": "+57",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i17",
-      "lower": "i17",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i17",
+    "hitLevels": "m",
+    "damage": 23,
+    "onBlock": -9,
+    "onHit": 7,
+    "onCounterHit": "+57a",
+    "states": null,
+    "index": 27
   },
   {
+    "id": "Lili-FC.1",
+    "parent": null,
+    "name": null,
     "input": "FC.1",
-    "hitLevels": [
-      "sl"
-    ],
-    "damage": [
-      5
-    ],
-    "framesOnBlock": {
-      "_raw": "-5",
-      "lower": "-5",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "6",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i10",
-      "lower": "i10",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i10",
+    "hitLevels": "sl",
+    "damage": 5,
+    "onBlock": -5,
+    "onHit": 6,
+    "onCounterHit": null,
+    "states": "cs",
+    "index": null
   },
   {
+    "id": "Lili-FC.2",
+    "parent": null,
+    "name": null,
     "input": "FC.2",
-    "hitLevels": [
-      "sl"
-    ],
-    "damage": [
-      8
-    ],
-    "framesOnBlock": {
-      "_raw": "-4",
-      "lower": "-4",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "7",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i11",
-      "lower": "i11",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i11",
+    "hitLevels": "sl",
+    "damage": 8,
+    "onBlock": -4,
+    "onHit": 7,
+    "onCounterHit": null,
+    "states": "cs",
+    "index": null
   },
   {
+    "id": "Lili-FC.3",
+    "parent": null,
+    "name": null,
     "input": "FC.3",
-    "hitLevels": [
-      "L"
-    ],
-    "damage": [
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-17",
-      "lower": "-17",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "L",
+    "damage": 10,
+    "onBlock": -17,
+    "onHit": -6,
+    "onCounterHit": null,
+    "states": "cs",
+    "index": null
   },
   {
+    "id": "Lili-FC.4",
+    "parent": null,
+    "name": null,
     "input": "FC.4",
-    "hitLevels": [
-      "l"
-    ],
-    "damage": [
-      6
-    ],
-    "framesOnBlock": {
-      "_raw": "-15",
-      "lower": "-15",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-4",
-      "lower": "-4",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "l",
+    "damage": 6,
+    "onBlock": -15,
+    "onHit": -4,
+    "onCounterHit": null,
+    "states": "cs",
+    "index": null
   },
   {
-    "index": 75,
+    "id": "Lili-FC.df+1",
+    "parent": null,
     "name": "Slashing Vine",
     "input": "FC.df+1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-6",
-      "lower": "-6",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+19a (+2)",
-      "lower": "+19",
-      "properties": [
-        "a"
-      ],
-      "tech": "+2"
-    },
-    "framesOnCounter": {
-      "_raw": "+34d (+26)",
-      "lower": "+34",
-      "properties": [
-        "d"
-      ],
-      "tech": "+26"
-    },
-    "framesOnStartup": {
-      "_raw": "i14",
-      "lower": "i14",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i14",
+    "hitLevels": "m",
+    "damage": 25,
+    "onBlock": -6,
+    "onHit": "+19a (+2)",
+    "onCounterHit": "+34d (+26)",
+    "states": null,
+    "index": 75
   },
   {
-    "index": 76,
+    "id": "Lili-FC.df+3",
+    "parent": null,
     "name": "Horizon Slide",
     "input": "FC.df+3",
-    "hitLevels": [
-      "L"
-    ],
-    "damage": [
-      19
-    ],
-    "framesOnBlock": {
-      "_raw": "-18",
-      "lower": "-18",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+26a",
-      "lower": "+26",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i23",
-      "lower": "i23",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i23",
+    "hitLevels": "L",
+    "damage": 19,
+    "onBlock": -18,
+    "onHit": -2,
+    "onCounterHit": "+26a",
+    "states": "cs10~46?",
+    "index": 76
   },
   {
-    "index": 63,
+    "id": "Lili-f,F+1+2",
+    "parent": null,
     "name": "Lashing Iris",
     "input": "f,F+1+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      28
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+17a (+8)",
-      "lower": "+17",
-      "properties": [
-        "a"
-      ],
-      "tech": "+8"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i18",
-      "lower": "i18",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i18",
+    "hitLevels": "m",
+    "damage": 28,
+    "onBlock": -9,
+    "onHit": "+17a (+8)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 63
   },
   {
-    "index": 60,
+    "id": "Lili-f,F+2",
+    "parent": null,
     "name": "Allonger Le Bras",
     "input": "f,F+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+20a",
-      "lower": "+20",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "m",
+    "damage": 20,
+    "onBlock": -13,
+    "onHit": "+20a",
+    "onCounterHit": null,
+    "states": null,
+    "index": 60
   },
   {
+    "id": "Lili-f,F+3",
+    "parent": null,
+    "name": null,
     "input": "f,F+3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+5c",
-      "lower": "+5",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i22",
-      "lower": "i22",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i22",
+    "hitLevels": "m",
+    "damage": 15,
+    "onBlock": -12,
+    "onHit": "+5c",
+    "onCounterHit": null,
+    "states": "js",
+    "index": null
   },
   {
-    "index": 61,
+    "id": "Lili-f,F+3,3+4",
+    "parent": "Lili-f,F+3",
     "name": "Alstroemeria",
     "input": "f,F+3,3+4",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      15,
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-8",
-      "lower": "-8",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+13d",
-      "lower": "+13",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i22",
-      "lower": "i22",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i22",
+    "hitLevels": "m,m",
+    "damage": "15,25",
+    "onBlock": -8,
+    "onHit": "+13d",
+    "onCounterHit": null,
+    "states": "js",
+    "index": 61
   },
   {
-    "index": 65,
+    "id": "Lili-f,F+3+4",
+    "parent": null,
     "name": "Piercing Thorn",
     "input": "f,F+3+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      30
-    ],
-    "framesOnBlock": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+4a (-5)",
-      "lower": "+4",
-      "properties": [
-        "a"
-      ],
-      "tech": "-5"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i19",
-      "lower": "i19",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i19",
+    "hitLevels": "m",
+    "damage": 30,
+    "onBlock": -2,
+    "onHit": "+4a (-5)",
+    "onCounterHit": null,
+    "states": "js",
+    "index": 65
   },
   {
-    "index": 62,
+    "id": "Lili-f,F+4",
+    "parent": null,
     "name": "Root of Evil",
     "input": "f,F+4",
-    "hitLevels": [
-      "L"
-    ],
-    "damage": [
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "4",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "4",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i22",
-      "lower": "i22",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i22",
+    "hitLevels": "L",
+    "damage": 23,
+    "onBlock": -12,
+    "onHit": 4,
+    "onCounterHit": 4,
+    "states": null,
+    "index": 62
   },
   {
-    "index": 66,
+    "id": "Lili-f,f,F+3",
+    "parent": null,
     "name": "Sabre Slash",
     "input": "f,f,F+3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      30
-    ],
-    "framesOnBlock": {
-      "_raw": "3",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+20a (+10)",
-      "lower": "+20",
-      "properties": [
-        "a"
-      ],
-      "tech": "+10"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i23",
-      "lower": "i23",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i23",
+    "hitLevels": "m",
+    "damage": 30,
+    "onBlock": 3,
+    "onHit": "+20a (+10)",
+    "onCounterHit": null,
+    "states": "js",
+    "index": 66
   },
   {
+    "id": "Lili-H.2+3",
+    "parent": null,
     "name": "White Swan Mezzo Forte",
     "input": "H.2+3",
-    "hitLevels": [
-      "h",
-      "t"
-    ],
-    "damage": [
-      55
-    ],
-    "framesOnBlock": {
-      "_raw": "9",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "-3d",
-      "lower": "-3",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i23",
-      "lower": "i23",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i23",
+    "hitLevels": "h,t",
+    "damage": 55,
+    "onBlock": 9,
+    "onHit": "-3d",
+    "onCounterHit": null,
+    "states": "js22~",
+    "index": null
   },
   {
+    "id": "Lili-H.2+3",
+    "parent": null,
     "name": "White Swan Mezzo Forte (Block)",
     "input": "H.2+3",
-    "hitLevels": [
-      "h",
-      "h",
-      "m",
-      "M"
-    ],
-    "damage": [
-      15,
-      15,
-      15,
-      30
-    ],
-    "framesOnBlock": {
-      "_raw": "9",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+20d(-15)",
-      "lower": "+20",
-      "properties": [
-        "d"
-      ],
-      "tech": "-15"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i23~24 i14~15 i36~38 i9~11",
-      "lower": "i23",
-      "properties": [],
-      "upper": "24"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i23~24 i14~15 i36~38 i9~11",
+    "hitLevels": "h,h,m,M",
+    "damage": "15,15,15,30",
+    "onBlock": 9,
+    "onHit": "+20d(-15)",
+    "onCounterHit": null,
+    "states": "js22?",
+    "index": null
   },
   {
-    "index": 103,
+    "id": "Lili-H.b+3*",
+    "parent": null,
     "name": "Feisty Rabbit Deuxiéme",
     "input": "H.b+3*",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": "js10",
+    "index": 103
   },
   {
+    "id": "Lili-H.BT.2+3",
+    "parent": null,
     "name": "Rosa Giganteia Mezzo Forte",
     "input": "H.BT.2+3",
-    "hitLevels": [
-      "l",
-      "M",
-      "M",
-      "M"
-    ],
-    "damage": [
-      15,
-      5,
-      5,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-8",
-      "lower": "-8",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+23a (+5)",
-      "lower": "+23",
-      "properties": [
-        "a"
-      ],
-      "tech": "+5"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16 i27~28 i6~8 i20~22",
-      "lower": "i16",
-      "properties": [],
-      "upper": "28"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16 i27~28 i6~8 i20~22",
+    "hitLevels": "l,M,M,M",
+    "damage": "15,5,5,20",
+    "onBlock": -8,
+    "onHit": "+23a (+5)",
+    "onCounterHit": null,
+    "states": "cs4~? js25~?",
+    "index": null
   },
   {
+    "id": "Lili-H.f,F+3+4",
+    "parent": null,
     "name": "Piercing Thorn (Heat)",
     "input": "H.f,F+3+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      36
-    ],
-    "framesOnBlock": {
-      "_raw": "+7~+13",
-      "lower": "+7",
-      "properties": [],
-      "upper": "+13"
-    },
-    "framesOnHit": {
-      "_raw": "+20~26a (-6~+0)",
-      "lower": "+20",
-      "properties": [
-        "a"
-      ],
-      "upper": "26"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i19~25",
-      "lower": "i19",
-      "properties": [],
-      "upper": "25"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i19~25",
+    "hitLevels": "m",
+    "damage": 36,
+    "onBlock": "+7~+13",
+    "onHit": "+20~26a (-6~+0)",
+    "onCounterHit": null,
+    "states": "js",
+    "index": null
   },
   {
+    "id": "Lili-H.RAB.2",
+    "parent": null,
     "name": "Rabbit Song",
     "input": "H.RAB.2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      24
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+39d (-19)",
-      "lower": "+39",
-      "properties": [
-        "d"
-      ],
-      "tech": "-19"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20",
-      "lower": "i20",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20",
+    "hitLevels": "m",
+    "damage": 24,
+    "onBlock": -9,
+    "onHit": "+39d (-19)",
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Lili-H.RAB.3",
+    "parent": null,
     "name": "Rabbit Dance (Heat)",
     "input": "H.RAB.3",
-    "hitLevels": [
-      "L"
-    ],
-    "damage": [
-      22
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+24a",
-      "lower": "+24",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "+70a (+54)",
-      "lower": "+70",
-      "properties": [
-        "a"
-      ],
-      "tech": "+54"
-    },
-    "framesOnStartup": {
-      "_raw": "i20~21",
-      "lower": "i20",
-      "properties": [],
-      "upper": "21"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20~21",
+    "hitLevels": "L",
+    "damage": 22,
+    "onBlock": -13,
+    "onHit": "+24a",
+    "onCounterHit": "+70a (+54)",
+    "states": "cs6~",
+    "index": null
   },
   {
+    "id": "Lili-H.RAB.4",
+    "parent": null,
     "name": "Rabbit Piercing Thorn (Heat)",
     "input": "H.RAB.4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      36
-    ],
-    "framesOnBlock": {
-      "_raw": "+7~+13",
-      "lower": "+7",
-      "properties": [],
-      "upper": "+13"
-    },
-    "framesOnHit": {
-      "_raw": "+20~26a (-6~+0)",
-      "lower": "+20",
-      "properties": [
-        "a"
-      ],
-      "upper": "26"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i23~29",
-      "lower": "i23",
-      "properties": [],
-      "upper": "29"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i23~29",
+    "hitLevels": "m",
+    "damage": 36,
+    "onBlock": "+7~+13",
+    "onHit": "+20~26a (-6~+0)",
+    "onCounterHit": null,
+    "states": "js15~",
+    "index": null
   },
   {
-    "index": 106,
+    "id": "Lili-Left throw",
+    "parent": null,
     "name": "Soleil",
-    "input": "LeftThrow",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      42
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": "Left Throw",
+    "startup": "i12",
+    "hitLevels": "t",
+    "damage": 42,
+    "onBlock": -3,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 106
   },
   {
-    "index": 92,
+    "id": "Lili-qcf",
+    "parent": null,
     "name": "Dew Glide",
     "input": "qcf",
-    "hitLevels": [],
-    "damage": [],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": null,
+    "hitLevels": null,
+    "damage": null,
+    "onBlock": null,
+    "onHit": null,
+    "onCounterHit": null,
+    "states": null,
+    "index": 92
   },
   {
-    "index": 100,
+    "id": "Lili-RAB.2",
+    "parent": null,
     "name": "Rabbit Song",
     "input": "RAB.2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+39d (-19)",
-      "lower": "+39",
-      "properties": [
-        "d"
-      ],
-      "tech": "-19"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20",
-      "lower": "i20",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20",
+    "hitLevels": "m",
+    "damage": 20,
+    "onBlock": -9,
+    "onHit": "+39d (-19)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 100
   },
   {
-    "index": 101,
+    "id": "Lili-RAB.3",
+    "parent": null,
     "name": "Rabbit Dance",
     "input": "RAB.3",
-    "hitLevels": [
-      "L"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-13",
-      "lower": "-13",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+3c",
-      "lower": "+3",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "+70a (+54)",
-      "lower": "+70",
-      "properties": [
-        "a"
-      ],
-      "tech": "+54"
-    },
-    "framesOnStartup": {
-      "_raw": "i20",
-      "lower": "i20",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20",
+    "hitLevels": "L",
+    "damage": 20,
+    "onBlock": -13,
+    "onHit": "+3c",
+    "onCounterHit": "+70a (+54)",
+    "states": "cs6~",
+    "index": 101
   },
   {
-    "index": 102,
+    "id": "Lili-RAB.4",
+    "parent": null,
     "name": "Rabbit Piercing Thorn",
     "input": "RAB.4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      24
-    ],
-    "framesOnBlock": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+4a (-5)",
-      "lower": "+4",
-      "properties": [
-        "a"
-      ],
-      "tech": "-5"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i23",
-      "lower": "i23",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i23",
+    "hitLevels": "m",
+    "damage": 24,
+    "onBlock": -2,
+    "onHit": "+4a (-5)",
+    "onCounterHit": null,
+    "states": "js15~",
+    "index": 102
   },
   {
+    "id": "Lili-R.df+1+2",
+    "parent": null,
     "name": "La Vie en Rose Fortissimo",
     "input": "R.df+1+2",
-    "hitLevels": [
-      "m",
-      "t"
-    ],
-    "damage": [
-      55
-    ],
-    "framesOnBlock": {
-      "_raw": "-15",
-      "lower": "-15",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+0d",
-      "lower": "+0",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20",
-      "lower": "i20",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20",
+    "hitLevels": "m,t",
+    "damage": "55+",
+    "onBlock": -15,
+    "onHit": "+0d",
+    "onCounterHit": null,
+    "states": "pc8~",
+    "index": null
   },
   {
-    "index": 107,
+    "id": "Lili-Right throw",
+    "parent": null,
     "name": "Monaco Mixer",
-    "input": "RightThrow",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      43
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+1d",
-      "lower": "+1",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "input": "Right Throw",
+    "startup": "i12",
+    "hitLevels": "t",
+    "damage": 43,
+    "onBlock": -3,
+    "onHit": "+1d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 107
   },
   {
-    "index": 79,
+    "id": "Lili-ss1+2",
+    "parent": null,
     "name": "Minuet",
     "input": "ss1+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+25a (+16)",
-      "lower": "+25",
-      "properties": [
-        "a"
-      ],
-      "tech": "+16"
-    },
-    "framesOnCounter": {
-      "_raw": "+64a",
-      "lower": "+64",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i19",
-      "lower": "i19",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i19",
+    "hitLevels": "m",
+    "damage": 21,
+    "onBlock": 0,
+    "onHit": "+25a (+16)",
+    "onCounterHit": "+64a",
+    "states": null,
+    "index": 79
   },
   {
-    "index": 77,
+    "id": "Lili-ss3",
+    "parent": null,
     "name": "Stunning Toe Kick",
     "input": "ss3",
-    "hitLevels": [
-      "M"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+35d (+27)",
-      "lower": "+35",
-      "properties": [
-        "d"
-      ],
-      "tech": "+27"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "M",
+    "damage": 20,
+    "onBlock": -9,
+    "onHit": "+35d (+27)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 77
   },
   {
-    "index": 78,
+    "id": "Lili-ss4",
+    "parent": null,
     "name": "Demilune",
     "input": "ss4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      18
-    ],
-    "framesOnBlock": {
-      "_raw": "-2",
-      "lower": "-2",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "4",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "+11g",
-      "lower": "+11",
-      "properties": [
-        "g"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i20",
-      "lower": "i20",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20",
+    "hitLevels": "m",
+    "damage": 18,
+    "onBlock": -2,
+    "onHit": 4,
+    "onCounterHit": "+11g",
+    "states": "cs6~11?",
+    "index": 78
   },
   {
+    "id": "Lili-u+3",
+    "parent": null,
+    "name": null,
     "input": "u+3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-16",
-      "lower": "-16",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+25a (+15)",
-      "lower": "+25",
-      "properties": [
-        "a"
-      ],
-      "tech": "+15"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i22",
-      "lower": "i22",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i22",
+    "hitLevels": "m",
+    "damage": 20,
+    "onBlock": -16,
+    "onHit": "+25a (+15)",
+    "onCounterHit": null,
+    "states": "js16~",
+    "index": null
   },
   {
+    "id": "Lili-u+3,3",
+    "parent": "Lili-u+3",
+    "name": null,
     "input": "u+3,3",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      20,
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+5c",
-      "lower": "+5",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i22",
-      "lower": "i22",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i22",
+    "hitLevels": "m,m",
+    "damage": "20,15",
+    "onBlock": -12,
+    "onHit": "+5c",
+    "onCounterHit": null,
+    "states": "js",
+    "index": null
   },
   {
-    "index": 52,
+    "id": "Lili-u+3,3,3+4",
+    "parent": "Lili-u+3,3",
     "name": "Moonsault Alstroemeria",
     "input": "u+3,3,3+4",
-    "hitLevels": [
-      "m",
-      "m",
-      "m"
-    ],
-    "damage": [
-      20,
-      15,
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-8",
-      "lower": "-8",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+13d",
-      "lower": "+13",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i22",
-      "lower": "i22",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i22",
+    "hitLevels": "m,m,m",
+    "damage": "20,15,25",
+    "onBlock": -8,
+    "onHit": "+13d",
+    "onCounterHit": null,
+    "states": "js",
+    "index": 52
   },
   {
-    "index": 53,
+    "id": "Lili-u+3+4",
+    "parent": null,
     "name": "Divine Step",
     "input": "u+3+4",
-    "hitLevels": [
-      "m(t)"
-    ],
-    "damage": [
-      1828
-    ],
-    "framesOnBlock": {
-      "_raw": "-8",
-      "lower": "-8",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+13d (+39a)",
-      "lower": "+13",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i36",
-      "lower": "i36",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i36",
+    "hitLevels": "m (t)",
+    "damage": "18 (28 )",
+    "onBlock": -8,
+    "onHit": "+13d (+39a)",
+    "onCounterHit": null,
+    "states": "js5~",
+    "index": 53
   },
   {
-    "index": 51,
+    "id": "Lili-ub+1",
+    "parent": null,
     "name": "Shattered Crown",
     "input": "ub+1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+9d",
-      "lower": "+9",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "m",
+    "damage": 21,
+    "onBlock": -9,
+    "onHit": "+9d",
+    "onCounterHit": null,
+    "states": null,
+    "index": 51
   },
   {
-    "index": 109,
+    "id": "Lili-uf+1+2",
+    "parent": null,
     "name": "Rafflesia",
     "input": "uf+1+2",
-    "hitLevels": [
-      "t"
-    ],
-    "damage": [
-      40
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "1",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i12",
-      "lower": "i12",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i12",
+    "hitLevels": "t",
+    "damage": 40,
+    "onBlock": -3,
+    "onHit": 1,
+    "onCounterHit": null,
+    "states": null,
+    "index": 109
   },
   {
-    "index": 54,
+    "id": "Lili-uf+2",
+    "parent": null,
     "name": "Stinging Nettle",
     "input": "uf+2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      21
-    ],
-    "framesOnBlock": {
-      "_raw": "-10",
-      "lower": "-10",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+15a (+6)",
-      "lower": "+15",
-      "properties": [
-        "a"
-      ],
-      "tech": "+6"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i20",
-      "lower": "i20",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i20",
+    "hitLevels": "m",
+    "damage": 21,
+    "onBlock": -10,
+    "onHit": "+15a (+6)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 54
   },
   {
-    "index": 55,
+    "id": "Lili-uf+3",
+    "parent": null,
     "name": "Capricorn Kick",
     "input": "uf+3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      13
-    ],
-    "framesOnBlock": {
-      "_raw": "-13~-11",
-      "lower": "-13",
-      "properties": [],
-      "upper": "-11"
-    },
-    "framesOnHit": {
-      "_raw": "+30a (+20)",
-      "lower": "+30",
-      "properties": [
-        "a"
-      ],
-      "tech": "+20"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~17",
-      "lower": "i15",
-      "properties": [],
-      "upper": "17"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~17",
+    "hitLevels": "m",
+    "damage": 13,
+    "onBlock": "-13~-11",
+    "onHit": "+30a (+20)",
+    "onCounterHit": null,
+    "states": "js9~ fs9~",
+    "index": 55
   },
   {
+    "id": "Lili-uf+3+4",
+    "parent": null,
     "name": "Angel Knee",
     "input": "uf+3+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      15
-    ],
-    "framesOnBlock": {
-      "_raw": "-9~-6",
-      "lower": "-9",
-      "properties": [],
-      "upper": "-6"
-    },
-    "framesOnHit": {
-      "_raw": "2",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~18",
-      "lower": "i15",
-      "properties": [],
-      "upper": "18"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~18",
+    "hitLevels": "m",
+    "damage": 15,
+    "onBlock": "-9~-6",
+    "onHit": 2,
+    "onCounterHit": null,
+    "states": "js9~",
+    "index": null
   },
   {
-    "index": 57,
+    "id": "Lili-uf+3+4,3",
+    "parent": "Lili-uf+3+4",
     "name": "Angel Knee &gt; Front Kick",
     "input": "uf+3+4,3",
-    "hitLevels": [
-      "m",
-      "h"
-    ],
-    "damage": [
-      15,
-      18
-    ],
-    "framesOnBlock": {
-      "_raw": "-4",
-      "lower": "-4",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+14g (+18g w)",
-      "lower": "+14",
-      "properties": [
-        "g"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "+20a (+10)",
-      "lower": "+20",
-      "properties": [
-        "a"
-      ],
-      "tech": "+10"
-    },
-    "framesOnStartup": {
-      "_raw": "i15~18",
-      "lower": "i15",
-      "properties": [],
-      "upper": "18"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~18",
+    "hitLevels": "m,h",
+    "damage": "15,18",
+    "onBlock": -4,
+    "onHit": "+14g (+18g w)",
+    "onCounterHit": "+20a (+10)",
+    "states": null,
+    "index": 57
   },
   {
-    "index": 58,
+    "id": "Lili-uf+3+4,3+4",
+    "parent": "Lili-uf+3+4",
     "name": "Angel Knee Ascension",
     "input": "uf+3+4,3+4",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      15,
-      23
-    ],
-    "framesOnBlock": {
-      "_raw": "-21",
-      "lower": "-21",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+45a (+35)",
-      "lower": "+45",
-      "properties": [
-        "a"
-      ],
-      "tech": "+35"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15~18",
-      "lower": "i15",
-      "properties": [],
-      "upper": "18"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15~18",
+    "hitLevels": "m,m",
+    "damage": "15,23",
+    "onBlock": -21,
+    "onHit": "+45a (+35)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 58
   },
   {
+    "id": "Lili-uf+4",
+    "parent": null,
+    "name": null,
     "input": "uf+4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      18
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+1c",
-      "lower": "+1",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i25",
-      "lower": "i25",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i25",
+    "hitLevels": "m",
+    "damage": 18,
+    "onBlock": -12,
+    "onHit": "+1c",
+    "onCounterHit": null,
+    "states": "js9~",
+    "index": null
   },
   {
-    "index": 56,
+    "id": "Lili-uf+4,3",
+    "parent": "Lili-uf+4",
     "name": "Sunflower Lance",
     "input": "uf+4,3",
-    "hitLevels": [
-      "m",
-      "m"
-    ],
-    "damage": [
-      18,
-      30
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+41d (-17)",
-      "lower": "+41",
-      "properties": [
-        "d"
-      ],
-      "tech": "-17"
-    },
-    "framesOnCounter": {
-      "_raw": "+32d (+24)",
-      "lower": "+32",
-      "properties": [
-        "d"
-      ],
-      "tech": "+24"
-    },
-    "framesOnStartup": {
-      "_raw": "i25",
-      "lower": "i25",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i25",
+    "hitLevels": "m,m",
+    "damage": "18,30",
+    "onBlock": -9,
+    "onHit": "+41d (-17)",
+    "onCounterHit": "+32d (+24)",
+    "states": null,
+    "index": 56
   },
   {
-    "index": 59,
+    "id": "Lili-uf,n,4",
+    "parent": null,
     "name": "Delayed Rising Toe Kick",
     "input": "uf,n,4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-13~-11",
-      "lower": "-13",
-      "properties": [],
-      "upper": "-11"
-    },
-    "framesOnHit": {
-      "_raw": "+32a (+22)",
-      "lower": "+32",
-      "properties": [
-        "a"
-      ],
-      "tech": "+22"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i23~25",
-      "lower": "i23",
-      "properties": [],
-      "upper": "25"
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i23~25",
+    "hitLevels": "m",
+    "damage": 20,
+    "onBlock": "-13~-11",
+    "onHit": "+32a (+22)",
+    "onCounterHit": null,
+    "states": "js",
+    "index": 59
   },
   {
+    "id": "Lili-ws1",
+    "parent": null,
+    "name": null,
     "input": "ws1",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      10
-    ],
-    "framesOnBlock": {
-      "_raw": "-11",
-      "lower": "-11",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13",
-      "lower": "i13",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13",
+    "hitLevels": "m",
+    "damage": 10,
+    "onBlock": -11,
+    "onHit": 0,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
+    "id": "Lili-ws1,2",
+    "parent": "Lili-ws1",
+    "name": null,
     "input": "ws1,2",
-    "hitLevels": [
-      "m",
-      "h"
-    ],
-    "damage": [
-      10,
-      16
-    ],
-    "framesOnBlock": {
-      "_raw": "-3",
-      "lower": "-3",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "8",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i13",
-      "lower": "i13",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13",
+    "hitLevels": "m,h",
+    "damage": "10,16",
+    "onBlock": -3,
+    "onHit": 8,
+    "onCounterHit": null,
+    "states": null,
+    "index": null
   },
   {
-    "index": 71,
+    "id": "Lili-ws1,2,4",
+    "parent": "Lili-ws1,2",
     "name": "Sullen Daisy",
     "input": "ws1,2,4",
-    "hitLevels": [
-      "m",
-      "h",
-      "L"
-    ],
-    "damage": [
-      10,
-      16,
-      20
-    ],
-    "framesOnBlock": {
-      "_raw": "-14",
-      "lower": "-14",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+12a",
-      "lower": "+12",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "+43a",
-      "lower": "+43",
-      "properties": [
-        "a"
-      ]
-    },
-    "framesOnStartup": {
-      "_raw": "i13",
-      "lower": "i13",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i13",
+    "hitLevels": "m,h,L",
+    "damage": "10,16,20",
+    "onBlock": -14,
+    "onHit": "+12a",
+    "onCounterHit": "+43a",
+    "states": "cs12~",
+    "index": 71
   },
   {
-    "index": 72,
+    "id": "Lili-ws2",
+    "parent": null,
     "name": "Delicate Uprising",
     "input": "ws2",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      17
-    ],
-    "framesOnBlock": {
-      "_raw": "-12",
-      "lower": "-12",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+39a (+29)",
-      "lower": "+39",
-      "properties": [
-        "a"
-      ],
-      "tech": "+29"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i16",
-      "lower": "i16",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i16",
+    "hitLevels": "m",
+    "damage": 17,
+    "onBlock": -12,
+    "onHit": "+39a (+29)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 72
   },
   {
+    "id": "Lili-ws3",
+    "parent": null,
+    "name": null,
     "input": "ws3",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "-21",
-      "lower": "-21",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+62a (+46)",
-      "lower": "+62",
-      "properties": [
-        "a"
-      ],
-      "tech": "+46"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m",
+    "damage": 25,
+    "onBlock": -21,
+    "onHit": "+62a (+46)",
+    "onCounterHit": null,
+    "states": "js12~",
+    "index": null
   },
   {
-    "index": 73,
+    "id": "Lili-ws3,4",
+    "parent": "Lili-ws3",
     "name": "Honeysuckle",
     "input": "ws3,4",
-    "hitLevels": [
-      "m",
-      "M"
-    ],
-    "damage": [
-      25,
-      25
-    ],
-    "framesOnBlock": {
-      "_raw": "+4c",
-      "lower": "+4",
-      "properties": [
-        "c"
-      ]
-    },
-    "framesOnHit": {
-      "_raw": "+26d",
-      "lower": "+26",
-      "properties": [
-        "d"
-      ]
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i15",
-      "lower": "i15",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i15",
+    "hitLevels": "m,M",
+    "damage": "25,25",
+    "onBlock": "+4c",
+    "onHit": "+26d",
+    "onCounterHit": null,
+    "states": "js27~",
+    "index": 73
   },
   {
-    "index": 74,
+    "id": "Lili-ws4",
+    "parent": null,
     "name": "Cane Smash",
     "input": "ws4",
-    "hitLevels": [
-      "m"
-    ],
-    "damage": [
-      18
-    ],
-    "framesOnBlock": {
-      "_raw": "-9",
-      "lower": "-9",
-      "properties": []
-    },
-    "framesOnHit": {
-      "_raw": "+20a (+13)",
-      "lower": "+20",
-      "properties": [
-        "a"
-      ],
-      "tech": "+13"
-    },
-    "framesOnCounter": {
-      "_raw": "",
-      "lower": "",
-      "properties": []
-    },
-    "framesOnStartup": {
-      "_raw": "i11",
-      "lower": "i11",
-      "properties": []
-    },
-    "state": {
-      "_raw": ""
-    },
-    "notes": [],
-    "specials": []
+    "startup": "i11",
+    "hitLevels": "m",
+    "damage": 18,
+    "onBlock": -9,
+    "onHit": "+20a (+13)",
+    "onCounterHit": null,
+    "states": null,
+    "index": 74
   }
 ]
