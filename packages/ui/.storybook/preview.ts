@@ -25,6 +25,12 @@ const preview: Preview = {
         docs: {
             page: DocumentationTemplate,
         },
+        options: {
+            storySort: {
+                includeNames: false,
+                order: ['General', 'Base', '*'],
+            },
+        },
     },
     tags: ['autodocs'],
 }

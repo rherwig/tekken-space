@@ -1,5 +1,5 @@
 export interface ScrapedMove {
-    index: number
+    index?: number
     name?: string
     input: string
     hitLevels: string[]

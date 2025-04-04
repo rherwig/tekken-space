@@ -112,8 +112,8 @@
     --color-secondary: var(--secondary);
     --color-secondary-foreground: var(--secondary-foreground);
 
-    --color-accent: var(--accent);
-    --color-accent-foreground: var(--accent-foreground);
+    --color-accent: var(--color-green-500);
+    --color-accent-foreground: var(--color-green-50);
 
     --color-destructive: var(--destructive);
     --color-destructive-foreground: var(--destructive-foreground);

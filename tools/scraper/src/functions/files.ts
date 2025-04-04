@@ -1,27 +1,50 @@
-import { fileURLToPath } from 'node:url'
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs'
+import { join } from 'node:path'
 import { ScrapedMove } from '@tekken-space/types'
+import {
+    LINKED_FILES_PATH,
+    ORIGINAL_FILES_PATH,
+    OVERRIDDEN_FILES_PATH,
+    OVERRIDE_FILES_PATH,
+} from '../constants'
 
-import { OUTPUT_PATH } from '../constants'
-
-export const loadLocalFile = (path: string, cwd: string) => {
-    return readFileSync(fileURLToPath(new URL(path, cwd)), 'utf-8')
+export const loadOriginalFile = (characterId: string) => {
+    return readFileSync(
+        join(ORIGINAL_FILES_PATH, `${characterId}.json`),
+        'utf-8',
+    )
 }
 
-export const loadRemoteFile = async (url: string) => {
-    const response = await fetch(url)
-
-    return response.text()
+export const loadOverridesFile = (characterId: string) => {
+    return readFileSync(
+        join(OVERRIDE_FILES_PATH, `${characterId}.json`),
+        'utf-8',
+    )
 }
 
-export const writeOutput = (slug: string, moves: ScrapedMove[]) => {
-    if (!existsSync(OUTPUT_PATH)) {
-        mkdirSync(OUTPUT_PATH)
+export const loadOverriddenFile = (characterId: string) => {
+    return readFileSync(
+        join(OVERRIDDEN_FILES_PATH, `${characterId}.json`),
+        'utf-8',
+    )
+}
+
+export const loadLinkedFile = (characterId: string) => {
+    return readFileSync(join(LINKED_FILES_PATH, `${characterId}.json`), 'utf-8')
+}
+
+export const writeOutput = <T = ScrapedMove[]>(
+    path: string,
+    slug: string,
+    output: T,
+) => {
+    if (!existsSync(path)) {
+        mkdirSync(path)
     }
 
     writeFileSync(
-        `${OUTPUT_PATH}/${slug}.json`,
-        JSON.stringify(moves, null, 2),
+        `${path}/${slug}.json`,
+        JSON.stringify(output, null, 2),
         'utf-8',
     )
 }

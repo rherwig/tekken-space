@@ -1,0 +1,6243 @@
+[
+  {
+    "name": "Jab",
+    "input": "1",
+    "hitLevels": [
+      "h"
+    ],
+    "damage": [
+      5
+    ],
+    "framesOnBlock": {
+      "_raw": "1",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "8",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i10",
+      "lower": "i10",
+      "properties": []
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 31,
+    "name": "Open Sesame",
+    "input": "1+2",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      5,
+      5
+    ],
+    "framesOnBlock": {
+      "_raw": "1",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "9",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "14",
+      "lower": "14",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i16~18",
+      "lower": "i16",
+      "properties": [],
+      "upper": "18"
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 20,
+    "name": "Left Right Slap",
+    "input": "1,2",
+    "hitLevels": [
+      "h",
+      "h"
+    ],
+    "damage": [
+      5,
+      8
+    ],
+    "framesOnBlock": {
+      "_raw": "-3",
+      "lower": "-3",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "8",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i10",
+      "lower": "i10",
+      "properties": []
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "name": "Left Right Left",
+    "input": "1,2,1",
+    "hitLevels": [
+      "h",
+      "h",
+      "h"
+    ],
+    "damage": [
+      5,
+      8,
+      4
+    ],
+    "framesOnBlock": {
+      "_raw": "-4",
+      "lower": "-4",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i10",
+      "lower": "i10",
+      "properties": []
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 21,
+    "name": "Roasted with Love",
+    "input": "1,2,1,2",
+    "hitLevels": [
+      "h",
+      "h",
+      "h",
+      "m"
+    ],
+    "damage": [
+      5,
+      8,
+      4,
+      24
+    ],
+    "framesOnBlock": {
+      "_raw": "-14~+35",
+      "lower": "-14",
+      "properties": [],
+      "upper": "+35"
+    },
+    "framesOnHit": {
+      "_raw": "+21a (+11)",
+      "lower": "+21",
+      "properties": [
+        "a"
+      ],
+      "tech": "+11"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i10",
+      "lower": "i10",
+      "properties": []
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 22,
+    "name": "Frost Combination",
+    "input": "1,2,1,4",
+    "hitLevels": [
+      "h",
+      "h",
+      "h",
+      "m"
+    ],
+    "damage": [
+      5,
+      8,
+      4,
+      18
+    ],
+    "framesOnBlock": {
+      "_raw": "4",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+32a (+22)",
+      "lower": "+32",
+      "properties": [
+        "a"
+      ],
+      "tech": "+22"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i10",
+      "lower": "i10",
+      "properties": []
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 12,
+    "name": "Roasted with Eternal Love",
+    "input": "1,2,1,H.2",
+    "hitLevels": [
+      "h",
+      "h",
+      "h",
+      "m",
+      "m",
+      "m"
+    ],
+    "damage": [
+      5,
+      8,
+      4
+    ],
+    "framesOnBlock": {
+      "_raw": "-2~+47g",
+      "lower": "-2",
+      "properties": [
+        "g"
+      ],
+      "upper": "+47"
+    },
+    "framesOnHit": {
+      "_raw": "+23a (-3)",
+      "lower": "+23",
+      "properties": [
+        "a"
+      ],
+      "tech": "-3"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i10",
+      "lower": "i10",
+      "properties": []
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 23,
+    "name": "Left Right Stinger",
+    "input": "1,2,2",
+    "hitLevels": [
+      "h",
+      "h",
+      "M"
+    ],
+    "damage": [
+      5,
+      8,
+      20
+    ],
+    "framesOnBlock": {
+      "_raw": "-8",
+      "lower": "-8",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "12",
+      "lower": "12",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+76a (+60)",
+      "lower": "+76",
+      "properties": [
+        "a"
+      ],
+      "tech": "+60"
+    },
+    "framesOnStartup": {
+      "_raw": "i10",
+      "lower": "i10",
+      "properties": []
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 24,
+    "name": "Bermuda Triangle",
+    "input": "1,2,4",
+    "hitLevels": [
+      "h",
+      "h",
+      "h"
+    ],
+    "damage": [
+      5,
+      8,
+      22
+    ],
+    "framesOnBlock": {
+      "_raw": "-6",
+      "lower": "-6",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+20a (+11)",
+      "lower": "+20",
+      "properties": [
+        "a"
+      ],
+      "tech": "+11"
+    },
+    "framesOnCounter": {
+      "_raw": "+49a",
+      "lower": "+49",
+      "properties": [
+        "a"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i10",
+      "lower": "i10",
+      "properties": []
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 130,
+    "name": "Cruel Punishment",
+    "input": "1+3",
+    "hitLevels": [
+      "t"
+    ],
+    "damage": [
+      35
+    ],
+    "framesOnBlock": {
+      "_raw": "-6",
+      "lower": "-6",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+0d",
+      "lower": "+0",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i12~14",
+      "lower": "i12",
+      "properties": [],
+      "upper": "14"
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 25,
+    "name": "Reverse PDK Combo",
+    "input": "1,4",
+    "hitLevels": [
+      "h",
+      "L"
+    ],
+    "damage": [
+      5,
+      12
+    ],
+    "framesOnBlock": {
+      "_raw": "-13",
+      "lower": "-13",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "-2",
+      "lower": "-2",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i10",
+      "lower": "i10",
+      "properties": []
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "input": "2",
+    "hitLevels": [
+      "h"
+    ],
+    "damage": [
+      10
+    ],
+    "framesOnBlock": {
+      "_raw": "-3",
+      "lower": "-3",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "3",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "9",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i10",
+      "lower": "i10",
+      "properties": []
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 26,
+    "name": "Quick Stinger",
+    "input": "2,2",
+    "hitLevels": [
+      "h",
+      "M"
+    ],
+    "damage": [
+      10,
+      20
+    ],
+    "framesOnBlock": {
+      "_raw": "-8",
+      "lower": "-8",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "12",
+      "lower": "12",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+76a (+60)",
+      "lower": "+76",
+      "properties": [
+        "a"
+      ],
+      "tech": "+60"
+    },
+    "framesOnStartup": {
+      "_raw": "i10",
+      "lower": "i10",
+      "properties": []
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "name": "Straight Face Wash",
+    "input": "2,3",
+    "hitLevels": [
+      "h",
+      "m"
+    ],
+    "damage": [
+      10,
+      14
+    ],
+    "framesOnBlock": {
+      "_raw": "-3",
+      "lower": "-3",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "8",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "12",
+      "lower": "12",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i10",
+      "lower": "i10",
+      "properties": []
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 131,
+    "name": "Losing Face",
+    "input": "2+4",
+    "hitLevels": [
+      "t"
+    ],
+    "damage": [
+      21
+    ],
+    "framesOnBlock": {
+      "_raw": "-3",
+      "lower": "-3",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+0d",
+      "lower": "+0",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i12~14",
+      "lower": "i12",
+      "properties": [],
+      "upper": "14"
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 28,
+    "name": "Jab Roundhouse",
+    "input": "2,4",
+    "hitLevels": [
+      "h",
+      "h"
+    ],
+    "damage": [
+      10,
+      22
+    ],
+    "framesOnBlock": {
+      "_raw": "-6",
+      "lower": "-6",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+20a (+11)",
+      "lower": "+20",
+      "properties": [
+        "a"
+      ],
+      "tech": "+11"
+    },
+    "framesOnCounter": {
+      "_raw": "+49a",
+      "lower": "+49",
+      "properties": [
+        "a"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i10",
+      "lower": "i10",
+      "properties": []
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "input": "3",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      17
+    ],
+    "framesOnBlock": {
+      "_raw": "-6",
+      "lower": "-6",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "3",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i14~16",
+      "lower": "i14",
+      "properties": [],
+      "upper": "16"
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 29,
+    "name": "Serval Cleaver",
+    "input": "3,2",
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "damage": [
+      17,
+      20
+    ],
+    "framesOnBlock": {
+      "_raw": "-11c",
+      "lower": "-11",
+      "properties": [
+        "c"
+      ]
+    },
+    "framesOnHit": {
+      "_raw": "+4c",
+      "lower": "+4",
+      "properties": [
+        "c"
+      ]
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i14~16",
+      "lower": "i14",
+      "properties": [],
+      "upper": "16"
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 32,
+    "name": "Aphrodite&#039;s Scorn",
+    "input": "3+4",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      26
+    ],
+    "framesOnBlock": {
+      "_raw": "-16",
+      "lower": "-16",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+9a (+0)",
+      "lower": "+9",
+      "properties": [
+        "a"
+      ],
+      "tech": "+0"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i14",
+      "lower": "i14",
+      "properties": []
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "name": "Right High Kick",
+    "input": "4",
+    "hitLevels": [
+      "h"
+    ],
+    "damage": [
+      15
+    ],
+    "framesOnBlock": {
+      "_raw": "-9",
+      "lower": "-9",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "7",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+7s",
+      "lower": "+7",
+      "properties": [
+        "s"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i11",
+      "lower": "i11",
+      "properties": []
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "input": "4,2",
+    "hitLevels": [
+      "h",
+      "h"
+    ],
+    "damage": [
+      15,
+      2
+    ],
+    "framesOnBlock": {
+      "_raw": "-8",
+      "lower": "-8",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "-4",
+      "lower": "-4",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i11",
+      "lower": "i11",
+      "properties": []
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 30,
+    "name": "Blonde Bomb Blitz",
+    "input": "4,2,1+2",
+    "hitLevels": [
+      "h",
+      "h",
+      "m"
+    ],
+    "damage": [
+      15,
+      2,
+      21
+    ],
+    "framesOnBlock": {
+      "_raw": "-15",
+      "lower": "-15",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+8a (-1)",
+      "lower": "+8",
+      "properties": [
+        "a"
+      ],
+      "tech": "-1"
+    },
+    "framesOnCounter": {
+      "_raw": "+28d (+20)",
+      "lower": "+28",
+      "properties": [
+        "d"
+      ],
+      "tech": "+20"
+    },
+    "framesOnStartup": {
+      "_raw": "i11",
+      "lower": "i11",
+      "properties": []
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "input": "b+1",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      14
+    ],
+    "framesOnBlock": {
+      "_raw": "-2",
+      "lower": "-2",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "1",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i16~17",
+      "lower": "i16",
+      "properties": [],
+      "upper": "17"
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 62,
+    "name": "Weeping Slap",
+    "input": "b+1+2",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      21
+    ],
+    "framesOnBlock": {
+      "_raw": "-13",
+      "lower": "-13",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+20a (+15)",
+      "lower": "+20",
+      "properties": [
+        "a"
+      ],
+      "tech": "+15"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i20~21",
+      "lower": "i20",
+      "properties": [],
+      "upper": "21"
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "input": "b+1,2",
+    "hitLevels": [
+      "m",
+      "h"
+    ],
+    "damage": [
+      14,
+      12
+    ],
+    "framesOnBlock": {
+      "_raw": "-11",
+      "lower": "-11",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "5",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i16~17",
+      "lower": "i16",
+      "properties": [],
+      "upper": "17"
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 58,
+    "name": "Cross Cut Saw",
+    "input": "b+1,2,2",
+    "hitLevels": [
+      "m",
+      "h",
+      "m"
+    ],
+    "damage": [
+      14,
+      12,
+      24
+    ],
+    "framesOnBlock": {
+      "_raw": "-12",
+      "lower": "-12",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+20a (+15)",
+      "lower": "+20",
+      "properties": [
+        "a"
+      ],
+      "tech": "+15"
+    },
+    "framesOnCounter": {
+      "_raw": "+29d (+21)",
+      "lower": "+29",
+      "properties": [
+        "d"
+      ],
+      "tech": "+21"
+    },
+    "framesOnStartup": {
+      "_raw": "i16~17",
+      "lower": "i16",
+      "properties": [],
+      "upper": "17"
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 140,
+    "name": "Attack Reversal",
+    "input": "b+1+3",
+    "hitLevels": [],
+    "damage": [
+      25
+    ],
+    "framesOnBlock": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+3d",
+      "lower": "+3",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "input": "b+2",
+    "hitLevels": [
+      "h"
+    ],
+    "damage": [
+      10
+    ],
+    "framesOnBlock": {
+      "_raw": "-5",
+      "lower": "-5",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "1",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i13~14",
+      "lower": "i13",
+      "properties": [],
+      "upper": "14"
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 59,
+    "name": "Double Slap",
+    "input": "b+2,2",
+    "hitLevels": [
+      "h",
+      "h"
+    ],
+    "damage": [
+      10,
+      20
+    ],
+    "framesOnBlock": {
+      "_raw": "-9",
+      "lower": "-9",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "5",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i13~14",
+      "lower": "i13",
+      "properties": [],
+      "upper": "14"
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 101,
+    "name": "Chaos Judgement",
+    "input": "b+3",
+    "hitLevels": [],
+    "damage": [],
+    "framesOnBlock": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 61,
+    "name": "Leopard Swipe",
+    "input": "b+4",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      17
+    ],
+    "framesOnBlock": {
+      "_raw": "-9",
+      "lower": "-9",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+11g",
+      "lower": "+11",
+      "properties": [
+        "g"
+      ]
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i19~21",
+      "lower": "i19",
+      "properties": [],
+      "upper": "21"
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 134,
+    "name": "Overhead Triangle Lock",
+    "input": "Backthrow",
+    "hitLevels": [
+      "t"
+    ],
+    "damage": [
+      50
+    ],
+    "framesOnBlock": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+0d",
+      "lower": "+0",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 92,
+    "name": "Twist Jab",
+    "input": "BT.1",
+    "hitLevels": [
+      "h"
+    ],
+    "damage": [
+      15
+    ],
+    "framesOnBlock": {
+      "_raw": "-8",
+      "lower": "-8",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "3",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i8",
+      "lower": "i8",
+      "properties": []
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 102,
+    "name": "Infernal Storm",
+    "input": "CJM.1",
+    "hitLevels": [
+      "h"
+    ],
+    "damage": [
+      17
+    ],
+    "framesOnBlock": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "7",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "14",
+      "lower": "14",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i11~12",
+      "lower": "i11",
+      "properties": [],
+      "upper": "12"
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 106,
+    "name": "Caracal",
+    "input": "CJM.1+2",
+    "hitLevels": [
+      "M"
+    ],
+    "damage": [
+      23
+    ],
+    "framesOnBlock": {
+      "_raw": "+2c",
+      "lower": "+2",
+      "properties": [
+        "c"
+      ]
+    },
+    "framesOnHit": {
+      "_raw": "+8c",
+      "lower": "+8",
+      "properties": [
+        "c"
+      ]
+    },
+    "framesOnCounter": {
+      "_raw": "+23d",
+      "lower": "+23",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i17~18",
+      "lower": "i17",
+      "properties": [],
+      "upper": "18"
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "input": "CJM.2",
+    "hitLevels": [
+      "h"
+    ],
+    "damage": [
+      10
+    ],
+    "framesOnBlock": {
+      "_raw": "-11",
+      "lower": "-11",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i10",
+      "lower": "i10",
+      "properties": []
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 103,
+    "name": "Carmine Hands",
+    "input": "CJM.2,1",
+    "hitLevels": [
+      "h",
+      "m"
+    ],
+    "damage": [
+      10,
+      16
+    ],
+    "framesOnBlock": {
+      "_raw": "-11",
+      "lower": "-11",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+24a (+19)",
+      "lower": "+24",
+      "properties": [
+        "a"
+      ],
+      "tech": "+19"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i10",
+      "lower": "i10",
+      "properties": []
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "name": "Picking Heel",
+    "input": "CJM.3",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      12
+    ],
+    "framesOnBlock": {
+      "_raw": "-12",
+      "lower": "-12",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "3",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i12~14",
+      "lower": "i12",
+      "properties": [],
+      "upper": "14"
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 104,
+    "name": "Baked with Love",
+    "input": "CJM.3,2",
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "damage": [
+      12,
+      24
+    ],
+    "framesOnBlock": {
+      "_raw": "-14~+35",
+      "lower": "-14",
+      "properties": [],
+      "upper": "+35"
+    },
+    "framesOnHit": {
+      "_raw": "+21a (+11)",
+      "lower": "+21",
+      "properties": [
+        "a"
+      ],
+      "tech": "+11"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i12~14",
+      "lower": "i12",
+      "properties": [],
+      "upper": "14"
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 17,
+    "name": "Baked with Eternal Love",
+    "input": "CJM.3,H.2",
+    "hitLevels": [
+      "m",
+      "m",
+      "m",
+      "m"
+    ],
+    "damage": [
+      12,
+      9,
+      9,
+      32
+    ],
+    "framesOnBlock": {
+      "_raw": "-2~+47g",
+      "lower": "-2",
+      "properties": [
+        "g"
+      ],
+      "upper": "+47"
+    },
+    "framesOnHit": {
+      "_raw": "+26a (+0)",
+      "lower": "+26",
+      "properties": [
+        "a"
+      ],
+      "tech": "+0"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i12~14",
+      "lower": "i12",
+      "properties": [],
+      "upper": "14"
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 105,
+    "name": "Queen Heel",
+    "input": "CJM.4",
+    "hitLevels": [
+      "M"
+    ],
+    "damage": [
+      23
+    ],
+    "framesOnBlock": {
+      "_raw": "-13",
+      "lower": "-13",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+10a",
+      "lower": "+10",
+      "properties": [
+        "a"
+      ]
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i20~21",
+      "lower": "i20",
+      "properties": [],
+      "upper": "21"
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "input": "CJM.d+3",
+    "hitLevels": [
+      "L"
+    ],
+    "damage": [
+      8
+    ],
+    "framesOnBlock": {
+      "_raw": "-11",
+      "lower": "-11",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i15",
+      "lower": "i15",
+      "properties": []
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 107,
+    "name": "Dendrobates Azureus",
+    "input": "CJM.d+3,3",
+    "hitLevels": [
+      "L",
+      "h"
+    ],
+    "damage": [
+      8,
+      20
+    ],
+    "framesOnBlock": {
+      "_raw": "-7",
+      "lower": "-7",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "7",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i15",
+      "lower": "i15",
+      "properties": []
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 113,
+    "name": "Forward Roll (ROLL)",
+    "input": "CJM.df",
+    "hitLevels": [],
+    "damage": [],
+    "framesOnBlock": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 112,
+    "name": "Hammer Chance",
+    "input": "CJM.f+3",
+    "hitLevels": [],
+    "damage": [],
+    "framesOnBlock": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 142,
+    "name": "Stryx",
+    "input": "CJM.P",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      20
+    ],
+    "framesOnBlock": {
+      "_raw": "-14",
+      "lower": "-14",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+29a (+19)",
+      "lower": "+29",
+      "properties": [
+        "a"
+      ],
+      "tech": "+19"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i15~16",
+      "lower": "i15",
+      "properties": [],
+      "upper": "16"
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 108,
+    "name": "Flying Fascinator",
+    "input": "CJM.uf+1",
+    "hitLevels": [
+      "M"
+    ],
+    "damage": [
+      25
+    ],
+    "framesOnBlock": {
+      "_raw": "-11~+1",
+      "lower": "-11",
+      "properties": [],
+      "upper": "+1"
+    },
+    "framesOnHit": {
+      "_raw": "+9a (-1)",
+      "lower": "+9",
+      "properties": [
+        "a"
+      ],
+      "tech": "-1"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i19~29",
+      "lower": "i19",
+      "properties": [],
+      "upper": "29"
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 109,
+    "name": "Flying Penetrator",
+    "input": "CJM.uf+2",
+    "hitLevels": [
+      "M"
+    ],
+    "damage": [
+      35
+    ],
+    "framesOnBlock": {
+      "_raw": "-11~+1",
+      "lower": "-11",
+      "properties": [],
+      "upper": "+1"
+    },
+    "framesOnHit": {
+      "_raw": "+3a",
+      "lower": "+3",
+      "properties": [
+        "a"
+      ]
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i19~29",
+      "lower": "i19",
+      "properties": [],
+      "upper": "29"
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 110,
+    "name": "Sudden Storm",
+    "input": "CJM.uf+3",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      22
+    ],
+    "framesOnBlock": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+27d",
+      "lower": "+27",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i23~24",
+      "lower": "i23",
+      "properties": [],
+      "upper": "24"
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 111,
+    "name": "Stryx",
+    "input": "CJM.uf+4",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      22
+    ],
+    "framesOnBlock": {
+      "_raw": "-13",
+      "lower": "-13",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+30a (+20)",
+      "lower": "+30",
+      "properties": [
+        "a"
+      ],
+      "tech": "+20"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i15~16",
+      "lower": "i15",
+      "properties": [],
+      "upper": "16"
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "name": "Low Jab",
+    "input": "d+1",
+    "hitLevels": [
+      "sl"
+    ],
+    "damage": [
+      5
+    ],
+    "framesOnBlock": {
+      "_raw": "-5",
+      "lower": "-5",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "6",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i10",
+      "lower": "i10",
+      "properties": []
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 46,
+    "name": "Low Jab Rising Kick",
+    "input": "d+1,4",
+    "hitLevels": [
+      "sl",
+      "m"
+    ],
+    "damage": [
+      5,
+      10
+    ],
+    "framesOnBlock": {
+      "_raw": "-11",
+      "lower": "-11",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i10",
+      "lower": "i10",
+      "properties": []
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 47,
+    "name": "Ice Sickle",
+    "input": "d+2",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      17
+    ],
+    "framesOnBlock": {
+      "_raw": "1",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+7c",
+      "lower": "+7",
+      "properties": [
+        "c"
+      ]
+    },
+    "framesOnCounter": {
+      "_raw": "+24d",
+      "lower": "+24",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i16~17",
+      "lower": "i16",
+      "properties": [],
+      "upper": "17"
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "name": "Left Spin Low Kick",
+    "input": "d+3",
+    "hitLevels": [
+      "L"
+    ],
+    "damage": [
+      10
+    ],
+    "framesOnBlock": {
+      "_raw": "-17",
+      "lower": "-17",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "-6",
+      "lower": "-6",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "16",
+      "lower": "16",
+      "properties": []
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 48,
+    "name": "Left Spin Low Kick &gt; Right Upper",
+    "input": "d+3,2",
+    "hitLevels": [
+      "L",
+      "m"
+    ],
+    "damage": [
+      10,
+      18
+    ],
+    "framesOnBlock": {
+      "_raw": "-11",
+      "lower": "-11",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+14~+16",
+      "lower": "+14",
+      "properties": [],
+      "upper": "+16"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "16",
+      "lower": "16",
+      "properties": []
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "input": "d+3,4",
+    "hitLevels": [
+      "L",
+      "h"
+    ],
+    "damage": [
+      10,
+      14
+    ],
+    "framesOnBlock": {
+      "_raw": "-8",
+      "lower": "-8",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "1",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "16",
+      "lower": "16",
+      "properties": []
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 49,
+    "name": "Left Spin Low Kick &gt; B Slap Combo",
+    "input": "d+3,4,1",
+    "hitLevels": [
+      "L",
+      "h",
+      "m"
+    ],
+    "damage": [
+      10,
+      14,
+      20
+    ],
+    "framesOnBlock": {
+      "_raw": "-3",
+      "lower": "-3",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+5c",
+      "lower": "+5",
+      "properties": [
+        "c"
+      ]
+    },
+    "framesOnCounter": {
+      "_raw": "+21a",
+      "lower": "+21",
+      "properties": [
+        "a"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "16",
+      "lower": "16",
+      "properties": []
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "name": "Right Low Kick",
+    "input": "d+4",
+    "hitLevels": [
+      "l"
+    ],
+    "damage": [
+      6
+    ],
+    "framesOnBlock": {
+      "_raw": "-15",
+      "lower": "-15",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "-4",
+      "lower": "-4",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i12",
+      "lower": "i12",
+      "properties": []
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 50,
+    "name": "Right Low Kick &gt; Back Spin Chop",
+    "input": "d+4,1",
+    "hitLevels": [
+      "l",
+      "h"
+    ],
+    "damage": [
+      6,
+      10
+    ],
+    "framesOnBlock": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "6",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "11",
+      "lower": "11",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i12",
+      "lower": "i12",
+      "properties": []
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 51,
+    "name": "Sudden Severe Drop",
+    "input": "d+4,1~4",
+    "hitLevels": [
+      "l",
+      "M"
+    ],
+    "damage": [
+      6,
+      20
+    ],
+    "framesOnBlock": {
+      "_raw": "-14c",
+      "lower": "-14",
+      "properties": [
+        "c"
+      ]
+    },
+    "framesOnHit": {
+      "_raw": "+0d",
+      "lower": "+0",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i12",
+      "lower": "i12",
+      "properties": []
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "name": "Scarlet Rain",
+    "input": "db+1",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      16
+    ],
+    "framesOnBlock": {
+      "_raw": "-12",
+      "lower": "-12",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "3",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i16~18",
+      "lower": "i16",
+      "properties": [],
+      "upper": "18"
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 135,
+    "name": "Queen&#039;s Reward",
+    "input": "db+1+2",
+    "hitLevels": [
+      "t"
+    ],
+    "damage": [
+      40
+    ],
+    "framesOnBlock": {
+      "_raw": "-6",
+      "lower": "-6",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+0d",
+      "lower": "+0",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i12",
+      "lower": "i12",
+      "properties": []
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 52,
+    "name": "Scarlet Ray",
+    "input": "db+1,2",
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "damage": [
+      16,
+      20
+    ],
+    "framesOnBlock": {
+      "_raw": "-13",
+      "lower": "-13",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "5",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i16~18",
+      "lower": "i16",
+      "properties": [],
+      "upper": "18"
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 53,
+    "name": "Scarlet Splatter",
+    "input": "db+1,4",
+    "hitLevels": [
+      "m",
+      "h"
+    ],
+    "damage": [
+      16,
+      24
+    ],
+    "framesOnBlock": {
+      "_raw": "-8",
+      "lower": "-8",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+10a (+1)",
+      "lower": "+10",
+      "properties": [
+        "a"
+      ],
+      "tech": "+1"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i16~18",
+      "lower": "i16",
+      "properties": [],
+      "upper": "18"
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 54,
+    "name": "Ocelot Claw",
+    "input": "db+2",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      17
+    ],
+    "framesOnBlock": {
+      "_raw": "-9",
+      "lower": "-9",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+8s",
+      "lower": "+8",
+      "properties": [
+        "s"
+      ]
+    },
+    "framesOnCounter": {
+      "_raw": "+36d",
+      "lower": "+36",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i15~16",
+      "lower": "i15",
+      "properties": [],
+      "upper": "16"
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 55,
+    "name": "Mudslide",
+    "input": "db+3",
+    "hitLevels": [
+      "L"
+    ],
+    "damage": [
+      21
+    ],
+    "framesOnBlock": {
+      "_raw": "-26",
+      "lower": "-26",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+68a (+52)",
+      "lower": "+68",
+      "properties": [
+        "a"
+      ],
+      "tech": "+52"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i30~32",
+      "lower": "i30",
+      "properties": [],
+      "upper": "32"
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "input": "db+3+4",
+    "hitLevels": [
+      "L"
+    ],
+    "damage": [
+      18
+    ],
+    "framesOnBlock": {
+      "_raw": "-26",
+      "lower": "-26",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "-6",
+      "lower": "-6",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i24",
+      "lower": "i24",
+      "properties": []
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 57,
+    "name": "Stalker Repellant Alter",
+    "input": "db+3+4,4",
+    "hitLevels": [
+      "L",
+      "h"
+    ],
+    "damage": [
+      18,
+      23
+    ],
+    "framesOnBlock": {
+      "_raw": "-9",
+      "lower": "-9",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+14a (+5)",
+      "lower": "+14",
+      "properties": [
+        "a"
+      ],
+      "tech": "+5"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i24",
+      "lower": "i24",
+      "properties": []
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 56,
+    "name": "Scorned Mistress",
+    "input": "db+4",
+    "hitLevels": [
+      "L"
+    ],
+    "damage": [
+      14
+    ],
+    "framesOnBlock": {
+      "_raw": "-13",
+      "lower": "-13",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+8c",
+      "lower": "+8",
+      "properties": [
+        "c"
+      ]
+    },
+    "framesOnCounter": {
+      "_raw": "13",
+      "lower": "13",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i17~18",
+      "lower": "i17",
+      "properties": [],
+      "upper": "18"
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "name": "Uppercut",
+    "input": "df+1",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      10
+    ],
+    "framesOnBlock": {
+      "_raw": "-1",
+      "lower": "-1",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "5",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i13~14",
+      "lower": "i13",
+      "properties": [],
+      "upper": "14"
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "name": "Uppercut Jab",
+    "input": "df+1,2",
+    "hitLevels": [
+      "m",
+      "h"
+    ],
+    "damage": [
+      10,
+      10
+    ],
+    "framesOnBlock": {
+      "_raw": "-5",
+      "lower": "-5",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "2",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "9",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i13~14",
+      "lower": "i13",
+      "properties": [],
+      "upper": "14"
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 36,
+    "name": "Uppercut Jab &gt; Radiant Arch",
+    "input": "df+1,2,3",
+    "hitLevels": [
+      "m",
+      "h",
+      "m"
+    ],
+    "damage": [
+      10,
+      10,
+      20
+    ],
+    "framesOnBlock": {
+      "_raw": "-12",
+      "lower": "-12",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+19a (+2)",
+      "lower": "+19",
+      "properties": [
+        "a"
+      ],
+      "tech": "+2"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i13~14",
+      "lower": "i13",
+      "properties": [],
+      "upper": "14"
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 37,
+    "name": "Uppercut Jab &gt; Cutting Crescent",
+    "input": "df+1,2,4",
+    "hitLevels": [
+      "m",
+      "h",
+      "h"
+    ],
+    "damage": [
+      10,
+      10,
+      22
+    ],
+    "framesOnBlock": {
+      "_raw": "-5",
+      "lower": "-5",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+20a (+11)",
+      "lower": "+20",
+      "properties": [
+        "a"
+      ],
+      "tech": "+11"
+    },
+    "framesOnCounter": {
+      "_raw": "+14c",
+      "lower": "+14",
+      "properties": [
+        "c"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i13~14",
+      "lower": "i13",
+      "properties": [],
+      "upper": "14"
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 38,
+    "name": "Step-in Uppercut",
+    "input": "df+2",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      12
+    ],
+    "framesOnBlock": {
+      "_raw": "-12",
+      "lower": "-12",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+32a (+22)",
+      "lower": "+32",
+      "properties": [
+        "a"
+      ],
+      "tech": "+22"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": ",i15~16",
+      "lower": "i15",
+      "properties": [],
+      "upper": "16"
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "name": "Middle Kick",
+    "input": "df+3",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      13
+    ],
+    "framesOnBlock": {
+      "_raw": "-11",
+      "lower": "-11",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "1",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i14",
+      "lower": "i14",
+      "properties": []
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "name": "Leg Slicer",
+    "input": "df+3,1",
+    "hitLevels": [
+      "m",
+      "h"
+    ],
+    "damage": [
+      13,
+      10
+    ],
+    "framesOnBlock": {
+      "_raw": "-3",
+      "lower": "-3",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "7",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i14",
+      "lower": "i14",
+      "properties": []
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 39,
+    "name": "Twisting Fascinator",
+    "input": "df+3,1,1",
+    "hitLevels": [
+      "m",
+      "h",
+      "M"
+    ],
+    "damage": [
+      13,
+      10,
+      25
+    ],
+    "framesOnBlock": {
+      "_raw": "-11~+1",
+      "lower": "-11",
+      "properties": [],
+      "upper": "+1"
+    },
+    "framesOnHit": {
+      "_raw": "+9a (-1)",
+      "lower": "+9",
+      "properties": [
+        "a"
+      ],
+      "tech": "-1"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i14",
+      "lower": "i14",
+      "properties": []
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 40,
+    "name": "Twisting Penetrator",
+    "input": "df+3,1,2",
+    "hitLevels": [
+      "m",
+      "h",
+      "M"
+    ],
+    "damage": [
+      13,
+      10,
+      35
+    ],
+    "framesOnBlock": {
+      "_raw": "-11~+1",
+      "lower": "-11",
+      "properties": [],
+      "upper": "+1"
+    },
+    "framesOnHit": {
+      "_raw": "+3d",
+      "lower": "+3",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i14",
+      "lower": "i14",
+      "properties": []
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 41,
+    "name": "Twisting Combo",
+    "input": "df+3,1,4",
+    "hitLevels": [
+      "m",
+      "h",
+      "h"
+    ],
+    "damage": [
+      13,
+      10,
+      20
+    ],
+    "framesOnBlock": {
+      "_raw": "-3",
+      "lower": "-3",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "4",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i14",
+      "lower": "i14",
+      "properties": []
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "name": "Creeping Snake",
+    "input": "df+3,2",
+    "hitLevels": [
+      "m",
+      "h"
+    ],
+    "damage": [
+      13,
+      9
+    ],
+    "framesOnBlock": {
+      "_raw": "-2",
+      "lower": "-2",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "4",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "10",
+      "lower": "10",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i14",
+      "lower": "i14",
+      "properties": []
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "input": "df+3,2,1",
+    "hitLevels": [
+      "m",
+      "hnull"
+    ],
+    "damage": [
+      13,
+      9
+    ],
+    "framesOnBlock": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i14",
+      "lower": "i14",
+      "properties": []
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "input": "df+3,2,1,2",
+    "hitLevels": [
+      "m",
+      "hnullnull"
+    ],
+    "damage": [
+      13,
+      9
+    ],
+    "framesOnBlock": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i14",
+      "lower": "i14",
+      "properties": []
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "input": "df+3,2,1,2,4",
+    "hitLevels": [
+      "m",
+      "hnullnullnull"
+    ],
+    "damage": [
+      13,
+      9
+    ],
+    "framesOnBlock": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i14",
+      "lower": "i14",
+      "properties": []
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "input": "df+3,2,1,2,4,1",
+    "hitLevels": [
+      "m",
+      "hnullnullnullnull"
+    ],
+    "damage": [
+      13,
+      9
+    ],
+    "framesOnBlock": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i14",
+      "lower": "i14",
+      "properties": []
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "input": "df+3,2,1,2,4,1,2",
+    "hitLevels": [
+      "m",
+      "hnullnullnullnullnull"
+    ],
+    "damage": [
+      13,
+      9
+    ],
+    "framesOnBlock": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i14",
+      "lower": "i14",
+      "properties": []
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "input": "df+3,2,1,2,4,1,2,2",
+    "hitLevels": [
+      "m",
+      "hnullnullnullnullnullnull"
+    ],
+    "damage": [
+      13,
+      9
+    ],
+    "framesOnBlock": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i14",
+      "lower": "i14",
+      "properties": []
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "input": "df+3,2,1,2,4,1,2,2,3+4",
+    "hitLevels": [
+      "m",
+      "hnullnullnullnullnullnullnull"
+    ],
+    "damage": [
+      13,
+      9
+    ],
+    "framesOnBlock": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i14",
+      "lower": "i14",
+      "properties": []
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "name": "10 Hit Combo",
+    "input": "df+3,2,1,2,4,1,2,2,3+4,2",
+    "hitLevels": [
+      "m",
+      "hnullnullnullnullnullnullnullnull"
+    ],
+    "damage": [
+      13,
+      9
+    ],
+    "framesOnBlock": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i14",
+      "lower": "i14",
+      "properties": []
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 42,
+    "name": "Creeping Stinger",
+    "input": "df+3,2,2",
+    "hitLevels": [
+      "m",
+      "h",
+      "M"
+    ],
+    "damage": [
+      13,
+      9,
+      20
+    ],
+    "framesOnBlock": {
+      "_raw": "-8",
+      "lower": "-8",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "12",
+      "lower": "12",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+76a (+60)",
+      "lower": "+76",
+      "properties": [
+        "a"
+      ],
+      "tech": "+60"
+    },
+    "framesOnStartup": {
+      "_raw": "i14",
+      "lower": "i14",
+      "properties": []
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 43,
+    "name": "Creeping Snake &gt; Right High Kick",
+    "input": "df+3,2,4",
+    "hitLevels": [
+      "m",
+      "h",
+      "h"
+    ],
+    "damage": [
+      13,
+      9,
+      22
+    ],
+    "framesOnBlock": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+20a (+11)",
+      "lower": "+20",
+      "properties": [
+        "a"
+      ],
+      "tech": "+11"
+    },
+    "framesOnCounter": {
+      "_raw": "+49a",
+      "lower": "+49",
+      "properties": [
+        "a"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i14",
+      "lower": "i14",
+      "properties": []
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 44,
+    "name": "Furious Hail",
+    "input": "df+3,3+4",
+    "hitLevels": [
+      "m",
+      "m",
+      "m"
+    ],
+    "damage": [
+      13,
+      6,
+      10
+    ],
+    "framesOnBlock": {
+      "_raw": "-4",
+      "lower": "-4",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+78a (+62)",
+      "lower": "+78",
+      "properties": [
+        "a"
+      ],
+      "tech": "+62"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i14",
+      "lower": "i14",
+      "properties": []
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 45,
+    "name": "Wine Opener",
+    "input": "df+4",
+    "hitLevels": [
+      "L"
+    ],
+    "damage": [
+      17
+    ],
+    "framesOnBlock": {
+      "_raw": "+5c",
+      "lower": "+5",
+      "properties": [
+        "c"
+      ]
+    },
+    "framesOnHit": {
+      "_raw": "-15",
+      "lower": "-15",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+25d",
+      "lower": "+25",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i16~17",
+      "lower": "i16",
+      "properties": [],
+      "upper": "17"
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 35,
+    "name": "Blonde Bomb",
+    "input": "f+1+2",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      21
+    ],
+    "framesOnBlock": {
+      "_raw": "-13",
+      "lower": "-13",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+19a (+14)",
+      "lower": "+19",
+      "properties": [
+        "a"
+      ],
+      "tech": "+14"
+    },
+    "framesOnCounter": {
+      "_raw": "+28d (+20)",
+      "lower": "+28",
+      "properties": [
+        "d"
+      ],
+      "tech": "+20"
+    },
+    "framesOnStartup": {
+      "_raw": "i17",
+      "lower": "i17",
+      "properties": []
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "name": "Poison Sting",
+    "input": "f+2",
+    "hitLevels": [
+      "h"
+    ],
+    "damage": [
+      14
+    ],
+    "framesOnBlock": {
+      "_raw": "-2",
+      "lower": "-2",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "4",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i14",
+      "lower": "i14",
+      "properties": []
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 33,
+    "name": "Poison Wire",
+    "input": "f+2,3",
+    "hitLevels": [
+      "h",
+      "h"
+    ],
+    "damage": [
+      14,
+      20
+    ],
+    "framesOnBlock": {
+      "_raw": "-7",
+      "lower": "-7",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+12g",
+      "lower": "+12",
+      "properties": [
+        "g"
+      ]
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i14",
+      "lower": "i14",
+      "properties": []
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 93,
+    "name": "Hammer Chance",
+    "input": "f+3",
+    "hitLevels": [],
+    "damage": [],
+    "framesOnBlock": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 87,
+    "name": "Cat Sith&#039;s Paw",
+    "input": "FC.df+1",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      22
+    ],
+    "framesOnBlock": {
+      "_raw": "-10",
+      "lower": "-10",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+21d (+11)",
+      "lower": "+21",
+      "properties": [
+        "d"
+      ],
+      "tech": "+11"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i20",
+      "lower": "i20",
+      "properties": []
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 88,
+    "name": "Right Handed Sweep",
+    "input": "FC.df+2",
+    "hitLevels": [
+      "L"
+    ],
+    "damage": [
+      12
+    ],
+    "framesOnBlock": {
+      "_raw": "-21",
+      "lower": "-21",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+70a (+54)",
+      "lower": "+70",
+      "properties": [
+        "a"
+      ],
+      "tech": "+54"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i20",
+      "lower": "i20",
+      "properties": []
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 16,
+    "name": "Leanán Sith&#039;s Grail",
+    "input": "FC.df+2~H.1",
+    "hitLevels": [
+      "L",
+      "L"
+    ],
+    "damage": [
+      12,
+      18
+    ],
+    "framesOnBlock": {
+      "_raw": "-21",
+      "lower": "-21",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+64a (+48)",
+      "lower": "+64",
+      "properties": [
+        "a"
+      ],
+      "tech": "+48"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i20",
+      "lower": "i20",
+      "properties": []
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 73,
+    "name": "Sosho Zanha",
+    "input": "f,F+1+2",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      25
+    ],
+    "framesOnBlock": {
+      "_raw": "-9",
+      "lower": "-9",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+19a (+14)",
+      "lower": "+19",
+      "properties": [
+        "a"
+      ],
+      "tech": "+14"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i18~20",
+      "lower": "i18",
+      "properties": [],
+      "upper": "20"
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 73,
+    "name": "Sosho Zanha",
+    "input": "f,F+1+2",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      30
+    ],
+    "framesOnBlock": {
+      "_raw": "+5~+7",
+      "lower": "+5",
+      "properties": [],
+      "upper": "+7"
+    },
+    "framesOnHit": {
+      "_raw": "+33a (+12)",
+      "lower": "+33",
+      "properties": [
+        "a"
+      ],
+      "tech": "+12"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i27~29",
+      "lower": "i27",
+      "properties": [],
+      "upper": "29"
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 69,
+    "name": "Headless Horseman",
+    "input": "f,F+2",
+    "hitLevels": [
+      "h"
+    ],
+    "damage": [
+      21
+    ],
+    "framesOnBlock": {
+      "_raw": "4",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+15d",
+      "lower": "+15",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i17~18",
+      "lower": "i17",
+      "properties": [],
+      "upper": "18"
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "input": "f,F+3",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      14
+    ],
+    "framesOnBlock": {
+      "_raw": "-11",
+      "lower": "-11",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "5",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i15",
+      "lower": "i15",
+      "properties": []
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 70,
+    "name": "Gancanagh&#039;s Pipe",
+    "input": "f,F+3,2",
+    "hitLevels": [
+      "m",
+      "M"
+    ],
+    "damage": [
+      14,
+      20
+    ],
+    "framesOnBlock": {
+      "_raw": "-7",
+      "lower": "-7",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+20d",
+      "lower": "+20",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i15",
+      "lower": "i15",
+      "properties": []
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 71,
+    "name": "Mouse Trouble",
+    "input": "f,F+3,3",
+    "hitLevels": [
+      "m",
+      "L"
+    ],
+    "damage": [
+      14,
+      14
+    ],
+    "framesOnBlock": {
+      "_raw": "-14",
+      "lower": "-14",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+4c",
+      "lower": "+4",
+      "properties": [
+        "c"
+      ]
+    },
+    "framesOnCounter": {
+      "_raw": "14",
+      "lower": "14",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i15",
+      "lower": "i15",
+      "properties": []
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 74,
+    "name": "Treading Water",
+    "input": "f,F+3+4",
+    "hitLevels": [
+      "m",
+      "m",
+      "m"
+    ],
+    "damage": [
+      8,
+      8,
+      10
+    ],
+    "framesOnBlock": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "9",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+30a (+23)",
+      "lower": "+30",
+      "properties": [
+        "a"
+      ],
+      "tech": "+23"
+    },
+    "framesOnStartup": {
+      "_raw": "i15~16 i8~11 i7~8",
+      "lower": "i15",
+      "properties": [],
+      "upper": "16"
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 72,
+    "name": "Falling Heel",
+    "input": "f,F+4",
+    "hitLevels": [
+      "M"
+    ],
+    "damage": [
+      20
+    ],
+    "framesOnBlock": {
+      "_raw": "5",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+19a",
+      "lower": "+19",
+      "properties": [
+        "a"
+      ]
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i31~34",
+      "lower": "i31",
+      "properties": [],
+      "upper": "34"
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "input": "f,f,F+2",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      10
+    ],
+    "framesOnBlock": {
+      "_raw": "-8",
+      "lower": "-8",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "1",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i15~16",
+      "lower": "i15",
+      "properties": [],
+      "upper": "16"
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 77,
+    "name": "Double Meteor Alter",
+    "input": "f,f,F+2,4",
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "damage": [
+      10,
+      28
+    ],
+    "framesOnBlock": {
+      "_raw": "-13",
+      "lower": "-13",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+9a (+0)",
+      "lower": "+9",
+      "properties": [
+        "a"
+      ],
+      "tech": "+0"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i15~16",
+      "lower": "i15",
+      "properties": [],
+      "upper": "16"
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "input": "f,f,F+3",
+    "hitLevels": [
+      "L"
+    ],
+    "damage": [
+      12
+    ],
+    "framesOnBlock": {
+      "_raw": "-20",
+      "lower": "-20",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "-2c",
+      "lower": "-2",
+      "properties": [
+        "c"
+      ]
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i16~20",
+      "lower": "i16",
+      "properties": [],
+      "upper": "20"
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 78,
+    "name": "Grilled with Love",
+    "input": "f,f,F+3,2",
+    "hitLevels": [
+      "L",
+      "SL"
+    ],
+    "damage": [
+      12,
+      24
+    ],
+    "framesOnBlock": {
+      "_raw": "-16~+33g",
+      "lower": "-16",
+      "properties": [
+        "g"
+      ],
+      "upper": "+33"
+    },
+    "framesOnHit": {
+      "_raw": "+19a (+9)",
+      "lower": "+19",
+      "properties": [
+        "a"
+      ],
+      "tech": "+9"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i16~20",
+      "lower": "i16",
+      "properties": [],
+      "upper": "20"
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 15,
+    "name": "Grilled with Eternal Love",
+    "input": "f,f,F+3,H.2",
+    "hitLevels": [
+      "L",
+      "SL",
+      "SL",
+      "SL"
+    ],
+    "damage": [
+      12,
+      9,
+      9,
+      32
+    ],
+    "framesOnBlock": {
+      "_raw": "-5~+44g",
+      "lower": "-5",
+      "properties": [
+        "g"
+      ],
+      "upper": "+44"
+    },
+    "framesOnHit": {
+      "_raw": "+21a (-5)",
+      "lower": "+21",
+      "properties": [
+        "a"
+      ],
+      "tech": "-5"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i16~20",
+      "lower": "i16",
+      "properties": [],
+      "upper": "20"
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 79,
+    "name": "Imploding Star",
+    "input": "f,f,F+4",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      28
+    ],
+    "framesOnBlock": {
+      "_raw": "3",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+19a (+9)",
+      "lower": "+19",
+      "properties": [
+        "a"
+      ],
+      "tech": "+9"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i19~20",
+      "lower": "i19",
+      "properties": [],
+      "upper": "20"
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 18,
+    "name": "From Éire with Love",
+    "input": "H.2+3",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      50
+    ],
+    "framesOnBlock": {
+      "_raw": "-5",
+      "lower": "-5",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+0d",
+      "lower": "+0",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i13~14",
+      "lower": "i13",
+      "properties": [],
+      "upper": "14"
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 94,
+    "name": "Cupid&#039;s Arrow",
+    "input": "HAM.1",
+    "hitLevels": [
+      "h"
+    ],
+    "damage": [
+      20
+    ],
+    "framesOnBlock": {
+      "_raw": "6",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+30a (+20)",
+      "lower": "+30",
+      "properties": [
+        "a"
+      ],
+      "tech": "+20"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i13~14",
+      "lower": "i13",
+      "properties": [],
+      "upper": "14"
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 99,
+    "name": "Dullahan Smash",
+    "input": "HAM.1+2",
+    "hitLevels": [
+      "M"
+    ],
+    "damage": [
+      36
+    ],
+    "framesOnBlock": {
+      "_raw": "+6c",
+      "lower": "+6",
+      "properties": [
+        "c"
+      ]
+    },
+    "framesOnHit": {
+      "_raw": "+17a (+7)",
+      "lower": "+17",
+      "properties": [
+        "a"
+      ],
+      "tech": "+7"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i24~25",
+      "lower": "i24",
+      "properties": [],
+      "upper": "25"
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 137,
+    "name": "Backhand Slap",
+    "input": "HAM.1+3",
+    "hitLevels": [
+      "t"
+    ],
+    "damage": [
+      15
+    ],
+    "framesOnBlock": {
+      "_raw": "-2",
+      "lower": "-2",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i11",
+      "lower": "i11",
+      "properties": []
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 138,
+    "name": "Arm Break &gt; Double Arm Lock Toss",
+    "input": "HAM.1+3,1",
+    "hitLevels": [
+      "t",
+      "t"
+    ],
+    "damage": [
+      15,
+      35
+    ],
+    "framesOnBlock": {
+      "_raw": "-3",
+      "lower": "-3",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+0d",
+      "lower": "+0",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i11",
+      "lower": "i11",
+      "properties": []
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 139,
+    "name": "Arm Snap",
+    "input": "HAM.1+3,2",
+    "hitLevels": [
+      "t",
+      "t"
+    ],
+    "damage": [
+      15,
+      30
+    ],
+    "framesOnBlock": {
+      "_raw": "-3",
+      "lower": "-3",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+3d",
+      "lower": "+3",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i11",
+      "lower": "i11",
+      "properties": []
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "input": "HAM.2",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      12
+    ],
+    "framesOnBlock": {
+      "_raw": "-9",
+      "lower": "-9",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "3",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i15~16",
+      "lower": "i15",
+      "properties": [],
+      "upper": "16"
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "input": "HAM.2,1",
+    "hitLevels": [
+      "m",
+      "h"
+    ],
+    "damage": [
+      12,
+      23
+    ],
+    "framesOnBlock": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+17a (+8)",
+      "lower": "+17",
+      "properties": [
+        "a"
+      ],
+      "tech": "+8"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i15~16",
+      "lower": "i15",
+      "properties": [],
+      "upper": "16"
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 95,
+    "name": "Banshee Scream",
+    "input": "HAM.2,1,2",
+    "hitLevels": [
+      "m",
+      "h",
+      "M"
+    ],
+    "damage": [
+      12,
+      23,
+      32
+    ],
+    "framesOnBlock": {
+      "_raw": "+6c",
+      "lower": "+6",
+      "properties": [
+        "c"
+      ]
+    },
+    "framesOnHit": {
+      "_raw": "+17a (+7)",
+      "lower": "+17",
+      "properties": [
+        "a"
+      ],
+      "tech": "+7"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i15~16",
+      "lower": "i15",
+      "properties": [],
+      "upper": "16"
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 96,
+    "name": "Banshee&#039;s Comb",
+    "input": "HAM.2,2",
+    "hitLevels": [
+      "m",
+      "M"
+    ],
+    "damage": [
+      12,
+      23
+    ],
+    "framesOnBlock": {
+      "_raw": "-14",
+      "lower": "-14",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+33a",
+      "lower": "+33",
+      "properties": [
+        "a"
+      ]
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i15~16",
+      "lower": "i15",
+      "properties": [],
+      "upper": "16"
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 97,
+    "name": "Rat Sweep",
+    "input": "HAM.3",
+    "hitLevels": [
+      "L"
+    ],
+    "damage": [
+      17
+    ],
+    "framesOnBlock": {
+      "_raw": "-14",
+      "lower": "-14",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "-3",
+      "lower": "-3",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+6c",
+      "lower": "+6",
+      "properties": [
+        "c"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i20~21",
+      "lower": "i20",
+      "properties": [],
+      "upper": "21"
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 98,
+    "name": "Piston Kick",
+    "input": "HAM.4",
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "damage": [
+      12,
+      12
+    ],
+    "framesOnBlock": {
+      "_raw": "-12",
+      "lower": "-12",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "6",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i16~19 i4~6",
+      "lower": "i16",
+      "properties": [],
+      "upper": "19"
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 100,
+    "input": "HAM.b+3",
+    "hitLevels": [],
+    "damage": [],
+    "framesOnBlock": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 132,
+    "name": "Torso Splitter",
+    "input": "Leftthrow",
+    "hitLevels": [
+      "t"
+    ],
+    "damage": [
+      40
+    ],
+    "framesOnBlock": {
+      "_raw": "-3",
+      "lower": "-3",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+0d",
+      "lower": "+0",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 144,
+    "name": "Heel Grind",
+    "input": "OTG.d+3+4",
+    "hitLevels": [
+      "=L"
+    ],
+    "damage": [
+      30
+    ],
+    "framesOnBlock": {
+      "_raw": "-17",
+      "lower": "-17",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "-7d",
+      "lower": "-7",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i17~18",
+      "lower": "i17",
+      "properties": [],
+      "upper": "18"
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 75,
+    "name": "Assassin&#039;s Dagger",
+    "input": "qcf+1",
+    "hitLevels": [
+      "h"
+    ],
+    "damage": [
+      20
+    ],
+    "framesOnBlock": {
+      "_raw": "+1~+5",
+      "lower": "+1",
+      "properties": [],
+      "upper": "+5"
+    },
+    "framesOnHit": {
+      "_raw": "+3~+7",
+      "lower": "+3",
+      "properties": [],
+      "upper": "+7"
+    },
+    "framesOnCounter": {
+      "_raw": "+47a (+37)",
+      "lower": "+47",
+      "properties": [
+        "a"
+      ],
+      "tech": "+37"
+    },
+    "framesOnStartup": {
+      "_raw": "i13~17",
+      "lower": "i13",
+      "properties": [],
+      "upper": "17"
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "name": "Crimson Arrow",
+    "input": "qcf+2",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      10
+    ],
+    "framesOnBlock": {
+      "_raw": "-12",
+      "lower": "-12",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "3",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i16",
+      "lower": "i16",
+      "properties": []
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 76,
+    "name": "Artemis Arrow",
+    "input": "qcf+2,1",
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "damage": [
+      10,
+      16
+    ],
+    "framesOnBlock": {
+      "_raw": "-16",
+      "lower": "-16",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+67a (+51)",
+      "lower": "+67",
+      "properties": [
+        "a"
+      ],
+      "tech": "+51"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i16",
+      "lower": "i16",
+      "properties": []
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 19,
+    "name": "Some Like It Rough!",
+    "input": "R.df+1+2",
+    "hitLevels": [
+      "m",
+      "t"
+    ],
+    "damage": [
+      55
+    ],
+    "framesOnBlock": {
+      "_raw": "-15",
+      "lower": "-15",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+0d",
+      "lower": "+0",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i20",
+      "lower": "i20",
+      "properties": []
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 133,
+    "name": "Serpentine Arm Break",
+    "input": "Rightthrow",
+    "hitLevels": [
+      "t"
+    ],
+    "damage": [
+      38
+    ],
+    "framesOnBlock": {
+      "_raw": "-3",
+      "lower": "-3",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+0d",
+      "lower": "+0",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 114,
+    "name": "Rolling Stone",
+    "input": "ROLL.3",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      27
+    ],
+    "framesOnBlock": {
+      "_raw": "-9",
+      "lower": "-9",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+32d (+24)",
+      "lower": "+32",
+      "properties": [
+        "d"
+      ],
+      "tech": "+24"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i10~11",
+      "lower": "i10",
+      "properties": [],
+      "upper": "11"
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 115,
+    "name": "Falling Frost",
+    "input": "ROLL.4",
+    "hitLevels": [
+      "h"
+    ],
+    "damage": [
+      21
+    ],
+    "framesOnBlock": {
+      "_raw": "7",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+32a (+22)",
+      "lower": "+32",
+      "properties": [
+        "a"
+      ],
+      "tech": "+22"
+    },
+    "framesOnCounter": {
+      "_raw": "+57a",
+      "lower": "+57",
+      "properties": [
+        "a"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i20",
+      "lower": "i20",
+      "properties": []
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 91,
+    "name": "Bloody Chaos",
+    "input": "SS.1+2",
+    "hitLevels": [
+      "m",
+      "m"
+    ],
+    "damage": [
+      5,
+      7
+    ],
+    "framesOnBlock": {
+      "_raw": "-11",
+      "lower": "-11",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+32a (+22)",
+      "lower": "+32",
+      "properties": [
+        "a"
+      ],
+      "tech": "+22"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i19~20 i5~9",
+      "lower": "i19",
+      "properties": [],
+      "upper": "20"
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 89,
+    "name": "Chaos Tail",
+    "input": "SS.2",
+    "hitLevels": [
+      "L"
+    ],
+    "damage": [
+      12
+    ],
+    "framesOnBlock": {
+      "_raw": "-12",
+      "lower": "-12",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+14g",
+      "lower": "+14",
+      "properties": [
+        "g"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i20~21",
+      "lower": "i20",
+      "properties": [],
+      "upper": "21"
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 90,
+    "name": "Heel Mash",
+    "input": "SS.4",
+    "hitLevels": [
+      "M"
+    ],
+    "damage": [
+      23
+    ],
+    "framesOnBlock": {
+      "_raw": "+4c",
+      "lower": "+4",
+      "properties": [
+        "c"
+      ]
+    },
+    "framesOnHit": {
+      "_raw": "+8c",
+      "lower": "+8",
+      "properties": [
+        "c"
+      ]
+    },
+    "framesOnCounter": {
+      "_raw": "+25d",
+      "lower": "+25",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i21~23",
+      "lower": "i21",
+      "properties": [],
+      "upper": "23"
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 117,
+    "name": "Machree Fascinator",
+    "input": "TOM.1",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      30
+    ],
+    "framesOnBlock": {
+      "_raw": "+4~+53",
+      "lower": "+4",
+      "properties": [],
+      "upper": "+53"
+    },
+    "framesOnHit": {
+      "_raw": "+20a (-6)",
+      "lower": "+20",
+      "properties": [
+        "a"
+      ],
+      "tech": "-6"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i8~18",
+      "lower": "i8",
+      "properties": [],
+      "upper": "18"
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 118,
+    "name": "Machree Penetrator",
+    "input": "TOM.2",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      30
+    ],
+    "framesOnBlock": {
+      "_raw": "-1~+98",
+      "lower": "-1",
+      "properties": [],
+      "upper": "+98"
+    },
+    "framesOnHit": {
+      "_raw": "+20a (-6)",
+      "lower": "+20",
+      "properties": [
+        "a"
+      ],
+      "tech": "-6"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "8~107",
+      "lower": "",
+      "properties": [],
+      "upper": "107"
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 119,
+    "name": "Chaos Judgement",
+    "input": "TOM.3",
+    "hitLevels": [],
+    "damage": [],
+    "framesOnBlock": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 120,
+    "name": "Banquet Crasher",
+    "input": "TOM.4",
+    "hitLevels": [
+      "L"
+    ],
+    "damage": [
+      21
+    ],
+    "framesOnBlock": {
+      "_raw": "-13",
+      "lower": "-13",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+28d",
+      "lower": "+28",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i15",
+      "lower": "i15",
+      "properties": []
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 63,
+    "name": "Bloody Scissors",
+    "input": "ub+1+2",
+    "hitLevels": [
+      "m!"
+    ],
+    "damage": [
+      50
+    ],
+    "framesOnBlock": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+46a (+15)",
+      "lower": "+46",
+      "properties": [
+        "a"
+      ],
+      "tech": "+15"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i60",
+      "lower": "i60",
+      "properties": []
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "input": "uf+1",
+    "hitLevels": [
+      "h"
+    ],
+    "damage": [
+      6
+    ],
+    "framesOnBlock": {
+      "_raw": "-4",
+      "lower": "-4",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "7",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i13",
+      "lower": "i13",
+      "properties": []
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 136,
+    "name": "&lt;div class=&quot;dotlist&quot;&gt;\n\n* Overhead Toss\n* Jumping Flip\n&lt;/div&gt;",
+    "input": "uf+1+2",
+    "hitLevels": [
+      "t"
+    ],
+    "damage": [
+      30,
+      10
+    ],
+    "framesOnBlock": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+29d (-32)",
+      "lower": "+29",
+      "properties": [
+        "d"
+      ],
+      "tech": "-32"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i12",
+      "lower": "i12",
+      "properties": []
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "name": "Fatal Attack Combo",
+    "input": "uf+1,3",
+    "hitLevels": [
+      "h",
+      "m"
+    ],
+    "damage": [
+      6,
+      17
+    ],
+    "framesOnBlock": {
+      "_raw": "-16",
+      "lower": "-16",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "7",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "+51a",
+      "lower": "+51",
+      "properties": [
+        "a"
+      ]
+    },
+    "framesOnStartup": {
+      "_raw": "i13",
+      "lower": "i13",
+      "properties": []
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "name": "Hail Storm",
+    "input": "uf+1,3,3+4",
+    "hitLevels": [
+      "h",
+      "m",
+      "m",
+      "m"
+    ],
+    "damage": [
+      6,
+      17,
+      6,
+      10
+    ],
+    "framesOnBlock": {
+      "_raw": "-4",
+      "lower": "-4",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+78a (+62)",
+      "lower": "+78",
+      "properties": [
+        "a"
+      ],
+      "tech": "+62"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i13",
+      "lower": "i13",
+      "properties": []
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 65,
+    "name": "Bane Stinger",
+    "input": "uf+2",
+    "hitLevels": [
+      "M"
+    ],
+    "damage": [
+      18
+    ],
+    "framesOnBlock": {
+      "_raw": "-8",
+      "lower": "-8",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+12s",
+      "lower": "+12",
+      "properties": [
+        "s"
+      ]
+    },
+    "framesOnCounter": {
+      "_raw": "+72a (+56)",
+      "lower": "+72",
+      "properties": [
+        "a"
+      ],
+      "tech": "+56"
+    },
+    "framesOnStartup": {
+      "_raw": "i20~21",
+      "lower": "i20",
+      "properties": [],
+      "upper": "21"
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 66,
+    "name": "Sudden Storm",
+    "input": "uf+3",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      22
+    ],
+    "framesOnBlock": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+27d",
+      "lower": "+27",
+      "properties": [
+        "d"
+      ]
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i23~24",
+      "lower": "i23",
+      "properties": [],
+      "upper": "24"
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 68,
+    "name": "Dominatrix Heel",
+    "input": "uf+3+4",
+    "hitLevels": [
+      "M",
+      "M"
+    ],
+    "damage": [
+      4,
+      18
+    ],
+    "framesOnBlock": {
+      "_raw": "-3c",
+      "lower": "-3",
+      "properties": [
+        "c"
+      ]
+    },
+    "framesOnHit": {
+      "_raw": "+5c",
+      "lower": "+5",
+      "properties": [
+        "c"
+      ]
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i25~28",
+      "lower": "i25",
+      "properties": [],
+      "upper": "28"
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 13,
+    "name": "Sudden Fascinator",
+    "input": "uf+3,H.1",
+    "hitLevels": [
+      "m",
+      "h"
+    ],
+    "damage": [
+      22,
+      20
+    ],
+    "framesOnBlock": {
+      "_raw": "+4g~+53g",
+      "lower": "+4",
+      "properties": [
+        "g",
+        "g"
+      ],
+      "upper": "+53"
+    },
+    "framesOnHit": {
+      "_raw": "+20a (-6)",
+      "lower": "+20",
+      "properties": [
+        "a"
+      ],
+      "tech": "-6"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i23~24",
+      "lower": "i23",
+      "properties": [],
+      "upper": "24"
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 14,
+    "name": "Sudden Penetrator",
+    "input": "uf+3,H.2",
+    "hitLevels": [
+      "m",
+      "h"
+    ],
+    "damage": [
+      22,
+      30
+    ],
+    "framesOnBlock": {
+      "_raw": "-1~+98g",
+      "lower": "-1",
+      "properties": [
+        "g"
+      ],
+      "upper": "+98"
+    },
+    "framesOnHit": {
+      "_raw": "+20a (-6)",
+      "lower": "+20",
+      "properties": [
+        "a"
+      ],
+      "tech": "-6"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i23~24",
+      "lower": "i23",
+      "properties": [],
+      "upper": "24"
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 67,
+    "name": "Quick Somersault Kick",
+    "input": "uf+4",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      24
+    ],
+    "framesOnBlock": {
+      "_raw": "-18",
+      "lower": "-18",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+27a (+17)",
+      "lower": "+27",
+      "properties": [
+        "a"
+      ],
+      "tech": "+17"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i18~20",
+      "lower": "i18",
+      "properties": [],
+      "upper": "20"
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "input": "ws1",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      10
+    ],
+    "framesOnBlock": {
+      "_raw": "-8",
+      "lower": "-8",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "5",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i13~14",
+      "lower": "i13",
+      "properties": [],
+      "upper": "14"
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 86,
+    "name": "Right Hand Slap",
+    "input": "ws1+2",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      25
+    ],
+    "framesOnBlock": {
+      "_raw": "-14",
+      "lower": "-14",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+14a",
+      "lower": "+14",
+      "properties": [
+        "a"
+      ]
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i20~21",
+      "lower": "i20",
+      "properties": [],
+      "upper": "21"
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 82,
+    "name": "Ocelot Frenzy",
+    "input": "ws1,2",
+    "hitLevels": [
+      "m",
+      "M"
+    ],
+    "damage": [
+      10,
+      17
+    ],
+    "framesOnBlock": {
+      "_raw": "-13",
+      "lower": "-13",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+9s",
+      "lower": "+9",
+      "properties": [
+        "s"
+      ]
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i13~14",
+      "lower": "i13",
+      "properties": [],
+      "upper": "14"
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 83,
+    "name": "Rising Palm",
+    "input": "ws2",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      16
+    ],
+    "framesOnBlock": {
+      "_raw": "-13",
+      "lower": "-13",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "+27a (+17)",
+      "lower": "+27",
+      "properties": [
+        "a"
+      ],
+      "tech": "+17"
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i16~17",
+      "lower": "i16",
+      "properties": [],
+      "upper": "17"
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 84,
+    "name": "Face Wash",
+    "input": "ws3",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      20
+    ],
+    "framesOnBlock": {
+      "_raw": "-3",
+      "lower": "-3",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "8",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "12",
+      "lower": "12",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i11~12",
+      "lower": "i11",
+      "properties": [],
+      "upper": "12"
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  },
+  {
+    "index": 85,
+    "name": "Toe Smash",
+    "input": "ws4",
+    "hitLevels": [
+      "m"
+    ],
+    "damage": [
+      16
+    ],
+    "framesOnBlock": {
+      "_raw": "-6",
+      "lower": "-6",
+      "properties": []
+    },
+    "framesOnHit": {
+      "_raw": "5",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnCounter": {
+      "_raw": "",
+      "lower": "",
+      "properties": []
+    },
+    "framesOnStartup": {
+      "_raw": "i11~12",
+      "lower": "i11",
+      "properties": [],
+      "upper": "12"
+    },
+    "state": {
+      "_raw": ""
+    },
+    "notes": [],
+    "specials": []
+  }
+]

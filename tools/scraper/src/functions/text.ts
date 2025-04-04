@@ -1,63 +1,50 @@
-import { ScrapedNotes, ScrapedState } from '@tekken-space/types'
+import { ScrapedState } from '@tekken-space/types'
 
 import {
     COMBINATOR_DAMAGE,
     COMBINATOR_DAMAGE_INVALID,
     COMBINATOR_HIT_LEVELS,
     REGEX_DAMAGE,
-    REGEX_STATES,
-    selectors,
 } from '../constants'
 
 export const stripSpaces = (_raw: string) => {
     return _raw.replace(/[\s\u200B]/g, '')
 }
 
-export const scrapeNotes = ($root: Element): ScrapedNotes => {
-    const result: ScrapedNotes = {
-        notes: [],
-        specials: [],
+export const harmonizeIndex = (maybeIndex: unknown): number | undefined => {
+    if (!maybeIndex) {
+        return undefined
     }
 
-    const $notesRoot = $root.querySelector(selectors.NOTES)
-    if (!$notesRoot) {
-        return result
-    }
-
-    const $specials = $notesRoot.querySelectorAll(selectors.NOTES_SPECIAL)
-    $specials.forEach(($special) => {
-        const special = $special.textContent?.trim()
-        if (!special) {
-            return
-        }
-
-        result.specials.push(special)
-    })
-
-    const $notes = $notesRoot.querySelectorAll('li')
-    $notes.forEach(($note) => {
-        if ($note.classList.length > 0) {
-            return
-        }
-
-        const note = $note.textContent?.trim()
-        if (!note) {
-            return
-        }
-
-        result.notes.push(note)
-    })
-
-    return result
+    return parseInt(maybeIndex.toString() ?? '', 10)
 }
 
-export const scrapeDamage = ($root: Element): number[] => {
-    const raw = $root.querySelector(selectors.DAMAGE)?.textContent
-    if (!raw) {
+export const harmonizeName = (maybeName: unknown): string | undefined => {
+    return maybeName?.toString()
+}
+
+export const harmonizeNotation = (maybeNotation: unknown): string => {
+    return stripSpaces(maybeNotation?.toString() ?? '')
+}
+
+export const harmonizeHitLevels = (maybeHitLevels: unknown) => {
+    if (!maybeHitLevels) {
         return []
     }
 
-    const normalized = raw
+    return maybeHitLevels
+        .toString()
+        .split(COMBINATOR_HIT_LEVELS)
+        .map(stripSpaces)
+}
+
+export const harmonizeDamage = (maybeDamage: unknown): number[] => {
+    if (!maybeDamage) {
+        return []
+    }
+
+    const normalized = maybeDamage
+        .toString()
         .replace(REGEX_DAMAGE, '')
         .replace(COMBINATOR_DAMAGE_INVALID, COMBINATOR_DAMAGE)
 
@@ -66,41 +53,8 @@ export const scrapeDamage = ($root: Element): number[] => {
     })
 }
 
-export const scrapeHitLevels = ($root: Element) => {
-    const raw = $root.querySelector(selectors.HIT_LEVELS)?.textContent
-    if (!raw) {
-        return []
-    }
-
-    return raw.split(COMBINATOR_HIT_LEVELS).map(stripSpaces)
-}
-
-export const scrapeState = ($root: Element): ScrapedState => {
-    const result: ScrapedState = {
+export const harmonizeState = (): ScrapedState => {
+    return {
         _raw: '',
     }
-
-    const raw = $root.querySelector(selectors.STATES)?.textContent
-    if (!raw) {
-        return result
-    }
-
-    const match = stripSpaces(raw).match(REGEX_STATES)
-    if (match?.groups) {
-        // result._raw = raw
-        // result.key = match.groups.state
-        // result.frame = match.groups.frame
-    }
-
-    return result
-}
-
-export const scrapeName = ($root: Element): string | undefined => {
-    return $root.querySelector(selectors.NAME)?.textContent ?? undefined
-}
-
-export const scrapeNotation = ($root: Element): string => {
-    const notation = $root.querySelector(selectors.INPUT)?.textContent ?? ''
-
-    return stripSpaces(notation)
 }

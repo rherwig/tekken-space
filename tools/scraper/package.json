@@ -10,7 +10,7 @@
     "scripts": {
         "lint": "eslint .",
         "lint:fix": "eslint . --fix",
-        "start": "tsx ./src/main.ts",
+        "start": "tsx src/main.ts",
         "test": "node --test --experimental-strip-types --import tsx"
     },
     "devDependencies": {

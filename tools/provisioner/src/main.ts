@@ -5,8 +5,8 @@ import { provisionCharactersMeta } from './characters-meta'
 
 const shouldProvision = {
     characters: false,
-    meta: true,
-    moves: false,
+    meta: false,
+    moves: true,
 }
 
 async function provision(

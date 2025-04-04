@@ -20,7 +20,7 @@ export async function findByCharacterId(characterId: string): Promise<Move[]> {
         .where(
             and(eq(moves.characterId, characterId), eq(moves.isCombo, false)),
         )
-        .orderBy(moves.index)
+        .orderBy(moves.notation)
 
     return result as Move[]
 }

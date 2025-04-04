@@ -20,13 +20,7 @@ export default ts.config(
             perfectionist,
         },
         rules: {
-            'perfectionist/sort-objects': [
-                'error',
-                {
-                    order: 'asc',
-                    type: 'natural',
-                },
-            ],
+            'perfectionist/sort-objects': 'off',
         },
     },
     {

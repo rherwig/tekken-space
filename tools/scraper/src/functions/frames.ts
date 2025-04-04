@@ -50,12 +50,10 @@ export const parseFrameDataString = (_raw: string) => {
     return frames
 }
 
-export const scrapeFrameData = (
-    $root: Element,
-    selector: string,
+export const harmonizeFrameData = (
+    maybeFrameData: unknown,
 ): ScrapedFrameData => {
-    const frameDataString = $root.querySelector(selector)?.textContent
-    if (!frameDataString) {
+    if (!maybeFrameData) {
         return {
             _raw: '',
             lower: '',
@@ -63,5 +61,5 @@ export const scrapeFrameData = (
         }
     }
 
-    return parseFrameDataString(frameDataString)
+    return parseFrameDataString(maybeFrameData.toString())
 }
